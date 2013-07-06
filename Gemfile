@@ -1,3 +1,3 @@
 source 'https://rubygems.org'
 
-gem 'alamano', github: 'greenruby/alamano'
+gem 'alamano', path: '../alamano'

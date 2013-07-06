@@ -1,0 +1,24 @@
+PATH
+  remote: ../alamano
+  specs:
+    alamano (0.0.1)
+      haml
+      json
+      rake
+      rdiscount
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    haml (4.0.3)
+      tilt
+    json (1.8.0)
+    rake (10.1.0)
+    rdiscount (2.1.6)
+    tilt (1.4.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  alamano!
