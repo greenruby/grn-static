@@ -1,0 +1,214 @@
+-------------------------------
+Green Ruby News #018 - jun 9th 2013
+-------------------------------
+
+Edito
+-----------------
+This week I'm going to totally change the order of the sections, following some feedbacks I had about the interests of our readers.
+
+mose - the green ruby editor
+xenor - the informer
+http://greenruby.org
+
+
+Use
+-----------------
+Web applications and tools, available for making our life easier.
+
+* Json Generator
+  js - 
+  http://www.json-generator.com/
+  A page to generate json sample file, acording to a template.
+
+* Typeform
+  tool - 
+  https://www.typeform.com/
+  An online form builder, currently in beta.
+
+* WelcomeMat
+  tool - 
+  http://welcomemat.co/
+  Copy & Paste ASCII Art Welcome Mats for your HTML.
+
+* Mruby web IRB
+  rb - 
+  http://joshnuss.github.io/mruby-web-irb/
+  This runs ruby in any browser, using webruby, mruby, asm.
+
+* Octokit
+  rb - 
+  http://octokit.github.io/
+  Client libs for accessing the github API, in ruby and obj-C.
+
+
+Install
+-----------------
+A selection of gems or applications updated during past week.
+
+* Chartkick
+  rb - 
+  http://ankane.github.io/chartkick/
+  Simple javascript charts made easy for ruby (also exists in pure js).
+
+* Wiselinks
+  rb - 
+  http://igor-alexandrov.github.io/blog/2013/06/02/wiselinks-0-dot-6-release/
+  An alternative to the rails 4 Turbolinks, with more features.
+
+* Data.io
+  js - 
+  https://github.com/scttnlsn/data.io
+  Bidirectional data syncing via Socket.IO.
+
+* React
+  js - 
+  http://facebook.github.io/react/
+  JS library for building user interfaces, published by Facebook.
+
+
+Read
+-----------------
+From the blogosphere or news feeds ...
+
+* Mobile App vs. Responsive Design?
+  mobile - may 29
+  http://www.tablexi.com/blog/2013/05/mobile-app-vs-responsive-design-ask-these-10-questions-first/mobile/
+  The 10 question to ask to chose native or web mobile app.
+
+* One week with Elixir
+  rb - may 31
+  http://joearms.github.io/2013/05/31/a-week-with-elixir.html
+  The log book from someone that discovers Elixir (erlang guts below, ruby taste above).
+
+* On Ruby modules and concerns
+  rb - jun 1
+  http://marianposaceanu.com/articles/on-ruby-modules-and-concerns
+  About the use of concerns to extend ruby classes.
+
+* Hash lookup in Ruby, why is it so fast?
+  rb - jun 4
+  https://blog.engineyard.com/2013/hash-lookup-in-ruby-why-is-it-so-fast
+  The logic behind key-value pair management in ruby.
+
+* Progressive JPEGs FTW!
+  web - jun 4
+  http://blog.patrickmeenan.com/2013/06/progressive-jpegs-ftw.html
+  An easy improvement of user experience by just making jpeg progressive.
+
+* CSS-only: Load images on demand
+  css3 - jun 5
+  http://podlipensky.com/2013/06/css-only-load-images-on-demand/
+  The details of image loading using only CSS.
+
+* Network Architecture Based on Gaming
+  web - jun 6
+  http://rubysource.com/improving-perceived-performance-based-on-gaming/
+  Think about web app architecture like if they were using gaming kind of networking.
+
+* Getting started with RVM
+  rb - jun 7
+  http://ruby.elevatedintel.com/blog/getting-started-with-rvm-features-to-use-and-pitfalls-to-avoid/
+  An update of the current way to use RVM.
+
+* Taming Your Cluster with ZooKeeper
+  rb - jun 8
+  http://spin.atomicobject.com/2013/06/08/apache-zookeeper/
+  Small presentation of basic Zookeper features.
+
+
+Watch
+-----------------
+Screencasts and conferences videos, or other video feeds ...
+
+* Crafting Gems by Pat Allen
+  rb - jun 3 - 37m
+  http://www.youtube.com/watch?v=Mmm1cVvPEYU
+  A talk from Railsconf about creating Gems.
+
+* Ruby Tapas freebie
+  rb - jun 5 - 1h50
+  http://devblog.avdi.org/2013/06/05/rubytapas-freebie-runnable-library/
+  A quick trick to make a runnable library in ruby.
+
+* Inside RubyMotion
+  rb - jun 5 - 38m
+  http://vimeo.com/67731482
+  Presentation at RubyKaigi of RubyMotion by Laurent Sansonetti (starts in japanese but switches to english).
+
+
+Listen
+-----------------
+What could be heard last week ..
+
+* Git Minutes #11
+  tool - jun 3 - 50m
+  http://episodes.gitminutes.com/2013/06/gitminutes-11-git-merge-2013-part-3.html
+  Recording in the Git Merge part 3. Git in spain, git migration, git submodules, JGit.
+
+* Giant robots 51
+  rb - jun 3 - 33m
+  http://learn.thoughtbot.com/podcast/51
+  Ben discusses with Sandi Metz, our new ruby hero, about writing, coding and everything.
+
+* Ruby5 375
+  rb - jun 4 - 5m
+  http://ruby5.envylabs.com/episodes/379-episode-375-june-4th-2013
+  wiselinks, code smells, step by step rails, wrapping a C lib, rack-showme.
+
+* RubyRogues 108
+  rb - jun 5 - 57m
+  http://rubyrogues.com/108-rr-ruby-trends/
+  Discussion about the current trends in ruby and around. diversity, polyglotism, js, nosql, functionnal, etc.
+
+* The Changelog 92
+  rb - jun 7 - 1h
+  http://5by5.tv/changelog/92
+  Sidekiq, Ruby, and more with Mike Perham, another ruby hero of this year.
+
+* Ruby5 376
+  rb - jun 7 - 5m
+  http://ruby5.envylabs.com/episodes/412-episode-376-june-7th-2013
+  octokit, european payment gateway, dbsync, pluck, ember-auth, the protector.
+
+* Javascript Jabber 062
+  js - jun 7 - 1h
+  http://javascriptjabber.com/062-jsj-dojo-with-dylan-schiemann/
+  Dojo with Dylan Schiemann. What dojo is, and what version 2 will go for.
+
+* NodeUp 46
+  js - jun 8 - 1h20
+  http://nodeup.com/fortysix
+  Javascript Promises, also known as Future, with @domenic, @rouxbot and @andywingo.
+
+
+In french
+-----------------
+We sometimes relay non-english content, given that our subscribers are in majority non english natives
+
+* Make hypermedia APIs in Ruby
+  rb - jun 6 - 25m
+  http://vimeo.com/67791339
+  Une session á paris.rb par Nicolas Mérouze, a propos d'Hateos (self-discovered apis).
+
+
+
+=====================
+
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+*|TWITTER:PROFILEURL|*
+follow on Twitter
+
+*|FORWARD|*
+forward to a friend
+
+*|LIST:SUBSCRIBE|*
+Subscribe
+
+Copyright (c) *|CURRENT_YEAR|* Mose Ltd &amp; Code Green IT
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a Creative Commons Attribution-ShareAlike 3.0 License
+

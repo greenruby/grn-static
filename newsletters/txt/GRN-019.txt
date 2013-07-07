@@ -1,0 +1,254 @@
+-------------------------------
+Green Ruby News #019 - jun 16th 2013
+-------------------------------
+
+Edito
+-----------------
+There is so much noise about iOs7, it's hard to avoid referring to it a bit. But hopefully there is other news, like the new <a href="http://www.ruby-lang.org/en/news/2013/06/12/new-ruby-lang-org-released/">Ruby-lang</a> website, now collaborative via github.
+
+mose - the green ruby editor
+xenor - the informer
+http://greenruby.org
+
+
+Use
+-----------------
+Web applications and tools, available for making our life easier.
+
+* Google Trends
+  tool - 
+  http://www.google.com/trends/hottrends/visualize?nrow=5&ncol=5
+  Realtime animated display of search keywords on google.
+
+* Atomic design
+  html5 - 
+  http://bradfrostweb.com/blog/post/atomic-web-design/
+  A component approach to web design.
+
+* Space invader 404
+  web - 
+  http://www.masswerk.at/404
+  Just put some vintage game on your 404 page.
+
+* Loon
+  tool - 
+  http://www.google.com/loon/
+  The google project involving internet access by the way of balloons.
+
+* Unicode table
+  tool - 
+  http://unicode-table.com/en/
+  The table of unicode characters.
+
+* DPI love
+  tool - 
+  http://dpi.lv/
+  A table to calculate the ppi/dpi conversion for all screen sizes.
+
+* Creative Button Styles
+  css3 - 
+  http://tympanus.net/Development/CreativeButtons/
+  A list of button effects in the flat kind of flavor.
+
+* Easel.ly
+  tool - 
+  https://www.easel.ly
+  A creative design builder online in beta stage.
+
+* Easel.io
+  tool - 
+  https://www.easel.io
+  Another online page builder that is not to be confused with the previous one.
+
+
+Install
+-----------------
+A selection of gems or applications updated during past week.
+
+* Rails 4.0.0-rc2
+  rb - 
+  http://weblog.rubyonrails.org/2013/6/11/Rails-4-0-release-candidate-2/
+  Another step towards a final version next weekend (if this rc is good enough).
+
+* Ruboto
+  rb - 
+  http://ruboto.org/2013/06/09/Ruboto-0.13.0-release-doc.html
+  Version 0.13.0 of this ruby mobile environment for android.
+
+* Can I Use this widget
+  html5 - 
+  http://andismith.github.io/caniuse-widget/
+  Mostly for technical writers, this widget enables displaying information from caniuse.com.
+
+* Github notifier
+  tool - 
+  https://github.com/sindresorhus/GitHub-Notifier
+  Browser extension that displays your GitHub notifications unread count.
+
+* Conditioner
+  js - 
+  http://conditionerjs.com/
+  A javascript library for loading and unloading behavior based on environment conditions.
+
+* DevTools Snippets
+  tool - 
+  http://bgrins.github.io/devtools-snippets/
+  Dev snippets for chrome and firefox.
+
+* Gist-dep
+  tool - 
+  https://github.com/eric1234/gist-dep
+  A tool to make it easy to share snippets of code between projects and developers.
+
+* Fontawesome
+  css3 - 
+  http://fontawesome.io/
+  This icon-font ships version 3.2.0 with 50 more icons.
+
+
+Read
+-----------------
+From the blogosphere or news feeds ...
+
+* Using WebP with Modernizr
+  js - jun 5
+  http://www.stucox.com/blog/using-webp-with-modernizr/
+  A use case of very good use of Modernizr js lib for delivering lighter images.
+
+* Irregular shape rollovers with Canvas and PNG
+  tool - jun 10
+  http://christianheilmann.com/2013/06/10/irregular-shape-rollovers-with-canvas-and-png/
+  The upgrade in twitter api was announced a while ago and is now effective.
+
+* Twitter API v1 Retirement is Complete
+  tool - jun 11
+  https://dev.twitter.com/blog/api-v1-is-retired
+  The upgrade in twitter api was announced a while ago and is now effective.
+
+* iOS 7 And The Transition To Flat
+  css3 - jun 11
+  http://blog.mengto.com/ios-7-transition-flat/
+  A moderate analysis of the new iOS design, that disappointed so many.
+
+* Yes, you really can make complex webapps responsive
+  css3 - jun 12
+  http://adioso.com/blog/2013/06/responsifying-adioso/
+  A showcase of using zurb foundation for responsive design css.
+
+* Nobody understands the GIL (1)
+  rb - jun 12
+  http://www.jstorimer.com/blogs/workingwithcode/8085491-nobody-understands-the-gil
+  Part 1 of a deep exploration of ruby Global Interpreter Lock.
+
+* Interviewing Rogues – James Edward Gray II
+  rb - jun 13
+  rubysource.com/interviewing-rogues-james-edward-gray-ii/
+  In the serie of interviews of the Rogues, now it's JEG2 turn.
+
+* Nobody understands the GIL (2)
+  rb - jun 14
+  http://www.jstorimer.com/blogs/workingwithcode/8100871-nobody-understands-the-gil-part-2-implementation
+  Part 2 about the GIL, implementation details.
+
+* Making Infield Form Labels Suck Less
+  css3 - jun 14
+  http://viget.com/inspire/making-infield-form-labels-suck-less
+  An alternative for labeling in html forms.
+
+* Seamlessly Navigate Vim and tmux Splits
+  tool - jun 15
+  http://robots.thoughtbot.com/post/53022241323/seamlessly-navigate-vim-and-tmux-splits
+  Those tips are going in the current trend about remote pair-programming.
+
+
+Watch
+-----------------
+Screencasts and conferences videos, or other video feeds ...
+
+* Wait, Chrome DevTools can do THAT?
+  tool - jun 7 - 45m
+  https://www.youtube.com/watch?v=S9sktFzL3tQ
+  Plenty of tricks about chrome devtools.
+
+* RubyKaigi videos
+  rb - jun 10
+  https://gist.github.com/yhara/5705717
+  A list of all talks from rubykeigi with links to videos and slides.
+
+* Ember.js Tutorial With Rails 4
+  rb - jun 11 - 42m
+  http://www.railsonmaui.com/blog/2013/06/11/emberjs-rails4-tutorial/
+  This post covers setting up Rails4 as the persistence engine.
+
+* webpagetest.org : Waterfall Antipatterns
+  tool - jun 13 - 50m
+  https://developers.google.com/live/shows/779042419
+  Review of major features of webpagetest.org and focus on the waterfall graph.
+
+* Content Security Policy 
+  html5 - jun 14 - 33m
+  https://www.youtube.com/watch?v=pocsv39pNXA
+  A new feature in browsers for addressing the XSS problem.
+
+
+Listen
+-----------------
+What could be heard last week ..
+
+* Git Minutes #12
+  tool - jun 10 - 51m
+  http://episodes.gitminutes.com/2013/06/gitminutes-12-git-merge-2013-part-4.html
+  The last episode of this git podcast for now, still at gitmerge conf.
+
+* Giant robots 52
+  rb - jun 10 - 1h
+  http://learn.thoughtbot.com/podcast/52
+  Ben discusses with Tenderlove and Joe Ferris. Pretty lively.
+
+* Ruby5 377
+  rb - jun 11 - 5m
+  http://ruby5.envylabs.com/episodes/413-episode-377-june-11th-2013
+  rubygems paranoia, scopes, rubberband flamethrower, stripe, git pairing.
+
+* RubyRogues 109
+  rb - jun 12 - 57m
+  http://rubyrogues.com/109-rr-extreme-programming-with-will-read/
+  Extreme programming with Will Read, and its differences with Scrum.
+
+* The Changelog 93
+  css3 - jun 12 - 1h15
+  http://5by5.tv/changelog/93
+  Sass, Bourbon and Product Design with Phil LaPier.
+
+* Ruby5 378
+  rb - jun 14 - 5m
+  http://ruby5.envylabs.com/episodes/414-episode-378-june-14th-2013
+  ror4 rc2, the gil, fontawesome, string inquirer, dist-dep, rubynation.
+
+* Javascript Jabber 062
+  js - jun 14 - 48m
+  http://javascriptjabber.com/063-jsj-burnout/
+  Group therapy for depressing geeks in a podcast. Nothing about js.
+
+
+
+=====================
+
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+*|TWITTER:PROFILEURL|*
+follow on Twitter
+
+*|FORWARD|*
+forward to a friend
+
+*|LIST:SUBSCRIBE|*
+Subscribe
+
+Copyright (c) *|CURRENT_YEAR|* Mose Ltd &amp; Code Green IT
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a Creative Commons Attribution-ShareAlike 3.0 License
+

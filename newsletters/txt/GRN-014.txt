@@ -1,0 +1,214 @@
+-------------------------------
+Green Ruby News #014 - may 12th 2013
+-------------------------------
+
+Edito
+-----------------
+Here are some news from the front. I'm still working on the Green Ruby website, but in the same move I'm improving the layout of the letter. This week we get icons per category of content.
+
+mose - the green ruby editor
+xenor - the informer
+http://greenruby.org
+
+
+Listen
+-----------------
+What could be heard last week ..
+
+* RubyRogues 104
+  rb - may 4 - 1h
+  http://rubyrogues.com/104-rr-the-rails-view-with-john-athayde-and-bruce-williams/
+  Rails Views, or all the things that make the page on web apps.
+
+* Git Minutes #07
+  tool - may 6 - 1h23
+  http://episodes.gitminutes.com/2013/05/gitminutes-07-martin-geisler-on.html
+  with Martin Geisler about Mercurial (compared to Git).
+
+* Ruby5 367
+  rb - may 7 - 6m
+  http://ruby5.envylabs.com/episodes/370-episode-366-may-3rd-2013
+  railsconf, rails4, adequack, STI, passenger, mail-logger, Jekyll.
+
+* The Changelog 0.8.7
+  tool - may 9 - 1h18
+  http://thechangelog.com/087/
+  with Chat Whitacre, founder of Gittip.
+
+* Ruby5 368
+  rb - may 10 - 6m
+  http://ruby5.envylabs.com/episodes/370-episode-366-may-3rd-2013
+  rubymotion 2.0, sidekiq pro, double-column method call, method dispatch, reform.
+
+* Javascript Jabber 058
+  js - may 10 - 43m
+  http://javascriptjabber.com/058-jsj-building-accessible-websites-with-brian-hogan/
+  Building accessible websites. Not really JS, more about HTML this time.
+
+
+Watch
+-----------------
+Screencasts and conferences videos, or other video feeds ...
+
+* Upgrading to Rails4
+  rb - may 6 - 12m
+  http://railscasts.com/episodes/415-upgrading-to-rails-4
+  Railscast about details that need to be considered when upgrading to rails4.
+
+* Meteor after one year
+  js - may 6 - 35m
+  http://marakana.com/s/post/1456/radically_faster_web_development--meteor_after_one_year_video
+  Overview and history of the Meteor.js framework.
+
+* Haskell touched me there
+  tool - may 6 - 10m
+  http://www.youtube.com/watch?v=VqHDh2It2cs
+  A quick presentation of Haskell.
+
+* Ruby conf 2013
+  rb - may 7
+  http://www.justin.tv/confreaks/videos
+  preview of confreaks videos on justin.tv
+
+* Testing Firefox OS
+  web - may 7 - 35m
+  http://marakana.com/s/post/1458/testing_mozilla_firefox_os_john_hammink_video
+  Presentation of the Firefox OS by teh Firefox QA
+
+* FlossWeekly with SauceLabs
+  tool - may 8 - 56m
+  http://sauceio.com/index.php/2013/05/steve-hazel-on-floss-weekly/
+  Interview of Steve Hazel that tells the story behind auce Labs.
+
+
+Read
+-----------------
+From the blogosphere or news feeds ...
+
+* Preview Your Rails Mail with Letter Opener
+  rb - may 6
+  http://rubysource.com/preview-your-rails-mail-with-letter-opener/
+  Tutorial on the use of Letter-opener gem
+
+* Genesis of Green Ruby
+  rb - may 7
+  http://blog.mose.com/post/49804662135/about-green-ruby
+  A quick explanation on how Green Ruby was created and why.
+
+* 10 years of CSS zen garden
+  css3 - may 7
+  http://mezzoblue.com/archives/2013/05/07/10_years/
+  For its 10th anniversary, the zen garden opens on github.
+
+* Avoiding Unnecessary Paints
+  html5 - may 8
+  http://www.html5rocks.com/en/tutorials/speed/unnecessary-paints/
+  Performance tips for writing faster web pages.
+
+* Context Validations
+  rb - may 9
+  http://reefpoints.dockyard.com/ruby/2013/05/09/context-validations.html
+  Details about a gem called Context Validations
+
+* How Ruby method dispatch works
+  rb - may 9
+  http://blog.jcoglan.com/2013/05/08/how-ruby-method-dispatch-works/
+  Details about internal management of methods in ruby
+
+* Authentication: Not necessarily a social activity
+  tool - may 9
+  https://blog.engineyard.com/2013/authentication-social
+  Despite the doubtful title, this is about using social accounts for auth.
+
+* Devise and Rails 4
+  rb - may 10
+  http://blog.plataformatec.com.br/2013/05/devise-and-rails-4/
+  Review of some plataformatec gems and their recent releases for rails 4 compatibility.
+
+* Dynamic Binding in Ember.js Using Observers
+  js - may 12
+  http://spin.atomicobject.com/2013/05/12/dynamic-ember-js-binding-observers/
+  An way to play with forms with ember.js
+
+* Collective #63
+  design - may 12
+  http://tympanus.net/codrops/collective/collective-63/
+  Various pointers to good (or weird, like fartscroll.js) designers resources.
+
+
+Install
+-----------------
+A selection of gems or applications updated during past week.
+
+* Passenger 4.0.2
+  rb - 
+  http://blog.phusion.nl/2013/05/07/phusion-passenger-4-0-2-released/
+  Quickly after 4.0.1 last week this one fixes a security issue. But the main news is the shipping of stable version 4.
+
+* P
+  js - 
+  http://ozan.io/p/
+  Peer-to-peer networking with browsers using node, webRTC, websockets.
+
+* Snorby
+  rb - 
+  https://snorby.org/
+  Ruby on Rails application for network security monitoring.
+
+* Towtruck
+  tool - 
+  http://towtruck.mozillalabs.com/
+  A firefox tool for sharing the browser remotely.
+
+* Jekyll
+  rb - 
+  http://jekyllrb.com/
+  Version 1.0 stable just has been released, with a new website and detailled documentation for this excellent static site generator.
+
+* Mestral
+  tool - 
+  https://github.com/mestral/mestral
+  A tool for managing git hooks.
+
+* Animatable
+  css3 - 
+  http://leaverou.github.io/animatable/
+  A collection of transitions effects in css.
+
+* Barkeep
+  tool - 
+  http://getbarkeep.org/
+  Code review tool based on git.
+
+
+Use
+-----------------
+It's hard to pass it, there are so many Saas out there. This week again, some more API-focused services.
+
+* Sauce Labs
+  tool - 
+  https://saucelabs.com/
+  Automated remote browser testing with selenium. Free for Open Source projects.
+
+
+
+=====================
+
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+*|TWITTER:PROFILEURL|*
+follow on Twitter
+
+*|FORWARD|*
+forward to a friend
+
+*|LIST:SUBSCRIBE|*
+Subscribe
+
+Copyright (c) *|CURRENT_YEAR|* Mose Ltd &amp; Code Green IT
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a Creative Commons Attribution-ShareAlike 3.0 License
+

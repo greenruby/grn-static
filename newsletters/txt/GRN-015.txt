@@ -1,0 +1,234 @@
+-------------------------------
+Green Ruby News #015 - may 19th 2013
+-------------------------------
+
+Edito
+-----------------
+Last letter was a bit wrong, too heavy. So I'm refining and simplifying the design a bit, and the 'join' section now will move to the website. Maybe if there is any request I could setup a different mailing for it.
+
+mose - the green ruby editor
+xenor - the informer
+http://greenruby.org
+
+
+Listen
+-----------------
+What could be heard last week ..
+
+* Ruby5 369
+  rb - may 10 - 6m
+  http://ruby5.envylabs.com/episodes/373-episode-369-may-14th-2013
+  json, joybox, context validations, form objects, kidscode, plataformatec, tabulous, git real.
+
+* Git Minutes #08
+  tool - may 13 - 1h04
+  http://episodes.gitminutes.com/2013/05/gitminutes-08-drew-neil-on-vim-and.html
+  Drew Neil made vincasts and talks about fugitive amd git inside vim.
+
+* RubyRogues 105
+  rb - may 15 - 1h21
+  http://rubyrogues.com/105-rr-regular-expressions-with-nell-shamrell/
+  Discussion about Ruby Regular Expressions with Nell Shamrell.
+
+* The Changelog 0.8.8
+  tool - may 15 - 1h
+  http://5by5.tv/changelog/88
+  The Changelog moved to 5x5, and this edition is about Vagrant with its author, Mitchell Hashimoto.
+
+* The Changelog 0.8.9
+  tool - may 17 - 1h15
+  http://5by5.tv/changelog/89
+  Linux containers and Dockers, with Solomon Hykes founder of dotcloud.
+
+* Ruby5 370
+  rb - may 17 - 7m
+  http://ruby5.envylabs.com/episodes/374-episode-370-may-17th-2013
+  ruby patches, minitest, jsonapi.org, postgres tagging, rubymotion, covim.
+
+* Javascript Jabber 059
+  js - may 17 - 1h
+  http://javascriptjabber.com/059-jsj-jquery-mobile-with-todd-parker/
+  JQuery mobile and related topics with Todd Parker.
+
+
+Watch
+-----------------
+Screencasts and conferences videos, or other video feeds ...
+
+* Texas Javascript
+  js - may 12 - 7 videos
+  http://vimeo.com/channels/txjs2013
+  Recently published videos of Texas Javascript 2013.
+
+* Embercasts
+  js - may 12 - 12m
+  http://www.embercasts.com/
+  A new serie of 4 screencasts about ember.
+
+* Models caching
+  rb - may 13 - 12m
+  http://railscasts.com/episodes/115-model-caching-revised
+  Revised version of the caching trick for caching models.
+
+* Write a programming language
+  rb - may 14 - 36m
+  https://www.youtube.com/watch?v=Q3ZbN-k-qGs
+  A BonstonRB session about how to write a programming language (38 first min).
+
+* The Road to Node.js v1.0
+  js - may 14 - 50m
+  http://blog.strongloop.com/the-road-to-node-js-v1-0/
+  Isaac Schlueter talks about the node.js roadmap.
+
+* Google I/O 2013
+  web - may 15 - hours
+  http://www.youtube.com/user/GoogleDevelopers/videos
+  The annual Google I/O is all over youtube, they filmed it all.
+
+* Breaking open: AngularJS
+  js - may 17 - 32m
+  http://marakana.com/s/post/1465/breaking_open_angularjs
+  Interview with the author of Angular, talking about the origins of the project.
+
+
+Read
+-----------------
+From the blogosphere or news feeds ...
+
+* The Weight of the Web
+  rb - may 9
+  http://dandelion-burdock.com/articles/view/the-weight-of-the-web
+  Tricks on how to reduce page loads, especially working on images.
+
+* A simple CMS in sinatra
+  rb - may 13
+  http://rubysource.com/a-simple-content-management-system-in-sinatra/
+  A quick walk-through building a sinatra CMS over mongoDB.
+
+* The Revealing Module Pattern
+  js - may 13
+  http://www.raymondcamden.com/index.cfm/2013/5/13/JavaScript-Design-Patterns--The-Revealing-Module-Pattern
+  In a serie of javascript patterns article, the modules pattern.
+
+* Build a Rich JavaScript Front End with Grunt
+  js - may 13
+  http://spin.atomicobject.com/2013/05/13/javascript-front-end-grunt/
+  Grunt is a great preprocessing engine, this post describes how.
+
+* Mass Assignment, Rails, and You
+  rb - may 13
+  http://net.tutsplus.com/tutorials/ruby/mass-assignment-rails-and-you/
+  An overview on mass assignment, how to handle it, and strong parameters.
+
+* Ruby tips: Procs vs lambdas
+  rb - may 14
+  http://andrewberls.com/blog/post/ruby-tips-procs-vs-lambdas
+  The details of what makes procs and lambda different block syntaxes.
+
+* Stop leaky APIs
+  rb - may 15
+  http://pivotallabs.com/stop-leaky-apis/
+  An API versionning strategy for rails apps.
+
+* Source Code Typography
+  tool - may 17
+  http://www.naildrivin5.com/blog/2013/05/17/source-code-typography.html
+  Some thinking about code formatting rules and principles.
+
+* Sandi Metz’ rules for developers
+  rb - may 17
+  http://robots.thoughtbot.com/post/50655960596/sandi-metz-rules-for-developers
+  How thoughtbot team copes with the Sandi 4 rules.
+
+
+Install
+-----------------
+A selection of gems or applications updated during past week.
+
+* Ruby 2.0.0-p195
+  rb - 
+  http://www.ruby-lang.org/en/news/2013/05/14/ruby-2-0-0-p195-is-released/
+  This is a security upgrade for ruby version 2, plus some bugfixes and optimizations.
+
+* Unveil.js
+  js - 
+  http://luis-almeida.github.io/unveil/
+  A jQuery pugin for image lazy loading. Load only when in the viewport.
+
+* CSS wizardry grid
+  css3 - 
+  https://github.com/csswizardry/csswizardry-grids
+  Yet another css base for mobile first, responsive design.
+
+* ProMotion
+  rb - 
+  http://blog.rubymotion.com/post/50523137515/introducing-promotion-a-full-featured-rubymotion
+  A RubyMotion application framework.
+
+* Polymer
+  js - 
+  http://polymer-project.appspot.com/
+  A very interesting polyfills-based implementation of web components (design your tags).
+
+* Minitest
+  rb - 
+  https://github.com/seattlerb/minitest
+  Minitest just shipped version 5.0.0, 
+
+* Ruboto
+  rb - 
+  http://ruboto.org/2013/05/11/Ruboto-0.12.0-release-doc.html
+  Version 0.12.0 just came out, few new features, some bugfixes.
+
+* Agility.js
+  js - 
+  http://agilityjs.com/
+  Another javascript MVC framework, supposedly easier, over jQuery lib.
+
+* Level up
+  rb - 
+  http://kmatrah.github.io/level_up/
+  A simple rails engine for creating graphs based on jobs.
+
+
+Use
+-----------------
+Web applications, available for making our life easier.
+
+* Clipping Magic
+  tool - 
+  http://clippingmagic.com/
+  Remove background from image according to your markings, pretty neat.
+
+* Breakouts
+  tool - 
+  http://city41.github.io/breakouts/
+  The TodoMVC of javascript game tools. Simple game made with various JS frameworks.
+
+* Froont
+  tool - 
+  http://froont.com/
+  Responsive web designer.
+
+
+
+=====================
+
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+*|TWITTER:PROFILEURL|*
+follow on Twitter
+
+*|FORWARD|*
+forward to a friend
+
+*|LIST:SUBSCRIBE|*
+Subscribe
+
+Copyright (c) *|CURRENT_YEAR|* Mose Ltd &amp; Code Green IT
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a Creative Commons Attribution-ShareAlike 3.0 License
+

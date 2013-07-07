@@ -1,0 +1,204 @@
+-------------------------------
+Green Ruby News #017 - jun 2nd 2013
+-------------------------------
+
+Edito
+-----------------
+Last week there was a lot of activity with conferences with rubykaigi, fluentconf, jsconf. There are many videos to catch up with.
+
+mose - the green ruby editor
+xenor - the informer
+http://greenruby.org
+
+
+Listen
+-----------------
+What could be heard last week ..
+
+* Git Minutes #10
+  tool - may 27 - 44m
+  http://episodes.gitminutes.com/2013/05/gitminutes-10-git-merge-2013-part-2.html
+  Recording in the Git Merge conference in Berlin with various Git Heroes, part 2.
+
+* Giant robots 50
+  rb - may 27 - 43m
+  http://learn.thoughtbot.com/podcast/50
+  Interview with Jeff Casimir and Katrina Owen talking about conferences, learning and stuff.
+
+* Ruby5 373
+  rb - may 28 - 5m
+  http://ruby5.envylabs.com/episodes/377-episode-373-may-28th-2013
+  Railsconf, attrio, rubylearning, Gogaruco, extensible browsers.
+
+* RubyRogues 107
+  rb - may 29 - 1h13
+  http://rubyrogues.com/107-rr-impostor-syndrome-with-tim-chevalier/
+  Impostor Syndrome with Tim Chevalier. Group therapy session at the rogues.
+
+* The Changelog 91
+  js - may 29 - 1h
+  http://5by5.tv/changelog/91
+  Discover Meteor.js with Sacha Greif.
+
+* Ruby5 374
+  rb - may 31 - 6m
+  http://ruby5.envylabs.com/episodes/378-episode-374-may-31st-2013
+  Rspec, version cake, Amazon oauth, Sass, naught.
+
+* Javascript Jabber 061
+  js - may 31 - 49m
+  http://javascriptjabber.com/061-jsj-functional-reactive-programming-with-juha-paananen-and-joe-fiorini/
+  Functional Reactive Programming with Juha Paananen and Joe Fiorini. FRP everywhere!
+
+
+Watch
+-----------------
+Screencasts and conferences videos, or other video feeds ...
+
+* FluentConf
+  tool - may 30 - 16 videos
+  http://fluentconf.com/fluent2013/public/content/video
+  Videos of the talks given during fluentconf by O'Reilly.
+
+
+Read
+-----------------
+From the blogosphere or news feeds ...
+
+* A Year with a Large AngularJS Project
+  js - may 22
+  http://joelhooks.com/blog/2013/05/22/lessons-learned-kicking-off-an-angularjs-project/
+  Lessons learned after a year of using Angluar.js.
+
+* Cargo-Culting in JavaScript
+  js - may 24
+  http://net.tutsplus.com/tutorials/javascript-ajax/cargo-culting-in-javascript/
+  Guidelines to detect cargo-cult, or newbie errors in js code.
+
+* Master Developers: Christian Heilmann
+  html5 - may 26
+  http://net.tutsplus.com/articles/interviews/master-developers-christian-heilmann/
+  Interview with @codepo8, a big HTML5 evangelist.
+
+* Ruby on Rails bug exploited in wild
+  rb - may 29
+  http://arstechnica.com/security/2013/05/critical-ruby-on-rails-bug-exploited-in-wild-hacked-servers-join-botnet/
+  Critical Ruby on Rails bug exploited, hacked servers join botnet. If you didn't upgrade, do it now!
+
+* SASS Style Guide
+  css3 - may 29
+  http://css-tricks.com/sass-style-guide/
+  This style guide is a way to discover some good practice for your SASS stylesheets.
+
+* The State Of Responsive Web Design
+  mobile - may 29
+  http://mobile.smashingmagazine.com/2013/05/29/the-state-of-responsive-web-design/
+  A pretty exhaustive list of details involved in web responsive design.
+
+* How Blink has affected WebGL
+  html5 - may 29
+  http://blog.tojicode.com/2013/05/how-blink-has-affected-webgl.html
+  Some explanation of what blink is going to change on the webGL front.
+
+* Fast JSON APIs in Rails
+  rb - may 30
+  http://robots.thoughtbot.com/post/50091183897/fast-json-apis-in-rails-with-key-based-caches-and
+  Review on how to use ActiveModel::Serializers and partial object caching to speed up json api.
+
+* What You Need To Know About The New Git 1.8.3
+  tool - may 30
+  http://blogs.atlassian.com/2013/05/highlights-git-1-8-3/
+  Some new features in the last git version.
+
+
+Install
+-----------------
+A selection of gems or applications updated during past week.
+
+* Passenger
+  tool - 
+  http://blog.phusion.nl/2013/05/29/phusion-passenger-4-0-5-released/
+  This 4.0.5 is a security release. Time to upgrade.
+
+* Errbit
+  rb - 
+  http://blog-en.shingara.fr/errbit-0-dot-1-0.html
+  Version 0.1.0, this project, a self-hosted kind of airbrake, is active but curiously was missing a release process. Now it's fixed!
+
+* Lazy.js
+  js - 
+  http://dtao.github.io/lazy.js/
+  Like underscore, but lazier (about its evaluation of course).
+
+* Pure CSS
+  css3 - 
+  http://purecss.io/
+  A set of small, responsive CSS modules, also has rails gems. But based on YUI (hmm).
+
+* Montage
+  html5 - 
+  http://montagejs.org/
+  An HTML5 framework for building modern Web Apps.
+
+* Plato.js
+  js - 
+  https://github.com/jsoverson/plato
+  JavaScript source code visualization, static analysis, and complexity tool.
+
+* Madeye
+  js - 
+  http://madeye.io/get-started
+  Remote pair programming made easy.
+
+
+Use
+-----------------
+Web applications and tools, available for making our life easier.
+
+* Git Together
+  tool - 
+  http://uptodate.frontendrescue.org/
+  List of resources to follow to get on the edge of the web.
+
+* The inspiration stream
+  tool - 
+  http://veerle.duoh.com/inspiration
+  Stream of selected design for inspiration or wandering.
+
+* WebFonts
+  css3 - 
+  http://www.webfonts.info
+  A website dedicated to webfonts, with examples and articles, can help making some font choices.
+
+* Videry
+  html5 - 
+  http://www.videry.me/
+  Curated Videos for Web Designers, pretty neat.
+
+* Colourco.de
+  css3 - 
+  http://colourco.de/
+  A simple color exploration page.
+
+
+
+=====================
+
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+*|TWITTER:PROFILEURL|*
+follow on Twitter
+
+*|FORWARD|*
+forward to a friend
+
+*|LIST:SUBSCRIBE|*
+Subscribe
+
+Copyright (c) *|CURRENT_YEAR|* Mose Ltd &amp; Code Green IT
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a Creative Commons Attribution-ShareAlike 3.0 License
+

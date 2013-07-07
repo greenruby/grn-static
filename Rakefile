@@ -1,0 +1,1 @@
+require_relative 'lib/tasks/generate_task'

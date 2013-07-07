@@ -1,0 +1,219 @@
+-------------------------------
+Green Ruby News #016 - may 26th 2013
+-------------------------------
+
+Edito
+-----------------
+Here is it, there is a new website on <a href="http://greenruby.org">http://greenruby.org</a>. It is a static website generated with a small rakefile and grunt, the ember version of it is still under development.
+
+mose - the green ruby editor
+xenor - the informer
+http://greenruby.org
+
+
+Listen
+-----------------
+What could be heard last week ..
+
+* Git Minutes #09
+  tool - may 20 - 45m
+  http://episodes.gitminutes.com/2013/05/gitminutes-09-git-merge-2013-part-1.html
+  Recording in the Git Merge conference in Berlin with various Git Heroes.
+
+* Giant robots 49
+  rb - may 20 - 36m
+  http://learn.thoughtbot.com/podcast/49
+  Recorded at railsconf, talking about <a href="http://codeschool.com">codeschool.com</a>.
+
+* Ruby5 371
+  rb - may 21 - 6m
+  http://ruby5.envylabs.com/episodes/375-episode-371-may-21st-2013
+  Dev rules, promotion, json apis, futuroscope, searchlight, i18n-extractor.
+
+* RubyRogues 106
+  rb - may 22 - 1h
+  http://rubyrogues.com/106-rr-discourse-with-jeff-atwood/
+  Jeff Atwood talks about Discourse, and also Stack Overflow.
+
+* The Changelog #90
+  tool - may 22 - 1h05
+  http://5by5.tv/changelog/90
+  Avdi Grimm and Pair programming.
+
+* Ruby5 372
+  rb - may 24 - 6m
+  http://ruby5.envylabs.com/episodes/376-episode-372-may-24th-2013
+  Activerecord intervention, motionbuilder, gemcoding, backbone, lyricfy, Josh Kemp.
+
+* Javascript Jabber 060
+  js - may 24 - 58m
+  http://javascriptjabber.com/060-jsj-development-environments/
+  Development environment, and a great collection of links to JS tools.
+
+
+Watch
+-----------------
+Screencasts and conferences videos, or other video feeds ...
+
+* Pairing on discourse
+  rb - may 17 - 2h
+  http://www.youtube.com/watch?v=8LUIqm6xy8A
+  A google hangout capture of a pairing session between Avdi Grimm and Josh Susser.
+
+
+Read
+-----------------
+From the blogosphere or news feeds ...
+
+* Dojo for jQuery Developers
+  js - may 19
+  http://www.dojomonk.com/2013/05/dojo-for-jquery-developers.html
+  JQuery is not the only choice, give Dojo a try.
+
+* How to properly mirror a git repository
+  tool - may 21
+  http://blog.plataformatec.com.br/2013/05/how-to-properly-mirror-a-git-repository/
+  The details beyond the simple mirror cloning.
+
+* ActionWidgets: Rails helpers on steroids
+  rb - may 21
+  http://benediktdeicke.com/2013/05/action-widgets-rails-helpers-on-steroids/
+  Work demo using the ActionWidget gem.
+
+* Testing Against Multiple Rails Versions
+  rb - may 21
+  http://schneems.com/post/50991826838/testing-against-multiple-rails-versions
+  Configuration tips for testing rails apps on various versions.
+
+* Progressively enhancing HTML5 forms
+  html5 - may 21
+  http://tech.pro/tutorial/1318/progressively-enhancing-html5-forms-creating-a--required--attribute-fallback-with-jquery
+  How to gracefully fallback from the new HTML5 form elements.
+
+* Apple Is Using Sass, And They’re Doing It Wrong
+  css3 - may 22
+  http://blog.kaelig.fr/post/51078221503/apple-is-using-sass-and-theyre-doing-it-wrong
+  Comments on how Apple uses SASS and how they shouold make it better.
+
+* Three Approaches to Remote Pair Programming
+  tool - may 22
+  http://blog.cloudcitydevelopment.com/2013/05/22/three-approaches-to-remote-pair-programming-draft/
+  Tools and methods for pair programming.
+
+* Logic in Media Queries
+  css3 - may 22
+  http://css-tricks.com/logic-in-media-queries/
+  Some quick review about css media queries.
+
+* Using the Google Maps API with Ruby on Rails and Coffeescript
+  rb - may 23
+  http://larsgebhardt.de/using-google-maps-api-with-ruby-on-rails/
+  For displaying GPS data on a google map.
+
+* Simple Background Jobs with Sucker Punch
+  rb - may 23
+  http://rubysource.com/simple-background-jobs-with-sucker-punch/
+  Based on celluloid, Sucker Punch is a simple worker gem.
+
+* 5 HTML5 Features you need to know
+  html5 - may 25
+  http://daker.me/2013/05/5-html5-features-you-need-to-know.html
+  A quick list of very useful HTML5 features.
+
+
+Install
+-----------------
+A selection of gems or applications updated during past week.
+
+* GlassRails
+  rb - 
+  http://thirst.github.io/glass-rails/
+  A gem to build apps for google glasses.
+
+* Label.css
+  css3 - 
+  http://usablica.github.io/label.css/
+  Simple css for adding labels anywhere on a photo.
+
+* Spree 2.0.0
+  rb - 
+  http://spreecommerce.com/blog/spree-2-0-0-released
+  That's a heavy release from the leading ecommerce gem for rails.
+
+* MotionBundler
+  rb - 
+  http://blog.rubymotion.com/post/50983350225/motionbundler-good-old-fashioned-requirements-for
+  A gem for Ruby Motion dependencies management.
+
+* JRuby 1.7.4
+  rb - 
+  http://www.jruby.org/2013/05/16/jruby-1-7-4
+  A lot more compatibility and bug fixes.
+
+* Framer
+  js - 
+  http://www.framerjs.com/
+  A prototyping tool for animation and interaction on desktop and mobile.
+
+* Tourist
+  js - 
+  http://easelinc.github.io/tourist/
+  A javascript overlay for visiting front end features.
+
+
+Use
+-----------------
+Web applications and tools, available for making our life easier.
+
+* How to keep up to date on Front-End Technologies
+  tool - 
+  http://uptodate.frontendrescue.org/
+  List of resources to follow to get on the edge of the web.
+
+* spiffy HTML5 site templates
+  html5 - 
+  http://html5up.net/
+  A collection of free responsive HTML5 templates.
+
+* Six UX
+  css3 - 
+  http://sixux.com/
+  Showroom of short (6s) css effects.
+
+* Screen Sizes
+  mobile - 
+  http://screensiz.es/
+  Updated list of screen sizes of all existing devices.
+
+* Place it
+  mobile - 
+  http://placeit.breezi.com
+  Include a screenshot in a photo in situation, quite cool.
+
+* Slides
+  tool - 
+  http://slid.es
+  For creating and hosting nice web slides.
+
+
+
+=====================
+
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+*|TWITTER:PROFILEURL|*
+follow on Twitter
+
+*|FORWARD|*
+forward to a friend
+
+*|LIST:SUBSCRIBE|*
+Subscribe
+
+Copyright (c) *|CURRENT_YEAR|* Mose Ltd &amp; Code Green IT
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a Creative Commons Attribution-ShareAlike 3.0 License
+

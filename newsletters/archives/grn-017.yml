@@ -1,0 +1,233 @@
+---
+edition: "017"
+pubdate: "jun 2nd 2013"
+edito:
+  "Last week there was a lot of activity with conferences with rubykaigi, fluentconf, jsconf. There are many videos to catch up with."
+
+topics:
+
+- title: Listen
+  baseline: What could be heard last week ..
+  links:
+
+  - title: "Git Minutes #10"
+    url: http://episodes.gitminutes.com/2013/05/gitminutes-10-git-merge-2013-part-2.html
+    duration: 44m
+    pubdate: may 27
+    comment: "Recording in the Git Merge conference in Berlin with various Git Heroes, part 2."
+    tags:
+      - tool
+
+  - title: "Giant robots 50"
+    url: http://learn.thoughtbot.com/podcast/50
+    duration: 43m
+    pubdate: may 27
+    comment: "Interview with Jeff Casimir and Katrina Owen talking about conferences, learning and stuff."
+    tags:
+      - rb
+
+  - title: Ruby5 373
+    url: http://ruby5.envylabs.com/episodes/377-episode-373-may-28th-2013
+    duration: 5m
+    pubdate: may 28
+    comment: "Railsconf, attrio, rubylearning, Gogaruco, extensible browsers."
+    tags:
+      - rb
+
+  - title: RubyRogues 107
+    url: http://rubyrogues.com/107-rr-impostor-syndrome-with-tim-chevalier/
+    duration: 1h13
+    pubdate: may 29
+    comment: "Impostor Syndrome with Tim Chevalier. Group therapy session at the rogues."
+    tags:
+      - rb
+
+  - title: The Changelog 91
+    url: http://5by5.tv/changelog/91
+    duration: 1h
+    pubdate: may 29
+    comment: "Discover Meteor.js with Sacha Greif."
+    tags:
+      - js
+
+  - title: Ruby5 374
+    url: http://ruby5.envylabs.com/episodes/378-episode-374-may-31st-2013
+    duration: 6m
+    pubdate: may 31
+    comment: "Rspec, version cake, Amazon oauth, Sass, naught."
+    tags:
+      - rb
+
+  - title: Javascript Jabber 061
+    url: http://javascriptjabber.com/061-jsj-functional-reactive-programming-with-juha-paananen-and-joe-fiorini/
+    duration: 49m
+    pubdate: may 31
+    comment: "Functional Reactive Programming with Juha Paananen and Joe Fiorini. FRP everywhere!"
+    tags:
+      - js
+
+
+- title: Watch
+  baseline: "Screencasts and conferences videos, or other video feeds ..."
+  links:
+
+  - title: FluentConf
+    url: http://fluentconf.com/fluent2013/public/content/video
+    pubdate: may 30
+    duration: 16 videos
+    comment: "Videos of the talks given during fluentconf by O'Reilly."
+    tags:
+      - tool
+
+
+
+- title: Read
+  baseline: "From the blogosphere or news feeds ..."
+  links:
+
+
+  - title: "A Year with a Large AngularJS Project"
+    url: http://joelhooks.com/blog/2013/05/22/lessons-learned-kicking-off-an-angularjs-project/
+    pubdate: may 22
+    comment: "Lessons learned after a year of using Angluar.js."
+    tags:
+      - js
+
+  - title: "Cargo-Culting in JavaScript"
+    url: http://net.tutsplus.com/tutorials/javascript-ajax/cargo-culting-in-javascript/
+    pubdate: may 24
+    comment: "Guidelines to detect cargo-cult, or newbie errors in js code."
+    tags:
+      - js
+
+  - title: "Master Developers: Christian Heilmann"
+    url: http://net.tutsplus.com/articles/interviews/master-developers-christian-heilmann/
+    pubdate: may 26
+    comment: "Interview with @codepo8, a big HTML5 evangelist."
+    tags:
+      - html5
+
+  - title: "Ruby on Rails bug exploited in wild"
+    url: http://arstechnica.com/security/2013/05/critical-ruby-on-rails-bug-exploited-in-wild-hacked-servers-join-botnet/
+    pubdate: may 29
+    comment: "Critical Ruby on Rails bug exploited, hacked servers join botnet. If you didn't upgrade, do it now!"
+    tags:
+      - rb
+
+  - title: "SASS Style Guide"
+    url: http://css-tricks.com/sass-style-guide/
+    pubdate: may 29
+    comment: "This style guide is a way to discover some good practice for your SASS stylesheets."
+    tags:
+      - css3
+
+  - title: "The State Of Responsive Web Design"
+    url: http://mobile.smashingmagazine.com/2013/05/29/the-state-of-responsive-web-design/
+    pubdate: may 29
+    comment: "A pretty exhaustive list of details involved in web responsive design."
+    tags:
+      - mobile
+
+  - title: "How Blink has affected WebGL"
+    url: http://blog.tojicode.com/2013/05/how-blink-has-affected-webgl.html
+    pubdate: may 29
+    comment: "Some explanation of what blink is going to change on the webGL front."
+    tags:
+      - html5
+
+  - title: "Fast JSON APIs in Rails"
+    url: http://robots.thoughtbot.com/post/50091183897/fast-json-apis-in-rails-with-key-based-caches-and
+    pubdate: may 30
+    comment: "Review on how to use ActiveModel::Serializers and partial object caching to speed up json api."
+    tags:
+      - rb
+
+  - title: "What You Need To Know About The New Git 1.8.3"
+    url: http://blogs.atlassian.com/2013/05/highlights-git-1-8-3/
+    pubdate: may 30
+    comment: "Some new features in the last git version."
+    tags:
+      - tool
+
+
+- title: Install
+  baseline: "A selection of gems or applications updated during past week."
+  links:
+
+  - title: Passenger
+    url: http://blog.phusion.nl/2013/05/29/phusion-passenger-4-0-5-released/
+    comment: "This 4.0.5 is a security release. Time to upgrade."
+    tags:
+      - tool
+
+  - title: Errbit
+    url: http://blog-en.shingara.fr/errbit-0-dot-1-0.html
+    comment: "Version 0.1.0, this project, a self-hosted kind of airbrake, is active but curiously was missing a release process. Now it's fixed!"
+    tags:
+      - rb
+
+  - title: Lazy.js
+    url: http://dtao.github.io/lazy.js/
+    comment: "Like underscore, but lazier (about its evaluation of course)."
+    tags:
+      - js
+
+  - title: Pure CSS
+    url: http://purecss.io/
+    comment: "A set of small, responsive CSS modules, also has rails gems. But based on YUI (hmm)."
+    tags:
+      - css3
+
+  - title: Montage
+    url: http://montagejs.org/
+    comment: "An HTML5 framework for building modern Web Apps."
+    tags:
+      - html5
+
+  - title: Plato.js
+    url: https://github.com/jsoverson/plato
+    comment: "JavaScript source code visualization, static analysis, and complexity tool."
+    tags:
+      - js
+
+  - title: Madeye
+    url: http://madeye.io/get-started
+    comment: "Remote pair programming made easy."
+    tags:
+      - js
+
+- title: Use
+  baseline:
+    "Web applications and tools, available for making our life easier."
+  links:
+
+  - title: Git Together
+    url: http://uptodate.frontendrescue.org/
+    comment: "List of resources to follow to get on the edge of the web."
+    tags:
+      - tool
+
+  - title: The inspiration stream
+    url: http://veerle.duoh.com/inspiration
+    comment: "Stream of selected design for inspiration or wandering."
+    tags:
+      - tool
+
+  - title: WebFonts
+    url: http://www.webfonts.info
+    comment: "A website dedicated to webfonts, with examples and articles, can help making some font choices."
+    tags:
+      - css3
+
+  - title: Videry
+    url: http://www.videry.me/
+    comment: "Curated Videos for Web Designers, pretty neat."
+    tags:
+      - html5
+
+  - title: Colourco.de
+    url: http://colourco.de/
+    comment: "A simple color exploration page."
+    tags:
+      - css3
+

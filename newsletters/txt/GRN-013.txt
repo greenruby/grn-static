@@ -1,0 +1,194 @@
+-------------------------------
+Green Ruby News #013 - may 5th 2013
+-------------------------------
+
+Edito
+-----------------
+This week I worked a little more on the <a href="https://github.com/mose/greeby">greeby</a> project, that should help me in the writing of this newsletter. I spent lot of time exploring sinatra, mongo, and ember.js. A lot of fun, but it's not ready yet. So I made a <a href="https://github.com/mose/greeby/blob/master/lib/tasks/generate_task.rb">rake task</a> for the generation in the while. You can check what's planned (and participate) on the <a href="https://trello.com/board/greeby-platform/513fd48aa7ed906115001a04">taskboard on Trello</a>.
+
+mose - the green ruby editor
+xenor - the informer
+http://greenruby.org
+
+
+Listen
+-----------------
+What could be heard last week ..
+
+* Git Minutes #06
+   - apr 29 - 1h08
+  http://episodes.gitminutes.com/2013/04/gitminutes-06-roberto-tyley-on.html
+  with Roberto Tyley about git history tools with BFG.
+
+* RubyRogues 103
+   - may 1 - 1h25
+  http://rubyrogues.com/103-rr-ruby-gems/
+  Discussion about Rubygems, what and how
+
+* Javascript Jabber 057
+   - may 2 - 43m
+  http://javascriptjabber.com/057-jsj-functional-programming-with-zach-kessin/
+  Functional programming in javascript with Zach Kessin (that comes from Erlang).
+
+* The Changelog 0.8.6
+   - may 3 - 1h18
+  http://thechangelog.com/086/
+  With Jeff Atwood, talking a lot about Discourse.
+
+* Ruby5 366
+   - may 3 - 5m
+  http://ruby5.envylabs.com/episodes/370-episode-366-may-3rd-2013
+  rails 4rc1, happiness, railsgirls SOC, RailsConf Links, Xray-rails, mad libs.
+
+
+Watch
+-----------------
+Screencasts and conferences videos, or other video feeds ...
+
+* Functional reactive programming
+   - apr 24 - 23m
+  http://aanandprasad.com/talks/frippery/
+  A talk given in Ruby Manor 2013.
+
+* Dive Into Mobile Performance
+   - apr 26 - 1h11
+  https://www.youtube.com/playlist?list=PLUO3pFURa-s0XgfU-FDFqzSqGWDRZp2sG
+  A box tech talk presentation about mobile web performance.
+
+* Behavior-driven development with Cucumber
+   - apr 30 - 10m
+  http://blog.codeship.io/2013/04/30/BDD-With-Cucumber.html
+  Quick presentation of cucumber from Codeship.
+
+* Moving Web Standards Forward, Faster
+   - may 3 - 40m
+  http://marakana.com/s/post/1455/moving_web_standards_forward_faster_video
+  Talk about web standards and the speed of their change.
+
+
+Read
+-----------------
+From the blogosphere or news feeds ...
+
+* Monads the Heart of the Matter
+   - apr 27
+  http://sharkzp.github.io/blog/2013/04/27/monads-the-heart-of-the-matter/
+  Some examples of monads, which come to ruby from functional programming
+
+* Mozilla Persona for the non-web
+   - apr 29
+  https://hacks.mozilla.org/2013/04/mozilla-persona-for-the-non-web/
+  Mozilla personna is in between openId and Ldap ?
+
+* Real Time Multiplayer in HTML5
+   - apr 29
+  http://www.htmlgoodies.com/html5/client/real-time-multiplayer-in-html5.html
+  A good walkthrough using mode, socket.io to make a html5 game.
+
+* What to do Before You Kill -9
+   - apr 29
+  http://blog.newrelic.com/2013/04/29/debugging-stuck-ruby-processes-what-to-do-before-you-kill-9/
+  Good advises and tips about how to analyze a ruby process.
+
+* Promises/A+ Performance Hits
+   - apr 29
+  http://thanpol.as/javascript/promises-a-performance-hits-you-should-be-aware-of/
+  Benchmarks of When, Q, Async, and when to use which.
+
+* Sublime Text (2) intro
+   - apr 30
+  http://drewbarontini.com/setup/sublime-text/
+  An excellent intro to sublimetext2 that even advanced users should read.
+
+* Hard Thresholds on JavaScript Code Coverage
+   - may 2
+  http://ariya.ofilabs.com/2013/05/hard-thresholds-on-javascript-code-coverage.html
+  Code coverage in javascript with istambul
+
+* App Search with Thinking Sphinx 3.0
+   - may 2
+  http://rubysource.com/app-search-with-thinking-sphinx-3-0/
+  Thinking Sphinx 3.0 for addressing search engine needs in ruby apps.
+
+* Eliminating my trivial inconveniences building Discourse
+   - may 3
+  http://samsaffron.com/archive/2013/05/03/eliminating-my-trivial-inconveniences
+  A very detailed description of the tools Sam Safron uses to work on Discourse.
+
+
+Install
+-----------------
+A selection of gems or applications updated during past week.
+
+* Rails4 rc1
+   - may 1
+  https://github.com/rails/rails/tree/v4.0.0.rc1
+  Here is finally the first release candidate for rails 4.
+
+* Flaw Detector
+   - 
+  https://github.com/ginriki/flaw_detector
+  A tool to detect ruby flaw in the ruby VM.
+
+* SlimerJS
+   - 
+  https://github.com/brentd/xray-rails
+  Reveals in the browser what html belongs to what partial in rails or backbone.
+
+* Xray-rails
+   - 
+  http://slimerjs.org/
+  A scriptable web browser similar to phantom.js but using firefox.
+
+* Benchmark.js
+   - 
+  http://www.chris-granger.com/2013/04/28/light-table-040/
+  Web editor
+
+* Dosi.io
+   - 
+  http://dosi.io/
+  A chrome extension for merging data from various social networks.
+
+* IIO
+   - 
+  http://iioengine.com/
+  A framework (with SDK and debugger) for building html5 applications.
+
+
+Use
+-----------------
+It's hard to pass it, there are so many Saas out there. This week again, some more API-focused services.
+
+* Programmable Web
+   - 
+  http://www.programmableweb.com
+  A portal dedicated to APIs, and ways to use them, huge directory.
+
+* API hub
+   - 
+  http://www.apihub.com/
+  Another APi repository (bragging being the largest), made by the company that just bought the one above.
+
+
+
+=====================
+
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+*|TWITTER:PROFILEURL|*
+follow on Twitter
+
+*|FORWARD|*
+forward to a friend
+
+*|LIST:SUBSCRIBE|*
+Subscribe
+
+Copyright (c) *|CURRENT_YEAR|* Mose Ltd &amp; Code Green IT
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a Creative Commons Attribution-ShareAlike 3.0 License
+

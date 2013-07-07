@@ -1,0 +1,44 @@
+-------------------------------
+Green Ruby News #<%= c.edition %> - <%= c.pubdate %>
+-------------------------------
+
+Edito
+-----------------
+<%= c.edito %>
+
+mose - the green ruby editor
+xenor - the informer
+http://greenruby.org
+
+<% c.topics.each do |t| %>
+<%= t.title %>
+-----------------
+<%= t.baseline %>
+<% t.links.each do |l| %>
+* <%= l.title %>
+  <% if l.tags %><% l.tags.each do |tag| %><%= tag %><% end %><% end %> - <%= l.pubdate %><% if l.duration %> - <%= l.duration %><% end %>
+  <%= l.url %>
+  <%= l.comment %>
+<% end %>
+<% end %>
+
+=====================
+
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+*|TWITTER:PROFILEURL|*
+follow on Twitter
+
+*|FORWARD|*
+forward to a friend
+
+*|LIST:SUBSCRIBE|*
+Subscribe
+
+Copyright (c) *|CURRENT_YEAR|* Mose Ltd &amp; Code Green IT
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a Creative Commons Attribution-ShareAlike 3.0 License
+

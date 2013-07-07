@@ -1,0 +1,259 @@
+-------------------------------
+Green Ruby News #020 - jun 22th 2013
+-------------------------------
+
+Edito
+-----------------
+There is a background noise recently about the return of big brother, prism, etc in many topics I parsed for this letter. Kinda scary. But here we only are interested by toys and tools, so let's be light headed and check out the stuff of this week.
+
+mose - the green ruby editor
+xenor - the informer
+http://greenruby.org
+
+
+Use
+-----------------
+Web applications and tools, available for making our life easier.
+
+* The OAuth Bible
+  tool - 
+  http://oauthbible.com/
+  The final version of the Oauth Bible by mashape.
+
+* The new github
+  tool - 
+  https://github.com/blog/1529-repository-next
+  There was an interface overhaul this week at github.
+
+* Secrets of the Browser Developer Tools
+  tool - 
+  http://devtoolsecrets.com/
+  A website that gathers secrets about dev tools for all browsers.
+
+* Grumpicon
+  tool - 
+  http://www.grumpicon.com/
+  A drag and drop png gnerator from svg.
+
+* JSDB.io
+  js - 
+  http://www.jsdb.io/
+  A repository of useful (or not) javascript libraries (submit the ones missing).
+
+* 13 reasons why inforgraphics work
+  web - 
+  http://neomam.com/interactive/13reasons/
+  Very graphical demonstration of the power of images.
+
+* Fontastic
+  tool - 
+  http://fontastic.me/
+  Online tool to create web fonts.
+
+
+Install
+-----------------
+A selection of gems or applications updated during past week.
+
+* Flippant.js
+  js - 
+  http://mintchaos.github.io/flippant.js/
+  An alternative to modal windows, the flippable div.
+
+* CSS magic
+  css3 - 
+  http://www.minimamente.com/magic-css3-animations/
+  A great collection of css3 effects on buttons.
+
+* CSS Animations
+  css3 - 
+  http://daneden.me/animate/
+  Another great collection of effects, almost similar to the previous one.
+
+* HTML inspector
+  js - 
+  https://github.com/philipwalton/html-inspector/
+  Nice tool to check webpage quality, on the html/css side.
+
+* Buttons
+  css3 - 
+  http://alexwolfe.github.io/Buttons/
+  A compass tool for building buttons.
+
+* Shower
+  js - 
+  https://github.com/shower/shower/
+  HTML presentation engine.
+
+* WTCSS
+  css3 - 
+  https://github.com/benfoxall/wtcss
+  Uses PhantomJS to analyse the CSS on a page.
+
+
+Read
+-----------------
+From the blogosphere or news feeds ...
+
+* How I TRAINed to learn Rails
+  rb - jun 12
+  https://medium.com/how-i-learned-ruby-rails
+  Learn rails in 2 months, pointers and advices.
+
+* sourceMappingURL and sourceURL syntax changed
+  html5 - jun 13
+  http://updates.html5rocks.com/2013/06/sourceMappingURL-and-sourceURL-syntax-changed
+  The evolution of the sourcemaps syntax.
+
+* Getting started with Ember.js
+  js - jun 14
+  http://blog.balancedpayments.com/getting-started-with-ember.js/
+  A quick overview of the basics of emberjs, maybe the start of more blog posts.
+
+* Images for mobile
+  mobile - jun 14
+  http://daverupert.com/2013/06/ughck-images/
+  Some thinking about the image breakpoints in mobile websites.
+
+* Leveling Up on Chef Best Practices
+  tool - jun 14
+  http://www.prashantrajan.com/posts/2013/06/leveling-up-chef-best-practices/
+  Some thinking about chef conventions.
+
+* Production Is All That Matters
+  rb - jun 16
+  http://naildrivin5.com/blog/2013/06/16/production-is-all-that-matters.html
+  On how code is all about production mode, not about being beautiful.
+
+* Meet Fifteen Ruby Core Committers
+  rb - jun 17
+  http://rubysource.com/meet-fifteen-ruby-core-committers/
+  Translated interview of ruby core contributors gathered at RubyKaigi.
+
+* Cleanup Rails views with decorators
+  rb - jun 18
+  http://dev.af83.com/2013/06/18/cleanup-rails-s-views-with-decorators.html
+  A quick presentation of the draper gem.
+
+* How do I benchmark Ruby code
+  rb - jun 19
+  http://rubylearning.com/blog/2013/06/19/how-do-i-benchmark-ruby-code/
+  The very intimate details of benchmarking ruby code.
+
+* Does the GIL Make Your Ruby Code Thread-Safe
+  rb - jun 19
+  http://www.rubyinside.com/does-the-gil-make-your-ruby-code-thread-safe-6051.html
+  One more post about the GIL, following the last week explanation.
+
+* Heretical Guide To Ember JS
+  js - jun 19
+  http://gilesbowkett.blogspot.co.uk/2013/06/heretical-guide-to-ember-js.html
+  A new ebook of 100 pages covering Ember development ($47 is not cheap though).
+
+* Using Flash Messages With EmberJS
+  rb - jun 20
+  http://coderberry.me/blog/2013/06/20/using-flash-messages-with-emberjs/
+  Explanation of how to use ember-flash.
+
+* A List of Programming Screencast Series
+  tool - jun 21
+  http://devblog.avdi.org/2013/06/21/a-list-of-programming-screencast-series/
+  Avdi grimm gives us a list of screencasts series covering various topics.
+
+
+Watch
+-----------------
+Screencasts and conferences videos, or other video feeds ...
+
+* Build Your Own Portable Raspberry Pi (1)
+  tool - jun 9 - 18m
+  https://www.youtube.com/watch?v=dUZjzQuTNX4
+  The Ben Heck show is a must in hardware hacking, now talking about making it wearable.
+
+* Build Your Own Portable Raspberry Pi (2)
+  tool - jun 16 - 17m
+  https://www.youtube.com/watch?v=dUZjzQuTNX4
+  Part 2 of the easpberry hardware hacking by Ben Heck.
+
+* Railscast (free): Zurb foundation
+  rb - jun 16 - 11m
+  http://railscasts.com/episodes/417-foundation
+  Quick presentation on how to integrate teh foundation css framework in rails.
+
+* Embracing IndexedDB
+  js - jun 17 - 25m
+  http://vimeo.com/68526900
+  Offline storage in the browser with IndexDB, the successor of WebSQL.
+
+* Git From the Bits Up
+  tool - jun 17 - 55m
+  http://marakana.com/s/post/1491/git_from_the_bits_up_tim_berglund_advanced_github_video
+  Yje secrets of git and badly known commands.
+
+* Faster Rails test runs
+  rb - jun 19 - 21m
+  http://www.jstorimer.com/blogs/workingwithcode/8136295-screencast-faster-rails-test-runs-with-unix
+  That screencast is a lifve coding sessions, using fork and sockets ruby functions to build a custom test runner.
+
+* Node.JS: The Good Parts? A Skeptic's View
+  js - jun 21 - 1h
+  http://marakana.com/s/post/1495/node_js_the_good_parts_a_skeptics_view_video
+  A talk from Chris Richardson, java developer, about how he got hooked on node.js.
+
+
+Listen
+-----------------
+What could be heard last week ..
+
+* Git Minutes #13
+  tool - jun 17 - 51m
+  http://episodes.gitminutes.com/2013/06/gitminutes-13-richard-hartmann-on.html
+  Richard Hartmann on Managing Your Homedir with vcsh.
+
+* Giant robots 53
+  rb - jun 17 - 38m
+  http://learn.thoughtbot.com/podcast/53
+  Yehuda Katz and Tom Dale about their business at Tilde.
+
+* Ruby5 379
+  rb - jun 18 - 6m
+  http://ruby5.envylabs.com/episodes/415-episode-379-june-18-2013
+  rails lts, awesome api, stubbing vies, environments, callbacks, changed tests.
+
+* RubyRogues 110
+  rb - jun 19 - 57m
+  http://rubyrogues.com/110rr-activerecord-with-ernie-miller/
+  ActiveRecord with Ernie Miller that is not totally happy about it.
+
+* Ruby5 378
+  rb - jun 21 - 5m
+  http://ruby5.envylabs.com/episodes/414-episode-378-june-14th-2013
+  lineman, elixir, giyjib, benchmark, motion-accessibility, project death.
+
+* Javascript Jabber 064
+  js - jun 21 - 49m
+  http://javascriptjabber.com/064-jsj-ember-tools-with-ryan-florence/
+  Ember Tools with Ryan Florence.
+
+
+
+=====================
+
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+*|TWITTER:PROFILEURL|*
+follow on Twitter
+
+*|FORWARD|*
+forward to a friend
+
+*|LIST:SUBSCRIBE|*
+Subscribe
+
+Copyright (c) *|CURRENT_YEAR|* Mose Ltd &amp; Code Green IT
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a Creative Commons Attribution-ShareAlike 3.0 License
+
