@@ -18,7 +18,7 @@ module Greeby
     attr_reader :c
 
     def initialize
-      @root = File.expand_path('../../../', __FILE__)
+      @root = File.expand_path('../../', __FILE__)
       @news_path = File.join(@root, 'newsletters')
       @views_path = File.join(@root, 'views')
       @pages_path = File.join(@root, 'app', 'pages')
