@@ -1,0 +1,898 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]> ><! <![endif]-->
+<html>
+  <!-- <![endif] -->
+  <head>
+    <meta charset='utf-8'>
+    <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
+    <title>
+      Green Ruby :
+      023
+    </title>
+    <meta content='A Newsletter dedicated to weekly fresh news about ruby, web development, javascript, and related topics.' name='description'>
+    <meta content='width=device-width, minimum-scale=1.0, maximum-scale=1.0' name='viewport'>
+    <link href='css/screen.css' rel='stylesheet'>
+    <script src='js/vendor/modernizr-2.6.2-respond-1.1.0.min.js'></script>
+  </head>
+  <body>
+    <!--[if lt IE 7]>
+      <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+    <![endif]-->
+    <div id='container'>
+      <div id='wrapper'>
+        <div id='titlebar'>
+          <div id='logo'>
+            <img alt='Green Ruby' height='81' src='img/green-ruby-100.png' width='100'>
+          </div>
+          <h1 class='head'>
+            Green Ruby News
+          </h1>
+        </div>
+        <div class='cell'>
+          <div id='intro'>
+            This is a curated feed of fresh links of the week about ruby, javascript and web development.
+            Watch out every sunday.
+          </div>
+          <div id='content'>
+            <div class='nav'>
+              <ul>
+                <li>
+                  <a href='index.html'>Home</a>
+                </li>
+                <li>
+                  <a href='about.html'>About</a>
+                </li>
+              </ul>
+              <form action='http://codegreenit.us6.list-manage1.com/subscribe/post?u=f1b3b59d2383eeb07537f6440&amp;amp;id=7136c985cf' id='signup' method='post' target='_blank'>
+                <div class='label'>Weekly Newsletter</div>
+                <input class='email' name='EMAIL' placeholder='email address' type='email'>
+                <input class='button' name='subscribe' type='submit' value='Subscribe'>
+              </form>
+              <h4>Archives</h4>
+              <ul class='letters'></ul>
+              <h4>More</h4>
+              <ul>
+                <li>
+                  <a href='https://github.com/greenruby/greeby'>Source</a>
+                </li>
+                <li>
+                  <a href='mailto:news@greenruby.org'>Contact</a>
+                </li>
+                <li>
+                  <a href='http://twitter.com/greenrubist'>@greenrubist</a>
+                </li>
+              </ul>
+            </div>
+            <div class='column'>
+              <div id="templateContainer">
+              <div id="templateHeader">
+              <h1>#023 - jul 7th 2013</div>
+              </div>
+              <div id="templateBody">
+              <div>
+              	<div class="baseline">
+              	<h3>Edito</h3>
+              	Next week I have a full week off so I can work on the news management solution I have been dreaming about.
+              <br>
+              <br>
+              <em>&nbsp; mose - the green ruby editor</em><br>
+              <em>&nbsp; xenor - the informer</em><br>
+              &nbsp; <a href="http://greenruby.org" target="_self">http://greenruby.org</a>
+              <br>
+              </div>
+              
+              
+              <h2>Use</h2>
+              <div class="baseline">Web applications and tools, available for making our life easier.</div>
+              <table cellpadding="0" cellspacing="0" border="0" class="meat">
+              	
+              		<tr>
+              			<td>
+              				<a href="http://frontendtest.com/">Frontend Test</a>
+              				
+              			</td>
+              			<td class="date">
+              				
+              				
+              					
+              						<img class="icon" src="ico/tool.png" height="18" width="18" align="right" alt="tool" />
+              					
+              				
+              			</td>
+              		</tr>
+              		<tr>
+              			<td colspan="2" class="comment">
+              				A tool for analysing elements of your websites.
+              			</td>
+              		</tr>
+              	
+              		<tr>
+              			<td>
+              				<a href="http://reader.aol.com/">Aol reader</a>
+              				
+              			</td>
+              			<td class="date">
+              				
+              				
+              					
+              						<img class="icon" src="ico/tool.png" height="18" width="18" align="right" alt="tool" />
+              					
+              				
+              			</td>
+              		</tr>
+              		<tr>
+              			<td colspan="2" class="comment">
+              				Google had to kill the reader for us to get reminded that AOL was not dead.
+              			</td>
+              		</tr>
+              	
+              		<tr>
+              			<td>
+              				<a href="https://github.com/blog/1542-task-lists-in-gist">Task Lists in Gist</a>
+              				
+              			</td>
+              			<td class="date">
+              				
+              				
+              					
+              						<img class="icon" src="ico/tool.png" height="18" width="18" align="right" alt="tool" />
+              					
+              				
+              			</td>
+              		</tr>
+              		<tr>
+              			<td colspan="2" class="comment">
+              				An interesting new Gist feature.
+              			</td>
+              		</tr>
+              	
+              		<tr>
+              			<td>
+              				<a href="http://theymakeicons.com">They make icons</a>
+              				
+              			</td>
+              			<td class="date">
+              				
+              				
+              					
+              						<img class="icon" src="ico/web.png" height="18" width="18" align="right" alt="web" />
+              					
+              				
+              			</td>
+              		</tr>
+              		<tr>
+              			<td colspan="2" class="comment">
+              				A promising collection of huge icons.
+              			</td>
+              		</tr>
+              	
+              </table>
+              
+              <h2>Install</h2>
+              <div class="baseline">A selection of gems or applications updated during past week.</div>
+              <table cellpadding="0" cellspacing="0" border="0" class="meat">
+              	
+              		<tr>
+              			<td>
+              				<a href="http://www.ruby-lang.org/en/news/2013/06/27/hostname-check-bypassing-vulnerability-in-openssl-client-cve-2013-4073/">Ruby</a>
+              				
+              			</td>
+              			<td class="date">
+              				
+              				
+              					
+              						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
+              					
+              				
+              			</td>
+              		</tr>
+              		<tr>
+              			<td colspan="2" class="comment">
+              				A security release related to SSL client lib in ruby.
+              			</td>
+              		</tr>
+              	
+              		<tr>
+              			<td>
+              				<a href="http://weblog.rubyonrails.org/2013/6/25/Rails-4-0-final/">Rails 4.0.0</a>
+              				
+              			</td>
+              			<td class="date">
+              				
+              				
+              					
+              						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
+              					
+              				
+              			</td>
+              		</tr>
+              		<tr>
+              			<td colspan="2" class="comment">
+              				As planned the final version of rails 4 is now available.
+              			</td>
+              		</tr>
+              	
+              		<tr>
+              			<td>
+              				<a href="http://www.sublimetext.com/blog/articles/sublime-text-3-public-beta">SublimeText 3</a>
+              				
+              			</td>
+              			<td class="date">
+              				
+              				
+              					
+              						<img class="icon" src="ico/tool.png" height="18" width="18" align="right" alt="tool" />
+              					
+              				
+              			</td>
+              		</tr>
+              		<tr>
+              			<td colspan="2" class="comment">
+              				Now available as a public beta.
+              			</td>
+              		</tr>
+              	
+              		<tr>
+              			<td>
+              				<a href="https://github.com/monbro/opensemanticapi">Open semantic api</a>
+              				
+              			</td>
+              			<td class="date">
+              				
+              				
+              					
+              						<img class="icon" src="ico/js.png" height="18" width="18" align="right" alt="js" />
+              					
+              				
+              			</td>
+              		</tr>
+              		<tr>
+              			<td colspan="2" class="comment">
+              				An interesting tool for building wording databases.
+              			</td>
+              		</tr>
+              	
+              		<tr>
+              			<td>
+              				<a href="https://www.mozilla.org/en-US/firefox/22.0/releasenotes/">Firefox 22</a>
+              				
+              			</td>
+              			<td class="date">
+              				
+              				
+              					
+              						<img class="icon" src="ico/tool.png" height="18" width="18" align="right" alt="tool" />
+              					
+              				
+              			</td>
+              		</tr>
+              		<tr>
+              			<td colspan="2" class="comment">
+              				Chrome is big, but firefox is not gone, here is the changelog for the new version.
+              			</td>
+              		</tr>
+              	
+              		<tr>
+              			<td>
+              				<a href="http://www.trackingjs.com/">Tracking.js</a>
+              				
+              			</td>
+              			<td class="date">
+              				
+              				
+              					
+              						<img class="icon" src="ico/js.png" height="18" width="18" align="right" alt="js" />
+              					
+              				
+              			</td>
+              		</tr>
+              		<tr>
+              			<td colspan="2" class="comment">
+              				Add a layer of interaction on web pages using teh webcam and gestures.
+              			</td>
+              		</tr>
+              	
+              		<tr>
+              			<td>
+              				<a href="http://dunxrion.github.io/aristochart/">Ariostochart</a>
+              				
+              			</td>
+              			<td class="date">
+              				
+              				
+              					
+              						<img class="icon" src="ico/js.png" height="18" width="18" align="right" alt="js" />
+              					
+              				
+              			</td>
+              		</tr>
+              		<tr>
+              			<td colspan="2" class="comment">
+              				Yet another charts js library, this one is themable.
+              			</td>
+              		</tr>
+              	
+              		<tr>
+              			<td>
+              				<a href="http://tympanus.net/Development/ModalWindowEffects/">Nifty Modal Window Effects</a>
+              				
+              			</td>
+              			<td class="date">
+              				
+              				
+              					
+              						<img class="icon" src="ico/css3.png" height="18" width="18" align="right" alt="css3" />
+              					
+              				
+              			</td>
+              		</tr>
+              		<tr>
+              			<td colspan="2" class="comment">
+              				Some inspiration for different modal window appearances.
+              			</td>
+              		</tr>
+              	
+              		<tr>
+              			<td>
+              				<a href="http://bunkat.github.io/later/">Later.js</a>
+              				
+              			</td>
+              			<td class="date">
+              				
+              				
+              					
+              						<img class="icon" src="ico/js.png" height="18" width="18" align="right" alt="js" />
+              					
+              				
+              			</td>
+              		</tr>
+              		<tr>
+              			<td colspan="2" class="comment">
+              				Define complex schedules in js.
+              			</td>
+              		</tr>
+              	
+              </table>
+              
+              <h2>Read</h2>
+              <div class="baseline">From the blogosphere or news feeds ...</div>
+              <table cellpadding="0" cellspacing="0" border="0" class="meat">
+              	
+              		<tr>
+              			<td>
+              				<a href="http://jonrimmer.github.io/are-we-componentized-yet/">Are We Componentized Yet?</a>
+              				
+              			</td>
+              			<td class="date">
+              				jun 20
+              				
+              					
+              						<img class="icon" src="ico/html5.png" height="18" width="18" align="right" alt="html5" />
+              					
+              				
+              			</td>
+              		</tr>
+              		<tr>
+              			<td colspan="2" class="comment">
+              				A checklist of what we need to consider making web components a reality.
+              			</td>
+              		</tr>
+              	
+              		<tr>
+              			<td>
+              				<a href="http://michaelrbernste.in/2013/06/20/what-is-declarative-programming.html">What Is Declarative Programming?</a>
+              				
+              			</td>
+              			<td class="date">
+              				jun 20
+              				
+              					
+              						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
+              					
+              				
+              			</td>
+              		</tr>
+              		<tr>
+              			<td colspan="2" class="comment">
+              				Explanation about what this programming pattern is all about.
+              			</td>
+              		</tr>
+              	
+              		<tr>
+              			<td>
+              				<a href="http://phonegap.com/blog/2013/06/20/coming-soon-phonegap30/">What to expect in PhoneGap 3.0</a>
+              				
+              			</td>
+              			<td class="date">
+              				jun 20
+              				
+              					
+              						<img class="icon" src="ico/mobile.png" height="18" width="18" align="right" alt="mobile" />
+              					
+              				
+              			</td>
+              		</tr>
+              		<tr>
+              			<td colspan="2" class="comment">
+              				A preview of the new features the next phonegap will propose.
+              			</td>
+              		</tr>
+              	
+              		<tr>
+              			<td>
+              				<a href="http://nicolashery.com/fast-mobile-friendly-website-with-jekyll/">Creating a fast and mobile-friendly website with Jekyll</a>
+              				
+              			</td>
+              			<td class="date">
+              				jun 21
+              				
+              					
+              						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
+              					
+              				
+              			</td>
+              		</tr>
+              		<tr>
+              			<td colspan="2" class="comment">
+              				A very detailled howto for jekyll, featuring grunt setup, compass-inuit, bower, discuss.
+              			</td>
+              		</tr>
+              	
+              		<tr>
+              			<td>
+              				<a href="https://medium.com/i-m-h-o/a721d44b97be">Content-first design ain’t herding cats</a>
+              				
+              			</td>
+              			<td class="date">
+              				jun 22
+              				
+              					
+              						<img class="icon" src="ico/web.png" height="18" width="18" align="right" alt="web" />
+              					
+              				
+              			</td>
+              		</tr>
+              		<tr>
+              			<td colspan="2" class="comment">
+              				A radical view on what web content now became. Reality check ?
+              			</td>
+              		</tr>
+              	
+              		<tr>
+              			<td>
+              				<a href="http://rubysource.com/using-wisper-to-decompose-applications/">Using Wisper to Decompose Applications</a>
+              				
+              			</td>
+              			<td class="date">
+              				jun 24
+              				
+              					
+              						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
+              					
+              				
+              			</td>
+              		</tr>
+              		<tr>
+              			<td colspan="2" class="comment">
+              				Example of use of wisper for event management in ruby apps, with a service object.
+              			</td>
+              		</tr>
+              	
+              		<tr>
+              			<td>
+              				<a href="http://blog.carbonfive.com/2013/06/24/sinatra-best-practices-part-one/">Sinatra Best Practices: Part One</a>
+              				
+              			</td>
+              			<td class="date">
+              				jun 24
+              				
+              					
+              						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
+              					
+              				
+              			</td>
+              		</tr>
+              		<tr>
+              			<td colspan="2" class="comment">
+              				Some advanced tips about sinatra.
+              			</td>
+              		</tr>
+              	
+              		<tr>
+              			<td>
+              				<a href="http://net.tutsplus.com/tutorials/javascript-ajax/advanced-unit-testing-techniques-in-javascript/">Advanced Unit Testing Techniques in JavaScript</a>
+              				
+              			</td>
+              			<td class="date">
+              				jun 25
+              				
+              					
+              						<img class="icon" src="ico/js.png" height="18" width="18" align="right" alt="js" />
+              					
+              				
+              			</td>
+              		</tr>
+              		<tr>
+              			<td colspan="2" class="comment">
+              				Patterns for testing js using buster.js including spies, stubs, mocks, expectations, and time travel.
+              			</td>
+              		</tr>
+              	
+              		<tr>
+              			<td>
+              				<a href="https://www.honeybadger.io/blog/2013/06/25/stop-using-rubygemsorg-in-production">The case against using RubyGems.org in production</a>
+              				
+              			</td>
+              			<td class="date">
+              				jun 25
+              				
+              					
+              						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
+              					
+              				
+              			</td>
+              		</tr>
+              		<tr>
+              			<td colspan="2" class="comment">
+              				Many good points about self-serving your gems from your own server in production.
+              			</td>
+              		</tr>
+              	
+              		<tr>
+              			<td>
+              				<a href="http://ariya.ofilabs.com/2013/06/optimizing-css3-for-gpu-compositing.html">Optimizing CSS3 for GPU Compositing</a>
+              				
+              			</td>
+              			<td class="date">
+              				jun 26
+              				
+              					
+              						<img class="icon" src="ico/css3.png" height="18" width="18" align="right" alt="css3" />
+              					
+              				
+              			</td>
+              		</tr>
+              		<tr>
+              			<td colspan="2" class="comment">
+              				Some background info and tips about hardware browsers acceleration.
+              			</td>
+              		</tr>
+              	
+              		<tr>
+              			<td>
+              				<a href="http://nerds.airbnb.com/performance-tuning/">Performance Tuning</a>
+              				
+              			</td>
+              			<td class="date">
+              				jun 26
+              				
+              					
+              						<img class="icon" src="ico/web.png" height="18" width="18" align="right" alt="web" />
+              					
+              				
+              			</td>
+              		</tr>
+              		<tr>
+              			<td colspan="2" class="comment">
+              				How AirBnb tracks performances on their apps.
+              			</td>
+              		</tr>
+              	
+              		<tr>
+              			<td>
+              				<a href="http://rubysource.com/arduino-and-ruby-create-a-gmail-notifier/">Arduino and Ruby: Create a GMail Notifier</a>
+              				
+              			</td>
+              			<td class="date">
+              				jun 27
+              				
+              					
+              						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
+              					
+              				
+              			</td>
+              		</tr>
+              		<tr>
+              			<td colspan="2" class="comment">
+              				Make some blinking leds when a mail gets in, using arduino.
+              			</td>
+              		</tr>
+              	
+              		<tr>
+              			<td>
+              				<a href="https://blog.engineyard.com/2013/whats-new-and-awesome-in-ruby-2">What’s New and Awesome in Ruby 2?</a>
+              				
+              			</td>
+              			<td class="date">
+              				jun 27
+              				
+              					
+              						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
+              					
+              				
+              			</td>
+              		</tr>
+              		<tr>
+              			<td colspan="2" class="comment">
+              				Another quick checklist of what is new in ruby 2 and rails 4.
+              			</td>
+              		</tr>
+              	
+              		<tr>
+              			<td>
+              				<a href="http://batsov.com/articles/2013/06/28/the-elements-of-style-in-ruby-number-3-make-sure-something-is-an-array/">Make Sure Something Is an Array</a>
+              				
+              			</td>
+              			<td class="date">
+              				jun 28
+              				
+              					
+              						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
+              					
+              				
+              			</td>
+              		</tr>
+              		<tr>
+              			<td colspan="2" class="comment">
+              				A small tip about checking arrays in ruby.
+              			</td>
+              		</tr>
+              	
+              		<tr>
+              			<td>
+              				<a href="http://blog.carbonfive.com/2013/06/28/sinatra-best-practices-part-two/">Sinatra Best Practices: Part Two</a>
+              				
+              			</td>
+              			<td class="date">
+              				jun 28
+              				
+              					
+              						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
+              					
+              				
+              			</td>
+              		</tr>
+              		<tr>
+              			<td colspan="2" class="comment">
+              				Some advanced tips about sinatra, this part is about testing with rspec.
+              			</td>
+              		</tr>
+              	
+              </table>
+              
+              <h2>Watch</h2>
+              <div class="baseline">Screencasts and conferences videos, or other video feeds ...</div>
+              <table cellpadding="0" cellspacing="0" border="0" class="meat">
+              	
+              		<tr>
+              			<td>
+              				<a href="http://devblog.avdi.org/2013/06/24/rubytapas-freebie-xmpfilter/">Ruby Tapas freebie: Xmpfilter</a>
+              				<span class="duration">(2m)</span>
+              			</td>
+              			<td class="date">
+              				jun 24
+              				
+              					
+              						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
+              					
+              				
+              			</td>
+              		</tr>
+              		<tr>
+              			<td colspan="2" class="comment">
+              				Xmpfilter is a part of the rcodetools gem for, Avdi explains how he integrates it in vim.
+              			</td>
+              		</tr>
+              	
+              		<tr>
+              			<td>
+              				<a href="http://www.parleys.com/play/51c178ece4b0d38b54f46217/chapter0/about">Confessions of a Ruby Developer Whose Heart Was Stolen by Scala</a>
+              				<span class="duration">(42m)</span>
+              			</td>
+              			<td class="date">
+              				jun 24
+              				
+              					
+              						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
+              					
+              				
+              			</td>
+              		</tr>
+              		<tr>
+              			<td colspan="2" class="comment">
+              				An interesting talk at scala days comparing ruby and scala.
+              			</td>
+              		</tr>
+              	
+              </table>
+              
+              <h2>Listen</h2>
+              <div class="baseline">What could be heard last week ..</div>
+              <table cellpadding="0" cellspacing="0" border="0" class="meat">
+              	
+              		<tr>
+              			<td>
+              				<a href="http://episodes.gitminutes.com/2013/06/gitminutes-14-pablo-santos-on.html">Git Minutes #14</a>
+              				<span class="duration">(51m)</span>
+              			</td>
+              			<td class="date">
+              				jun 24
+              				
+              					
+              						<img class="icon" src="ico/tool.png" height="18" width="18" align="right" alt="tool" />
+              					
+              				
+              			</td>
+              		</tr>
+              		<tr>
+              			<td colspan="2" class="comment">
+              				Pablo Santos on PlasticSCM, GitSync and SemanticMerge.
+              			</td>
+              		</tr>
+              	
+              		<tr>
+              			<td>
+              				<a href="http://learn.thoughtbot.com/podcast/54">Giant robots 53</a>
+              				<span class="duration">(25m)</span>
+              			</td>
+              			<td class="date">
+              				jun 24
+              				
+              					
+              						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
+              					
+              				
+              			</td>
+              		</tr>
+              		<tr>
+              			<td colspan="2" class="comment">
+              				Build your stuff on the side and have a good time.
+              			</td>
+              		</tr>
+              	
+              		<tr>
+              			<td>
+              				<a href="http://ruby5.envylabs.com/episodes/417-episode-381-june-25-2013">Ruby5 381</a>
+              				<span class="duration">(5m)</span>
+              			</td>
+              			<td class="date">
+              				jun 25
+              				
+              					
+              						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
+              					
+              				
+              			</td>
+              		</tr>
+              		<tr>
+              			<td colspan="2" class="comment">
+              				chruby, unixserver, pry-debugger, peer review, screencasts, core team.
+              			</td>
+              		</tr>
+              	
+              		<tr>
+              			<td>
+              				<a href="http://rubyrogues.com/111-rr-book-club-explore-it-with-elisabeth-hendrickson/">RubyRogues 111</a>
+              				<span class="duration">(1h)</span>
+              			</td>
+              			<td class="date">
+              				jun 26
+              				
+              					
+              						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
+              					
+              				
+              			</td>
+              		</tr>
+              		<tr>
+              			<td colspan="2" class="comment">
+              				Book Club: Explore It! with Elisabeth Hendrickson.
+              			</td>
+              		</tr>
+              	
+              		<tr>
+              			<td>
+              				<a href="http://5by5.tv/changelog/94">The Changelog 94</a>
+              				<span class="duration">(1h)</span>
+              			</td>
+              			<td class="date">
+              				jun 26
+              				
+              					
+              						<img class="icon" src="ico/css3.png" height="18" width="18" align="right" alt="css3" />
+              					
+              				
+              			</td>
+              		</tr>
+              		<tr>
+              			<td colspan="2" class="comment">
+              				Sass, libsass, Haml and more with Hampton Catlin.
+              			</td>
+              		</tr>
+              	
+              		<tr>
+              			<td>
+              				<a href="http://ruby5.envylabs.com/episodes/418-episode-382-june-28-2013">Ruby5 382</a>
+              				<span class="duration">(6m)</span>
+              			</td>
+              			<td class="date">
+              				jun 28
+              				
+              					
+              						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
+              					
+              				
+              			</td>
+              		</tr>
+              		<tr>
+              			<td colspan="2" class="comment">
+              				rails 4, patched rubies, hakari, i18n-tasks, dokku, ruby on sails.
+              			</td>
+              		</tr>
+              	
+              		<tr>
+              			<td>
+              				<a href="http://javascriptjabber.com/065-jsj-build-tools-with-adam-hawkins/">Javascript Jabber 065</a>
+              				<span class="duration">(48m)</span>
+              			</td>
+              			<td class="date">
+              				jun 28
+              				
+              					
+              						<img class="icon" src="ico/js.png" height="18" width="18" align="right" alt="js" />
+              					
+              				
+              			</td>
+              		</tr>
+              		<tr>
+              			<td colspan="2" class="comment">
+              				Build Tools with Adam Hawkins.
+              			</td>
+              		</tr>
+              	
+              </table>
+              
+              </div>
+            </div>
+          </div>
+          <div id='footer'>
+            <a href='http://codegreenit.com'>
+              <img align='left' alt='CG' class='cg' height='57' src='img/codegreen.png' width='57'>
+            </a>
+            <a class='contact' href='mailto:news@greenruby.org'>
+              contact
+            </a>
+            The Green Ruby Newsletter is published by Mose
+            <br>
+            Sponsored by
+            <a href='http://codegreenit.com'>
+              Code Green
+            </a>
+            <br>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src='//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script>
+    <script>
+      window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')
+    </script>
+    <script src='js/static.js'></script>
+    <script>
+      document.write(unescape("%3Cscript src='http://track.codegreenit.com/piwik.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script>
+      try {
+        var piwikTracker = Piwik.getTracker("http://track.codegreenit.com/piwik.php", 6);
+        piwikTracker.trackPageView();
+        piwikTracker.enableLinkTracking();
+      } catch( err ) {}
+    </script>
+    <noscript>
+      <img alt='' src='http://track.codegreenit.com/piwik.php?idsite=6' style='border:0'>
+    </noscript>
+  </body>
+</html>
