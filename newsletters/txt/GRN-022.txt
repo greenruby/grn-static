@@ -1,10 +1,10 @@
 -------------------------------
-Green Ruby News #022 - jun 30th 2013
+Green Ruby News #022 - jul 7th 2013
 -------------------------------
 
 Edito
 -----------------
-This week we had a final release on rails 4.0, a security release of ruby 1.9.3 and 2.0.0, and the retirement of ruby 1.8.7.
+There is some activity happening for Green Ruby on <a href="http://github.com/greenruby">github</a>. We are preparing a collaborative newsroom or something like that. Feel free to jupm in if you feel like (the channel #greenruby on freenode is always open).
 
 mose - the green ruby editor
 xenor - the informer
@@ -15,210 +15,165 @@ Use
 -----------------
 Web applications and tools, available for making our life easier.
 
-* Frontend Test
+* Github Releases
   tool - 
-  http://frontendtest.com/
-  A tool for analysing elements of your websites.
+  https://github.com/blog/1547-release-your-software
+  Another new feature on github for handling releases, pretty neat.
 
-* Aol reader
+* Rails security
+  rb - 
+  http://railssecurity.com/
+  A monthly security newsletter from Code Climate.
+
+* A Free icons set
   tool - 
-  http://reader.aol.com/
-  Google had to kill the reader for us to get reminded that AOL was not dead.
+  http://sixrevisions.com/freebies/icons/free-icons-1000/
+  Always useful to get more icons at hand (1000 free vector icons there).
 
-* Task Lists in Gist
+* Sketchplanations
   tool - 
-  https://github.com/blog/1542-task-lists-in-gist
-  An interesting new Gist feature.
-
-* They make icons
-  web - 
-  http://theymakeicons.com
-  A promising collection of huge icons.
+  http://www.sketchplanations.com/
+  Ome sketch per day in your mailbox.
 
 
 Install
 -----------------
 A selection of gems or applications updated during past week.
 
-* Ruby
-  rb - 
-  http://www.ruby-lang.org/en/news/2013/06/27/hostname-check-bypassing-vulnerability-in-openssl-client-cve-2013-4073/
-  A security release related to SSL client lib in ruby.
-
-* Rails 4.0.0
-  rb - 
-  http://weblog.rubyonrails.org/2013/6/25/Rails-4-0-final/
-  As planned the final version of rails 4 is now available.
-
-* SublimeText 3
-  tool - 
-  http://www.sublimetext.com/blog/articles/sublime-text-3-public-beta
-  Now available as a public beta.
-
-* Open semantic api
-  js - 
-  https://github.com/monbro/opensemanticapi
-  An interesting tool for building wording databases.
-
-* Firefox 22
-  tool - 
-  https://www.mozilla.org/en-US/firefox/22.0/releasenotes/
-  Chrome is big, but firefox is not gone, here is the changelog for the new version.
-
-* Tracking.js
-  js - 
-  http://www.trackingjs.com/
-  Add a layer of interaction on web pages using teh webcam and gestures.
-
-* Ariostochart
-  js - 
-  http://dunxrion.github.io/aristochart/
-  Yet another charts js library, this one is themable.
-
-* Nifty Modal Window Effects
+* Style-Guide-Boilerplate
   css3 - 
-  http://tympanus.net/Development/ModalWindowEffects/
-  Some inspiration for different modal window appearances.
+  https://github.com/bjankord/Style-Guide-Boilerplate
+  Making a style guide helps a lot when various people have to use same design.
 
-* Later.js
+* Hitch.js
   js - 
-  http://bunkat.github.io/later/
-  Define complex schedules in js.
+  http://www.hitchjs.com/
+  An extensible-web way to write CSS.
+
+* Stringer
+  js - 
+  https://github.com/swanson/stringer
+  Anti-social RSS reader (now that google reader is dead).
+
+* Autobench
+  rb - 
+  http://mervine.net/projects/gems/autobench
+  Gathers web metrics using phantom.js.
+
+* Microformats2
+  rb - 
+  https://github.com/G5/microformats2/
+  A lib to extract microformat data from web pages.
+
+* Phantomflow
+  rb - 
+  https://github.com/Huddle/PhantomFlow
+  User interface testing and visualisation.
 
 
 Read
 -----------------
 From the blogosphere or news feeds ...
 
-* Are We Componentized Yet?
-  html5 - jun 20
-  http://jonrimmer.github.io/are-we-componentized-yet/
-  A checklist of what we need to consider making web components a reality.
+* Writing javascript tests with tape
+  js - jun 30
+  http://www.catonmat.net/blog/writing-javascript-tests-with-tape/
+  Tape is a TAP-style testing tool in node for javascipt, here used in combination with ci.testling.com
 
-* What Is Declarative Programming?
-  rb - jun 20
-  http://michaelrbernste.in/2013/06/20/what-is-declarative-programming.html
-  Explanation about what this programming pattern is all about.
+* Add Rules to Stylesheets with JavaScript
+  js - jul 1
+  http://davidwalsh.name/add-rules-stylesheets
+  Take over CSS management within javascript world.
 
-* What to expect in PhoneGap 3.0
-  mobile - jun 20
-  http://phonegap.com/blog/2013/06/20/coming-soon-phonegap30/
-  A preview of the new features the next phonegap will propose.
+* Introducing the HTML5 FullScreen API?
+  html5 - jul 1
+  http://demosthenes.info/blog/708/Introducing-the-HTML5-FullScreen-API
+  When your web app makes sense full screen, here is the code for it.
 
-* Creating a fast and mobile-friendly website with Jekyll
-  rb - jun 21
-  http://nicolashery.com/fast-mobile-friendly-website-with-jekyll/
-  A very detailled howto for jekyll, featuring grunt setup, compass-inuit, bower, discuss.
+* Running RSpec tests from the browser
+  js - jul 1
+  http://blog.jcoglan.com/2013/07/01/running-rspec-tests-from-the-browser/
+  A demonstration of use of jstest combined with ruby rspec tests.
 
-* Content-first design ain’t herding cats
-  web - jun 22
-  https://medium.com/i-m-h-o/a721d44b97be
-  A radical view on what web content now became. Reality check ?
+* Exploring Rack
+  rb - jul 1
+  http://hub.tutsplus.com/tutorials/exploring-rack--net-32976
+  Good review about Rack and how to write a middleware.
 
-* Using Wisper to Decompose Applications
-  rb - jun 24
-  http://rubysource.com/using-wisper-to-decompose-applications/
-  Example of use of wisper for event management in ruby apps, with a service object.
+* 9 Mind-Blowing Canvas Demos
+  css3 - jul 1
+  http://davidwalsh.name/canvas-demos
+  Amazing html5 effects, better use chrome if you really want to see everything there.
 
-* Sinatra Best Practices: Part One
-  rb - jun 24
-  http://blog.carbonfive.com/2013/06/24/sinatra-best-practices-part-one/
-  Some advanced tips about sinatra.
+* Deployment Best Practices
+  tool - jul 2
+  https://blog.engineyard.com/2013/deployment-best-practices
+  Dome basic deployment common sense, with our personal favorite : never deploy on friday !
 
-* Advanced Unit Testing Techniques in JavaScript
-  js - jun 25
-  http://net.tutsplus.com/tutorials/javascript-ajax/advanced-unit-testing-techniques-in-javascript/
-  Patterns for testing js using buster.js including spies, stubs, mocks, expectations, and time travel.
+* Intermediate Ember Controller Concepts
+  js - jul 3
+  http://blog.gaslight.co/post/54512786990/intermediate-ember-controller-concepts
+  Some light on a few concepts related to Ember controllers.
 
-* The case against using RubyGems.org in production
-  rb - jun 25
-  https://www.honeybadger.io/blog/2013/06/25/stop-using-rubygemsorg-in-production
-  Many good points about self-serving your gems from your own server in production.
+* 16 Best HTML5 Frameworks for Rapid Development
+  html5 - jul 3
+  http://codegeekz.com/best-html5-frameworks/
+  For games or for web apps, here are some html5 frameworks.
 
-* Optimizing CSS3 for GPU Compositing
-  css3 - jun 26
-  http://ariya.ofilabs.com/2013/06/optimizing-css3-for-gpu-compositing.html
-  Some background info and tips about hardware browsers acceleration.
-
-* Performance Tuning
-  web - jun 26
-  http://nerds.airbnb.com/performance-tuning/
-  How AirBnb tracks performances on their apps.
-
-* Arduino and Ruby: Create a GMail Notifier
-  rb - jun 27
-  http://rubysource.com/arduino-and-ruby-create-a-gmail-notifier/
-  Make some blinking leds when a mail gets in, using arduino.
-
-* What’s New and Awesome in Ruby 2?
-  rb - jun 27
-  https://blog.engineyard.com/2013/whats-new-and-awesome-in-ruby-2
-  Another quick checklist of what is new in ruby 2 and rails 4.
-
-* Make Sure Something Is an Array
-  rb - jun 28
-  http://batsov.com/articles/2013/06/28/the-elements-of-style-in-ruby-number-3-make-sure-something-is-an-array/
-  A small tip about checking arrays in ruby.
-
-* Sinatra Best Practices: Part Two
-  rb - jun 28
-  http://blog.carbonfive.com/2013/06/28/sinatra-best-practices-part-two/
-  Some advanced tips about sinatra, this part is about testing with rspec.
+* Activity Feeds Based on Redis
+  rb - jul 4
+  http://rubysource.com/activity-feeds-based-on-redis/
+  Example of use of the redis_timeline gem in a rails app.
 
 
 Watch
 -----------------
 Screencasts and conferences videos, or other video feeds ...
 
-* Ruby Tapas freebie: Xmpfilter
-  rb - jun 24 - 2m
-  http://devblog.avdi.org/2013/06/24/rubytapas-freebie-xmpfilter/
-  Xmpfilter is a part of the rcodetools gem for, Avdi explains how he integrates it in vim.
+* Building a mocking library
+  rb - jun 28 - 44m
+  http://www.youtube.com/watch?v=2aYdtS7FZJA
+  Talk by Andy Lindeman detailling how to write a lib that does mocking. Live TDD coding.
 
-* Confessions of a Ruby Developer Whose Heart Was Stolen by Scala
-  rb - jun 24 - 42m
-  http://www.parleys.com/play/51c178ece4b0d38b54f46217/chapter0/about
-  An interesting talk at scala days comparing ruby and scala.
+* Motion in the Middle - RubyMotion as a Gateway to iOs
+  mobile - jul 2 - 11m
+  http://www.youtube.com/watch?v=MliQDCrTsNU
+  A microtalk from Goruco about RubyMotion.
+
+* Functional Programming and Ruby by Pat Shaughnessy 
+  rb - jul 3 - 42m
+  http://www.youtube.com/watch?v=5ZjwEPupybw
+  From Goruco again, comparison between Haskell and Ruby.
 
 
 Listen
 -----------------
 What could be heard last week ..
 
-* Git Minutes #14
-  tool - jun 24 - 51m
-  http://episodes.gitminutes.com/2013/06/gitminutes-14-pablo-santos-on.html
-  Pablo Santos on PlasticSCM, GitSync and SemanticMerge.
+* Giant robots 55
+  rb - jul 1 - 42m
+  http://learn.thoughtbot.com/podcast/55
+  The Value of Flow, with Cameron Moll.
 
-* Giant robots 53
-  rb - jun 24 - 25m
-  http://learn.thoughtbot.com/podcast/54
-  Build your stuff on the side and have a good time.
+* Ruby5 383
+  rb - jul 2 - 5m
+  http://ruby5.envylabs.com/episodes/419-episode-383-july-2-2013
+  One liner, better controllers, verified_double, mocking library, ready for rails 4.
 
-* Ruby5 381
-  rb - jun 25 - 5m
-  http://ruby5.envylabs.com/episodes/417-episode-381-june-25-2013
-  chruby, unixserver, pry-debugger, peer review, screencasts, core team.
+* RubyRogues 112
+  rb - jul 3 - 1h
+  http://rubyrogues.com/112-rr-community-hacks/
+  Community Hacks, discussion about the ruby community.
 
-* RubyRogues 111
-  rb - jun 26 - 1h
-  http://rubyrogues.com/111-rr-book-club-explore-it-with-elisabeth-hendrickson/
-  Book Club: Explore It! with Elisabeth Hendrickson.
+* The Changelog 95
+  tool - jul 3 - 1h
+  http://5by5.tv/changelog/95
+  Civic hacking with Mike and Ezra at Code for America.
 
-* The Changelog 94
-  css3 - jun 26 - 1h
-  http://5by5.tv/changelog/94
-  Sass, libsass, Haml and more with Hampton Catlin.
-
-* Ruby5 382
-  rb - jun 28 - 6m
-  http://ruby5.envylabs.com/episodes/418-episode-382-june-28-2013
-  rails 4, patched rubies, hakari, i18n-tasks, dokku, ruby on sails.
-
-* Javascript Jabber 065
-  js - jun 28 - 48m
-  http://javascriptjabber.com/065-jsj-build-tools-with-adam-hawkins/
-  Build Tools with Adam Hawkins.
+* Javascript Jabber 066
+  js - jul 5 - 40m
+  http://javascriptjabber.com/066-jsj-transitioning-to-javascript/
+  Transitioning to JavaScript.
 
 
 
