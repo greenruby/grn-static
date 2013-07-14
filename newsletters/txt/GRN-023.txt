@@ -1,0 +1,224 @@
+-------------------------------
+Green Ruby News #023 - jul 14th 2013
+-------------------------------
+
+Edito
+-----------------
+This week edito is going to be a geek quote: "I would love to change the world, but they won't give me the source code". Let's take 42 seconds to meditate about it.
+
+mose - the green ruby editor
+xenor - the informer
+http://greenruby.org
+
+
+Use
+-----------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+* shit for making websites
+  tool - 
+  http://shitformakingwebsites.com/
+  A list of resources for making websites.
+
+* Codio
+  tool - 
+  https://codio.com/
+  A new web coding IDE for teaching, learning, pairing. Free for public project.
+
+* Side Projects
+  tool - 
+  http://sideprojects.web3canvas.com/
+  A collection of side projects of designers and developers around the world.
+
+* Stylie
+  css3 - 
+  http://jeremyckahn.github.io/stylie/
+  A CSS animation tool, for testing and exploring.
+
+* Case study: 538.nl
+  tool - 
+  http://supersteil.com/work/538/538_site/
+  An amazingly detailed case study on the UI of a website, there are a lot of good ideas to get inspired with.
+
+* Javascript OO
+  js - 
+  http://www.javascriptoo.com/
+  A directory of javascript projects, with examples.
+
+* Long shadow generator
+  css3 - 
+  http://sandbox.juan-i.com/longshadows/
+  An online tool to design long shadows with css.
+
+* Entypo
+  css3 - 
+  http://www.entypo.com/
+  Another collection of creative commons icons.
+
+* atMedia
+  css3 - 
+  http://atmedia.info/
+  Quickly and effectively identify required media queries for specific devices.
+
+
+Install
+-----------------
+A selection of gems or applications updated during past week.
+
+* Final Term
+  tool - 
+  http://finalterm.org/
+  A new advanced terminal emulator for linux with a bunch of great features.
+
+* Exception Notification
+  rb - 
+  http://smartinez87.github.io/exception_notification/
+  Version 4 of this very useful tool has been released, now with more notifiers (and webhook for my irc bot!)
+
+* Wiselinks
+  js - 
+  http://igor-alexandrov.github.io/blog/2013/07/11/the-way-to-wiselinks-1-dot-0/
+  This alternative to Turbolinks ships version 1.0, time to give it a try.
+
+* Arcane
+  rb - 
+  https://github.com/cloudsdaleapp/arcane
+  Strong parameters made object oriented.
+
+* Leaflet
+  js - 
+  http://leafletjs.com/
+  A javaScript library for Mobile-Friendly Interactive Maps.
+
+* Lazyload
+  js - 
+  http://vvo.github.io/lazyload/
+  Lazyload images, iframes, widgets with a ~1kb standalone script.
+
+
+Read
+-----------------
+From the blogosphere or news feeds ...
+
+* CSS Balls
+  css3 - jul 5
+  http://hop.ie/blog/balls/
+  Very cool walkthrough about making balls with CSS.
+
+* Developing Google Chrome Extensions
+  js - jul 5
+  http://net.tutsplus.com/tutorials/javascript-ajax/developing-google-chrome-extensions/
+  How to write chrome extensions with just a bit of javascript and json.
+
+* Digging into Sass
+  css3 - jul 8
+  http://hugogiraudel.com/2013/07/08/digging-into-my-slides-sass/
+  The expanded explanation from a talk about Sass, pretty detailed.
+
+* Authentication with Warden, devise-less
+  rb - jul 8
+  http://pothibo.com/2013/07/authentication-with-warden-devise-less/
+  Devise is a great tool for authentication, but warden can be used alone for greater control.
+
+* The Self-Pipe Trick Explained
+  rb - jul 9
+  http://rubysource.com/the-self-pipe-trick-explained/
+  An overview of the use of Signal and IO.Pipe in foreman.
+
+* CSS Custom Filters
+  css3 - jul 9
+  http://www.inserthtml.com/2013/07/css-custom-filters/
+  Using OpenGL for doing kickass css effects with premade shaders.
+
+* Comprehensive logging with Rails
+  rb - jul 10
+  http://toreto.re/rails-logging/
+  Setup Rails using ZeroMQ for routing log information to somewhere (elasticsearch for example).
+
+* Useful GitHub patterns
+  tool - jul 10
+  http://blog.quickpeople.co.uk/2013/07/10/useful-github-patterns/
+  List of use cases involving github collaboration environment.
+
+* GitHub Flow in the Browser
+  tool - jul 11
+  https://github.com/blog/1557-github-flow-in-the-browser
+  Web-only workflow for working on github projects.
+
+* Build a Sinatra MVC Framework
+  rb - jul 11
+  http://rubysource.com/build-a-sinatra-mvc-framework/
+  An interesting setup for Sinatra to behave like Rails, without the weight (nor the candies).
+
+
+Watch
+-----------------
+Screencasts and conferences videos, or other video feeds ...
+
+* The Future of Selectors
+  js - jun 30 - 34m
+  https://www.youtube.com/watch?v=KTDsCB7ujXU
+  Interesting talk at jQuery conf about selectors.
+
+* Ruby Hangout with AAron Patterson
+  rb - jul 10 - 1h23
+  https://www.youtube.com/watch?v=fuiCtVchIW8
+  Talk from a front end dev at coursera.
+
+* HTML5 Feature Detection & Fallback
+  html5 - jul 12 - 1h
+  https://www.youtube.com/watch?v=TgWl5HD9I88
+  The monthly online meetup this time with Tenderlove, as funny as usual.
+
+
+Listen
+-----------------
+What could be heard last week ..
+
+* Giant robots 56
+  rb - jul 8 - 37m
+  http://learn.thoughtbot.com/podcast/56
+  Code in a Bubble Bath with Alex MacCaw.
+
+* GitMinutes 15
+  rb - jul 8 - 48m
+  http://episodes.gitminutes.com/2013/07/gitminutes-15-ryan-hodson-on-learning.html
+  Ryan Hodson on Learning Git.
+
+* Ruby5 384
+  rb - jul 9 - 7m
+  http://ruby5.envylabs.com/episodes/420-episode-384-july-9-2013
+  declutter, puma, exception notifier, ettu, octopus, self-pipe.
+
+* RubyRogues 113
+  rb - jul 10 - 1h10
+  http://rubyrogues.com/113-rr-devops-with-nathen-harvey/
+  DevOps with Nathen Harvey.
+
+* Ruby5 385
+  rb - jul 12 - 6m
+  http://ruby5.envylabs.com/episodes/421-episode-385-july-12th-2013
+  Rspec, rails security, heroku pipelines, bogus, drink menu, vinscript.
+
+
+
+=====================
+
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+*|TWITTER:PROFILEURL|*
+follow on Twitter
+
+*|FORWARD|*
+forward to a friend
+
+*|LIST:SUBSCRIBE|*
+Subscribe
+
+Copyright (c) *|CURRENT_YEAR|* Mose Ltd &amp; Code Green IT
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a Creative Commons Attribution-ShareAlike 3.0 License
+

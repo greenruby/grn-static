@@ -10,11 +10,22 @@ PATH
 GEM
   remote: https://rubygems.org/
   specs:
+    chunky_png (1.2.8)
+    compass (0.12.2)
+      chunky_png (~> 1.2)
+      fssm (>= 0.2.7)
+      sass (~> 3.1)
+    compass-h5bp (0.1.1)
+      compass
+    fssm (0.2.10)
     haml (4.0.3)
       tilt
     json (1.8.0)
+    oily_png (1.1.0)
+      chunky_png (~> 1.2.7)
     rake (10.1.0)
     rdiscount (2.1.6)
+    sass (3.2.9)
     tilt (1.4.1)
 
 PLATFORMS
@@ -22,6 +33,9 @@ PLATFORMS
 
 DEPENDENCIES
   alamano!
+  compass
+  compass-h5bp
   haml
   json
+  oily_png
   rdiscount
