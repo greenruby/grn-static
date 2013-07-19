@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'alamano', path: '../alamano'
+gem 'alamano', github: 'greenruby/alamano'
 
 
 # temporary, will get from alamano when done

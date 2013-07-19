@@ -1,5 +1,6 @@
-PATH
-  remote: ../alamano
+GIT
+  remote: git://github.com/greenruby/alamano.git
+  revision: 37a2357f7e33fc97450c6f162eecc0502b471112
   specs:
     alamano (0.0.1)
       haml
