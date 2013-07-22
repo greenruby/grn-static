@@ -1,112 +1,81 @@
 ---
-edition: "023"
-pubdate: "jul 14th 2013"
+edition: "024"
+pubdate: "jul 21th 2013"
 edito:
-  "This week edito is going to be a geek quote: \"I would love to change the world, but they won't give me the source code\". Let's take a minute to meditate about it."
+  "There was a need for that new section 'Look' for a while. I always have links to interesting UI and never know where to put them. "
 
 topics:
+
+- title: Look
+  baseline:
+    "Examples of UI/UX, graphic performance, posts about web design and responsive things."
+  links:
+
+  - title: Creative And Innovative Navigation Designs
+    url: "http://www.smashingmagazine.com/2013/07/11/innovative-navigation-designs/"
+    comment: "A list of websites that get very creative about their navigation."
+    tags:
+      - html5
+
+  - title: 9 Mind-Blowing WebGL Demos
+    url: "http://davidwalsh.name/webgl-demos"
+    comment: "Impressive implementations of 3D in browser."
+    tags:
+      - html5
+
 
 - title: Use
   baseline:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: shit for making websites
-    url: "http://shitformakingwebsites.com/"
-    comment: "A list of resources for making websites."
-    tags:
-      - tool
-
-  - title: Codio
-    url: "https://codio.com/"
-    comment: "A new web coding IDE for teaching, learning, pairing. Free for public project."
-    tags:
-      - tool
-
-  - title: Side Projects
-    url: "http://sideprojects.web3canvas.com/"
-    comment: "A collection of side projects of designers and developers around the world."
-    tags:
-      - tool
-
-  - title: Stylie
-    url: "http://jeremyckahn.github.io/stylie/"
-    comment: "A CSS animation tool, for testing and exploring."
+  - title: Responsive Navigation
+    url: "http://responsivenavigation.net/"
+    comment: "Various approaches for handling navigation that scale for mobile."
     tags:
       - css3
 
-  - title: "Case study: 538.nl"
-    url: http://supersteil.com/work/538/538_site/
-    comment: "An amazingly detailed case study on the UI of a website, there are a lot of good ideas to get inspired with."
+  - title: Choose a licence
+    url: "http://choosealicense.com/"
+    comment: "A microsite by github for explaining what are the different licences you can chose for your software."
     tags:
       - tool
 
-  - title: Javascript OO
-    url: http://www.javascriptoo.com/
-    comment: "A directory of javascript projects, with examples."
+  - title: List of Chromium Command Line Switches
+    url: "http://peter.sh/experiments/chromium-command-line-switches/"
+    comment: "Pretty useful ways to launch chrome with various debug or behaviour options."
     tags:
-      - js
+      - tool
 
-  - title: Long shadow generator
-    url: http://sandbox.juan-i.com/longshadows/
-    comment: "An online tool to design long shadows with css."
+  - title: Dev Docs
+    url: "http://devdocs.io/"
+    comment: "A compilation of documentation that make sense for web developers (brought by mozilla)."
     tags:
-      - css3
+      - tool
 
-  - title: Entypo
-    url: http://www.entypo.com/
-    comment: "Another collection of creative commons icons."
+  - title: More lipsums
+    url: "http://meettheipsums.com/"
+    comment: "The classic latin Lorem Ipsum can be annoying. This site proposes a bunch of alternative fake texts."
     tags:
-      - css3
-
-  - title: atMedia
-    url: http://atmedia.info/
-    comment: "Quickly and effectively identify required media queries for specific devices."
-    tags:
-      - css3
-
-
+      - tool
 
 
 - title: Install
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: Final Term
-    url: http://finalterm.org/
-    comment: "A new advanced terminal emulator for linux with a bunch of great features."
+  - title: Daux.io
+    url: http://daux.io/
+    comment: "Another documentation generation tool for projects, based on grunt."
     tags:
       - tool
 
-  - title: Exception Notification
-    url: http://smartinez87.github.io/exception_notification/
-    comment: "Version 4 of this very useful tool has been released, now with more notifiers (and webhook for my irc bot!)"
+  - title: Bunny
+    url: http://blog.rubyrabbitmq.info/blog/2013/07/12/bunny-0-dot-9-0-final-is-released/
+    comment: "Shipping version 0.9 of this rabbitMQ client."
     tags:
       - rb
 
-  - title: Wiselinks
-    url: http://igor-alexandrov.github.io/blog/2013/07/11/the-way-to-wiselinks-1-dot-0/
-    comment: "This alternative to Turbolinks ships version 1.0, time to give it a try."
-    tags:
-      - js
-
-  - title: Arcane
-    url: https://github.com/cloudsdaleapp/arcane
-    comment: "Strong parameters made object oriented."
-    tags:
-      - rb
-
-  - title: Leaflet
-    url: http://leafletjs.com/
-    comment: "A javaScript library for Mobile-Friendly Interactive Maps."
-    tags:
-      - js
-
-  - title: Lazyload
-    url: http://vvo.github.io/lazyload/
-    comment: "Lazyload images, iframes, widgets with a ~1kb standalone script."
-    tags:
-      - js
 
 
 - title: Read
@@ -114,77 +83,54 @@ topics:
   links:
 
 
-  - title: "CSS Balls"
-    url: http://hop.ie/blog/balls/
-    pubdate: jul 5
-    comment: "Very cool walkthrough about making balls with CSS."
-    tags:
-      - css3
-
-  - title: "Developing Google Chrome Extensions"
-    url: http://net.tutsplus.com/tutorials/javascript-ajax/developing-google-chrome-extensions/
-    pubdate: jul 5
-    comment: "How to write chrome extensions with just a bit of javascript and json."
-    tags:
-      - js
-
-  - title: "Digging into Sass"
-    url: http://hugogiraudel.com/2013/07/08/digging-into-my-slides-sass/
-    pubdate: jul 8
-    comment: "The expanded explanation from a talk about Sass, pretty detailed."
-    tags:
-      - css3
-
-  - title: "Authentication with Warden, devise-less"
-    url: http://pothibo.com/2013/07/authentication-with-warden-devise-less/
-    pubdate: jul 8
-    comment: "Devise is a great tool for authentication, but warden can be used alone for greater control."
-    tags:
-      - rb
-
-  - title: "The Self-Pipe Trick Explained"
-    url: http://rubysource.com/the-self-pipe-trick-explained/
-    pubdate: jul 9
-    comment: "An overview of the use of Signal and IO.Pipe in foreman."
-    tags:
-      - rb
-
-  - title: "CSS Custom Filters"
-    url: http://www.inserthtml.com/2013/07/css-custom-filters/
-    pubdate: jul 9
-    comment: "Using OpenGL for doing kickass css effects with premade shaders."
-    tags:
-      - css3
-
-  - title: "Comprehensive logging with Rails"
-    url: http://toreto.re/rails-logging/
-    pubdate: jul 10
-    comment: "Setup Rails using ZeroMQ for routing log information to somewhere (elasticsearch for example)."
-    tags:
-      - rb
-
-  - title: "Useful GitHub patterns"
-    url: http://blog.quickpeople.co.uk/2013/07/10/useful-github-patterns/
-    pubdate: jul 10
-    comment: "List of use cases involving github collaboration environment."
+  - title: "Storing tree structures in the RDBMS"
+    url: http://leopard.in.ua/2013/07/11/storing-trees-in-rdbms/
+    pubdate: jul 11
+    comment: "Some toughts about data based on parent-child structure."
     tags:
       - tool
 
-  - title: "GitHub Flow in the Browser"
-    url: https://github.com/blog/1557-github-flow-in-the-browser
-    pubdate: jul 11
-    comment: "Web-only workflow for working on github projects."
-    tags:
-      - tool
-
-  - title: "Build a Sinatra MVC Framework"
-    url: http://rubysource.com/build-a-sinatra-mvc-framework/
-    pubdate: jul 11
-    comment: "An interesting setup for Sinatra to behave like Rails, without the weight (nor the candies)."
+  - title: "Chat Example App Using Server-Sent Events"
+    url: http://robots.thoughtbot.com/post/55421584115/chat-example-app-using-server-sent-events
+    pubdate: jul 14
+    comment: "Small experiment to use the Eventsource js SSE object with goliath as a backend."
     tags:
       - rb
 
+  - title: "Value Objects Explained with Ruby"
+    url: http://rubysource.com/value-objects-explained-with-ruby/
+    pubdate: jul 15
+    comment: "How to build value-objects in ruby."
+    tags:
+      - rb
 
+  - title: "The Plan for RSpec 3"
+    url: http://myronmars.to/n/dev-blog/2013/07/the-plan-for-rspec-3
+    pubdate: jul 15
+    comment: "Details about the future of rspec."
+    tags:
+      - rb
+
+  - title: "Essential Audio and Video Events for HTML5"
+    url: http://www.sitepoint.com/essential-audio-and-video-events-for-html5/
+    pubdate: jul 16
+    comment: "Some tricks abotu using the progress event with audio and video html5 elements."
+    tags:
+      - html5
+
+  - title: "Shoes 4 – a progress report"
+    url: http://pragtob.wordpress.com/2013/07/17/shoes-4-a-progress-report/
+    pubdate: jul 17
+    comment: "Shoes reborn from its ashes."
+    tags:
+      - rb
+
+  - title: "Crash-resistant replication: How to avoid MySQL replication errors"
+    url: http://www.mysqlperformanceblog.com/2013/07/15/crash-resistant-replication-how-to-avoid-mysql-replication-errors/
+    pubdate: jul 21
+    comment: "An interesting light on Percona server (a drop in mysql replacement) and mysql replication."
+    tags:
+      - tool
 
 
 - title: Watch
