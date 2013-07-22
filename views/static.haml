@@ -47,7 +47,7 @@
               %h4 More
               %ul
                 %li
-                  %a{ href: 'https://github.com/greenruby/greeby'} Source
+                  %a{ href: 'https://github.com/greenruby/grn-static'} Source
                 %li
                   %a{ href: 'mailto:news@greenruby.org'} Contact
                 %li
@@ -56,16 +56,10 @@
             .column
               = content
           #footer
-            %a{ href: "http://codegreenit.com" }
-              %img{ class: "cg", align: 'left', alt: 'CG', width: '57', height: '57', src: 'img/codegreen.png'}
             %a{ href: 'mailto:news@greenruby.org', class: 'contact'}
               contact
-            The Green Ruby Newsletter is published by Mose
-            %br
-            Sponsored by
-            %a{ href: 'http://codegreenit.com' }
-              Code Green
-            %br
+            The Green Ruby Newsletter is published by <a href="http://mose.github.io">Mose</a>
+
 
     %script{ src: "//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"}
     :javascript
@@ -73,15 +67,3 @@
 
     %script{ src: "js/static.js" }
 
-    :javascript
-      document.write(unescape("%3Cscript src='http://track.codegreenit.com/piwik.js' type='text/javascript'%3E%3C/script%3E"));
-
-    :javascript
-      try {
-        var piwikTracker = Piwik.getTracker("http://track.codegreenit.com/piwik.php", 6);
-        piwikTracker.trackPageView();
-        piwikTracker.enableLinkTracking();
-      } catch( err ) {}
-
-    %noscript
-      %img{ alt: "", src: "http://track.codegreenit.com/piwik.php?idsite=6", style: "border:0"}

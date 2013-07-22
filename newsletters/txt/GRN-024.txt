@@ -1,0 +1,235 @@
+-------------------------------
+Green Ruby News #024 - jul 21th 2013
+-------------------------------
+
+Edito
+-----------------
+There was a need for that new section 'Look' for a while. I always have links to interesting UI and never know where to put them.
+
+mose - the green ruby editor
+xenor - the informer
+http://greenruby.org
+
+
+Look
+-----------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+* Creative And Innovative Navigation Designs
+  html5 - 
+  http://www.smashingmagazine.com/2013/07/11/innovative-navigation-designs/
+  A list of websites that get very creative about their navigation.
+
+* 9 Mind-Blowing WebGL Demos
+  html5 - 
+  http://davidwalsh.name/webgl-demos
+  Impressive implementations of 3D in browser.
+
+
+Use
+-----------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+* Responsive Navigation
+  css3 - 
+  http://responsivenavigation.net/
+  Various approaches for handling navigation that scale for mobile.
+
+* Choose a licence
+  tool - 
+  http://choosealicense.com/
+  A microsite by github for explaining what are the different licences you can chose for your software.
+
+* List of Chromium Command Line Switches
+  tool - 
+  http://peter.sh/experiments/chromium-command-line-switches/
+  Pretty useful ways to launch chrome with various debug or behaviour options.
+
+* Dev Docs
+  tool - 
+  http://devdocs.io/
+  A compilation of documentation that make sense for web developers (brought by mozilla).
+
+* More lipsums
+  tool - 
+  http://meettheipsums.com/
+  The classic latin Lorem Ipsum can be annoying. This site proposes a bunch of alternative fake texts.
+
+* Effeckt
+  css3 - 
+  http://h5bp.github.io/Effeckt.css/dist/
+  Yet another collection of css effects but this one gathers many effects from various publishers.
+
+* Railsdiff
+  rb - 
+  http://railsdiff.org/
+  Runs a real diff on rails source code from one version to another, a bit hardcore but useful.
+
+* Web Tools weekly
+  tool - 
+  http://webtoolsweekly.com
+  Fresh new weekly newsletter, for front-end devs and designers.
+
+
+Install
+-----------------
+A selection of gems or applications updated during past week.
+
+* Daux.io
+  tool - 
+  http://daux.io/
+  Another documentation generation tool for projects, based on grunt.
+
+* Bunny
+  rb - 
+  http://blog.rubyrabbitmq.info/blog/2013/07/12/bunny-0-dot-9-0-final-is-released/
+  Shipping version 0.9 of this rabbitMQ client.
+
+* MMailer
+  rb - 
+  https://github.com/danielsz/mmailer
+  A mail sender process for delaying mass mailing and staying under decent limits.
+
+* Usagewatch
+  rb - 
+  https://github.com/nethacker/usagewatch
+  A cool small script for getting linux system usage statistics.
+
+* Tabs
+  rb - 
+  https://github.com/thegrubbsian/tabs
+  A redis-backed metrics tracker for keeping tabs on pretty much anything.
+
+* Upton
+  rb - 
+  https://github.com/propublica/upton
+  A framework for easy web-scraping.
+
+
+Read
+-----------------
+From the blogosphere or news feeds ...
+
+* Storing tree structures in the RDBMS
+  tool - jul 11
+  http://leopard.in.ua/2013/07/11/storing-trees-in-rdbms/
+  Some toughts about data based on parent-child structure.
+
+* Chat Example App Using Server-Sent Events
+  rb - jul 14
+  http://robots.thoughtbot.com/post/55421584115/chat-example-app-using-server-sent-events
+  Small experiment to use the Eventsource js SSE object with goliath as a backend.
+
+* Value Objects Explained with Ruby
+  rb - jul 15
+  http://rubysource.com/value-objects-explained-with-ruby/
+  How to build value-objects in ruby.
+
+* The Plan for RSpec 3
+  rb - jul 15
+  http://myronmars.to/n/dev-blog/2013/07/the-plan-for-rspec-3
+  Details about the future of rspec.
+
+* Essential Audio and Video Events for HTML5
+  html5 - jul 16
+  http://www.sitepoint.com/essential-audio-and-video-events-for-html5/
+  Some tricks abotu using the progress event with audio and video html5 elements.
+
+* JavaScript Powered Arduino with Johnny-Five
+  js - jul 16
+  http://blog.safaribooksonline.com/2013/07/16/javascript-powered-arduino-with-johnny-five/
+  A nice howto for using Johnny-five on arduino, based on mode toolset.
+
+* Shoes 4 – a progress report
+  rb - jul 17
+  http://pragtob.wordpress.com/2013/07/17/shoes-4-a-progress-report/
+  Shoes reborn from its ashes.
+
+* Looking Into the Future of Sass
+  rb - jul 17
+  http://davidwalsh.name/future-sass
+  What is new in Sass v3.3 ? Well, a whole lot of things, all detailled in this post.
+
+* Docker for Rubyists
+  rb - jul 18
+  http://rubysource.com/docker-for-rubyists/
+  Docker is the new clever thing using linux containers for packaging an environment easily.
+
+* How to avoid MySQL replication errors
+  tool - jul 21
+  http://www.mysqlperformanceblog.com/2013/07/15/crash-resistant-replication-how-to-avoid-mysql-replication-errors/
+  An interesting light on Percona server (a drop in mysql replacement) and mysql replication.
+
+
+Watch
+-----------------
+Screencasts and conferences videos, or other video feeds ...
+
+* GoRuCo 2013
+  rb - jul 8 - 14 videos
+  http://www.confreaks.com/events/goruco2013
+  A bunch a very good talks at Goruco.
+
+* Hello Polymer
+  js - jul 16 - 35m
+  https://developers.google.com/live/shows/836113307
+  Presentation by the chrome team about web-components and polymer.
+
+* Ember.js Persistence Foundation
+  js - jul 18 - 58m
+  https://www.youtube.com/watch?v=ZrWUUcB-PR8
+  EPF is an alternative to ember-data, deserves a look (<a href='http://epf.io'>http://epf.io</a>).
+
+
+Listen
+-----------------
+What could be heard last week ..
+
+* Giant robots 57
+  rb - jul 15 - 28m
+  http://learn.thoughtbot.com/podcast/57
+  Delayed gratification with Micheal Klett from Chargify.
+
+* Ruby5 386
+  rb - jul 16 - 5m
+  http://ruby5.envylabs.com/episodes/422-episode-386-july-16th-2013
+  Pulsar, datamappify, Mmailer, Gutentag, Rspec3, destroyed_at, testing tuesdays.
+
+* RubyRogues 114
+  rb - jul 17 - 1h10
+  http://rubyrogues.com/114-rr-elixir-with-jose-valim/
+  Elixir with José Valim.
+
+* NodeUp 48
+  js - jul 18 - 55m
+  http://nodeup.com/fortyeight
+  About Node databases like levelDb and derived solutions.
+
+* Ruby5 387
+  rb - jul 19 - 6m
+  http://ruby5.envylabs.com/episodes/423-episode-387-july-19th-2013
+  Faster heroku deploys, scaling heroku, Sass sourcemaps, prepend_view_path, unique indexes.
+
+* Javascript Jabber 067
+  js - jul 19 - 48m
+  http://javascriptjabber.com/067-jsj-testem-with-toby-ho/
+  Testem with Togy Ho, and testing javascript in general.
+
+
+
+=====================
+
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a Creative Commons Attribution-ShareAlike 3.0 License
+
