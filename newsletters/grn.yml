@@ -1,6 +1,6 @@
 ---
-edition: "024"
-pubdate: "jul 21th 2013"
+edition: "025"
+pubdate: "jul 28th 2013"
 edito:
   "There was a need for that new section 'Look' for a while. I always have links to interesting UI and never know where to put them."
 
@@ -29,53 +29,12 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: Responsive Navigation
-    url: "http://responsivenavigation.net/"
-    comment: "Various approaches for handling navigation that scale for mobile."
-    tags:
-      - css3
-
-  - title: Choose a licence
-    url: "http://choosealicense.com/"
-    comment: "A microsite by github for explaining what are the different licences you can chose for your software."
-    tags:
-      - tool
-
-  - title: List of Chromium Command Line Switches
-    url: "http://peter.sh/experiments/chromium-command-line-switches/"
-    comment: "Pretty useful ways to launch chrome with various debug or behaviour options."
-    tags:
-      - tool
-
-  - title: Dev Docs
-    url: "http://devdocs.io/"
-    comment: "A compilation of documentation that make sense for web developers (brought by mozilla)."
-    tags:
-      - tool
-
-  - title: More lipsums
-    url: "http://meettheipsums.com/"
-    comment: "The classic latin Lorem Ipsum can be annoying. This site proposes a bunch of alternative fake texts."
-    tags:
-      - tool
-
-  - title: Effeckt
-    url: "http://h5bp.github.io/Effeckt.css/dist/"
-    comment: "Yet another collection of css effects but this one gathers many effects from various publishers."
-    tags:
-      - css3
-
-  - title: Railsdiff
-    url: "http://railsdiff.org/"
-    comment: "Runs a real diff on rails source code from one version to another, a bit hardcore but useful."
+  - title: Ruby Warrior
+    url: "https://www.bloc.io/ruby-warrior"
+    comment: "An adventure game involving ruby coding."
     tags:
       - rb
 
-  - title: Web Tools weekly
-    url: "http://webtoolsweekly.com"
-    comment: "Fresh new weekly newsletter, for front-end devs and designers."
-    tags:
-      - tool
 
 
 - title: Install
