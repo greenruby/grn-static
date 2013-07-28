@@ -1,0 +1,225 @@
+-------------------------------
+Green Ruby News #025 - jul 28th 2013
+-------------------------------
+
+Edito
+-----------------
+Hmm I didn't have much time this week for the gathering, as I'm busy changing job right now. But behind the scene we are working on preparing a tool for semi-automating the gathering process (well, Dale is the active guy there for now). Have a look at <a href="http://github.com/greenruby/organews">organews</a> if you are curious and want to jump in.
+
+mose - the green ruby editor
+xenor - the informer
+http://greenruby.org
+
+
+Look
+-----------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+* Global land temperatures
+  html5 - 
+  http://halftone.co/projects/temperatures/
+  A map of temperatures on the globe since 1900, nicely designed.
+
+* Soul reaper
+  html5 - 
+  http://www.soul-reaper.com/
+  Preview of a digital comic in html5 including sound. Great effects.
+
+
+Use
+-----------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+* Ruby Warrior
+  rb - 
+  https://www.bloc.io/ruby-warrior
+  An adventure game involving ruby coding.
+
+* Bootstrap Hornbook
+  css3 - 
+  http://www.templatemonster.com/infographics/bootstrap-interactive-infographics.php
+  Collection of useful links when working with bootrstrap css.
+
+* Flynn
+  tool - 
+  https://flynn.io/
+  Well it's not ready yet but the idea is promising, an open-source Paas based on docker (2 days left to help sponsor it).
+
+* Practicing Ruby
+  rb - 
+  https://practicingruby.com/
+  A monthly publication about ruby. Note that they just <a href="https://github.com/elm-city-craftworks/practicing-ruby-manuscripts">opened their archives</a> publicly.
+
+
+Install
+-----------------
+A selection of gems or applications updated during past week.
+
+* rails 3.2.14
+  rb - 
+  http://weblog.rubyonrails.org/2013/7/23/Rails-3-2-14-has-been-released/
+  Mainly a bugfix release, announcing that the next version will be the last one for the 3.2 family.
+
+* Bower 1.0.0
+  js - 
+  https://github.com/bower/bower/blob/master/CHANGELOG.md
+  A total rewrite of bower and a big number release, may deserve to jump into.
+
+* Phonegap 3.0
+  mobile - 
+  http://phonegap.com/blog/2013/07/19/adobe-phonegap-3.0-released/
+  Last week was announced a new version of that cross platform mobile html app development suite.
+
+* RubyMotion 2.5
+  mobile - 
+  http://blog.rubymotion.com/post/56232015979/new-in-rubymotion-blocks-rewrite-retain-cycle
+  Some interesting improvement in that release, making it more ruby-like.
+
+* ie8 ja shims
+  js - 
+  https://github.com/WebReflection/ie8
+  A set of tools for dom support in ie8.
+
+* Mix it UP
+  js - 
+  http://mixitup.io/
+  A really good css3/jQuery plugin for sorted lists of whatever with special effects.
+
+* MVCSS
+  css3 - 
+  http://mvcss.github.io/
+  A Sass-based css framework oriented towards OOCSS, BEM and SMACSS.
+
+* imagefill.js
+  js - 
+  http://johnpolacek.github.io/imagefill.js/
+  The jQuery plugin for making images fill their containers (and be centered).
+
+
+Read
+-----------------
+From the blogosphere or news feeds ...
+
+* Building Next Generation Widgets with Web Components
+  html5 - jul 19
+  http://tech.pro/tutorial/1421/building-next-generation-widgets-with-web-components
+  Another presentation of web components with polymer.js. This topics is really hot nowadays.
+
+* This is how they built it
+  tool - jul 19
+  http://www.smashingmagazine.com/2013/07/19/this-is-how-we-built-it-case-studies/
+  An amazing list of case studies, to see how they made amazing websites.
+
+* Subdomain & Custom Domain in Rails
+  rb - jul 21
+  http://blog.xdite.net/posts/2013/07/21/implement-subdomain-custom-domain
+  A setup for taking subdomain in account in routes and controllers.
+
+* Streaming with Rails 4
+  rb - jul 22
+  http://rubysource.com/streaming-with-rails-4/
+  Very good article about the Live API in combination with Server Side Events on front-end.
+
+* HTML5 components
+  html5 - jul 23
+  http://www.ibm.com/developerworks/web/library/wa-html5components3/index.html
+  A review on how to implement html components, explaining the shadow dom, with examples of polymer and x-tags.
+
+* Optimizing Responsive Design Websites for Performance
+  html5 - jul 23
+  http://www.sitepoint.com/optimizing-responsive-design-websites-for-performance/
+  A pair of tips to avoid visitors get impatient waiting for page load.
+
+* Web Development Workflow with Grunt
+  js - jul 24
+  http://sixrevisions.com/javascript/grunt-tutorial-01/
+  Grunt is not new, it's a life changer, but a lot of webdevs still don't know about it. This tutorial is for them.
+
+* Resources to Get You Up to Speed in Ember.js
+  js - jul 24
+  http://net.tutsplus.com/tutorials/javascript-ajax/resources-to-get-you-up-to-speed-in-ember-js/
+  A list of resources to ramp up on ember.js.
+
+* CSS3 Transition Property Basics
+  css3 - jul 25
+  http://www.sitepoint.com/css3-transition-properties/
+  Detailled explanation of transition properties, to add some feeling to your UI.
+
+* Globalize Your Configuration
+  rb - jul 26
+  http://railsware.com/blog/2013/07/26/globalize-your-configuration/
+  The gem named global provides an abstraction for the configuration, this article explains how.
+
+
+Watch
+-----------------
+Screencasts and conferences videos, or other video feeds ...
+
+* LaConf 2013
+  rb - jul 14 - 11 videos
+  http://video.la-conf.org/2013
+  The LaConf videos have just been released.
+
+* Let’s Learn Ember
+  js -  - 11 screencasts
+  http://freecourses.tutsplus.com/lets-learn-ember/index.html
+  A free course at tut+ about ember.js.
+
+
+Listen
+-----------------
+What could be heard last week ..
+
+* Git minutes 17
+  tool - jul 22 - 1h15
+  http://episodes.gitminutes.com/2013/07/gitminutes-17-nicholas-zakas-on-how.html
+  Nicholas Zakas on How Companies Are Using Git(Hub).
+
+* Giant robots 58
+  rb - jul 22 - 31m
+  http://learn.thoughtbot.com/podcast/58
+  Pat Brisbin and Mike Burns talk about Haskell, Linux, functional and dynamic programming, and much more.
+
+* NodeUp 49
+  js - jul 22 - 55m
+  http://nodeup.com/fortyeight
+  Discussion with the team of diy.org about how they use node.js.
+
+* Ruby5 388
+  rb - jul 23 - 5m
+  http://ruby5.envylabs.com/episodes/424-episode-388-july-23rd-2013
+  licences, subdomains, dev workflow, rails girl.
+
+* RubyRogues 115
+  rb - jul 24 - 1h04
+  http://rubyrogues.com/115-rr-functional-and-object-oriented-programming-with-jessica-kerr/
+  Functional and Object Oriented Programming with Jessica Kerr.
+
+* Ruby5 389
+  rb - jul 26 - 5m
+  http://ruby5.envylabs.com/episodes/425-episode-389-july-26th-2013
+  rails 3.2.04, laconf, practicing ruby, shoes 4, base16-builder, gutentag.
+
+* Javascript Jabber 068
+  js - jul 26 - 48m
+  http://javascriptjabber.com/068-jsj-es6-with-aaron-frost/
+  ES6 with Aaron Frost.
+
+
+
+=====================
+
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a Creative Commons Attribution-ShareAlike 3.0 License
+
