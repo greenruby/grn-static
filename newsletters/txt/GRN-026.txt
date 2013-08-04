@@ -1,0 +1,205 @@
+-------------------------------
+Green Ruby News #026 - aug 4th 2013
+-------------------------------
+
+Edito
+-----------------
+This week I changed job and also my hat. I became a fulltime system administrator. It may have some consequences on the green ruby publication, because I am switching gears. Hopefully we will have a more contributive platform very soon. But in the while, feel free to send me links to help compensate. On another hand, I'm thinking about making a new publication about devops. It's just because I use publication as a way to self-hack myself into more structured organization of my awareness of what happens around. Like a public bookmarking, in some ways.
+
+mose - the green ruby editor
+xenor - the informer
+http://greenruby.org
+
+
+Look
+-----------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+* 2013 Web Design Trends
+  web - aug 1
+  http://brolik.com/blog/2013-web-design-trends/
+  A list of what the web looks like this year.
+
+* Kitchen prqgue
+  web - 
+  http://www.kitchenprague.com/en/
+  Beautiful design with an interesting navigation.
+
+
+Use
+-----------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+* Open source Report Card
+  tool - 
+  http://osrc.dfm.io/
+  A textual analysis of your github profile.
+
+* SVGeneration
+  html5 - 
+  http://www.svgeneration.com/
+  An online tool to generate svg backgrounds, with easy edit of parameters.
+
+* Exercism
+  tool - 
+  http://exercism.io/
+  A cool tool by Katrina for practice and crowd-reviews.
+
+* Developer excuses
+  tool - 
+  http://developerexcuses.com/
+  Random generation of an excuse for anything.
+
+* ascii.io
+  tool - 
+  http://ascii.io/
+  record and share terminal sessions.
+
+* Rollbar
+  tool - 
+  http://rollbar.com/
+  yet another cloud error viewer.
+
+
+Install
+-----------------
+A selection of gems or applications updated during past week.
+
+* Bootstrap 3-rc1
+  css3 - 
+  http://blog.getbootstrap.com/2013/07/27/bootstrap-3-rc1/
+  The version 3 of this over-popular css framework is out in rc state. Feels like it's following the flat UI trend now.
+
+* ember patch
+  js - 
+  https://groups.google.com/forum/#!topic/ember-security/dokLVwwxAdM
+  A potential XSS exploit on Ember.js and a provided patch.
+
+* git-deliver
+  rb - 
+  https://github.com/arnoo/git-deliver
+  Delivery system based on git push and ssh.
+
+* psd.rb
+  rb - 
+  http://layervault.tumblr.com/post/56891876898/psd-rb
+  A ruby lib to read photoshop files (!).
+
+
+Read
+-----------------
+From the blogosphere or news feeds ...
+
+* SSLError and Rubyist, sitting in a tree
+  rb - jul 28
+  http://mislav.uniqpath.com/2013/07/ruby-openssl/
+  A pretty good explanation of how SSL verification and certificates work.
+
+* 10 Things You Can Do With EPF in Ember
+  js - jul 28
+  http://codebrief.com/2013/07/10-things-you-can-do-with-epf/
+  Details about this serious alternative to Ember-data abstraction.
+
+* Animated line drawing in SVG
+  html5 - jul 29
+  http://jakearchibald.com/2013/animated-line-drawing-svg/
+  Some SVG tricks, anda bunch of examples in the comments thread.
+
+* Optimizing images with a bash script
+  tool - jul 29
+  http://hugogiraudel.com/2013/07/29/optimizing-with-bash/
+  An interesting drive-through how to write an elaborate bash script.
+
+* Build a Port Scanner in Ruby
+  rb - jul 29
+  http://rubysource.com/build-a-port-scanner-in-ruby/
+  Tutorial about manipulation of sockets with some celluloid actors.
+
+* Changing History with Git
+  rb - jul 29
+  http://flippinawesome.org/2013/07/29/changing-history-with-git/
+  Dynamic super-overridable methods in Ruby (solution for method override issue in rails' dynamic attributes method).
+
+* Dynamic super-overridable methods in Ruby
+  rb - jul 31
+  http://thepugautomatic.com/2013/07/dsom/
+  Some tricks for manipulating git history.
+
+* Raspberry Pi or BeagleBone Black
+  tool - aug 1
+  http://makezine.com/magazine/how-to-choose-the-right-platform-raspberry-pi-or-beaglebone-black/
+  Detailled comparison between those 2 makers card-puters.
+
+* 7 JavaScript Basics Many Developers Aren't Using (Properly)
+  js - aug 2
+  http://tech.pro/tutorial/1453/7-javascript-basics-many-developers-aren-t-using-properly
+  Basics with js code example and patterns.
+
+
+Watch
+-----------------
+Screencasts and conferences videos, or other video feeds ...
+
+* JsConf 2013
+  js - jul 29 - 8 videos
+  http://www.youtube.com/playlist?list=PL37ZVnwpeshF7AHpbZt33aW0brYJyNftx#jsconf2013
+  This week the jsconf 2013 video have been put online.
+
+
+Listen
+-----------------
+What could be heard last week ..
+
+* Git minutes 18
+  tool - jul 28 - 56m
+  http://episodes.gitminutes.com/2013/07/gitminutes-18-tair-and-tero-from-deveo.html
+  Tair and Tero from Deveo.
+
+* Giant robots 59
+  rb - jul 29 - 26m
+  http://learn.thoughtbot.com/podcast/59
+  With thoughtbot CTO Joe Ferris about the technical interview process at thoughtbot.
+
+* Ruby5 390
+  rb - jul 30 - 6m
+  http://ruby5.envylabs.com/episodes/426-episode-390-july-30th-2013
+  subclassing core, n+1, rubyprize, flynn, ruby warrior.
+
+* RubyRogues 116
+  rb - jul 31 - 1h20
+  http://rubyrogues.com/116-rr-non-rails-projects
+  Non-rails projects.
+
+* NodeUp 50
+  js - aug 2 - 1h41
+  http://nodeup.com/fifty
+  About node 0.11.
+
+* Ruby5 391
+  rb - aug 2 - 5m
+  http://ruby5.envylabs.com/episodes/427-episode-391-august-2nd-2013
+  vimgenius, screenshots, psd.rb, nsa panel, maildown, exercism.io.
+
+* Javascript Jabber 069
+  js - aug 2 - 51m
+  http://javascriptjabber.com/069-jsj-the-application-cache-with-jake-archibald/
+  The Application Cache with Jake Archibald.
+
+
+
+=====================
+
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a Creative Commons Attribution-ShareAlike 3.0 License
+
