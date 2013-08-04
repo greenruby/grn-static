@@ -1,8 +1,8 @@
 ---
-edition: "025"
-pubdate: "jul 28th 2013"
+edition: "026"
+pubdate: "aug 4th 2013"
 edito:
-  "Hmm I didn't have much time this week for the gathering, as I'm busy changing job right now. But behind the scene we are working on preparing a tool for semi-automating the gathering process (well, Dale is the active guy there for now). Have a look at <a href=\"http://github.com/greenruby/organews\">organews</a> if you are curious and want to jump in."
+  "This week I changed job and also my hat. I became a fulltime system administrator. It may have some consequences on the green ruby publication, because I am switching gears. Hopefully we will have a more contributive platform very soon. But in the while, feel free to send me links to help compensate. On another hand, I'm thinking about making a new publication about devops. It's just because I use publication as a way to self-hack myself into more structured organization of my awareness of what happens around. Like a public bookmarking, in some ways."
 
 topics:
 
@@ -11,17 +11,13 @@ topics:
     "Examples of UI/UX, graphic performance, web design and flashy things."
   links:
 
-  - title: Global land temperatures
-    url: "http://halftone.co/projects/temperatures/"
-    comment: "A map of temperatures on the globe since 1900, nicely designed."
+  - title: 2013 Web Design Trends
+    url: "http://brolik.com/blog/2013-web-design-trends/"
+    comment: "A list of what the web looks like this year."
+    pubdate: aug 1
     tags:
-      - html5
+      - web
 
-  - title: Soul reaper
-    url: "http://www.soul-reaper.com/"
-    comment: "Preview of a digital comic in html5 including sound. Great effects."
-    tags:
-      - html5
 
 
 - title: Use
@@ -29,82 +25,59 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: Ruby Warrior
-    url: "https://www.bloc.io/ruby-warrior"
-    comment: "An adventure game involving ruby coding."
+  - title: SVGeneration
+    url: "http://www.svgeneration.com/"
+    comment: "An online tool to generate svg backgrounds, with easy edit of parameters."
     tags:
-      - rb
+      - html5
 
-  - title: Bootstrap Hornbook
-    url: "http://www.templatemonster.com/infographics/bootstrap-interactive-infographics.php"
-    comment: "Collection of useful links when working with bootrstrap css."
-    tags:
-      - css3
-
-  - title: Flynn
-    url: "https://flynn.io/"
-    comment: "Well it's not ready yet but the idea is promising, an open-source Paas based on docker (2 days left to help sponsor it)."
+  - title: Exercism
+    url: "http://exercism.io/"
+    comment: "A cool tool by Katrina for practice and crowd-reviews."
     tags:
       - tool
 
-  - title: Practicing Ruby
-    url: "https://practicingruby.com/"
-    comment: "A monthly publication about ruby. Note that they just <a href=\"https://github.com/elm-city-craftworks/practicing-ruby-manuscripts\">opened their archives</a> publicly."
+  - title: Developer excuses
+    url: "http://developerexcuses.com/"
+    comment: "Random generation of an excuse for anything."
     tags:
-      - rb
+      - tool
+
+  - title: ascii.io
+    url: "http://ascii.io/"
+    comment: "record and share terminal sessions."
+    tags:
+      - tool
 
 
 - title: Install
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: rails 3.2.14
-    url: http://weblog.rubyonrails.org/2013/7/23/Rails-3-2-14-has-been-released/
-    comment: "Mainly a bugfix release, announcing that the next version will be the last one for the 3.2 family."
-    tags:
-      - rb
-
-  - title: Bower 1.0.0
-    url: https://github.com/bower/bower/blob/master/CHANGELOG.md
-    comment: "A total rewrite of bower and a big number release, may deserve to jump into."
-    tags:
-      - js
-
-  - title: Phonegap 3.0
-    url: http://phonegap.com/blog/2013/07/19/adobe-phonegap-3.0-released/
-    comment: "Last week was announced a new version of that cross platform mobile html app development suite."
-    tags:
-      - mobile
-
-  - title: RubyMotion 2.5
-    url: http://blog.rubymotion.com/post/56232015979/new-in-rubymotion-blocks-rewrite-retain-cycle
-    comment: "Some interesting improvement in that release, making it more ruby-like."
-    tags:
-      - mobile
-
-  - title: ie8 ja shims
-    url: https://github.com/WebReflection/ie8
-    comment: "A set of tools for dom support in ie8."
-    tags:
-      - js
-
-  - title: Mix it UP
-    url: http://mixitup.io/
-    comment: "A really good css3/jQuery plugin for sorted lists of whatever with special effects."
-    tags:
-      - js
-
-  - title: MVCSS
-    url: http://mvcss.github.io/
-    comment: "A Sass-based css framework oriented towards OOCSS, BEM and SMACSS."
+  - title: Bootstrap 3-rc1
+    url: http://blog.getbootstrap.com/2013/07/27/bootstrap-3-rc1/
+    comment: "The version 3 of this over-popular css framework is out in rc state. Feels like it's following the flat UI trend now."
     tags:
       - css3
 
-  - title: imagefill.js
-    url: http://johnpolacek.github.io/imagefill.js/
-    comment: "The jQuery plugin for making images fill their containers (and be centered)."
+  - title: ember patch
+    url: "https://groups.google.com/forum/#!topic/ember-security/dokLVwwxAdM"
+    comment: "A potential XSS exploit on Ember.js and a provided patch."
     tags:
       - js
+
+  - title: git-deliver
+    url: "https://github.com/arnoo/git-deliver"
+    comment: "Delivery system based on git push and ssh."
+    tags:
+      - rb
+
+  - title: psd.rb
+    url: "http://layervault.tumblr.com/post/56891876898/psd-rb"
+    comment: "A ruby lib to read photoshop files (!)."
+    tags:
+      - rb
+
 
 
 
@@ -112,93 +85,57 @@ topics:
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: "Building Next Generation Widgets with Web Components"
-    url: http://tech.pro/tutorial/1421/building-next-generation-widgets-with-web-components
-    pubdate: jul 19
-    comment: "Another presentation of web components with polymer.js. This topics is really hot nowadays."
+  - title: "SSLError and Rubyist, sitting in a tree"
+    url: http://mislav.uniqpath.com/2013/07/ruby-openssl/
+    pubdate: jul 28
+    comment: "A pretty good explanation of how SSL verification and certificates work."
+    tags:
+      - rb
+
+  - title: "10 Things You Can Do With EPF in Ember"
+    url: http://codebrief.com/2013/07/10-things-you-can-do-with-epf/
+    pubdate: jul 28
+    comment: "Details about this serious alternative to Ember-data abstraction."
+    tags:
+      - js
+
+  - title: "Animated line drawing in SVG"
+    url: http://jakearchibald.com/2013/animated-line-drawing-svg/
+    pubdate: jul 29
+    comment: "Some SVG tricks, anda bunch of examples in the comments thread."
     tags:
       - html5
 
-  - title: "This is how they built it"
-    url: http://www.smashingmagazine.com/2013/07/19/this-is-how-we-built-it-case-studies/
-    pubdate: jul 19
-    comment: "An amazing list of case studies, to see how they made amazing websites."
+  - title: "Optimizing images with a bash script"
+    url: http://hugogiraudel.com/2013/07/29/optimizing-with-bash/
+    pubdate: jul 29
+    comment: "An interesting drive-through how to write an elaborate bash script."
     tags:
       - tool
 
-  - title: "Subdomain & Custom Domain in Rails"
-    url: http://blog.xdite.net/posts/2013/07/21/implement-subdomain-custom-domain
-    pubdate: jul 21
-    comment: "A setup for taking subdomain in account in routes and controllers."
+  - title: "Build a Port Scanner in Ruby"
+    url: http://rubysource.com/build-a-port-scanner-in-ruby/
+    pubdate: jul 29
+    comment: "Tutorial about manipulation of sockets with some celluloid actors."
     tags:
       - rb
 
-  - title: "Streaming with Rails 4"
-    url: http://rubysource.com/streaming-with-rails-4/
-    pubdate: jul 22
-    comment: "Very good article about the Live API in combination with Server Side Events on front-end."
+  - title: "Changing History with Git"
+    url: http://flippinawesome.org/2013/07/29/changing-history-with-git/
+    pubdate: jul 29
+    comment: "Some tricks for manipulating git history."
     tags:
-      - rb
-
-  - title: "HTML5 components"
-    url: http://www.ibm.com/developerworks/web/library/wa-html5components3/index.html
-    pubdate: jul 23
-    comment: "A review on how to implement html components, explaining the shadow dom, with examples of polymer and x-tags."
-    tags:
-      - html5
-
-  - title: "Optimizing Responsive Design Websites for Performance"
-    url: http://www.sitepoint.com/optimizing-responsive-design-websites-for-performance/
-    pubdate: jul 23
-    comment: "A pair of tips to avoid visitors get impatient waiting for page load."
-    tags:
-      - html5
-
-  - title: "Web Development Workflow with Grunt"
-    url: http://sixrevisions.com/javascript/grunt-tutorial-01/
-    pubdate: jul 24
-    comment: "Grunt is not new, it's a life changer, but a lot of webdevs still don't know about it. This tutorial is for them."
-    tags:
-      - js
-
-  - title: "Resources to Get You Up to Speed in Ember.js"
-    url: http://net.tutsplus.com/tutorials/javascript-ajax/resources-to-get-you-up-to-speed-in-ember-js/
-    pubdate: jul 24
-    comment: "A list of resources to ramp up on ember.js."
-    tags:
-      - js
-
-  - title: "CSS3 Transition Property Basics"
-    url: http://www.sitepoint.com/css3-transition-properties/
-    pubdate: jul 25
-    comment: "Detailled explanation of transition properties, to add some feeling to your UI."
-    tags:
-      - css3
-
-  - title: "Globalize Your Configuration"
-    url: http://railsware.com/blog/2013/07/26/globalize-your-configuration/
-    pubdate: jul 26
-    comment: "The gem named global provides an abstraction for the configuration, this article explains how."
-    tags:
-      - rb
-
+      - tool
 
 - title: Watch
   baseline: "Screencasts and conferences videos, or other video feeds ..."
   links:
 
-  - title: "LaConf 2013"
-    url: http://video.la-conf.org/2013
-    pubdate: jul 14
-    duration: 11 videos
-    comment: "The LaConf videos have just been released."
-    tags:
-      - rb
-
-  - title: "Let’s Learn Ember"
-    url: http://freecourses.tutsplus.com/lets-learn-ember/index.html
-    duration: 11 screencasts
-    comment: "A free course at tut+ about ember.js."
+  - title: "JsConf 2013"
+    url: http://www.youtube.com/playlist?list=PL37ZVnwpeshF7AHpbZt33aW0brYJyNftx#jsconf2013
+    pubdate: jul 29
+    duration: 8 videos
+    comment: "This week the jsconf 2013 video have been put online."
     tags:
       - js
 
@@ -207,59 +144,59 @@ topics:
   baseline: What could be heard last week ..
   links:
 
-  - title: "Git minutes 17"
-    url: http://episodes.gitminutes.com/2013/07/gitminutes-17-nicholas-zakas-on-how.html
-    duration: 1h15
-    pubdate: jul 22
-    comment: "Nicholas Zakas on How Companies Are Using Git(Hub)."
+  - title: "Git minutes 18"
+    url: http://episodes.gitminutes.com/2013/07/gitminutes-18-tair-and-tero-from-deveo.html
+    duration: 56m
+    pubdate: jul 28
+    comment: "Tair and Tero from Deveo."
     tags:
       - tool
 
-  - title: "Giant robots 58"
-    url: http://learn.thoughtbot.com/podcast/58
-    duration: 31m
-    pubdate: jul 22
-    comment: "Pat Brisbin and Mike Burns talk about Haskell, Linux, functional and dynamic programming, and much more."
+  - title: "Giant robots 59"
+    url: http://learn.thoughtbot.com/podcast/59
+    duration: 26m
+    pubdate: jul 29
+    comment: "With thoughtbot CTO Joe Ferris about the technical interview process at thoughtbot."
     tags:
       - rb
 
-  - title: NodeUp 49
-    url: http://nodeup.com/fortyeight
-    duration: 55m
-    pubdate: jul 22
-    comment: "Discussion with the team of diy.org about how they use node.js."
+  - title: Ruby5 390
+    url: http://ruby5.envylabs.com/episodes/426-episode-390-july-30th-2013
+    duration: 6m
+    pubdate: jul 30
+    comment: "subclassing core, n+1, rubyprize, flynn, ruby warrior."
+    tags:
+      - rb
+
+  - title: RubyRogues 116
+    url: http://rubyrogues.com/116-rr-non-rails-projects
+    duration: 1h20
+    pubdate: jul 31
+    comment: "Non-rails projects."
+    tags:
+      - rb
+
+  - title: NodeUp 50
+    url: http://nodeup.com/fifty
+    duration: 1h41
+    pubdate: aug 2
+    comment: "About node 0.11."
     tags:
       - js
 
-  - title: Ruby5 388
-    url: http://ruby5.envylabs.com/episodes/424-episode-388-july-23rd-2013
-    duration: 5m
-    pubdate: jul 23
-    comment: "licences, subdomains, dev workflow, rails girl."
-    tags:
-      - rb
-
-  - title: RubyRogues 115
-    url: http://rubyrogues.com/115-rr-functional-and-object-oriented-programming-with-jessica-kerr/
-    duration: 1h04
-    pubdate: jul 24
-    comment: "Functional and Object Oriented Programming with Jessica Kerr."
-    tags:
-      - rb
-
   - title: Ruby5 389
-    url: http://ruby5.envylabs.com/episodes/425-episode-389-july-26th-2013
+    url: http://ruby5.envylabs.com/episodes/427-episode-391-august-2nd-2013
     duration: 5m
-    pubdate: jul 26
-    comment: "rails 3.2.04, laconf, practicing ruby, shoes 4, base16-builder, gutentag."
+    pubdate: aug 2
+    comment: "vimgenius, screenshots, psd.rb, nsa panel, maildown, exercism.io."
     tags:
       - rb
 
-  - title: Javascript Jabber 068
-    url: http://javascriptjabber.com/068-jsj-es6-with-aaron-frost/
-    duration: 48m
-    pubdate: jul 26
-    comment: "ES6 with Aaron Frost."
+  - title: Javascript Jabber 069
+    url: http://javascriptjabber.com/069-jsj-the-application-cache-with-jake-archibald/
+    duration: 51m
+    pubdate: aug 2
+    comment: "The Application Cache with Jake Archibald."
     tags:
       - js
 
