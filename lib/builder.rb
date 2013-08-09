@@ -95,6 +95,28 @@ module Greeby
       end
     end
 
+    def make_rss
+      require "rss"
+      rss = RSS::Maker.make("atom") do |maker|
+        maker.channel.author = "mose"
+        maker.channel.updated = Time.now.to_s
+        maker.channel.about = "http://greenruby.org/feed.rss"
+        maker.channel.title = "Green Ruby"
+        
+        letters = JSON.parse(File.read(File.join(@static_path, 'editions.json')))
+        letters.each do |letter,c|
+          maker.items.new_item do |item|
+            item.link = "http://greenruby.org/#{c['link']}"
+            item.title = "Green Ruby News ##{letter}"
+            item.updated = c['date']
+          end
+        end
+      end
+      File.open(File.join(@static_path, "feed.rss"),'w') do |f|
+        f.puts rss
+      end
+    end
+
     private
 
     def to_ostruct(obj)

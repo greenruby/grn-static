@@ -21,4 +21,10 @@ namespace :generate do
     builder.make_web
   end
 
+  desc "make rss feed"
+  task :rss do
+    builder = Greeby::Builder.new
+    builder.make_rss
+  end
+
 end
