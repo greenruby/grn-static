@@ -1,8 +1,8 @@
 ---
-edition: "026"
-pubdate: "aug 4th 2013"
+edition: "027"
+pubdate: "aug 11th 2013"
 edito:
-  "This week I changed job and also my hat. I became a fulltime system administrator. It may have some consequences on the green ruby publication, because I am switching gears. Hopefully we will have a more contributive platform very soon. But in the while, feel free to send me links to help compensate. On another hand, I'm thinking about making a new publication about devops. It's just because I use publication as a way to self-hack myself into more structured organization of my awareness of what happens around. Like a public bookmarking, in some ways. More news about it next week..."
+  ""
 
 topics:
 
@@ -11,16 +11,21 @@ topics:
     "Examples of UI/UX, graphic performance, web design and flashy things."
   links:
 
-  - title: 2013 Web Design Trends
-    url: "http://brolik.com/blog/2013-web-design-trends/"
-    comment: "A list of what the web looks like this year."
-    pubdate: aug 1
+  - title: Devs Do Art
+    url: "http://devsdoart.com/"
+    comment: "Dev do art .. that only other devs can understand."
     tags:
       - web
 
-  - title: Kitchen prague
-    url: "http://www.kitchenprague.com/en/"
-    comment: "Beautiful design with an interesting navigation."
+  - title: Painting A Social Portrait
+    url: "http://www.teehanlax.com/story/social-portrait/"
+    comment: "A dev challenge presented as a story with nice html effects."
+    tags:
+      - web
+
+  - title: Weekly animated gifs
+    url: "http://bisouslescopains.tumblr.com/"
+    comment: "Tiny simple animation, nice looking."
     tags:
       - web
 
@@ -29,137 +34,113 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: Open source Report Card
-    url: "http://osrc.dfm.io/"
-    comment: "A textual analysis of your github profile."
+  - title: Nitrous
+    url: "https://www.nitrous.io/"
+    comment: "Setup dev box and quick cloud coding in no time."
     tags:
       - tool
 
-  - title: SVGeneration
-    url: "http://www.svgeneration.com/"
-    comment: "An online tool to generate svg backgrounds, with easy edit of parameters."
-    tags:
-      - html5
-
-  - title: Exercism
-    url: "http://exercism.io/"
-    comment: "A cool tool by Katrina for practice and crowd-reviews."
-    tags:
-      - tool
-
-  - title: Developer excuses
-    url: "http://developerexcuses.com/"
-    comment: "Random generation of an excuse for anything."
-    tags:
-      - tool
-
-  - title: ascii.io
-    url: "http://ascii.io/"
-    comment: "record and share terminal sessions."
-    tags:
-      - tool
-
-  - title: Rollbar
-    url: "http://rollbar.com/"
-    comment: "yet another cloud error viewer."
-    tags:
-      - tool
 
 
 - title: Install
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: Bootstrap 3-rc1
-    url: http://blog.getbootstrap.com/2013/07/27/bootstrap-3-rc1/
-    comment: "The version 3 of this over-popular css framework is out in rc state. Feels like it's following the flat UI trend now."
+  - title: Devise
+    url: "http://blog.plataformatec.com.br/2013/08/csrf-token-fixation-attacks-in-devise/"
+    comment: "Devise has been reported to be vulnerable to CSRF token fixation attacks. Update yours !"
     tags:
-      - css3
+      - rb
 
-  - title: ember patch
-    url: "https://groups.google.com/forum/#!topic/ember-security/dokLVwwxAdM"
-    comment: "A potential XSS exploit on Ember.js and a provided patch."
+  - title: Breach-mitigation-rails
+    url: "https://github.com/meldium/breach-mitigation-rails"
+    comment: "Make Rails apps more resilient against the BREACH and CRIME attacks."
+    tags:
+      - rb
+
+  - title: yED
+    url: "http://www.yworks.com/en/products_yed_about.html"
+    comment: "I was looking for a tool like Dia, and found that one, that has great features."
+    tags:
+      - tool
+
+  - title: Harpjs
+    url: "http://harpjs.com/"
+    comment: "An open-source web server with built-in pre-processing."
     tags:
       - js
 
-  - title: git-deliver
-    url: "https://github.com/arnoo/git-deliver"
-    comment: "Delivery system based on git push and ssh."
+  - title: Grunt-loader
+    url: "http://endel.github.io/grunt-loader/"
+    comment: "A modular approach for grunt configuration. Forget about your Gruntfile."
     tags:
-      - rb
+      - js
 
-  - title: psd.rb
-    url: "http://layervault.tumblr.com/post/56891876898/psd-rb"
-    comment: "A ruby lib to read photoshop files (!)."
+  - title: Covim
+    url: "https://github.com/FredKSchott/CoVim"
+    comment: "A Vim plugin for collaborative editing, allowing multiple users to connect to the same document."
     tags:
-      - rb
+      - tool
+
+  - title: Framer
+    url: "http://www.framerjs.com/"
+    comment: "A prototyping tool for animation and interaction on desktop and mobile. Generates from photoshop."
+    tags:
+      - js
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: "SSLError and Rubyist, sitting in a tree"
-    url: http://mislav.uniqpath.com/2013/07/ruby-openssl/
-    pubdate: jul 28
-    comment: "A pretty good explanation of how SSL verification and certificates work."
+  - title: "What are blocks, procs, and lambdas?"
+    url: http://awaxman11.github.io/blog/2013/08/05/what-is-the-difference-between-a-block/
+    pubdate: aug 5
+    comment: "The subtle differences between those ways to perform closure in ruby."
     tags:
       - rb
 
-  - title: "10 Things You Can Do With EPF in Ember"
-    url: http://codebrief.com/2013/07/10-things-you-can-do-with-epf/
-    pubdate: jul 28
-    comment: "Details about this serious alternative to Ember-data abstraction."
+  - title: "Why Nobody Should Use Rails For Anything, Ever"
+    url: http://blog.bensigelman.org/post/57543889435/why-nobody-should-use-rails-for-anything-ever
+    pubdate: aug 6
+    comment: "A pretty strong opinion from someone that dislikes rails, and explains why."
+    tags:
+      - rb
+
+  - title: "HTML5 And The Incredible Editable Web"
+    url: http://www.kendoui.com/blogs/teamblog/posts/13-08-06/html5-and-the-incredible-editable-web.aspx
+    pubdate: aug 6
+    comment: "Inline editing web pages with Kendo UI editor."
     tags:
       - js
 
-  - title: "Animated line drawing in SVG"
-    url: http://jakearchibald.com/2013/animated-line-drawing-svg/
-    pubdate: jul 29
-    comment: "Some SVG tricks, anda bunch of examples in the comments thread."
+  - title: "Top 100 Agile Books"
+    url: http://www.noop.nl/2013/08/top-100-agile-books-edition-2013.html
+    pubdate: aug 7
+    comment: "These are the 100 best Agile Books in the world, based on reviews and ratings on Amazon and GoodReads."
+    tags:
+      - tool
+
+  - title: "15 Online HTML5 Tools to Speed Up Coding"
+    url: http://codegeekz.com/15-online-html5-tools-to-speed-up-coding/
+    pubdate: aug 8
+    comment: "A good collection of online services mostly helpful for html devs."
     tags:
       - html5
 
-  - title: "Optimizing images with a bash script"
-    url: http://hugogiraudel.com/2013/07/29/optimizing-with-bash/
-    pubdate: jul 29
-    comment: "An interesting drive-through how to write an elaborate bash script."
+  - title: "SEO for Ruby on Rails"
+    url: http://www.inboundio.com/blog/seo-for-ruby-on-rails-complete-guide/
+    pubdate: aug 8
+    comment: "All the tricks for getting sure search engines won't forget about you."
+    tags:
+      - rb
+
+  - title: "Getting to Docker 1.0"
+    url: http://blog.docker.io/2013/08/getting-to-docker-1-0/
+    pubdate: aug 8
+    comment: "The roadmap for this tool that gets a lot of pressure on it recently."
     tags:
       - tool
 
-  - title: "Build a Port Scanner in Ruby"
-    url: http://rubysource.com/build-a-port-scanner-in-ruby/
-    pubdate: jul 29
-    comment: "Tutorial about manipulation of sockets with some celluloid actors."
-    tags:
-      - rb
-
-  - title: "Changing History with Git"
-    url: http://flippinawesome.org/2013/07/29/changing-history-with-git/
-    comment: "Some tricks for manipulating git history."
-    pubdate: jul 29
-    tags:
-      - rb
-
-  - title: "Dynamic super-overridable methods in Ruby"
-    url: http://thepugautomatic.com/2013/07/dsom/
-    comment: "Dynamic super-overridable methods in Ruby (solution for method override issue in rails' dynamic attributes method)."
-    pubdate: jul 31
-    tags:
-      - rb
-
-  - title: "Raspberry Pi or BeagleBone Black"
-    url: http://makezine.com/magazine/how-to-choose-the-right-platform-raspberry-pi-or-beaglebone-black/
-    pubdate: aug 1
-    comment: "Detailled comparison between those 2 makers card-puters."
-    tags:
-      - tool
-
-  - title: "7 JavaScript Basics Many Developers Aren't Using (Properly)"
-    url: http://tech.pro/tutorial/1453/7-javascript-basics-many-developers-aren-t-using-properly
-    pubdate: aug 2
-    comment: "Basics with js code example and patterns."
-    tags:
-      - js
 
 - title: Watch
   baseline: "Screencasts and conferences videos, or other video feeds ..."
