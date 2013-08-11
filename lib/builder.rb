@@ -109,6 +109,8 @@ module Greeby
             item.link = "http://greenruby.org/#{c['link']}"
             item.title = "Green Ruby News ##{letter}"
             item.updated = c['date']
+            content = to_ostruct(YAML::load_file(File.join(@news_path, "archives/grn-#{letter}.yml")))
+            item.description = content.edito
           end
         end
       end

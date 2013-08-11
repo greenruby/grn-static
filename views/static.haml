@@ -43,7 +43,10 @@
                 .label Weekly Newsletter
                 %input{ class: 'email', name: 'EMAIL', placeholder: 'email address', type: 'email' }
                 %input{ class: 'button', name: 'subscribe', type: 'submit', value: 'Subscribe' }
-              %h4 Archives
+              %h4 
+                %a{ href: "feed.rss", style: "float:right;", alt: "rss" }
+                  %img{ src: "img/rss.png"} 
+                Archives
               %ul.letters
               %h4 More
               %ul
