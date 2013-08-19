@@ -34,74 +34,45 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: Nitrous
-    url: "https://www.nitrous.io/"
-    comment: "Setup dev box and quick cloud coding in no time."
+  - title: BugHerd
+    url: "http://www.bugherd.com/"
+    comment: "A hosted bug tracker that plays well with other hosted or Saas services."
     tags:
       - tool
 
-  - title: Nodechecker
-    url: "http://npmt.abru.pt/"
-    comment: "Interesting tool, checking npm packages (in docker containers), to see if they have tests."
+  - title: 3D CSS Tester
+    url: "http://thewebrocks.com/demos/3D-css-tester/"
+    comment: "A tool for testing 3D css transforms."
     tags:
-      - js
+      - css3
 
-  - title: "/mentoring"
-    url: "http://mentoring.is/"
-    comment: "A distributed mentoring movement. An ancestor of pairwithme ?"
-    tags:
-      - js
 
 
 - title: Install
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: Devise
-    url: "http://blog.plataformatec.com.br/2013/08/csrf-token-fixation-attacks-in-devise/"
-    comment: "Devise has been reported to be vulnerable to CSRF token fixation attacks. Update yours !"
+  - title: Showterm
+    url: "http://showterm.io/"
+    comment: "A gem for recording terminal sessions."
     tags:
       - rb
 
-  - title: Breach-mitigation-rails
-    url: "https://github.com/meldium/breach-mitigation-rails"
-    comment: "Make Rails apps more resilient against the BREACH and CRIME attacks."
-    tags:
-      - rb
-
-  - title: yED
-    url: "http://www.yworks.com/en/products_yed_about.html"
-    comment: "I was looking for a tool like Dia, and found that one, that has great features."
-    tags:
-      - tool
-
-  - title: Harpjs
-    url: "http://harpjs.com/"
-    comment: "An open-source web server with built-in pre-processing."
+  - title: uCSS
+    url: "https://github.com/operasoftware/ucss"
+    comment: "A node tool for finding unused and duplicate CSS rules."
     tags:
       - js
 
-  - title: Grunt-loader
-    url: "http://endel.github.io/grunt-loader/"
-    comment: "A modular approach for grunt configuration. Forget about your Gruntfile."
+  - title: Anima.js
+    url: "http://lvivski.com/anima/"
+    comment: "A js animation library including physics simulation (mass, viscosity, ..)."
     tags:
       - js
 
-  - title: Covim
-    url: "https://github.com/FredKSchott/CoVim"
-    comment: "A Vim plugin for collaborative editing, allowing multiple users to connect to the same document."
-    tags:
-      - tool
-
-  - title: Framer
-    url: "http://www.framerjs.com/"
-    comment: "A prototyping tool for animation and interaction on desktop and mobile. Generates from photoshop."
-    tags:
-      - js
-
-  - title: Riml
-    url: "https://github.com/luke-gru/riml"
-    comment: "Relaxed Viml. Like coffeescript, but for vimscript, kinda."
+  - title: lolcommits
+    url: "http://lvivski.com/anima/"
+    comment: "Capture a snapshot for each commit. Of your face."
     tags:
       - tool
 
@@ -109,73 +80,52 @@ topics:
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: "Intro to Tmux"
-    url: http://net.tutsplus.com/tutorials/tools-and-tips/intro-to-tmux/
-    pubdate: aug 1
-    comment: "Step by step ramp up on Tmux, for terminal lovers."
-    tags:
-      - tool
-
-  - title: "What are blocks, procs, and lambdas?"
-    url: http://awaxman11.github.io/blog/2013/08/05/what-is-the-difference-between-a-block/
+  - title: "Web Assets – Tips for Better Organization and Performance"
+    url: http://net.tutsplus.com/articles/web-assets-tips-for-better-organization-and-performance/
     pubdate: aug 5
-    comment: "The subtle differences between those ways to perform closure in ruby."
-    tags:
-      - rb
-
-  - title: "Why Nobody Should Use Rails For Anything, Ever"
-    url: http://blog.bensigelman.org/post/57543889435/why-nobody-should-use-rails-for-anything-ever
-    pubdate: aug 6
-    comment: "A pretty strong opinion from someone that dislikes rails, and explains why."
-    tags:
-      - rb
-
-  - title: "HTML5 And The Incredible Editable Web"
-    url: http://www.kendoui.com/blogs/teamblog/posts/13-08-06/html5-and-the-incredible-editable-web.aspx
-    pubdate: aug 6
-    comment: "Inline editing web pages with Kendo UI editor."
-    tags:
-      - js
-
-  - title: "Top 100 Agile Books"
-    url: http://www.noop.nl/2013/08/top-100-agile-books-edition-2013.html
-    pubdate: aug 7
-    comment: "These are the 100 best Agile Books in the world, based on reviews and ratings on Amazon and GoodReads."
-    tags:
-      - tool
-
-  - title: "15 Online HTML5 Tools to Speed Up Coding"
-    url: http://codegeekz.com/15-online-html5-tools-to-speed-up-coding/
-    pubdate: aug 8
-    comment: "A good collection of online services mostly helpful for html devs."
+    comment: "A collection of various tips that can boost your web app."
     tags:
       - html5
 
-  - title: "SEO for Ruby on Rails"
-    url: http://www.inboundio.com/blog/seo-for-ruby-on-rails-complete-guide/
+  - title: "Advanced Sass list functions"
+    url: http://hugogiraudel.com/2013/08/08/advanced-sass-list-functions/
     pubdate: aug 8
-    comment: "All the tricks for getting sure search engines won't forget about you."
+    comment: "How to deal with lists in Sass, in detail."
+    tags:
+      - css3
+
+  - title: "Elixir Design Goals"
+    url: http://elixir-lang.org/blog/2013/08/08/elixir-design-goals/
+    pubdate: aug 8
+    comment: "Am overview of Elixir design goals, and what it bring to erlang."
     tags:
       - rb
 
-  - title: "Getting to Docker 1.0"
-    url: http://blog.docker.io/2013/08/getting-to-docker-1-0/
-    pubdate: aug 8
-    comment: "The roadmap for this tool that gets a lot of pressure on it recently."
+  - title: "Building a Circular Navigation with CSS Transforms"
+    url: http://tympanus.net/codrops/2013/08/09/building-a-circular-navigation-with-css-transforms/
+    pubdate: aug 9
+    comment: "A nifty tutorial for a special kind of navigation, very fit for mobile."
     tags:
-      - tool
+      - css3
 
+  - title: "Conditionals Aren’t Evil, Unless You Duplicate Them"
+    url: http://blog.8thlight.com/wai-lee-chin-feman/2013/08/11/anti-anti-if.html
+    pubdate: aug 11
+    comment: "A mitigation in the war against the ifs."
+    tags:
+      - rb
 
 - title: Watch
   baseline: "Screencasts and conferences videos, or other video feeds ..."
   links:
 
-  - title: "RubyConf india 2013"
-    url: http://confreaks.com/events/rubyconfindia2013
-    duration: 3 videos
-    comment: "Some presentations from ruby conf india end of june."
+  - title: "Ember and D3 - Building a simple dashboard"
+    url: http://www.samselikoff.com/blog/2013/08/09/ember-d3-simple-dashboards/
+    duration: 1h40
+    pubdate: aug 8
+    comment: "A nice talk at bosten ember.js meetup."
     tags:
-      - rb
+      - js
 
 
 - title: Listen
