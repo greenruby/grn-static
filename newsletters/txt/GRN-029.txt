@@ -1,0 +1,210 @@
+-------------------------------
+Green Ruby News #029 - aug 25th 2013
+-------------------------------
+
+Edito
+-----------------
+This week there is a lot of videos from Lone Star and Steel City. Also, I give at the very end a list of many podcasts, not really related to ruby, but can be of interest.
+
+mose - the green ruby editor
+xenor - the informer
+http://greenruby.org
+
+
+Look
+-----------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+* Cyclemon
+  web - 
+  http://cyclemon.com/
+  Funny collection of bicycles.
+
+
+Use
+-----------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+* Aboard
+  tool - 
+  http://aboard.io/
+  Combine some RSS feeds and sail the seas of inspiration.
+
+* Codassium
+  tool - 
+  http://codassium.com/
+  An online service to conduct remote coder interviews.
+
+
+Install
+-----------------
+A selection of gems or applications updated during past week.
+
+* Sassaparilla
+  css3 - 
+  http://sass.fffunction.co/
+  A css framework on compass focused on responsive designs.
+
+* Tern
+  js - 
+  http://ternjs.net/
+  Stand-alone code-analysis engine for JavaScript, with plugins for vim, emacs, ST.
+
+* NProgress.js
+  js - 
+  http://ricostacruz.com/nprogress/
+  A nanoscopic progress bar. Featuring realistic trickle animations to convince your users that something is happening.
+
+* Steroids
+  mobile - 
+  http://www.appgyver.com/steroids
+  On the top of phonegap, but guilding thing in an hybrid way, like semi-native and faster.
+
+* Brick
+  web - 
+  http://mozilla.github.io/brick/
+  UI component for the web by Mozilla.
+
+* Apropos
+  css3 - 
+  https://github.com/square/apropos
+  A compass extension for handling responsive image sizes.
+
+* IEvms
+  tool - 
+  https://github.com/xdissent/ievms
+  Debugging js/css for IE is hell, this can help by setting up virtual machines for each version.
+
+
+Read
+-----------------
+From the blogosphere or news feeds ...
+
+* Decoupling Your HTML, CSS, and JavaScript
+  html5 - aug 17
+  http://philipwalton.com/articles/decoupling-html-css-and-javascript/
+  Some good practices about building web sites.
+
+* Running Headless Selenium with Chrome
+  js - aug 19
+  http://www.chrisle.me/2013/08/running-headless-selenium-with-chrome/
+  An interesting setup with chrome, selenium, and vagrant.
+
+* Deliberate Git
+  js - aug 19
+  http://rakeroutes.com/blog/deliberate-git/
+  A textual version of a talk about git at Steel City. Lotta tips.
+
+* An absolute beginner's guide to node.js
+  js - aug 20
+  http://blog.modulus.io/absolute-beginners-guide-to-nodejs
+  Yet another starting point to node.
+
+* The Observer Pattern
+  rb - aug 20
+  http://reefpoints.dockyard.com/2013/08/20/design-patterns-observer-pattern.html
+  Building observer class from scratch.
+
+* Inconsistent Architecture
+  rb - aug 21
+  http://www.naildrivin5.com/blog/2013/08/21/inconsistent-architecture.html
+  Interesting insight about architecture choices when building a (rails) application.
+
+* Using Ruby’s Scan Method to Transform Strings
+  rb - aug 22
+  http://brianplexico.com/using-rubys-scan-method-to-transform-strings/
+  A tiny trick using scan on strings.
+
+* 10 Interface Typos You Don’t Even Know You’re Making
+  web - aug 22
+  http://www.sitepoint.com/10-interface-typos-you-dont-even-know-youre-making/
+  A small lesson of proper english for UI makers.
+
+
+Watch
+-----------------
+Screencasts and conferences videos, or other video feeds ...
+
+* Friendly Flying Robots with Ruby
+  rb - aug 16 - 40m
+  http://steelcityruby.confbots.com/video/72709097
+  Jim Weirich shows how to control a drone with ruby.
+
+* Devops for the rubyist soul
+  rb - aug 17 - 30m
+  http://steelcityruby.confbots.com/video/72791610
+  Capistrano, puppet, git, vagrant, the lessons from Braintree.
+
+* Steel City Ruby
+  rb - aug 17 - 13 videos
+  http://steelcityruby.confbots.com/
+  The videos from Steel city 2013 Ruby conf.
+
+* Lone Star Ruby Conf 2013
+  rb - aug 19 - 30 videos
+  http://www.confreaks.com/events/lonestarruby2013
+  A huge collection of the talks from lone star. Like if you were there.
+
+
+Listen
+-----------------
+What could be heard last week ..
+
+* Giant robots 62
+  rb - aug 19 - 32m
+  https://learn.thoughtbot.com/giantrobots/62
+  Ben speaks with Natalie Nagele and Ilya Sabanin about Wildbit, Beanstalk, and work flow.
+
+* Gitminutes #19
+  tool - aug 19 - 1h07
+  http://episodes.gitminutes.com/2013/08/gitminutes-19-marcin-kuzminski-from.html
+  Discussion with Marcin Kuzminski, co-founder of RhodeCode, an open-source Git/Mercurial hosting provider.
+
+* Ruby5 396
+  rb - aug 20 - 6m
+  http://ruby5.envylabs.com/episodes/432-episode-396-august-20th-2013
+  rails 4.1, numdler local path, multitable fulltext search predicates, strong params, ruby2 & rails4 docs, rails API best practices.
+
+* RubyRogues 119
+  rb - aug 21 - 1h17
+  http://rubyrogues.com/119-rr-accessibility-with-brian-hogan/
+  Accessibility with Brian Hogan.
+
+* TheChangelog 101
+  js - aug 22 - 1h
+  http://5by5.tv/changelog/101
+  Talk with Isaac Schlueter about the origins of npm, and Node.js.
+
+* Ruby5 397
+  rb - aug 23 - 6m
+  http://ruby5.envylabs.com/episodes/433-episode-397-august-23rd-2013
+  ruby_identicon, observer pattern, lita, figaro, common table expressions, top 10 rails sites.
+
+* Javascript Jabber 072
+  js - aug 23 - 49m
+  http://javascriptjabber.com/072-jsj-screencasts/
+  Screencasts, how to make them.
+
+* More podcasts
+  tool - 
+  
+  I was asked recently if I was really listening to all the podcasts I list here. The answer is yes, and that's only a subgroup of all what I listen to. I got a bus commute (almost) everyday of 2 hours and I don't listen to music (ever).<ul><li><a href="http://sixgun.org/linuxoutlaws">Linux Outlaws</a></li><li><a href="http://distrowatch.com/news/podcast.xml">Distrowatch</a></li><li><a href="http://www.jupiterbroadcasting.com/tag/linux-action-show/">Linux Action Show</a></li><li><a href="http://www.theskepticsguide.org/">The skeptics guide to the universe</a></li><li><a href="http://5by5.tv/cmdspace">Command space</a></li><li><a href="http://twit.tv/show/floss-weekly">FLOSS weekly</a></li><li><a href="http://twit.tv/show/this-week-in-tech">This week in tech</a></li><li><a href="http://freakonomics.com/tag/freakonomics-podcast/">Freakonomics</a></li><li><a href="http://kernelpanicoggcast.net/">Kernel panic</a></li><li><a href="http://parlonsruby.com/">Parlons ruby (fr)</a></li>
+
+
+
+=====================
+
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a Creative Commons Attribution-ShareAlike 3.0 License
+
