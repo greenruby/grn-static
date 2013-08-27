@@ -1,0 +1,4 @@
+GRN static changelog
+=======================
+
+* wip
