@@ -11,6 +11,7 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
+    bson (1.9.2)
     chunky_png (1.2.8)
     compass (0.12.2)
       chunky_png (~> 1.2)
@@ -22,6 +23,8 @@ GEM
     haml (4.0.3)
       tilt
     json (1.8.0)
+    mongo (1.9.2)
+      bson (~> 1.9.2)
     oily_png (1.1.0)
       chunky_png (~> 1.2.7)
     rake (10.1.0)
@@ -38,5 +41,6 @@ DEPENDENCIES
   compass-h5bp
   haml
   json
+  mongo
   oily_png
   rdiscount

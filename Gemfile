@@ -10,3 +10,6 @@ gem 'json'
 gem 'oily_png'
 gem 'compass'
 gem 'compass-h5bp'
+
+# temporary, will get from organews when done
+gem 'mongo'
