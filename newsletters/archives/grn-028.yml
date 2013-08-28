@@ -1,0 +1,233 @@
+---
+edition: "028"
+pubdate: "aug 19th 2013"
+edito:
+  "I'm a bit late this week I was busy this week-end travelling to Hong-Kong with a tribe of geeks. Quite fun, but I'm happy to be back in Taipei :)"
+
+topics:
+
+- title: Look
+  baseline:
+    "Examples of UI/UX, graphic performance, web design and flashy things."
+  links:
+
+  - title: Favorite CodePen Demos
+    url: "http://davidwalsh.name/chris-coyiers-favorite-pens"
+    comment: "A selection of amazing css/js from Chris Coyler on Codepen."
+    tags:
+      - web
+
+- title: Use
+  baseline:
+    "Web applications, resources and tools, available for making our life easier or funnier."
+  links:
+
+  - title: BugHerd
+    url: "http://www.bugherd.com/"
+    comment: "A hosted bug tracker that plays well with other hosted or Saas services."
+    tags:
+      - tool
+
+  - title: 3D CSS Tester
+    url: "http://thewebrocks.com/demos/3D-css-tester/"
+    comment: "A tool for testing 3D css transforms."
+    tags:
+      - css3
+
+  - title: Hack.me
+    url: "https://hack.me/"
+    comment: "Build, host and share vulnerable web application."
+    tags:
+      - tool
+
+  - title: Ruby Hacking Guide
+    url: "http://ruby-hacking-guide.github.io/"
+    comment: "An English translation of 'Rubyソースコード完全解説', bible book for Ruby."
+    tags:
+      - rb
+
+  - title: Pineapple.io
+    url: "http://pineapple.io/"
+    comment: "A central hub of Tutorials, Tools and Assets for developers and designers."
+    tags:
+      - tool
+
+- title: Install
+  baseline: "A selection of gems or applications updated during past week."
+  links:
+
+  - title: Showterm
+    url: "http://showterm.io/"
+    comment: "A gem for recording terminal sessions."
+    tags:
+      - rb
+
+  - title: uCSS
+    url: "https://github.com/operasoftware/ucss"
+    comment: "A node tool for finding unused and duplicate CSS rules."
+    tags:
+      - js
+
+  - title: Anima.js
+    url: "http://lvivski.com/anima/"
+    comment: "A js animation library including physics simulation (mass, viscosity, ..)."
+    tags:
+      - js
+
+  - title: lolcommits
+    url: "http://lvivski.com/anima/"
+    comment: "Capture a snapshot for each commit. Of your face."
+    tags:
+      - tool
+
+  - title: HTML.js
+    url: "http://nbubna.github.io/HTML/"
+    comment: "A js DOM manipulator."
+    tags:
+      - js
+
+  - title: GeoGit
+    url: "http://geogit.org/"
+    comment: "Distributed Version Control for Geospatial Data."
+    tags:
+      - tool
+
+- title: Read
+  baseline: "From the blogosphere or news feeds ..."
+  links:
+
+  - title: "Web Assets – Tips for Better Organization and Performance"
+    url: http://net.tutsplus.com/articles/web-assets-tips-for-better-organization-and-performance/
+    pubdate: aug 5
+    comment: "A collection of various tips that can boost your web app."
+    tags:
+      - html5
+
+  - title: "Advanced Sass list functions"
+    url: http://hugogiraudel.com/2013/08/08/advanced-sass-list-functions/
+    pubdate: aug 8
+    comment: "How to deal with lists in Sass, in detail."
+    tags:
+      - css3
+
+  - title: "Elixir Design Goals"
+    url: http://elixir-lang.org/blog/2013/08/08/elixir-design-goals/
+    pubdate: aug 8
+    comment: "Am overview of Elixir design goals, and what it bring to erlang."
+    tags:
+      - rb
+
+  - title: "Building a Circular Navigation with CSS Transforms"
+    url: http://tympanus.net/codrops/2013/08/09/building-a-circular-navigation-with-css-transforms/
+    pubdate: aug 9
+    comment: "A nifty tutorial for a special kind of navigation, very fit for mobile."
+    tags:
+      - css3
+
+  - title: "Conditionals Aren’t Evil, Unless You Duplicate Them"
+    url: http://blog.8thlight.com/wai-lee-chin-feman/2013/08/11/anti-anti-if.html
+    pubdate: aug 11
+    comment: "A mitigation in the war against the ifs."
+    tags:
+      - rb
+
+  - title: "Don't curse in css comments"
+    url: http://dt.deviantart.com/journal/We-Give-a-F-How-the-Site-Loads-392679726
+    pubdate: aug 12
+    comment: "Bad words have impact on css loading (!? wtf)."
+    tags:
+      - css3
+
+  - title: "Does Ruby Need a Mature Binary Repository?"
+    url: http://architects.dzone.com/articles/does-ruby-need-mature-binary
+    pubdate: aug 13
+    comment: "How to handle private gems and why rubygems proxies."
+    tags:
+      - rb
+
+  - title: "Ruby 2.0 Under the Hood"
+    url: https://blog.engineyard.com/2013/ruby-2-0-under-the-hood
+    pubdate: aug 13
+    comment: "Some important performance improvements from 1.9 to 2.0."
+    tags:
+      - rb
+
+  - title: "Renderable Null Objects"
+    url: http://robots.thoughtbot.com/post/58313551647/renderable-null-objects
+    pubdate: aug 15
+    comment: "An interesting trick for handling null objects in views."
+    tags:
+      - rb
+
+- title: Watch
+  baseline: "Screencasts and conferences videos, or other video feeds ..."
+  links:
+
+  - title: "Particular Particulars about Zero Downtime Deploys"
+    url: http://confreaks.com/videos/2618-btvruby2013-particular-particulars-about-zero-downtime-deploys
+    duration: 29m
+    pubdate: aug 3
+    comment: "Discussion about the toolset changes required for zero downtime deploys with unicorn."
+    tags:
+      - rb
+
+  - title: "Real-time Rails"
+    url: http://confreaks.com/videos/2620-btvruby2013-real-time-rails
+    duration: 36m
+    pubdate: aug 3
+    comment: "Rails 4 live streaming API and how to use it."
+    tags:
+      - rb
+
+- title: Listen
+  baseline: What could be heard last week ..
+  links:
+
+  - title: "Giant robots 61"
+    url: https://learn.thoughtbot.com/giantrobots/61
+    duration: 34m
+    pubdate: aug 12
+    comment: "Paul and Ben talk about tito, funconf, and organizing conferences."
+    tags:
+      - rb
+
+  - title: Ruby5 394
+    url: http://ruby5.envylabs.com/episodes/430-episode-394-august-13th-2013
+    duration: 6m
+    pubdate: aug 13
+    comment: "ES attachment, refinery, conditionnals, disabling postfix, mutations, lolcommits."
+    tags:
+      - rb
+
+  - title: RubyRogues 118
+    url: http://rubyrogues.com/118-rr-live-recording-at-lonestar-ruby-conference-2013/
+    duration: 46m
+    pubdate: aug 14
+    comment: "Live Recording at LoneStar Ruby Conference 2013, talking about ruby best practices."
+    tags:
+      - rb
+
+  - title: Ruby5 395
+    url: http://ruby5.envylabs.com/episodes/431-episode-395-august-16th-2013
+    duration: 5m
+    pubdate: aug 16
+    comment: "ruby fiddle, port scanner, null objects, nitrous, dry crud."
+    tags:
+      - rb
+
+  - title: NodeUp 51
+    url: http://nodeup.com/fiftyone
+    duration: 1h10
+    pubdate: aug 16
+    comment: "Talking about nodebots (<a href=\"http://nodebots.io/\">http://nodebots.io</a>)."
+    tags:
+      - rb
+
+  - title: Javascript Jabber 071
+    url: http://javascriptjabber.com/071-jsj-javascript-strategies-at-microsoft-with-scott-hanselman/
+    duration: 57m
+    pubdate: aug 16
+    comment: "JavaScript Strategies at Microsoft with Scott Hanselman."
+    tags:
+      - js
+
