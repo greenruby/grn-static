@@ -13,3 +13,4 @@ gem 'compass-h5bp'
 
 # temporary, will get from organews when done
 gem 'mongo'
+gem 'bson_ext'

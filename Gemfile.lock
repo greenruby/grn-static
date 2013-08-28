@@ -12,6 +12,8 @@ GEM
   remote: https://rubygems.org/
   specs:
     bson (1.9.2)
+    bson_ext (1.9.2)
+      bson (~> 1.9.2)
     chunky_png (1.2.8)
     compass (0.12.2)
       chunky_png (~> 1.2)
@@ -37,6 +39,7 @@ PLATFORMS
 
 DEPENDENCIES
   alamano!
+  bson_ext
   compass
   compass-h5bp
   haml
