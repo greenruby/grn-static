@@ -14,3 +14,5 @@ gem 'compass-h5bp'
 # temporary, will get from organews when done
 gem 'mongo'
 gem 'bson_ext'
+gem 'json'
+gem 'sinatra', github: "sinatra/sinatra"
