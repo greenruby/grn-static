@@ -4,7 +4,8 @@ module Greeby
   class Store
 
     def initialize
-      @db = Mongo::Connection.new.db("organews", pool_size: 5, timeout: 5)
+      @mongo = MongoClient.new("localhost", pool_size: 5, timeout: 5)
+      @db = @mongo.db("organews")
     end
 
     def list

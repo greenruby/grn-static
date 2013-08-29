@@ -15,4 +15,18 @@ gem 'compass-h5bp'
 gem 'mongo'
 gem 'bson_ext'
 gem 'json'
-gem 'sinatra', github: "sinatra/sinatra"
+gem 'sinatra'
+gem 'rake'
+
+# dev
+group :development do
+  gem 'thin'
+  gem 'pry'
+  gem 'awesome_print'
+  gem 'rerun'
+end
+
+group :test do
+  gem 'rack-test'
+  gem 'rspec'
+end
