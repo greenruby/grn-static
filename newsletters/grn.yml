@@ -1,8 +1,8 @@
 ---
-edition: "031"
-pubdate: "sep 8th 2013"
+edition: "032"
+pubdate: "sep 15th 2013"
 edito:
-  "Hey there. Well this new job I got is not letting me much time to work on the automation of this information gathering. But I will keep the weekly publication fluid. This is still a very manual process. If ever you do have interesting fresh links of the week, please consider dropping me a mail! (mose at greenruby.org)"
+  ""
 
 topics:
 
@@ -11,149 +11,91 @@ topics:
     "Examples of UI/UX, graphic performance, web design and flashy things."
   links:
 
-  - title: Collaborating with a 4-year Old
-    url: "http://busymockingbird.com/2013/08/27/collaborating-with-a-4-year-old/"
-    comment: "Quite cool result of an unusual collaboration."
+  - title: Typographic Posters
+    url: "http://www.typographicposters.com/"
+    comment: "A neat collection of posters that use typogray as a graphic basis."
 
-  - title: Hello Run
-    url: "http://hellorun.helloenjoy.com/"
-    comment: "A webGL simplistic game, pretty fast."
+  - title: Phonebloks
+    url: "http://www.phonebloks.com/"
+    comment: "Okay it's absolutely not in the scope, but I really love this phone idea."
+
+
 
 - title: Use
   baseline:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: Custom Elements
-    url: "http://customelements.io/"
-    comment: "A web components gallery for modern web apps."
+  - title: DockerForge
+    url: "https://github.com/dockerforge"
+    comment: "A github repo for sharing docker tools."
     tags:
-      - web
+      - tool
 
-  - title: Uibox
-    url: "http://www.uibox.in/"
-    comment: "Curated HTML, CSS, JS UI Component collection."
+  - title: Free Vector Maps
+    url: "https://www.freevectormaps.com/"
+    comment: "A colection of royalty free vector geographic maps."
     tags:
-      - web
+      - tool
 
-  - title: Dimensions
-    url: "http://www.dimensionsapp.com/"
-    comment: "A free tool for designers to quickly test responsive websites."
+  - title: GitHubReminder
+    url: "https://githubreminder.org/signin"
+    comment: "A reminder about your starred projects on Github."
     tags:
-      - web
-
-  - title: Favicons cheat sheet
-    url: "https://github.com/audreyr/favicon-cheat-sheet"
-    comment: "Obsessive cheat sheet to favicon sizes/types."
-    tags:
-      - web
+      - tool
 
 - title: Install
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: Jekyll 1.2
-    url: "http://jekyllrb.com/news/2013/09/06/jekyll-1-2-0-released/"
-    comment: "Some nice change in that last release from firday."
+  - title: Animo.js
+    url: "http://labs.bigroomstudios.com/libraries/animo-js"
+    comment: "A powerful little tool for managing CSS animations."
+    tags:
+      - js
+
+  - title: Phusion Passenger
+    url: "http://blog.phusion.nl/2013/09/11/debian-and-ubuntu-packages-for-phusion-passenger/"
+    comment: "Phusion now ships passenger as .deb packages. Upgrades gonna be easier now"
     tags:
       - rb
 
-  - title: Ember 1.0
-    url: "http://emberjs.com/blog/2013/08/31/ember-1-0-released.html"
-    comment: "Final release of Ember finaly is out."
+  - title: Gitlab 6.0
+    url: "http://blog.gitlab.org/gitlab-6-dot-0-released/"
+    comment: "This open source clone of github gets a shiny new major version ready."
     tags:
-      - js
+      - tool
 
-  - title: ResponsImg
-    url: "http://etiennetalbot.github.io/responsImg/"
-    comment: "jQuery plugin that turns your img tags into responsive images with retina alternatives."
+  - title: Coder for raspberry PI
+    url: "http://googlecreativelab.github.io/coder/"
+    comment: "An interesting project, targeted at teaching the web using a raspberry PI."
     tags:
-      - js
+      - web
 
-  - title: Perimeter
-    url: "http://github.e-sites.nl/perimeter.js/"
-    comment: "Creates an invisible perimeter around a target element and monitors mouse breaches."
+  - title: Hermit
+    url: "http://pcaro.es/p/hermit/"
+    comment: "A font for programmers, by a programmer."
     tags:
-      - js
-
-  - title: Terminal Keynote
-    url: "https://github.com/fxn/tkn"
-    comment: "A hack for terminal-based talks."
-    tags:
-      - rb
-
-  - title: Favico.js
-    url: "http://lab.ejci.net/favico.js/"
-    comment: "Make a use of your favicon with badges, images or videos."
-    tags:
-      - js
+      - tool
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: "Fun with Sass & font icons"
-    url: http://jaydenseric.com/blog/fun-with-sass-and-font-icons
-    pubdate: sep 01
-    comment: "A detailled semantic way to neatly handle css icon fonts."
-    tags:
-      - css3
-
-  - title: "10 Great JavaScript Tools"
-    url: http://designdrizzle.com/10-great-javascript-tools-which-web-developers-shouldnt-miss/
-    pubdate: sep 01
-    comment: "Some tools for js developers."
-    tags:
-      - css3
-
-  - title: "How to Add Fat-Free Social Buttons to Your Pages"
-    url: http://www.sitepoint.com/social-media-button-links/
-    pubdate: sep 02
-    comment: "Those social sharing links can be heavy load unless you use some tricks."
-    tags:
-      - html5
-
-  - title: "6 JavaScript Date Libraries for Developers"
-    url: http://codegeekz.com/6-javascript-date-libraries-for-developers/
-    pubdate: sep 02
-    comment: "Dates are a pain point in js, here are tools to make it smoother."
+  - title: "Five Helpful Tips When Using RequireJS"
+    url: http://tech.pro/blog/1561/five-helpful-tips-when-using-requirejs
+    pubdate: sep 10
+    comment: "Require.js is more and more popular, this article unveils a fea tips about it."
     tags:
       - js
 
-  - title: "Docker.io and Redis in Five Minutes"
-    url: http://java.dzone.com/articles/dockerio-and-redis
-    pubdate: sep 03
-    comment: "A quick install guide for redis in a docker on digitalocean."
+  - title: "CSS Length Explained"
+    url: https://hacks.mozilla.org/2013/09/css-length-explained/
+    pubdate: sep 10
+    comment: "A dive into how sizes are measured in css and why."
     tags:
-      - tool
+      - css
 
-  - title: "UIkit, yet another front-end framework"
-    url: http://speckyboy.com/2013/09/03/uikit-a-new-front-end-framework/
-    pubdate: sep 03
-    comment: "This one is pretty complete and could be a bootstrap alternative."
-    tags:
-      - html5
-
-  - title: "Marathon an open source Mesos framework"
-    url: http://gigaom.com/2013/09/04/new-open-source-tech-marathon-wants-to-make-your-data-center-run-like-googles/
-    pubdate: sep 04
-    comment: "This is a cluster management solution that could deserve some attention."
-    tags:
-      - tool
-
-  - title: "The Secret to Rails OO Design"
-    url: http://blog.steveklabnik.com/posts/2011-09-06-the-secret-to-rails-oo-design
-    pubdate: sep 06
-    comment: "A post from Steve Klabnik about the Plain Old Ruby Domain Objects."
-    tags:
-      - rb
-
-  - title: "Better Ruby Presenters"
-    url: http://blog.steveklabnik.com/posts/2011-09-09-better-ruby-presenters
-    pubdate: sep 09
-    comment: "As a follow up of his last post (listed above), this one explains more about presenters."
-    tags:
-      - rb
 
 - title: Watch
   baseline: "Screencasts and conferences videos, or other video feeds ..."
@@ -171,51 +113,59 @@ topics:
   baseline: What could be heard last week ..
   links:
 
-  - title: "Giant robots 64"
-    url: https://learn.thoughtbot.com/giantrobots/64
-    duration: 36m
-    pubdate: sep 02
-    comment: "Ben talks with Des Traynor about intercom, concise communication. blogging and customer outreach."
+  - title: "Giant robots 65"
+    url: https://learn.thoughtbot.com/giantrobots/65
+    duration: 38m
+    pubdate: sep 09
+    comment: "With Chris Savage and Brendan Schwartz about Wistia."
     tags:
       - rb
 
-  - title: "Gitminutes #20"
-    url: http://episodes.gitminutes.com/2013/09/gitminutes-21-karoline-and-arve-on.html
-    duration: 1h
-    pubdate: sep 02
-    comment: "Karoline and Arve on Using Git in a .Net Shop."
+  - title: "Coder Radio 66"
+    url: http://www.jupiterbroadcasting.com/42767/docker-all-the-things-cr-66/
+    duration: 45m
+    pubdate: sep 09
+    comment: "With Andy and Ben from Dotcloud about the future of docker and a bit about go."
     tags:
       - tool
 
-  - title: RubyRogues 121
-    url: http://rubyrogues.com/121-rr-consulting-vs-product-work-with-adam-keys/
-    duration: 1h16
-    pubdate: sep 04
-    comment: "Consulting vs Product Work with Adam Keys."
+  - title: Ruby5 401
+    url: http://ruby5.envylabs.com/episodes/437-episode-401-september-10th-2013
+    duration: 7m
+    pubdate: sep 10
+    comment: "Kochiku, scaling rails, passenger, ruby off rails, postgresql, seeing is believing."
     tags:
       - rb
 
-  - title: TheChangelog 102
-    url: http://5by5.tv/changelog/102
-    duration: 53m
-    pubdate: sep 06
-    comment: "RVM and Managing Ruby versions with Michal Papis."
+  - title: RubyRogues 122
+    url: http://rubyrogues.com/122-rr-daemons-with-kenneth-kalmer/
+    duration: 1h12
+    pubdate: sep 11
+    comment: "Daemons with Kenneth Kalmer."
     tags:
       - rb
 
-  - title: Ruby5 400
-    url: http://ruby5.envylabs.com/episodes/436-episode-400-september-6th-2013
-    duration: 5m
-    pubdate: sep 06
-    comment: "WWTD, stringmaster, localjob, outpost, jekyll yips, peddler."
+  - title: TheChangelog 103
+    url: http://5by5.tv/changelog/103
+    duration: 1h
+    pubdate: sep 13
+    comment: "GitLab and open source with Sytse Sijbrandij."
+    tags:
+      - tool
+
+  - title: Ruby5 402
+    url: http://ruby5.envylabs.com/episodes/438-episode-402-september-13th-2013
+    duration: 6m
+    pubdate: sep 13
+    comment: "Ruboto irb, railscasts, polyglot, rubygems, rails load path, yokozuna, ruby2600."
     tags:
       - rb
 
-  - title: Javascript Jabber 074
-    url: http://javascriptjabber.com/074-jsj-grunt-js-with-ben-alman/
-    duration: 1h14
-    pubdate: sep 06
-    comment: "Grunt with Ben Alman."
+  - title: Javascript Jabber 075
+    url: http://javascriptjabber.com/075-jsj-maintainable-javascript-with-nicholas-zakas/
+    duration: 57m
+    pubdate: sep 13
+    comment: "Maintainable JavaScript with Nicholas Zakas."
     tags:
       - js
 
