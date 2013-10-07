@@ -1,0 +1,230 @@
+-------------------------------
+Green Ruby News #035 - oct 6th 2013
+-------------------------------
+
+Edito
+-----------------
+There is plenty of links again this week. Enjoy.
+
+mose - the green ruby editor
+xenor - the informer
+http://greenruby.org
+
+
+Look
+-----------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+* Radius Raid
+   - 
+  http://js13kgames.com/entries/radius-raid
+  A 13k javascript asteroid-like game.
+
+* Better than kitten
+   - 
+  http://www.betterthankittens.com/
+  Designers compete against kittens.
+
+* Lego Calendar syncs with Google Calendar
+   - 
+  http://www.creativeapplications.net/objects/lego-calendar-by-vitamins-design-syncs-with-google-calendar/
+  Any excuse is good to avoid letting go the kid in you.
+
+
+Use
+-----------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+* Static Site Generators
+  web - 
+  http://staticsitegenerators.net/
+  A list of 174 site generators in various languages.
+
+* Usability Hub
+  tool - 
+  https://usabilityhub.com/
+  Test your designs and mockups on real people.
+
+* The Code Player
+  html5 - 
+  http://thecodeplayer.com/
+  Video style walkthroughs showing cool stuff being created from scratch.
+
+* Tessel
+  tool - 
+  http://tessel.io/
+  Yet another micro-board for web devs, only in pre-order now.
+
+* Apigee
+  tool - 
+  https://apigee.com/console/others
+  This API console looks a bit like the Postman chrome extension but lists a bunch of providers.
+
+* NodeTime
+  js - 
+  http://nodetime.com/
+  Analytics tool for Nodejs.
+
+
+Install
+-----------------
+A selection of gems or applications updated during past week.
+
+* Rubinius 2.0
+  rb - 
+  http://rubini.us/2013/10/04/rubinius-2-0-released/
+  With focus of compatibility with ruby 2.1, this major release helps ruby to compete with full threaded other languages.
+
+* Regularity
+  rb - 
+  https://github.com/andrewberls/regularity
+  Human readable Regex.
+
+* Polymaps
+  js - 
+  http://polymaps.org/
+  A JavaScript library for image- and vector-tiled maps using SVG.
+
+* Google web designer
+  html5 - 
+  http://www.google.com/webdesigner/
+  An editor for HTML5-based designs and motion graphics that can run on any device.
+
+* Absurd.js
+  js - 
+  https://github.com/krasimir/absurd
+  Writing your CSS in JavaScript, and skip the css preprocessing.
+
+* Faye 1.0
+  rb - 
+  http://blog.jcoglan.com/2013/10/01/announcing-faye-1-0/
+  A big release is all about stability for this ruby and node pubsub/websocket server.
+
+* Negative Captcha
+  rb - 
+  https://github.com/subwindow/negative-captcha
+  A plugin to make the process of creating a negative captcha in Rails much less painful.
+
+
+Read
+-----------------
+From the blogosphere or news feeds ...
+
+* Custom animated checkbox inputs using CSS and iconfonts
+  css3 - 
+  http://thecodeplayer.com/walkthrough/custom-animated-checkbox-inputs-using-css-iconfonts
+  A great walkthrough for nice looking checkboxes.
+
+* 11 Steps To Make Your RSpec Specs Awesome
+  rb - sep 29
+  http://tech.ftbpro.com/post/62631065020/11-steps-to-make-your-rspec-specs-awesome
+  Advises for a better use of rspec and testing.
+
+* Serving ruby gems, the paranoid way
+  rb - sep 30
+  http://blog.gemnasium.com/post/62702069261/serving-ruby-gems-the-paranoid-way
+  How to setup your own gem server.
+
+* Using papertrail to find weird problems
+  rb - oct 01
+  http://rubyrailsexpert.com/?p=36
+  Story of a debugging process using Papertrail gem.
+
+* Essential Gems When Starting a Ruby on Rails Project
+  rb - oct 01
+  http://thecrentist.com/2013/10/01/essential-gems-ruby-on-rails-project
+  A list of gems, most are famous, but maybe you will find a few that you don't know about yet.
+
+* 6 Ways To Remove Pain From Feature Testing In Ruby On Rails
+  rb - oct 02
+  http://rubyrailsexpert.com/?p=36
+  Tips about testing with no cucumber.
+
+* High-Speed Rails Deploys With Git
+  rb - oct 02
+  http://blog.codeclimate.com/blog/2013/10/02/high-speed-rails-deploys-with-git/
+  Deploying in 5 seconds with simpler, faster Capistrano tasks.
+
+* Ultimate guide to learning AngularJS in one day
+  js - oct 02
+  http://toddmotto.com/ultimate-guide-to-learning-angular-js-in-one-day/
+  An interactive introduction to angular using embeded jsfiddles.
+
+* How to design useful monitoring graphs and visualizations
+  tool - oct 04
+  https://blog.serverdensity.com/how-to-design-useful-monitoring-graphs-and-visualizations/
+  A great review about how to design monitoring graphs.
+
+
+Watch
+-----------------
+Screencasts and conferences videos, or other video feeds ...
+
+* How to Design Great APIs
+  web - oct 02 - 32m
+  http://blog.parse.com/2013/10/02/parse-developer-day-video-series-how-to-design-great-apis/
+  A talk from Parse developer day, on what makes an API great by using emotion.
+
+* A Little Graph Theory for the Busy Developer
+  tool - oct 03 - 43m
+  http://www.infoq.com/presentations/graph-database-theory
+  Very good introduction to graphs for data storage, with video sync with slides and Dr Who graph.
+
+* What Every Hipster Should Know About Functional Programming
+  tool - oct 04 - 43m
+  http://vimeo.com/76159530
+  This is the War of the Hipsters. Arm yourself now, before it goes mainstream..
+
+
+Listen
+-----------------
+What could be heard last week ..
+
+* Ruby5 406
+  rb - sep 27 - 5m
+  http://ruby5.envylabs.com/episodes/442-episode-406-september-27th-2013
+  Lambdas, rocker-box, snowden, canada Gem, community future, DCamp.
+
+* Giant robots 68
+  rb - sep 30 - 34m
+  https://learn.thoughtbot.com/giantrobots/68
+  With Paul Farnell, CEO of Litmus, talk about starting up, business practices, and Litmus.
+
+* Ruby5 407
+  rb - oct 01 - 7m
+  http://ruby5.envylabs.com/episodes/443-episode-407-october-1st-2013
+  ruby 2.1, tmux, closures, gem config, executable ruby app, git branching model, CI sphero.
+
+* RubyRogues 125
+  rb - oct 01 - 1h26
+  http://rubyrogues.com/125-rr-loyalty-and-layoffs/
+  Loyalty and Layoffs. Trust, Career and Corporations.
+
+* Javascript Jabber 078
+  js - oct 04 - 58m
+  http://javascriptjabber.com/078-jsj-working-from-home/
+  Working From Home.
+
+* TheChangelog 106
+  css3 - oct 05 - 41m
+  http://5by5.tv/changelog/106
+  Semantic UI with Jack Lukic.
+
+
+
+=====================
+
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a Creative Commons Attribution-ShareAlike 3.0 License
+
