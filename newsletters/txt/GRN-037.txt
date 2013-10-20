@@ -1,0 +1,235 @@
+-------------------------------
+Green Ruby News #037 - oct 20th 2013
+-------------------------------
+
+Edito
+-----------------
+Last week I played a bit with <a href="http://cartodb.com">cartodb</a> to make a <a href="http://cdb.io/GZM0Bv">map or subscribers</a> from the csv export from mailchimp. The result is pretty neat. About the news, this week we get a lot of links to the recent ruby and rails confs, and a lot of more things.
+
+mose - the green ruby editor
+xenor - the informer
+http://greenruby.org
+
+
+Look
+-----------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+* HTML5 Websites For Inspiration
+   - 
+  http://designbeep.com/2013/10/18/21-fresh-html5-websites-inspiration/
+  21 websites with innovative design.
+
+* Squishy Earth
+   - 
+  http://www.byronknoll.com/earth.html
+  A pretty funny physics experiment using hammer.js. Pretty good reactivity.
+
+* Generator Redux
+   - 
+  https://www.shadertoy.com/view/lsXGWl
+  291 lines of WebGL shader code.
+
+* Design Jargon Bullshit
+   - 
+  http://designjargonbullshit.com/
+  Quotes from designers that like to use words (too much).
+
+
+Use
+-----------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+* Slant
+  tool - 
+  http://www.slant.co/
+  Looks a bit like staeckoverflow but more focused on making points about generic questions.
+
+* Generate Data
+  tool - 
+  http://www.generatedata.com/
+  A tool to generate random data files for testing in your apps.
+
+* Free programming books
+  tool - 
+  https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md
+  A giant list of free programming books.
+
+* Wripe
+  tool - 
+  https://wri.pe/
+  An online notepad that looks promising.
+
+* Workman Keyboard Layout
+  tool - 
+  http://www.workmanlayout.com/blog/
+  QWERTY is not the only way.
+
+* Send to dropbox
+  tool - 
+  https://sendtodropbox.com/
+  A way to send files to your dropbox via mail.
+
+
+Install
+-----------------
+A selection of gems or applications updated during past week.
+
+* Rails 4.0.1rc1
+  rb - 
+  http://weblog.rubyonrails.org/2013/10/17/Rails-4-0-1-rc1-has-been-released/
+  A whole lot of bugfixes, plus speed improvements.
+
+* Rails 3.2.15
+  rb - 
+  http://weblog.rubyonrails.org/2013/10/16/Rails-3-2-15-has-been-released/
+  This is a security release related to action mailer, but with also some bugfixes.
+
+* Mocoso
+  rb - 
+  https://github.com/frodsan/mocoso
+  Another stub & mock library for Ruby.
+
+* Dropzone
+  js - 
+  http://www.dropzonejs.com/
+  Drag'n'drop file uploads with image previews.
+
+* Whipped Cream
+  rb - 
+  https://github.com/justincampbell/whipped-cream
+  A tool for creating web servers for raspberry PI.
+
+
+Read
+-----------------
+From the blogosphere or news feeds ...
+
+* The Unexpected Outcomes Of Code Review
+  tool - oct 09
+  http://blog.codeclimate.com/blog/2013/10/09/unexpected-outcomes-of-code-reviews/
+  Find out why the value of code review is probably not what you expect.
+
+* Adding search to Rails apps with Elasticsearch
+  rb - oct 10
+  https://shellycloud.com/blog/2013/10/adding-search-and-autocomplete-to-a-rails-app-with-elasticsearch
+  A fast and easy way to add search to your Rails application with Elasticsearch abd Searchkick.
+
+* Threads in Ruby
+  rb - oct 14
+  http://www.sitepoint.com/threads-ruby/
+  Explanation and examples around ruby threads.
+
+* Ember Components – Reusable Building Blocks
+  js - oct 14
+  http://flippinawesome.org/2013/10/14/ember-components-reuseable-building-blocks-for-your-application/
+  Review on how Ember.js approaches the web component principles.
+
+* ActiveModel::Serializers Rewrite
+  rb - oct 15
+  http://blog.wyeworks.com/2013/10/15/active_model_serializers_rewrite/
+  What's next in upcoming ActiveModel::Serializer 0.9.
+
+* Communicating Animation Ideas
+  mobile - oct 16
+  http://jesseddy.com/blog/2013/10/communicating-animation-ideas/
+  Review of some tools that can help bringing animations to your interfaces.
+
+* 10 Quick Ruby Tricks
+  rb - oct 17
+  http://www.trevormckendrick.com/10-ruby-tricks/
+  Some nice tricks about badly known ruby syntaxes.
+
+* How to prevent FOUC on your websites
+  css3 - oct 18
+  http://www.techrepublic.com/blog/web-designer/how-to-prevent-flash-of-unstyled-content-on-your-websites/
+  Discover ways to stop Flash of Unstyled Content (FOUC) from occurring on your sites.
+
+
+Watch
+-----------------
+Screencasts and conferences videos, or other video feeds ...
+
+* Windy city Railsconf 2013
+  rb -  - 19 videos
+  http://www.windycityrails.org/videos/2013/
+  Check those out, there are amazing speakers.
+
+* Gogaruco 2013
+  rb - oct 09 - 21 videos
+  http://www.confreaks.com/events/gogaruco2013
+  Check those out, there are amazing speakers.
+
+* Nickel city rubyconf 2013
+  rb - oct 11 - 2 videos
+  http://www.confreaks.com/events/nickelcityruby2013
+  A couple of presentations.
+
+* Rocky Mountain rubyconf 2013
+  rb - oct 12 - 4 videos
+  http://www.confreaks.com/events/rockymountainruby2013
+  The 4th rubyconf in boulder.
+
+* Chef Fundamentals Webinar Series 
+  rb - oct 17 - 40m
+  http://www.youtube.com/watch?v=yh9osPQA_-k
+  First module of an Opscode <a href='http://www.opscode.com/blog/2013/10/16/chef-fundamentals-webinar-series-starts-tomorrow/'>webinar about Chef</a>, should last 6 weeks.
+
+* Command line apps
+  rb - oct 19 - 32m
+  http://build-podcast.com/command-line-apps/
+  Examples of command line apps with node (commander) and ruby (thor).
+
+
+Listen
+-----------------
+What could be heard last week ..
+
+* Giant robots 70
+  rb - oct 14 - 40m
+  https://learn.thoughtbot.com/giantrobots/70
+  With Jeff Atwood about Discourse, forum software, and soylent.
+
+* Ruby5 410
+  rb - oct 15 - 7m
+  http://ruby5.envylabs.com/episodes/447-episode-411-october-15th-2013
+  refactor, shrimp, travis, ruby stack, cookies.
+
+* RubyRogues 127
+  rb - oct 16 - 1h37
+  http://rubyrogues.com/127-rr-erik-michaels-ober/
+  Discussion about general aspects of ruby and gems development.
+
+* The Changelog 108
+  rb - oct 16 - 56m
+  http://5by5.tv/changelog/108
+  Exercism.io with Katrina Owen.
+
+* Ruby5 412
+  rb - oct 18 - 6m
+  http://ruby5.envylabs.com/episodes/448-episode-412-october-18th-2013
+  Rubinius X, activemodel serializer, parallel test with docker, angularjs, rails.env.
+
+* Javascript Jabber 080
+  js - oct 18 - 58m
+  http://javascriptjabber.com/080-jsj-impact-js-with-dominic-szablewski/
+  Impact.js with Dominic Szablewski.
+
+
+
+=====================
+
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a Creative Commons Attribution-ShareAlike 3.0 License
+
