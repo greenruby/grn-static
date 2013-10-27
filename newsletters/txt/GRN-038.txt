@@ -1,0 +1,235 @@
+-------------------------------
+Green Ruby News #038 - oct 27th 2013
+-------------------------------
+
+Edito
+-----------------
+Last week I had some problems with my podcast client for android, so I got back to gPodder and found out Listen-up app that is really neat. You can check my <a href="https://gpodder.net/user/mose/subscriptions">gPodder listing</a>.
+
+mose - the green ruby editor
+xenor - the informer
+http://greenruby.org
+
+
+Look
+-----------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+* Metaball soup
+   - 
+  http://oos.moxiecode.com/js_webgl/metaballs_soup/
+  If you loved the sqiosjy earth of last week, you will aolso love that soup.
+
+* A interactive resume
+   - 
+  http://www.rleonardi.com/interactive-resume/
+  Designer resume can be mind blowing, this one simulates interaction for its timeline.
+
+
+Use
+-----------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+* Metabright
+  tool - 
+  http://www.metabright.com/
+  A site for coders to complete challenges, raise reputation, and eventually find jobs.
+
+* CodeClimate for JS
+  tool - 
+  http://blog.codeclimate.com/blog/2013/10/24/code-climate-for-javascript/
+  The famous ruby code thermometer now opens to js.
+
+* Geeklist git
+  tool - 
+  http://git.geekli.st/
+  Geeklist opened a free git repo hosting, powered by gitlab.
+
+* DoCapture
+  tool - 
+  http://remotejobs.io/
+  A job website focused on remote opportunities.
+
+* RemoteJobs
+  tool - 
+  http://skakunmedia.com/docapture/
+  Free, quick, high-res, website screen captures in the exact size you need.
+
+
+Install
+-----------------
+A selection of gems or applications updated during past week.
+
+* Font Awesome 4
+  css3 - 
+  http://fontawesome.io/
+  Last release of that css font lib, faster and with more icons.
+
+* Mean
+  js - 
+  http://www.mean.io/
+  MEAN (Mongo, Express, Angular, Node) stack Boilerplate.
+
+* HTML5 admin
+  css - 
+  http://www.html5admin.com/
+  A bootstrap css theme for admin backends.
+
+* post_json
+  rb - 
+  https://github.com/webnuts/post_json
+  PostJson is everything you expect of ActiveRecord and PostgreSQL, with the added power and dynamic nature of a document database.
+
+* Snap.svg
+  js - 
+  http://snapsvg.io/
+  The JavaScript SVG library for the modern web.
+
+* Happy Rhino
+  js - 
+  http://friendcode.github.io/hr.js/
+  Another client-side web application framework.
+
+* Lime
+  go - 
+  https://github.com/quarnster/lime
+  A ST2 compatible editor written in go, python, QT. Still in progress but promising.
+
+* Serf
+  go - 
+  http://www.serfdom.io/
+  A service discovery tool using the gossip protocol, for devops.
+
+
+Read
+-----------------
+From the blogosphere or news feeds ...
+
+* Inside GitHub's Super-Lean Management Strategy
+  web - oct 18
+  http://www.fastcolabs.com/3020181/open-company/inside-githubs-super-lean-management-strategy-and-how-it-drives-innovation
+  A long article about Github management model and how it drives innovation
+
+* Getting to Know Pluck and Select
+  rb - oct 20
+  http://gavinmiller.io/2013/getting-to-know-pluck-and-select/
+  For improving performance with ActiveRecords, 2 useful methods.
+
+* Page caching with Rails 4
+  rb - oct 20
+  http://www.rubytutorial.io/page-caching-with-rails-4
+  The built-in page caching has been extracted to a separate gem in Rails 4.
+
+* Ruby 2.0: respond_to?
+  rb - oct 21
+  http://dev.af83.com/2013/10/21/ruby-2-0-respond-to.html
+  Details about the change in respomd_to? that in ruby 2 only works on public methods.
+
+* OS X 10.9 Mavericks: The Ars Technica Review
+  tool - oct 23
+  http://arstechnica.com/apple/2013/10/os-x-10-9/
+  Very detailled review of what changes in the new mac system.
+
+* Easy database migration using Taps(-taps)
+  rb - oct 24
+  https://shellycloud.com/blog/2013/10/easy-database-migration-using-taps
+  Want to migrate from mysql to postgresql ? Taps-taps !
+
+* A/B Testing with Split in Ruby on Rails
+  rb - oct 24
+  http://grinnick.com/posts/a-b-testing-with-split-in-ruby-on-rails
+  Split is a great Ruby gem which you can use to run A/B tests in any Rack-based project like Sinatra or Rails.
+
+* 12 Awesome CSS3 Features
+  css3 - oct 25
+  http://tutorialzine.com/2013/10/12-awesome-css3-features-you-can-finally-use/
+  A set of css3 features that finaly work on all (recent) browsers.
+
+* CSS3 Inheritance Tips and Tricks
+  css3 - oct 25
+  http://www.sitepoint.com/css3-inheritance-tips-tricks/
+  There are a few new inheritance features in CSS3 you may not be aware of.
+
+* Fontello: The Past and Future of the Icon Font Service
+  css3 - oct 25
+  http://css-tricks.com/fontello-past-future-icon-font-service/
+  The story behind fontello.com.
+
+
+Watch
+-----------------
+Screencasts and conferences videos, or other video feeds ...
+
+* Sass Bites #12 - Introduction to Compass
+  css - oct 24 - 17m
+  https://www.youtube.com/watch?v=iLcp5q59cYw
+  This weekly screencast shares tips about SASS, check <a href="https://www.youtube.com/user/sassbites">previous episodes</a> too.
+
+* Baruco 29013 ruby conf
+  rb -  - 10 videos
+  https://www.youtube.com/channel/UCFlDMr_d8zRuOWCcKH7LpuQ?feature=watch
+  The videos from barcelona rubyconf are available this week.
+
+* RealTime Conf 2013
+  tool -  - 32 videos
+  http://2013.realtimeconf.com/video/
+  A very creative conf, featuring an amazing storytelling pattern with a very geeky taste.
+
+
+Listen
+-----------------
+What could be heard last week ..
+
+* Giant robots 71
+  rb - oct 21 - 40m
+  https://learn.thoughtbot.com/giantrobots/71
+  Josh Clayton and Ben Orenstein interview each other about their managing director positions.
+
+* Git Minutes #24
+  tool - oct 21 - 1h03
+  http://episodes.gitminutes.com/2013/10/gitminutes-24-zoran-zaric-on-backups.html
+  Zoran Zaric on Backups with Bup (git-based backup tool).
+
+* Ruby5 413
+  rb - oct 22 - 5m
+  http://ruby5.envylabs.com/episodes/449-episode-413-october-22nd-2013
+  rails releases, upgrafing to rails 4, migrant, smallest distributed system, modelling user sessions.
+
+* RubyRogues 128
+  rb - oct 23 - 1h16
+  http://rubyrogues.com/128-rr-book-club-confident-ruby-with-avdi-grimm/
+  Book Club: Confident Ruby with Avdi Grimm.
+
+* Ruby5 414
+  rb - oct 25 - 5m
+  http://ruby5.envylabs.com/episodes/450-episode-414-october-25th-2013
+  casting, autoprefixer, ivar_encapsulation, termit, ruby on mavericks.
+
+* Javascript Jabber 081
+  js - oct 25 - 50m
+  http://javascriptjabber.com/081-jsj-promises-for-testing-async-javascript-with-pete-hodgson/
+  Promises for Testing Async JavaScript with Pete Hodgson.
+
+* The Changelog 109
+  tool - oct 26 - 50m
+  http://5by5.tv/changelog/109
+  Open Karma with Justine Arreche and Sebastian Gräßl. Mating coders with designers. Keep an eye on that one.
+
+
+
+=====================
+
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a Creative Commons Attribution-ShareAlike 3.0 License
+
