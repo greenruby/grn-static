@@ -1,0 +1,230 @@
+-------------------------------
+Green Ruby News #039 - nov 3rd 2013
+-------------------------------
+
+Edito
+-----------------
+This week we get the rails upgrade to 4.0.1 with a lot of bugfixes. And there is like each week a collection of other links.
+
+mose - the green ruby editor
+xenor - the informer
+http://greenruby.org
+
+
+Look
+-----------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+* Rails Rumble winners
+   - 
+  http://railsrumble.com/entries/winners
+  Always creative ideas can be found there.
+
+* A Game of Shark and Minnow
+   - 
+  http://www.nytimes.com/newsgraphics/2013/10/27/south-china-sea/
+  A superb onepage site combining scrolling effect and full screen videos.
+
+* Mac Plus emulator
+   - 
+  http://jamesfriend.com.au/pce-js/
+  Running Mac OS 7 on your browser, all in javascript
+
+
+Use
+-----------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+* Paydirt
+  tool - 
+  https://paydirtapp.com/
+  A time tracking and invoicing tool for freelancers.
+
+* Timecapsule
+  tool - 
+  http://timecapsule.io/
+  A chrome extension to send bookmarks to your future self.
+
+* Fleep
+  tool - 
+  https://fleep.io/
+  This chat service looks like hipchat, and is free while in beta.
+
+* Code Combat
+  js - 
+  http://codecombat.com/
+  Learn to Code JavaScript by Playing a Game.
+
+* Snazzy maps
+  js - 
+  http://snazzymaps.com/
+  Snazzy Maps is a repository of different styles for Google Maps.
+
+
+Install
+-----------------
+A selection of gems or applications updated during past week.
+
+* Rails 4.0.1
+  rb - 
+  http://weblog.rubyonrails.org/2013/11/1/Rails-4-0-1-has-been-released/
+  This is a bug fix release and includes more than 460 commits.
+
+* Pundit
+  rb - 
+  https://github.com/elabs/pundit
+  An alternative to Cancan for permissions management, check out <a href="http://blog.carbonfive.com/2013/10/21/migrating-to-pundit-from-cancan/">this blog post</a> to know more.
+
+* Koudoku
+  rb - 
+  https://github.com/andrewculver/koudoku
+  Robust subscription support for Rails with Stripe.
+
+* Google maps for rails
+  rb - 
+  https://github.com/apneadiving/Google-Maps-for-Rails
+  Enables easy Google map + overlays creation in Ruby apps.
+
+* Gmelius
+  tool - 
+  http://gmelius.com/
+  A browser extension to overlay gmail, kill ads and add features.
+
+* PhysicsJs
+  js - 
+  http://wellcaffeinated.net/PhysicsJS/
+  A 2d physic engine in javascript.
+
+* Riot.js
+  js - 
+  https://moot.it/blog/technology/riotjs-the-1kb-mvp-framework.html
+  The 1kb client-side MVP framework.
+
+* 20 jQuery Plugins for Scrolling Effects
+  js - 
+  http://codegeekz.com/20-jquery-plugins-for-scrolling-effects/
+  Scrolling is the new hype. Here are tools for making it smooth.
+
+
+Read
+-----------------
+From the blogosphere or news feeds ...
+
+* Automate Your Responsive Images With Mobify.js
+  mobile - oct 24
+  http://mobile.smashingmagazine.com/2013/10/24/automate-your-responsive-images-with-mobify-js/
+  Verbose demonstration of the use of mobify.js for handling responsive images cleverly.
+
+* Auto generate UUID with Postgres and Rails 4
+  rb - oct 25
+  http://blog.lingohub.com/developers/2013/10/dev-bit-auto-generate-uuid-postgres-rails-4/
+  How to take advantage of the unique identifiers in postgres with rails.
+
+* The JavaScript Event Loop: Explained
+  js - oct 27
+  http://blog.carbonfive.com/2013/10/27/the-javascript-event-loop-explained/
+  A pretty good explanation of how javascript event-loop works.
+
+* Statesman: A modern, robust Ruby state machine
+  rb - oct 30
+  https://gocardless.com/blog/statesman/
+  An alternative Ruby state machine library.
+
+* Detecting Failed Delayed Job Workers
+  rb - oct 30
+  http://www.salsify.com/blog/detect-failed-delayed-job-workers/1571
+  How to detect locks in delayed jobs and relaunch them.
+
+* Why Meteor will kill Ruby on Rails
+  js - oct 31
+  http://differential.io/blog/meteor-killin-rails
+  An opinion about meteor and some comparison with rails, from a rails devceloper.
+
+* Phusion Passenger open sources Meteor support
+  js - nov 01
+  http://blog.phusion.nl/2013/11/01/will-meteor-kill-rails-i-dont-know-but-phusion-passenger-open-sources-meteor-support/
+  This the answer of phusion passenger to the previous article.
+
+* How I update project from Rails 3 to Rails 4
+  rb - nov 01
+  http://leopard.in.ua/2013/11/01/update-from-rails3-to-rails4/
+  A bunch of advises about an upgrade thaht is still due for many rails devs.
+
+* Agile Software Development with GitHub
+  js - nov 02
+  http://www.mindtouch.com/blog/2013/11/02/agile_github_workflow/
+  Here is a presentation on how mindtouch uses github as a main workflow tool (as many others do).
+
+
+Watch
+-----------------
+Screencasts and conferences videos, or other video feeds ...
+
+* Wicked Good Ruby 2013
+  rb -  - 26 videos
+  http://www.confreaks.com/events/wickedgoodruby
+  John Albin Wilkins and No-query Fallbacks in Breakpoint.
+
+* Sass Bites #13
+  css - oct 31 - 20m
+  https://www.youtube.com/watch?v=nM8bRUJpuAo
+  John Albin Wilkins and No-query Fallbacks in Breakpoint.
+
+
+Listen
+-----------------
+What could be heard last week ..
+
+* Giant robots 72
+  rb - oct 28 - 33m
+  http://podcasts.thoughtbot.com/giantrobots/72
+  With Nathan Barry about book writing, teaching and self employment.
+
+* Ruby5 415
+  rb - oct 29 - 7m
+  http://ruby5.envylabs.com/episodes/451-episode-415-october-29th-2013
+  FFI is over, TryTo, Devops, asset pipeline, constant resolution, emacs for ruby.
+
+* RubyRogues 129
+  rb - oct 30 - 1h02
+  http://rubyrogues.com/129-rr-sharpening-tools-with-ben-orenstein/
+  Sharpening Tools with Ben Orenstein.
+
+* The Changelog 110
+  rb - oct 30 - 1h
+  http://5by5.tv/changelog/110
+  Capistrano and Burnout with Lee Hambley.
+
+* The New Pro Puppet
+  rb - oct 31 - 18m
+  http://puppetlabs.com/podcasts/podcast-new-pro-puppet
+  With authors of the upcoming new edition of the book Pro Puppet.
+
+* Ruby5 416
+  rb - nov 01 - 5m
+  http://ruby5.envylabs.com/episodes/452-episode-416-november-1st-2013
+  gem teardown, angular/backbone, statesman, table_print, pronto runner.
+
+* Javascript Jabber 082
+  js - nov 01 - 42m
+  http://javascriptjabber.com/082-jsj-jshint-with-anton-kovalyov/
+  JSHint with Anton Kovalyov.
+
+
+
+=====================
+
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a Creative Commons Attribution-ShareAlike 3.0 License
+
