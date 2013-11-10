@@ -1,0 +1,994 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta property="og:title" content="*|MC:SUBJECT|*">
+<title>*|MC:SUBJECT|*</title>
+
+<style type="text/css">
+#outlook a{
+	padding:0;
+}
+body{
+	width:100% !important;
+	-webkit-text-size-adjust:none;
+	margin:0;
+	padding:0;
+}
+img{
+	border:none;
+	font-size:14px;
+	font-weight:bold;
+	height:auto;
+	line-height:100%;
+	outline:none;
+	text-decoration:none;
+	text-transform:capitalize;
+}
+#backgroundTable{
+	height:100% !important;
+	margin:0;
+	padding:0;
+	width:100% !important;
+}
+body,.backgroundTable{
+	/*@editable*/background-color:#11332f;
+}
+#templateContainer{
+	background-color:#113025;
+}
+#wrapper{
+	width:600px;
+	border:1px solid #000000;
+}
+h1 {
+	color:#202020;
+	display:block;
+	font-family:Courier New, monospace;
+	font-size:30px;
+	font-weight:bold;
+	line-height:100%;
+	margin-bottom:0px;
+	margin-top:0;
+	text-align: right;
+}
+h2 {
+	color:#202020;
+	display:block;
+	font-family:Courier New, monospace;
+	font-weight:bold;
+	line-height:100%;
+	margin-top:6px;
+	margin-bottom:3px;
+	text-align:left;
+	border-top:1px solid #000;
+	border-bottom:1px dashed #ccc;
+	padding:5px 0 2px 0;
+	font-size:18px;
+	text-transform:uppercase;
+}
+h3 {
+	color:#202020;
+	display:block;
+	font-family:Courier New, monospace;
+	font-size:26px;
+	font-weight:bold;
+	line-height:100%;
+	margin-bottom:0;
+	text-align:left;
+}
+ul{
+	padding-left:15px;
+	margin:5px 0;
+}
+#templatePreheader{
+	background-color:#217844;
+	padding:10px;
+	text-align:left;
+	padding-bottom:20px;
+}
+#templatePreheader div{
+	color:#ffffff;
+	font-family:Courier New, monospace;
+	font-size:10px;
+	line-height:100%;
+	text-align:center;
+}
+#templatePreheader div a:link,#templatePreheader div a:visited{
+	color:#eddf26;
+	font-weight:bold;
+	text-decoration:none;
+}
+#templatePreheader div.title{
+	font-size:14px;
+	font-weight:bold;
+}
+#templateHeader{
+	background-color:#ffffff;
+	color:#113331;
+	font-size:14px;
+	font-family:Courier New, monospace;
+	line-height:100%;
+	padding:5px 20px;
+	position:relative;
+}
+#templateHeader div{
+	text-align:right;
+}
+#templateHeader #headerImage{
+	position:absolute;
+	left:20px;
+	top:-10px;
+	float:left;
+}
+#templateBody{
+	background-color:#ffffff;
+	padding: 10px 20px;
+	clear:both;
+}
+#templateBody div, #templateBody td {
+	color: #505050;
+	font-family: Arial, sans serif;
+	font-size: 14px;
+	line-height: 150%;
+}
+#templateBody div a:link,#templateBody div a:visited{
+	color:#297b4e;
+	font-weight:bold;
+	text-decoration:underline;
+}
+#templateFooter{
+	color:#ffffff;
+	font-family:Arial, sans serif;
+	font-size:12px;
+	line-height:125%;
+	text-align:left;
+}
+#templateFooter ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+#templateFooter a:link,#templateFooter a:visited{
+	color:#f2eb17;
+	text-decoration:none;
+}
+#templateFooter img{
+	display:inline;
+}
+#info{
+	float:left;
+	width:50%;
+}
+#social {
+	padding:10px;
+}
+#utility {
+	padding:10px;
+}
+#address{
+	float:left;
+	width:50%;
+}
+#address .add{
+	padding:10px;
+}
+#address a:link,#address a:visited{
+	color:#f2eb17;
+	text-decoration:none;
+}
+#copyright{
+	text-align:center;
+	padding:5px;
+	font-size:10px;
+	color:#297b4e;
+	font-family:Courier new, monospace;
+	background-color:#113025;
+	clear:both;
+}
+#copyright a{
+	color:#217844;
+	text-decoration:none;
+}
+#copyright a:hover{
+	color:#ffffff;
+}
+#poweredby{
+	padding:10px;
+}
+#poweredby a{
+	width:300px;
+	font-size:12px;
+	font-family:Courier new, monospace;
+	color:#217844;
+	text-decoration:none;
+}
+#poweredby a:hover{
+	color:#ffffff;
+}
+.baseline {
+	padding-bottom: 8px;
+	text-align: left;
+}
+.duration {
+	font-size: 12px;
+	font-weight: bold;
+	color: #999;
+	font-family: Courier new, monospace;
+}
+table.meat {
+	width: 100%;
+	border: 0;
+}
+table.meat tr:hover td {
+	background-color: #eee;
+}
+.date {
+	text-align: right;
+	font-size: 12px;
+	font-weight: bold;
+	color: #999;
+	letter-spacing: .2em;
+	font-family: Courier new, monospace;
+}
+.icon {
+	position: relative;
+	top: 2px;
+	margin-left: 5px;
+}
+table.meat tr td.comment {
+	padding-bottom: 8px;
+}
+@media only screen and (max-width: 600px){
+	body{
+		width:auto !important;
+	}
+	body,table,td,p,a,li,blockquote{
+		-webkit-text-size-adjust:none !important;
+	}
+	#backgroundTable,#wrapper{
+		max-width:600px !important;
+		width:100% !important;
+	}
+	#templatePreheader{
+		display:none;
+	}
+	#templateBody{
+		padding:10px !important;
+	}
+}
+</style>
+</head>
+<body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0">
+<table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="backgroundTable">
+<tr>
+<td align="center" valign="top">
+<div id="wrapper">
+<div id="templatePreheader">
+<div><div class="title">Green Ruby News</div>
+<div class="view">
+<!-- *|IFNOT:ARCHIVE_PAGE|* -->
+Is this email not displaying correctly?
+<a href="http://greenruby.org/grn-040.html" target="_blank">View it in your browser</a>.
+<!-- *|END:IF|* -->
+</div>
+</div>
+</div>
+<div id="templateContainer">
+<div id="templateHeader">
+<img src="http://greenruby.org/img/green-ruby-68.png" id="headerImage">
+<div>
+<h1>Green Ruby News #040</h1>
+<div>nov 10th 2013</div>
+</div>
+</div>
+<div id="templateBody">
+<div>
+	<div class="baseline">
+	<h3>Edito</h3>
+	Hey btw if you want to have a chat you always can jump on @greenruby on irc.freenode.net. Xenor and I are sitting there the whole day.
+<br>
+<br>
+<em>&nbsp; mose - the green ruby editor</em><br>
+<em>&nbsp; xenor - the informer</em><br>
+&nbsp; <a href="http://greenruby.org" target="_self">http://greenruby.org</a>
+<br>
+</div>
+
+
+<h2>Look</h2>
+<div class="baseline">Examples of UI/UX, graphic performance, web design and flashy things.</div>
+<table cellpadding="0" cellspacing="0" border="0" class="meat">
+	
+		<tr>
+			<td>
+				<a href="http://www.staticshowdown.com/">Static showdown</a>
+				
+			</td>
+			<td class="date">
+				
+				
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" class="comment">
+				The Static Showdown is a worldwide 48 hour hackathon featuring static web apps (feb 1-2 2014).
+			</td>
+		</tr>
+	
+		<tr>
+			<td>
+				<a href="http://www.theguardian.com/world/interactive/2013/nov/01/snowden-nsa-files-surveillance-revelations-decoded">NSA File decoded</a>
+				
+			</td>
+			<td class="date">
+				
+				
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" class="comment">
+				Beyond the topic of this page, checkout the layout and styling, it's pretty well done
+			</td>
+		</tr>
+	
+</table>
+
+<h2>Use</h2>
+<div class="baseline">Web applications, resources and tools, available for making our life easier or funnier.</div>
+<table cellpadding="0" cellspacing="0" border="0" class="meat">
+	
+		<tr>
+			<td>
+				<a href="http://www.ndpsoftware.com/git-cheatsheet.html">Git cheatsheet</a>
+				
+			</td>
+			<td class="date">
+				
+				
+					
+						<img class="icon" src="http://greenruby.org/ico/tool.png" height"18" width="18" align="right" alt="tool" />
+					
+				
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" class="comment">
+				A visual quick list of git commands.
+			</td>
+		</tr>
+	
+		<tr>
+			<td>
+				<a href="http://sizecalc.com/">Size Calulator</a>
+				
+			</td>
+			<td class="date">
+				
+				
+					
+						<img class="icon" src="http://greenruby.org/ico/tool.png" height"18" width="18" align="right" alt="tool" />
+					
+				
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" class="comment">
+				A simple calculator of size according to viewing distance.
+			</td>
+		</tr>
+	
+		<tr>
+			<td>
+				<a href="http://fontcombiner.com/">Font Combiner</a>
+				
+			</td>
+			<td class="date">
+				
+				
+					
+						<img class="icon" src="http://greenruby.org/ico/tool.png" height"18" width="18" align="right" alt="tool" />
+					
+				
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" class="comment">
+				Generate your own font with fien control overkerning, subsetting, hinting and combinations.
+			</td>
+		</tr>
+	
+		<tr>
+			<td>
+				<a href="http://glyphsearch.com/">Glyph Search</a>
+				
+			</td>
+			<td class="date">
+				
+				
+					
+						<img class="icon" src="http://greenruby.org/ico/tool.png" height"18" width="18" align="right" alt="tool" />
+					
+				
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" class="comment">
+				Search for icons from Font Awesome, Glyphicons, and Ionicons.
+			</td>
+		</tr>
+	
+		<tr>
+			<td>
+				<a href="http://zero.milosz.ca/">Zeroes in js</a>
+				
+			</td>
+			<td class="date">
+				
+				
+					
+						<img class="icon" src="http://greenruby.org/ico/js.png" height"18" width="18" align="right" alt="js" />
+					
+				
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" class="comment">
+				A table for predicting sero comparisons in javascript.
+			</td>
+		</tr>
+	
+</table>
+
+<h2>Install</h2>
+<div class="baseline">A selection of gems or applications updated during past week.</div>
+<table cellpadding="0" cellspacing="0" border="0" class="meat">
+	
+		<tr>
+			<td>
+				<a href="http://hood.ie/">Hoodie</a>
+				
+			</td>
+			<td class="date">
+				
+				
+					
+						<img class="icon" src="http://greenruby.org/ico/js.png" height"18" width="18" align="right" alt="js" />
+					
+				
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" class="comment">
+				Hoodie is a <a href="http://nobackend.org/">noBackend</a> architecture for frontend-only web apps.
+			</td>
+		</tr>
+	
+		<tr>
+			<td>
+				<a href="https://github.com/progrium/dokku">Dokku</a>
+				
+			</td>
+			<td class="date">
+				
+				
+					
+						<img class="icon" src="http://greenruby.org/ico/ops.png" height"18" width="18" align="right" alt="ops" />
+					
+				
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" class="comment">
+				Docker powered mini-Heroku in around 100 lines of Bash.
+			</td>
+		</tr>
+	
+		<tr>
+			<td>
+				<a href="https://github.com/jodosha/minegems">Minegems</a>
+				
+			</td>
+			<td class="date">
+				
+				
+					
+						<img class="icon" src="http://greenruby.org/ico/rb.png" height"18" width="18" align="right" alt="rb" />
+					
+				
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" class="comment">
+				Private gem hosting deployable on Heroku.
+			</td>
+		</tr>
+	
+		<tr>
+			<td>
+				<a href="http://artoo.io/">Artoo</a>
+				
+			</td>
+			<td class="date">
+				
+				
+					
+						<img class="icon" src="http://greenruby.org/ico/rb.png" height"18" width="18" align="right" alt="rb" />
+					
+				
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" class="comment">
+				Artoo is a micro-framework for robotics.
+			</td>
+		</tr>
+	
+		<tr>
+			<td>
+				<a href="http://cylonjs.com/">Cylon.js</a>
+				
+			</td>
+			<td class="date">
+				
+				
+					
+						<img class="icon" src="http://greenruby.org/ico/js.png" height"18" width="18" align="right" alt="js" />
+					
+				
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" class="comment">
+				JavaScript framework for robotics and physical computing using Node.js.
+			</td>
+		</tr>
+	
+</table>
+
+<h2>Read</h2>
+<div class="baseline">From the blogosphere or news feeds ...</div>
+<table cellpadding="0" cellspacing="0" border="0" class="meat">
+	
+		<tr>
+			<td>
+				<a href="http://sarasoueidan.com/blog/css-shapes/index.html">Creating Non-Rectangular Layouts with CSS Shapes</a>
+				
+			</td>
+			<td class="date">
+				nov 04
+				
+					
+						<img class="icon" src="http://greenruby.org/ico/css3.png" height"18" width="18" align="right" alt="css3" />
+					
+				
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" class="comment">
+				Advanced techniques for css layouts.
+			</td>
+		</tr>
+	
+		<tr>
+			<td>
+				<a href="http://robots.thoughtbot.com/the-product-design-sprint/">The Product Design Sprint</a>
+				
+			</td>
+			<td class="date">
+				nov 06
+				
+					
+						<img class="icon" src="http://greenruby.org/ico/design.png" height"18" width="18" align="right" alt="design" />
+					
+				
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" class="comment">
+				A detailled agile-like process for product design.
+			</td>
+		</tr>
+	
+		<tr>
+			<td>
+				<a href="http://blog.codeship.io/2013/11/07/building-vagrant-machines-with-packer.html">Building Vagrant Machines with Packer</a>
+				
+			</td>
+			<td class="date">
+				nov 07
+				
+					
+						<img class="icon" src="http://greenruby.org/ico/ops.png" height"18" width="18" align="right" alt="ops" />
+					
+				
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" class="comment">
+				Packer lets you build Virtual Machine Images for different providers from one json file.
+			</td>
+		</tr>
+	
+		<tr>
+			<td>
+				<a href="http://z.caudate.me/why-the-future-is-not-restful/">Why the future is NOT RESTful</a>
+				
+			</td>
+			<td class="date">
+				nov 07
+				
+					
+						<img class="icon" src="http://greenruby.org/ico/web.png" height"18" width="18" align="right" alt="web" />
+					
+				
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" class="comment">
+				An interesting projection about the relationship client-server in web based apps.
+			</td>
+		</tr>
+	
+		<tr>
+			<td>
+				<a href="https://www.bluebox.net/insight/blog-article/break-apart-rails-monoliths-using-this-1-weird-trick">Break Apart Rails Monoliths Using This 1 Weird Trick</a>
+				
+			</td>
+			<td class="date">
+				nov 07
+				
+					
+						<img class="icon" src="http://greenruby.org/ico/rb.png" height"18" width="18" align="right" alt="rb" />
+					
+				
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" class="comment">
+				Move out your business logic !
+			</td>
+		</tr>
+	
+		<tr>
+			<td>
+				<a href="http://blog.howareyou.com/post/66375371138/ruby-apps-best-practices">Ruby apps best practices</a>
+				
+			</td>
+			<td class="date">
+				nov 08
+				
+					
+						<img class="icon" src="http://greenruby.org/ico/rb.png" height"18" width="18" align="right" alt="rb" />
+					
+				
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" class="comment">
+				A list of conventions shared by a lead engineer.
+			</td>
+		</tr>
+	
+		<tr>
+			<td>
+				<a href="http://gkudos.com//blog/2013/11/08/transform-websites-into-maps-using-cartodb-and-import-io">Transform Websites Into Maps</a>
+				
+			</td>
+			<td class="date">
+				nov 08
+				
+					
+						<img class="icon" src="http://greenruby.org/ico/tool.png" height"18" width="18" align="right" alt="tool" />
+					
+				
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" class="comment">
+				A walhtrough for combining CartoDB and import.io.
+			</td>
+		</tr>
+	
+		<tr>
+			<td>
+				<a href="http://stephaniehoh.github.io/blog/2013/11/09/5-simple-tips-slash-lessons-from-gem-building/">5 Simple Tips From Gem-Building</a>
+				
+			</td>
+			<td class="date">
+				nov 09
+				
+					
+						<img class="icon" src="http://greenruby.org/ico/rb.png" height"18" width="18" align="right" alt="rb" />
+					
+				
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" class="comment">
+				If you didn't yet publish any gem, why not give it a try ?
+			</td>
+		</tr>
+	
+</table>
+
+<h2>Watch</h2>
+<div class="baseline">Screencasts and conferences videos, or other video feeds ...</div>
+<table cellpadding="0" cellspacing="0" border="0" class="meat">
+	
+		<tr>
+			<td>
+				<a href="https://www.youtube.com/watch?v=yh9osPQA_-k&list=PLrmstJpucjzWKt1eWLv88ZFY4R1jW8amR&index=1">Chef webinar</a>
+				<span class="duration">(5 videos)</span>
+			</td>
+			<td class="date">
+				
+				
+					
+						<img class="icon" src="http://greenruby.org/ico/ops.png" height"18" width="18" align="right" alt="ops" />
+					
+				
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" class="comment">
+				Already 4 cideos about chef are published in that webinar, very good quality.
+			</td>
+		</tr>
+	
+		<tr>
+			<td>
+				<a href="https://www.youtube.com/watch?v=nM8bRUJpuAo">Sass Bites #14</a>
+				<span class="duration">(27m)</span>
+			</td>
+			<td class="date">
+				nov 07
+				
+					
+						<img class="icon" src="http://greenruby.org/ico/css3.png" height"18" width="18" align="right" alt="css3" />
+					
+				
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" class="comment">
+				Chris Eppstein and caniuse.com powered Compass.
+			</td>
+		</tr>
+	
+</table>
+
+<h2>Listen</h2>
+<div class="baseline">What could be heard last week ..</div>
+<table cellpadding="0" cellspacing="0" border="0" class="meat">
+	
+		<tr>
+			<td>
+				<a href="http://podcasts.thoughtbot.com/giantrobots/73">Giant robots 72</a>
+				<span class="duration">(33m)</span>
+			</td>
+			<td class="date">
+				nov 04
+				
+					
+						<img class="icon" src="http://greenruby.org/ico/tool.png" height"18" width="18" align="right" alt="tool" />
+					
+				
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" class="comment">
+				with Drew Neil, creator of vimcasts.org about teaching writing and workshopping vim.
+			</td>
+		</tr>
+	
+		<tr>
+			<td>
+				<a href="http://ruby5.envylabs.com/episodes/453-episode-417-november-5th-2013">Ruby5 417</a>
+				<span class="duration">(5m)</span>
+			</td>
+			<td class="date">
+				nov 05
+				
+					
+						<img class="icon" src="http://greenruby.org/ico/rb.png" height"18" width="18" align="right" alt="rb" />
+					
+				
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" class="comment">
+				rails 4.0.1, cleaning yaml, invoker, devops for devs, angular on rails, rails rumble winners.
+			</td>
+		</tr>
+	
+		<tr>
+			<td>
+				<a href="http://foodfightshow.org/2013/11/livin-on-the-edge-with-al-tobey.html">Food fight show</a>
+				<span class="duration">(1h04)</span>
+			</td>
+			<td class="date">
+				nov 05
+				
+					
+						<img class="icon" src="http://greenruby.org/ico/ops.png" height"18" width="18" align="right" alt="ops" />
+					
+				
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" class="comment">
+				Livin' on the Edge With Al Tobey.
+			</td>
+		</tr>
+	
+		<tr>
+			<td>
+				<a href="http://rubyrogues.com/130-rr-data-visualization-with-aja-hammerly/">RubyRogues 130</a>
+				<span class="duration">(56m)</span>
+			</td>
+			<td class="date">
+				nov 06
+				
+					
+						<img class="icon" src="http://greenruby.org/ico/rb.png" height"18" width="18" align="right" alt="rb" />
+					
+				
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" class="comment">
+				 Data Visualization with Aja Hammerly.
+			</td>
+		</tr>
+	
+		<tr>
+			<td>
+				<a href="http://javascriptjabber.com/083-jsj-frp-and-rxjs-with-matthew-podwysocki/">Javascript Jabber 083</a>
+				<span class="duration">(42m)</span>
+			</td>
+			<td class="date">
+				nov 08
+				
+					
+						<img class="icon" src="http://greenruby.org/ico/js.png" height"18" width="18" align="right" alt="js" />
+					
+				
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" class="comment">
+				FRP and RxJS with Matthew Podwysocki.
+			</td>
+		</tr>
+	
+		<tr>
+			<td>
+				<a href="http://5by5.tv/changelog/110">The Changelog 111</a>
+				<span class="duration">(54m)</span>
+			</td>
+			<td class="date">
+				nov 09
+				
+					
+						<img class="icon" src="http://greenruby.org/ico/js.png" height"18" width="18" align="right" alt="js" />
+					
+				
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" class="comment">
+				Hoodie, noBackend and offline-first with Caolan McMahon.
+			</td>
+		</tr>
+	
+		<tr>
+			<td>
+				<a href="http://ruby5.envylabs.com/episodes/454-episode-418-november-9th-2013">Ruby5 418</a>
+				<span class="duration">(9m)</span>
+			</td>
+			<td class="date">
+				nov 09
+				
+					
+						<img class="icon" src="http://greenruby.org/ico/rb.png" height"18" width="18" align="right" alt="rb" />
+					
+				
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" class="comment">
+				Terence Lee, Jim Gay, Mike Perham live from ruby conf at miami beach.
+			</td>
+		</tr>
+	
+</table>
+
+
+<hr>
+<div class="baseline">
+	EOF<br>
+	<br>
+	<em>Feel free to send us feedback or information at <a href="mailto:news@greenruby.org" target="_self">news@greenruby.org</a></em>
+</div>
+</div>
+</div>
+
+
+<div id="templateFooter">
+
+  <div id="info">
+
+    <div id="social">
+      <div mc:edit="std_social">
+        <ul>
+          <li><a href="http://twitter.com/greenrubist">follow on Twitter</a></li>
+          <li><a href="*|FORWARD|*">forward to a friend</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="utility">
+      <div mc:edit="std_utility"><ul>
+	<li>
+		<a href="*|LIST:SUBSCRIBE|*">Subscribe</a></li>
+</ul>
+<br>
+*|IFNOT:ARCHIVE_PAGE|*
+<ul>
+	<li>
+		<a href="*|UNSUB|*">Unsubscribe</a></li>
+	<li>
+		<a href="*|UPDATE_PROFILE|*">Update preferences</a></li>
+</ul>
+*|END:IF|*</div>
+</div>
+
+</div>
+
+<div id="address">
+<div class="add" mc:edit="std_footer">*|IFNOT:ARCHIVE_PAGE|*
+<div>
+	*|LIST:DESCRIPTION|*</div>
+<div>
+	<strong>Our mailing address is:</strong>
+	<div>
+		*|HTML:LIST_ADDRESS_HTML|*</div>
+</div>
+*|ELSE:|*
+<div>
+	<strong>Our mailing address is:</strong>
+	<div>
+		*|USER:ADDRESS_HTML|*</div>
+</div>
+*|END:IF|* </div>
+                </div>
+
+              </div>
+
+              <div id="copyright">
+                Copyright &copy; *|CURRENT_YEAR|* Mose<br>
+                <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">
+                  <img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/80x15.png">
+                </a>
+                <br>
+                This publication is licensed under a
+                <br>
+                <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">
+                  Creative Commons Attribution-ShareAlike 3.0 License
+                </a>.
+              </div>
+
+            </div>
+          </div>
+
+
+          <div id="poweredby">
+            *|IF:REWARDS|* *|HTML:REWARDS|* *|END:IF|*
+          </div>
+
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
