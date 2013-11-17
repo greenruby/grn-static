@@ -1,0 +1,230 @@
+-------------------------------
+Green Ruby News #041 - nov 17th 2013
+-------------------------------
+
+Edito
+-----------------
+We don't have many new videos this week, but there are a bunch of articles. You also can check out the project of <a href="http://aaronswartzthedocumentary.com/">documentary about aaron</a> or the <a href="https://flynn.io/blog/demo-roadmap">progress of flynn</a>.
+
+mose - the green ruby editor
+xenor - the informer
+http://greenruby.org
+
+
+Look
+-----------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+* Google BBS
+   - 
+  http://www.masswerk.at/googleBBS/
+  Google search in a BBS console, with the sound for the nostalgic.
+
+* Mike Tucker
+   - 
+  http://mike-tucker.com/13/
+  An interesting use of js physics engine for a portfolio.
+
+
+Use
+-----------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+* Code Cube
+  tool - 
+  http://codecube.io/
+  A simple CodePen-like editor for C, Go, Python, and Ruby.
+
+* Regexper
+  tool - 
+  http://www.regexper.com/
+  A visual explanation of your regexps.
+
+* Github explore mail
+  tool - 
+  https://github.com/explore/subscribe
+  Interesting repositories delivered to your inbox.
+
+* Node Streams
+  js - 
+  http://nodestreams.com/
+  A Node.js Stream Playground.
+
+* Remote Debug
+  tool - 
+  http://remotedebug.org/
+  Initiative to unify remote debugging across browsers.
+
+* TraceView and Ruby: Now Open Source!
+  rb - 
+  http://www.appneta.com/blog/open-sourcing-ruby/
+  The TraceView Ruby Instrumentation Gem.
+
+
+Install
+-----------------
+A selection of gems or applications updated during past week.
+
+* Rails Assets
+  rb - 
+  https://github.com/rails-assets/rails-assets/
+  Frictionless proxy between Bundler and Bower.
+
+* Leibniz
+  rb - 
+  http://leibniz.cc/
+  Automated Infrastructure Acceptance Testing. Or cucumber for chef.
+
+* Resumable
+  rb - 
+  http://www.resumablejs.com/
+  A js library providing multiple simultaneous, stable and resumable uploads via the HTML5 File API.
+
+* Active Importer
+  rb - 
+  https://github.com/continuum/active_importer
+  Define importers that load tabular data from spreadsheets or CSV files into any ActiveRecord-like ORM.
+
+* Identity
+  rb - 
+  https://github.com/heroku/identity
+  Login and OAuth management service from Heroku.
+
+* Bobot
+  go - 
+  http://gobot.io/
+  The go sister of artoo and cylon for controlling robots in Golang.
+
+
+Read
+-----------------
+From the blogosphere or news feeds ...
+
+* Migrate to rspec 3
+  rb - nov 08
+  http://myronmars.to/n/dev-blog/2013/11/rspec-2-99-and-3-0-betas-have-been-released
+  A bunch os changes coming in the new Rspec.
+
+* Why Japanese Web Design Is So… Different
+  web - nov 10
+  http://randomwire.com/why-japanese-web-design-is-so-different
+  Why japanese are so different (and also other asiatic ones).
+
+* Four years of Go
+  go - nov 10
+  http://blog.golang.org/4years
+  Nov 10 marked the fourth anniversary of Go as an open source project.
+
+* Why You Should Never Use MongoDB
+  tool - nov 11
+  http://www.sarahmei.com/blog/2013/11/11/why-you-should-never-use-mongodb/
+  Sarah Mei shares her experience with noSQL architectures.
+
+* GO essential
+  go - nov 11
+  http://tmp.devcharm.com/pages/go-essential
+  A collection of resources for programmers trying GO for the first time.
+
+* VIM is your new IDE
+  tool - nov 11
+  http://tmp.devcharm.com/pages/vim-is-your-new-ide
+  Kill all the GUIs. Mouse is your enemy. Keyboard is your only friend.
+
+* Production Logging for Sinatra Applications
+  rb - nov 12
+  http://spin.atomicobject.com/2013/11/12/production-logging-sinatra/
+  Logging for Sinatra applications can be a bit tricky.
+
+* An Introduction To DOM Events
+  js - nov 12
+  http://coding.smashingmagazine.com/2013/11/12/an-introduction-to-dom-events/
+  Very extensive overview of DOM events.
+
+* Advanced JavaScript Debugging with console.table()
+  js - nov 13
+  http://www.mariusschulz.com/2013/11/13/advanced-javascript-debugging-with-consoletable
+  An alternative to console.log.
+
+* OAuth as Single Sign On
+  rb - nov 14
+  https://blog.heroku.com/archives/2013/11/14/oauth-sso
+  The Heroku identity server denystified.
+
+* Node.js Stream Playground
+  js - nov 15
+  http://ejohn.org/blog/node-js-stream-playground/
+  Presentation of the streams playground made by John Resig.
+
+* On the state of HStore
+  ops - nov 15
+  https://blog.engineyard.com/2013/on-the-state-of-hstore
+  Some comparison between HStore and MongoDB Performance.
+
+* Two simple ruby dsl examples
+  rb - nov 16
+  http://shvets.github.io/blog/2013/11/16/two_simple_ruby_dsl_examples.html
+  Writing your won DSL is fun, check those examples.
+
+* Faking Remote Services with Rack::Test
+  rb - nov 16
+  http://robots.thoughtbot.com/faking-remote-services-with-rack-test/
+  Ww have more and more external services included in applications, here is how to handle their testing.
+
+
+Watch
+-----------------
+Screencasts and conferences videos, or other video feeds ...
+
+* Sass Bites #14
+  css3 - nov 14 - 17m
+  https://www.youtube.com/watch?v=Idg_XzxY2Ow
+  Compass and the Config.rb file.
+
+
+Listen
+-----------------
+What could be heard last week ..
+
+* Giant robots 74
+  tool - nov 11 - 32m
+  http://podcasts.thoughtbot.com/giantrobots/74
+  With thoughtbot developer Sean Griffin about scala and ruby..
+
+* RubyRogues 131
+  rb - nov 11 - 1h38
+  http://rubyrogues.com/131-rr-how-to-learn/
+  How to Learn, read books, etc.
+
+* Ruby5 419
+  rb - nov 15 - 5m
+  http://ruby5.envylabs.com/episodes/453-episode-417-november-5th-2013
+  marco-polo, bittersm smaller payloads, heroku open source auth, heroku postgres 2, motion in motion.
+
+* Javascript Jabber 084
+  js - nov 15 - 51m
+  http://javascriptjabber.com/084-jsj-node-with-mikeal-rogers/
+  Node with Mikeal Rogers.
+
+* The Changelog 112
+  css3s - nov 16 - 1h06
+  http://5by5.tv/changelog/112
+  Foundation 5 with Jonathan Smiley and Mark Hayes.
+
+
+
+=====================
+
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a Creative Commons Attribution-ShareAlike 3.0 License
+
