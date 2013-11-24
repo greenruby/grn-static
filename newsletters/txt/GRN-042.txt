@@ -1,0 +1,230 @@
+-------------------------------
+Green Ruby News #042 - nov 24th 2013
+-------------------------------
+
+Edito
+-----------------
+42. Here we are. This memetic number marks an accomplishement in itself. Well, be sure to upgrade your ruby for the occasion, and if you still run 1.8, hum, you are screwed (unless you are on heroku, they patched their version).
+
+mose - the green ruby editor
+xenor - the informer
+http://greenruby.org
+
+
+Look
+-----------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+* Information geographies
+   - 
+  http://geography.oii.ox.ac.uk/
+  From the Oxford Internet Institute, a collection of maps related to the internet.
+
+* Horrible logos
+   - 
+  http://www.horriblelogos.com/
+  Drawing bad logos for beer money since 2010.
+
+* Aberoth
+   - 
+  http://aberoth.com/
+  A HTML/canvas/js mmorpg, very pixely.
+
+
+Use
+-----------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+* How to not suck online
+  tool - 
+  http://howtonotsuckonline.com/
+  Simple advises to avoid sucking when you create a website.
+
+* I want to learn ruby
+  rb - 
+  http://iwanttolearnruby.com/
+  This list of links was sleeping for a while but the maintainer is now active again.
+
+* Dev tools snippets
+  js - 
+  http://bgrins.github.io/devtools-snippets/
+  Some good javascript snippets for chrome and firefox.
+
+
+Install
+-----------------
+A selection of gems or applications updated during past week.
+
+* Ruby 1.9.3p484 and 2.0.0p353
+  rb - 
+  https://www.ruby-lang.org/en/news/2013/11/22/heap-overflow-in-floating-point-parsing-cve-2013-4164/
+  Heap Overflow in Floating Point Parsing, upgrade or sink.
+
+* Passenger 4.0.25
+  devops - 
+  http://blog.phusion.nl/2013/11/19/phusion-passenger-4-0-25-released-upgrades-to-nginx-1-4-4-which-fixes-cve-2013-4547/
+  Phusion Passenger 4.0.25 released, upgrades to Nginx 1.4.4 which fixes CVE-2013-4547.
+
+* Rails Tracker
+  rb - 
+  http://www.railstracker.com/
+  An elegant Ruby on Rails solution for your end users to track development progress.
+
+* Breeze
+  js - 
+  http://www.breezejs.com/
+  Data management for JavaScript apps.
+
+* Watson
+  tool - 
+  http://goosecode.com/watson/
+  A console tool for managing issues tracking in-code, and sync to github tracker.
+
+* Webix
+  css3 - 
+  http://webix.com/
+  A collection of UI web widgets.
+
+* Foundation 5
+  css3 - 
+  http://foundation.zurb.com/
+  Zurb released the version 5 of foundation, worth a look.
+
+* RocksDB
+  tool - 
+  http://rocksdb.org/
+  A key-value store on the top of leveldb, brought by facebook.
+
+* Shipyard
+  tool - 
+  http://shipyard-project.com/
+  Open Source Docker Management (with a web interface in python).
+
+
+Read
+-----------------
+From the blogosphere or news feeds ...
+
+* Ruby C Extension with a static Library
+  rb - nov 18
+  http://blog.zachallett.com/howto-ruby-c-extension-with-a-static-library/
+  A Howto for wrapping C library with Ruby.
+
+* Weak passwords brute forced on Github
+  tool - nov 19
+  https://github.com/blog/1698-weak-passwords-brute-forced
+  Seems there is some botnet out there interesting in cracking github accounts.
+
+* Efficiency with Sublimetext and ruby
+  rb - nov 19
+  https://thunderboltlabs.com/blog/2013/11/19/efficiency-with-sublime-text-and-ruby/
+  Some starter sublimetext tips for ruby coders.
+
+* On Go’s Web Application Ecosystem
+  go - nov 20
+  http://thechangelog.com/on-go-web-application-ecosystem/
+  A review of golang in the web space, where it's still pretty fresh.
+
+* Haskell, where to start?
+  tool - nov 22
+  http://tmp.devcharm.com/pages/start-haskell
+  In case you are curious about it.
+
+* Applying App design concepts to website design
+  design - nov 22
+  http://tympanus.net/codrops/2013/11/22/applying-app-design-concepts-to-website-design/
+  A good article about website design, with nice examples.
+
+* Introduction to Thor
+  rb - nov 22
+  http://www.sitepoint.com/introduction-thor/
+  Introduction and examples of thor, the popular command-line option parser.
+
+* Don't Stub the System Under Test
+  rb - nov 22
+  http://robots.thoughtbot.com/don-t-stub-the-system-under-test/
+  Some advises about what to (not) stub in your tests.
+
+* Demystifying the Ruby GC
+  rb - nov 22
+  http://samsaffron.com/archive/2013/11/22/demystifying-the-ruby-gc
+  About garbage collection in ruby 2.
+
+* Handling API Rate Limits
+  rb - nov 23
+  http://robots.thoughtbot.com/handling-api-rate-limits/
+  Use delayed jobs to retry failed api calls due to rate limits.
+
+* Graceful Fallback with NullObject Pattern
+  rb - nov 23
+  http://ruby-journal.com/graceful-fallback-for-not-found-activerecord-lookup-with-nullobject-pattern/
+  The right use  of null objects to avoid problems with active records entries not found.
+
+
+Watch
+-----------------
+Screencasts and conferences videos, or other video feeds ...
+
+* CascadiaJs 2013 videos
+  rb -  - 22 talks
+  http://2013.cascadiajs.com/videos
+  Just released last week.
+
+* Yak shaving is best shaving
+  rb - nov 15 - 31m
+  https://www.youtube.com/watch?v=zIlYLZO2aRU
+  Techniques for performance improvement in Active Records.
+
+* Rebuilding the heart of the Ruby community
+  rb - nov 21 - 24m
+  https://www.youtube.com/watch?v=MmqQwKx5spc
+  How rubygems server recovered from the security incident earlier this year.
+
+
+Listen
+-----------------
+What could be heard last week ..
+
+* Giant robots 75
+  tool - nov 18 - 31m
+  http://podcasts.thoughtbot.com/giantrobots/75
+  With Catherine Bracy, Director of Community Organizing at Code for America.
+
+* Ruby5 420
+  rb - nov 19 - 5m
+  http://ruby5.envylabs.com/episodes/456-episode-420-november-19th-2013
+  PG on RDS, postmodern ruby, rails shopper app, rails 5 and quickbooks, mixpanel analytics, ruby under microscope.
+
+* RubyRogues 132
+  rb - nov 20 - 1h23
+  http://rubyrogues.com/132-rr-nothing-to-hide-with-steve-klabnik/
+  Nothing to Hide with Steve Klabnik.
+
+* Ruby5 421
+  rb - nov 22 - 5m
+  http://ruby5.envylabs.com/episodes/457-episode-421-november-22nd-2013
+  Valle, angular or ember, ionic, watson, faking services.
+
+* Javascript Jabber 085
+  js - nov 22 - 40m
+  http://javascriptjabber.com/085-jsj-huxley-with-pete-hunt/
+  Huxley with Pete Hunt.
+
+
+
+=====================
+
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a Creative Commons Attribution-ShareAlike 3.0 License
+
