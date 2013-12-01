@@ -1,0 +1,230 @@
+-------------------------------
+Green Ruby News #043 - dec 01st 2013
+-------------------------------
+
+Edito
+-----------------
+It's harder and harder to keep this letter to a decent size, there are so many things happening each week. And I confess I like to keep the topics a bit wider than just ruby or webdev. My bad. But I wonder, what you readers think about it ? Feels free to just hit reply on this mail and share your thoughts.
+
+mose - the green ruby editor
+xenor - the informer
+http://greenruby.org
+
+
+Look
+-----------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+* Best Visualizations 2013
+   - 
+  http://www.informationisbeautifulawards.com/2013-winners/
+  the best and brightest of the data viz world in 2013.
+
+* Kano
+   - 
+  http://www.kano.me/
+  A kickstarter for an integration around a raspberry PI, presented in a nice scroll-animated website.
+
+* Robo Boogie
+   - 
+  http://roboboogie.codeclub.org.uk/
+  Choose a robot and design how it's moving. If you have kids they may like it.
+
+* Hello processing
+   - 
+  http://hello.processing.org/editor/
+  An excited overview of processing (.js or not).
+
+
+Use
+-----------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+* Typing
+  tool - 
+  http://typing.io/
+  Typing Practice for Programmers.
+
+* BreakpointTester
+  mobile - 
+  http://breakpointtester.com/
+  Test your responsive design by breakpoints, not by device widths.
+
+* Color sublime
+  tool - 
+  http://colorsublime.com/
+  Make Your Sublime Text2 More Awesome.
+
+* Programmr
+  tool - 
+  http://www.programmr.com/
+  Another website for coding fun, play and pracice.
+
+* Coder Sumo
+  tool - 
+  http://codersumo.com/
+  A peer-review based coding exercise website.
+
+
+Install
+-----------------
+A selection of gems or applications updated during past week.
+
+* Ionic
+  mobile - 
+  http://ionicframework.com/
+  A front-end framework for developing hybrid mobile apps in HTML5.
+
+* Ember 1.2.0
+  js - 
+  https://github.com/emberjs/ember.js/blob/v1.2.0/CHANGELOG
+  Ember seems to accelerate its release cycle.
+
+* Monocle
+  rb - 
+  https://github.com/maccman/monocle
+  Link and news sharing. hmm, maybe we should use this for Greenruby ?
+
+* Shoppe
+  rb - 
+  http://tryshoppe.com/
+  An alternative to Spree ? ah finaly.
+
+* Docker 0.7
+  ops - 
+  http://blog.docker.io/2013/11/docker-0-7-docker-now-runs-on-any-linux-distribution/
+  A lot of great changes included in that new version.
+
+* Otto
+  go - 
+  https://github.com/robertkrimen/otto
+  A JavaScript parser and interpreter written natively in Go.
+
+* Deep Tree
+  rb - 
+  https://github.com/PatrickTulskie/deep_tree
+  Get deeply nested Ruby hashes nodes quickly.
+
+* RubyMine 6.0
+  rb - 
+  http://blog.jetbrains.com/ruby/2013/11/let-your-ruby-shine-with-rubymine-6-0/
+  If you are into IDEs, rubymine just released a new version.
+
+
+Read
+-----------------
+From the blogosphere or news feeds ...
+
+* rvm implode
+  rb - nov 24
+  http://robots.thoughtbot.com/iteration-as-an-anti-pattern/
+  A post explaining the switch to chruby on mac.
+
+* Anti-Pattern: iteratively building a collection
+  rb - nov 25
+  http://robots.thoughtbot.com/iteration-as-an-anti-pattern/
+  Some examples about how to do and not do collection building in ruby.
+
+* Faster scrolling
+  css3 - nov 25
+  http://www.thecssninja.com/javascript/pointer-events-60fps
+  A technique to accelerate scrolling by avoiding unnessecary paint on the mouse events.
+
+* Fun with JavaScript Native Array Functions
+  js - nov 25
+  http://flippinawesome.org/2013/11/25/fun-with-javascript-native-array-functions/
+  An extensive recapitualtion about array manipulation in js.
+
+* 8 HTML Elements You’re Not Using
+  html5 - nov 25
+  http://davidwalsh.name/8-html-elements
+  Well, you probably already use some/most of them, but the list is interesting.
+
+* Advanced Memoization in Ruby
+  rb - nov 26
+  http://gavinmiller.io/2013/advanced-memoization-in-ruby/
+  How to avoid redeclaring variables in the objects lifetime.
+
+* Creating Desktop Applications With node-webkit
+  js - nov 26
+  http://strongloop.com/strongblog/creating-desktop-applications-with-node-webkit/
+  Node gets the server, the browser, and gets into the apps now.
+
+* The History of RocksDB
+  tool - nov 26
+  http://hivedata.com/the-history-of-rocksdb/
+  The reasons why rocksDB was created.
+
+* Capistrano 3 upgrade guide
+  tool - nov 26
+  https://semaphoreapp.com/blog/2013/11/26/capistrano-3-upgrade-guide.html
+  Capistrano 3 introduces some major changes, upgrading requires some attention.
+
+* Caching API Requests
+  rb - nov 29
+  http://robots.thoughtbot.com/caching-api-requests/
+  Advises about caching api requests.
+
+
+Watch
+-----------------
+Screencasts and conferences videos, or other video feeds ...
+
+* Ruby conf 2013
+  rb -  - 2 talks
+  http://www.confreaks.com/events/rubyconf2013
+  Only few videos, but probably more will come soon.
+
+
+Listen
+-----------------
+What could be heard last week ..
+
+* Giant robots 76
+  tool - nov 25 - 41m
+  http://podcasts.thoughtbot.com/giantrobots/76
+  With  Alex Kesler, founder and CEO of inSegment about digital marketing, GTD and productivity.
+
+* Ruby5 422
+  rb - nov 26 - 7m
+  http://ruby5.envylabs.com/episodes/458-episode-422-november-26th-2013
+  heap overflow, rack Attack, cookie storage, file tasks, ruby gc.
+
+* The Changelog 113
+  js - nov 26 - 57m
+  http://5by5.tv/changelog/113
+  Keep npm running with Isaac Schlueter and Charlie Robbins.
+
+* RubyRogues 133
+  rb - nov 27 - 1h18
+  http://rubyrogues.com/133-rr-threading-with-emily-stolfo/
+  Threading with Emily Stolfo.
+
+* Food fight nov 27
+  ops - nov 27 - 58m
+  http://foodfightshow.org/2013/11/docker-in-practice.html
+  Docker in Practice.
+
+* Javascript Jabber 086
+  js - nov 29 - 1h03
+  http://javascriptjabber.com/086-jsj-ember-js-discourse-with-robin-ward/
+  Ember.js & Discourse with Robin Ward.
+
+
+
+=====================
+
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a Creative Commons Attribution-ShareAlike 3.0 License
+
