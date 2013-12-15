@@ -1,0 +1,240 @@
+-------------------------------
+Green Ruby News #045 - dec 15th 2013
+-------------------------------
+
+Edito
+-----------------
+The glass is neither half-full nor half-empty: it's just twice as big as it needs to be.<br> (just an unknown geek quote).
+
+mose - the green ruby editor
+xenor - the informer
+http://greenruby.org
+
+
+Look
+-----------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+* Depressed 404
+   - 
+  http://www.acm.uiuc.edu/sigarch/projects/sensornode/
+  Web server monologue on a 404 page.
+
+* Fixed digital agency
+   - 
+  http://fixedagency.com/
+  Nice scroll based creative presentation.
+
+* The verge 50
+   - 
+  http://www.theverge.com/a/the-verge-50
+  50 portraits of influencial people in 2013 (from an american pespective).
+
+* isUserAMonkey
+   - 
+  http://developer.android.com/reference/android/app/ActivityManager.html#isUserAMonkey()
+  From the Android API, Returns true if the user interface is currently being messed with by a monkey..
+
+
+Use
+-----------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+* Public APIs
+  tool - 
+  http://publicapis.com/
+  Thousands of APIs and public cloud web services.
+
+* We work remotely
+  tool - 
+  https://weworkremotely.com/
+  A very active place for finding remote work or workers.
+
+* Prerender
+  js - 
+  http://prerender.io
+  A service (with open source code) for prerendering js sites for SEO purposes.
+
+* Regex 101
+  tool - 
+  http://regex101.com/
+  An online regex tester for javascript, php, pcre and python.
+
+* Penflip
+  tool - 
+  https://www.penflip.com
+  A writing collaboration tool with version control, a little like hackpad but more github-oriented.
+
+* O2 js style guide
+  js - 
+  http://o2js.com/an-all-in-one-guide-to-writing-efficient-javascript
+  The JS coding conventions used for o2.js, if you need one.
+
+
+Install
+-----------------
+A selection of gems or applications updated during past week.
+
+* Hub
+  tool - 
+  http://hub.github.com/
+  A command-line wrapper for git that makes you better at GitHub.
+
+* RethinkDB
+  tool - 
+  http://www.rethinkdb.com/
+  This is a neat alternative to mongoDB, a NoSQL database that can do joins, and comes with very neat admin web interface.
+
+* Sublime Debugger
+  rb - 
+  https://github.com/shuky19/sublime_debugger
+  Interactive ruby debugger for sublimetext 3.
+
+* Uru
+  rb - 
+  https://bitbucket.org/jonforums/uru
+  Multi-platform Ruby version manager.
+
+* Purgatory
+  rb - 
+  https://github.com/financeit/purgatory
+  Save changes to an ActiveRecord model so that they can be applied at a later time.
+
+* Fudge
+  rb - 
+  https://github.com/Sage/fudge
+  A tool for enforcing code coverage and documentation in continuous integration.
+
+* Chef browser
+  ops - 
+  http://3ofcoins.net/2013/12/11/we-released-chef-browser-today/
+  A sinatra web application for browsing chef data.
+
+* Lumberjack
+  tool - 
+  https://github.com/jbail/lumberjack
+  JavaScript utility that hijacks the browser console, makes it more beautiful.
+
+* Vagrant 1.4
+  ops - 
+  http://www.vagrantup.com/blog/vagrant-1-4.html
+  This new version includes a docker provisionner.
+
+* Phantomas
+  tool - 
+  https://github.com/macbre/phantomas
+  PhantomJS-based web performance metrics collector and monitoring tool.
+
+* Qooxdoo
+  js - 
+  http://news.qooxdoo.org/qooxdoo-3-5-released
+  Component-based js framework.
+
+
+Read
+-----------------
+From the blogosphere or news feeds ...
+
+* Chef: The Company Formerly Known as Opscode
+  ops - dec 9
+  http://www.getchef.com/blog/2013/12/09/chef-the-company-formerly-known-as-opscode/
+  Opscode raised funds, and renames itself to Chef (or actually GetChef).
+
+* Using Your Terminal From The DevTools
+  tool - dec 9
+  http://www.html5rocks.com/en/tutorials/developertools/devtools-terminal/
+  A new Chrome DevTools extension that brings the power of the terminal to your browser.
+
+* Grunt for People Who Think Grunt is Hard
+  js - dec 11
+  http://24ways.org/2013/grunt-is-not-weird-and-hard/
+  A newbies guide to Grunt.js by Chris Coyer.
+
+* Call to Action: Long running Ruby benchmark
+  rb - dec 11
+  http://samsaffron.com/archive/2013/12/11/call-to-action-long-running-ruby-benchmark
+  Sam Saffron calls to arm for establishing a ruby benchmarking platform.
+
+* Getting Started with AngularJS and Rails 4
+  rb - dec 11
+  https://www.honeybadger.io/blog/2013/12/11/beginners-guide-to-angular-js-rails
+  A step-by-step tutorial.
+
+* CFEngine vs. Puppet vs. Chef vs. Ansible vs. Salt
+  ops - dec 12
+  http://blog.normation.com/en/2013/12/12/cfengine-vs-puppet-vs-chef-vs-ansible-vs-salt/
+  A small reminder about the grand-father of devops tools.
+
+* Go for Rubyists
+  go - dec 12
+  http://www.sitepoint.com/go-rubyists/
+  Quick introduction to Go.
+
+* A Deeper Look at Ruby's Enumerable
+  rb - dec 14
+  http://rubylove.io/ruby/core/2013/12/14/a-deeper-look-at-rubys-enumerable-1/
+  Learn how to iterate over collections in a lazy manner.
+
+* Useful gems that work well with rails 4
+  rb - dec 15
+  http://www.neblit.com/blog/39-useful-gems-that-work-well-with-rails-4
+  A list of verified Gems that play well with the new rails.
+
+
+Watch
+-----------------
+Screencasts and conferences videos, or other video feeds ...
+
+* Docker at Spotify
+  ops - dec 11 - 11m
+  https://www.youtube.com/watch?v=pts6F00GFuU
+  Quick presentation of how docker is used at spotify.
+
+
+Listen
+-----------------
+What could be heard last week ..
+
+* Giant robots 78
+  tool - dec 9 - 28m
+  http://podcasts.thoughtbot.com/giantrobots/78
+  Chris Lindland, CEO of Betabrand.com about online fashion, self-generating product and dress-pant-sweatpants.
+
+* Ruby5 425
+  rb - dec 10 - 6m
+  http://ruby5.envylabs.com/episodes/461-episode-425-december-10th-2013
+  ActionParameter, purgatory, promise.rb, rails session, jruby 1.7.9.
+
+* RubyRogues 135
+  rb - dec 11 - 1h09
+  http://rubyrogues.com/135-rr-http-2-0-with-ilya-grigorik/
+  HTTP 2.0 with Ilya Grigorik.
+
+* Ruby5 426
+  rb - dec 13 - 5m
+  http://ruby5.envylabs.com/episodes/462-episode-426-december-13th-2013
+  Thoughtbot on SO, verifying doubles, stagehand, bundler, roar.
+
+* Javascript Jabber 087
+  js - dec 13 - 1h
+  http://javascriptjabber.com/087-jsj-tc39-with-alex-russell/
+  TC39 (Ecmascript) with Alex Russell.
+
+
+
+=====================
+
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a Creative Commons Attribution-ShareAlike 3.0 License
+
