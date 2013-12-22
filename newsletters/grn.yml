@@ -1,9 +1,8 @@
 ---
-edition: "045"
-pubdate: "dec 15th 2013"
+edition: "046"
+pubdate: "dec 22th 2013"
 edito:
-  "The glass is neither half-full nor half-empty: it's just twice as big as it needs to be.<br>
-  (just an unknown geek quote)."
+  "Now there are 100 subscribers to this newsletter, from 28 different countries. Nothing compared to the other publishers out there, but I have no time and interest in promotion. After all this weekly mail was just intended to be sent to a dozen of friends. And it went on like a personal habit, forcing me to keep in touch with the flow. Anyways, if I don't know you and if you like it, I'm happy enough. (and xenor is too). Happy hollidays if you get any!"
 
 topics:
 
@@ -12,252 +11,218 @@ topics:
     "Examples of UI/UX, graphic performance, web design and flashy things."
   links:
 
-  - title: Depressed 404 
-    url: "http://www.acm.uiuc.edu/sigarch/projects/sensornode/"
-    comment: "Web server monologue on a 404 page."
-
-  - title: Fixed digital agency 
-    url: "http://fixedagency.com/"
-    comment: "Nice scroll based creative presentation."
-
-  - title: The verge 50 
-    url: "http://www.theverge.com/a/the-verge-50"
-    comment: "50 portraits of influencial people in 2013 (from an american pespective)."
-
-  - title: isUserAMonkey 
-    url: "http://developer.android.com/reference/android/app/ActivityManager.html#isUserAMonkey()"
-    comment: "From the Android API, Returns true if the user interface is currently being messed with by a monkey.."
+  - title: Metaballs 
+    url: "http://www.clicktorelease.com/code/bumpy-metaballs/"
+    comment: "Another amazing 3d demo with three.js."
 
 - title: Use
   baseline:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: "Public APIs"
-    url: "http://publicapis.com/"
-    comment: "Thousands of APIs and public cloud web services."
+  - title: "Rails-assets"
+    url: "https://rails-assets.org/"
+    comment: "A proxy service between bundler and bower."
+    tags:
+      - rb
+
+  - title: "ScraperWiki"
+    url: "https://scraperwiki.com/"
+    comment: "It's out there in beta for a while and they prepare a release for next month."
     tags:
       - tool
 
-  - title: "We work remotely"
-    url: "https://weworkremotely.com/"
-    comment: "A very active place for finding remote work or workers."
+  - title: "Marvelapp"
+    url: "https://marvelapp.com/"
+    comment: "Looks like the future of mockups."
     tags:
       - tool
 
-  - title: "Prerender"
-    url: "http://prerender.io"
-    comment: "A service (with open source code) for prerendering js sites for SEO purposes."
+  - title: "The Sprite Generator"
+    url: "http://apps.stupid-studio.com/"
+    comment: "Make sprites animation easily, by uploading image-per-image files there (or just get the code and roll your own)."
     tags:
-      - js
+      - css3
 
-  - title: "Regex 101"
-    url: "http://regex101.com/"
-    comment: "An online regex tester for javascript, php, pcre and python."
+  - title: "Regex Golf"
+    url: "http://regex.alf.nu/"
+    comment: "A coding game for regexper."
     tags:
       - tool
-
-  - title: "Penflip"
-    url: "https://www.penflip.com"
-    comment: "A writing collaboration tool with version control, a little like hackpad but more github-oriented."
-    tags:
-      - tool
-
-  - title: "O2 js style guide"
-    url: "http://o2js.com/an-all-in-one-guide-to-writing-efficient-javascript"
-    comment: "The JS coding conventions used for o2.js, if you need one."
-    tags:
-      - js
 
 - title: Install
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: "Hub"
-    url: "http://hub.github.com/"
-    comment: "A command-line wrapper for git that makes you better at GitHub."
-    tags:
-      - tool
-
-  - title: "RethinkDB"
-    url: "http://www.rethinkdb.com/"
-    comment: "This is a neat alternative to mongoDB, a NoSQL database that can do joins, and comes with very neat admin web interface."
-    tags:
-      - tool
-
-  - title: "Sublime Debugger"
-    url: "https://github.com/shuky19/sublime_debugger"
-    comment: "Interactive ruby debugger for sublimetext 3."
+  - title: "Rails 4.1 beta"
+    url: "http://weblog.rubyonrails.org/2013/12/18/Rails-4-1-beta1/"
+    comment: "This is the christmas gift from rails, beta, but promising."
     tags:
       - rb
 
-  - title: "Uru"
-    url: "https://bitbucket.org/jonforums/uru"
-    comment: "Multi-platform Ruby version manager."
+  - title: "Myth"
+    url: "http://www.myth.io/"
+    comment: "Collection of polyfills converters for modern CSS authoring."
+    tags:
+      - css3
+
+  - title: "Prawn"
+    url: "http://elmcitycraftworks.org/post/70158932822/prawn-0-13-0-has-been-released-and-1-0-is-finally-on"
+    comment: "After 2 years of lag, finaly the PDF generation library for ruby wakes up."
     tags:
       - rb
 
-  - title: "Purgatory"
-    url: "https://github.com/financeit/purgatory"
-    comment: "Save changes to an ActiveRecord model so that they can be applied at a later time."
-    tags:
-      - rb
-
-  - title: "Fudge"
-    url: "https://github.com/Sage/fudge"
-    comment: "A tool for enforcing code coverage and documentation in continuous integration."
-    tags:
-      - rb
-
-  - title: "Chef browser"
-    url: "http://3ofcoins.net/2013/12/11/we-released-chef-browser-today/"
-    comment: "A sinatra web application for browsing chef data."
-    tags:
-      - ops
-
-  - title: "Lumberjack"
-    url: "https://github.com/jbail/lumberjack"
-    comment: "JavaScript utility that hijacks the browser console, makes it more beautiful."
+  - title: "Project Hub"
+    url: "https://github.com/bradfrost/project-hub"
+    comment: "An HTML template for project timelines, <a href=\"http://24ways.org/2013/project-hubs/\">explained</a>."
     tags:
       - tool
 
-  - title: "Vagrant 1.4"
-    url: "http://www.vagrantup.com/blog/vagrant-1-4.html"
-    comment: "This new version includes a docker provisionner."
+  - title: "Spinkit"
+    url: "http://tobiasahlin.com/spinkit/"
+    comment: "CSS spiners."
     tags:
-      - ops
+      - css3
 
-  - title: "Phantomas"
-    url: "https://github.com/macbre/phantomas"
-    comment: "PhantomJS-based web performance metrics collector and monitoring tool."
-    tags:
-      - tool
-
-  - title: "Qooxdoo"
-    url: "http://news.qooxdoo.org/qooxdoo-3-5-released"
-    comment: "Component-based js framework."
+  - title: "Benchmarkjs"
+    url: "http://benchmarkjs.com/"
+    comment: "A robust benchmarking library that works on nearly all JavaScript platforms."
     tags:
       - js
+
+  - title: "Gitdown"
+    url: "https://github.com/noidontdig/gitdown"
+    comment: "Don't commit when you're drunk (powered by arduino)."
+    tags:
+      - tool
+
+  - title: "Gitless"
+    url: "http://people.csail.mit.edu/sperezde/gitless/"
+    comment: "A version control tool build on top of git."
+    tags:
+      - tool
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: "Chef: The Company Formerly Known as Opscode"
-    url: "http://www.getchef.com/blog/2013/12/09/chef-the-company-formerly-known-as-opscode/"
-    comment: "Opscode raised funds, and renames itself to Chef (or actually GetChef)."
-    pubdate: dec 9
+  - title: "Security Maintenance Extension of Ruby 1.8.7 and 1.9.2"
+    url: "https://www.ruby-lang.org/en/news/2013/12/17/maintenance-of-1-8-7-and-1-9-2/"
+    comment: "Ruby 1.8 gets back from the dead! Thx Heroku."
+    pubdate: dec 17
     tags:
-      - ops
+      - rb
 
-  - title: "Using Your Terminal From The DevTools"
-    url: "http://www.html5rocks.com/en/tutorials/developertools/devtools-terminal/"
-    comment: "A new Chrome DevTools extension that brings the power of the terminal to your browser."
-    pubdate: dec 9
+  - title: "Another Post About Dependency Injection in Ruby"
+    url: "http://solnic.eu/2013/12/17/the-world-needs-another-post-about-dependency-injection-in-ruby.html"
+    comment: "Ruby dependency injection, demystified."
+    pubdate: dec 17
+    tags:
+      - rb
+
+  - title: "5 architecture anti-patterns and solutions for large Rails apps"
+    url: "http://devblog.reverb.com/post/70344683203/5-architecture-anti-patterns-and-solutions-for-large"
+    comment: "Lessons learned from growing a large rails app."
+    pubdate: dec 18
+    tags:
+      - rb
+
+  - title: "Happy 17th Birthday CSS"
+    url: "http://www.webdirections.org/blog/happy-17th-birthday-css/"
+    comment: "An occasion to learn or remember about the origins of CSS."
+    pubdate: dec 18
+    tags:
+      - css3
+
+  - title: "Coding in the Cloud"
+    url: "http://net.tutsplus.com/tutorials/tools-and-tips/coding-in-the-cloud/"
+    comment: "Dev stack for in-browser coding, featuring Cloud9 and Nitrous."
+    pubdate: dec 19
     tags:
       - tool
 
-  - title: "Grunt for People Who Think Grunt is Hard"
-    url: "http://24ways.org/2013/grunt-is-not-weird-and-hard/"
-    comment: "A newbies guide to Grunt.js by Chris Coyer."
-    pubdate: dec 11
+  - title: "Why Usability Testing is Vital to Success"
+    url: "http://www.sitepoint.com/usability-testing-vital-success/"
+    comment: "Introduction to usability and some tools that can be used to test it."
+    pubdate: dec 19
     tags:
-      - js
+      - design
 
-  - title: "Call to Action: Long running Ruby benchmark"
-    url: "http://samsaffron.com/archive/2013/12/11/call-to-action-long-running-ruby-benchmark"
-    comment: "Sam Saffron calls to arm for establishing a ruby benchmarking platform."
-    pubdate: dec 11
+  - title: "Intro to Shadow DOM"
+    url: "http://net.tutsplus.com/tutorials/html-css-techniques/intro-to-shadow-dom/"
+    comment: "Some light shed on this part of the web components spec."
+    pubdate: dec 20
     tags:
-      - rb
-
-  - title: "Getting Started with AngularJS and Rails 4"
-    url: "https://www.honeybadger.io/blog/2013/12/11/beginners-guide-to-angular-js-rails"
-    comment: "A step-by-step tutorial."
-    pubdate: dec 11
-    tags:
-      - rb
-
-  - title: "CFEngine vs. Puppet vs. Chef vs. Ansible vs. Salt"
-    url: "http://blog.normation.com/en/2013/12/12/cfengine-vs-puppet-vs-chef-vs-ansible-vs-salt/"
-    comment: "A small reminder about the grand-father of devops tools."
-    pubdate: dec 12
-    tags:
-      - ops
-
-  - title: "Go for Rubyists"
-    url: "http://www.sitepoint.com/go-rubyists/"
-    comment: "Quick introduction to Go."
-    pubdate: dec 12
-    tags:
-      - go
-
-  - title: "A Deeper Look at Ruby's Enumerable"
-    url: "http://rubylove.io/ruby/core/2013/12/14/a-deeper-look-at-rubys-enumerable-1/"
-    comment: "Learn how to iterate over collections in a lazy manner."
-    pubdate: dec 14
-    tags:
-      - rb
-
-  - title: "Useful gems that work well with rails 4"
-    url: "http://www.neblit.com/blog/39-useful-gems-that-work-well-with-rails-4"
-    comment: "A list of verified Gems that play well with the new rails."
-    pubdate: dec 15
-    tags:
-      - rb
+      - html5
 
 - title: Watch
   baseline: "Screencasts and conferences videos, or other video feeds ..."
   links:
 
-  - title: "Docker at Spotify"
-    url: "https://www.youtube.com/watch?v=pts6F00GFuU"
-    comment: "Quick presentation of how docker is used at spotify."
-    pubdate: dec 11
-    duration: 11m
+  - title: "The Padrino Framework"
+    url: "http://www.youtube.com/watch?v=CH_a3yNbYDM"
+    comment: "Padrino is a framework built on top of Sinatra."
+    pubdate: dec 19
+    duration: 31m
     tags:
-      - ops
+      - rb
 
 - title: Listen
   baseline: What could be heard last week ..
   links:
 
-  - title: "Giant robots 78"
-    url: http://podcasts.thoughtbot.com/giantrobots/78
-    duration: 28m
-    pubdate: dec 9
-    comment: "Chris Lindland, CEO of Betabrand.com about online fashion, self-generating product and dress-pant-sweatpants."
+  - title: "Arrested DevOps 002"
+    url: http://www.arresteddevops.com/2013/12/16/episode-002-does-testing-keeps-you-from-making-a-huge-mistake/
+    duration: 1h06
+    pubdate: dec 16
+    comment: "Does Testing Keep You From Making a Huge Mistake?"
+    tags:
+      - ops
+
+  - title: "Giant robots 79"
+    url: http://podcasts.thoughtbot.com/giantrobots/79
+    duration: 38m
+    pubdate: dec 16
+    comment: "Uncle Bob Martin about functional programming, ethics, and writing."
     tags:
       - tool
 
-  - title: Ruby5 425
-    url: http://ruby5.envylabs.com/episodes/461-episode-425-december-10th-2013
-    duration: 6m
-    pubdate: dec 10
-    comment: "ActionParameter, purgatory, promise.rb, rails session, jruby 1.7.9."
-    tags:
-      - rb
-
-  - title: RubyRogues 135
-    url: http://rubyrogues.com/135-rr-http-2-0-with-ilya-grigorik/
-    duration: 1h09
-    pubdate: dec 11
-    comment: "HTTP 2.0 with Ilya Grigorik."
-    tags:
-      - rb
-
-  - title: Ruby5 426
-    url: http://ruby5.envylabs.com/episodes/462-episode-426-december-13th-2013
+  - title: Ruby5 427
+    url: http://ruby5.envylabs.com/episodes/463-episode-427-december-17th-2013
     duration: 5m
-    pubdate: dec 13
-    comment: "Thoughtbot on SO, verifying doubles, stagehand, bundler, roar."
+    pubdate: dec 17
+    comment: "rails-assets, rails database info, callbacks extraction, shutterbug, enumerable, prawn."
     tags:
       - rb
 
-  - title: Javascript Jabber 087
-    url: http://javascriptjabber.com/087-jsj-tc39-with-alex-russell/
-    duration: 1h
-    pubdate: dec 13
-    comment: "TC39 (Ecmascript) with Alex Russell."
+  - title: RubyRogues 136
+    url: http://rubyrogues.com/136-rr-consulting-vs-product-work-part-2-with-steven-proctor/
+    duration: 51m
+    pubdate: dec 18
+    comment: "Consulting vs Product Work Part 2 with Steven Proctor."
+    tags:
+      - rb
+
+  - title: The Changelog 115
+    url: http://5by5.tv/changelog/115
+    duration: 43m
+    pubdate: dec 20
+    comment: "Flynn updates with Jonathan Rudenberg and Jeff Lindsay."
+    tags:
+      - ops
+
+  - title: Ruby5 428
+    url: http://ruby5.envylabs.com/episodes/464-episode-428-december-20th-2013
+    duration: 6m
+    pubdate: dec 20
+    comment: "rails 4.1beta, secrets.yml, ruby DI, yield or enumerate, dashing-rails."
+    tags:
+      - rb
+
+  - title: Javascript Jabber 088
+    url: http://javascriptjabber.com/088-jsj-lazy-js-with-daniel-tao/
+    duration: 46m
+    pubdate: dec 20
+    comment: "Lazy.js with Daniel Tao."
     tags:
       - js
