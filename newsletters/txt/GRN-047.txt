@@ -1,0 +1,200 @@
+-------------------------------
+Green Ruby News #047 - dec 29th 2013
+-------------------------------
+
+Edito
+-----------------
+This week podcasters are in holidays, but ruby is not, here is v2.1 coming out. And various other notable releases visibly wanted to get out before 2014. All good for us :) See you next year!
+
+mose - the green ruby editor
+xenor - the informer
+http://greenruby.org
+
+
+Look
+-----------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+* RSQ helping you sell shit since 1977
+   - 
+  http://rsq.com/
+  Very nice advertisement agency website.
+
+* Christmas tree
+   - 
+  https://github.com/anvaka/atree
+  ... with 11 lines of javascript.
+
+* Postcard designer
+   - 
+  http://postcards.lekevicius.com/
+  Little website to draw a symetrical shape, should amuze your kids.
+
+
+Use
+-----------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+* Is ruby fast yet?
+  rb - 
+  http://www.isrubyfastyet.com/
+  Practical, comparative benchmarks of Ruby implementations.
+
+* Ruby docs
+  rb - 
+  http://ruby-docs.org/
+  Create your perfect set of docs by picking exactly the versions you need.
+
+* nth-test
+  css3 - 
+  http://nth-test.com/
+  A quick tester for nth-child css pseudo class.
+
+* The best design tools
+  design - 
+  https://hackdesign.org/toolkit/
+  A list of tools for designers.
+
+
+Install
+-----------------
+A selection of gems or applications updated during past week.
+
+* Ruby 2.1
+  rb - 
+  https://www.ruby-lang.org/en/news/2013/12/25/ruby-2-1-0-is-released/
+  The first ruby version <a href="https://www.ruby-lang.org/en/news/2013/12/21/semantic-versioning-after-2-1-0/">following semantic versionning</a>. Well it was fast.
+
+* Rubygems 2.2.0
+  rb - 
+  http://blog.rubygems.org/2013/12/26/2.2.0-released.html
+  Check the list of changes, now gems can be shared between various ruby version, ohoh.
+
+* Jasmine 2.0
+  js - 
+  http://www.infoq.com/news/2013/12/bdd-jasmine-2-released
+  This new version don't depend ruby anymore, which is replaced by node and grunt.
+
+* Ruboto 1.0
+  mobile - 
+  http://ruboto.org/2013/12/24/Ruboto-1.0.0-release-doc.html
+  A stabilized version of this jruby android development toolkit.
+
+* Scriptexecutor
+  rb - 
+  http://shvets.github.io/blog/2013/12/21/script_executor.html
+  Ruby library for executing shell scripts, locally or on remote server.
+
+* Ruby object mapper
+  rb - 
+  https://github.com/rom-rb/rom
+  The new version of datamapper for ruby.
+
+* Unison.js
+  js - 
+  http://bjork24.github.io/Unison/
+  Unifying named breakpoints across CSS, JS, and HTML.
+
+* cheet.js
+  js - 
+  https://github.com/namuol/cheet.js
+  Easy easter eggs in the browser.
+
+
+Read
+-----------------
+From the blogosphere or news feeds ...
+
+* 9 common mistakes developers make
+  tool - dec 24
+  http://thenextweb.com/entrepreneur/2013/12/24/9-common-mistakes-developers-make/#!qSki4
+  It's more about startup developers but the list of advices can make sense.
+
+* Advanced Image Optimization Tricks
+  design - dec 24
+  http://sixrevisions.com/web-development/advanced-image-optimization/
+  Manual optimization of images, a serie of tricks.
+
+* Exception causes in ruby 2.1
+  rb - dec 25
+  http://devblog.avdi.org/2013/12/25/exception-causes-in-ruby-2-1/
+  A new feature in ruby to handle nested exceptions.
+
+* The Yeoman Monthly Digest #2
+  js - dec 26
+  http://updates.html5rocks.com/2013/12/The-Yeoman-Monthly-Digest-2
+  Various links related to yeoman and grunt in a very nice newsletter.
+
+* How Asset Precompile Works, Part II
+  rb - dec 26
+  http://www.sitepoint.com/asset-precompile-works-part-ii/
+  This article contains some in-depth coverage of the Rails asset pipeline.
+
+* Coding With Koding
+  tool - dec 27
+  http://net.tutsplus.com/articles/coding-with-koding/
+  Koding just came out of private beta, here is a quick tour.
+
+* Code to Read When Learning Go
+  go - dec 27
+  http://www.somethingsimilar.com/2013/12/27/code-to-read-when-learning-go/
+  A quick post listing interesting projects in go.
+
+* How can Rails react to the rise of the JavaScript applications?
+  rb - dec 28
+  http://andrzejonsoftware.blogspot.tw/2013/12/how-can-rails-react-to-rise-of.html
+  Some thought about the future of rails.
+
+
+Watch
+-----------------
+Screencasts and conferences videos, or other video feeds ...
+
+* Automated CSS Testing
+  js - dec 25 - 42m
+  http://www.youtube.com/watch?v=2PU6JX4S7zI
+  A talk at jsconf asia 2013.
+
+* Running Cloud Foundry on OpenStack
+  ops - dec 26 - 43m
+  http://www.confreaks.com/videos/2758-osoa2013-running-cloud-foundry-on-openstack
+  Dr Nic talks about making your own cloud up there.
+
+
+Listen
+-----------------
+What could be heard last week ..
+
+* Giant robots 80
+  tool - dec 23 - 28m
+  http://podcasts.thoughtbot.com/giantrobots/80
+  with Josh Pigford about time management, entrepreneurship and farming.
+
+* RubyRogues 137
+  rb - dec 25 - 58m
+  http://rubyrogues.com/137-rr-book-club-functional-programming-for-the-object-oriented-programmer-with-brian-marick/
+  Book Club – Functional Programming for the Object-Oriented Programmer with Brian Marick.
+
+* Javascript Jabber 089
+  js - dec 27 - 52m
+  http://javascriptjabber.com/089-jsj-the-node-security-project-with-adam-baldwin/
+  The Node Security Project with Adam Baldwin.
+
+
+
+=====================
+
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a Creative Commons Attribution-ShareAlike 3.0 License
+
