@@ -1,0 +1,200 @@
+-------------------------------
+Green Ruby News #049 - jan 12th 2014
+-------------------------------
+
+Edito
+-----------------
+As we are approaching the first year of publication of this newsletter, it's time to think about the birthday party. It should happen in Taipei, Taiwan, after chinese new year. If you want to join, or know a good place where we could gather, feel free to <a href="mailto:news@greenruby.org">drop me a mail</a>.
+
+mose - the green ruby editor
+xenor - the informer
+http://greenruby.org
+
+
+Look
+-----------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+* Top pens of 2013
+   - 
+  http://codepen.io/2013/popular
+  The 100 most popular codepens of past year.
+
+* Tumble
+   - 
+  http://andrew-hoyer.com/experiments/tumbler/
+  A simple physics simulation and relaxation experiment.
+
+* Source code in Movies
+   - 
+  http://moviecode.tumblr.com/
+  Images of the computer code appearing in TV and films and what they really are.
+
+
+Use
+-----------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+* How is my SSL
+  tool - 
+  https://www.howsmyssl.com/
+  Website that tells you how secure your TLS client is.
+
+* Webydo
+  design - 
+  http://www.webydo.com/
+  Website creation tool with no coding.
+
+* Songs of github
+  tool - 
+  http://song-of-github.herokuapp.com/
+  Generate a music based on github contributions.
+
+* Vim cheat sheet
+  tool - 
+  http://www.viemu.com/a_vi_vim_graphical_cheat_sheet_tutorial.html
+  Graphical vi-vim Cheat Sheet and Tutorial.
+
+
+Install
+-----------------
+A selection of gems or applications updated during past week.
+
+* Light Table
+  tool - 
+  http://www.lighttable.com/
+  Recently opensourced, this IDE in clojurescript seems t deserve a try.
+
+* Alpaca
+  go - 
+  https://github.com/pksunkara/alpaca
+  Given a web API, Generate client libraries in node, php, python, ruby.
+
+* Koa
+  js - 
+  http://weblogs.asp.net/shijuvarghese/archive/2014/01/12/a-simple-crud-demo-with-koa-js.aspx
+  A new framework building Node.js apps.
+
+* Magnifier.js
+  js - 
+  http://mark-rolich.github.io/Magnifier.js/
+  Javascript library enabling magnifying glass effect on an images.
+
+* Conzole
+  js - 
+  http://oaxoa.github.io/Conzole/
+  Conzole is a debug panel for a better javascript console.
+
+
+Read
+-----------------
+From the blogosphere or news feeds ...
+
+* Reading Rails - Concern
+  rb - jan 6
+  http://monkeyandcrow.com/blog/reading_rails_concern/
+  Composing modules using concerns in rails.
+
+* Nokogiri as a command-line tool
+  rb - jan 6
+  http://robm.me.uk/ruby/2014/01/06/nokogiri-command-line.html
+  Use Nokogiri as a standalone script from the command line.
+
+* Hammerspace: Persistent, Concurrent, Off-heap Storage
+  rb - jan 7
+  http://nerds.airbnb.com/hammerspace-persistent-concurrent-off-heap-storage/
+  This is how Airbnb improved prefs on translation loading.
+
+* A CRUD JavaScript Class
+  js - jan 7
+  http://davidwalsh.name/crud-javascript-class
+  A very simple CRUD javascript class implementation.
+
+* Using Docker To Run Ruby Rspec CI In Jenkins
+  rb - jan 8
+  http://www.activestate.com/blog/2014/01/using-docker-run-ruby-rspec-ci-jenkins
+  Step-by-step introduction to continuous integration testing with Docker.
+
+* Awful app-review trend among Turkish users
+  web - jan 8
+  http://blog.appwared.com/awful-app-review-trend-among-turkish-users-this-is-why-your-app-gets-so-many-one-star-reviews/
+  Flaws of the star system.
+
+* When Is It Time to Refactor?
+  tool - jan 9
+  http://blog.codeclimate.com/blog/2014/01/09/when-is-it-time-to-refactor/
+  Four Simple Guidelines to Help Get It Right.
+
+* Simple Git workflow is simple
+  tool - jan 9
+  http://blogs.atlassian.com/2014/01/simple-git-workflow-simple/
+  A basic basic branching workflow for continuous delivery from Atlassians.
+
+* Github New Deployments API
+  tool - jan 9
+  http://developer.github.com/changes/2014-01-09-preview-the-new-deployments-api/
+  Deployments are a new thing in GitHub. No UI yet, but API is previewable.
+
+* Handling Associations on Null Objects
+  rb - jan 10
+  http://robots.thoughtbot.com/handling-associations-on-null-objects
+  Another story about the Null object pattern, using a feature of rails4.
+
+* Fast interactive prototyping 
+  design - jan 10
+  http://snips.net/blog/posts/2014/01-10-fast-interactive_prototyping_with_d3_js.html
+  Using Sketch and d3.js for design prototypes.
+
+
+Watch
+-----------------
+Screencasts and conferences videos, or other video feeds ...
+
+* Ember Fest 2013 - Munich
+  js -  - 8 videos
+  http://emberfest.eu/munich
+  The videos of the conference.
+
+
+Listen
+-----------------
+What could be heard last week ..
+
+* Ruby5 430
+  rb - jan 7 - 5m
+  http://ruby5.envylabs.com/episodes/466-episode-430-january-7th-2014
+  TDD JSON API, Jubilee, Exception cause, Hulse, cachig an API.
+
+* Javascript Jabber 091
+  js - jan 10 - 57m
+  http://javascriptjabber.com/091-jsj-json-apis/
+  JSON APIs.
+
+* Ruby5 431
+  rb - jan 10 - 6m
+  http://ruby5.envylabs.com/episodes/467-episode-431-january-10th-2013
+  Github Traffic, Accesslint, Hammerspace, Sneakers, Enumerators.
+
+* The Changelog 116
+  js - jan 11 - 1h04
+  http://5by5.tv/changelog/116
+  Node Black Friday at Walmart with Eran Hammer.
+
+
+
+=====================
+
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a Creative Commons Attribution-ShareAlike 3.0 License
+
