@@ -7,6 +7,8 @@ namespace :generate do
     builder = Greeby::Builder.new
     builder.make_letter('grn.yml')
     builder.make_archives('grn.yml')
+    builder.make_web
+    builder.make_rss
   end
 
   desc "re-generate all letters html file"

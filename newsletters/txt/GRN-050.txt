@@ -1,0 +1,210 @@
+-------------------------------
+Green Ruby News #050 - jan 19th 2014
+-------------------------------
+
+Edito
+-----------------
+In 2 weeks there is the <a href="https://geekli.st/hackathon/52c49d837689332d5f000019">5th geeklist world-wide hackacthon</a>, maybe you are interested in joining and/or suggesting projects, that can be fun.
+
+mose - the green ruby editor
+xenor - the informer
+http://greenruby.org
+
+
+Look
+-----------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+* Sony
+   - 
+  http://discover.store.sony.com/be-moved/
+  A nice scrollbased Sony presentation all in HTML.
+
+* Black Brick Road
+   - 
+  http://rachelnabors.com/blackbrickroad
+  An (work in progress) interactive story in HTML5, code source is on github.
+
+
+Use
+-----------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+* Kimono
+  tool - 
+  http://www.kimonolabs.com/
+  Never write a web scraper again.
+
+* Nasty Icons
+  design - 
+  http://nastyicons.com/
+  A perverted icon collection.
+
+* Funded
+  tool - 
+  http://funded.io/
+  Rapid startup prototyping and financial planning.
+
+* JS the right way
+  js - 
+  http://jstherightway.org/
+  Compilation of best practices for js coding, with links to sources.
+
+* GoCasts
+  go - 
+  https://gocasts.io/
+  Bite sized screencasts to help you learn Go faster.
+
+
+Install
+-----------------
+A selection of gems or applications updated during past week.
+
+* Polymer boilerplate
+  js - 
+  https://github.com/addyosmani/polymer-boilerplate
+  A Polymer.js template for building fast, robust web apps using Web Components.
+
+* Rails Bricks
+  rb - 
+  http://www.railsbricks.net/
+  Create Rails apps faster by automating setup tasks.
+
+* Hub
+  tool - 
+  https://github.com/github/hub
+  Command-line wrapper for git that makes you better at GitHub.
+
+* Que
+  rb - 
+  https://github.com/chanks/que
+  Queue for Ruby and PostgreSQL that manages jobs using advisory locks.
+
+
+Read
+-----------------
+From the blogosphere or news feeds ...
+
+* Ruby 1.9.3 will die in feb 2015
+  rb - jan 10
+  https://www.ruby-lang.org/en/news/2014/01/10/ruby-1-9-3-will-end-on-2015
+  Let's push towards ruby 2 harder.
+
+* Introduction to Go (Golang), Part 1
+  go - jan 12
+  http://www.zhubert.com/blog/2014/01/12/introduction-to-go-golang-part-1/
+  A pretty good overview for wannabe go beginners.
+
+* Callbacks, Promises, Signals and Events
+  js - jan 12
+  http://blog.millermedeiros.com/callbacks-promises-signals-and-events
+  When and how use each pattern.
+
+* GitHub's Public Speaking Culture
+  tool - jan 13
+  http://zachholman.com/posts/github-speaking-culture/
+  Benefits of sending devs talk at conferences.
+
+* PolymorphicFinder
+  rb - jan 13
+  http://robots.thoughtbot.com/code-show-and-tell-polymorphic-finder
+  Replace conditionnals with some polymorphism, example.
+
+* Myth Busting: CSS Animations vs. JavaScript
+  css3 - jan 13
+  http://css-tricks.com/myth-busting-css-animations-vs-javascript/
+  Why CSS animation is not necessarily faster (but check <a href="http://christianheilmann.com/2014/01/13/myth-busting-mythbusted/">this response</a>).
+
+* Rails Testing Antipatterns: Fixtures and Factories
+  rb - jan 14
+  https://semaphoreapp.com/blog/2014/01/14/rails-testing-antipatterns-fixtures-and-factories.html
+  Some common antipatterns in writing tests for Rails applications.
+
+* Compare Commits Between Git Branches
+  tool - jan 16
+  http://robots.thoughtbot.com/compare-commits-between-git-branches
+  The usage of git show-branch.
+
+* Dotenv for multiple environments
+  rb - jan 17
+  http://devblog.avdi.org/2014/01/17/dotenv-for-multiple-environments/
+  Advanced configless strategy.
+
+* Paths aren't strings
+  rb - jan 18
+  http://robm.me.uk/ruby/2014/01/18/pathname.html
+  The right use of the Pathname object.
+
+* Ruby syntax trivia
+  rb - jan 18
+  http://walpurgisriot.github.io/blog/2013/12/18/ruby-syntax-trivia.html
+  Some acrobatic tricks in ruby syntax.
+
+
+Watch
+-----------------
+Screencasts and conferences videos, or other video feeds ...
+
+* What is in store for the future of Angular
+  js - jan 10 - 54m
+  http://parleys.com/play/529c4440e4b0e619540cc3b9/chapter0/about
+  Talk of angular code devs at devoxx 2013.
+
+
+Listen
+-----------------
+What could be heard last week ..
+
+* Food fight show jan 10
+  ops - jan 10 - 1h031
+  http://foodfightshow.org/2014/01/were-doing-it-wrong.html
+  We're Doing It Wrong.
+
+* Arrested Devops 004
+  ops - jan 13 - 1h01
+  http://www.arresteddevops.com/2014/01/13/episode-004-agile-and-devops/
+  Agile and DevOps.
+
+* NodeUp 57
+  js - jan 13 - 1h21
+  http://nodeup.com/fiftyseven
+  Discussions around Docker.
+
+* Ruby5 432
+  rb - jan 14 - 6m
+  http://ruby5.envylabs.com/episodes/468-episode-432-january-14-2014
+  lt-ruby, TDrails, CodeBrag, DBeater, I18nema, 1.9.3 EOL.
+
+* Ruby Rogues 139
+  rb - jan 17 - 1h12
+  http://rubyrogues.com/139-rr-riak-with-sean-cribbs-and-bryce-kerley/
+  Riak with Sean Cribbs and Bryce Kerley.
+
+* Javascript Jabber 092
+  js - jan 17 - 1h04
+  http://javascriptjabber.com/092-jsj-the-mean-stack-with-ward-bell-and-valeri-karpov/
+  The MEAN Stack with Ward Bell and Valeri Karpov.
+
+* Ruby5 433
+  rb - jan 17 - 6m
+  http://ruby5.envylabs.com/episodes/469-episode-433-january-17-2014
+  Activesupport notification, railsbricks, composable matchers, DotEnv, Polymorphic finder.
+
+
+
+=====================
+
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a Creative Commons Attribution-ShareAlike 3.0 License
+
