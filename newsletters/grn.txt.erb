@@ -7,7 +7,8 @@ Edito
 <%= c.edito %>
 
 mose - the green ruby editor
-xenor - the informer
+<% if @c.contributors %><%= @c.contributors %> - the informers
+<% else %>xenor - the informer<% end %>
 http://greenruby.org
 
 <% c.topics.each do |t| %>
