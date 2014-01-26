@@ -10,7 +10,13 @@
 <br>
 <br>
 <em>&nbsp; mose - the green ruby editor</em><br>
-<em>&nbsp; xenor - the informer</em><br>
+<em>&nbsp;
+<% if @c.contributors %>
+	<%= @c.contributors %> - the informers
+<% else %>
+	xenor - the informer
+<% end %>
+</em><br>
 &nbsp; <a href="http://greenruby.org" target="_self">http://greenruby.org</a>
 <br>
 </div>

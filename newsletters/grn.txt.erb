@@ -16,8 +16,8 @@ http://greenruby.org
 <%= t.baseline %>
 <% t.links.each do |l| %>
 * <%= l.title %>
-  <% if l.tags %><% l.tags.each do |tag| %><%= tag %><% end %><% end %> - <%= l.pubdate %><% if l.duration %> - <%= l.duration %><% end %>
-  <%= l.url %>
+<% if l.tags %>  <%= l.tags.join(", ") %><% if l.pubdate %> - <%= l.pubdate %><% end %><% if l.duration %> - <%= l.duration %><% end %>
+<% end %>  <%= l.url %>
   <%= l.comment %>
 <% end %>
 <% end %>
