@@ -1,0 +1,213 @@
+-------------------------------
+Green Ruby News #051 - jan 26th 2014
+-------------------------------
+
+Edito
+-----------------
+Next week it's chinese new year here in Taipei. During that holiday, I plan to secretly work on a dynamic version of Green Ruby website where we can filter and search links by tags or title. There may also be some redesign involved. But shht, it's secret and not even sure it will pan out.
+
+mose - the green ruby editor
+xenor, mickey, ilake - the informers
+http://greenruby.org
+
+
+Look
+-----------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+* In flight
+  http://www.theguardian.com/world/ng-interactive/2014/aviation-100-years
+  One century of air travel on the world map.
+
+* Fake Signs
+  http://prosign.tumblr.com/post/33766157596/someone-has-made-fake-london-underground-signs-and
+  Fake London underground signs. Simply hillarious.
+
+
+Use
+-----------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+* Ruby Conferences
+  rb
+  http://rubyconferences.org/
+  Updated list on upcoming ruby conferences.
+
+* Built with
+  web
+  http://builtwith.com/
+  Find out the technology behind websites.
+
+* Web apprentice
+  web
+  http://apprentice.craic.com/
+  Clear and Concise Tutorials on Web Services, APIs, Libraries and Widgets.
+
+* Raw Github
+  tool 
+  http://rawgithub.com/
+  Render HTML, apply CSS, execute JavaScript.
+
+* Signature Generator
+  tool
+  http://htmlsig.com/
+  For generating html signatures in your emails.
+
+* Ascii Design
+  tool
+  http://www.asciiflow.com/
+  A wysiwyg ascii interface design tool.
+
+
+Install
+-----------------
+A selection of gems or applications updated during past week.
+
+* ElasticSearch Rails
+  rb
+  https://github.com/elasticsearch/elasticsearch-rails
+  Since Tire Retired we were waiting for the official elasticsearch rails toolkit. Here is its pre-release version.
+
+* Eye
+  ops
+  https://github.com/kostya/eye
+  Process monitoring tool. Inspired from Bluepill and God.
+
+* Jently
+  ops
+  https://github.com/vaneyckt/Jently/
+  A Ruby app that makes your Jenkins run tests on Github PR and updates their commit status.
+
+* Remote.js
+  js
+  https://github.com/hacksparrow/remote.js
+  Remote control for Web apps (using sound).
+
+* Node for IOS
+  js
+  http://nodeapp.org/
+  Node.app is a low-footprint, Node.js-compatible JavaScript API for your mobile apps.
+
+* Rest Superman
+  tool
+  http://www.restsuperman.com/
+  Fast Parallel Async HTTP client as a Service to monitor and manage 10,000 web servers (java).
+
+* fn.js
+  js
+  http://eliperelman.com/fn.js/
+  A JS library built to encourage a functional programming style & strategy.
+
+* Generator angular martini
+  go
+  https://github.com/rayokota/generator-angular-go-martini
+  Yeoman generator for AngularJS + Go + Martini.
+
+* Ubersicht
+  tool
+  https://github.com/espy/ubersicht
+  A dashboard for recent activity on all of a user's or github organisation.
+
+
+Read
+-----------------
+From the blogosphere or news feeds ...
+
+* Getting started with gulp
+  js - jan 19
+  http://markgoodyear.com/2014/01/getting-started-with-gulp/
+  Step aside Grunt, there’s a new task runner in town.
+
+* Replace Rake with Thor
+  rb - jan 20
+  http://codecrate.com/2014/01/replace-rake-with-thor.html
+  Because unit testing Rake tasks is a pain in the ass.
+
+* 51 Startup Failure Post-Mortems
+  web - jan 20
+  http://www.cbinsights.com/blog/trends/startup-failure-post-mortem
+  An interesting list of quote about why it failed for them.
+
+* Docker raises $15M
+  ops - jan 21
+  http://blog.docker.io/2014/01/docker-closes-15-m-series-b-funding/
+  Seems like docker is going to be even bigger this year.
+
+* Web-flow editing from Pull Requests
+  tool - jan 21
+  https://github.com/blog/1738-web-flow-editing-from-pull-requests
+  Github make PR easier to edit on your browser.
+
+* We spent a week making Trello boards load extremely fast
+  web - jan 22
+  http://blog.fogcreek.com/we-spent-a-week-making-trello-boards-load-extremely-fast-heres-how-we-did-it/
+  Here is how they did it (from 7s to less than 1s).
+
+* Stuff The Internet Says On Scalability
+  ops - jan 24
+  http://highscalability.com/blog/2014/1/24/stuff-the-internet-says-on-scalability-for-january-24th-2014.html
+  A serie of links about scalability.
+
+* Persisting data in Ruby with PStore
+  rb - jan 25
+  http://robm.me.uk/ruby/2014/01/25/pstore.html
+  A simple yet powerful way to store data on the filesystem.
+
+
+Watch
+-----------------
+Screencasts and conferences videos, or other video feeds ...
+
+* ng-conf 2014
+  js - jan 10 - 29 videos
+  http://www.youtube.com/user/ngconfvideos/videos
+  The angluar conf that happened last week.
+
+
+Listen
+-----------------
+What could be heard last week ..
+
+* NodeUp 58
+  js - jan 20 - 1h26
+  http://nodeup.com/fiftyeight
+  Discussions around Groupon.
+
+* Ruby Rogues 140
+  rb - jan 22 - 1h12
+  http://rubyrogues.com/140-rr-heroku-with-richard-schneeman/
+  Heroku with Richard Schneeman.
+
+* Devops Cafe 46
+  rb - jan 23 - 50m
+  http://devopscafe.org/show/2014/1/23/devops-cafe-episode-46.html
+  Ben Golub, CEO of Docker, for a chat about ... Docker.
+
+* Javascript Jabber 093
+  js - jan 24 - 54m
+  http://javascriptjabber.com/093-jsj-the-new-york-times-and-javascript-with-eitan-konigsburg-alastair-coote-and-reed-emmons/
+  The New York Times and JavaScript with Eitan Konigsburg, Alastair Coote and Reed Emmons.
+
+* Ruby5 434
+  rb - jan 24 - 5m
+  http://ruby5.envylabs.com/episodes/470-episode-434-january-24th-2014
+  Selecta, gowroker, devdocs, interview questions, rubyconferences.org, phantomjs.
+
+
+
+=====================
+
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a Creative Commons Attribution-ShareAlike 3.0 License
+
