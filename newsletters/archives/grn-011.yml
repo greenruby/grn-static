@@ -1,0 +1,177 @@
+---
+edition: "011"
+pubdate: "apr 21th 2013"
+edito:
+  "Hey btw, feel free to send us your news, links, discoveries for fresh content to <a href=\"mailto:news@greenruby.org\">news@greenruby.org</a> (yeah this is a very short edito, isn't it ?)"
+
+topics:
+
+- title: Listen
+  baseline: What could be heard last week ..
+  links:
+
+  - title: "RubyRogues 101"
+    url: http://rubyrogues.com/101-rr-diversity-with-ashe-dryden/
+    duration: 1h34
+    pubdate: apr 17
+    comment: "a discussion about diversity in the geek community, tolerance and mixed population.."
+
+  - title: "Git Minutes 04"
+    url: http://episodes.gitminutes.com/2013/04/gitminutes-04-marius-mathiesen-on.html
+    duration: 55m
+    pubdate: apr 15
+    comment: "this podcast is somehow recent but very good, focused on git users and makers, this week about gitorious (check the archives for past episodes too)"
+
+  - title: "Ruby5 #362"
+    url: http://ruby5.envylabs.com/episodes/366-episode-362-april-16th-2013
+    duration: 4m
+    pubdate: apr 16
+    comment: "motionmeetup, jruby gsoc, linkedlists, module_function, hobbit, method cache, ruby threads."
+
+  - title: "Ruby5 #363"
+    url: http://ruby5.envylabs.com/episodes/367-episode-363-april-19th-2013
+    duration: 7m
+    pubdate: apr 19
+    comment: "dtrace, keep gem, gem development, pinglish, testing, linepipe."
+
+  - title: Ruby Freelancer 057
+    url: http://rubyfreelancers.com/the-ruby-freelancers-show-057-fixed-bids/
+    duration: 51m
+    pubdate: apr 18
+    comment: "talking about projects with fixed bids"
+
+  - title: Javascript Jabber 056
+    url: http://javascriptjabber.com/056-jsj-marionette-js-with-derick-bailey/
+    duration: 1h
+    pubdate: apr 18
+    comment: "Marionette.js with Derick Bailey, a backbone.js overlay."
+
+- title: Watch
+  baseline: "Screencasts and conferences videos, or other video feeds ..."
+  links:
+
+  - title: "Ruby Tapas Freebie"
+    url: http://devblog.avdi.org/2013/04/15/7566/
+    duration: ""
+    pubdate: apr 15
+    comment: "quick presentation of utility module_function, nice trick."
+
+  - title: "writing a rails engine"
+    url: http://www.youtube.com/watch?v=fngAT09-zF8
+    duration: 1h
+    pubdate: apr 16
+    comment: "talk at east bay ruby meetup on march 19, featuring activeadmin."
+
+  - title: Grunt javascript automation
+    url: : http//www.youtube.com/watch?v=bntNYzCrzvE
+    duration: 51m
+    pubdate: apr 15
+    comment: "another presentation from Html5DevConf."
+
+  - title: "SEO and rails apps"
+    url: http://vimeo.com/64081713
+    duration: 34m
+    pubdate: apr 12
+    comment: "a big nerd ranch talk about pleasing google using all the tricks in the bag."
+
+- title: Read
+  baseline: "From the blogosphere or news feeds ..."
+  links:
+
+  - title: "Functionnal programming using underscore.js"
+    url: https://speakerdeck.com/othree/functional-programming-using-underscore-dot-js
+    pubdate: apr 20
+    comment: "slides from oscd.tw by othree"
+
+  - title: "Multi-db redis dev setup"
+    url: http://icelab.com.au/articles/a-manageable-multi-database-redis-development-setup/
+    pubdate: apr 16
+    comment: "details about redis setup and the rails config initialization."
+
+  - title: "Triggerino, an arduino base action trigger"
+    url: http://blog.crowdint.com/2013/04/18/introducing-triggerino-an-arduino-based-action-trigger.html
+    pubdate: apr 18
+    comment: "a ruby port of Mercurio python application."
+
+  - title: Ruby ampersand demystified
+    url: http://www.skorks.com/2013/04/ruby-ampersand-parameter-demystified/
+    pubdate: apr 17
+    comment: "a pretty good explanation about passing those procs as arguments."
+
+  - title: MRI method caches
+    url: http://jamesgolick.com/2013/4/14/mris-method-caches.html
+    pubdate: apr 14
+    comment: "many details about caching methods."
+
+  - title: Unmentionned features of ruby 2.0 
+    url: http://whitequark.org/blog/2013/04/14/unmentioned-features-of-ruby-2-dot-0/
+    pubdate: apr 14
+    comment: "a list of small feature changes with the new version of ruby."
+
+  - title: "Nunes with statsd"
+    url: http://www.railstips.org/blog/archives/2013/04/18/let-nunes-do-it/
+    pubdate: apr 19
+    comment: "a gem to send debug info to statsd and instrumentalApp."
+
+  - title: Preventing performance hit from custom fonts
+    url: http://css-tricks.com/preventing-the-performance-hit-from-custom-fonts/
+    pubdate: apr 17
+    comment: "various ways to avoid impacting the weight of fonts prematurely at page load."
+
+  - title: "IRC never left !"
+    url: http://net.tutsplus.com/tutorials/tools-and-tips/irc-is-back-heres-your-starter-guide/
+    pubdate: apr 16
+    comment: "a primer for people that don't know about irc yet (btw there is a #greenruby on freenode)."
+
+  - title: "Basic rubygem development"
+    url: http://tech.pro/tutorial/1226/basic-rubygem-development
+    pubdate: apr 17
+    comment: "all you need to know to publish your own gem."
+
+- title: Install
+  baseline: "A selection of gems or applications updated during past week."
+  links:
+
+  - title: Teabag
+    url: https://github.com/modeset/teabag
+    comment: "is a test running for javascript over rails apps"
+
+  - title: Firepad
+    url: http://www.firepad.io/
+    comment: is a collaborative text editor (using node.js)
+
+  - title: jQuery
+    url: http://blog.jquery.com/2013/04/18/jquery-2-0-released/
+    comment: "just released version 2, with no support for IE 6,7,8, great move"
+
+  - title: Cartographie
+    url: http://mattonrails.github.io/cartographie/
+    comment: is a gem for using inclusion of google maps
+
+  - title: css_lint_ruby
+    url: https://github.com/Comcast/css_lint_ruby
+    comment: is going to tell you how to make CSS the right way
+
+  - title: Scorched earth
+    url: https://github.com/jamesmoriarty/scorched-earth-rb
+    comment: now has a the ruby version
+
+- title: Use
+  baseline:
+    "It's hard to pass it, there are so many Saas out there.
+    This week again, some more API-focused services."
+  links:
+
+  - title: Cartodb
+    url: http://cartodb.com/
+    comment: "A beautiful data management tool based on maps, with all the apis you need to add it in your projects."
+
+  - title: Zapier
+    url: https://zapier.com/
+    comment: "A funny data pipeliner, connected to almost 200 APIs"
+
+  - title: TowTruck
+    url: https://towtruck.mozillalabs.com
+    comment: "A new solution from Mozilla Labs for online collaboration, beta but promising."
+
+

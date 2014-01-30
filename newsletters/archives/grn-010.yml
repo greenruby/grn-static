@@ -1,0 +1,198 @@
+---
+edition: "010"
+pubdate: "apr 13th 2013"
+edito:
+  "This is the 10th edition of this newsletter. This is a digit rotation and in the species of newsletters it's the exit from childhood. Woohoo. Here is a special note for the web geeks in Taiwan : <a href=\"http://registrano.com/events/jsdc2013\">the registration</a> for <a href=\"http://jsdc.tw\">JSDC</a> open this monday at 11 am, be quick usually it's full in one or 2 hours."
+
+topics:
+
+- title: Listen
+  baseline: What could be heard last week ..
+  links:
+
+  - title: "RubyRogues 100"
+    url: http://rubyrogues.com/100-rr-100th-episode-behind-the-scenes-with-the-ruby-rogues/
+    duration: 1h10
+    pubdate: apr 10
+    comment: "for the digit rotation, the rogues reveal some of their kitchen stories."
+
+  - title: "Ruby5 360"
+    url: http://ruby5.envylabs.com/episodes/364-episode-360-april-9th-2013
+    duration: 5m
+    pubdate: apr 9
+    comment: "big ruby, tyne tickets, api tricks, rvm gemsets, thecomment, identity cache, code hulk."
+
+  - title: "Ruby5 361"
+    url: http://ruby5.envylabs.com/episodes/365-episode-361-april-12th-2013
+    duration: 5m
+    pubdate: apr 12
+    comment: "bitcoin, pairprogrammwith, decaf, multiblock, sponges, rubocop, vim-rspec, module prepend."
+
+  - title: Wide teams 77
+    url: http://www.wideteams.com/2013/04/10/episode-77-interview-with-elliot-rodriguez/
+    duration: 17m
+    pubdate: apr 10
+    comment: "the podcast from Avdi Grimm. Also check his new site promoting <a href=\"http://www.pairprogramwith.me/\">remote pair programming</a>."
+
+  - title: Ruby freelancer 056
+    url: http://rubyfreelancers.com/the-ruby-freelancers-show-056-learning-on-the-job/
+    duration: 47m
+    pubdate: apr 11
+    comment: "more tips about freelancing in general, with ruby in particular."
+
+- title: Watch
+  baseline: "Screencasts and conferences videos, or other video feeds ..."
+  links:
+
+  - title: "Los Angeles Ruby Conf"
+    url: http://confreaks.com/events/larubyconf2013
+    duration: 9 talks
+    pubdate: apr 9
+    comment: "another great serie of talks on confreaks."
+
+  - title: "Html5 : how fast are we going"
+    url: http://marakana.com/s/post/1432/how_fast_are_we_going_now_web_performance_Steve_Souders_video
+    duration: 48m
+    pubdate: apr 9
+    comment: "a talk about web performance and recent statistics at html5devconf."
+
+  - title: Javascript weekly 124
+    url: : http://www.youtube.com/watch?v=GgvEcgeNI9A
+    duration: 4m
+    pubdate: apr 7
+    comment: "someone made a video version of the well-known javascript weekly newsletter."
+
+- title: Read
+  baseline: "From the blogosphere or news feeds ..."
+  links:
+
+  - title: "Ruby Daily"
+    url: http://rubydaily.org
+    comment: "This is a recent content selection website dedicated to ruby and web development, that began this month."
+
+  - title: "Testing with jasmine-rails"
+    url: http://www.naildrivin5.com/blog/2013/04/10/the-painful-world-of-javascript-testing.html
+    pubdate: apr 10
+    comment: "the painful world of javascript testing, an interesting report."
+
+  - title: "Ruby's missing data structure"
+    url: http://rubysource.com/rubys-missing-data-structure/
+    pubdate: apr 10
+    comment: "a very deep article from Pat Shaughnessy about linked lists."
+
+  - title: Scripting Tmux key bindings
+    url: http://spin.atomicobject.com/2013/04/11/tmux-key-binding-scripting/
+    pubdate: apr 11
+    comment: " to add custom key bindings to tmux."
+
+  - title: "Fat model, skinny controller, is a load of rubbish"
+    url: http://joncairns.com/2013/04/fat-model-skinny-controller-is-a-load-of-rubbish
+    pubdate: apr 11
+    comment: "a good point about the fact that no class should be fat, even models in rails."
+
+  - title: Using web workers to improve client-side power 
+    url: http://www.sitepoint.com/using-web-workers-to-improve-image-manipulation-performance/
+    pubdate: apr 7
+    comment: "an example of using web workers for backgrounding image manipulation task client side."
+
+  - title: "Inheriting from build-in types in ruby"
+    url: http://www.devmynd.com/blog/2013-4-inheriting-from-built-in-ruby-types
+    pubdate: apr 12
+    comment: "description of a good way to think about refactoring and making models slimmer."
+
+  - title: Using javascript to rescue legacy rails applications
+    url: http://victorsavkin.com/post/47195662611/using-javascript-to-rescue-legacy-rails-applications
+    pubdate: apr 7
+    comment: "a refactoring technique for a very common case."
+
+  - title: "Learning rails (and ruby) "
+    url: https://blog.engineyard.com/2013/learning-rails-and-ruby
+    pubdate: apr 8
+    comment: "a story about what a php expert learns by going to rails."
+
+  - title: "Rails at GSOC"
+    url: https://github.com/rails/gsoc2013/wiki/Ideas
+    pubdate: apr 10
+    comment: "checkout the ideas proposed for Rails at Google summer of code."
+
+- title: Install
+  baseline: "A selection of gems or applications updated during past week."
+  links:
+
+  - title: Rubocop
+    url: https://github.com/bbatsov/rubocop
+    comment: "is enforcing your ruby styling according to the <a href=\"https://github.com/bbatsov/ruby-style-guide\">style guide</a>."
+
+  - title: Sponges
+    url: https://github.com/AF83/sponges
+    comment: "is a demons herder, just release version 1.0.0"
+
+  - title: Decaf
+    url: http://trydecaf.org/dom/
+    comment: "to run ruby in the browser like if it was javascript"
+
+  - title: Geo bootstrap
+    url: http://divshot.github.io/geo-bootstrap
+    comment: "is a bit of nostalgy, a vintage bootstrap fro the ages of geocities"
+
+  - title: Bootstrap wysiwyg
+    url: http://mindmup.github.io/bootstrap-wysiwyg/
+    comment: is a tiny rich editor that fits in bootstrap-based css
+
+  - title: Orator
+    url: https://github.com/redjazz96/orator
+    comment: is a websocket server integrated in rails applications
+
+  - title: Subvim
+    url: https://github.com/fatih/subvim
+    comment: "after the vim plugin in sublimetext, here is the sublimetext plugin for vim"
+
+  - title: Passenger
+    url: https://github.com/FooBarWidget/passenger
+    comment: just released the rc6 of their version 4.0.0
+
+  - title: Rack-rewrite
+    url: https://github.com/jtrupiano/rack-rewrite
+    comment: is doing almost much what the apache rewrite rules do
+
+  - title: Groundkeeper
+    url: https://github.com/Couto/groundskeeper
+    comment: a node tool to remove forgotten console.log() from js files (here is what I need in my capistrano recipe)
+
+
+- title: Use
+  baseline:
+    "It's hard to pass it, there are so many Saas out there.
+    This week again, some more API-focused services."
+  links:
+
+  - title: Gem loupe
+    url: https://www.gemlou.pe/
+    comment: "A tool to visualize the full dependencies tree of gems on rubygems."
+
+  - title: UX apprentice
+    url: http://www.uxapprentice.com
+    comment: "A small multi-step introduction to UX design"
+
+  - title: Geeklist
+    url: http://geekli.st
+    comment: "Seriously, if you are not there yet, you should, this is social media for geeks."
+
+- title: Play
+  links:
+
+  - title: This guy is doing Contribution Graph Art
+    url: https://github.com/will
+    comment: "of course, those are not real commits, that's cheating but still the idea is playful."
+
+  - title: Code Hulk
+    url: http://codehulk.lunarlogicpolska.com
+    comment: " like a role playing game where you can pass one screen to another by solving programming challenges (in any language)."
+
+  - title: Fight Code
+    url: http://fightcodegame.com/
+    comment: "lets you design your javascript robot and fight against other javascript robot (tank-like robot, actually)."
+
+
+
+

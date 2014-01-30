@@ -1,0 +1,182 @@
+---
+edition: "009"
+pubdate: "apr 06th 2013"
+edito:
+  "<a href=\"http://www.awwwards.com/css-gallery\">awwwards</a> link last week was pretty popular and for the less technical of our subscribers, here is a nice reading: <a href=\"http://elouwebdesign.com/designing-for-humans\">Design for humans</a> and I also can point out that last week began a free course on coursera about <a href=\"https://www.coursera.org/course/gamification\">gamification</a> (it just began it's still time to catch up). I think that from now on I will include some non-technical links in the edito."
+
+topics:
+
+- title: update
+  links:
+  - title: "Postgres 9 security release"
+    url: http://www.postgresql.org/support/security/faq/2013-04-04/
+    duration: 1h10
+    pubdate: apr 4
+    comment: "a massive security flaw in postgres is covered by this released (heroku is already updated)."
+
+- title: Listen
+  baseline: What could be heard last week ..
+  links:
+
+  - title: "RubyRogues 099"
+    url: http://rubyrogues.com/099-rr-ruby-2/
+    duration: 1h25
+    pubdate: apr 3
+    comment: "interesting review of new features in ruby 2."
+
+  - title: "Ruby5 358"
+    url: http://ruby5.envylabs.com/episodes/362-episode-358-april-2nd-2013
+    duration: 6m
+    pubdate: apr 2
+    comment: "signed_form, rvm and 2.0, libreconv, kristin, pi_piper, hstore, sentimental, sinatra pipeline."
+
+  - title: "Ruby5 359"
+    url: http://ruby5.envylabs.com/episodes/363-episode-359-april-5th-2013
+    duration: 7m
+    pubdate: apr 5
+    comment: "postgres vulnerability, rails security, methods, helios.io, vim dispatch, flame graphs."
+
+  - title: Javascript Jabber 054
+    url: http://javascriptjabber.com/054-jsj-javascript-parsing-asts-and-language-grammar-w-david-herman-and-ariya-hidayat
+    duration: 1h
+    pubdate: apr 5
+    comment: "talk about javascript parsing, AST, and things about writing a language."
+
+- title: Watch
+  baseline: "Screencasts and conferences videos, or other video feeds ..."
+  links:
+
+  - title: "Big Ruby 2013"
+    url: http://confreaks.com/events/bigruby2013
+    duration: 15 talks
+    pubdate: apr 3
+    comment: "thanks to Confreaks, the videos from the Big Ruby Conf on mar 1st in Dallas."
+
+  - title: "Fast Rails commands"
+    url: http://railscasts.com/episodes/412-fast-rails-commands
+    duration: 8m
+    pubdate: apr 4
+    comment: "the last free railscast, about zeus, spring, and rails commandline."
+
+  - title: Gem love
+    url: : http://devblog.avdi.org/2013/04/01/rubytapas-freebie-gem-love-part-2
+    duration: 5m
+    pubdate: apr 1
+    comment: "part 2, about tests covering of a gem you write, fast and sharp as usual."
+
+  - title: Ruby hangout
+    url: : https://www.youtube.com/watch?v=eZngcRt_11k
+    duration: 48m
+    pubdate: apr 3
+    comment: "A remote hangout that begins to get more and more popular, this time about software license (part 1)."
+
+  - title: Building an app with ember.js
+    url: : https://www.youtube.com/watch?v=Ga99hMi7wfY
+    duration: 30m
+    pubdate: ma 27
+    comment: "a walkthrough on the basics about that js buzz."
+
+- title: Read
+  baseline: "From the blogosphere or news feeds ..."
+  links:
+
+  - title: "Interview with John Resig"
+    url: http://net.tutsplus.com/articles/where-in-the-world-is-john-resig
+    pubdate: apr 5
+    comment: "the guy that made jQuery talks about his current  fun with Khan academy."
+
+  - title: "Knockout.js"
+    url: http://net.tutsplus.com/tutorials/javascript-ajax/building-large-maintainable-and-testable-knockout-js-applications
+    pubdate: apr 3
+    comment: "a long presentation of that javascript framework, with samples and test tricks."
+
+  - title: "Ruby Matrix"
+    url: http://rubylearning.com/blog/2013/04/04/ruby-matrix-the-forgotten-library
+    pubdate: apr 4
+    comment: " story about using matrices in ruby."
+
+  - title: Vagrant in your workflow
+    url: http://rubysource.com/give-vagrant-a-place-in-your-workflow
+    pubdate: apr 2
+    comment: "a detailled article explaining how to add a VM in your deployment workflow."
+
+  - title: "Twitter authentication in Sinatra"
+    url: http://rubysource.com/twitter-authentication-in-sinatra/
+    pubdate: apr 4
+    comment: "example implementation with explained code for linking a sinatra app to the small blue bird."
+
+  - title: Using GDB to inspect a running ruby 
+    url: http://robots.thoughtbot.com/post/47202759358/using-gdb-to-inspect-a-running-ruby
+    pubdate: apr 5
+    comment: "a quick hint about using GDB for having more debugging output from a running ruby process."
+
+  - title: "OAuth Bible"
+    url: https://github.com/Mashape/mashape-oauth/blob/master/FLOWS.md
+    pubdate: apr 2
+    comment: "a great reference about all type of possible OAuth systems you can adopt."
+
+  - title: Tools for website design
+    url: http://www.hongkiat.com/blog/ideas-to-nicer-websites/
+    pubdate: apr 3
+    comment: "a review of 30 well known modern tools for making better websites."
+
+  - title: "Explicit vs Clever"
+    url: http://raganwald.com/2013/04/02/explicit-versus-clever.html
+    pubdate: apr 2
+    comment: "a nice statement about benefit of clarity in code."
+
+  - title: "Avoiding the \"this\" probem in JS"
+    url: http://tech.pro/tutorial/1192/avoiding-the-this-problem-in-javascript
+    pubdate: apr 4
+    comment: "some tricks to avoid the confusion of the this scoping."
+
+  - title: "Geek memes"
+    url: http://blog.peepcode.com/blog/2013/charismatic-duo
+    pubdate: apr 5
+    comment: "well, this is just about geeks body language."
+
+- title: Install
+  baseline: "A selection of gems or applications updated during past week."
+  links:
+
+  - title: Helios.io
+    url: http://helios.io
+    comment: "is a set of mobile components built on rack, for iOs, from Heroku."
+
+  - title: Chart.js
+    url: https://github.com/nnnick/Chart.js
+    comment: "produces nice html5 charts using canvas"
+
+  - title: Gitlab
+    url: http://gitlab.org/
+    comment: "recently released a version 5.0, now free from gitolite as they rely on their own scripts"
+
+  - title: Docpad
+    url: http://docpad.org
+    comment: "is yet another node web framework, but I list it here because the website looks good"
+
+  - title: Sentimental
+    url: https://github.com/7compass/sentimental
+    comment: is a ruby gem for analyzing human sentiments in social media
+
+- title: Use
+  baseline:
+    "It's hard to pass it, there are so many Saas out there.
+    This week again, some more API-focused services."
+  links:
+
+  - title: Dribbble
+    url: http://dribbble.com
+    comment: "This is a showroom for designers, that can display their last creation. And many of them are very good."
+
+  - title: Tuts+ Hub
+    url: http://hub.tutsplus.com
+    comment: "A new tutorial portal from Net-Tuts, more than 7000 tutorials (dev and graphics)"
+
+  - title: Coursera
+    url: https://www.coursera.org/
+    comment: "A massive online platform to follow university cursus for free and from home. Including courses in french and chinese."
+
+
+
+
