@@ -1,0 +1,161 @@
+---
+edition: "007"
+pubdate: "mar 23th 2013"
+edito:
+  "Ah yet another rails upgrade! And this one looks problematic so we may get yet another one next week. While upgrading each time, just try focusing on how secure rails is becoming with all that fuss. Btw, if you get any news in non english that make a reference in your local area, feel free to share I will be happy to include it. It's a matter of ambiance, I just like it multi-cultural :)"
+
+topics:
+
+- title: Install
+  links:
+
+  - title: "Rails upgrade"
+    url: http://weblog.rubyonrails.org/2013/3/18/SEC-ANN-Rails-3-2-13-3-1-12-and-2-3-18-have-been-released/
+    pubdate: mar 18
+    comment: "yes, that's another security release, the 3.2.13 (and other point versions), fixing XSS and DOS vulnerabilities. But careful, this release seems to have regression problems (for example the <a href=\"https://github.com/blog/1440-today-s-email-incident\">github case</a>). Handle with care."
+
+- title: Listen
+  baseline: What could be heard last week ..
+  links:
+
+  - title: "RubyRogues 097"
+    url: http://rubyrogues.com/097-rr-book-club-patterns-of-enterprise-architecture-with-martin-fowler/
+    duration: 1h42
+    pubdate: mar 20
+    comment: "talk with Martin Fowler about design patterns and other related topics."
+
+  - title: "Ruby5 354"
+    url: http://ruby5.envylabs.com/episodes/358-episode-354-march-19-2013
+    duration: 5m
+    pubdate: mar 19
+    comment: "Rubydoc alerts, security, xpool, ruby as javascript."
+
+  - title: "Ruby5 355"
+    url: http://ruby5.envylabs.com/episodes/359-episode-355-march-22nd-2013
+    duration: 6m
+    pubdate: mar 22
+    comment: "backbone, irbm session flash, flatui, rtanque, regressions, chartjs."
+
+  - title: "Giant Robots 40"
+    url: http://learn.thoughtbot.com/podcast/40
+    duration: 32m
+    pubdate: mar 18
+    comment: "discussion with Bryan Helmkamp about codeclimate."
+
+  - title: Javascript Jabber 052
+    url: http://javascriptjabber.com/052-jsj-node-npm-with-isaac-schlueter
+    duration: 1h
+    pubdate: mar 22
+    comment: "Node and NPM discussion with Isaac Schlueter aka @izs."
+
+- title: Watch
+  baseline: "Screencasts and conferences videos, or other video feeds ..."
+  links:
+
+  - title: "Hash default Value"
+    url: http://devblog.avdi.org/2013/03/18/rubytapas-freebie-hash-default-value/
+    duration: 2m
+    pubdate: mar 18
+    comment: "the weekly freebie of Ruby Tapas."
+
+  - title: "Code quality tools"
+    url: http://vimeo.com/61782979
+    duration: 16m
+    pubdate: mar 15
+    comment: "a review of some tools for enforcing code quality in rails."
+
+  - title: Functional programming in ruby 
+    url: http://www.youtube.com/watch?v=8DvxOLzmLSI
+    duration: 43m
+    pubdate: mar 13
+    comment: "a talk of Pat Shaghnessy at boston.rb."
+
+  - title: TDD in ruby
+    url: http://www.youtube.com/watch?v=lTPPbdcwTdk
+    duration: 7m
+    pubdate: mar 14
+    comment: "an episode from a long serie on youtube ruby on rails channel."
+
+- title: Read
+  baseline: "From the blogosphere or news feeds ..."
+  links:
+
+  - title: "Ruby on rails tutorial 4.0 "
+    url: http://news.railstutorial.org/ruby-on-rails-tutorial-rails-4-beta/
+    pubdate: mar 20
+    comment: "the famous tutorial book adapted to rails 4.0."
+
+  - title: "Caching in rails"
+    url: http://rubysource.com/caching-cache-digest
+    pubdate: mar 21
+    comment: "a good article detailing the various techniques available for caching."
+
+  - title: "Why ruby"
+    url: http://www.codinghorror.com/blog/2013/03/why-ruby.html
+    pubdate: mar 22
+    comment: "view on ruby from a .net lover (that made discourse)."
+
+  - title: The art of node
+    url: https://github.com/maxogden/art-of-node
+    pubdate: mar 21
+    comment: "a work in progress introduction to Node.js."
+
+  - title: "OOP in Javascript"
+    url: http://igor-alexandrov.github.com/blog/2013/03/28/using-git-subtree-to-share-code-between-rails-applications/
+    pubdate: mar 28
+    comment: "an interesting alternative to git submodules to share code between repos."
+
+  - title: "Ruby cheatsheet"
+    url: http://overapi.com/ruby/
+    comment: "<a href=\"http://overapi.com\">overapi</a> lists a lot of programming languages APIs. the ruby one is very helpful"
+
+  - title: Guide to good code 
+    url: http://blog.c42.in/blog/the-c42-guide-to-good-code-1-code-smells
+    pubdate: mar 18
+    comment: "some pointers about code smell."
+
+  - title: Application architecture pros and cons
+    url: http://highscalability.com/blog/2013/3/18/beyond-threads-and-callbacks-application-architecture-pros-a.html
+    pubdate: mar 16
+    comment: "long exploration of various architectural choices for software projects."
+
+  - title: Test sinatra based web services
+    url: http://robots.thoughtbot.com/post/45581933187/how-to-test-sinatra-based-web-services
+    pubdate: mar 17
+    comment: "tips about webmocks and local gem."
+
+- title: Install
+  baseline: "A selection of gems or applications updated during past week."
+  links:
+
+  - title: Backbone
+    url: http://ashkenas.com/backbonejs-1.0/
+    comment: "just released its version 1.0"
+
+  - title: Csscss
+    url: https://github.com/zmoazeni/csscss
+    comment: "to find redundant css declarations"
+
+  - title: Subdomainbox
+    url: https://github.com/populr/subdomainbox
+    comment: "proposes an interesting approach to avoid XSS"
+
+  - title: Reacter
+    url: http://outbrain.github.com/reacter/
+    comment: "is like a router for monitoring feeds"
+
+  - title: Precis
+    url: https://github.com/robmiller/precis
+    comment: makes weekly activity reports out of a git repo
+
+  - title: Bruce banner
+    url: https://github.com/bjh/bruce-banner
+    comment: wrap the puts into a banner for emphasis purposes
+
+  - title: Sublimewebinspector
+    url: http://sokolovstas.github.com/SublimeWebInspector/
+    comment: is for debugging javascript from sublimetext
+
+  - title: Rails Panel
+    url: https://github.com/dejan/rails_panel
+    comment: is a chrome extension for rails development

@@ -1,0 +1,151 @@
+---
+edition: "004"
+pubdate: "mar 2nd 2013"
+edito:
+  "The ruby 2.0 release last week triggered a lot of other releases, with rubygems 2.0, passenger, rails, rspec, devise, rack, hobo, and many others. There is also some a rush on pull requests on ruby projects as people jump on ruby 2 and fix compatibilities issues on the way. A very interesting week."
+
+topics:
+
+- title: Listen
+  baseline: What could be heard last week ..
+  links:
+
+  - title: "Giant Robots 37"
+    url: http://learn.thoughtbot.com/podcast/36
+    pubdate: feb 25
+    comment: "discussion with Joe Ferris, CTO of Thoughtbot, about suspenders (the list of gems they use)."
+
+  - title: "Ruby5 348"
+    url: http://ruby5.envylabs.com/episodes/352-episode-348-february-26-2013
+    pubdate: feb 26
+    comment: "ruby 2, artoo, ruby installer, ruby friends camera, cached counts, refinements."
+
+  - title: "RubyRogues 094"
+    url: http://rubyrogues.com/094-rr-robust-ruby-with-ara-t-howard/
+    pubdate: feb 27
+    comment: "with Ara T. Howard, talking about robust ruby and other stories."
+
+  - title: "Ruby5 349"
+    url: http://ruby5.envylabs.com/episodes/353-episode-349-february-28th-2013
+    pubdate: feb 18
+    comment: "rails 4, singleton_process, twitter-flight-rails, gridhook, clutch, ruby2, regex shoutout."
+
+  - title: Rubyshow 222
+    url: http://rubyshow.com/episodes/222
+    pubdate: mar 1
+    comment: "various news about what's going on in the ruby world."
+
+- title: Watch
+  baseline: "Screencasts and conferences videos, or other video feeds ..."
+  links:
+
+  - title: "Caller-specified Fallback handler"
+    url: http://devblog.avdi.org/2013/02/25/rubytapas-freebie-caller-specified-fallback-handler
+    pubdate: feb 25
+    comment: "a freebie from Ruby Tapas, thx avid :)"
+
+- title: Read
+  baseline: "From the blogosphere or news feeds ..."
+  links:
+
+  - title: "jQuery Europe Conference"
+    url: http://www.ahrefmagazine.com/resources/what-i-have-learned-from-jquery-europe-conference-day-1
+    pubdate: feb 22
+    comment: "comments from an attendant and links to side notes."
+
+  - title: "book: Programming ruby 2.0"
+    url: http://pragprog.com/news/programming-ruby-2-0
+    pubdate: feb 24
+    comment: "the day of the release, the book is already on the shelf."
+
+  - title: "Solving the discovery problem"
+    url: http://hintjens.com/blog:32
+    pubdate: feb 26
+    comment: "an indepth article about service discovery using UDP."
+
+  - title: Command line with ruby
+    url: http://rubysource.com/command-line-applications-for-the-rest-of-us/
+    pubdate: feb 28
+    comment: "coding for the console, howto."
+
+  - title: "Javascript API design"
+    url: http://webstandardssherpa.com/reviews/secrets-of-awesome-javascript-api-design/
+    pubdate: feb 26
+    comment: "pretty long article with a lot of examples."
+
+  - title: "Making refs in ruby using celluloid actors"
+    url: http://spin.atomicobject.com/2013/02/25/ruby-refs-celluloid-actors/
+    pubdate: feb 25
+    comment: "some inspiration from clojure for concurrent programs"
+
+  - title: "20 jQuery UI Framework plugins"
+    url: http://djdesignerlab.com/2013/02/26/20-useful-jquery-ui-framework-plugins-for-web-designers-and-developers/
+    pubdate: feb 26
+    comment: "a great collection of tools you should know about for your UI"
+
+  - title: "interview with ember.js team"
+    url: http://net.tutsplus.com/articles/interviews/ember-js-core-team-interview/
+    pubdate: feb 16
+    comment: "a very long interview with project leaders, and a lot of comments"
+
+  - title: "javascript weird parts"
+    url: http://blog.mgechev.com/2013/02/22/javascript-the-weird-parts/
+    pubdate: feb 22
+    comment: "an interesting list of oddities."
+
+  - title: "programming is an art"
+    url: http://ruben.verborgh.org/blog/2013/02/21/programming-is-an-art
+    pubdate: feb 21
+    comment: "coding style matters."
+
+- title: Install
+  baseline: "A selection of gems or applications updated during past week."
+  links:
+
+  - title: Rails 4.0 beta 1 
+    url: http://weblog.rubyonrails.org/2013/2/25/Rails-4-0-beta1/
+    comment: "released on feb 25"
+
+  - title: Passenger 4.0 rc2
+    url: http://blog.phusion.nl/2013/02/27/phusion-passenger-4-0-release-candidate-2/
+    comment: "released for entreprise users, free users wait until march 5"
+
+  - title: Devise
+    url: http://blog.plataformatec.com.br/2013/01/security-announcement-devise-v2-2-3-v2-1-3-v2-0-5-and-v1-5-3-released/
+    comment: "does a security release on feb 28, impacting mysql dbs"
+
+  - title: phantomjs-gem
+    url: https://github.com/colszowka/phantomjs-gem
+    comment: "will auto-install phantom and poltergheist for js integration testing"
+
+  - title: active_decorator
+    url: https://github.com/amatsuda/active_decorator
+    comment: special helpers patterns for lightening views in rails
+
+  - title: git-commit-notifier
+    url: https://github.com/git-commit-notifier/git-commit-notifier
+    comment: more improvement for that great notifier
+
+  - title: unschema
+    url: https://github.com/neopoly/unschema
+    comment: for cleaning up the migrations dir after too many changes
+
+  - title: sails.js 
+    url: http://balderdashy.github.com/sails/
+    comment: "like rails, but for node.js"
+
+  - title: prefixfree
+    url: https://github.com/LeaVerou/prefixfree
+    comment: for adding vendor-prefixes in css on the fly
+
+
+- title: Fun
+  links:
+
+  - title: Codetag Quests
+    url: http://codetag.me
+    comment: "are though, be strong or don't go there"
+
+  - title: Coding confessional
+    url: http://www.codingconfessional.com
+    comment: "go free your soul of your sins"

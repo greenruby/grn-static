@@ -1,0 +1,109 @@
+---
+edition: "001"
+pubdate: "feb 12th 2013"
+edito:
+  "The Green Ruby News was at the beginning an internal letter I was publishing every week in Code Green IT company. 
+But it became obvious that this could and should be shared outside our walls, so here is it. Green Ruby Newsletter goes public !
+<br><br>The purpose of this letter is to spread the information we gathered during the week, about ruby, rails, javascript, web development, or internet in general. I hope you can find any interest in that."
+
+topics:
+
+- title: Listen
+  baseline: What could be heard last week ..
+  links:
+
+  - title: "RubyRogues 091"
+    url: http://rubyrogues.com/091-rr-the-ruby-design-process-with-brian-shirai/
+    pubdate: feb 9
+    comment: "Interesting discussion about ruby development governance, pretty long broadcast of almost 2 hours this time).."
+
+  - title: "ruby show 221"
+    url: http://rubyshow.com/episodes/221
+    pubdate: feb 1
+    comment: "20 minutes of various reviews of blog posts and other rails related short info."
+
+  - title: "Ruby5 343"
+    url: http://ruby5.envylabs.com/episodes/347-episode-343-february-8th-2013
+    pubdate: feb 8
+    comment: "short 5 minutes of news about rails."
+
+- title: Watch
+  baseline: "Screencasts and conferences videos, or other video feeds ..."
+  links:
+
+  - title: "People the missing ingredient"
+    url: "http://www.confreaks.com/videos/1108-gogaruco2012-people-the-missing-ingredient"
+    pubdate: sep 17
+    comment: "most projects don't fail for technical reasons. The human factor is the weak link."
+
+  - title: "Railscast pro: custom app generator"
+    url: "http://railscasts.com/episodes/148-custom-app-generators-revised"
+    pubdate: feb 3
+    comment: "about app templates, generators, wizards."
+
+  - title: "Railscast pro: AngularJS"
+    url: "http://railscasts.com/episodes/405-angularjs"
+    pubdate: feb 5
+    comment: "more about the invasion of this js client-side framework."
+
+- title: Read
+  baseline: "From the blogosphere or news feeds ..."
+  links:
+
+  - title: "Lessons learned in concurrency with ruby"
+    url: https://blog.engineyard.com/2013/ruby-concurrency
+    pubdate: feb 5
+    comment: "A great review about threading in ruby, with a lot of example code."
+
+  - title: "Code triage"
+    url: http://schneems.com/post/42508340989/open-source-in-your-inbox-code-triage
+    pubdate: feb 7
+    comment: "a blog post about this new service that helps open source contribution by organizaing the flow of needs."
+
+  - title: "Code connected volume 1 : zeroMQ"
+    url: "http://hintjens.com/blog:30"
+    pubdate: feb 7
+    comment: "presentation of a book about ZeroMQ and C/C++, seems quite interesting, with a pdf version downloadable for free."
+
+  - title: "In-depth look at the rails YAML vulnerability"
+    url: "http://rubysource.com/anatomy-of-an-exploit-an-in-depth-look-at-the-rails-yaml-vulnerability/"
+    pubdate: feb 4
+    comment: "some more details about what made noise in recent few weeks around rails vulnerabilities."
+
+  - title: "actor-based concurrency with celluloid"
+    url: "https://practicingruby.com/articles/shared/nkhaprcgwrpv"
+    pubdate: feb 7
+    comment: "A nice article that details the concurrency ideas behind celluloid and what they fix."
+
+  - title: "about whitespaces in ruby"
+    url: "http://www.reddit.com/r/ruby/comments/17zn25/why_is_significant_whitespace_a_bad_idea"
+    pubdate: feb 6
+    comment: "Quite a long thread of comments on the indentation as a part of the language (like in haml, sass, python)."
+
+- title: Install
+  baseline: "A selection of gems or applications updated during past week."
+  links:
+
+  - title: synapses-cas
+    url: https://github.com/synapsesgroup/synapses-cas
+    comment: "for a central authentication system based on CAS pattern"
+
+  - title: casino
+    url: https://github.com/rbCAS/CASino
+    comment: "is another alternative following the CAS architecture."
+
+  - title: morrisjs-rails
+    url: https://github.com/beanieboi/morrisjs-rails
+    comment: "is a lib for producing graphs based on raphael.js"
+
+  - title: cinch
+    url: https://github.com/cinchrb/cinch
+    comment: "an irc bot framework that we just happen to use and love"
+
+  - title: keynote
+    url: https://github.com/rf-/keynote
+    comment: "is a present library for cleaning up views from code"
+
+  - title: inkwell
+    url: https://github.com/salkar/inkwell
+    comment: "adds a lot of social features to a rails application"

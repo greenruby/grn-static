@@ -1,0 +1,107 @@
+---
+edition: "002"
+pubdate: "feb 16th 2013"
+edito:
+  "This second edition is an occasion to tune up a bit the mailchimp templates, and make the letter readable on phones. Well, it was chinese new year hollidays so I got plenty of time and wanted to add more rubyconf dates. Damn there are so many. I will keep a record at the bottom of each letter, so people can get organized in advance."
+
+topics:
+
+- title: Listen
+  baseline: What could be heard last week ..
+  links:
+
+  - title: "Ruby5 344"
+    url: http://ruby5.envylabs.com/episodes/348-episode-344-february-12th-2013
+    pubdate: feb 12
+    comment: "security release, ruby heroes, and some pointers."
+
+  - title: "Ruby5 345"
+    url: http://ruby5.envylabs.com/episodes/349-episode-345-february-15th-2013
+    pubdate: feb 15
+    comment: "haml 4, rails templates, paratrooper, shpec, yaml hacks, bundler-audit, rubymotion."
+
+  - title: "RubyRogues 092"
+    url: http://rubyrogues.com/092-rr-picksposion/
+    pubdate: feb 13
+    comment: "special picks, with a lot of books references, some various talk about remote working, desktop arrangements, and others."
+
+- title: Watch
+  baseline: "Screencasts and conferences videos, or other video feeds ..."
+  links:
+
+  - title: "Live coding with Jim Weirich"
+    url: "http://www.youtube.com/watch?feature=player_embedded&v=983zk0eqYLY"
+    pubdate: feb 13
+    comment: "TDD by example (kata), given/then/when in rspec, lot of tips"
+
+  - title: "Railscats: public activity"
+    url: "http://railscasts.com/episodes/406-public-activity"
+    pubdate: feb 13
+    comment: "gets big brother over your users shoulders."
+
+  - title: "EdgeConf videos"
+    url: "http://www.2ality.com/2013/02/edge-2013-videos.html"
+    pubdate: feb 13
+    comment: "now online the panels from edgeconf that happened in London on feb 9th. Hats off for the fast delivery."
+
+- title: Read
+  baseline: "From the blogosphere or news feeds ..."
+  links:
+
+  - title: "Design patterns in ruby: observer, singleton"
+    url: http://rubysource.com/design-patterns-in-ruby-observer-singleton/
+    pubdate: jan 31
+    comment: "Nice article describing with code examples some well known but not that much used design patterns."
+
+  - title: "State machine with rails"
+    url: http://gistflow.com/posts/679-state-machine-with-rails-basics
+    pubdate: feb 8
+    comment: "Some examples of code using the state_machine gem."
+
+  - title: "35 top example of javascript"
+    url: http://www.creativebloq.com/web-design/examples-of-javascript-1233964
+    pubdate: feb 12
+    comment: "a list of spectacular websites using cutting edge javascript tricks."
+
+- title: Install
+  baseline: "A selection of gems or applications updated during past week."
+  links:
+
+  - title: flight
+    url: http://twitter.github.com/flight/
+    comment: "is a new js framework for web application, based on jQuery"
+
+  - title: discourse
+    url: http://www.discourse.org
+    comment: "is a forum of a new generation, using rails, postgresql, redis. Not necessarily easy to install but definitely an interesting UI."
+
+  - title: shpec
+    url: https://github.com/shpec/shpec
+    comment: "a test suite for shell scripts that tastes like rspec"
+
+  - title: bundler-audit
+    url: https://github.com/postmodern/bundler-audit
+    comment: "looks for vulnerable gems, quite useful these days"
+
+  - title: nyan-cat-formatter
+    url: https://github.com/mattsears/nyan-cat-formatter
+    comment: "just for making tests output laughable"
+
+  - title: event_cal
+    url: http://shin1ohno.github.com/event_cal
+    comment: "yet another but cool calendar library"
+
+  - title: uptime
+    url: https://github.com/fzaninotto/uptime
+    comment: "a server monitoring solution with modejs and mongodb"
+
+- title: Fun
+  links:
+
+  - title: ruby T-Shirts
+    url: http://www.rubyrags.com
+    comment: "ruby/rails goodies"
+
+  - title: Ruby hero
+    url: http://rubyheroes.com
+    comment: "Vote for your ruby hero."

@@ -1,0 +1,178 @@
+---
+edition: "008"
+pubdate: "mar 30th 2013"
+edito:
+  "If you look for some design inspiration you should go have a look at the <a href=\"http://www.awwwards.com/css-gallery\">2013 awwwards nominees list</a>, there is a damn lot of really great design out there. But if you are more into technical aspects of web development, read on, there is a lot for you just below."
+
+topics:
+
+- title: Listen
+  baseline: What could be heard last week ..
+  links:
+
+  - title: "RubyRogues 098"
+    url: http://rubyrogues.com/098-rr-drb-with-davy-stevenson/
+    duration: 1h
+    pubdate: mar 27
+    comment: "discussion with Davy Stevenson about <a href=\"http://www.ruby-doc.org/stdlib-1.9.3/libdoc/drb/rdoc/DRb.html\">DRb</a>."
+
+  - title: "Ruby5 356"
+    url: http://ruby5.envylabs.com/episodes/360-episode-356-march-26th-2013
+    duration: 5m
+    pubdate: mar 26
+    comment: "rails update, irb, local pull requests, why ruby, tuning, pry-doc, git bisect."
+
+  - title: "Ruby5 357"
+    url: http://ruby5.envylabs.com/episodes/361-episode-357-march-29th-2013
+    duration: 7m
+    pubdate: mar 29
+    comment: "concurrent indexes, exceptional, vagrant and rubygems, mobile, igata, teacup."
+
+  - title: "Giant Robots 41"
+    url: http://learn.thoughtbot.com/podcast/41
+    duration: 35m
+    pubdate: mar 25
+    comment: "discussion with Chad Pytel about Thoughbot services."
+
+  - title: "Hansel Minutes 363"
+    url: http://hanselminutes.com/363/html5-javascript-chrome-and-the-web-platform-with-paul-irish
+    duration: 35m
+    pubdate: mar 22
+    comment: "HTML5, javascript and chrome with Paul Irish (chrome dev team, h5bp)."
+
+  - title: Javascript Jabber 053
+    url: http://javascriptjabber.com/053-jsj-software-team-dynamics
+    duration: 1h
+    pubdate: mar 29
+    comment: "about Software Teams dynamics. Not very technical, more about team problems."
+
+- title: Watch
+  baseline: "Screencasts and conferences videos, or other video feeds ..."
+  links:
+
+  - title: "Guard is your best friend"
+    url: http://net.tutsplus.com/tutorials/tools-and-tips/guard-is-your-best-friend
+    duration: 13m
+    pubdate: mar 28
+    comment: "small demo of guard and various of its plugins."
+
+  - title: "HTML5.tx"
+    url: http://confreaks.com/events/html5tx2013
+    pubdate: mar 01
+    comment: "a great collection of talks about HTML5."
+
+  - title: Custom filters in CSS 
+    url: http://updates.html5rocks.com/2013/03/Introduction-to-Custom-Filters-aka-CSS-Shaders
+    duration: 36m
+    pubdate: mar 25
+    comment: "those css shaders are a special feature, similar to webGL, to add 3D effects on the DOM."
+
+  - title: Jasmine tactics screencast
+    url: http://searls.testdouble.com/posts/2013-03-21-jasmine-tactics-screencast.html
+    duration: 1h15
+    pubdate: mar 21
+    comment: "a raw session of writing tests for javascript."
+
+- title: Read
+  baseline: "From the blogosphere or news feeds ..."
+  links:
+
+  - title: "Rails insecure default"
+    url: http://blog.codeclimate.com/blog/2013/03/27/rails-insecure-defaults/
+    pubdate: mar 27
+    comment: "a good review of 13 default rails behaviours and some tips about them."
+
+  - title: "illustrated phases of a dev career"
+    url: http://net.tutsplus.com/articles/general/the-11-phases-of-a-web-developers-career-as-illustrated-by-memes
+    pubdate: mar 24
+    comment: "this enters in the category Humour. Sorry about it."
+
+  - title: "Node chatroom"
+    url: http://www.williammora.com/2013/03/nodejs-tutorial-building-chatroom-with.html
+    pubdate: mar 23
+    comment: "yet another tuto for chatroom but this one is really detailled."
+
+  - title: RVM Autolibs
+    url: https://blog.engineyard.com/2013/rvm-ruby-2-0
+    pubdate: mar 27
+    comment: "news on rvm and ruby 2.0 by mpapis."
+
+  - title: "Git subtrees"
+    url: http://igor-alexandrov.github.com/blog/2013/03/28/using-git-subtree-to-share-code-between-rails-applications/
+    pubdate: mar 28
+    comment: "an interesting alternative to git submodules to share code between repos."
+
+  - title: The repository pattern 
+    url: http://blog.8thlight.com/mike-ebert/2013/03/23/the-repository-pattern.html
+    pubdate: mar 23
+    comment: "an interesting way to decouple database abstraction from the code."
+
+  - title: "Redis set and space-time"
+    url: http://robots.thoughtbot.com/post/46335890055/redis-sets-the-intersection-of-space-and-time
+    pubdate: mar 26
+    comment: "an article describing the Set type of redis."
+
+  - title: Boosting rails dev workflow
+    url: http://rubysource.com/boosting-your-rails-development-workflow/
+    pubdate: mar 28
+    comment: "a list of useful gems and how to use them, all actually well known but maybe you miss one or two in your pocket."
+
+- title: Install
+  baseline: "A selection of gems or applications updated during past week."
+  links:
+
+  - title: Padrino
+    url: https://github.com/padrino/padrino-framework
+    comment: "just released <a href=\"http://www.padrinorb.com/blog/padrino-0-11-0-released-padrino-lives\">v0.11.0</a> with a pretty long changelog"
+
+  - title: Slowmojs
+    url: https://github.com/toolness/slowmo-js
+    comment: "is a javascript executor in slow motion, great for debug"
+
+  - title: Tumblr APIv2
+    url: https://github.com/tumblr
+    comment: "published a lot of code recently there"
+
+  - title: Introjs
+    url: https://github.com/usablica/intro.js
+    comment: "makes easy visual user guides on the top of websites"
+
+  - title: ruby-AMQP
+    url: https://github.com/ruby-amqp/amqp
+    comment: shipped version 1.0.0
+
+  - title: geo google
+    url: https://github.com/iamakimmer/geo_google
+    comment: helps convert addresses into geo data using google API
+
+  - title: Scorched
+    url: http://scorchedrb.com
+    comment: is a new lightweight alternative to rails
+
+  - title: Montagejs
+    url: http://montagejs.org
+    comment: is an alternative to jQuery/UI based on components for HTML5
+
+- title: Use
+  baseline:
+    "It's hard to pass it, there are so many Saas out there.
+    This week again, some more API-focused services."
+  links:
+
+  - title: Codepen
+    url: http://codepen.io
+    comment: "Very nifty html/js/css demo playground."
+
+  - title: Coderbits
+    url: https://coderbits.com
+    comment: "Still in beta, this one is a gatherer of geek activity, providing a damn long list of connection to places where the geeks belong."
+
+  - title: Cloudlist
+    url: http://www.cloudli.st
+    comment: "This one is a directory of 700 Saas, a really complete overview of all many interesting (or not) services online"
+
+  - title: Plunker
+    url: http://plnkr.co/
+    comment: "An online editor focused on sharing web development ideas"
+
+

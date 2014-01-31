@@ -11,6 +11,7 @@
   background: #000;
   color: #f6f8fa;
 }
+
 body {
   width:100% !important;
   -webkit-text-size-adjust:none;
@@ -308,7 +309,7 @@ a:hover {
   }
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 600px) {
   body {
     width: auto !important;
   }

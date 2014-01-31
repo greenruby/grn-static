@@ -1,0 +1,129 @@
+---
+edition: "005"
+pubdate: "mar 09th 2013"
+edito:
+  "Here are your weekly news about ruby, the universe and everything (according tothe current scope). I'm preparing a dedicated website to organize the collective writing of this newsletter, more news about it very soon."
+
+topics:
+
+- title: Listen
+  baseline: What could be heard last week ..
+  links:
+
+  - title: "Giant Robots 38"
+    url: http://learn.thoughtbot.com/podcast/38
+    pubdate: mar 4
+    comment: "discussion with Jeremy McAnally from Github."
+
+  - title: "RubyRogues 095"
+    url: http://rubyrogues.com/095-rr-people-and-team-dynamics-with-joe-obrien/
+    pubdate: mar 4
+    comment: "discussion with Joe O'Brien about people, the reason why projects succeed and fail."
+
+  - title: "Ruby5 350"
+    url: http://ruby5.envylabs.com/episodes/354-episode-350-march-5th-2013
+    pubdate: mar 5
+    comment: "bundler, signed gems, coffeescript, postgres, close enough, apprentice programmer."
+
+  - title: "Ruby5 351"
+    url: http://ruby5.envylabs.com/episodes/355-episode-351-march-8th-2013
+    pubdate: mar 8
+    comment: "roundup, rails 4 gem, classified-ipsum, hiding activerecords."
+
+  - title: Javascript Jabber 050
+    url: http://javascriptjabber.com/050-jsj-qunit-with-jorn-zaefferer/
+    pubdate: mar 8
+    comment: "Qunit with Jorn Zaefferer, testing, Ci, and other concerns."
+
+- title: Watch
+  baseline: "Screencasts and conferences videos, or other video feeds ..."
+  links:
+
+  - title: "scanning a string"
+    url: http://devblog.avdi.org/2013/03/04/rubytapas-freebie-scanning-a-string
+    pubdate: mar 4
+    comment: "the weekly freebie from RubyTapas."
+
+  - title: "Matz on ruby 2.0"
+    url: https://blog.heroku.com/archives/2013/3/6/matz_highlights_ruby_2_0_at_waza
+    pubdate: mar 6
+    comment: "the talk and transcript given during the Waza conf on ruby 2.0."
+
+  - title: "Programming isn't math" 
+    url: https://marakana.com/s/post/1405/programming_is_not_math_scala_oscar_boykin_video
+    pubdate: mar 7
+    comment: "about scala but interesting."
+
+- title: Read
+  baseline: "From the blogosphere or news feeds ..."
+  links:
+
+  - title: "Pair programming with italian tomatoes"
+    url: http://blog.crowdint.com/2013/03/04/respect-the-tomato.html
+    pubdate: mar 4
+    comment: "a small article presenting pomodoro, a pair programming technique."
+
+  - title: "Integration testing with Casper.js"
+    url: http://blog.codeship.io/2013/03/07/Smoke-Testing-with-Casperjs.html
+    pubdate: mar 7
+    comment: "casper uses phantom.js for testing js in your web apps."
+
+  - title: "Why Haskell is worth learning"
+    url: http://spin.atomicobject.com/2013/03/05/why-haskell/
+    pubdate: mar 5
+    comment: "it's always good to learn new things."
+
+  - title: Method signature
+    url: http://rubysource.com/method-signature-you-can-sink-your-teeth-into
+    pubdate: mar 7
+    comment: "a post listing all possible ways to pass arguments to methods."
+
+  - title: "Bundle secrets"
+    url: https://blog.engineyard.com/2013/bundler-hacking
+    pubdate: mar 7
+    comment: "review list of powers that bundle grants you."
+
+  - title: "Bug hunt in Eventmachine"
+    url: http://blog.nelhage.com/2013/03/tracking-an-eventmachine-leak/
+    pubdate: mar 7
+    comment: "a pretty detailed story about tracking a bug in C libraries"
+
+- title: Install
+  baseline: "A selection of gems or applications updated during past week."
+  links:
+
+  - title: Bloom
+    url: https://github.com/bloom-lang/bud
+    comment: "a disorderly distributed language based on ruby as a DSL named BUD"
+
+  - title: RTanque
+    url: https://github.com/awilliams/RTanque
+    comment: "a game for ruby programmers using Gosu"
+
+  - title: Mocha
+    url: https://github.com/freerange/mocha
+    comment: "for mocking and stubbing (a classic, recently updated)"
+
+  - title: Gitscape
+    url: https://github.com/eachscape/gitscape
+    comment: "helps with git workflow, but the code is more interesting to read than to run asis"
+
+  - title: Needy_debugger
+    url: https://github.com/markburns/needy_debugger
+    comment: is a fork of ruby-debug that was abandoned some time ago
+
+  - title: Capflow
+    url: https://github.com/theablefew/capflow
+    comment: is adapting capistrano to git flow
+
+  - title: Honor
+    url: https://github.com/jrmyward/honor
+    comment: gamifies rails apps
+
+
+- title: Fun
+  links:
+
+  - title: Flat Design Conference
+    url: https://news.layervault.com/stories/1931-announcing-the-flat-design-conference
+    comment: "the Flat new movement"

@@ -1,0 +1,127 @@
+---
+edition: "006"
+pubdate: "mar 17th 2013"
+edito:
+  "We got a new space online for our newsletter, have a look at http://greenruby.org. A more collaborative website is in preparation and this simple page will evolve very soon"
+
+topics:
+
+- title: Listen
+  baseline: What could be heard last week ..
+  links:
+
+  - title: "Ruby5 352"
+    url: http://ruby5.envylabs.com/episodes/356-episode-352-march-12th-2013
+    pubdate: mar 12
+    comment: "rails 4, sourcemap, yard tomdoc, signed gems, css-splitter, webp-ffi."
+
+  - title: "Ruby5 353"
+    url: http://ruby5.envylabs.com/episodes/357-episode-353-march-15th-2013
+    pubdate: mar 15
+    comment: "strong password, siteprism, rubygems, memory leaks, tracking leaks, glimpse."
+
+  - title: "Giant Robots 39"
+    url: http://learn.thoughtbot.com/podcast/39
+    pubdate: mar 11
+    comment: "discussion with Avdi Grimm, about ruby tapas, parley, and ruby patterns."
+
+  - title: "RubyRogues 096"
+    url: http://rubyrogues.com/096-rr-topaz-with-alex-gaynor/
+    pubdate: mar 13
+    comment: "with Alex Gaylor about topaz, ruby on a python VM."
+
+  - title: Javascript Jabber 051
+    url: http://javascriptjabber.com/051-jsj-finding-a-job/
+    pubdate: mar 15
+    comment: "on finding a job, some general discussion about employment situation in the US. Skip this one if you look for any technical content."
+
+- title: Watch
+  baseline: "Screencasts and conferences videos, or other video feeds ..."
+  links:
+
+  - title: "Active model serializer"
+    url: http://railscasts.com/episodes/409-active-model-serializers
+    pubdate: mar 9
+    comment: "(free) about storing serialized objects in db."
+
+  - title: "faster images on chrome with webp"
+    url: http://www.igvita.com/2013/03/07/faster-smaller-and-more-beautiful-web-with-webp
+    pubdate: mar 7
+    comment: "some explanation about that special google project."
+
+  - title: Unfactoring 
+    url: http://vimeo.com/groups/waza2013/videos/61059531
+    pubdate: mar 9
+    comment: "tenderlove speaks at Waza, lot of fun, plus good metaprogramming bits."
+
+- title: Read
+  baseline: "From the blogosphere or news feeds ..."
+  links:
+
+  - title: "Websockets on rails 4 and ruby 2"
+    url: http://www.pogoapp.com/blog/posts/websockets-on-rails-4-and-ruby-2
+    pubdate: mar 11
+    comment: "an example of use of the websocket-rails gem."
+
+  - title: "Ruby 2.0.0 in detail"
+    url: http://globaldev.co.uk/2013/03/ruby-2-0-0-in-detail/
+    pubdate: mar 12
+    comment: "when it says in details, it's really all very small details."
+
+  - title: "Javascript under control"
+    url: http://rubysource.com/getting-your-javascript-under-control
+    pubdate: mar 14
+    comment: "some pointers on how to handle testing with jasmine on backbone with rails."
+
+  - title: Ruby VCR to javascript
+    url: http://swizec.com/blog/bring-ruby-vcr-to-javascript-testing-with-capybara-and-puffing-billy
+    pubdate: mar 14
+    comment: "adaptation of the VCR testing setup to javascript using capybara and puffing-billy."
+
+  - title: "What's new in Sinatra 1.4 "
+    url: http://rkh.im/sinatra-1.4
+    pubdate: mar 9
+    comment: "a review of the new features of this lightweight web framework in ruby."
+
+  - title: "Differences between 'and' and '&&' "
+    url: http://blog.tinfoilsecurity.com/ruby-demystified-and-vs
+    pubdate: mar 8
+    comment: "some decent explanation about those apparently identical operators in ruby"
+
+  - title: Community index march 2013 
+    url: http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html
+    pubdate: mar 12
+    comment: "Ruby surpasses Perl in the TIOBE index."
+
+  - title: interwindow messaging with localStorage
+    url: http://bens.me.uk/2013/localstorage-inter-window-messaging
+    pubdate: mar 9
+    comment: "small trick with the browser."
+
+- title: Install
+  baseline: "A selection of gems or applications updated during past week."
+  links:
+
+  - title: Identity Cache
+    url: https://github.com/Shopify/identity_cache
+    comment: "adds memcached to activerecord models"
+
+  - title: Ajaxify Rails
+    url: https://github.com/ncri/ajaxify_rails
+    comment: "background loading of content via ajax"
+
+  - title: Complexity report
+    url: https://npmjs.org/package/complexity-report
+    comment: "for evaluating javascript code complexity"
+
+  - title: Jenkins api client
+    url: https://github.com/arangamani/jenkins_api_client
+    comment: "for interacting with your CI from any ruby app"
+
+  - title: i18n tools
+    url: https://github.com/tkadauke/i18n_tools
+    comment: for extracting missing and unused translations in rails
+
+  - title: Rapid hash
+    url: http://rapidashgem.com/
+    comment: for building quickly API clients

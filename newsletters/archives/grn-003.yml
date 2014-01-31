@@ -1,0 +1,101 @@
+---
+edition: "003"
+pubdate: "feb 23th 2013"
+edito:
+  "On February 24th, Ruby languages celebrates its 20 years birthday. Woohoo! Have a drink in honor to Matz. Here are some links of ruby/webdev content that appeared last week."
+
+topics:
+
+- title: Listen
+  baseline: What could be heard last week ..
+  links:
+
+  - title: "Giant Robots 36"
+    url: http://learn.thoughtbot.com/podcast/36
+    pubdate: feb 18
+    comment: "discussion with Nick Quaranto (@qrush), about 37signals, rubymotion, rubygems.org, etc."
+
+  - title: "Ruby5 346"
+    url: http://ruby5.envylabs.com/episodes/350-episode-346-february-19-2013
+    pubdate: feb 19
+    comment: "SSL in dev env, Discourse, Routing Concerns, MoSQL, Capistrano tricks, FFI."
+
+  - title: "Ruby5 347"
+    url: http://ruby5.envylabs.com/episodes/351-episode-347-february-22-2013
+    pubdate: feb 22
+    comment: "SQL injection, session cookies, typeahead, responsiveness, Incoming, git rebase."
+
+  - title: "RubyRogues 093"
+    url: http://rubyrogues.com/093-rr-security-exploits-with-patrick-mckenzie/
+    pubdate: feb 20
+    comment: "security exploits, rubygems incident, tips about security."
+
+- title: Watch
+  baseline: "Screencasts and conferences videos, or other video feeds ..."
+  links:
+
+  - title: "Blocks, Procs, and Lambdas"
+    url: http://devblog.avdi.org/2013/02/18/rubytapas-freebie-blocks-procs-lambdas/
+    pubdate: feb 18
+    comment: "a freebie from Ruby Tapas"
+
+- title: Read
+  baseline: "From the blogosphere or news feeds ..."
+  links:
+
+  - title: "Rails security cheatsheet"
+    url: https://www.owasp.org/index.php/Ruby_on_Rails_Cheatsheet
+    pubdate: feb 14
+    comment: "details about security in rails, can help to understand the recent issues."
+
+  - title: "Rails Hosting choices"
+    url: http://blog.sudobits.com/2013/02/15/heroku-alternatives-for-deploying-rails-applications/
+    pubdate: feb 15
+    comment: "a quick review of 5 alternatives for Heroku."
+
+  - title: "Capistrano tricks"
+    url: http://benediktdeicke.com/2013/02/what-you-did-not-know-about-capistrano-yet/
+    pubdate: feb 14
+    comment: "a collection of tips and tricks about capistrano."
+
+  - title: Testing email templates in Rails
+    url: http://spin.atomicobject.com/2013/02/20/test-rails-email-templates/
+    pubdate: feb 20
+    comment: "an approach about testing emails."
+
+  - title: "Crome extensions for dev"
+    url: http://mashable.com/2013/02/19/chrome-extensions-developers/
+    pubdate: feb 19
+    comment: "10 useful extensions, you probably use most of them already."
+
+  - title: "Ruby Lego Arduino Robot"
+    url: http://rubysource.com/ruby-arduino-lego-rubot/
+    pubdate: feb 21
+    comment: "just for fun, RuBot is a change from web applications."
+
+- title: Install
+  baseline: "A selection of gems or applications updated during past week."
+  links:
+
+  - title: Twitter typeahead
+    url: https://github.com/yourabi/twitter-typeahead-rails
+    comment: "is just released, a new thing for your asset pipeline"
+
+  - title: Countries
+    url: https://github.com/hexorx/countries
+    comment: "just handles countries list with formats, currencies, etc"
+
+  - title: Git Stats
+    url: https://github.com/tomgi/git_stats
+    comment: "produces nice static html stats for git repos"
+
+  - title: Cache counts
+    url: https://github.com/desktoppr/cached_counts
+    comment: "for caching counts from activerecords"
+
+- title: Fun
+  links:
+
+  - title: Prove your rubyrails skills
+    url: http://www.metabright.com/challenges/rubyonrails
+    comment: "on Metabright, also on ruby, rubygems, heroku, and other topics"
