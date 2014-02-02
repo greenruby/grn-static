@@ -1,0 +1,244 @@
+----------------------------------------------------
+Green Ruby News #052 - feb 2nd 2014
+----------------------------------------------------
+
+Edito
+----------------------------------------------------
+This is the one-year last edition. For the occasion I revived the publications 001 to 012 from my archives. They are now available on the website. I was sortof surprised that some links are still very valuable. And if all goes well the new website will be ready next week.
+
+mose - the green ruby editor
+xenor - the informer
+http://greenruby.org
+
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+* Built with chrome
+  http://www.buildwithchrome.com/
+  A world remade with lego.
+
+* Vote for the Net awards
+  https://thenetawards.com/
+  Vote closing in 50 days.
+
+* Oimo
+  http://www.chromeexperiments.com/detail/oimojs/
+  A 3D physics engine in js, demo is very fast.
+
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+* Layervault
+  design
+  https://layervault.com/
+  Like github, but for designers.
+
+* Vim Weekly
+  tool
+  http://www.vimweekly.com/
+  A new weekly newsletter delivering vim tips.
+
+* You might not need jQuery
+  js
+  http://youmightnotneedjquery.com/
+  List of pure js alternatives to jquery snippets.
+
+* Practicing Ruby
+  rb
+  https://practicingruby.com/
+  This publication just open sourced its archives.
+
+* tlk.io
+  tool
+  http://tlk.io/
+  A simple and free webchat.
+
+* Vizify
+  tool
+  https://www.vizify.com/
+  Build a public personal resume.
+
+* LearnGitBranching
+  tool
+  http://pcottle.github.io/learnGitBranching/
+  An interactive tutorial to learn more about git branching.
+
+* Great Code Club
+  tool
+  http://www.greatcodeclub.com/
+  A private developers community with monthly projects.
+
+* Javascript OO
+  js
+  http://www.javascriptoo.com/
+  A repository of various JS libs.
+
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+* Coffeescript 1.7.1
+  js
+  http://coffeescript.org/#changelog
+  Released on jan 28, here is what changed.
+
+* fit.js
+  js
+  http://soulwire.github.io/fit.js/
+  To male things fit into other things.
+
+* Scroll Reveal
+  js
+  http://julianlloyd.me/scrollreveal/
+  Declarative on-scroll reveal animations.
+
+* Sparkr
+  rb
+  http://trivelop.de/sparkr/
+  Lets you create ASCII sparklines for your Ruby CLIs ▁▂▃▅▇
+
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+* Culling ActiveRecord Callbacks
+  rb - jan 27
+  http://adequate.io/culling-the-activerecord-lifecycle
+  Save future you some time and effort and use a Service Object instead.
+
+* 10 Things We Forgot to Monitor
+  ops - jan 29
+  http://word.bitly.com/post/74839060954/ten-things-to-monitor
+  A small list of things the monitor at bitly after feeling the pain of missing them.
+
+* Ruby 2.1: Out-of-Band GC
+  rb - jan 29
+  http://tmm1.net/ruby21-oobgc/
+  A patch to make Ruby 2.1's great garbage collection greater.
+
+* Docker, Jenkins, Ruby on Rails
+  rb - jan 29
+  http://www.powpark.com/blog/programming/2014/01/29/integrating-docker-with-jenkins-for-ruby-on-rails-app
+  A recipe for continuous deployment.
+
+* Bootstrap 3.1
+  css3 - jan 30
+  http://blog.getbootstrap.com/2014/01/30/bootstrap-3-1-0-released/
+  Details of features in that new release (official SASS suport, finaly!).
+
+* Sass: Mixin or Placeholder?
+  css3 - jan 30
+  http://www.sitepoint.com/sass-mixin-placeholder/
+  Understand the difference between including a mixin and extending a placeholder.
+
+* Elasticsearch: Indexing SQL databases. The easy way.
+  tool - jan 30
+  http://blog.comperiosearch.com/blog/2014/01/30/elasticsearch-indexing-sql-databases-the-easy-way/
+  How to get contents from a SQL database into Elasticsearch with rivers.
+
+* Passenger now supports the new Ruby 2.1 Out-Of-Band GC
+  rb - jan 31
+  http://blog.phusion.nl/2014/01/31/phusion-passenger-now-supports-the-new-ruby-2-1-out-of-band-gc/
+  It's optional and tricky to enable, but graphs seem to prove it deserves the effort.
+
+* What are you doing for Open Data Day 2014?
+  web - jan 31
+  http://opensource.com/government/14/1/open-data-day-2014
+  Feb 22 is the open data day. Here is how you can join in.
+
+* Replacing Google Image Charts with D3.js
+  js - jan 31
+  http://softwarewalker.com/2014/01/31/replacing-google-image-charts-with-d3-js/
+  Example code for making your own charts and evade one more google addiction.
+
+* Onboarding developers to your Rails app sucks
+  rb - jan 31
+  http://felixclack.com/post/75161411572/onboarding-developers-to-your-rails-app-sucks
+  Some tricks about how to make onboarding easier.
+
+* Evolution of Cookbook Development
+  ops - feb 1
+  http://jtimberman.housepub.org/blog/2014/02/01/evolution-of-cookbook-development/
+  Summarises a bunch of the current best practices for writing Chef cookbooks.
+
+
+Watch
+----------------------------------------------------
+Screencasts and conferences videos, or other video feeds ...
+
+* A 6 Minute Guide to Keyword Arguments in Ruby 2.0
+  rb - jan 27 - 7m
+  http://www.youtube.com/watch?v=u8Q6Of_mScI
+  Short video from cooperpress.
+
+* DOFD Episode 12: Mina for Deployment Part 1
+  ops - jan 28 - 12m
+  http://www.youtube.com/watch?v=W2Lt1Hjz2vw
+  Mina the alternative to Capistrano, not a java http server.
+
+* Garden City Ruby 2014
+  rb - jan 29 - 17 presentations
+  http://www.confreaks.com/events/gardencityruby
+  Whole collection of Garden City Rubyconf from early in january.
+
+
+Listen
+----------------------------------------------------
+What could be heard last week ..
+
+* NodeUp 59
+  js - jan 28 - 1h24
+  http://nodeup.com/fiftynine
+  About Node new project lead.
+
+* Ruby5 435
+  rb - jan 28 - 5m
+  http://ruby5.envylabs.com/episodes/471-episode-435-january-28-2014
+  Lite config, Thor, Rubygems tips, Mina, Vim weekly.
+
+* Ruby Rogues 141
+  rb - jan 29 - 1h40
+  http://rubyrogues.com/141-rr-teaching-kids-with-ron-evans/
+  Teaching Kids with Ron Evans.
+
+* Arrested Devops 5
+  ops - jan 29 - 51m
+  http://www.arresteddevops.com/2014/01/29/continuous-integration/
+  Continuous Integration – CI Told You So!
+
+* Ruby5 436
+  rb - jan 31 - 5m
+  http://ruby5.envylabs.com/episodes/472-episode-436-january-31st-2014
+  Elixir fountain, Argus, STI+Hstore, Rails validators, Sparkr, Handcooler.
+
+* Javascript Jabber 094
+  js - jan 31 - 43m
+  http://javascriptjabber.com/094-jsj-bonsaijs-with-tobi-reiss/
+  BonsaiJS with Tobi Reiss.
+
+
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a 
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+
