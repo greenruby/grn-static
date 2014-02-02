@@ -104,7 +104,8 @@ module Greeby
         maker.channel.title = "Green Ruby"
         
         letters = JSON.parse(File.read(File.join(@static_path, 'editions.json')))
-        letters.each do |letter,c|
+        tenletters = Hash[letters.to_a.reverse[0..9]]
+        tenletters.each do |letter,c|
           maker.items.new_item do |item|
             item.link = "http://greenruby.org/#{c['link']}"
             item.title = "Green Ruby News ##{letter}"
