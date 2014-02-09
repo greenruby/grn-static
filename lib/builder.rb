@@ -21,7 +21,7 @@ module Greeby
       @root = File.expand_path('../../', __FILE__)
       @news_path = File.join(@root, 'newsletters')
       @views_path = File.join(@root, 'views')
-      @pages_path = File.join(@root, 'app', 'pages')
+      @pages_path = File.join(@root, 'pages')
       @static_path = File.join(@root, 'site')
     end
 
@@ -84,6 +84,7 @@ module Greeby
       template = File.read(File.join(@views_path, 'static.haml'))
       haml_engine = Haml::Engine.new(template)
       pages = Dir.glob(File.join(@pages_path, '*.md'))
+      puts @pages_path
       pages.each do |p|
         page = OpenStruct.new
         page.name = File.basename(p, '.md')
@@ -102,7 +103,7 @@ module Greeby
         maker.channel.updated = Time.now.to_s
         maker.channel.about = "http://greenruby.org/feed.rss"
         maker.channel.title = "Green Ruby"
-        
+
         letters = JSON.parse(File.read(File.join(@static_path, 'editions.json')))
         tenletters = Hash[letters.to_a.reverse[0..9]]
         tenletters.each do |letter,c|

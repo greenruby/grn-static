@@ -16,841 +16,855 @@
     <meta content='ruby rails, newsletter, webdev, js, javascript, geeks, podcasts, links.' name='keywords'>
     <meta content='width=device-width, minimum-scale=1.0, maximum-scale=1.0' name='viewport'>
     <link href='feed.rss' rel='alternate' title='Green Ruby' type='application/atom+xml'>
-    <link href='css/screen.css' rel='stylesheet'>
+    <link href='css/bootstrap.min.css' rel='stylesheet'>
+    <link href='css/bootstrap-theme.min.css' rel='stylesheet'>
+    <link href='css/grn2.css' rel='stylesheet'>
     <script src='js/vendor/modernizr-2.6.2-respond-1.1.0.min.js'></script>
   </head>
   <body>
     <!--[if lt IE 7]>
       <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
     <![endif]-->
-    <div id='container'>
-      <div id='wrapper'>
-        <div id='titlebar'>
-          <div id='logo'>
-            <img alt='Green Ruby' height='81' src='img/green-ruby-100.png' width='100'>
-          </div>
-          <h1 class='head'>
+    <div class='navbar navbar-fixed-top topnav'>
+      <div class='container'>
+        <div class='navbar-header'>
+          <button class='navbar-toggle' data-target='.navbar-collapse' data-toggle='collapse'>
+            <span class='sr-only'>Toggle navigation</span>
+            <span class='icon-bar'></span>
+            <span class='icon-bar'></span>
+            <span class='icon-bar'></span>
+          </button>
+          <a class='navbar-brand logoized' href='index.html'>
             Green Ruby News
-          </h1>
+          </a>
         </div>
-        <div class='cell'>
-          <div id='intro'>
-            This is a curated feed of fresh links of the week <br />
-            about ruby, javascript, webdev and devops. Watch out every sunday.
+        <div class='navbar-collapse collapse'>
+          <ul class='nav navbar-nav'>
+            <li>
+              <a href='index.html'>Home</a>
+            </li>
+            <li>
+              <a href='about.html'>About</a>
+            </li>
+            <li>
+              <a href='http://cdb.io/1mkiq9K'>Map</a>
+            </li>
+            <li>
+              <a href='https://github.com/greenruby/grn-static'>Source</a>
+            </li>
+            <li>
+              <a href='mailto:news@greenruby.org'>Contact</a>
+            </li>
+            <li>
+              <a href='http://twitter.com/greenrubist'>@greenrubist</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class='container'>
+      <div class='row'>
+        <div class='col-sm-3 col-md-2 leftbar'>
+          <h3>Archives</h3>
+          <ul class='nav nav-sidebar letters'></ul>
+        </div>
+        <div class='col-sm-5 col-md-7 main'>
+          <div id="templateContainer">
+          <div id="templateHeader">
+          <h1>#024 - jul 21th 2013</div>
           </div>
-          <div id='content'>
-            <div class='nav'>
-              <ul>
-                <li>
-                  <a href='index.html'>Home</a>
-                </li>
-                <li>
-                  <a href='about.html'>About</a>
-                </li>
-                <li>
-                  <a href='http://cdb.io/1mkiq9K'>Map of subscribers</a>
-                </li>
-              </ul>
-              <form action='http://codegreenit.us6.list-manage1.com/subscribe/post?u=f1b3b59d2383eeb07537f6440&amp;amp;id=7136c985cf' id='signup' method='post' target='_blank'>
-                <div class='label'>Weekly Newsletter</div>
-                <input class='email' name='EMAIL' placeholder='email address' type='email'>
-                <input class='button' name='subscribe' type='submit' value='Subscribe'>
-              </form>
-              <h4>
-                <a alt='rss' href='feed.rss' style='float:right;'>
-                  <img src='img/rss.png'>
-                </a>
-                Archives
-              </h4>
-              <ul class='letters'></ul>
-              <h4>More</h4>
-              <ul>
-                <li>
-                  <a href='https://github.com/greenruby/grn-static'>Source</a>
-                </li>
-                <li>
-                  <a href='mailto:news@greenruby.org'>Contact</a>
-                </li>
-                <li>
-                  <a href='http://twitter.com/greenrubist'>@greenrubist</a>
-                </li>
-              </ul>
-            </div>
-            <div class='column'>
-              <div id="templateContainer">
-              <div id="templateHeader">
-              <h1>#024 - jul 21th 2013</div>
-              </div>
-              <div id="templateBody">
-              <div>
-              	<div class="baseline">
-              	<h3>Edito</h3>
-              	There was a need for that new section 'Look' for a while. I always have links to interesting UI and never know where to put them.
-              <br>
-              <br>
-              <em>&nbsp; mose - the green ruby editor</em><br>
-              <em>&nbsp;
-              
-              	xenor - the informer
-              
-              </em><br>
-              &nbsp; <a href="http://greenruby.org" target="_self">http://greenruby.org</a>
-              <br>
-              </div>
-              
-              
-              <h2>Look</h2>
-              <div class="baseline">Examples of UI/UX, graphic performance, web design and flashy things.</div>
-              <table cellpadding="0" cellspacing="0" border="0" class="meat">
-              	
-              		<tr>
-              			<td>
-              				<a href="http://www.smashingmagazine.com/2013/07/11/innovative-navigation-designs/">Creative And Innovative Navigation Designs</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              					
-              						<img class="icon" src="ico/html5.png" height="18" width="18" align="right" alt="html5" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				A list of websites that get very creative about their navigation.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://davidwalsh.name/webgl-demos">9 Mind-Blowing WebGL Demos</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              					
-              						<img class="icon" src="ico/html5.png" height="18" width="18" align="right" alt="html5" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				Impressive implementations of 3D in browser.
-              			</td>
-              		</tr>
-              	
-              </table>
-              
-              <h2>Use</h2>
-              <div class="baseline">Web applications, resources and tools, available for making our life easier or funnier.</div>
-              <table cellpadding="0" cellspacing="0" border="0" class="meat">
-              	
-              		<tr>
-              			<td>
-              				<a href="http://responsivenavigation.net/">Responsive Navigation</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              					
-              						<img class="icon" src="ico/css3.png" height="18" width="18" align="right" alt="css3" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				Various approaches for handling navigation that scale for mobile.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://choosealicense.com/">Choose a licence</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              					
-              						<img class="icon" src="ico/tool.png" height="18" width="18" align="right" alt="tool" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				A microsite by github for explaining what are the different licences you can chose for your software.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://peter.sh/experiments/chromium-command-line-switches/">List of Chromium Command Line Switches</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              					
-              						<img class="icon" src="ico/tool.png" height="18" width="18" align="right" alt="tool" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				Pretty useful ways to launch chrome with various debug or behaviour options.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://devdocs.io/">Dev Docs</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              					
-              						<img class="icon" src="ico/tool.png" height="18" width="18" align="right" alt="tool" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				A compilation of documentation that make sense for web developers (brought by mozilla).
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://meettheipsums.com/">More lipsums</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              					
-              						<img class="icon" src="ico/tool.png" height="18" width="18" align="right" alt="tool" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				The classic latin Lorem Ipsum can be annoying. This site proposes a bunch of alternative fake texts.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://h5bp.github.io/Effeckt.css/dist/">Effeckt</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              					
-              						<img class="icon" src="ico/css3.png" height="18" width="18" align="right" alt="css3" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				Yet another collection of css effects but this one gathers many effects from various publishers.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://railsdiff.org/">Railsdiff</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              					
-              						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				Runs a real diff on rails source code from one version to another, a bit hardcore but useful.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://webtoolsweekly.com">Web Tools weekly</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              					
-              						<img class="icon" src="ico/tool.png" height="18" width="18" align="right" alt="tool" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				Fresh new weekly newsletter, for front-end devs and designers.
-              			</td>
-              		</tr>
-              	
-              </table>
-              
-              <h2>Install</h2>
-              <div class="baseline">A selection of gems or applications updated during past week.</div>
-              <table cellpadding="0" cellspacing="0" border="0" class="meat">
-              	
-              		<tr>
-              			<td>
-              				<a href="http://daux.io/">Daux.io</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              					
-              						<img class="icon" src="ico/tool.png" height="18" width="18" align="right" alt="tool" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				Another documentation generation tool for projects, based on grunt.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://blog.rubyrabbitmq.info/blog/2013/07/12/bunny-0-dot-9-0-final-is-released/">Bunny</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              					
-              						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				Shipping version 0.9 of this rabbitMQ client.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="https://github.com/danielsz/mmailer">MMailer</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              					
-              						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				A mail sender process for delaying mass mailing and staying under decent limits.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="https://github.com/nethacker/usagewatch">Usagewatch</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              					
-              						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				A cool small script for getting linux system usage statistics.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="https://github.com/thegrubbsian/tabs">Tabs</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              					
-              						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				A redis-backed metrics tracker for keeping tabs on pretty much anything.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="https://github.com/propublica/upton">Upton</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              					
-              						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				A framework for easy web-scraping.
-              			</td>
-              		</tr>
-              	
-              </table>
-              
-              <h2>Read</h2>
-              <div class="baseline">From the blogosphere or news feeds ...</div>
-              <table cellpadding="0" cellspacing="0" border="0" class="meat">
-              	
-              		<tr>
-              			<td>
-              				<a href="http://leopard.in.ua/2013/07/11/storing-trees-in-rdbms/">Storing tree structures in the RDBMS</a>
-              				
-              			</td>
-              			<td class="date">
-              				jul 11
-              				
-              					
-              						<img class="icon" src="ico/tool.png" height="18" width="18" align="right" alt="tool" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				Some toughts about data based on parent-child structure.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://robots.thoughtbot.com/post/55421584115/chat-example-app-using-server-sent-events">Chat Example App Using Server-Sent Events</a>
-              				
-              			</td>
-              			<td class="date">
-              				jul 14
-              				
-              					
-              						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				Small experiment to use the Eventsource js SSE object with goliath as a backend.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://rubysource.com/value-objects-explained-with-ruby/">Value Objects Explained with Ruby</a>
-              				
-              			</td>
-              			<td class="date">
-              				jul 15
-              				
-              					
-              						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				How to build value-objects in ruby.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://myronmars.to/n/dev-blog/2013/07/the-plan-for-rspec-3">The Plan for RSpec 3</a>
-              				
-              			</td>
-              			<td class="date">
-              				jul 15
-              				
-              					
-              						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				Details about the future of rspec.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://www.sitepoint.com/essential-audio-and-video-events-for-html5/">Essential Audio and Video Events for HTML5</a>
-              				
-              			</td>
-              			<td class="date">
-              				jul 16
-              				
-              					
-              						<img class="icon" src="ico/html5.png" height="18" width="18" align="right" alt="html5" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				Some tricks abotu using the progress event with audio and video html5 elements.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://blog.safaribooksonline.com/2013/07/16/javascript-powered-arduino-with-johnny-five/">JavaScript Powered Arduino with Johnny-Five</a>
-              				
-              			</td>
-              			<td class="date">
-              				jul 16
-              				
-              					
-              						<img class="icon" src="ico/js.png" height="18" width="18" align="right" alt="js" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				A nice howto for using Johnny-five on arduino, based on mode toolset.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://pragtob.wordpress.com/2013/07/17/shoes-4-a-progress-report/">Shoes 4 – a progress report</a>
-              				
-              			</td>
-              			<td class="date">
-              				jul 17
-              				
-              					
-              						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				Shoes reborn from its ashes.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://davidwalsh.name/future-sass">Looking Into the Future of Sass</a>
-              				
-              			</td>
-              			<td class="date">
-              				jul 17
-              				
-              					
-              						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				What is new in Sass v3.3 ? Well, a whole lot of things, all detailled in this post.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://rubysource.com/docker-for-rubyists/">Docker for Rubyists</a>
-              				
-              			</td>
-              			<td class="date">
-              				jul 18
-              				
-              					
-              						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				Docker is the new clever thing using linux containers for packaging an environment easily.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://www.mysqlperformanceblog.com/2013/07/15/crash-resistant-replication-how-to-avoid-mysql-replication-errors/">How to avoid MySQL replication errors</a>
-              				
-              			</td>
-              			<td class="date">
-              				jul 21
-              				
-              					
-              						<img class="icon" src="ico/tool.png" height="18" width="18" align="right" alt="tool" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				An interesting light on Percona server (a drop in mysql replacement) and mysql replication.
-              			</td>
-              		</tr>
-              	
-              </table>
-              
-              <h2>Watch</h2>
-              <div class="baseline">Screencasts and conferences videos, or other video feeds ...</div>
-              <table cellpadding="0" cellspacing="0" border="0" class="meat">
-              	
-              		<tr>
-              			<td>
-              				<a href="http://www.confreaks.com/events/goruco2013">GoRuCo 2013</a>
-              				<span class="duration">(14 videos)</span>
-              			</td>
-              			<td class="date">
-              				jul 8
-              				
-              					
-              						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				A bunch a very good talks at Goruco.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="https://developers.google.com/live/shows/836113307">Hello Polymer</a>
-              				<span class="duration">(35m)</span>
-              			</td>
-              			<td class="date">
-              				jul 16
-              				
-              					
-              						<img class="icon" src="ico/js.png" height="18" width="18" align="right" alt="js" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				Presentation by the chrome team about web-components and polymer.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="https://www.youtube.com/watch?v=ZrWUUcB-PR8">Ember.js Persistence Foundation</a>
-              				<span class="duration">(58m)</span>
-              			</td>
-              			<td class="date">
-              				jul 18
-              				
-              					
-              						<img class="icon" src="ico/js.png" height="18" width="18" align="right" alt="js" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				EPF is an alternative to ember-data, deserves a look (<a href='http://epf.io'>http://epf.io</a>).
-              			</td>
-              		</tr>
-              	
-              </table>
-              
-              <h2>Listen</h2>
-              <div class="baseline">What could be heard last week ..</div>
-              <table cellpadding="0" cellspacing="0" border="0" class="meat">
-              	
-              		<tr>
-              			<td>
-              				<a href="http://learn.thoughtbot.com/podcast/57">Giant robots 57</a>
-              				<span class="duration">(28m)</span>
-              			</td>
-              			<td class="date">
-              				jul 15
-              				
-              					
-              						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				Delayed gratification with Micheal Klett from Chargify.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://ruby5.envylabs.com/episodes/422-episode-386-july-16th-2013">Ruby5 386</a>
-              				<span class="duration">(5m)</span>
-              			</td>
-              			<td class="date">
-              				jul 16
-              				
-              					
-              						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				Pulsar, datamappify, Mmailer, Gutentag, Rspec3, destroyed_at, testing tuesdays.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://rubyrogues.com/114-rr-elixir-with-jose-valim/">RubyRogues 114</a>
-              				<span class="duration">(1h10)</span>
-              			</td>
-              			<td class="date">
-              				jul 17
-              				
-              					
-              						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				Elixir with José Valim.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://nodeup.com/fortyeight">NodeUp 48</a>
-              				<span class="duration">(55m)</span>
-              			</td>
-              			<td class="date">
-              				jul 18
-              				
-              					
-              						<img class="icon" src="ico/js.png" height="18" width="18" align="right" alt="js" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				About Node databases like levelDb and derived solutions.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://ruby5.envylabs.com/episodes/423-episode-387-july-19th-2013">Ruby5 387</a>
-              				<span class="duration">(6m)</span>
-              			</td>
-              			<td class="date">
-              				jul 19
-              				
-              					
-              						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				Faster heroku deploys, scaling heroku, Sass sourcemaps, prepend_view_path, unique indexes.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://javascriptjabber.com/067-jsj-testem-with-toby-ho/">Javascript Jabber 067</a>
-              				<span class="duration">(48m)</span>
-              			</td>
-              			<td class="date">
-              				jul 19
-              				
-              					
-              						<img class="icon" src="ico/js.png" height="18" width="18" align="right" alt="js" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				Testem with Togy Ho, and testing javascript in general.
-              			</td>
-              		</tr>
-              	
-              </table>
-              
-              </div>
-            </div>
+          <div id="templateBody">
+          <div>
+          	<div class="baseline">
+          	<h2>Edito</h2>
+          	There was a need for that new section 'Look' for a while. I always have links to interesting UI and never know where to put them.
+          <br>
+          <br>
+          <em>&nbsp; mose - the green ruby editor</em><br>
+          <em>&nbsp;
+          
+          	xenor - the informer
+          
+          </em><br>
+          &nbsp; <a href="http://greenruby.org" target="_self">http://greenruby.org</a>
+          <br>
           </div>
-          <div id='footer'>
-            <a class='contact' href='mailto:news@greenruby.org'>
-              contact
-            </a>
-            The Green Ruby Newsletter is published by <a href="http://mose.com">Mose</a>
-            <div class='copyright'>
-              Copyright &copy; 2013-2014 Mose
-              <a href='http://creativecommons.org/licenses/by-sa/3.0/' rel='license'>
-                <img alt='Creative Commons License' src='http://i.creativecommons.org/l/by-sa/3.0/80x15.png' style='border-width:0'>
-              </a>
-            </div>
+          
+          
+          <h3>Look</h3>
+          <div class="baseline">Examples of UI/UX, graphic performance, web design and flashy things.</div>
+          <table cellpadding="0" cellspacing="0" border="0" class="meat">
+          	
+          		<tr>
+          			<td>
+          				<a href="http://www.smashingmagazine.com/2013/07/11/innovative-navigation-designs/" class="linktitle">Creative And Innovative Navigation Designs</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          					
+          						<img class="icon" src="ico/html5.png" height="18" width="18" align="right" alt="html5" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				A list of websites that get very creative about their navigation.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://davidwalsh.name/webgl-demos" class="linktitle">9 Mind-Blowing WebGL Demos</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          					
+          						<img class="icon" src="ico/html5.png" height="18" width="18" align="right" alt="html5" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				Impressive implementations of 3D in browser.
+          			</td>
+          		</tr>
+          	
+          </table>
+          
+          <h3>Use</h3>
+          <div class="baseline">Web applications, resources and tools, available for making our life easier or funnier.</div>
+          <table cellpadding="0" cellspacing="0" border="0" class="meat">
+          	
+          		<tr>
+          			<td>
+          				<a href="http://responsivenavigation.net/" class="linktitle">Responsive Navigation</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          					
+          						<img class="icon" src="ico/css3.png" height="18" width="18" align="right" alt="css3" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				Various approaches for handling navigation that scale for mobile.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://choosealicense.com/" class="linktitle">Choose a licence</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          					
+          						<img class="icon" src="ico/tool.png" height="18" width="18" align="right" alt="tool" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				A microsite by github for explaining what are the different licences you can chose for your software.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://peter.sh/experiments/chromium-command-line-switches/" class="linktitle">List of Chromium Command Line Switches</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          					
+          						<img class="icon" src="ico/tool.png" height="18" width="18" align="right" alt="tool" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				Pretty useful ways to launch chrome with various debug or behaviour options.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://devdocs.io/" class="linktitle">Dev Docs</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          					
+          						<img class="icon" src="ico/tool.png" height="18" width="18" align="right" alt="tool" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				A compilation of documentation that make sense for web developers (brought by mozilla).
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://meettheipsums.com/" class="linktitle">More lipsums</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          					
+          						<img class="icon" src="ico/tool.png" height="18" width="18" align="right" alt="tool" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				The classic latin Lorem Ipsum can be annoying. This site proposes a bunch of alternative fake texts.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://h5bp.github.io/Effeckt.css/dist/" class="linktitle">Effeckt</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          					
+          						<img class="icon" src="ico/css3.png" height="18" width="18" align="right" alt="css3" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				Yet another collection of css effects but this one gathers many effects from various publishers.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://railsdiff.org/" class="linktitle">Railsdiff</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          					
+          						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				Runs a real diff on rails source code from one version to another, a bit hardcore but useful.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://webtoolsweekly.com" class="linktitle">Web Tools weekly</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          					
+          						<img class="icon" src="ico/tool.png" height="18" width="18" align="right" alt="tool" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				Fresh new weekly newsletter, for front-end devs and designers.
+          			</td>
+          		</tr>
+          	
+          </table>
+          
+          <h3>Install</h3>
+          <div class="baseline">A selection of gems or applications updated during past week.</div>
+          <table cellpadding="0" cellspacing="0" border="0" class="meat">
+          	
+          		<tr>
+          			<td>
+          				<a href="http://daux.io/" class="linktitle">Daux.io</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          					
+          						<img class="icon" src="ico/tool.png" height="18" width="18" align="right" alt="tool" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				Another documentation generation tool for projects, based on grunt.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://blog.rubyrabbitmq.info/blog/2013/07/12/bunny-0-dot-9-0-final-is-released/" class="linktitle">Bunny</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          					
+          						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				Shipping version 0.9 of this rabbitMQ client.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="https://github.com/danielsz/mmailer" class="linktitle">MMailer</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          					
+          						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				A mail sender process for delaying mass mailing and staying under decent limits.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="https://github.com/nethacker/usagewatch" class="linktitle">Usagewatch</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          					
+          						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				A cool small script for getting linux system usage statistics.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="https://github.com/thegrubbsian/tabs" class="linktitle">Tabs</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          					
+          						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				A redis-backed metrics tracker for keeping tabs on pretty much anything.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="https://github.com/propublica/upton" class="linktitle">Upton</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          					
+          						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				A framework for easy web-scraping.
+          			</td>
+          		</tr>
+          	
+          </table>
+          
+          <h3>Read</h3>
+          <div class="baseline">From the blogosphere or news feeds ...</div>
+          <table cellpadding="0" cellspacing="0" border="0" class="meat">
+          	
+          		<tr>
+          			<td>
+          				<a href="http://leopard.in.ua/2013/07/11/storing-trees-in-rdbms/" class="linktitle">Storing tree structures in the RDBMS</a>
+          				
+          			</td>
+          			<td class="date">
+          				jul 11
+          				
+          					
+          						<img class="icon" src="ico/tool.png" height="18" width="18" align="right" alt="tool" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				Some toughts about data based on parent-child structure.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://robots.thoughtbot.com/post/55421584115/chat-example-app-using-server-sent-events" class="linktitle">Chat Example App Using Server-Sent Events</a>
+          				
+          			</td>
+          			<td class="date">
+          				jul 14
+          				
+          					
+          						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				Small experiment to use the Eventsource js SSE object with goliath as a backend.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://rubysource.com/value-objects-explained-with-ruby/" class="linktitle">Value Objects Explained with Ruby</a>
+          				
+          			</td>
+          			<td class="date">
+          				jul 15
+          				
+          					
+          						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				How to build value-objects in ruby.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://myronmars.to/n/dev-blog/2013/07/the-plan-for-rspec-3" class="linktitle">The Plan for RSpec 3</a>
+          				
+          			</td>
+          			<td class="date">
+          				jul 15
+          				
+          					
+          						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				Details about the future of rspec.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://www.sitepoint.com/essential-audio-and-video-events-for-html5/" class="linktitle">Essential Audio and Video Events for HTML5</a>
+          				
+          			</td>
+          			<td class="date">
+          				jul 16
+          				
+          					
+          						<img class="icon" src="ico/html5.png" height="18" width="18" align="right" alt="html5" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				Some tricks abotu using the progress event with audio and video html5 elements.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://blog.safaribooksonline.com/2013/07/16/javascript-powered-arduino-with-johnny-five/" class="linktitle">JavaScript Powered Arduino with Johnny-Five</a>
+          				
+          			</td>
+          			<td class="date">
+          				jul 16
+          				
+          					
+          						<img class="icon" src="ico/js.png" height="18" width="18" align="right" alt="js" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				A nice howto for using Johnny-five on arduino, based on mode toolset.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://pragtob.wordpress.com/2013/07/17/shoes-4-a-progress-report/" class="linktitle">Shoes 4 – a progress report</a>
+          				
+          			</td>
+          			<td class="date">
+          				jul 17
+          				
+          					
+          						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				Shoes reborn from its ashes.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://davidwalsh.name/future-sass" class="linktitle">Looking Into the Future of Sass</a>
+          				
+          			</td>
+          			<td class="date">
+          				jul 17
+          				
+          					
+          						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				What is new in Sass v3.3 ? Well, a whole lot of things, all detailled in this post.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://rubysource.com/docker-for-rubyists/" class="linktitle">Docker for Rubyists</a>
+          				
+          			</td>
+          			<td class="date">
+          				jul 18
+          				
+          					
+          						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				Docker is the new clever thing using linux containers for packaging an environment easily.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://www.mysqlperformanceblog.com/2013/07/15/crash-resistant-replication-how-to-avoid-mysql-replication-errors/" class="linktitle">How to avoid MySQL replication errors</a>
+          				
+          			</td>
+          			<td class="date">
+          				jul 21
+          				
+          					
+          						<img class="icon" src="ico/tool.png" height="18" width="18" align="right" alt="tool" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				An interesting light on Percona server (a drop in mysql replacement) and mysql replication.
+          			</td>
+          		</tr>
+          	
+          </table>
+          
+          <h3>Watch</h3>
+          <div class="baseline">Screencasts and conferences videos, or other video feeds ...</div>
+          <table cellpadding="0" cellspacing="0" border="0" class="meat">
+          	
+          		<tr>
+          			<td>
+          				<a href="http://www.confreaks.com/events/goruco2013" class="linktitle">GoRuCo 2013</a>
+          				<span class="duration">(14 videos)</span>
+          			</td>
+          			<td class="date">
+          				jul 8
+          				
+          					
+          						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				A bunch a very good talks at Goruco.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="https://developers.google.com/live/shows/836113307" class="linktitle">Hello Polymer</a>
+          				<span class="duration">(35m)</span>
+          			</td>
+          			<td class="date">
+          				jul 16
+          				
+          					
+          						<img class="icon" src="ico/js.png" height="18" width="18" align="right" alt="js" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				Presentation by the chrome team about web-components and polymer.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="https://www.youtube.com/watch?v=ZrWUUcB-PR8" class="linktitle">Ember.js Persistence Foundation</a>
+          				<span class="duration">(58m)</span>
+          			</td>
+          			<td class="date">
+          				jul 18
+          				
+          					
+          						<img class="icon" src="ico/js.png" height="18" width="18" align="right" alt="js" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				EPF is an alternative to ember-data, deserves a look (<a href='http://epf.io'>http://epf.io</a>).
+          			</td>
+          		</tr>
+          	
+          </table>
+          
+          <h3>Listen</h3>
+          <div class="baseline">What could be heard last week ..</div>
+          <table cellpadding="0" cellspacing="0" border="0" class="meat">
+          	
+          		<tr>
+          			<td>
+          				<a href="http://learn.thoughtbot.com/podcast/57" class="linktitle">Giant robots 57</a>
+          				<span class="duration">(28m)</span>
+          			</td>
+          			<td class="date">
+          				jul 15
+          				
+          					
+          						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				Delayed gratification with Micheal Klett from Chargify.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://ruby5.envylabs.com/episodes/422-episode-386-july-16th-2013" class="linktitle">Ruby5 386</a>
+          				<span class="duration">(5m)</span>
+          			</td>
+          			<td class="date">
+          				jul 16
+          				
+          					
+          						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				Pulsar, datamappify, Mmailer, Gutentag, Rspec3, destroyed_at, testing tuesdays.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://rubyrogues.com/114-rr-elixir-with-jose-valim/" class="linktitle">RubyRogues 114</a>
+          				<span class="duration">(1h10)</span>
+          			</td>
+          			<td class="date">
+          				jul 17
+          				
+          					
+          						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				Elixir with José Valim.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://nodeup.com/fortyeight" class="linktitle">NodeUp 48</a>
+          				<span class="duration">(55m)</span>
+          			</td>
+          			<td class="date">
+          				jul 18
+          				
+          					
+          						<img class="icon" src="ico/js.png" height="18" width="18" align="right" alt="js" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				About Node databases like levelDb and derived solutions.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://ruby5.envylabs.com/episodes/423-episode-387-july-19th-2013" class="linktitle">Ruby5 387</a>
+          				<span class="duration">(6m)</span>
+          			</td>
+          			<td class="date">
+          				jul 19
+          				
+          					
+          						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				Faster heroku deploys, scaling heroku, Sass sourcemaps, prepend_view_path, unique indexes.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://javascriptjabber.com/067-jsj-testem-with-toby-ho/" class="linktitle">Javascript Jabber 067</a>
+          				<span class="duration">(48m)</span>
+          			</td>
+          			<td class="date">
+          				jul 19
+          				
+          					
+          						<img class="icon" src="ico/js.png" height="18" width="18" align="right" alt="js" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				Testem with Togy Ho, and testing javascript in general.
+          			</td>
+          		</tr>
+          	
+          </table>
+          
+          </div>
           </div>
         </div>
+        <div class='col-sm-4 col-md-3 rightbar'>
+          <blockquote>
+            <p>Green Ruby News is a feed of fresh links of the week about ruby, javascript, webdev, devops, collected by mose every sunday.</p>
+            <p></p>
+            <form action='http://codegreenit.us6.list-manage1.com/subscribe/post?u=f1b3b59d2383eeb07537f6440&amp;amp;id=7136c985cf'>
+              <div class='text-center'>
+                <b>Subscribe</b>
+              </div>
+              <div class='text-center'>
+                to the
+              </div>
+              <div class='text-center'>
+                <b>weekly newsletter</b>
+              </div>
+              <p></p>
+              <p>
+                <input class='form-control' name='EMAIL' placeholder='email address' type='email'>
+                <input class='form-control btn btn-primary' type='submit' value='Subscribe'>
+              </p>
+            </form>
+          </blockquote>
+          <small class='text-center'>Email distribution is powered by mailchimp.</small>
+        </div>
+      </div>
+    </div>
+    <div id='footer'>
+      <a class='contact' href='mailto:news@greenruby.org'>
+        contact
+      </a>
+      The Green Ruby Newsletter is published by <a href="http://mose.com">Mose</a>
+      <div class='copyright'>
+        Copyright &copy; 2013-2014 Mose
+        <a href='http://creativecommons.org/licenses/by-sa/3.0/' rel='license'>
+          <img alt='Creative Commons License' src='http://i.creativecommons.org/l/by-sa/3.0/80x15.png' style='border-width:0'>
+        </a>
       </div>
     </div>
     <script src='//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script>

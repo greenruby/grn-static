@@ -16,845 +16,859 @@
     <meta content='ruby rails, newsletter, webdev, js, javascript, geeks, podcasts, links.' name='keywords'>
     <meta content='width=device-width, minimum-scale=1.0, maximum-scale=1.0' name='viewport'>
     <link href='feed.rss' rel='alternate' title='Green Ruby' type='application/atom+xml'>
-    <link href='css/screen.css' rel='stylesheet'>
+    <link href='css/bootstrap.min.css' rel='stylesheet'>
+    <link href='css/bootstrap-theme.min.css' rel='stylesheet'>
+    <link href='css/grn2.css' rel='stylesheet'>
     <script src='js/vendor/modernizr-2.6.2-respond-1.1.0.min.js'></script>
   </head>
   <body>
     <!--[if lt IE 7]>
       <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
     <![endif]-->
-    <div id='container'>
-      <div id='wrapper'>
-        <div id='titlebar'>
-          <div id='logo'>
-            <img alt='Green Ruby' height='81' src='img/green-ruby-100.png' width='100'>
-          </div>
-          <h1 class='head'>
+    <div class='navbar navbar-fixed-top topnav'>
+      <div class='container'>
+        <div class='navbar-header'>
+          <button class='navbar-toggle' data-target='.navbar-collapse' data-toggle='collapse'>
+            <span class='sr-only'>Toggle navigation</span>
+            <span class='icon-bar'></span>
+            <span class='icon-bar'></span>
+            <span class='icon-bar'></span>
+          </button>
+          <a class='navbar-brand logoized' href='index.html'>
             Green Ruby News
-          </h1>
+          </a>
         </div>
-        <div class='cell'>
-          <div id='intro'>
-            This is a curated feed of fresh links of the week <br />
-            about ruby, javascript, webdev and devops. Watch out every sunday.
+        <div class='navbar-collapse collapse'>
+          <ul class='nav navbar-nav'>
+            <li>
+              <a href='index.html'>Home</a>
+            </li>
+            <li>
+              <a href='about.html'>About</a>
+            </li>
+            <li>
+              <a href='http://cdb.io/1mkiq9K'>Map</a>
+            </li>
+            <li>
+              <a href='https://github.com/greenruby/grn-static'>Source</a>
+            </li>
+            <li>
+              <a href='mailto:news@greenruby.org'>Contact</a>
+            </li>
+            <li>
+              <a href='http://twitter.com/greenrubist'>@greenrubist</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class='container'>
+      <div class='row'>
+        <div class='col-sm-3 col-md-2 leftbar'>
+          <h3>Archives</h3>
+          <ul class='nav nav-sidebar letters'></ul>
+        </div>
+        <div class='col-sm-5 col-md-7 main'>
+          <div id="templateContainer">
+          <div id="templateHeader">
+          <h1>#045 - dec 15th 2013</div>
           </div>
-          <div id='content'>
-            <div class='nav'>
-              <ul>
-                <li>
-                  <a href='index.html'>Home</a>
-                </li>
-                <li>
-                  <a href='about.html'>About</a>
-                </li>
-                <li>
-                  <a href='http://cdb.io/1mkiq9K'>Map of subscribers</a>
-                </li>
-              </ul>
-              <form action='http://codegreenit.us6.list-manage1.com/subscribe/post?u=f1b3b59d2383eeb07537f6440&amp;amp;id=7136c985cf' id='signup' method='post' target='_blank'>
-                <div class='label'>Weekly Newsletter</div>
-                <input class='email' name='EMAIL' placeholder='email address' type='email'>
-                <input class='button' name='subscribe' type='submit' value='Subscribe'>
-              </form>
-              <h4>
-                <a alt='rss' href='feed.rss' style='float:right;'>
-                  <img src='img/rss.png'>
-                </a>
-                Archives
-              </h4>
-              <ul class='letters'></ul>
-              <h4>More</h4>
-              <ul>
-                <li>
-                  <a href='https://github.com/greenruby/grn-static'>Source</a>
-                </li>
-                <li>
-                  <a href='mailto:news@greenruby.org'>Contact</a>
-                </li>
-                <li>
-                  <a href='http://twitter.com/greenrubist'>@greenrubist</a>
-                </li>
-              </ul>
-            </div>
-            <div class='column'>
-              <div id="templateContainer">
-              <div id="templateHeader">
-              <h1>#045 - dec 15th 2013</div>
-              </div>
-              <div id="templateBody">
-              <div>
-              	<div class="baseline">
-              	<h3>Edito</h3>
-              	The glass is neither half-full nor half-empty: it's just twice as big as it needs to be.<br> (just an unknown geek quote).
-              <br>
-              <br>
-              <em>&nbsp; mose - the green ruby editor</em><br>
-              <em>&nbsp;
-              
-              	xenor - the informer
-              
-              </em><br>
-              &nbsp; <a href="http://greenruby.org" target="_self">http://greenruby.org</a>
-              <br>
-              </div>
-              
-              
-              <h2>Look</h2>
-              <div class="baseline">Examples of UI/UX, graphic performance, web design and flashy things.</div>
-              <table cellpadding="0" cellspacing="0" border="0" class="meat">
-              	
-              		<tr>
-              			<td>
-              				<a href="http://www.acm.uiuc.edu/sigarch/projects/sensornode/">Depressed 404</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				Web server monologue on a 404 page.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://fixedagency.com/">Fixed digital agency</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				Nice scroll based creative presentation.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://www.theverge.com/a/the-verge-50">The verge 50</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				50 portraits of influencial people in 2013 (from an american pespective).
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://developer.android.com/reference/android/app/ActivityManager.html#isUserAMonkey()">isUserAMonkey</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				From the Android API, Returns true if the user interface is currently being messed with by a monkey..
-              			</td>
-              		</tr>
-              	
-              </table>
-              
-              <h2>Use</h2>
-              <div class="baseline">Web applications, resources and tools, available for making our life easier or funnier.</div>
-              <table cellpadding="0" cellspacing="0" border="0" class="meat">
-              	
-              		<tr>
-              			<td>
-              				<a href="http://publicapis.com/">Public APIs</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              					
-              						<img class="icon" src="ico/tool.png" height="18" width="18" align="right" alt="tool" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				Thousands of APIs and public cloud web services.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="https://weworkremotely.com/">We work remotely</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              					
-              						<img class="icon" src="ico/tool.png" height="18" width="18" align="right" alt="tool" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				A very active place for finding remote work or workers.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://prerender.io">Prerender</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              					
-              						<img class="icon" src="ico/js.png" height="18" width="18" align="right" alt="js" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				A service (with open source code) for prerendering js sites for SEO purposes.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://regex101.com/">Regex 101</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              					
-              						<img class="icon" src="ico/tool.png" height="18" width="18" align="right" alt="tool" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				An online regex tester for javascript, php, pcre and python.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="https://www.penflip.com">Penflip</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              					
-              						<img class="icon" src="ico/tool.png" height="18" width="18" align="right" alt="tool" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				A writing collaboration tool with version control, a little like hackpad but more github-oriented.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://o2js.com/an-all-in-one-guide-to-writing-efficient-javascript">O2 js style guide</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              					
-              						<img class="icon" src="ico/js.png" height="18" width="18" align="right" alt="js" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				The JS coding conventions used for o2.js, if you need one.
-              			</td>
-              		</tr>
-              	
-              </table>
-              
-              <h2>Install</h2>
-              <div class="baseline">A selection of gems or applications updated during past week.</div>
-              <table cellpadding="0" cellspacing="0" border="0" class="meat">
-              	
-              		<tr>
-              			<td>
-              				<a href="http://hub.github.com/">Hub</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              					
-              						<img class="icon" src="ico/tool.png" height="18" width="18" align="right" alt="tool" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				A command-line wrapper for git that makes you better at GitHub.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://www.rethinkdb.com/">RethinkDB</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              					
-              						<img class="icon" src="ico/tool.png" height="18" width="18" align="right" alt="tool" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				This is a neat alternative to mongoDB, a NoSQL database that can do joins, and comes with very neat admin web interface.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="https://github.com/shuky19/sublime_debugger">Sublime Debugger</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              					
-              						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				Interactive ruby debugger for sublimetext 3.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="https://bitbucket.org/jonforums/uru">Uru</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              					
-              						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				Multi-platform Ruby version manager.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="https://github.com/financeit/purgatory">Purgatory</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              					
-              						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				Save changes to an ActiveRecord model so that they can be applied at a later time.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="https://github.com/Sage/fudge">Fudge</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              					
-              						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				A tool for enforcing code coverage and documentation in continuous integration.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://3ofcoins.net/2013/12/11/we-released-chef-browser-today/">Chef browser</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              					
-              						<img class="icon" src="ico/ops.png" height="18" width="18" align="right" alt="ops" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				A sinatra web application for browsing chef data.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="https://github.com/jbail/lumberjack">Lumberjack</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              					
-              						<img class="icon" src="ico/tool.png" height="18" width="18" align="right" alt="tool" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				JavaScript utility that hijacks the browser console, makes it more beautiful.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://www.vagrantup.com/blog/vagrant-1-4.html">Vagrant 1.4</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              					
-              						<img class="icon" src="ico/ops.png" height="18" width="18" align="right" alt="ops" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				This new version includes a docker provisionner.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="https://github.com/macbre/phantomas">Phantomas</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              					
-              						<img class="icon" src="ico/tool.png" height="18" width="18" align="right" alt="tool" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				PhantomJS-based web performance metrics collector and monitoring tool.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://news.qooxdoo.org/qooxdoo-3-5-released">Qooxdoo</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              					
-              						<img class="icon" src="ico/js.png" height="18" width="18" align="right" alt="js" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				Component-based js framework.
-              			</td>
-              		</tr>
-              	
-              </table>
-              
-              <h2>Read</h2>
-              <div class="baseline">From the blogosphere or news feeds ...</div>
-              <table cellpadding="0" cellspacing="0" border="0" class="meat">
-              	
-              		<tr>
-              			<td>
-              				<a href="http://www.getchef.com/blog/2013/12/09/chef-the-company-formerly-known-as-opscode/">Chef: The Company Formerly Known as Opscode</a>
-              				
-              			</td>
-              			<td class="date">
-              				dec 9
-              				
-              					
-              						<img class="icon" src="ico/ops.png" height="18" width="18" align="right" alt="ops" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				Opscode raised funds, and renames itself to Chef (or actually GetChef).
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://www.html5rocks.com/en/tutorials/developertools/devtools-terminal/">Using Your Terminal From The DevTools</a>
-              				
-              			</td>
-              			<td class="date">
-              				dec 9
-              				
-              					
-              						<img class="icon" src="ico/tool.png" height="18" width="18" align="right" alt="tool" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				A new Chrome DevTools extension that brings the power of the terminal to your browser.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://24ways.org/2013/grunt-is-not-weird-and-hard/">Grunt for People Who Think Grunt is Hard</a>
-              				
-              			</td>
-              			<td class="date">
-              				dec 11
-              				
-              					
-              						<img class="icon" src="ico/js.png" height="18" width="18" align="right" alt="js" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				A newbies guide to Grunt.js by Chris Coyer.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://samsaffron.com/archive/2013/12/11/call-to-action-long-running-ruby-benchmark">Call to Action: Long running Ruby benchmark</a>
-              				
-              			</td>
-              			<td class="date">
-              				dec 11
-              				
-              					
-              						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				Sam Saffron calls to arm for establishing a ruby benchmarking platform.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="https://www.honeybadger.io/blog/2013/12/11/beginners-guide-to-angular-js-rails">Getting Started with AngularJS and Rails 4</a>
-              				
-              			</td>
-              			<td class="date">
-              				dec 11
-              				
-              					
-              						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				A step-by-step tutorial.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://blog.normation.com/en/2013/12/12/cfengine-vs-puppet-vs-chef-vs-ansible-vs-salt/">CFEngine vs. Puppet vs. Chef vs. Ansible vs. Salt</a>
-              				
-              			</td>
-              			<td class="date">
-              				dec 12
-              				
-              					
-              						<img class="icon" src="ico/ops.png" height="18" width="18" align="right" alt="ops" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				A small reminder about the grand-father of devops tools.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://www.sitepoint.com/go-rubyists/">Go for Rubyists</a>
-              				
-              			</td>
-              			<td class="date">
-              				dec 12
-              				
-              					
-              						<img class="icon" src="ico/go.png" height="18" width="18" align="right" alt="go" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				Quick introduction to Go.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://rubylove.io/ruby/core/2013/12/14/a-deeper-look-at-rubys-enumerable-1/">A Deeper Look at Ruby's Enumerable</a>
-              				
-              			</td>
-              			<td class="date">
-              				dec 14
-              				
-              					
-              						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				Learn how to iterate over collections in a lazy manner.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://www.neblit.com/blog/39-useful-gems-that-work-well-with-rails-4">Useful gems that work well with rails 4</a>
-              				
-              			</td>
-              			<td class="date">
-              				dec 15
-              				
-              					
-              						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				A list of verified Gems that play well with the new rails.
-              			</td>
-              		</tr>
-              	
-              </table>
-              
-              <h2>Watch</h2>
-              <div class="baseline">Screencasts and conferences videos, or other video feeds ...</div>
-              <table cellpadding="0" cellspacing="0" border="0" class="meat">
-              	
-              		<tr>
-              			<td>
-              				<a href="https://www.youtube.com/watch?v=pts6F00GFuU">Docker at Spotify</a>
-              				<span class="duration">(11m)</span>
-              			</td>
-              			<td class="date">
-              				dec 11
-              				
-              					
-              						<img class="icon" src="ico/ops.png" height="18" width="18" align="right" alt="ops" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				Quick presentation of how docker is used at spotify.
-              			</td>
-              		</tr>
-              	
-              </table>
-              
-              <h2>Listen</h2>
-              <div class="baseline">What could be heard last week ..</div>
-              <table cellpadding="0" cellspacing="0" border="0" class="meat">
-              	
-              		<tr>
-              			<td>
-              				<a href="http://podcasts.thoughtbot.com/giantrobots/78">Giant robots 78</a>
-              				<span class="duration">(28m)</span>
-              			</td>
-              			<td class="date">
-              				dec 9
-              				
-              					
-              						<img class="icon" src="ico/tool.png" height="18" width="18" align="right" alt="tool" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				Chris Lindland, CEO of Betabrand.com about online fashion, self-generating product and dress-pant-sweatpants.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://ruby5.envylabs.com/episodes/461-episode-425-december-10th-2013">Ruby5 425</a>
-              				<span class="duration">(6m)</span>
-              			</td>
-              			<td class="date">
-              				dec 10
-              				
-              					
-              						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				ActionParameter, purgatory, promise.rb, rails session, jruby 1.7.9.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://rubyrogues.com/135-rr-http-2-0-with-ilya-grigorik/">RubyRogues 135</a>
-              				<span class="duration">(1h09)</span>
-              			</td>
-              			<td class="date">
-              				dec 11
-              				
-              					
-              						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				HTTP 2.0 with Ilya Grigorik.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://ruby5.envylabs.com/episodes/462-episode-426-december-13th-2013">Ruby5 426</a>
-              				<span class="duration">(5m)</span>
-              			</td>
-              			<td class="date">
-              				dec 13
-              				
-              					
-              						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				Thoughtbot on SO, verifying doubles, stagehand, bundler, roar.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://javascriptjabber.com/087-jsj-tc39-with-alex-russell/">Javascript Jabber 087</a>
-              				<span class="duration">(1h)</span>
-              			</td>
-              			<td class="date">
-              				dec 13
-              				
-              					
-              						<img class="icon" src="ico/js.png" height="18" width="18" align="right" alt="js" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				TC39 (Ecmascript) with Alex Russell.
-              			</td>
-              		</tr>
-              	
-              </table>
-              
-              </div>
-            </div>
+          <div id="templateBody">
+          <div>
+          	<div class="baseline">
+          	<h2>Edito</h2>
+          	The glass is neither half-full nor half-empty: it's just twice as big as it needs to be.<br> (just an unknown geek quote).
+          <br>
+          <br>
+          <em>&nbsp; mose - the green ruby editor</em><br>
+          <em>&nbsp;
+          
+          	xenor - the informer
+          
+          </em><br>
+          &nbsp; <a href="http://greenruby.org" target="_self">http://greenruby.org</a>
+          <br>
           </div>
-          <div id='footer'>
-            <a class='contact' href='mailto:news@greenruby.org'>
-              contact
-            </a>
-            The Green Ruby Newsletter is published by <a href="http://mose.com">Mose</a>
-            <div class='copyright'>
-              Copyright &copy; 2013-2014 Mose
-              <a href='http://creativecommons.org/licenses/by-sa/3.0/' rel='license'>
-                <img alt='Creative Commons License' src='http://i.creativecommons.org/l/by-sa/3.0/80x15.png' style='border-width:0'>
-              </a>
-            </div>
+          
+          
+          <h3>Look</h3>
+          <div class="baseline">Examples of UI/UX, graphic performance, web design and flashy things.</div>
+          <table cellpadding="0" cellspacing="0" border="0" class="meat">
+          	
+          		<tr>
+          			<td>
+          				<a href="http://www.acm.uiuc.edu/sigarch/projects/sensornode/" class="linktitle">Depressed 404</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				Web server monologue on a 404 page.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://fixedagency.com/" class="linktitle">Fixed digital agency</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				Nice scroll based creative presentation.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://www.theverge.com/a/the-verge-50" class="linktitle">The verge 50</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				50 portraits of influencial people in 2013 (from an american pespective).
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://developer.android.com/reference/android/app/ActivityManager.html#isUserAMonkey()" class="linktitle">isUserAMonkey</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				From the Android API, Returns true if the user interface is currently being messed with by a monkey..
+          			</td>
+          		</tr>
+          	
+          </table>
+          
+          <h3>Use</h3>
+          <div class="baseline">Web applications, resources and tools, available for making our life easier or funnier.</div>
+          <table cellpadding="0" cellspacing="0" border="0" class="meat">
+          	
+          		<tr>
+          			<td>
+          				<a href="http://publicapis.com/" class="linktitle">Public APIs</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          					
+          						<img class="icon" src="ico/tool.png" height="18" width="18" align="right" alt="tool" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				Thousands of APIs and public cloud web services.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="https://weworkremotely.com/" class="linktitle">We work remotely</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          					
+          						<img class="icon" src="ico/tool.png" height="18" width="18" align="right" alt="tool" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				A very active place for finding remote work or workers.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://prerender.io" class="linktitle">Prerender</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          					
+          						<img class="icon" src="ico/js.png" height="18" width="18" align="right" alt="js" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				A service (with open source code) for prerendering js sites for SEO purposes.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://regex101.com/" class="linktitle">Regex 101</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          					
+          						<img class="icon" src="ico/tool.png" height="18" width="18" align="right" alt="tool" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				An online regex tester for javascript, php, pcre and python.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="https://www.penflip.com" class="linktitle">Penflip</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          					
+          						<img class="icon" src="ico/tool.png" height="18" width="18" align="right" alt="tool" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				A writing collaboration tool with version control, a little like hackpad but more github-oriented.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://o2js.com/an-all-in-one-guide-to-writing-efficient-javascript" class="linktitle">O2 js style guide</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          					
+          						<img class="icon" src="ico/js.png" height="18" width="18" align="right" alt="js" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				The JS coding conventions used for o2.js, if you need one.
+          			</td>
+          		</tr>
+          	
+          </table>
+          
+          <h3>Install</h3>
+          <div class="baseline">A selection of gems or applications updated during past week.</div>
+          <table cellpadding="0" cellspacing="0" border="0" class="meat">
+          	
+          		<tr>
+          			<td>
+          				<a href="http://hub.github.com/" class="linktitle">Hub</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          					
+          						<img class="icon" src="ico/tool.png" height="18" width="18" align="right" alt="tool" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				A command-line wrapper for git that makes you better at GitHub.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://www.rethinkdb.com/" class="linktitle">RethinkDB</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          					
+          						<img class="icon" src="ico/tool.png" height="18" width="18" align="right" alt="tool" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				This is a neat alternative to mongoDB, a NoSQL database that can do joins, and comes with very neat admin web interface.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="https://github.com/shuky19/sublime_debugger" class="linktitle">Sublime Debugger</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          					
+          						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				Interactive ruby debugger for sublimetext 3.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="https://bitbucket.org/jonforums/uru" class="linktitle">Uru</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          					
+          						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				Multi-platform Ruby version manager.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="https://github.com/financeit/purgatory" class="linktitle">Purgatory</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          					
+          						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				Save changes to an ActiveRecord model so that they can be applied at a later time.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="https://github.com/Sage/fudge" class="linktitle">Fudge</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          					
+          						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				A tool for enforcing code coverage and documentation in continuous integration.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://3ofcoins.net/2013/12/11/we-released-chef-browser-today/" class="linktitle">Chef browser</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          					
+          						<img class="icon" src="ico/ops.png" height="18" width="18" align="right" alt="ops" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				A sinatra web application for browsing chef data.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="https://github.com/jbail/lumberjack" class="linktitle">Lumberjack</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          					
+          						<img class="icon" src="ico/tool.png" height="18" width="18" align="right" alt="tool" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				JavaScript utility that hijacks the browser console, makes it more beautiful.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://www.vagrantup.com/blog/vagrant-1-4.html" class="linktitle">Vagrant 1.4</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          					
+          						<img class="icon" src="ico/ops.png" height="18" width="18" align="right" alt="ops" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				This new version includes a docker provisionner.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="https://github.com/macbre/phantomas" class="linktitle">Phantomas</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          					
+          						<img class="icon" src="ico/tool.png" height="18" width="18" align="right" alt="tool" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				PhantomJS-based web performance metrics collector and monitoring tool.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://news.qooxdoo.org/qooxdoo-3-5-released" class="linktitle">Qooxdoo</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          					
+          						<img class="icon" src="ico/js.png" height="18" width="18" align="right" alt="js" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				Component-based js framework.
+          			</td>
+          		</tr>
+          	
+          </table>
+          
+          <h3>Read</h3>
+          <div class="baseline">From the blogosphere or news feeds ...</div>
+          <table cellpadding="0" cellspacing="0" border="0" class="meat">
+          	
+          		<tr>
+          			<td>
+          				<a href="http://www.getchef.com/blog/2013/12/09/chef-the-company-formerly-known-as-opscode/" class="linktitle">Chef: The Company Formerly Known as Opscode</a>
+          				
+          			</td>
+          			<td class="date">
+          				dec 9
+          				
+          					
+          						<img class="icon" src="ico/ops.png" height="18" width="18" align="right" alt="ops" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				Opscode raised funds, and renames itself to Chef (or actually GetChef).
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://www.html5rocks.com/en/tutorials/developertools/devtools-terminal/" class="linktitle">Using Your Terminal From The DevTools</a>
+          				
+          			</td>
+          			<td class="date">
+          				dec 9
+          				
+          					
+          						<img class="icon" src="ico/tool.png" height="18" width="18" align="right" alt="tool" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				A new Chrome DevTools extension that brings the power of the terminal to your browser.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://24ways.org/2013/grunt-is-not-weird-and-hard/" class="linktitle">Grunt for People Who Think Grunt is Hard</a>
+          				
+          			</td>
+          			<td class="date">
+          				dec 11
+          				
+          					
+          						<img class="icon" src="ico/js.png" height="18" width="18" align="right" alt="js" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				A newbies guide to Grunt.js by Chris Coyer.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://samsaffron.com/archive/2013/12/11/call-to-action-long-running-ruby-benchmark" class="linktitle">Call to Action: Long running Ruby benchmark</a>
+          				
+          			</td>
+          			<td class="date">
+          				dec 11
+          				
+          					
+          						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				Sam Saffron calls to arm for establishing a ruby benchmarking platform.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="https://www.honeybadger.io/blog/2013/12/11/beginners-guide-to-angular-js-rails" class="linktitle">Getting Started with AngularJS and Rails 4</a>
+          				
+          			</td>
+          			<td class="date">
+          				dec 11
+          				
+          					
+          						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				A step-by-step tutorial.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://blog.normation.com/en/2013/12/12/cfengine-vs-puppet-vs-chef-vs-ansible-vs-salt/" class="linktitle">CFEngine vs. Puppet vs. Chef vs. Ansible vs. Salt</a>
+          				
+          			</td>
+          			<td class="date">
+          				dec 12
+          				
+          					
+          						<img class="icon" src="ico/ops.png" height="18" width="18" align="right" alt="ops" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				A small reminder about the grand-father of devops tools.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://www.sitepoint.com/go-rubyists/" class="linktitle">Go for Rubyists</a>
+          				
+          			</td>
+          			<td class="date">
+          				dec 12
+          				
+          					
+          						<img class="icon" src="ico/go.png" height="18" width="18" align="right" alt="go" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				Quick introduction to Go.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://rubylove.io/ruby/core/2013/12/14/a-deeper-look-at-rubys-enumerable-1/" class="linktitle">A Deeper Look at Ruby's Enumerable</a>
+          				
+          			</td>
+          			<td class="date">
+          				dec 14
+          				
+          					
+          						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				Learn how to iterate over collections in a lazy manner.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://www.neblit.com/blog/39-useful-gems-that-work-well-with-rails-4" class="linktitle">Useful gems that work well with rails 4</a>
+          				
+          			</td>
+          			<td class="date">
+          				dec 15
+          				
+          					
+          						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				A list of verified Gems that play well with the new rails.
+          			</td>
+          		</tr>
+          	
+          </table>
+          
+          <h3>Watch</h3>
+          <div class="baseline">Screencasts and conferences videos, or other video feeds ...</div>
+          <table cellpadding="0" cellspacing="0" border="0" class="meat">
+          	
+          		<tr>
+          			<td>
+          				<a href="https://www.youtube.com/watch?v=pts6F00GFuU" class="linktitle">Docker at Spotify</a>
+          				<span class="duration">(11m)</span>
+          			</td>
+          			<td class="date">
+          				dec 11
+          				
+          					
+          						<img class="icon" src="ico/ops.png" height="18" width="18" align="right" alt="ops" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				Quick presentation of how docker is used at spotify.
+          			</td>
+          		</tr>
+          	
+          </table>
+          
+          <h3>Listen</h3>
+          <div class="baseline">What could be heard last week ..</div>
+          <table cellpadding="0" cellspacing="0" border="0" class="meat">
+          	
+          		<tr>
+          			<td>
+          				<a href="http://podcasts.thoughtbot.com/giantrobots/78" class="linktitle">Giant robots 78</a>
+          				<span class="duration">(28m)</span>
+          			</td>
+          			<td class="date">
+          				dec 9
+          				
+          					
+          						<img class="icon" src="ico/tool.png" height="18" width="18" align="right" alt="tool" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				Chris Lindland, CEO of Betabrand.com about online fashion, self-generating product and dress-pant-sweatpants.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://ruby5.envylabs.com/episodes/461-episode-425-december-10th-2013" class="linktitle">Ruby5 425</a>
+          				<span class="duration">(6m)</span>
+          			</td>
+          			<td class="date">
+          				dec 10
+          				
+          					
+          						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				ActionParameter, purgatory, promise.rb, rails session, jruby 1.7.9.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://rubyrogues.com/135-rr-http-2-0-with-ilya-grigorik/" class="linktitle">RubyRogues 135</a>
+          				<span class="duration">(1h09)</span>
+          			</td>
+          			<td class="date">
+          				dec 11
+          				
+          					
+          						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				HTTP 2.0 with Ilya Grigorik.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://ruby5.envylabs.com/episodes/462-episode-426-december-13th-2013" class="linktitle">Ruby5 426</a>
+          				<span class="duration">(5m)</span>
+          			</td>
+          			<td class="date">
+          				dec 13
+          				
+          					
+          						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				Thoughtbot on SO, verifying doubles, stagehand, bundler, roar.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://javascriptjabber.com/087-jsj-tc39-with-alex-russell/" class="linktitle">Javascript Jabber 087</a>
+          				<span class="duration">(1h)</span>
+          			</td>
+          			<td class="date">
+          				dec 13
+          				
+          					
+          						<img class="icon" src="ico/js.png" height="18" width="18" align="right" alt="js" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				TC39 (Ecmascript) with Alex Russell.
+          			</td>
+          		</tr>
+          	
+          </table>
+          
+          </div>
           </div>
         </div>
+        <div class='col-sm-4 col-md-3 rightbar'>
+          <blockquote>
+            <p>Green Ruby News is a feed of fresh links of the week about ruby, javascript, webdev, devops, collected by mose every sunday.</p>
+            <p></p>
+            <form action='http://codegreenit.us6.list-manage1.com/subscribe/post?u=f1b3b59d2383eeb07537f6440&amp;amp;id=7136c985cf'>
+              <div class='text-center'>
+                <b>Subscribe</b>
+              </div>
+              <div class='text-center'>
+                to the
+              </div>
+              <div class='text-center'>
+                <b>weekly newsletter</b>
+              </div>
+              <p></p>
+              <p>
+                <input class='form-control' name='EMAIL' placeholder='email address' type='email'>
+                <input class='form-control btn btn-primary' type='submit' value='Subscribe'>
+              </p>
+            </form>
+          </blockquote>
+          <small class='text-center'>Email distribution is powered by mailchimp.</small>
+        </div>
+      </div>
+    </div>
+    <div id='footer'>
+      <a class='contact' href='mailto:news@greenruby.org'>
+        contact
+      </a>
+      The Green Ruby Newsletter is published by <a href="http://mose.com">Mose</a>
+      <div class='copyright'>
+        Copyright &copy; 2013-2014 Mose
+        <a href='http://creativecommons.org/licenses/by-sa/3.0/' rel='license'>
+          <img alt='Creative Commons License' src='http://i.creativecommons.org/l/by-sa/3.0/80x15.png' style='border-width:0'>
+        </a>
       </div>
     </div>
     <script src='//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script>

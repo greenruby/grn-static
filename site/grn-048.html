@@ -16,697 +16,711 @@
     <meta content='ruby rails, newsletter, webdev, js, javascript, geeks, podcasts, links.' name='keywords'>
     <meta content='width=device-width, minimum-scale=1.0, maximum-scale=1.0' name='viewport'>
     <link href='feed.rss' rel='alternate' title='Green Ruby' type='application/atom+xml'>
-    <link href='css/screen.css' rel='stylesheet'>
+    <link href='css/bootstrap.min.css' rel='stylesheet'>
+    <link href='css/bootstrap-theme.min.css' rel='stylesheet'>
+    <link href='css/grn2.css' rel='stylesheet'>
     <script src='js/vendor/modernizr-2.6.2-respond-1.1.0.min.js'></script>
   </head>
   <body>
     <!--[if lt IE 7]>
       <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
     <![endif]-->
-    <div id='container'>
-      <div id='wrapper'>
-        <div id='titlebar'>
-          <div id='logo'>
-            <img alt='Green Ruby' height='81' src='img/green-ruby-100.png' width='100'>
-          </div>
-          <h1 class='head'>
+    <div class='navbar navbar-fixed-top topnav'>
+      <div class='container'>
+        <div class='navbar-header'>
+          <button class='navbar-toggle' data-target='.navbar-collapse' data-toggle='collapse'>
+            <span class='sr-only'>Toggle navigation</span>
+            <span class='icon-bar'></span>
+            <span class='icon-bar'></span>
+            <span class='icon-bar'></span>
+          </button>
+          <a class='navbar-brand logoized' href='index.html'>
             Green Ruby News
-          </h1>
+          </a>
         </div>
-        <div class='cell'>
-          <div id='intro'>
-            This is a curated feed of fresh links of the week <br />
-            about ruby, javascript, webdev and devops. Watch out every sunday.
+        <div class='navbar-collapse collapse'>
+          <ul class='nav navbar-nav'>
+            <li>
+              <a href='index.html'>Home</a>
+            </li>
+            <li>
+              <a href='about.html'>About</a>
+            </li>
+            <li>
+              <a href='http://cdb.io/1mkiq9K'>Map</a>
+            </li>
+            <li>
+              <a href='https://github.com/greenruby/grn-static'>Source</a>
+            </li>
+            <li>
+              <a href='mailto:news@greenruby.org'>Contact</a>
+            </li>
+            <li>
+              <a href='http://twitter.com/greenrubist'>@greenrubist</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class='container'>
+      <div class='row'>
+        <div class='col-sm-3 col-md-2 leftbar'>
+          <h3>Archives</h3>
+          <ul class='nav nav-sidebar letters'></ul>
+        </div>
+        <div class='col-sm-5 col-md-7 main'>
+          <div id="templateContainer">
+          <div id="templateHeader">
+          <h1>#048 - jan 5th 2014</div>
           </div>
-          <div id='content'>
-            <div class='nav'>
-              <ul>
-                <li>
-                  <a href='index.html'>Home</a>
-                </li>
-                <li>
-                  <a href='about.html'>About</a>
-                </li>
-                <li>
-                  <a href='http://cdb.io/1mkiq9K'>Map of subscribers</a>
-                </li>
-              </ul>
-              <form action='http://codegreenit.us6.list-manage1.com/subscribe/post?u=f1b3b59d2383eeb07537f6440&amp;amp;id=7136c985cf' id='signup' method='post' target='_blank'>
-                <div class='label'>Weekly Newsletter</div>
-                <input class='email' name='EMAIL' placeholder='email address' type='email'>
-                <input class='button' name='subscribe' type='submit' value='Subscribe'>
-              </form>
-              <h4>
-                <a alt='rss' href='feed.rss' style='float:right;'>
-                  <img src='img/rss.png'>
-                </a>
-                Archives
-              </h4>
-              <ul class='letters'></ul>
-              <h4>More</h4>
-              <ul>
-                <li>
-                  <a href='https://github.com/greenruby/grn-static'>Source</a>
-                </li>
-                <li>
-                  <a href='mailto:news@greenruby.org'>Contact</a>
-                </li>
-                <li>
-                  <a href='http://twitter.com/greenrubist'>@greenrubist</a>
-                </li>
-              </ul>
-            </div>
-            <div class='column'>
-              <div id="templateContainer">
-              <div id="templateHeader">
-              <h1>#048 - jan 5th 2014</div>
-              </div>
-              <div id="templateBody">
-              <div>
-              	<div class="baseline">
-              	<h3>Edito</h3>
-              	Okay there is a new year digit, let's get back to work now. And btw feel free to visit us on #greenruby on freenode.
-              <br>
-              <br>
-              <em>&nbsp; mose - the green ruby editor</em><br>
-              <em>&nbsp;
-              
-              	xenor - the informer
-              
-              </em><br>
-              &nbsp; <a href="http://greenruby.org" target="_self">http://greenruby.org</a>
-              <br>
-              </div>
-              
-              
-              <h2>Look</h2>
-              <div class="baseline">Examples of UI/UX, graphic performance, web design and flashy things.</div>
-              <table cellpadding="0" cellspacing="0" border="0" class="meat">
-              	
-              		<tr>
-              			<td>
-              				<a href="http://www.intacto.com/2013flatvsrealism/">Flat design vs Realism</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				The battle of 2013 (actually a happy new year website from Intacto).
-              			</td>
-              		</tr>
-              	
-              </table>
-              
-              <h2>Use</h2>
-              <div class="baseline">Web applications, resources and tools, available for making our life easier or funnier.</div>
-              <table cellpadding="0" cellspacing="0" border="0" class="meat">
-              	
-              		<tr>
-              			<td>
-              				<a href="https://gist.github.com/widged/6820559">List Of D3.js libraries</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              					
-              						<img class="icon" src="ico/js.png" height="18" width="18" align="right" alt="js" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				about 25+ different JavaScript libraries related to D3.js.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://www.passweird.com/">Passweird</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              					
-              						<img class="icon" src="ico/tool.png" height="18" width="18" align="right" alt="tool" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				Generate passwords too gross to steal.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://uifaces.com/">UI Faces</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              					
-              						<img class="icon" src="ico/tool.png" height="18" width="18" align="right" alt="tool" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				This tool was born from the daily toil of finding sample avatars for UI mockups.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://www.bootstrapzero.com/">Bootstrap Zero</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              					
-              						<img class="icon" src="ico/css3.png" height="18" width="18" align="right" alt="css3" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				Free start templates and designs for Boostrap CSS.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://www.blacktie.co/">Blacktie</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              					
-              						<img class="icon" src="ico/css3.png" height="18" width="18" align="right" alt="css3" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				Another place for finding free bootstrap themes.
-              			</td>
-              		</tr>
-              	
-              </table>
-              
-              <h2>Install</h2>
-              <div class="baseline">A selection of gems or applications updated during past week.</div>
-              <table cellpadding="0" cellspacing="0" border="0" class="meat">
-              	
-              		<tr>
-              			<td>
-              				<a href="http://blog.phusion.nl/2014/01/02/phusion-passenger-4-0-33-released/">Passenger 4.0.33</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              					
-              						<img class="icon" src="ico/ops.png" height="18" width="18" align="right" alt="ops" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				Various fixes, and notably the new restart-app function.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="https://github.com/freerange/recap">Recap</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              					
-              						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				Simpler and faster capistrano deployment.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://cosmos.layervault.com/divergence.html">Divergence</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              					
-              						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				A HTTP proxy that lets you map subdomains to git branches for site testing.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://jondot.github.io/sneakers/">Sneakers</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              					
-              						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				Performance background processing for Ruby (picture a sidekiq on rabbitmq).
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://emilebosch.github.io/polybox/">Polybox</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              					
-              						<img class="icon" src="ico/ops.png" height="18" width="18" align="right" alt="ops" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				A docker based polyglot hacker's sandbox.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://codepen.io/terrymun/full/JKHwp">Fluidbox</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              					
-              						<img class="icon" src="ico/js.png" height="18" width="18" align="right" alt="js" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				A replica of lightbox like they do it on Medium.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="https://github.com/noplay/docker-osx/">Docker Osx</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              					
-              						<img class="icon" src="ico/tool.png" height="18" width="18" align="right" alt="tool" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				Fast and easy installation of Docker on OS X.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://orchardup.github.io/fig/">Fig</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              					
-              						<img class="icon" src="ico/ops.png" height="18" width="18" align="right" alt="ops" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				A combination of vagrant and docker, with yaml config files.
-              			</td>
-              		</tr>
-              	
-              </table>
-              
-              <h2>Read</h2>
-              <div class="baseline">From the blogosphere or news feeds ...</div>
-              <table cellpadding="0" cellspacing="0" border="0" class="meat">
-              	
-              		<tr>
-              			<td>
-              				<a href="http://blog.groupbuddies.com/posts/20-clean-architecture">Clean Architecture</a>
-              				
-              			</td>
-              			<td class="date">
-              				dec 27
-              				
-              					
-              						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				Rails app structure following the clean principles of uncle bob, kinda.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://monkeyandcrow.com/blog/reading_rails_more_migrations/">Reading Rails - More Migrations</a>
-              				
-              			</td>
-              			<td class="date">
-              				dec 31
-              				
-              					
-              						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				How Rails look up for migrations.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://michaelrbernste.in/2014/01/01/a-taste-of-logic-programming-in-ruby.html">A Taste of Logic Programming In Ruby</a>
-              				
-              			</td>
-              			<td class="date">
-              				jan 1
-              				
-              					
-              						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				Unific, Ambit, Rulog, various approach for ruby logic programming.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://robots.thoughtbot.com/rendering-collections-in-rails">Rendering Collections in Rails</a>
-              				
-              			</td>
-              			<td class="date">
-              				jan 1
-              				
-              					
-              						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				The use of partials to break down complex view into more manageable chunks.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://www.2ality.com/2014/01/web-platform-2014.html">5 technologies to look forward to in 2014</a>
-              				
-              			</td>
-              			<td class="date">
-              				jan 1
-              				
-              					
-              						<img class="icon" src="ico/js.png" height="18" width="18" align="right" alt="js" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				Short list: asm.js, paralleljs, ES6, web components, CSS grid layout.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://www.sitepoint.com/look-ruby-2-1/">A Look at Ruby 2.1</a>
-              				
-              			</td>
-              			<td class="date">
-              				jan 2
-              				
-              					
-              						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				Detailled review of new features in ruby 2.1.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://viralpatel.net/blogs/javascript-module-pattern/">Javascript Module Design Pattern</a>
-              				
-              			</td>
-              			<td class="date">
-              				jan 2
-              				
-              					
-              						<img class="icon" src="ico/js.png" height="18" width="18" align="right" alt="js" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				Modules in js, and advantages of the revealing module pattern.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://www.shaundunne.com/gulp-is-the-new-black/">Gulp is the new black</a>
-              				
-              			</td>
-              			<td class="date">
-              				jan 3
-              				
-              					
-              						<img class="icon" src="ico/js.png" height="18" width="18" align="right" alt="js" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				Gulp is an alternative to Grunt.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://www.creativebloq.com/css3/top-10-free-ui-kits-web-designers-11410251">The top 10 free UI kits for web designers</a>
-              				
-              			</td>
-              			<td class="date">
-              				jan 3
-              				
-              					
-              						<img class="icon" src="ico/css3.png" height="18" width="18" align="right" alt="css3" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				A list of CSS frameworks for designers.
-              			</td>
-              		</tr>
-              	
-              </table>
-              
-              <h2>Watch</h2>
-              <div class="baseline">Screencasts and conferences videos, or other video feeds ...</div>
-              <table cellpadding="0" cellspacing="0" border="0" class="meat">
-              	
-              		<tr>
-              			<td>
-              				<a href="http://www.youtube.com/watch?v=IDYjSdqtNZU">How to Prototype and Test Any Product in 5 Days</a>
-              				<span class="duration">(58m)</span>
-              			</td>
-              			<td class="date">
-              				jan 3
-              				
-              					
-              						<img class="icon" src="ico/tool.png" height="18" width="18" align="right" alt="tool" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				Explanation of the 5-days design sprint technique.
-              			</td>
-              		</tr>
-              	
-              </table>
-              
-              <h2>Listen</h2>
-              <div class="baseline">What could be heard last week ..</div>
-              <table cellpadding="0" cellspacing="0" border="0" class="meat">
-              	
-              		<tr>
-              			<td>
-              				<a href="http://rubyrogues.com/138-rr-the-rubyrep-holiday-takeover/">RubyRogues 138</a>
-              				<span class="duration">(37m)</span>
-              			</td>
-              			<td class="date">
-              				dec 31
-              				
-              					
-              						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				The RubyRep Holiday Takeover (recording from the rogues retreat).
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://www.arresteddevops.com/2014/01/02/episode-003-the-dev-show/">Arrested Devops 003</a>
-              				<span class="duration">(56m)</span>
-              			</td>
-              			<td class="date">
-              				jan 2
-              				
-              					
-              						<img class="icon" src="ico/ops.png" height="18" width="18" align="right" alt="ops" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				This episode is called the dev show, an introspection session.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://ruby5.envylabs.com/episodes/465-episode-429-january-3rd-2014">Ruby5 429</a>
-              				<span class="duration">(5m)</span>
-              			</td>
-              			<td class="date">
-              				jan 3
-              				
-              					
-              						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				ruby compiler, omega, rubygems, debug http clients, detect similar images, lotus.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://javascriptjabber.com/090-jsj-users-groups/">Javascript Jabber 090</a>
-              				<span class="duration">(39m)</span>
-              			</td>
-              			<td class="date">
-              				jan 3
-              				
-              					
-              						<img class="icon" src="ico/js.png" height="18" width="18" align="right" alt="js" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				Users Groups.
-              			</td>
-              		</tr>
-              	
-              </table>
-              
-              </div>
-            </div>
+          <div id="templateBody">
+          <div>
+          	<div class="baseline">
+          	<h2>Edito</h2>
+          	Okay there is a new year digit, let's get back to work now. And btw feel free to visit us on #greenruby on freenode.
+          <br>
+          <br>
+          <em>&nbsp; mose - the green ruby editor</em><br>
+          <em>&nbsp;
+          
+          	xenor - the informer
+          
+          </em><br>
+          &nbsp; <a href="http://greenruby.org" target="_self">http://greenruby.org</a>
+          <br>
           </div>
-          <div id='footer'>
-            <a class='contact' href='mailto:news@greenruby.org'>
-              contact
-            </a>
-            The Green Ruby Newsletter is published by <a href="http://mose.com">Mose</a>
-            <div class='copyright'>
-              Copyright &copy; 2013-2014 Mose
-              <a href='http://creativecommons.org/licenses/by-sa/3.0/' rel='license'>
-                <img alt='Creative Commons License' src='http://i.creativecommons.org/l/by-sa/3.0/80x15.png' style='border-width:0'>
-              </a>
-            </div>
+          
+          
+          <h3>Look</h3>
+          <div class="baseline">Examples of UI/UX, graphic performance, web design and flashy things.</div>
+          <table cellpadding="0" cellspacing="0" border="0" class="meat">
+          	
+          		<tr>
+          			<td>
+          				<a href="http://www.intacto.com/2013flatvsrealism/" class="linktitle">Flat design vs Realism</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				The battle of 2013 (actually a happy new year website from Intacto).
+          			</td>
+          		</tr>
+          	
+          </table>
+          
+          <h3>Use</h3>
+          <div class="baseline">Web applications, resources and tools, available for making our life easier or funnier.</div>
+          <table cellpadding="0" cellspacing="0" border="0" class="meat">
+          	
+          		<tr>
+          			<td>
+          				<a href="https://gist.github.com/widged/6820559" class="linktitle">List Of D3.js libraries</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          					
+          						<img class="icon" src="ico/js.png" height="18" width="18" align="right" alt="js" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				about 25+ different JavaScript libraries related to D3.js.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://www.passweird.com/" class="linktitle">Passweird</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          					
+          						<img class="icon" src="ico/tool.png" height="18" width="18" align="right" alt="tool" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				Generate passwords too gross to steal.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://uifaces.com/" class="linktitle">UI Faces</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          					
+          						<img class="icon" src="ico/tool.png" height="18" width="18" align="right" alt="tool" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				This tool was born from the daily toil of finding sample avatars for UI mockups.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://www.bootstrapzero.com/" class="linktitle">Bootstrap Zero</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          					
+          						<img class="icon" src="ico/css3.png" height="18" width="18" align="right" alt="css3" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				Free start templates and designs for Boostrap CSS.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://www.blacktie.co/" class="linktitle">Blacktie</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          					
+          						<img class="icon" src="ico/css3.png" height="18" width="18" align="right" alt="css3" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				Another place for finding free bootstrap themes.
+          			</td>
+          		</tr>
+          	
+          </table>
+          
+          <h3>Install</h3>
+          <div class="baseline">A selection of gems or applications updated during past week.</div>
+          <table cellpadding="0" cellspacing="0" border="0" class="meat">
+          	
+          		<tr>
+          			<td>
+          				<a href="http://blog.phusion.nl/2014/01/02/phusion-passenger-4-0-33-released/" class="linktitle">Passenger 4.0.33</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          					
+          						<img class="icon" src="ico/ops.png" height="18" width="18" align="right" alt="ops" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				Various fixes, and notably the new restart-app function.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="https://github.com/freerange/recap" class="linktitle">Recap</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          					
+          						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				Simpler and faster capistrano deployment.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://cosmos.layervault.com/divergence.html" class="linktitle">Divergence</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          					
+          						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				A HTTP proxy that lets you map subdomains to git branches for site testing.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://jondot.github.io/sneakers/" class="linktitle">Sneakers</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          					
+          						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				Performance background processing for Ruby (picture a sidekiq on rabbitmq).
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://emilebosch.github.io/polybox/" class="linktitle">Polybox</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          					
+          						<img class="icon" src="ico/ops.png" height="18" width="18" align="right" alt="ops" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				A docker based polyglot hacker's sandbox.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://codepen.io/terrymun/full/JKHwp" class="linktitle">Fluidbox</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          					
+          						<img class="icon" src="ico/js.png" height="18" width="18" align="right" alt="js" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				A replica of lightbox like they do it on Medium.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="https://github.com/noplay/docker-osx/" class="linktitle">Docker Osx</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          					
+          						<img class="icon" src="ico/tool.png" height="18" width="18" align="right" alt="tool" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				Fast and easy installation of Docker on OS X.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://orchardup.github.io/fig/" class="linktitle">Fig</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          					
+          						<img class="icon" src="ico/ops.png" height="18" width="18" align="right" alt="ops" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				A combination of vagrant and docker, with yaml config files.
+          			</td>
+          		</tr>
+          	
+          </table>
+          
+          <h3>Read</h3>
+          <div class="baseline">From the blogosphere or news feeds ...</div>
+          <table cellpadding="0" cellspacing="0" border="0" class="meat">
+          	
+          		<tr>
+          			<td>
+          				<a href="http://blog.groupbuddies.com/posts/20-clean-architecture" class="linktitle">Clean Architecture</a>
+          				
+          			</td>
+          			<td class="date">
+          				dec 27
+          				
+          					
+          						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				Rails app structure following the clean principles of uncle bob, kinda.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://monkeyandcrow.com/blog/reading_rails_more_migrations/" class="linktitle">Reading Rails - More Migrations</a>
+          				
+          			</td>
+          			<td class="date">
+          				dec 31
+          				
+          					
+          						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				How Rails look up for migrations.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://michaelrbernste.in/2014/01/01/a-taste-of-logic-programming-in-ruby.html" class="linktitle">A Taste of Logic Programming In Ruby</a>
+          				
+          			</td>
+          			<td class="date">
+          				jan 1
+          				
+          					
+          						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				Unific, Ambit, Rulog, various approach for ruby logic programming.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://robots.thoughtbot.com/rendering-collections-in-rails" class="linktitle">Rendering Collections in Rails</a>
+          				
+          			</td>
+          			<td class="date">
+          				jan 1
+          				
+          					
+          						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				The use of partials to break down complex view into more manageable chunks.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://www.2ality.com/2014/01/web-platform-2014.html" class="linktitle">5 technologies to look forward to in 2014</a>
+          				
+          			</td>
+          			<td class="date">
+          				jan 1
+          				
+          					
+          						<img class="icon" src="ico/js.png" height="18" width="18" align="right" alt="js" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				Short list: asm.js, paralleljs, ES6, web components, CSS grid layout.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://www.sitepoint.com/look-ruby-2-1/" class="linktitle">A Look at Ruby 2.1</a>
+          				
+          			</td>
+          			<td class="date">
+          				jan 2
+          				
+          					
+          						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				Detailled review of new features in ruby 2.1.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://viralpatel.net/blogs/javascript-module-pattern/" class="linktitle">Javascript Module Design Pattern</a>
+          				
+          			</td>
+          			<td class="date">
+          				jan 2
+          				
+          					
+          						<img class="icon" src="ico/js.png" height="18" width="18" align="right" alt="js" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				Modules in js, and advantages of the revealing module pattern.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://www.shaundunne.com/gulp-is-the-new-black/" class="linktitle">Gulp is the new black</a>
+          				
+          			</td>
+          			<td class="date">
+          				jan 3
+          				
+          					
+          						<img class="icon" src="ico/js.png" height="18" width="18" align="right" alt="js" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				Gulp is an alternative to Grunt.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://www.creativebloq.com/css3/top-10-free-ui-kits-web-designers-11410251" class="linktitle">The top 10 free UI kits for web designers</a>
+          				
+          			</td>
+          			<td class="date">
+          				jan 3
+          				
+          					
+          						<img class="icon" src="ico/css3.png" height="18" width="18" align="right" alt="css3" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				A list of CSS frameworks for designers.
+          			</td>
+          		</tr>
+          	
+          </table>
+          
+          <h3>Watch</h3>
+          <div class="baseline">Screencasts and conferences videos, or other video feeds ...</div>
+          <table cellpadding="0" cellspacing="0" border="0" class="meat">
+          	
+          		<tr>
+          			<td>
+          				<a href="http://www.youtube.com/watch?v=IDYjSdqtNZU" class="linktitle">How to Prototype and Test Any Product in 5 Days</a>
+          				<span class="duration">(58m)</span>
+          			</td>
+          			<td class="date">
+          				jan 3
+          				
+          					
+          						<img class="icon" src="ico/tool.png" height="18" width="18" align="right" alt="tool" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				Explanation of the 5-days design sprint technique.
+          			</td>
+          		</tr>
+          	
+          </table>
+          
+          <h3>Listen</h3>
+          <div class="baseline">What could be heard last week ..</div>
+          <table cellpadding="0" cellspacing="0" border="0" class="meat">
+          	
+          		<tr>
+          			<td>
+          				<a href="http://rubyrogues.com/138-rr-the-rubyrep-holiday-takeover/" class="linktitle">RubyRogues 138</a>
+          				<span class="duration">(37m)</span>
+          			</td>
+          			<td class="date">
+          				dec 31
+          				
+          					
+          						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				The RubyRep Holiday Takeover (recording from the rogues retreat).
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://www.arresteddevops.com/2014/01/02/episode-003-the-dev-show/" class="linktitle">Arrested Devops 003</a>
+          				<span class="duration">(56m)</span>
+          			</td>
+          			<td class="date">
+          				jan 2
+          				
+          					
+          						<img class="icon" src="ico/ops.png" height="18" width="18" align="right" alt="ops" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				This episode is called the dev show, an introspection session.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://ruby5.envylabs.com/episodes/465-episode-429-january-3rd-2014" class="linktitle">Ruby5 429</a>
+          				<span class="duration">(5m)</span>
+          			</td>
+          			<td class="date">
+          				jan 3
+          				
+          					
+          						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				ruby compiler, omega, rubygems, debug http clients, detect similar images, lotus.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://javascriptjabber.com/090-jsj-users-groups/" class="linktitle">Javascript Jabber 090</a>
+          				<span class="duration">(39m)</span>
+          			</td>
+          			<td class="date">
+          				jan 3
+          				
+          					
+          						<img class="icon" src="ico/js.png" height="18" width="18" align="right" alt="js" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				Users Groups.
+          			</td>
+          		</tr>
+          	
+          </table>
+          
+          </div>
           </div>
         </div>
+        <div class='col-sm-4 col-md-3 rightbar'>
+          <blockquote>
+            <p>Green Ruby News is a feed of fresh links of the week about ruby, javascript, webdev, devops, collected by mose every sunday.</p>
+            <p></p>
+            <form action='http://codegreenit.us6.list-manage1.com/subscribe/post?u=f1b3b59d2383eeb07537f6440&amp;amp;id=7136c985cf'>
+              <div class='text-center'>
+                <b>Subscribe</b>
+              </div>
+              <div class='text-center'>
+                to the
+              </div>
+              <div class='text-center'>
+                <b>weekly newsletter</b>
+              </div>
+              <p></p>
+              <p>
+                <input class='form-control' name='EMAIL' placeholder='email address' type='email'>
+                <input class='form-control btn btn-primary' type='submit' value='Subscribe'>
+              </p>
+            </form>
+          </blockquote>
+          <small class='text-center'>Email distribution is powered by mailchimp.</small>
+        </div>
+      </div>
+    </div>
+    <div id='footer'>
+      <a class='contact' href='mailto:news@greenruby.org'>
+        contact
+      </a>
+      The Green Ruby Newsletter is published by <a href="http://mose.com">Mose</a>
+      <div class='copyright'>
+        Copyright &copy; 2013-2014 Mose
+        <a href='http://creativecommons.org/licenses/by-sa/3.0/' rel='license'>
+          <img alt='Creative Commons License' src='http://i.creativecommons.org/l/by-sa/3.0/80x15.png' style='border-width:0'>
+        </a>
       </div>
     </div>
     <script src='//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script>

@@ -16,825 +16,839 @@
     <meta content='ruby rails, newsletter, webdev, js, javascript, geeks, podcasts, links.' name='keywords'>
     <meta content='width=device-width, minimum-scale=1.0, maximum-scale=1.0' name='viewport'>
     <link href='feed.rss' rel='alternate' title='Green Ruby' type='application/atom+xml'>
-    <link href='css/screen.css' rel='stylesheet'>
+    <link href='css/bootstrap.min.css' rel='stylesheet'>
+    <link href='css/bootstrap-theme.min.css' rel='stylesheet'>
+    <link href='css/grn2.css' rel='stylesheet'>
     <script src='js/vendor/modernizr-2.6.2-respond-1.1.0.min.js'></script>
   </head>
   <body>
     <!--[if lt IE 7]>
       <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
     <![endif]-->
-    <div id='container'>
-      <div id='wrapper'>
-        <div id='titlebar'>
-          <div id='logo'>
-            <img alt='Green Ruby' height='81' src='img/green-ruby-100.png' width='100'>
-          </div>
-          <h1 class='head'>
+    <div class='navbar navbar-fixed-top topnav'>
+      <div class='container'>
+        <div class='navbar-header'>
+          <button class='navbar-toggle' data-target='.navbar-collapse' data-toggle='collapse'>
+            <span class='sr-only'>Toggle navigation</span>
+            <span class='icon-bar'></span>
+            <span class='icon-bar'></span>
+            <span class='icon-bar'></span>
+          </button>
+          <a class='navbar-brand logoized' href='index.html'>
             Green Ruby News
-          </h1>
+          </a>
         </div>
-        <div class='cell'>
-          <div id='intro'>
-            This is a curated feed of fresh links of the week <br />
-            about ruby, javascript, webdev and devops. Watch out every sunday.
+        <div class='navbar-collapse collapse'>
+          <ul class='nav navbar-nav'>
+            <li>
+              <a href='index.html'>Home</a>
+            </li>
+            <li>
+              <a href='about.html'>About</a>
+            </li>
+            <li>
+              <a href='http://cdb.io/1mkiq9K'>Map</a>
+            </li>
+            <li>
+              <a href='https://github.com/greenruby/grn-static'>Source</a>
+            </li>
+            <li>
+              <a href='mailto:news@greenruby.org'>Contact</a>
+            </li>
+            <li>
+              <a href='http://twitter.com/greenrubist'>@greenrubist</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class='container'>
+      <div class='row'>
+        <div class='col-sm-3 col-md-2 leftbar'>
+          <h3>Archives</h3>
+          <ul class='nav nav-sidebar letters'></ul>
+        </div>
+        <div class='col-sm-5 col-md-7 main'>
+          <div id="templateContainer">
+          <div id="templateHeader">
+          <h1>#037 - oct 20th 2013</div>
           </div>
-          <div id='content'>
-            <div class='nav'>
-              <ul>
-                <li>
-                  <a href='index.html'>Home</a>
-                </li>
-                <li>
-                  <a href='about.html'>About</a>
-                </li>
-                <li>
-                  <a href='http://cdb.io/1mkiq9K'>Map of subscribers</a>
-                </li>
-              </ul>
-              <form action='http://codegreenit.us6.list-manage1.com/subscribe/post?u=f1b3b59d2383eeb07537f6440&amp;amp;id=7136c985cf' id='signup' method='post' target='_blank'>
-                <div class='label'>Weekly Newsletter</div>
-                <input class='email' name='EMAIL' placeholder='email address' type='email'>
-                <input class='button' name='subscribe' type='submit' value='Subscribe'>
-              </form>
-              <h4>
-                <a alt='rss' href='feed.rss' style='float:right;'>
-                  <img src='img/rss.png'>
-                </a>
-                Archives
-              </h4>
-              <ul class='letters'></ul>
-              <h4>More</h4>
-              <ul>
-                <li>
-                  <a href='https://github.com/greenruby/grn-static'>Source</a>
-                </li>
-                <li>
-                  <a href='mailto:news@greenruby.org'>Contact</a>
-                </li>
-                <li>
-                  <a href='http://twitter.com/greenrubist'>@greenrubist</a>
-                </li>
-              </ul>
-            </div>
-            <div class='column'>
-              <div id="templateContainer">
-              <div id="templateHeader">
-              <h1>#037 - oct 20th 2013</div>
-              </div>
-              <div id="templateBody">
-              <div>
-              	<div class="baseline">
-              	<h3>Edito</h3>
-              	Last week I played a bit with <a href="http://cartodb.com">cartodb</a> to make a <a href="http://cdb.io/GZM0Bv">map or subscribers</a> from the csv export from mailchimp. The result is pretty neat. About the news, this week we get a lot of links to the recent ruby and rails confs, and a lot of more things.
-              <br>
-              <br>
-              <em>&nbsp; mose - the green ruby editor</em><br>
-              <em>&nbsp;
-              
-              	xenor - the informer
-              
-              </em><br>
-              &nbsp; <a href="http://greenruby.org" target="_self">http://greenruby.org</a>
-              <br>
-              </div>
-              
-              
-              <h2>Look</h2>
-              <div class="baseline">Examples of UI/UX, graphic performance, web design and flashy things.</div>
-              <table cellpadding="0" cellspacing="0" border="0" class="meat">
-              	
-              		<tr>
-              			<td>
-              				<a href="http://designbeep.com/2013/10/18/21-fresh-html5-websites-inspiration/">HTML5 Websites For Inspiration</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				21 websites with innovative design.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://www.byronknoll.com/earth.html">Squishy Earth</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				A pretty funny physics experiment using hammer.js. Pretty good reactivity.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="https://www.shadertoy.com/view/lsXGWl">Generator Redux</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				291 lines of WebGL shader code.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://designjargonbullshit.com/">Design Jargon Bullshit</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				Quotes from designers that like to use words (too much).
-              			</td>
-              		</tr>
-              	
-              </table>
-              
-              <h2>Use</h2>
-              <div class="baseline">Web applications, resources and tools, available for making our life easier or funnier.</div>
-              <table cellpadding="0" cellspacing="0" border="0" class="meat">
-              	
-              		<tr>
-              			<td>
-              				<a href="http://www.slant.co/">Slant</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              					
-              						<img class="icon" src="ico/tool.png" height="18" width="18" align="right" alt="tool" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				Looks a bit like stackoverflow but more focused on making points about generic questions.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://www.generatedata.com/">Generate Data</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              					
-              						<img class="icon" src="ico/tool.png" height="18" width="18" align="right" alt="tool" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				A tool to generate random data files for testing in your apps.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md">Free programming books</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              					
-              						<img class="icon" src="ico/tool.png" height="18" width="18" align="right" alt="tool" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				A giant list of free programming books.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="https://wri.pe/">Wripe</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              					
-              						<img class="icon" src="ico/tool.png" height="18" width="18" align="right" alt="tool" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				An online notepad that looks promising.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://www.workmanlayout.com/blog/">Workman Keyboard Layout</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              					
-              						<img class="icon" src="ico/tool.png" height="18" width="18" align="right" alt="tool" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				QWERTY is not the only way.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="https://sendtodropbox.com/">Send to dropbox</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              					
-              						<img class="icon" src="ico/tool.png" height="18" width="18" align="right" alt="tool" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				A way to send files to your dropbox via mail.
-              			</td>
-              		</tr>
-              	
-              </table>
-              
-              <h2>Install</h2>
-              <div class="baseline">A selection of gems or applications updated during past week.</div>
-              <table cellpadding="0" cellspacing="0" border="0" class="meat">
-              	
-              		<tr>
-              			<td>
-              				<a href="http://weblog.rubyonrails.org/2013/10/17/Rails-4-0-1-rc1-has-been-released/">Rails 4.0.1rc1</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              					
-              						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				A whole lot of bugfixes, plus speed improvements.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://weblog.rubyonrails.org/2013/10/16/Rails-3-2-15-has-been-released/">Rails 3.2.15</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              					
-              						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				This is a security release related to action mailer, but with also some bugfixes.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="https://github.com/frodsan/mocoso">Mocoso</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              					
-              						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				Another stub & mock library for Ruby.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://www.dropzonejs.com/">Dropzone</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              					
-              						<img class="icon" src="ico/js.png" height="18" width="18" align="right" alt="js" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				Drag'n'drop file uploads with image previews.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="https://github.com/justincampbell/whipped-cream">Whipped Cream</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              					
-              						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				A tool for creating web servers for raspberry PI.
-              			</td>
-              		</tr>
-              	
-              </table>
-              
-              <h2>Read</h2>
-              <div class="baseline">From the blogosphere or news feeds ...</div>
-              <table cellpadding="0" cellspacing="0" border="0" class="meat">
-              	
-              		<tr>
-              			<td>
-              				<a href="http://blog.codeclimate.com/blog/2013/10/09/unexpected-outcomes-of-code-reviews/">The Unexpected Outcomes Of Code Review</a>
-              				
-              			</td>
-              			<td class="date">
-              				oct 09
-              				
-              					
-              						<img class="icon" src="ico/tool.png" height="18" width="18" align="right" alt="tool" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				Find out why the value of code review is probably not what you expect.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="https://shellycloud.com/blog/2013/10/adding-search-and-autocomplete-to-a-rails-app-with-elasticsearch">Adding search to Rails apps with Elasticsearch</a>
-              				
-              			</td>
-              			<td class="date">
-              				oct 10
-              				
-              					
-              						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				A fast and easy way to add search to your Rails application with Elasticsearch abd Searchkick.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://www.sitepoint.com/threads-ruby/">Threads in Ruby</a>
-              				
-              			</td>
-              			<td class="date">
-              				oct 14
-              				
-              					
-              						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				Explanation and examples around ruby threads.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://flippinawesome.org/2013/10/14/ember-components-reuseable-building-blocks-for-your-application/">Ember Components – Reusable Building Blocks</a>
-              				
-              			</td>
-              			<td class="date">
-              				oct 14
-              				
-              					
-              						<img class="icon" src="ico/js.png" height="18" width="18" align="right" alt="js" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				Review on how Ember.js approaches the web component principles.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://blog.wyeworks.com/2013/10/15/active_model_serializers_rewrite/">ActiveModel::Serializers Rewrite</a>
-              				
-              			</td>
-              			<td class="date">
-              				oct 15
-              				
-              					
-              						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				What's next in upcoming ActiveModel::Serializer 0.9.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://jesseddy.com/blog/2013/10/communicating-animation-ideas/">Communicating Animation Ideas</a>
-              				
-              			</td>
-              			<td class="date">
-              				oct 16
-              				
-              					
-              						<img class="icon" src="ico/mobile.png" height="18" width="18" align="right" alt="mobile" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				Review of some tools that can help bringing animations to your interfaces.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://www.trevormckendrick.com/10-ruby-tricks/">10 Quick Ruby Tricks</a>
-              				
-              			</td>
-              			<td class="date">
-              				oct 17
-              				
-              					
-              						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				Some nice tricks about badly known ruby syntaxes.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://www.techrepublic.com/blog/web-designer/how-to-prevent-flash-of-unstyled-content-on-your-websites/">How to prevent FOUC on your websites</a>
-              				
-              			</td>
-              			<td class="date">
-              				oct 18
-              				
-              					
-              						<img class="icon" src="ico/css3.png" height="18" width="18" align="right" alt="css3" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				Discover ways to stop Flash of Unstyled Content (FOUC) from occurring on your sites.
-              			</td>
-              		</tr>
-              	
-              </table>
-              
-              <h2>Watch</h2>
-              <div class="baseline">Screencasts and conferences videos, or other video feeds ...</div>
-              <table cellpadding="0" cellspacing="0" border="0" class="meat">
-              	
-              		<tr>
-              			<td>
-              				<a href="http://www.windycityrails.org/videos/2013/">Windy city Railsconf 2013</a>
-              				<span class="duration">(19 videos)</span>
-              			</td>
-              			<td class="date">
-              				
-              				
-              					
-              						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				Check those out, there are amazing speakers.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://www.confreaks.com/events/gogaruco2013">Gogaruco 2013</a>
-              				<span class="duration">(21 videos)</span>
-              			</td>
-              			<td class="date">
-              				oct 09
-              				
-              					
-              						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				Check those out, there are amazing speakers.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://www.confreaks.com/events/nickelcityruby2013">Nickel city rubyconf 2013</a>
-              				<span class="duration">(2 videos)</span>
-              			</td>
-              			<td class="date">
-              				oct 11
-              				
-              					
-              						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				A couple of presentations.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://www.confreaks.com/events/rockymountainruby2013">Rocky Mountain rubyconf 2013</a>
-              				<span class="duration">(4 videos)</span>
-              			</td>
-              			<td class="date">
-              				oct 12
-              				
-              					
-              						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				The 4th rubyconf in boulder.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://www.youtube.com/watch?v=yh9osPQA_-k">Chef Fundamentals Webinar Series </a>
-              				<span class="duration">(40m)</span>
-              			</td>
-              			<td class="date">
-              				oct 17
-              				
-              					
-              						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				First module of an Opscode <a href='http://www.opscode.com/blog/2013/10/16/chef-fundamentals-webinar-series-starts-tomorrow/'>webinar about Chef</a>, should last 6 weeks.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://build-podcast.com/command-line-apps/">Command line apps</a>
-              				<span class="duration">(32m)</span>
-              			</td>
-              			<td class="date">
-              				oct 19
-              				
-              					
-              						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				Examples of command line apps with node (commander) and ruby (thor).
-              			</td>
-              		</tr>
-              	
-              </table>
-              
-              <h2>Listen</h2>
-              <div class="baseline">What could be heard last week ..</div>
-              <table cellpadding="0" cellspacing="0" border="0" class="meat">
-              	
-              		<tr>
-              			<td>
-              				<a href="https://learn.thoughtbot.com/giantrobots/70">Giant robots 70</a>
-              				<span class="duration">(40m)</span>
-              			</td>
-              			<td class="date">
-              				oct 14
-              				
-              					
-              						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				With Jeff Atwood about Discourse, forum software, and soylent.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://ruby5.envylabs.com/episodes/447-episode-411-october-15th-2013">Ruby5 410</a>
-              				<span class="duration">(7m)</span>
-              			</td>
-              			<td class="date">
-              				oct 15
-              				
-              					
-              						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				refactor, shrimp, travis, ruby stack, cookies.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://rubyrogues.com/127-rr-erik-michaels-ober/">RubyRogues 127</a>
-              				<span class="duration">(1h37)</span>
-              			</td>
-              			<td class="date">
-              				oct 16
-              				
-              					
-              						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				Discussion about general aspects of ruby and gems development.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://5by5.tv/changelog/108">The Changelog 108</a>
-              				<span class="duration">(56m)</span>
-              			</td>
-              			<td class="date">
-              				oct 16
-              				
-              					
-              						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				Exercism.io with Katrina Owen.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://ruby5.envylabs.com/episodes/448-episode-412-october-18th-2013">Ruby5 412</a>
-              				<span class="duration">(6m)</span>
-              			</td>
-              			<td class="date">
-              				oct 18
-              				
-              					
-              						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				Rubinius X, activemodel serializer, parallel test with docker, angularjs, rails.env.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://javascriptjabber.com/080-jsj-impact-js-with-dominic-szablewski/">Javascript Jabber 080</a>
-              				<span class="duration">(58m)</span>
-              			</td>
-              			<td class="date">
-              				oct 18
-              				
-              					
-              						<img class="icon" src="ico/js.png" height="18" width="18" align="right" alt="js" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				Impact.js with Dominic Szablewski.
-              			</td>
-              		</tr>
-              	
-              </table>
-              
-              </div>
-            </div>
+          <div id="templateBody">
+          <div>
+          	<div class="baseline">
+          	<h2>Edito</h2>
+          	Last week I played a bit with <a href="http://cartodb.com">cartodb</a> to make a <a href="http://cdb.io/GZM0Bv">map or subscribers</a> from the csv export from mailchimp. The result is pretty neat. About the news, this week we get a lot of links to the recent ruby and rails confs, and a lot of more things.
+          <br>
+          <br>
+          <em>&nbsp; mose - the green ruby editor</em><br>
+          <em>&nbsp;
+          
+          	xenor - the informer
+          
+          </em><br>
+          &nbsp; <a href="http://greenruby.org" target="_self">http://greenruby.org</a>
+          <br>
           </div>
-          <div id='footer'>
-            <a class='contact' href='mailto:news@greenruby.org'>
-              contact
-            </a>
-            The Green Ruby Newsletter is published by <a href="http://mose.com">Mose</a>
-            <div class='copyright'>
-              Copyright &copy; 2013-2014 Mose
-              <a href='http://creativecommons.org/licenses/by-sa/3.0/' rel='license'>
-                <img alt='Creative Commons License' src='http://i.creativecommons.org/l/by-sa/3.0/80x15.png' style='border-width:0'>
-              </a>
-            </div>
+          
+          
+          <h3>Look</h3>
+          <div class="baseline">Examples of UI/UX, graphic performance, web design and flashy things.</div>
+          <table cellpadding="0" cellspacing="0" border="0" class="meat">
+          	
+          		<tr>
+          			<td>
+          				<a href="http://designbeep.com/2013/10/18/21-fresh-html5-websites-inspiration/" class="linktitle">HTML5 Websites For Inspiration</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				21 websites with innovative design.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://www.byronknoll.com/earth.html" class="linktitle">Squishy Earth</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				A pretty funny physics experiment using hammer.js. Pretty good reactivity.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="https://www.shadertoy.com/view/lsXGWl" class="linktitle">Generator Redux</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				291 lines of WebGL shader code.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://designjargonbullshit.com/" class="linktitle">Design Jargon Bullshit</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				Quotes from designers that like to use words (too much).
+          			</td>
+          		</tr>
+          	
+          </table>
+          
+          <h3>Use</h3>
+          <div class="baseline">Web applications, resources and tools, available for making our life easier or funnier.</div>
+          <table cellpadding="0" cellspacing="0" border="0" class="meat">
+          	
+          		<tr>
+          			<td>
+          				<a href="http://www.slant.co/" class="linktitle">Slant</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          					
+          						<img class="icon" src="ico/tool.png" height="18" width="18" align="right" alt="tool" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				Looks a bit like stackoverflow but more focused on making points about generic questions.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://www.generatedata.com/" class="linktitle">Generate Data</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          					
+          						<img class="icon" src="ico/tool.png" height="18" width="18" align="right" alt="tool" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				A tool to generate random data files for testing in your apps.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md" class="linktitle">Free programming books</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          					
+          						<img class="icon" src="ico/tool.png" height="18" width="18" align="right" alt="tool" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				A giant list of free programming books.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="https://wri.pe/" class="linktitle">Wripe</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          					
+          						<img class="icon" src="ico/tool.png" height="18" width="18" align="right" alt="tool" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				An online notepad that looks promising.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://www.workmanlayout.com/blog/" class="linktitle">Workman Keyboard Layout</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          					
+          						<img class="icon" src="ico/tool.png" height="18" width="18" align="right" alt="tool" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				QWERTY is not the only way.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="https://sendtodropbox.com/" class="linktitle">Send to dropbox</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          					
+          						<img class="icon" src="ico/tool.png" height="18" width="18" align="right" alt="tool" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				A way to send files to your dropbox via mail.
+          			</td>
+          		</tr>
+          	
+          </table>
+          
+          <h3>Install</h3>
+          <div class="baseline">A selection of gems or applications updated during past week.</div>
+          <table cellpadding="0" cellspacing="0" border="0" class="meat">
+          	
+          		<tr>
+          			<td>
+          				<a href="http://weblog.rubyonrails.org/2013/10/17/Rails-4-0-1-rc1-has-been-released/" class="linktitle">Rails 4.0.1rc1</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          					
+          						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				A whole lot of bugfixes, plus speed improvements.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://weblog.rubyonrails.org/2013/10/16/Rails-3-2-15-has-been-released/" class="linktitle">Rails 3.2.15</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          					
+          						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				This is a security release related to action mailer, but with also some bugfixes.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="https://github.com/frodsan/mocoso" class="linktitle">Mocoso</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          					
+          						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				Another stub & mock library for Ruby.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://www.dropzonejs.com/" class="linktitle">Dropzone</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          					
+          						<img class="icon" src="ico/js.png" height="18" width="18" align="right" alt="js" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				Drag'n'drop file uploads with image previews.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="https://github.com/justincampbell/whipped-cream" class="linktitle">Whipped Cream</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          					
+          						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				A tool for creating web servers for raspberry PI.
+          			</td>
+          		</tr>
+          	
+          </table>
+          
+          <h3>Read</h3>
+          <div class="baseline">From the blogosphere or news feeds ...</div>
+          <table cellpadding="0" cellspacing="0" border="0" class="meat">
+          	
+          		<tr>
+          			<td>
+          				<a href="http://blog.codeclimate.com/blog/2013/10/09/unexpected-outcomes-of-code-reviews/" class="linktitle">The Unexpected Outcomes Of Code Review</a>
+          				
+          			</td>
+          			<td class="date">
+          				oct 09
+          				
+          					
+          						<img class="icon" src="ico/tool.png" height="18" width="18" align="right" alt="tool" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				Find out why the value of code review is probably not what you expect.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="https://shellycloud.com/blog/2013/10/adding-search-and-autocomplete-to-a-rails-app-with-elasticsearch" class="linktitle">Adding search to Rails apps with Elasticsearch</a>
+          				
+          			</td>
+          			<td class="date">
+          				oct 10
+          				
+          					
+          						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				A fast and easy way to add search to your Rails application with Elasticsearch abd Searchkick.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://www.sitepoint.com/threads-ruby/" class="linktitle">Threads in Ruby</a>
+          				
+          			</td>
+          			<td class="date">
+          				oct 14
+          				
+          					
+          						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				Explanation and examples around ruby threads.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://flippinawesome.org/2013/10/14/ember-components-reuseable-building-blocks-for-your-application/" class="linktitle">Ember Components – Reusable Building Blocks</a>
+          				
+          			</td>
+          			<td class="date">
+          				oct 14
+          				
+          					
+          						<img class="icon" src="ico/js.png" height="18" width="18" align="right" alt="js" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				Review on how Ember.js approaches the web component principles.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://blog.wyeworks.com/2013/10/15/active_model_serializers_rewrite/" class="linktitle">ActiveModel::Serializers Rewrite</a>
+          				
+          			</td>
+          			<td class="date">
+          				oct 15
+          				
+          					
+          						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				What's next in upcoming ActiveModel::Serializer 0.9.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://jesseddy.com/blog/2013/10/communicating-animation-ideas/" class="linktitle">Communicating Animation Ideas</a>
+          				
+          			</td>
+          			<td class="date">
+          				oct 16
+          				
+          					
+          						<img class="icon" src="ico/mobile.png" height="18" width="18" align="right" alt="mobile" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				Review of some tools that can help bringing animations to your interfaces.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://www.trevormckendrick.com/10-ruby-tricks/" class="linktitle">10 Quick Ruby Tricks</a>
+          				
+          			</td>
+          			<td class="date">
+          				oct 17
+          				
+          					
+          						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				Some nice tricks about badly known ruby syntaxes.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://www.techrepublic.com/blog/web-designer/how-to-prevent-flash-of-unstyled-content-on-your-websites/" class="linktitle">How to prevent FOUC on your websites</a>
+          				
+          			</td>
+          			<td class="date">
+          				oct 18
+          				
+          					
+          						<img class="icon" src="ico/css3.png" height="18" width="18" align="right" alt="css3" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				Discover ways to stop Flash of Unstyled Content (FOUC) from occurring on your sites.
+          			</td>
+          		</tr>
+          	
+          </table>
+          
+          <h3>Watch</h3>
+          <div class="baseline">Screencasts and conferences videos, or other video feeds ...</div>
+          <table cellpadding="0" cellspacing="0" border="0" class="meat">
+          	
+          		<tr>
+          			<td>
+          				<a href="http://www.windycityrails.org/videos/2013/" class="linktitle">Windy city Railsconf 2013</a>
+          				<span class="duration">(19 videos)</span>
+          			</td>
+          			<td class="date">
+          				
+          				
+          					
+          						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				Check those out, there are amazing speakers.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://www.confreaks.com/events/gogaruco2013" class="linktitle">Gogaruco 2013</a>
+          				<span class="duration">(21 videos)</span>
+          			</td>
+          			<td class="date">
+          				oct 09
+          				
+          					
+          						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				Check those out, there are amazing speakers.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://www.confreaks.com/events/nickelcityruby2013" class="linktitle">Nickel city rubyconf 2013</a>
+          				<span class="duration">(2 videos)</span>
+          			</td>
+          			<td class="date">
+          				oct 11
+          				
+          					
+          						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				A couple of presentations.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://www.confreaks.com/events/rockymountainruby2013" class="linktitle">Rocky Mountain rubyconf 2013</a>
+          				<span class="duration">(4 videos)</span>
+          			</td>
+          			<td class="date">
+          				oct 12
+          				
+          					
+          						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				The 4th rubyconf in boulder.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://www.youtube.com/watch?v=yh9osPQA_-k" class="linktitle">Chef Fundamentals Webinar Series </a>
+          				<span class="duration">(40m)</span>
+          			</td>
+          			<td class="date">
+          				oct 17
+          				
+          					
+          						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				First module of an Opscode <a href='http://www.opscode.com/blog/2013/10/16/chef-fundamentals-webinar-series-starts-tomorrow/'>webinar about Chef</a>, should last 6 weeks.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://build-podcast.com/command-line-apps/" class="linktitle">Command line apps</a>
+          				<span class="duration">(32m)</span>
+          			</td>
+          			<td class="date">
+          				oct 19
+          				
+          					
+          						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				Examples of command line apps with node (commander) and ruby (thor).
+          			</td>
+          		</tr>
+          	
+          </table>
+          
+          <h3>Listen</h3>
+          <div class="baseline">What could be heard last week ..</div>
+          <table cellpadding="0" cellspacing="0" border="0" class="meat">
+          	
+          		<tr>
+          			<td>
+          				<a href="https://learn.thoughtbot.com/giantrobots/70" class="linktitle">Giant robots 70</a>
+          				<span class="duration">(40m)</span>
+          			</td>
+          			<td class="date">
+          				oct 14
+          				
+          					
+          						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				With Jeff Atwood about Discourse, forum software, and soylent.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://ruby5.envylabs.com/episodes/447-episode-411-october-15th-2013" class="linktitle">Ruby5 410</a>
+          				<span class="duration">(7m)</span>
+          			</td>
+          			<td class="date">
+          				oct 15
+          				
+          					
+          						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				refactor, shrimp, travis, ruby stack, cookies.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://rubyrogues.com/127-rr-erik-michaels-ober/" class="linktitle">RubyRogues 127</a>
+          				<span class="duration">(1h37)</span>
+          			</td>
+          			<td class="date">
+          				oct 16
+          				
+          					
+          						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				Discussion about general aspects of ruby and gems development.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://5by5.tv/changelog/108" class="linktitle">The Changelog 108</a>
+          				<span class="duration">(56m)</span>
+          			</td>
+          			<td class="date">
+          				oct 16
+          				
+          					
+          						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				Exercism.io with Katrina Owen.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://ruby5.envylabs.com/episodes/448-episode-412-october-18th-2013" class="linktitle">Ruby5 412</a>
+          				<span class="duration">(6m)</span>
+          			</td>
+          			<td class="date">
+          				oct 18
+          				
+          					
+          						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				Rubinius X, activemodel serializer, parallel test with docker, angularjs, rails.env.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://javascriptjabber.com/080-jsj-impact-js-with-dominic-szablewski/" class="linktitle">Javascript Jabber 080</a>
+          				<span class="duration">(58m)</span>
+          			</td>
+          			<td class="date">
+          				oct 18
+          				
+          					
+          						<img class="icon" src="ico/js.png" height="18" width="18" align="right" alt="js" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				Impact.js with Dominic Szablewski.
+          			</td>
+          		</tr>
+          	
+          </table>
+          
+          </div>
           </div>
         </div>
+        <div class='col-sm-4 col-md-3 rightbar'>
+          <blockquote>
+            <p>Green Ruby News is a feed of fresh links of the week about ruby, javascript, webdev, devops, collected by mose every sunday.</p>
+            <p></p>
+            <form action='http://codegreenit.us6.list-manage1.com/subscribe/post?u=f1b3b59d2383eeb07537f6440&amp;amp;id=7136c985cf'>
+              <div class='text-center'>
+                <b>Subscribe</b>
+              </div>
+              <div class='text-center'>
+                to the
+              </div>
+              <div class='text-center'>
+                <b>weekly newsletter</b>
+              </div>
+              <p></p>
+              <p>
+                <input class='form-control' name='EMAIL' placeholder='email address' type='email'>
+                <input class='form-control btn btn-primary' type='submit' value='Subscribe'>
+              </p>
+            </form>
+          </blockquote>
+          <small class='text-center'>Email distribution is powered by mailchimp.</small>
+        </div>
+      </div>
+    </div>
+    <div id='footer'>
+      <a class='contact' href='mailto:news@greenruby.org'>
+        contact
+      </a>
+      The Green Ruby Newsletter is published by <a href="http://mose.com">Mose</a>
+      <div class='copyright'>
+        Copyright &copy; 2013-2014 Mose
+        <a href='http://creativecommons.org/licenses/by-sa/3.0/' rel='license'>
+          <img alt='Creative Commons License' src='http://i.creativecommons.org/l/by-sa/3.0/80x15.png' style='border-width:0'>
+        </a>
       </div>
     </div>
     <script src='//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script>

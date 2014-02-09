@@ -16,685 +16,699 @@
     <meta content='ruby rails, newsletter, webdev, js, javascript, geeks, podcasts, links.' name='keywords'>
     <meta content='width=device-width, minimum-scale=1.0, maximum-scale=1.0' name='viewport'>
     <link href='feed.rss' rel='alternate' title='Green Ruby' type='application/atom+xml'>
-    <link href='css/screen.css' rel='stylesheet'>
+    <link href='css/bootstrap.min.css' rel='stylesheet'>
+    <link href='css/bootstrap-theme.min.css' rel='stylesheet'>
+    <link href='css/grn2.css' rel='stylesheet'>
     <script src='js/vendor/modernizr-2.6.2-respond-1.1.0.min.js'></script>
   </head>
   <body>
     <!--[if lt IE 7]>
       <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
     <![endif]-->
-    <div id='container'>
-      <div id='wrapper'>
-        <div id='titlebar'>
-          <div id='logo'>
-            <img alt='Green Ruby' height='81' src='img/green-ruby-100.png' width='100'>
-          </div>
-          <h1 class='head'>
+    <div class='navbar navbar-fixed-top topnav'>
+      <div class='container'>
+        <div class='navbar-header'>
+          <button class='navbar-toggle' data-target='.navbar-collapse' data-toggle='collapse'>
+            <span class='sr-only'>Toggle navigation</span>
+            <span class='icon-bar'></span>
+            <span class='icon-bar'></span>
+            <span class='icon-bar'></span>
+          </button>
+          <a class='navbar-brand logoized' href='index.html'>
             Green Ruby News
-          </h1>
+          </a>
         </div>
-        <div class='cell'>
-          <div id='intro'>
-            This is a curated feed of fresh links of the week <br />
-            about ruby, javascript, webdev and devops. Watch out every sunday.
+        <div class='navbar-collapse collapse'>
+          <ul class='nav navbar-nav'>
+            <li>
+              <a href='index.html'>Home</a>
+            </li>
+            <li>
+              <a href='about.html'>About</a>
+            </li>
+            <li>
+              <a href='http://cdb.io/1mkiq9K'>Map</a>
+            </li>
+            <li>
+              <a href='https://github.com/greenruby/grn-static'>Source</a>
+            </li>
+            <li>
+              <a href='mailto:news@greenruby.org'>Contact</a>
+            </li>
+            <li>
+              <a href='http://twitter.com/greenrubist'>@greenrubist</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class='container'>
+      <div class='row'>
+        <div class='col-sm-3 col-md-2 leftbar'>
+          <h3>Archives</h3>
+          <ul class='nav nav-sidebar letters'></ul>
+        </div>
+        <div class='col-sm-5 col-md-7 main'>
+          <div id="templateContainer">
+          <div id="templateHeader">
+          <h1>#010 - apr 13th 2013</div>
           </div>
-          <div id='content'>
-            <div class='nav'>
-              <ul>
-                <li>
-                  <a href='index.html'>Home</a>
-                </li>
-                <li>
-                  <a href='about.html'>About</a>
-                </li>
-                <li>
-                  <a href='http://cdb.io/1mkiq9K'>Map of subscribers</a>
-                </li>
-              </ul>
-              <form action='http://codegreenit.us6.list-manage1.com/subscribe/post?u=f1b3b59d2383eeb07537f6440&amp;amp;id=7136c985cf' id='signup' method='post' target='_blank'>
-                <div class='label'>Weekly Newsletter</div>
-                <input class='email' name='EMAIL' placeholder='email address' type='email'>
-                <input class='button' name='subscribe' type='submit' value='Subscribe'>
-              </form>
-              <h4>
-                <a alt='rss' href='feed.rss' style='float:right;'>
-                  <img src='img/rss.png'>
-                </a>
-                Archives
-              </h4>
-              <ul class='letters'></ul>
-              <h4>More</h4>
-              <ul>
-                <li>
-                  <a href='https://github.com/greenruby/grn-static'>Source</a>
-                </li>
-                <li>
-                  <a href='mailto:news@greenruby.org'>Contact</a>
-                </li>
-                <li>
-                  <a href='http://twitter.com/greenrubist'>@greenrubist</a>
-                </li>
-              </ul>
-            </div>
-            <div class='column'>
-              <div id="templateContainer">
-              <div id="templateHeader">
-              <h1>#010 - apr 13th 2013</div>
-              </div>
-              <div id="templateBody">
-              <div>
-              	<div class="baseline">
-              	<h3>Edito</h3>
-              	This is the 10th edition of this newsletter. This is a digit rotation and in the species of newsletters it's the exit from childhood. Woohoo. Here is a special note for the web geeks in Taiwan : <a href="http://registrano.com/events/jsdc2013">the registration</a> for <a href="http://jsdc.tw">JSDC</a> open this monday at 11 am, be quick usually it's full in one or 2 hours.
-              <br>
-              <br>
-              <em>&nbsp; mose - the green ruby editor</em><br>
-              <em>&nbsp;
-              
-              	xenor - the informer
-              
-              </em><br>
-              &nbsp; <a href="http://greenruby.org" target="_self">http://greenruby.org</a>
-              <br>
-              </div>
-              
-              
-              <h2>Listen</h2>
-              <div class="baseline">What could be heard last week ..</div>
-              <table cellpadding="0" cellspacing="0" border="0" class="meat">
-              	
-              		<tr>
-              			<td>
-              				<a href="http://rubyrogues.com/100-rr-100th-episode-behind-the-scenes-with-the-ruby-rogues/">RubyRogues 100</a>
-              				<span class="duration">(1h10)</span>
-              			</td>
-              			<td class="date">
-              				apr 10
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				for the digit rotation, the rogues reveal some of their kitchen stories.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://ruby5.envylabs.com/episodes/364-episode-360-april-9th-2013">Ruby5 360</a>
-              				<span class="duration">(5m)</span>
-              			</td>
-              			<td class="date">
-              				apr 9
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				big ruby, tyne tickets, api tricks, rvm gemsets, thecomment, identity cache, code hulk.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://ruby5.envylabs.com/episodes/365-episode-361-april-12th-2013">Ruby5 361</a>
-              				<span class="duration">(5m)</span>
-              			</td>
-              			<td class="date">
-              				apr 12
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				bitcoin, pairprogrammwith, decaf, multiblock, sponges, rubocop, vim-rspec, module prepend.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://www.wideteams.com/2013/04/10/episode-77-interview-with-elliot-rodriguez/">Wide teams 77</a>
-              				<span class="duration">(17m)</span>
-              			</td>
-              			<td class="date">
-              				apr 10
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				the podcast from Avdi Grimm. Also check his new site promoting <a href="http://www.pairprogramwith.me/">remote pair programming</a>.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://rubyfreelancers.com/the-ruby-freelancers-show-056-learning-on-the-job/">Ruby freelancer 056</a>
-              				<span class="duration">(47m)</span>
-              			</td>
-              			<td class="date">
-              				apr 11
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				more tips about freelancing in general, with ruby in particular.
-              			</td>
-              		</tr>
-              	
-              </table>
-              
-              <h2>Watch</h2>
-              <div class="baseline">Screencasts and conferences videos, or other video feeds ...</div>
-              <table cellpadding="0" cellspacing="0" border="0" class="meat">
-              	
-              		<tr>
-              			<td>
-              				<a href="http://confreaks.com/events/larubyconf2013">Los Angeles Ruby Conf</a>
-              				<span class="duration">(9 talks)</span>
-              			</td>
-              			<td class="date">
-              				apr 9
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				another great serie of talks on confreaks.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://marakana.com/s/post/1432/how_fast_are_we_going_now_web_performance_Steve_Souders_video">Html5 : how fast are we going</a>
-              				<span class="duration">(48m)</span>
-              			</td>
-              			<td class="date">
-              				apr 9
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				a talk about web performance and recent statistics at html5devconf.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://www.youtube.com/watch?v=GgvEcgeNI9A">Javascript weekly 124</a>
-              				<span class="duration">(4m)</span>
-              			</td>
-              			<td class="date">
-              				apr 7
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				someone made a video version of the well-known javascript weekly newsletter.
-              			</td>
-              		</tr>
-              	
-              </table>
-              
-              <h2>Read</h2>
-              <div class="baseline">From the blogosphere or news feeds ...</div>
-              <table cellpadding="0" cellspacing="0" border="0" class="meat">
-              	
-              		<tr>
-              			<td>
-              				<a href="http://rubydaily.org">Ruby Daily</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				This is a recent content selection website dedicated to ruby and web development, that began this month.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://www.naildrivin5.com/blog/2013/04/10/the-painful-world-of-javascript-testing.html">Testing with jasmine-rails</a>
-              				
-              			</td>
-              			<td class="date">
-              				apr 10
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				the painful world of javascript testing, an interesting report.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://rubysource.com/rubys-missing-data-structure/">Ruby's missing data structure</a>
-              				
-              			</td>
-              			<td class="date">
-              				apr 10
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				a very deep article from Pat Shaughnessy about linked lists.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://spin.atomicobject.com/2013/04/11/tmux-key-binding-scripting/">Scripting Tmux key bindings</a>
-              				
-              			</td>
-              			<td class="date">
-              				apr 11
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				 to add custom key bindings to tmux.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://joncairns.com/2013/04/fat-model-skinny-controller-is-a-load-of-rubbish">Fat model, skinny controller, is a load of rubbish</a>
-              				
-              			</td>
-              			<td class="date">
-              				apr 11
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				a good point about the fact that no class should be fat, even models in rails.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://www.sitepoint.com/using-web-workers-to-improve-image-manipulation-performance/">Using web workers to improve client-side power</a>
-              				
-              			</td>
-              			<td class="date">
-              				apr 7
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				an example of using web workers for backgrounding image manipulation task client side.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://www.devmynd.com/blog/2013-4-inheriting-from-built-in-ruby-types">Inheriting from build-in types in ruby</a>
-              				
-              			</td>
-              			<td class="date">
-              				apr 12
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				description of a good way to think about refactoring and making models slimmer.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://victorsavkin.com/post/47195662611/using-javascript-to-rescue-legacy-rails-applications">Using javascript to rescue legacy rails applications</a>
-              				
-              			</td>
-              			<td class="date">
-              				apr 7
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				a refactoring technique for a very common case.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="https://blog.engineyard.com/2013/learning-rails-and-ruby">Learning rails (and ruby) </a>
-              				
-              			</td>
-              			<td class="date">
-              				apr 8
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				a story about what a php expert learns by going to rails.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="https://github.com/rails/gsoc2013/wiki/Ideas">Rails at GSOC</a>
-              				
-              			</td>
-              			<td class="date">
-              				apr 10
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				checkout the ideas proposed for Rails at Google summer of code.
-              			</td>
-              		</tr>
-              	
-              </table>
-              
-              <h2>Install</h2>
-              <div class="baseline">A selection of gems or applications updated during past week.</div>
-              <table cellpadding="0" cellspacing="0" border="0" class="meat">
-              	
-              		<tr>
-              			<td>
-              				<a href="https://github.com/bbatsov/rubocop">Rubocop</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				is enforcing your ruby styling according to the <a href="https://github.com/bbatsov/ruby-style-guide">style guide</a>.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="https://github.com/AF83/sponges">Sponges</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				is a demons herder, just release version 1.0.0
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://trydecaf.org/dom/">Decaf</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				to run ruby in the browser like if it was javascript
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://divshot.github.io/geo-bootstrap">Geo bootstrap</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				is a bit of nostalgy, a vintage bootstrap fro the ages of geocities
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://mindmup.github.io/bootstrap-wysiwyg/">Bootstrap wysiwyg</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				is a tiny rich editor that fits in bootstrap-based css
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="https://github.com/redjazz96/orator">Orator</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				is a websocket server integrated in rails applications
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="https://github.com/fatih/subvim">Subvim</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				after the vim plugin in sublimetext, here is the sublimetext plugin for vim
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="https://github.com/FooBarWidget/passenger">Passenger</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				just released the rc6 of their version 4.0.0
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="https://github.com/jtrupiano/rack-rewrite">Rack-rewrite</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				is doing almost much what the apache rewrite rules do
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="https://github.com/Couto/groundskeeper">Groundkeeper</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				a node tool to remove forgotten console.log() from js files (here is what I need in my capistrano recipe)
-              			</td>
-              		</tr>
-              	
-              </table>
-              
-              <h2>Use</h2>
-              <div class="baseline">It's hard to pass it, there are so many Saas out there. This week again, some more API-focused services.</div>
-              <table cellpadding="0" cellspacing="0" border="0" class="meat">
-              	
-              		<tr>
-              			<td>
-              				<a href="https://www.gemlou.pe/">Gem loupe</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				A tool to visualize the full dependencies tree of gems on rubygems.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://www.uxapprentice.com">UX apprentice</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				A small multi-step introduction to UX design
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://geekli.st">Geeklist</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				Seriously, if you are not there yet, you should, this is social media for geeks.
-              			</td>
-              		</tr>
-              	
-              </table>
-              
-              <h2>Play</h2>
-              <div class="baseline"></div>
-              <table cellpadding="0" cellspacing="0" border="0" class="meat">
-              	
-              		<tr>
-              			<td>
-              				<a href="https://github.com/will">This guy is doing Contribution Graph Art</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				of course, those are not real commits, that's cheating but still the idea is playful.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://codehulk.lunarlogicpolska.com">Code Hulk</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				 like a role playing game where you can pass one screen to another by solving programming challenges (in any language).
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://fightcodegame.com/">Fight Code</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				lets you design your javascript robot and fight against other javascript robot (tank-like robot, actually).
-              			</td>
-              		</tr>
-              	
-              </table>
-              
-              </div>
-            </div>
+          <div id="templateBody">
+          <div>
+          	<div class="baseline">
+          	<h2>Edito</h2>
+          	This is the 10th edition of this newsletter. This is a digit rotation and in the species of newsletters it's the exit from childhood. Woohoo. Here is a special note for the web geeks in Taiwan : <a href="http://registrano.com/events/jsdc2013">the registration</a> for <a href="http://jsdc.tw">JSDC</a> open this monday at 11 am, be quick usually it's full in one or 2 hours.
+          <br>
+          <br>
+          <em>&nbsp; mose - the green ruby editor</em><br>
+          <em>&nbsp;
+          
+          	xenor - the informer
+          
+          </em><br>
+          &nbsp; <a href="http://greenruby.org" target="_self">http://greenruby.org</a>
+          <br>
           </div>
-          <div id='footer'>
-            <a class='contact' href='mailto:news@greenruby.org'>
-              contact
-            </a>
-            The Green Ruby Newsletter is published by <a href="http://mose.com">Mose</a>
-            <div class='copyright'>
-              Copyright &copy; 2013-2014 Mose
-              <a href='http://creativecommons.org/licenses/by-sa/3.0/' rel='license'>
-                <img alt='Creative Commons License' src='http://i.creativecommons.org/l/by-sa/3.0/80x15.png' style='border-width:0'>
-              </a>
-            </div>
+          
+          
+          <h3>Listen</h3>
+          <div class="baseline">What could be heard last week ..</div>
+          <table cellpadding="0" cellspacing="0" border="0" class="meat">
+          	
+          		<tr>
+          			<td>
+          				<a href="http://rubyrogues.com/100-rr-100th-episode-behind-the-scenes-with-the-ruby-rogues/" class="linktitle">RubyRogues 100</a>
+          				<span class="duration">(1h10)</span>
+          			</td>
+          			<td class="date">
+          				apr 10
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				for the digit rotation, the rogues reveal some of their kitchen stories.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://ruby5.envylabs.com/episodes/364-episode-360-april-9th-2013" class="linktitle">Ruby5 360</a>
+          				<span class="duration">(5m)</span>
+          			</td>
+          			<td class="date">
+          				apr 9
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				big ruby, tyne tickets, api tricks, rvm gemsets, thecomment, identity cache, code hulk.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://ruby5.envylabs.com/episodes/365-episode-361-april-12th-2013" class="linktitle">Ruby5 361</a>
+          				<span class="duration">(5m)</span>
+          			</td>
+          			<td class="date">
+          				apr 12
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				bitcoin, pairprogrammwith, decaf, multiblock, sponges, rubocop, vim-rspec, module prepend.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://www.wideteams.com/2013/04/10/episode-77-interview-with-elliot-rodriguez/" class="linktitle">Wide teams 77</a>
+          				<span class="duration">(17m)</span>
+          			</td>
+          			<td class="date">
+          				apr 10
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				the podcast from Avdi Grimm. Also check his new site promoting <a href="http://www.pairprogramwith.me/">remote pair programming</a>.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://rubyfreelancers.com/the-ruby-freelancers-show-056-learning-on-the-job/" class="linktitle">Ruby freelancer 056</a>
+          				<span class="duration">(47m)</span>
+          			</td>
+          			<td class="date">
+          				apr 11
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				more tips about freelancing in general, with ruby in particular.
+          			</td>
+          		</tr>
+          	
+          </table>
+          
+          <h3>Watch</h3>
+          <div class="baseline">Screencasts and conferences videos, or other video feeds ...</div>
+          <table cellpadding="0" cellspacing="0" border="0" class="meat">
+          	
+          		<tr>
+          			<td>
+          				<a href="http://confreaks.com/events/larubyconf2013" class="linktitle">Los Angeles Ruby Conf</a>
+          				<span class="duration">(9 talks)</span>
+          			</td>
+          			<td class="date">
+          				apr 9
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				another great serie of talks on confreaks.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://marakana.com/s/post/1432/how_fast_are_we_going_now_web_performance_Steve_Souders_video" class="linktitle">Html5 : how fast are we going</a>
+          				<span class="duration">(48m)</span>
+          			</td>
+          			<td class="date">
+          				apr 9
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				a talk about web performance and recent statistics at html5devconf.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://www.youtube.com/watch?v=GgvEcgeNI9A" class="linktitle">Javascript weekly 124</a>
+          				<span class="duration">(4m)</span>
+          			</td>
+          			<td class="date">
+          				apr 7
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				someone made a video version of the well-known javascript weekly newsletter.
+          			</td>
+          		</tr>
+          	
+          </table>
+          
+          <h3>Read</h3>
+          <div class="baseline">From the blogosphere or news feeds ...</div>
+          <table cellpadding="0" cellspacing="0" border="0" class="meat">
+          	
+          		<tr>
+          			<td>
+          				<a href="http://rubydaily.org" class="linktitle">Ruby Daily</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				This is a recent content selection website dedicated to ruby and web development, that began this month.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://www.naildrivin5.com/blog/2013/04/10/the-painful-world-of-javascript-testing.html" class="linktitle">Testing with jasmine-rails</a>
+          				
+          			</td>
+          			<td class="date">
+          				apr 10
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				the painful world of javascript testing, an interesting report.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://rubysource.com/rubys-missing-data-structure/" class="linktitle">Ruby's missing data structure</a>
+          				
+          			</td>
+          			<td class="date">
+          				apr 10
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				a very deep article from Pat Shaughnessy about linked lists.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://spin.atomicobject.com/2013/04/11/tmux-key-binding-scripting/" class="linktitle">Scripting Tmux key bindings</a>
+          				
+          			</td>
+          			<td class="date">
+          				apr 11
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				 to add custom key bindings to tmux.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://joncairns.com/2013/04/fat-model-skinny-controller-is-a-load-of-rubbish" class="linktitle">Fat model, skinny controller, is a load of rubbish</a>
+          				
+          			</td>
+          			<td class="date">
+          				apr 11
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				a good point about the fact that no class should be fat, even models in rails.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://www.sitepoint.com/using-web-workers-to-improve-image-manipulation-performance/" class="linktitle">Using web workers to improve client-side power</a>
+          				
+          			</td>
+          			<td class="date">
+          				apr 7
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				an example of using web workers for backgrounding image manipulation task client side.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://www.devmynd.com/blog/2013-4-inheriting-from-built-in-ruby-types" class="linktitle">Inheriting from build-in types in ruby</a>
+          				
+          			</td>
+          			<td class="date">
+          				apr 12
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				description of a good way to think about refactoring and making models slimmer.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://victorsavkin.com/post/47195662611/using-javascript-to-rescue-legacy-rails-applications" class="linktitle">Using javascript to rescue legacy rails applications</a>
+          				
+          			</td>
+          			<td class="date">
+          				apr 7
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				a refactoring technique for a very common case.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="https://blog.engineyard.com/2013/learning-rails-and-ruby" class="linktitle">Learning rails (and ruby) </a>
+          				
+          			</td>
+          			<td class="date">
+          				apr 8
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				a story about what a php expert learns by going to rails.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="https://github.com/rails/gsoc2013/wiki/Ideas" class="linktitle">Rails at GSOC</a>
+          				
+          			</td>
+          			<td class="date">
+          				apr 10
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				checkout the ideas proposed for Rails at Google summer of code.
+          			</td>
+          		</tr>
+          	
+          </table>
+          
+          <h3>Install</h3>
+          <div class="baseline">A selection of gems or applications updated during past week.</div>
+          <table cellpadding="0" cellspacing="0" border="0" class="meat">
+          	
+          		<tr>
+          			<td>
+          				<a href="https://github.com/bbatsov/rubocop" class="linktitle">Rubocop</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				is enforcing your ruby styling according to the <a href="https://github.com/bbatsov/ruby-style-guide">style guide</a>.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="https://github.com/AF83/sponges" class="linktitle">Sponges</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				is a demons herder, just release version 1.0.0
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://trydecaf.org/dom/" class="linktitle">Decaf</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				to run ruby in the browser like if it was javascript
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://divshot.github.io/geo-bootstrap" class="linktitle">Geo bootstrap</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				is a bit of nostalgy, a vintage bootstrap fro the ages of geocities
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://mindmup.github.io/bootstrap-wysiwyg/" class="linktitle">Bootstrap wysiwyg</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				is a tiny rich editor that fits in bootstrap-based css
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="https://github.com/redjazz96/orator" class="linktitle">Orator</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				is a websocket server integrated in rails applications
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="https://github.com/fatih/subvim" class="linktitle">Subvim</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				after the vim plugin in sublimetext, here is the sublimetext plugin for vim
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="https://github.com/FooBarWidget/passenger" class="linktitle">Passenger</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				just released the rc6 of their version 4.0.0
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="https://github.com/jtrupiano/rack-rewrite" class="linktitle">Rack-rewrite</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				is doing almost much what the apache rewrite rules do
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="https://github.com/Couto/groundskeeper" class="linktitle">Groundkeeper</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				a node tool to remove forgotten console.log() from js files (here is what I need in my capistrano recipe)
+          			</td>
+          		</tr>
+          	
+          </table>
+          
+          <h3>Use</h3>
+          <div class="baseline">It's hard to pass it, there are so many Saas out there. This week again, some more API-focused services.</div>
+          <table cellpadding="0" cellspacing="0" border="0" class="meat">
+          	
+          		<tr>
+          			<td>
+          				<a href="https://www.gemlou.pe/" class="linktitle">Gem loupe</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				A tool to visualize the full dependencies tree of gems on rubygems.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://www.uxapprentice.com" class="linktitle">UX apprentice</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				A small multi-step introduction to UX design
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://geekli.st" class="linktitle">Geeklist</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				Seriously, if you are not there yet, you should, this is social media for geeks.
+          			</td>
+          		</tr>
+          	
+          </table>
+          
+          <h3>Play</h3>
+          <div class="baseline"></div>
+          <table cellpadding="0" cellspacing="0" border="0" class="meat">
+          	
+          		<tr>
+          			<td>
+          				<a href="https://github.com/will" class="linktitle">This guy is doing Contribution Graph Art</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				of course, those are not real commits, that's cheating but still the idea is playful.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://codehulk.lunarlogicpolska.com" class="linktitle">Code Hulk</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				 like a role playing game where you can pass one screen to another by solving programming challenges (in any language).
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://fightcodegame.com/" class="linktitle">Fight Code</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				lets you design your javascript robot and fight against other javascript robot (tank-like robot, actually).
+          			</td>
+          		</tr>
+          	
+          </table>
+          
+          </div>
           </div>
         </div>
+        <div class='col-sm-4 col-md-3 rightbar'>
+          <blockquote>
+            <p>Green Ruby News is a feed of fresh links of the week about ruby, javascript, webdev, devops, collected by mose every sunday.</p>
+            <p></p>
+            <form action='http://codegreenit.us6.list-manage1.com/subscribe/post?u=f1b3b59d2383eeb07537f6440&amp;amp;id=7136c985cf'>
+              <div class='text-center'>
+                <b>Subscribe</b>
+              </div>
+              <div class='text-center'>
+                to the
+              </div>
+              <div class='text-center'>
+                <b>weekly newsletter</b>
+              </div>
+              <p></p>
+              <p>
+                <input class='form-control' name='EMAIL' placeholder='email address' type='email'>
+                <input class='form-control btn btn-primary' type='submit' value='Subscribe'>
+              </p>
+            </form>
+          </blockquote>
+          <small class='text-center'>Email distribution is powered by mailchimp.</small>
+        </div>
+      </div>
+    </div>
+    <div id='footer'>
+      <a class='contact' href='mailto:news@greenruby.org'>
+        contact
+      </a>
+      The Green Ruby Newsletter is published by <a href="http://mose.com">Mose</a>
+      <div class='copyright'>
+        Copyright &copy; 2013-2014 Mose
+        <a href='http://creativecommons.org/licenses/by-sa/3.0/' rel='license'>
+          <img alt='Creative Commons License' src='http://i.creativecommons.org/l/by-sa/3.0/80x15.png' style='border-width:0'>
+        </a>
       </div>
     </div>
     <script src='//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script>

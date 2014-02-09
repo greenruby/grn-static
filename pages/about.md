@@ -25,13 +25,13 @@ and organicaly it's growing slowly.
 
 ## The redactor gear
 
-A first Codegreen paid for my [Newsblur][3] account so I can follow a bunch of feeds. 
-Google reader was my first tool but well, they have closed, and actually Newsblur was much 
-better. It's open source and the guy that makes it does a great job (too bad it's in 
+A first Codegreen paid for my [Newsblur][3] account so I can follow a bunch of feeds.
+Google reader was my first tool but well, they have closed, and actually Newsblur was much
+better. It's open source and the guy that makes it does a great job (too bad it's in
 python and not in ruby).
 
-After some time I diversified my tools for gathering news. My mailbox is where I get 
-most of the links, but I also use Feedspot, Prismatic, and a bunch of bookmarks that 
+After some time I diversified my tools for gathering news. My mailbox is where I get
+most of the links, but I also use Feedspot, Prismatic, and a bunch of bookmarks that
 I check every week.
 
 I'm also loading a bunch of podcasts on my phone and after having tried a lot of
@@ -48,18 +48,18 @@ feeds from [@rubygems-alt][12] and I retweet stuff of interest on [@mo5e][17], [
 Each week [William][14] (aka xenor) also sends me a list of links. I definately
 don't use any facebook feeds. For some reason, this is a place I avoid the most I can.
 
-## First year 
+## First year
 
 One year passed. Not one week came without its pubication. It became a sunday routine for me,
 with various benifits for myself and my friends. Few people subscribed each week from the website.
 
 There have been various attempts to automate the publication tool, using ember, or other toys.
-But the most reliable toolset ended up being a couple of rake tasks for producing the mailchimp 
-template and the website content. Some hope can be preserved about the evolution of the platform, 
-but I have been busy quite a bunch, changing job, as well as xenor, that helped me with some links 
+But the most reliable toolset ended up being a couple of rake tasks for producing the mailchimp
+template and the website content. Some hope can be preserved about the evolution of the platform,
+but I have been busy quite a bunch, changing job, as well as xenor, that helped me with some links
 each weeks.
 
-The non-commercial aspect of this media is stronger than ever. It's actually too small scale to 
+The non-commercial aspect of this media is stronger than ever. It's actually too small scale to
 have any cost. Mailchimp still is free for so few subscribers.
 
 [mose][42]

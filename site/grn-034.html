@@ -16,677 +16,691 @@
     <meta content='ruby rails, newsletter, webdev, js, javascript, geeks, podcasts, links.' name='keywords'>
     <meta content='width=device-width, minimum-scale=1.0, maximum-scale=1.0' name='viewport'>
     <link href='feed.rss' rel='alternate' title='Green Ruby' type='application/atom+xml'>
-    <link href='css/screen.css' rel='stylesheet'>
+    <link href='css/bootstrap.min.css' rel='stylesheet'>
+    <link href='css/bootstrap-theme.min.css' rel='stylesheet'>
+    <link href='css/grn2.css' rel='stylesheet'>
     <script src='js/vendor/modernizr-2.6.2-respond-1.1.0.min.js'></script>
   </head>
   <body>
     <!--[if lt IE 7]>
       <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
     <![endif]-->
-    <div id='container'>
-      <div id='wrapper'>
-        <div id='titlebar'>
-          <div id='logo'>
-            <img alt='Green Ruby' height='81' src='img/green-ruby-100.png' width='100'>
-          </div>
-          <h1 class='head'>
+    <div class='navbar navbar-fixed-top topnav'>
+      <div class='container'>
+        <div class='navbar-header'>
+          <button class='navbar-toggle' data-target='.navbar-collapse' data-toggle='collapse'>
+            <span class='sr-only'>Toggle navigation</span>
+            <span class='icon-bar'></span>
+            <span class='icon-bar'></span>
+            <span class='icon-bar'></span>
+          </button>
+          <a class='navbar-brand logoized' href='index.html'>
             Green Ruby News
-          </h1>
+          </a>
         </div>
-        <div class='cell'>
-          <div id='intro'>
-            This is a curated feed of fresh links of the week <br />
-            about ruby, javascript, webdev and devops. Watch out every sunday.
+        <div class='navbar-collapse collapse'>
+          <ul class='nav navbar-nav'>
+            <li>
+              <a href='index.html'>Home</a>
+            </li>
+            <li>
+              <a href='about.html'>About</a>
+            </li>
+            <li>
+              <a href='http://cdb.io/1mkiq9K'>Map</a>
+            </li>
+            <li>
+              <a href='https://github.com/greenruby/grn-static'>Source</a>
+            </li>
+            <li>
+              <a href='mailto:news@greenruby.org'>Contact</a>
+            </li>
+            <li>
+              <a href='http://twitter.com/greenrubist'>@greenrubist</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class='container'>
+      <div class='row'>
+        <div class='col-sm-3 col-md-2 leftbar'>
+          <h3>Archives</h3>
+          <ul class='nav nav-sidebar letters'></ul>
+        </div>
+        <div class='col-sm-5 col-md-7 main'>
+          <div id="templateContainer">
+          <div id="templateHeader">
+          <h1>#034 - sep 29th 2013</div>
           </div>
-          <div id='content'>
-            <div class='nav'>
-              <ul>
-                <li>
-                  <a href='index.html'>Home</a>
-                </li>
-                <li>
-                  <a href='about.html'>About</a>
-                </li>
-                <li>
-                  <a href='http://cdb.io/1mkiq9K'>Map of subscribers</a>
-                </li>
-              </ul>
-              <form action='http://codegreenit.us6.list-manage1.com/subscribe/post?u=f1b3b59d2383eeb07537f6440&amp;amp;id=7136c985cf' id='signup' method='post' target='_blank'>
-                <div class='label'>Weekly Newsletter</div>
-                <input class='email' name='EMAIL' placeholder='email address' type='email'>
-                <input class='button' name='subscribe' type='submit' value='Subscribe'>
-              </form>
-              <h4>
-                <a alt='rss' href='feed.rss' style='float:right;'>
-                  <img src='img/rss.png'>
-                </a>
-                Archives
-              </h4>
-              <ul class='letters'></ul>
-              <h4>More</h4>
-              <ul>
-                <li>
-                  <a href='https://github.com/greenruby/grn-static'>Source</a>
-                </li>
-                <li>
-                  <a href='mailto:news@greenruby.org'>Contact</a>
-                </li>
-                <li>
-                  <a href='http://twitter.com/greenrubist'>@greenrubist</a>
-                </li>
-              </ul>
-            </div>
-            <div class='column'>
-              <div id="templateContainer">
-              <div id="templateHeader">
-              <h1>#034 - sep 29th 2013</div>
-              </div>
-              <div id="templateBody">
-              <div>
-              	<div class="baseline">
-              	<h3>Edito</h3>
-              	A lot of learning links this week. And also a bunch of news, about ruby 2.1, google analytics dropping ie8 support, plus the usual cocktail of links. There is also some non-webdev links related to topics that I just like to spread around, like go or arduino-like toys).
-              <br>
-              <br>
-              <em>&nbsp; mose - the green ruby editor</em><br>
-              <em>&nbsp;
-              
-              	xenor - the informer
-              
-              </em><br>
-              &nbsp; <a href="http://greenruby.org" target="_self">http://greenruby.org</a>
-              <br>
-              </div>
-              
-              
-              <h2>Look</h2>
-              <div class="baseline">Examples of UI/UX, graphic performance, web design and flashy things.</div>
-              <table cellpadding="0" cellspacing="0" border="0" class="meat">
-              	
-              		<tr>
-              			<td>
-              				<a href="http://maroslaw.github.io/rainyday.js/demo1.html">Rainy day</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				cool js effect on water drops.
-              			</td>
-              		</tr>
-              	
-              </table>
-              
-              <h2>Use</h2>
-              <div class="baseline">Web applications, resources and tools, available for making our life easier or funnier.</div>
-              <table cellpadding="0" cellspacing="0" border="0" class="meat">
-              	
-              		<tr>
-              			<td>
-              				<a href="http://www.feedspot.com/">Feedspot</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              					
-              						<img class="icon" src="ico/tool.png" height="18" width="18" align="right" alt="tool" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				Another after-reader RSS collection tool, that I'm currently testing, not bad.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://www.codewars.com/">Code Wars</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              					
-              						<img class="icon" src="ico/tool.png" height="18" width="18" align="right" alt="tool" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				Another coder game based on challenges in js, coffee or ruby.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://nodeschool.io/">Node School</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              					
-              						<img class="icon" src="ico/tool.png" height="18" width="18" align="right" alt="tool" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				Learn node.js with interactive lessons.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://www.vimgenius.com/">Vim Genius</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              					
-              						<img class="icon" src="ico/tool.png" height="18" width="18" align="right" alt="tool" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				A game for improving your vim fluency.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://www.hackify.org/">Hackify</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              					
-              						<img class="icon" src="ico/tool.png" height="18" width="18" align="right" alt="tool" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				Stop hacking alone.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://www.bentobox.io/">Bento</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              					
-              						<img class="icon" src="ico/tool.png" height="18" width="18" align="right" alt="tool" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				A list of links per category about lerning web development and other related topics.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://www.kickstarter.com/projects/microduino/microduino-arduino-in-your-pocket-small-stackable">Microduino</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              					
-              						<img class="icon" src="ico/tool.png" height="18" width="18" align="right" alt="tool" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				This kickstarter project looks amazing, and the hardware is really tiny.
-              			</td>
-              		</tr>
-              	
-              </table>
-              
-              <h2>Install</h2>
-              <div class="baseline">A selection of gems or applications updated during past week.</div>
-              <table cellpadding="0" cellspacing="0" border="0" class="meat">
-              	
-              		<tr>
-              			<td>
-              				<a href="http://github.hubspot.com/pace/docs/welcome/">Pace</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              					
-              						<img class="icon" src="ico/js.png" height="18" width="18" align="right" alt="js" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				Automatic page load progress bar with various options.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://www.kennethcachia.com/background-check/">Background checker</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              					
-              						<img class="icon" src="ico/js.png" height="18" width="18" align="right" alt="js" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				Change element color depending on background brightness.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="https://github.com/timoxley/functional-javascript-workshop">Functionnal javascript workshop</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              					
-              						<img class="icon" src="ico/js.png" height="18" width="18" align="right" alt="js" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				A js tutorial in console mode using <a href="https://github.com/rvagg/workshopper">workshopper</a>.
-              			</td>
-              		</tr>
-              	
-              </table>
-              
-              <h2>Read</h2>
-              <div class="baseline">From the blogosphere or news feeds ...</div>
-              <table cellpadding="0" cellspacing="0" border="0" class="meat">
-              	
-              		<tr>
-              			<td>
-              				<a href="http://dev.af83.com/2013/09/14/a-journey-in-golang-package-manager.html">A journey in golang package manager</a>
-              				
-              			</td>
-              			<td class="date">
-              				sep 14
-              				
-              					
-              						<img class="icon" src="ico/go.png" height="18" width="18" align="right" alt="go" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				A quick review of Gom, that tries to fix one big weakness of golang.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://analytics.blogspot.tw/2013/09/supporting-modern-browsing-experience.html">Google Analytics drops IE8 support</a>
-              				
-              			</td>
-              			<td class="date">
-              				sep 16
-              				
-              					
-              						<img class="icon" src="ico/tool.png" height="18" width="18" align="right" alt="tool" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				This is an amazing move for web developers. IE8 will die fast now. muhahaha.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://www.sitepoint.com/rails-security-pitfalls/">Rails Security Pitfalls</a>
-              				
-              			</td>
-              			<td class="date">
-              				sep 23
-              				
-              					
-              						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				A list of common rails security risks and how to take care of them.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://blog.arkency.com/2013/09/throw-away-sprockets-use-unix/">Throw away Sprockets, use UNIX!</a>
-              				
-              			</td>
-              			<td class="date">
-              				sep 23
-              				
-              					
-              						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				An interesting alternative to sprockets for precompiling js files using make and cpp.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://rkh.im/ruby-2.1">About ruby 2.1</a>
-              				
-              			</td>
-              			<td class="date">
-              				sep 24
-              				
-              					
-              						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				Review of the features for the recently announced 2.1 version of ruby.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://www.sitepoint.com/create-multi-user-presentation-reveal-js/">Create a Multi-user Presentation with Reveal.js</a>
-              				
-              			</td>
-              			<td class="date">
-              				sep 26
-              				
-              					
-              						<img class="icon" src="ico/js.png" height="18" width="18" align="right" alt="js" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				A presentation that can be controller by several people at same time.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://www.fastcolabs.com/3018568/why-your-startup-cant-find-developers">Why Your Startup Can’t Find Developers</a>
-              				
-              			</td>
-              			<td class="date">
-              				sep 26
-              				
-              					
-              						<img class="icon" src="ico/web.png" height="18" width="18" align="right" alt="web" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				A view from Hired on the recruitment for tchnical talents in US.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://addyosmani.com/blog/image-optimization-tools/">Tools for image optimization</a>
-              				
-              			</td>
-              			<td class="date">
-              				sep 26
-              				
-              					
-              						<img class="icon" src="ico/web.png" height="18" width="18" align="right" alt="web" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				A good review of many options you have to reduce the size of your web and mobile images.
-              			</td>
-              		</tr>
-              	
-              </table>
-              
-              <h2>Watch</h2>
-              <div class="baseline">Screencasts and conferences videos, or other video feeds ...</div>
-              <table cellpadding="0" cellspacing="0" border="0" class="meat">
-              	
-              		<tr>
-              			<td>
-              				<a href="http://training.github.com/resources/videos/">Github Training</a>
-              				<span class="duration">(9 videos)</span>
-              			</td>
-              			<td class="date">
-              				
-              				
-              					
-              						<img class="icon" src="ico/tool.png" height="18" width="18" align="right" alt="tool" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				Collection of Git training videos from github.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://www.youtube.com/watch?v=zC7o1YkmkG0">Ember 1.0 reusable components</a>
-              				<span class="duration">(44m)</span>
-              			</td>
-              			<td class="date">
-              				sep 19
-              				
-              					
-              						<img class="icon" src="ico/js.png" height="18" width="18" align="right" alt="js" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				How to avoid the angry ball of mud in ember by using UI components.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://www.youtube.com/watch?v=OPBvdsFi7Ss#8m50s">Perf matters</a>
-              				<span class="duration">(3h25)</span>
-              			</td>
-              			<td class="date">
-              				sep 20
-              				
-              					
-              						<img class="icon" src="ico/html5.png" height="18" width="18" align="right" alt="html5" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				Featuring Paul Irish, Colt McAnlis, Jake Archibald, and Paul Lewis about browser perfs.
-              			</td>
-              		</tr>
-              	
-              </table>
-              
-              <h2>Listen</h2>
-              <div class="baseline">What could be heard last week ..</div>
-              <table cellpadding="0" cellspacing="0" border="0" class="meat">
-              	
-              		<tr>
-              			<td>
-              				<a href="https://learn.thoughtbot.com/giantrobots/67">Giant robots 67</a>
-              				<span class="duration">(30m)</span>
-              			</td>
-              			<td class="date">
-              				sep 23
-              				
-              					
-              						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				With Hilary Mason about Data Science, Bitly and Cheeseburgers.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://ruby5.envylabs.com/episodes/441-episode-405-september-24th-2013">Ruby5 405</a>
-              				<span class="duration">(7m)</span>
-              			</td>
-              			<td class="date">
-              				sep 24
-              				
-              					
-              						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				ruby 2.1, in browser rails console, splatting, unix preprocessing, case for cucumber, rake global task.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://rubyrogues.com/124-rr-jruby-with-charlie-nutter/">RubyRogues 124</a>
-              				<span class="duration">(1h07)</span>
-              			</td>
-              			<td class="date">
-              				sep 25
-              				
-              					
-              						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				JRuby with Charlie Nutter.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://5by5.tv/changelog/105">TheChangelog 105</a>
-              				<span class="duration">(56m)</span>
-              			</td>
-              			<td class="date">
-              				sep 26
-              				
-              					
-              						<img class="icon" src="ico/js.png" height="18" width="18" align="right" alt="js" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				Ghost blogging platform with John O'Nolan.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://javascriptjabber.com/077-jsj-monocle-with-alex-maccaw/">Javascript Jabber 077</a>
-              				<span class="duration">(50m)</span>
-              			</td>
-              			<td class="date">
-              				sep 27
-              				
-              					
-              						<img class="icon" src="ico/js.png" height="18" width="18" align="right" alt="js" />
-              					
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				Monocle with Alex MacCaw.
-              			</td>
-              		</tr>
-              	
-              </table>
-              
-              </div>
-            </div>
+          <div id="templateBody">
+          <div>
+          	<div class="baseline">
+          	<h2>Edito</h2>
+          	A lot of learning links this week. And also a bunch of news, about ruby 2.1, google analytics dropping ie8 support, plus the usual cocktail of links. There is also some non-webdev links related to topics that I just like to spread around, like go or arduino-like toys).
+          <br>
+          <br>
+          <em>&nbsp; mose - the green ruby editor</em><br>
+          <em>&nbsp;
+          
+          	xenor - the informer
+          
+          </em><br>
+          &nbsp; <a href="http://greenruby.org" target="_self">http://greenruby.org</a>
+          <br>
           </div>
-          <div id='footer'>
-            <a class='contact' href='mailto:news@greenruby.org'>
-              contact
-            </a>
-            The Green Ruby Newsletter is published by <a href="http://mose.com">Mose</a>
-            <div class='copyright'>
-              Copyright &copy; 2013-2014 Mose
-              <a href='http://creativecommons.org/licenses/by-sa/3.0/' rel='license'>
-                <img alt='Creative Commons License' src='http://i.creativecommons.org/l/by-sa/3.0/80x15.png' style='border-width:0'>
-              </a>
-            </div>
+          
+          
+          <h3>Look</h3>
+          <div class="baseline">Examples of UI/UX, graphic performance, web design and flashy things.</div>
+          <table cellpadding="0" cellspacing="0" border="0" class="meat">
+          	
+          		<tr>
+          			<td>
+          				<a href="http://maroslaw.github.io/rainyday.js/demo1.html" class="linktitle">Rainy day</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				cool js effect on water drops.
+          			</td>
+          		</tr>
+          	
+          </table>
+          
+          <h3>Use</h3>
+          <div class="baseline">Web applications, resources and tools, available for making our life easier or funnier.</div>
+          <table cellpadding="0" cellspacing="0" border="0" class="meat">
+          	
+          		<tr>
+          			<td>
+          				<a href="http://www.feedspot.com/" class="linktitle">Feedspot</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          					
+          						<img class="icon" src="ico/tool.png" height="18" width="18" align="right" alt="tool" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				Another after-reader RSS collection tool, that I'm currently testing, not bad.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://www.codewars.com/" class="linktitle">Code Wars</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          					
+          						<img class="icon" src="ico/tool.png" height="18" width="18" align="right" alt="tool" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				Another coder game based on challenges in js, coffee or ruby.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://nodeschool.io/" class="linktitle">Node School</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          					
+          						<img class="icon" src="ico/tool.png" height="18" width="18" align="right" alt="tool" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				Learn node.js with interactive lessons.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://www.vimgenius.com/" class="linktitle">Vim Genius</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          					
+          						<img class="icon" src="ico/tool.png" height="18" width="18" align="right" alt="tool" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				A game for improving your vim fluency.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://www.hackify.org/" class="linktitle">Hackify</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          					
+          						<img class="icon" src="ico/tool.png" height="18" width="18" align="right" alt="tool" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				Stop hacking alone.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://www.bentobox.io/" class="linktitle">Bento</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          					
+          						<img class="icon" src="ico/tool.png" height="18" width="18" align="right" alt="tool" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				A list of links per category about lerning web development and other related topics.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://www.kickstarter.com/projects/microduino/microduino-arduino-in-your-pocket-small-stackable" class="linktitle">Microduino</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          					
+          						<img class="icon" src="ico/tool.png" height="18" width="18" align="right" alt="tool" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				This kickstarter project looks amazing, and the hardware is really tiny.
+          			</td>
+          		</tr>
+          	
+          </table>
+          
+          <h3>Install</h3>
+          <div class="baseline">A selection of gems or applications updated during past week.</div>
+          <table cellpadding="0" cellspacing="0" border="0" class="meat">
+          	
+          		<tr>
+          			<td>
+          				<a href="http://github.hubspot.com/pace/docs/welcome/" class="linktitle">Pace</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          					
+          						<img class="icon" src="ico/js.png" height="18" width="18" align="right" alt="js" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				Automatic page load progress bar with various options.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://www.kennethcachia.com/background-check/" class="linktitle">Background checker</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          					
+          						<img class="icon" src="ico/js.png" height="18" width="18" align="right" alt="js" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				Change element color depending on background brightness.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="https://github.com/timoxley/functional-javascript-workshop" class="linktitle">Functionnal javascript workshop</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          					
+          						<img class="icon" src="ico/js.png" height="18" width="18" align="right" alt="js" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				A js tutorial in console mode using <a href="https://github.com/rvagg/workshopper">workshopper</a>.
+          			</td>
+          		</tr>
+          	
+          </table>
+          
+          <h3>Read</h3>
+          <div class="baseline">From the blogosphere or news feeds ...</div>
+          <table cellpadding="0" cellspacing="0" border="0" class="meat">
+          	
+          		<tr>
+          			<td>
+          				<a href="http://dev.af83.com/2013/09/14/a-journey-in-golang-package-manager.html" class="linktitle">A journey in golang package manager</a>
+          				
+          			</td>
+          			<td class="date">
+          				sep 14
+          				
+          					
+          						<img class="icon" src="ico/go.png" height="18" width="18" align="right" alt="go" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				A quick review of Gom, that tries to fix one big weakness of golang.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://analytics.blogspot.tw/2013/09/supporting-modern-browsing-experience.html" class="linktitle">Google Analytics drops IE8 support</a>
+          				
+          			</td>
+          			<td class="date">
+          				sep 16
+          				
+          					
+          						<img class="icon" src="ico/tool.png" height="18" width="18" align="right" alt="tool" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				This is an amazing move for web developers. IE8 will die fast now. muhahaha.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://www.sitepoint.com/rails-security-pitfalls/" class="linktitle">Rails Security Pitfalls</a>
+          				
+          			</td>
+          			<td class="date">
+          				sep 23
+          				
+          					
+          						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				A list of common rails security risks and how to take care of them.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://blog.arkency.com/2013/09/throw-away-sprockets-use-unix/" class="linktitle">Throw away Sprockets, use UNIX!</a>
+          				
+          			</td>
+          			<td class="date">
+          				sep 23
+          				
+          					
+          						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				An interesting alternative to sprockets for precompiling js files using make and cpp.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://rkh.im/ruby-2.1" class="linktitle">About ruby 2.1</a>
+          				
+          			</td>
+          			<td class="date">
+          				sep 24
+          				
+          					
+          						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				Review of the features for the recently announced 2.1 version of ruby.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://www.sitepoint.com/create-multi-user-presentation-reveal-js/" class="linktitle">Create a Multi-user Presentation with Reveal.js</a>
+          				
+          			</td>
+          			<td class="date">
+          				sep 26
+          				
+          					
+          						<img class="icon" src="ico/js.png" height="18" width="18" align="right" alt="js" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				A presentation that can be controller by several people at same time.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://www.fastcolabs.com/3018568/why-your-startup-cant-find-developers" class="linktitle">Why Your Startup Can’t Find Developers</a>
+          				
+          			</td>
+          			<td class="date">
+          				sep 26
+          				
+          					
+          						<img class="icon" src="ico/web.png" height="18" width="18" align="right" alt="web" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				A view from Hired on the recruitment for tchnical talents in US.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://addyosmani.com/blog/image-optimization-tools/" class="linktitle">Tools for image optimization</a>
+          				
+          			</td>
+          			<td class="date">
+          				sep 26
+          				
+          					
+          						<img class="icon" src="ico/web.png" height="18" width="18" align="right" alt="web" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				A good review of many options you have to reduce the size of your web and mobile images.
+          			</td>
+          		</tr>
+          	
+          </table>
+          
+          <h3>Watch</h3>
+          <div class="baseline">Screencasts and conferences videos, or other video feeds ...</div>
+          <table cellpadding="0" cellspacing="0" border="0" class="meat">
+          	
+          		<tr>
+          			<td>
+          				<a href="http://training.github.com/resources/videos/" class="linktitle">Github Training</a>
+          				<span class="duration">(9 videos)</span>
+          			</td>
+          			<td class="date">
+          				
+          				
+          					
+          						<img class="icon" src="ico/tool.png" height="18" width="18" align="right" alt="tool" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				Collection of Git training videos from github.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://www.youtube.com/watch?v=zC7o1YkmkG0" class="linktitle">Ember 1.0 reusable components</a>
+          				<span class="duration">(44m)</span>
+          			</td>
+          			<td class="date">
+          				sep 19
+          				
+          					
+          						<img class="icon" src="ico/js.png" height="18" width="18" align="right" alt="js" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				How to avoid the angry ball of mud in ember by using UI components.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://www.youtube.com/watch?v=OPBvdsFi7Ss#8m50s" class="linktitle">Perf matters</a>
+          				<span class="duration">(3h25)</span>
+          			</td>
+          			<td class="date">
+          				sep 20
+          				
+          					
+          						<img class="icon" src="ico/html5.png" height="18" width="18" align="right" alt="html5" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				Featuring Paul Irish, Colt McAnlis, Jake Archibald, and Paul Lewis about browser perfs.
+          			</td>
+          		</tr>
+          	
+          </table>
+          
+          <h3>Listen</h3>
+          <div class="baseline">What could be heard last week ..</div>
+          <table cellpadding="0" cellspacing="0" border="0" class="meat">
+          	
+          		<tr>
+          			<td>
+          				<a href="https://learn.thoughtbot.com/giantrobots/67" class="linktitle">Giant robots 67</a>
+          				<span class="duration">(30m)</span>
+          			</td>
+          			<td class="date">
+          				sep 23
+          				
+          					
+          						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				With Hilary Mason about Data Science, Bitly and Cheeseburgers.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://ruby5.envylabs.com/episodes/441-episode-405-september-24th-2013" class="linktitle">Ruby5 405</a>
+          				<span class="duration">(7m)</span>
+          			</td>
+          			<td class="date">
+          				sep 24
+          				
+          					
+          						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				ruby 2.1, in browser rails console, splatting, unix preprocessing, case for cucumber, rake global task.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://rubyrogues.com/124-rr-jruby-with-charlie-nutter/" class="linktitle">RubyRogues 124</a>
+          				<span class="duration">(1h07)</span>
+          			</td>
+          			<td class="date">
+          				sep 25
+          				
+          					
+          						<img class="icon" src="ico/rb.png" height="18" width="18" align="right" alt="rb" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				JRuby with Charlie Nutter.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://5by5.tv/changelog/105" class="linktitle">TheChangelog 105</a>
+          				<span class="duration">(56m)</span>
+          			</td>
+          			<td class="date">
+          				sep 26
+          				
+          					
+          						<img class="icon" src="ico/js.png" height="18" width="18" align="right" alt="js" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				Ghost blogging platform with John O'Nolan.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://javascriptjabber.com/077-jsj-monocle-with-alex-maccaw/" class="linktitle">Javascript Jabber 077</a>
+          				<span class="duration">(50m)</span>
+          			</td>
+          			<td class="date">
+          				sep 27
+          				
+          					
+          						<img class="icon" src="ico/js.png" height="18" width="18" align="right" alt="js" />
+          					
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				Monocle with Alex MacCaw.
+          			</td>
+          		</tr>
+          	
+          </table>
+          
+          </div>
           </div>
         </div>
+        <div class='col-sm-4 col-md-3 rightbar'>
+          <blockquote>
+            <p>Green Ruby News is a feed of fresh links of the week about ruby, javascript, webdev, devops, collected by mose every sunday.</p>
+            <p></p>
+            <form action='http://codegreenit.us6.list-manage1.com/subscribe/post?u=f1b3b59d2383eeb07537f6440&amp;amp;id=7136c985cf'>
+              <div class='text-center'>
+                <b>Subscribe</b>
+              </div>
+              <div class='text-center'>
+                to the
+              </div>
+              <div class='text-center'>
+                <b>weekly newsletter</b>
+              </div>
+              <p></p>
+              <p>
+                <input class='form-control' name='EMAIL' placeholder='email address' type='email'>
+                <input class='form-control btn btn-primary' type='submit' value='Subscribe'>
+              </p>
+            </form>
+          </blockquote>
+          <small class='text-center'>Email distribution is powered by mailchimp.</small>
+        </div>
+      </div>
+    </div>
+    <div id='footer'>
+      <a class='contact' href='mailto:news@greenruby.org'>
+        contact
+      </a>
+      The Green Ruby Newsletter is published by <a href="http://mose.com">Mose</a>
+      <div class='copyright'>
+        Copyright &copy; 2013-2014 Mose
+        <a href='http://creativecommons.org/licenses/by-sa/3.0/' rel='license'>
+          <img alt='Creative Commons License' src='http://i.creativecommons.org/l/by-sa/3.0/80x15.png' style='border-width:0'>
+        </a>
       </div>
     </div>
     <script src='//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script>

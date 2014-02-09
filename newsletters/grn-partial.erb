@@ -5,7 +5,7 @@
 <div id="templateBody">
 <div>
 	<div class="baseline">
-	<h3>Edito</h3>
+	<h2>Edito</h2>
 	<%= @c.edito %>
 <br>
 <br>
@@ -22,13 +22,13 @@
 </div>
 
 <% @c.topics.each do |t| %>
-<h2><%= t.title %></h2>
+<h3><%= t.title %></h3>
 <div class="baseline"><%= t.baseline %></div>
 <table cellpadding="0" cellspacing="0" border="0" class="meat">
 	<% t.links.each do |l| %>
 		<tr>
 			<td>
-				<a href="<%= l.url %>"><%= l.title %></a>
+				<a href="<%= l.url %>" class="linktitle"><%= l.title %></a>
 				<% if l.duration %><span class="duration">(<%= l.duration %>)</span><% end %>
 			</td>
 			<td class="date">
@@ -48,4 +48,5 @@
 	<% end %>
 </table>
 <% end %>
+</div>
 </div>

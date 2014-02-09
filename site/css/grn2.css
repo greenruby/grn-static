@@ -1,0 +1,111 @@
+/*! normalize.css v3.0.0 | MIT License | git.io/normalize */
+@import url("http://fonts.googleapis.com/css?family=Source+Code+Pro");
+@import url("http://fonts.googleapis.com/css?family=Inder");
+
+body {
+  padding-top: 59px;
+  color: #555555;
+}
+
+.topnav {
+  background-color: #fff;
+  border-bottom: 1px solid #559955;
+}
+
+.logoized {
+  padding-left: 100px;
+  position: relative;
+  height: 58px;
+  background: transparent url("../img/green-ruby-100.png") no-repeat 0px 5px;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.leftbar {
+  background: transparent url("../img/green-ruby-100.png") no-repeat 0px -54px;
+  padding-top: 23px;
+}
+h1, h2, h3 {
+  font-weight: 700;
+  font-family: "inder", monospace;
+}
+h3.sub-header {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #aaaaaa;
+}
+
+.pubdate {
+  float: right;
+  color: #aaaaaa;
+}
+ul.letters li {
+  margin-left: -10px;
+}
+ul.letters li a {
+  font-size: 1.2em;
+  font-family: "source code pro", monospace;
+  font-weight: 700;
+  padding: 2px 10px;
+}
+ul.letters li a span.date {
+  font-size: .8em;
+  float: right;
+  font-family: "inder", monospace;
+  color: #aaa;
+}
+
+
+.main h2 {
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+.main h3 {
+  margin: 0;
+  border-bottom: 1px dotted #999;
+}
+.main blockquote {
+  font-size: 14px;
+  color: #666;
+  border-top: 2px dotted #ccc;
+  padding-top: 10px;
+}
+.main .comment {
+  padding-bottom: 17px;
+}
+.main .date {
+  text-align: right;
+  color: #999;
+}
+.main .date img {
+  position: relative;
+  top: 2px;
+  margin-left: 10px;
+}
+.main .baseline {
+  padding-bottom: 20px;
+}
+.main table {
+  width: 100%;
+}
+.main .linktitle {
+  font-size: 1.2em;
+  font-weight: 700;
+}
+
+#footer {
+  position: relative;
+  padding: 5px 20px;
+  background-color: #000;
+  color: #ccc;
+  font-size: 12px;
+  z-index: 10;
+  margin-bottom: 5%;
+  margin-top: 30px;
+}
+#footer .contact {
+  float: right;
+}
+#footer .copyright {
+  margin-right: 20px;
+  float: left;
+}

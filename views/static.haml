@@ -17,60 +17,72 @@
     %meta{ content: "width=device-width, minimum-scale=1.0, maximum-scale=1.0", name: "viewport" }
 
     %link{ href: "feed.rss", rel: "alternate", title: "Green Ruby", type: "application/atom+xml" }
-    %link{ href: "css/screen.css", rel: "stylesheet" }
+    %link{ href: "css/bootstrap.min.css", rel: "stylesheet" }
+    %link{ href: "css/bootstrap-theme.min.css", rel: "stylesheet" }
+    %link{ href: "css/grn2.css", rel: "stylesheet" }
     %script{ src: "js/vendor/modernizr-2.6.2-respond-1.1.0.min.js" }
   %body
     /[if lt IE 7]
       <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
 
-    #container
-      #wrapper
-        #titlebar
-          #logo
-            %img{ alt: "Green Ruby", height: "81", width: "100", src: "img/green-ruby-100.png"}
-          %h1.head
+    .navbar.navbar-fixed-top.topnav
+      .container
+        .navbar-header
+          %button.navbar-toggle( data-toggle="collapse" data-target=".navbar-collapse")
+            %span.sr-only Toggle navigation
+            %span.icon-bar
+            %span.icon-bar
+            %span.icon-bar
+          %a{ href: 'index.html', class: "navbar-brand logoized"}
             Green Ruby News
-        .cell
-          #intro
-            This is a curated feed of fresh links of the week <br />
-            about ruby, javascript, webdev and devops. Watch out every sunday.
-          #content
-            .nav
-              %ul
-                %li
-                  %a{ href: 'index.html'} Home
-                %li
-                  %a{ href: 'about.html'} About
-                %li
-                  %a{ href: 'http://cdb.io/1mkiq9K' } Map of subscribers
-              %form{ id: "signup", action: "http://codegreenit.us6.list-manage1.com/subscribe/post?u=f1b3b59d2383eeb07537f6440&amp;id=7136c985cf", method: "post", target: "_blank"}
-                .label Weekly Newsletter
-                %input{ class: 'email', name: 'EMAIL', placeholder: 'email address', type: 'email' }
-                %input{ class: 'button', name: 'subscribe', type: 'submit', value: 'Subscribe' }
-              %h4 
-                %a{ href: "feed.rss", style: "float:right;", alt: "rss" }
-                  %img{ src: "img/rss.png"} 
-                Archives
-              %ul.letters
-              %h4 More
-              %ul
-                %li
-                  %a{ href: 'https://github.com/greenruby/grn-static'} Source
-                %li
-                  %a{ href: 'mailto:news@greenruby.org'} Contact
-                %li
-                  %a{ href: 'http://twitter.com/greenrubist'} @greenrubist
+        .navbar-collapse.collapse
+          %ul.nav.navbar-nav
+            %li
+              %a{ href: 'index.html'} Home
+            %li
+              %a{ href: 'about.html'} About
+            %li
+              %a{ href: 'http://cdb.io/1mkiq9K' } Map
+            %li
+              %a{ href: 'https://github.com/greenruby/grn-static'} Source
+            %li
+              %a{ href: 'mailto:news@greenruby.org'} Contact
+            %li
+              %a{ href: 'http://twitter.com/greenrubist'} @greenrubist
+    .container
+      .row
+        .col-sm-3.col-md-2.leftbar
+          %h3 Archives
+          %ul.nav.nav-sidebar.letters
 
-            .column
-              = content
-          #footer
-            %a{ href: 'mailto:news@greenruby.org', class: 'contact'}
-              contact
-            The Green Ruby Newsletter is published by <a href="http://mose.com">Mose</a>
-            .copyright
-              Copyright &copy; 2013-2014 Mose
-              %a( rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/")
-                %img( alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/80x15.png" )
+        .col-sm-5.col-md-7.main
+          = content
+
+        .col-sm-4.col-md-3.rightbar
+          %blockquote
+            %p Green Ruby News is a feed of fresh links of the week about ruby, javascript, webdev, devops, collected by mose every sunday.
+            %p
+            %form{ action: "http://codegreenit.us6.list-manage1.com/subscribe/post?u=f1b3b59d2383eeb07537f6440&amp;id=7136c985cf" }
+              .text-center
+                %b Subscribe
+              .text-center
+                to the
+              .text-center
+                %b weekly newsletter
+              %p
+              %p
+                %input.form-control(name="EMAIL" placeholder="email address" type="email")
+                %input.form-control.btn.btn-primary(type="submit" value="Subscribe")
+          %small.text-center Email distribution is powered by mailchimp.
+
+    #footer
+      %a{ href: 'mailto:news@greenruby.org', class: 'contact'}
+        contact
+      The Green Ruby Newsletter is published by <a href="http://mose.com">Mose</a>
+      .copyright
+        Copyright &copy; 2013-2014 Mose
+        %a( rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/")
+          %img( alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/80x15.png" )
 
     %script{ src: "//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"}
     :javascript

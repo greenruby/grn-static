@@ -16,567 +16,581 @@
     <meta content='ruby rails, newsletter, webdev, js, javascript, geeks, podcasts, links.' name='keywords'>
     <meta content='width=device-width, minimum-scale=1.0, maximum-scale=1.0' name='viewport'>
     <link href='feed.rss' rel='alternate' title='Green Ruby' type='application/atom+xml'>
-    <link href='css/screen.css' rel='stylesheet'>
+    <link href='css/bootstrap.min.css' rel='stylesheet'>
+    <link href='css/bootstrap-theme.min.css' rel='stylesheet'>
+    <link href='css/grn2.css' rel='stylesheet'>
     <script src='js/vendor/modernizr-2.6.2-respond-1.1.0.min.js'></script>
   </head>
   <body>
     <!--[if lt IE 7]>
       <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
     <![endif]-->
-    <div id='container'>
-      <div id='wrapper'>
-        <div id='titlebar'>
-          <div id='logo'>
-            <img alt='Green Ruby' height='81' src='img/green-ruby-100.png' width='100'>
-          </div>
-          <h1 class='head'>
+    <div class='navbar navbar-fixed-top topnav'>
+      <div class='container'>
+        <div class='navbar-header'>
+          <button class='navbar-toggle' data-target='.navbar-collapse' data-toggle='collapse'>
+            <span class='sr-only'>Toggle navigation</span>
+            <span class='icon-bar'></span>
+            <span class='icon-bar'></span>
+            <span class='icon-bar'></span>
+          </button>
+          <a class='navbar-brand logoized' href='index.html'>
             Green Ruby News
-          </h1>
+          </a>
         </div>
-        <div class='cell'>
-          <div id='intro'>
-            This is a curated feed of fresh links of the week <br />
-            about ruby, javascript, webdev and devops. Watch out every sunday.
+        <div class='navbar-collapse collapse'>
+          <ul class='nav navbar-nav'>
+            <li>
+              <a href='index.html'>Home</a>
+            </li>
+            <li>
+              <a href='about.html'>About</a>
+            </li>
+            <li>
+              <a href='http://cdb.io/1mkiq9K'>Map</a>
+            </li>
+            <li>
+              <a href='https://github.com/greenruby/grn-static'>Source</a>
+            </li>
+            <li>
+              <a href='mailto:news@greenruby.org'>Contact</a>
+            </li>
+            <li>
+              <a href='http://twitter.com/greenrubist'>@greenrubist</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class='container'>
+      <div class='row'>
+        <div class='col-sm-3 col-md-2 leftbar'>
+          <h3>Archives</h3>
+          <ul class='nav nav-sidebar letters'></ul>
+        </div>
+        <div class='col-sm-5 col-md-7 main'>
+          <div id="templateContainer">
+          <div id="templateHeader">
+          <h1>#004 - mar 2nd 2013</div>
           </div>
-          <div id='content'>
-            <div class='nav'>
-              <ul>
-                <li>
-                  <a href='index.html'>Home</a>
-                </li>
-                <li>
-                  <a href='about.html'>About</a>
-                </li>
-                <li>
-                  <a href='http://cdb.io/1mkiq9K'>Map of subscribers</a>
-                </li>
-              </ul>
-              <form action='http://codegreenit.us6.list-manage1.com/subscribe/post?u=f1b3b59d2383eeb07537f6440&amp;amp;id=7136c985cf' id='signup' method='post' target='_blank'>
-                <div class='label'>Weekly Newsletter</div>
-                <input class='email' name='EMAIL' placeholder='email address' type='email'>
-                <input class='button' name='subscribe' type='submit' value='Subscribe'>
-              </form>
-              <h4>
-                <a alt='rss' href='feed.rss' style='float:right;'>
-                  <img src='img/rss.png'>
-                </a>
-                Archives
-              </h4>
-              <ul class='letters'></ul>
-              <h4>More</h4>
-              <ul>
-                <li>
-                  <a href='https://github.com/greenruby/grn-static'>Source</a>
-                </li>
-                <li>
-                  <a href='mailto:news@greenruby.org'>Contact</a>
-                </li>
-                <li>
-                  <a href='http://twitter.com/greenrubist'>@greenrubist</a>
-                </li>
-              </ul>
-            </div>
-            <div class='column'>
-              <div id="templateContainer">
-              <div id="templateHeader">
-              <h1>#004 - mar 2nd 2013</div>
-              </div>
-              <div id="templateBody">
-              <div>
-              	<div class="baseline">
-              	<h3>Edito</h3>
-              	The ruby 2.0 release last week triggered a lot of other releases, with rubygems 2.0, passenger, rails, rspec, devise, rack, hobo, and many others. There is also some a rush on pull requests on ruby projects as people jump on ruby 2 and fix compatibilities issues on the way. A very interesting week.
-              <br>
-              <br>
-              <em>&nbsp; mose - the green ruby editor</em><br>
-              <em>&nbsp;
-              
-              	xenor - the informer
-              
-              </em><br>
-              &nbsp; <a href="http://greenruby.org" target="_self">http://greenruby.org</a>
-              <br>
-              </div>
-              
-              
-              <h2>Listen</h2>
-              <div class="baseline">What could be heard last week ..</div>
-              <table cellpadding="0" cellspacing="0" border="0" class="meat">
-              	
-              		<tr>
-              			<td>
-              				<a href="http://learn.thoughtbot.com/podcast/36">Giant Robots 37</a>
-              				
-              			</td>
-              			<td class="date">
-              				feb 25
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				discussion with Joe Ferris, CTO of Thoughtbot, about suspenders (the list of gems they use).
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://ruby5.envylabs.com/episodes/352-episode-348-february-26-2013">Ruby5 348</a>
-              				
-              			</td>
-              			<td class="date">
-              				feb 26
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				ruby 2, artoo, ruby installer, ruby friends camera, cached counts, refinements.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://rubyrogues.com/094-rr-robust-ruby-with-ara-t-howard/">RubyRogues 094</a>
-              				
-              			</td>
-              			<td class="date">
-              				feb 27
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				with Ara T. Howard, talking about robust ruby and other stories.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://ruby5.envylabs.com/episodes/353-episode-349-february-28th-2013">Ruby5 349</a>
-              				
-              			</td>
-              			<td class="date">
-              				feb 18
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				rails 4, singleton_process, twitter-flight-rails, gridhook, clutch, ruby2, regex shoutout.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://rubyshow.com/episodes/222">Rubyshow 222</a>
-              				
-              			</td>
-              			<td class="date">
-              				mar 1
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				various news about what's going on in the ruby world.
-              			</td>
-              		</tr>
-              	
-              </table>
-              
-              <h2>Watch</h2>
-              <div class="baseline">Screencasts and conferences videos, or other video feeds ...</div>
-              <table cellpadding="0" cellspacing="0" border="0" class="meat">
-              	
-              		<tr>
-              			<td>
-              				<a href="http://devblog.avdi.org/2013/02/25/rubytapas-freebie-caller-specified-fallback-handler">Caller-specified Fallback handler</a>
-              				
-              			</td>
-              			<td class="date">
-              				feb 25
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				a freebie from Ruby Tapas, thx avid :)
-              			</td>
-              		</tr>
-              	
-              </table>
-              
-              <h2>Read</h2>
-              <div class="baseline">From the blogosphere or news feeds ...</div>
-              <table cellpadding="0" cellspacing="0" border="0" class="meat">
-              	
-              		<tr>
-              			<td>
-              				<a href="http://www.ahrefmagazine.com/resources/what-i-have-learned-from-jquery-europe-conference-day-1">jQuery Europe Conference</a>
-              				
-              			</td>
-              			<td class="date">
-              				feb 22
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				comments from an attendant and links to side notes.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://pragprog.com/news/programming-ruby-2-0">book: Programming ruby 2.0</a>
-              				
-              			</td>
-              			<td class="date">
-              				feb 24
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				the day of the release, the book is already on the shelf.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://hintjens.com/blog:32">Solving the discovery problem</a>
-              				
-              			</td>
-              			<td class="date">
-              				feb 26
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				an indepth article about service discovery using UDP.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://rubysource.com/command-line-applications-for-the-rest-of-us/">Command line with ruby</a>
-              				
-              			</td>
-              			<td class="date">
-              				feb 28
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				coding for the console, howto.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://webstandardssherpa.com/reviews/secrets-of-awesome-javascript-api-design/">Javascript API design</a>
-              				
-              			</td>
-              			<td class="date">
-              				feb 26
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				pretty long article with a lot of examples.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://spin.atomicobject.com/2013/02/25/ruby-refs-celluloid-actors/">Making refs in ruby using celluloid actors</a>
-              				
-              			</td>
-              			<td class="date">
-              				feb 25
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				some inspiration from clojure for concurrent programs
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://djdesignerlab.com/2013/02/26/20-useful-jquery-ui-framework-plugins-for-web-designers-and-developers/">20 jQuery UI Framework plugins</a>
-              				
-              			</td>
-              			<td class="date">
-              				feb 26
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				a great collection of tools you should know about for your UI
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://net.tutsplus.com/articles/interviews/ember-js-core-team-interview/">interview with ember.js team</a>
-              				
-              			</td>
-              			<td class="date">
-              				feb 16
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				a very long interview with project leaders, and a lot of comments
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://blog.mgechev.com/2013/02/22/javascript-the-weird-parts/">javascript weird parts</a>
-              				
-              			</td>
-              			<td class="date">
-              				feb 22
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				an interesting list of oddities.
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://ruben.verborgh.org/blog/2013/02/21/programming-is-an-art">programming is an art</a>
-              				
-              			</td>
-              			<td class="date">
-              				feb 21
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				coding style matters.
-              			</td>
-              		</tr>
-              	
-              </table>
-              
-              <h2>Install</h2>
-              <div class="baseline">A selection of gems or applications updated during past week.</div>
-              <table cellpadding="0" cellspacing="0" border="0" class="meat">
-              	
-              		<tr>
-              			<td>
-              				<a href="http://weblog.rubyonrails.org/2013/2/25/Rails-4-0-beta1/">Rails 4.0 beta 1</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				released on feb 25
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://blog.phusion.nl/2013/02/27/phusion-passenger-4-0-release-candidate-2/">Passenger 4.0 rc2</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				released for entreprise users, free users wait until march 5
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://blog.plataformatec.com.br/2013/01/security-announcement-devise-v2-2-3-v2-1-3-v2-0-5-and-v1-5-3-released/">Devise</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				does a security release on feb 28, impacting mysql dbs
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="https://github.com/colszowka/phantomjs-gem">phantomjs-gem</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				will auto-install phantom and poltergheist for js integration testing
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="https://github.com/amatsuda/active_decorator">active_decorator</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				special helpers patterns for lightening views in rails
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="https://github.com/git-commit-notifier/git-commit-notifier">git-commit-notifier</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				more improvement for that great notifier
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="https://github.com/neopoly/unschema">unschema</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				for cleaning up the migrations dir after too many changes
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://balderdashy.github.com/sails/">sails.js</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				like rails, but for node.js
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="https://github.com/LeaVerou/prefixfree">prefixfree</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				for adding vendor-prefixes in css on the fly
-              			</td>
-              		</tr>
-              	
-              </table>
-              
-              <h2>Fun</h2>
-              <div class="baseline"></div>
-              <table cellpadding="0" cellspacing="0" border="0" class="meat">
-              	
-              		<tr>
-              			<td>
-              				<a href="http://codetag.me">Codetag Quests</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				are though, be strong or don't go there
-              			</td>
-              		</tr>
-              	
-              		<tr>
-              			<td>
-              				<a href="http://www.codingconfessional.com">Coding confessional</a>
-              				
-              			</td>
-              			<td class="date">
-              				
-              				
-              			</td>
-              		</tr>
-              		<tr>
-              			<td colspan="2" class="comment">
-              				go free your soul of your sins
-              			</td>
-              		</tr>
-              	
-              </table>
-              
-              </div>
-            </div>
+          <div id="templateBody">
+          <div>
+          	<div class="baseline">
+          	<h2>Edito</h2>
+          	The ruby 2.0 release last week triggered a lot of other releases, with rubygems 2.0, passenger, rails, rspec, devise, rack, hobo, and many others. There is also some a rush on pull requests on ruby projects as people jump on ruby 2 and fix compatibilities issues on the way. A very interesting week.
+          <br>
+          <br>
+          <em>&nbsp; mose - the green ruby editor</em><br>
+          <em>&nbsp;
+          
+          	xenor - the informer
+          
+          </em><br>
+          &nbsp; <a href="http://greenruby.org" target="_self">http://greenruby.org</a>
+          <br>
           </div>
-          <div id='footer'>
-            <a class='contact' href='mailto:news@greenruby.org'>
-              contact
-            </a>
-            The Green Ruby Newsletter is published by <a href="http://mose.com">Mose</a>
-            <div class='copyright'>
-              Copyright &copy; 2013-2014 Mose
-              <a href='http://creativecommons.org/licenses/by-sa/3.0/' rel='license'>
-                <img alt='Creative Commons License' src='http://i.creativecommons.org/l/by-sa/3.0/80x15.png' style='border-width:0'>
-              </a>
-            </div>
+          
+          
+          <h3>Listen</h3>
+          <div class="baseline">What could be heard last week ..</div>
+          <table cellpadding="0" cellspacing="0" border="0" class="meat">
+          	
+          		<tr>
+          			<td>
+          				<a href="http://learn.thoughtbot.com/podcast/36" class="linktitle">Giant Robots 37</a>
+          				
+          			</td>
+          			<td class="date">
+          				feb 25
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				discussion with Joe Ferris, CTO of Thoughtbot, about suspenders (the list of gems they use).
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://ruby5.envylabs.com/episodes/352-episode-348-february-26-2013" class="linktitle">Ruby5 348</a>
+          				
+          			</td>
+          			<td class="date">
+          				feb 26
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				ruby 2, artoo, ruby installer, ruby friends camera, cached counts, refinements.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://rubyrogues.com/094-rr-robust-ruby-with-ara-t-howard/" class="linktitle">RubyRogues 094</a>
+          				
+          			</td>
+          			<td class="date">
+          				feb 27
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				with Ara T. Howard, talking about robust ruby and other stories.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://ruby5.envylabs.com/episodes/353-episode-349-february-28th-2013" class="linktitle">Ruby5 349</a>
+          				
+          			</td>
+          			<td class="date">
+          				feb 18
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				rails 4, singleton_process, twitter-flight-rails, gridhook, clutch, ruby2, regex shoutout.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://rubyshow.com/episodes/222" class="linktitle">Rubyshow 222</a>
+          				
+          			</td>
+          			<td class="date">
+          				mar 1
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				various news about what's going on in the ruby world.
+          			</td>
+          		</tr>
+          	
+          </table>
+          
+          <h3>Watch</h3>
+          <div class="baseline">Screencasts and conferences videos, or other video feeds ...</div>
+          <table cellpadding="0" cellspacing="0" border="0" class="meat">
+          	
+          		<tr>
+          			<td>
+          				<a href="http://devblog.avdi.org/2013/02/25/rubytapas-freebie-caller-specified-fallback-handler" class="linktitle">Caller-specified Fallback handler</a>
+          				
+          			</td>
+          			<td class="date">
+          				feb 25
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				a freebie from Ruby Tapas, thx avid :)
+          			</td>
+          		</tr>
+          	
+          </table>
+          
+          <h3>Read</h3>
+          <div class="baseline">From the blogosphere or news feeds ...</div>
+          <table cellpadding="0" cellspacing="0" border="0" class="meat">
+          	
+          		<tr>
+          			<td>
+          				<a href="http://www.ahrefmagazine.com/resources/what-i-have-learned-from-jquery-europe-conference-day-1" class="linktitle">jQuery Europe Conference</a>
+          				
+          			</td>
+          			<td class="date">
+          				feb 22
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				comments from an attendant and links to side notes.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://pragprog.com/news/programming-ruby-2-0" class="linktitle">book: Programming ruby 2.0</a>
+          				
+          			</td>
+          			<td class="date">
+          				feb 24
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				the day of the release, the book is already on the shelf.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://hintjens.com/blog:32" class="linktitle">Solving the discovery problem</a>
+          				
+          			</td>
+          			<td class="date">
+          				feb 26
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				an indepth article about service discovery using UDP.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://rubysource.com/command-line-applications-for-the-rest-of-us/" class="linktitle">Command line with ruby</a>
+          				
+          			</td>
+          			<td class="date">
+          				feb 28
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				coding for the console, howto.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://webstandardssherpa.com/reviews/secrets-of-awesome-javascript-api-design/" class="linktitle">Javascript API design</a>
+          				
+          			</td>
+          			<td class="date">
+          				feb 26
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				pretty long article with a lot of examples.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://spin.atomicobject.com/2013/02/25/ruby-refs-celluloid-actors/" class="linktitle">Making refs in ruby using celluloid actors</a>
+          				
+          			</td>
+          			<td class="date">
+          				feb 25
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				some inspiration from clojure for concurrent programs
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://djdesignerlab.com/2013/02/26/20-useful-jquery-ui-framework-plugins-for-web-designers-and-developers/" class="linktitle">20 jQuery UI Framework plugins</a>
+          				
+          			</td>
+          			<td class="date">
+          				feb 26
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				a great collection of tools you should know about for your UI
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://net.tutsplus.com/articles/interviews/ember-js-core-team-interview/" class="linktitle">interview with ember.js team</a>
+          				
+          			</td>
+          			<td class="date">
+          				feb 16
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				a very long interview with project leaders, and a lot of comments
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://blog.mgechev.com/2013/02/22/javascript-the-weird-parts/" class="linktitle">javascript weird parts</a>
+          				
+          			</td>
+          			<td class="date">
+          				feb 22
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				an interesting list of oddities.
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://ruben.verborgh.org/blog/2013/02/21/programming-is-an-art" class="linktitle">programming is an art</a>
+          				
+          			</td>
+          			<td class="date">
+          				feb 21
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				coding style matters.
+          			</td>
+          		</tr>
+          	
+          </table>
+          
+          <h3>Install</h3>
+          <div class="baseline">A selection of gems or applications updated during past week.</div>
+          <table cellpadding="0" cellspacing="0" border="0" class="meat">
+          	
+          		<tr>
+          			<td>
+          				<a href="http://weblog.rubyonrails.org/2013/2/25/Rails-4-0-beta1/" class="linktitle">Rails 4.0 beta 1</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				released on feb 25
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://blog.phusion.nl/2013/02/27/phusion-passenger-4-0-release-candidate-2/" class="linktitle">Passenger 4.0 rc2</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				released for entreprise users, free users wait until march 5
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://blog.plataformatec.com.br/2013/01/security-announcement-devise-v2-2-3-v2-1-3-v2-0-5-and-v1-5-3-released/" class="linktitle">Devise</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				does a security release on feb 28, impacting mysql dbs
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="https://github.com/colszowka/phantomjs-gem" class="linktitle">phantomjs-gem</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				will auto-install phantom and poltergheist for js integration testing
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="https://github.com/amatsuda/active_decorator" class="linktitle">active_decorator</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				special helpers patterns for lightening views in rails
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="https://github.com/git-commit-notifier/git-commit-notifier" class="linktitle">git-commit-notifier</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				more improvement for that great notifier
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="https://github.com/neopoly/unschema" class="linktitle">unschema</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				for cleaning up the migrations dir after too many changes
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://balderdashy.github.com/sails/" class="linktitle">sails.js</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				like rails, but for node.js
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="https://github.com/LeaVerou/prefixfree" class="linktitle">prefixfree</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				for adding vendor-prefixes in css on the fly
+          			</td>
+          		</tr>
+          	
+          </table>
+          
+          <h3>Fun</h3>
+          <div class="baseline"></div>
+          <table cellpadding="0" cellspacing="0" border="0" class="meat">
+          	
+          		<tr>
+          			<td>
+          				<a href="http://codetag.me" class="linktitle">Codetag Quests</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				are though, be strong or don't go there
+          			</td>
+          		</tr>
+          	
+          		<tr>
+          			<td>
+          				<a href="http://www.codingconfessional.com" class="linktitle">Coding confessional</a>
+          				
+          			</td>
+          			<td class="date">
+          				
+          				
+          			</td>
+          		</tr>
+          		<tr>
+          			<td colspan="2" class="comment">
+          				go free your soul of your sins
+          			</td>
+          		</tr>
+          	
+          </table>
+          
+          </div>
           </div>
         </div>
+        <div class='col-sm-4 col-md-3 rightbar'>
+          <blockquote>
+            <p>Green Ruby News is a feed of fresh links of the week about ruby, javascript, webdev, devops, collected by mose every sunday.</p>
+            <p></p>
+            <form action='http://codegreenit.us6.list-manage1.com/subscribe/post?u=f1b3b59d2383eeb07537f6440&amp;amp;id=7136c985cf'>
+              <div class='text-center'>
+                <b>Subscribe</b>
+              </div>
+              <div class='text-center'>
+                to the
+              </div>
+              <div class='text-center'>
+                <b>weekly newsletter</b>
+              </div>
+              <p></p>
+              <p>
+                <input class='form-control' name='EMAIL' placeholder='email address' type='email'>
+                <input class='form-control btn btn-primary' type='submit' value='Subscribe'>
+              </p>
+            </form>
+          </blockquote>
+          <small class='text-center'>Email distribution is powered by mailchimp.</small>
+        </div>
+      </div>
+    </div>
+    <div id='footer'>
+      <a class='contact' href='mailto:news@greenruby.org'>
+        contact
+      </a>
+      The Green Ruby Newsletter is published by <a href="http://mose.com">Mose</a>
+      <div class='copyright'>
+        Copyright &copy; 2013-2014 Mose
+        <a href='http://creativecommons.org/licenses/by-sa/3.0/' rel='license'>
+          <img alt='Creative Commons License' src='http://i.creativecommons.org/l/by-sa/3.0/80x15.png' style='border-width:0'>
+        </a>
       </div>
     </div>
     <script src='//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script>
