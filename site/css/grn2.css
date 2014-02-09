@@ -52,6 +52,7 @@ ul.letters li a span.date {
   float: right;
   font-family: "inder", monospace;
   color: #aaa;
+  font-weight: 400;
 }
 
 
@@ -74,7 +75,8 @@ ul.letters li a span.date {
 }
 .main .date {
   text-align: right;
-  color: #999;
+  color: #aaa;
+  font-weight: 200;
 }
 .main .date img {
   position: relative;

@@ -84,7 +84,6 @@ module Greeby
       template = File.read(File.join(@views_path, 'static.haml'))
       haml_engine = Haml::Engine.new(template)
       pages = Dir.glob(File.join(@pages_path, '*.md'))
-      puts @pages_path
       pages.each do |p|
         page = OpenStruct.new
         page.name = File.basename(p, '.md')

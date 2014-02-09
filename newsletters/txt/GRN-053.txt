@@ -4,7 +4,7 @@ Green Ruby News #053 - feb 9nd 2014
 
 Edito
 ----------------------------------------------------
-.
+Here is the first edition of the Year of the Horse. As previously announced the website is going under a big rewriting which only impacts the design for now, but there is some angularization preparing behind the scene. In the while, go fix your libyaml.
 
 mose - the green ruby editor
 xenor - the informer
@@ -15,84 +15,183 @@ Look
 ----------------------------------------------------
 Examples of UI/UX, graphic performance, web design and flashy things.
 
-* Built with chrome
-  http://www.buildwithchrome.com/
-  A world remade with lego.
+* Github octiverse
+  http://octoverse.github.com/
+  Graphical review of 2013 at github.
+
+* Devart
+  https://devart.withgoogle.com/
+  Art made with code on github, calling for coders.
 
 
 Use
 ----------------------------------------------------
 Web applications, resources and tools, available for making our life easier or funnier.
 
-* Layervault
-  design
-  https://layervault.com/
-  Like github, but for designers.
+* Shortcutfoo
+  tool
+  https://www.shortcutfoo.com/
+  Start shortcut drills for vim, st, emacs, etc ...
+
+* Amon
+  ops
+  https://amon.cx/
+  Site monitoring platform including metrics and alerts.
+
+* Regexlib
+  tool
+  http://regexlib.com/
+  This is a pretty old website, it has regexps for all your needs.
+
+* Facets
+  rb
+  https://hakiri.io/facets
+  Scan Gemfile.lock for vulnerabilities.
+
+* Codebox
+  tool
+  https://www.codebox.io/
+  Another cloud IDE as a service.
 
 
 Install
 ----------------------------------------------------
 A selection of gems or applications updated during past week.
 
-* Coffeescript 1.7.1
+* Instance
+  rb
+  https://github.com/rubyworks/instance
+  Slick Object Instance API.
+
+* Oboe.js
   js
-  http://coffeescript.org/#changelog
-  Released on jan 28, here is what changed.
+  http://oboejs.com/
+  Streaming JSON loading for Node and browsers.
+
+* Goaccess
+  ops
+  http://goaccess.prosoftcorp.com/
+  Real-time web log analyzer and interactive viewer that runs in a terminal.
+
+* Vue.js
+  js
+  http://vuejs.org/
+  MVVM library for building interactive web interfaces.
+
+* Backtick
+  tool
+  http://backtick.io/
+  A chrome extnsion for quick access to bookmarklets.
 
 
 Read
 ----------------------------------------------------
 From the blogosphere or news feeds ...
 
-* Culling ActiveRecord Callbacks
-  rb - jan 27
-  http://adequate.io/culling-the-activerecord-lifecycle
-  Save future you some time and effort and use a Service Object instead.
+* Git tips from the trenches
+  tool - feb 1
+  https://ochronus.com/git-tips-from-the-trenches/
+  A very neat collection of tricks for git.
+
+* Docker 0.8 works on OSX
+  ops - feb 4
+  http://blog.docker.io/2014/02/docker-0-8-quality-new-builder-features-btrfs-storage-osx-support/
+  Focus on Quality, new builder instructions, a new BTRFS driver, and official support for Mac OSX.
+
+* Angular + Rails with no fuss
+  rb - feb 4
+  http://sebastien.saunier.me/blog/2014/02/04/angular--rails-with-no-fuss.html
+  how to add angular to your rails application, and how to setup Karma and Jasmine for testing it.
+
+* PostgreSQL awesomeness for Rails developers
+  rb - feb 4
+  http://www.amberbit.com/blog/2014/2/4/postgresql-awesomeness-for-rails-developers/
+  Some basics that all Ruby on Rails developers who use PostgeSQL should know about.
+
+* 37signals becomes basecamp
+  web - feb 5
+  https://37signals.com/
+  After chef and docker, now basecamp also merges the product and the company names.
+
+* Drone and Docker, Open Source CI
+  ops - feb 5
+  http://blog.drone.io/2014/2/5/open-source-ci-docker.html
+  Continuous integration server with docker and a nice UI.
+
+* Ruby, You Autocomplete Me
+  rb - feb 5
+  http://rosskaff.com/blog/2014/02/ruby,-you-autocomplete-me.html
+  Tricks to improve autocompletion in irb.
+
+* Deprecated Stuff in Ruby 2.1
+  rb - feb 6
+  http://batsov.com/articles/2014/02/05/a-list-of-deprecated-stuff-in-ruby/
+  A new tool from Thoughtbot for managing dotfiles.
+
+* rcm, an rc file manager
+  tool - feb 6
+  http://robots.thoughtbot.com/rcm-for-rc-files-in-dotfiles-repos
+  A new tool from Thoughtbot for managing dotfiles.
+
+* Taking advantage of sessions in Vim
+  rb - feb 6
+  http://tybenz.com/post/taking-advantage-of-sessions-in-vim/
+  Presentation of vim-startify plugin.
+
+* Ruby libyaml vulnerability CVE-2013-6393
+  rb - feb 6
+  https://groups.google.com/forum/#%21topic/rubysec-announce/3sx25iR7yHQ
+  Ruby CVE-2013-6393 aka "you are probably vulnerable", check your libxml version to remove yourself from the vulnerability.
 
 
 Watch
 ----------------------------------------------------
 Screencasts and conferences videos, or other video feeds ...
 
-* A 6 Minute Guide to Keyword Arguments in Ruby 2.0
-  rb - jan 27 - 7m
+* Ruby Hangout
+  rb - feb 5 - 1h17
   http://www.youtube.com/watch?v=u8Q6Of_mScI
-  Short video from cooperpress.
+  Ruby Hangout with David Bock.
+
+* Ruby and Go
+  rb - feb 3 - 32m
+  http://www.youtube.com/watch?v=AR9Q6UgxEuY
+  Rocky Mountain Ruby 2013 Ruby and Go by Lional Barrow.
 
 
 Listen
 ----------------------------------------------------
 What could be heard last week ..
 
-* NodeUp 59
-  js - jan 28 - 1h24
-  http://nodeup.com/fiftynine
-  About Node new project lead.
+* Giant robots #84
+  rb - feb 3 - 46m
+  http://podcasts.thoughtbot.com/giantrobots/84
+  With Harper Reed, former CTO of Threadless, former CTO of Obama for America, and currently CEO of Modest.
 
-* Ruby5 435
-  rb - jan 28 - 5m
-  http://ruby5.envylabs.com/episodes/471-episode-435-january-28-2014
-  Lite config, Thor, Rubygems tips, Mina, Vim weekly.
+* Ruby5 437
+  rb - feb 4 - 5m
+  http://ruby5.envylabs.com/episodes/473-episode-437-february-4th-2014
+  token auth, recommundle, git pretty accept, pstore, practicing ruby, railsbricks 2.
 
-* Ruby Rogues 141
-  rb - jan 29 - 1h40
-  http://rubyrogues.com/141-rr-teaching-kids-with-ron-evans/
-  Teaching Kids with Ron Evans.
+* Ruby Rogues 142
+  rb - feb 5 - 1h21
+  http://rubyrogues.com/142-rr-depression-and-mental-illness-with-greg-baugues/
+  Depression and Mental Illness with Greg Baugues (non-technical session).
 
-* Arrested Devops 5
-  ops - jan 29 - 51m
-  http://www.arresteddevops.com/2014/01/29/continuous-integration/
-  Continuous Integration – CI Told You So!
+* Ruby5 438
+  rb - feb 7 - 5m
+  http://ruby5.envylabs.com/episodes/474-episode-438-february-7th-2014
+  recursion, 7 lines, token auth, deprectated stuff, worst practices.
 
-* Ruby5 436
-  rb - jan 31 - 5m
-  http://ruby5.envylabs.com/episodes/472-episode-436-january-31st-2014
-  Elixir fountain, Argus, STI+Hstore, Rails validators, Sparkr, Handcooler.
+* Devops cafe 47
+  ops - feb 7 - 54m
+  http://devopscafe.org/show/2014/2/5/devops-cafe-episode-47.html
+  Preparing the DevOps track at the upcoming QCon London 2014.
 
-* Javascript Jabber 094
-  js - jan 31 - 43m
-  http://javascriptjabber.com/094-jsj-bonsaijs-with-tobi-reiss/
-  BonsaiJS with Tobi Reiss.
+* Javascript Jabber 095
+  js - feb 7 - 50m
+  http://javascriptjabber.com/095-jsj-angularui-with-dean-sofer/
+  AngularUI with Dean Sofer.
 
 
 
