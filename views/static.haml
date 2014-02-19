@@ -52,7 +52,10 @@
     .container
       .row
         .col-sm-3.col-md-2.leftbar
-          %h3 Archives
+          %h3
+            %a{ href: "feed.rss", style: "float:right"}
+              %img{ src: "img/rss.png" }
+            Archives
           %ul.nav.nav-sidebar.letters
 
         .col-sm-5.col-md-7.main
@@ -83,9 +86,9 @@
       .copyright
         Copyright &copy; 2013-2014 Mose
         %a( rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/")
-          %img( alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/80x15.png" )
+          %img( alt="Creative Commons License" style="border-width:0" src="img/cc-80x15.png" )
 
-    %script{ src: "//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"}
+    %script{ src: "//code.jquery.com/jquery-1.10.2.min.js"}
     :javascript
       window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')
 

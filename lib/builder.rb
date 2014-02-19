@@ -97,21 +97,25 @@ module Greeby
 
     def make_rss
       require "rss"
-      rss = RSS::Maker.make("atom") do |maker|
+      rss = RSS::Maker.make("2.0") do |maker|
         maker.channel.author = "mose"
         maker.channel.updated = Time.now.to_s
-        maker.channel.about = "http://greenruby.org/feed.rss"
+        maker.channel.description = "Green Ruby News is a feed of fresh links of the week about ruby, javascript, webdev, devops, collected by mose every sunday"
         maker.channel.title = "Green Ruby"
+        maker.channel.link = "http://greenruby.org/feed.rss"
+        maker.channel.language = "en-US"
 
         letters = JSON.parse(File.read(File.join(@static_path, 'editions.json')))
         tenletters = Hash[letters.to_a.reverse[0..9]]
         tenletters.each do |letter,c|
           maker.items.new_item do |item|
             item.link = "http://greenruby.org/#{c['link']}"
+            item.guid.content = "http://greenruby.org/#{c['link']}"
             item.title = "Green Ruby News ##{letter}"
             item.updated = c['date']
             content = to_ostruct(YAML::load_file(File.join(@news_path, "archives/grn-#{letter}.yml")))
             item.description = content.edito
+            item.content_encoded = File.read(File.join(@news_path, "partials/GRN-#{letter}.html"))
           end
         end
       end
