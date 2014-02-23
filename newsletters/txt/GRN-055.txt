@@ -1,0 +1,245 @@
+----------------------------------------------------
+Green Ruby News #055 - feb 23th 2014
+----------------------------------------------------
+
+Edito
+----------------------------------------------------
+This week is mostly obscured by the disappearance of <a href="http://en.wikipedia.org/wiki/Jim_Weirich">Jim Weirich</a>, and his <a href="https://github.com/jimweirich/wyriki/commit/d28fac7f18aeacb00d8ad3460a0a5a901617c2d4">last commit comments flow</a> is a small sign of his impact in the ruby community.
+
+mose - the green ruby editor
+xenor - the informer
+http://greenruby.org
+
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+* Parrot AR Drone
+  http://www.slant.co/topics/1252/viewpoints/2/~what-is-the-best-drone-for-hacking~parrot-ar-drone-2-0
+  Hacky toy.
+
+* Wallbase
+  http://wallbase.cc/
+  A repository of wallpapers with a neat UI.
+
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+* Ruby Style Guide
+  rb
+  https://github.com/bbatsov/ruby-style-guide
+  A community effort to list commonly considered best practices in ruby coding.
+
+* North
+  tool
+  https://github.com/Snugug/north
+  Design and development standards to align and guide your project.
+
+* Nota
+  web
+  http://betali.st/startups/nota
+  Visual feedback and issue tracking for web apps.
+
+* REPL
+  js
+  http://repl.cc/
+  json manipulator in javascript.
+
+* Random User
+  web
+  http://randomuser.me/
+  Like Lorem Ipsum, but for people.
+
+* Silk
+  tool
+  https://www.silk.co/
+  Platform for sharing collections and vizualisations about anything.
+
+* SCM Knowledge base
+  ops
+  http://scm-knowledge-base.readthedocs.org/en/latest/
+  Software Configuration Management, Infrastructure Orchestration and DevOps.
+
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+* Rails 4.1.0 rc1
+  rb
+  http://weblog.rubyonrails.org/2014/2/18/Rails-4-1-rc1/
+  Check the <a href="http://coherence.io/blog/2013/12/17/whats-new-in-rails-4-1.html">rails 4.1 new features</a>. The final release is going to come soon.
+
+* Upgrade all your Rails
+  rb
+  http://weblog.rubyonrails.org/2014/2/18/Rails_3_2_17_4_0_3_and_4_1_0_beta2_have_been_released/
+  3 different security upgrades require a quick upgrade all your rails.
+
+* Psdiff
+  tool
+  http://filp.github.io/psdiff/
+  A psd previewer for git.
+
+* Cequel
+  rb
+  http://cequel.github.io/
+  A Cassandra ORM for ruby.
+
+* Baseimage docker
+  ops
+  http://phusion.github.io/baseimage-docker/
+  The minimal image from phusion for docker.
+
+* Inch
+  rb
+  http://trivelop.de/inch/
+  A documentation tool for the Ruby programming language.
+
+* Massren
+  go
+  https://github.com/laurent22/massren
+  Easily rename multiple files using your text editor.
+
+* Mina
+  rb
+  http://nadarei.co/mina/
+  A deployment tool, alternative to capistrano.
+
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+* Complaint-Driven Development
+  web - feb 18
+  http://www.codinghorror.com/blog/2014/02/complaint-driven-development.html
+  Details on the process of development of discourse.
+
+* Infinite Scrolling in Rails: The Basics
+  rb - feb 19
+  http://www.sitepoint.com/infinite-scrolling-rails-basics/
+  Using pagination and ajax for making scrolling infinite (kinda).
+
+* Easy full-text search with PostgreSQL and Rails
+  rb - feb 19
+  http://dev.mikamai.com/post/77171462056/easy-full-text-search-with-postgresql-and-rails
+  Use the gem pg_search to add a full-text search capability to a basic rails application.
+
+* Controlling Indirect Inputs
+  rb - feb 19
+  http://adequate.io/controlling-indirect-inputs
+  Indirect inputs in Ruby and how they relate to you as a tester of Ruby software.
+
+* Public Methods != Public API
+  rb - feb 19
+  http://collectiveidea.com/blog/archives/2014/02/19/public-methods-public-api/
+  Some reasons why public API need a special attention.
+
+* Building and documenting API in Rails
+  rb - feb 19
+  http://www.amberbit.com/blog/2014/2/19/building-and-documenting-api-in-rails/
+  An illustration on how to manage a rails API.
+
+* Sharing Podcasts
+  tool - feb 20
+  http://daverupert.com/2014/02/sharing-podcasts/
+  How we can use technology to save podcasting!
+
+* 5 Reasons Why You're Not Writing Tests
+  rb - feb 20
+  http://www.justinweiss.com/blog/2014/02/20/5-reasons-why-youre-not-writing-tests/
+  Some hints about how to lower the barrier for testing.
+
+* Making Accessible Links
+  web - feb 20
+  http://www.sitepoint.com/15-rules-making-accessible-links/
+  A list of tips to improve accessibility, focused on links.
+
+* Inside DuckDuckGo, Google's Tiniest, Fiercest Competitor
+  web - feb 20
+  http://www.fastcolabs.com/3026698/inside-duckduckgo-googles-tiniest-fiercest-competitor?partner
+  How could DuckDuckGo, a tiny, Philadelphia-based startup, go up against Google?
+
+* The Why and How of Ansible and Docker
+  ops - feb 21
+  http://thechangelog.com/ansible-docker/
+  A pretty nice combination. When will we have an ansible in ruby ?
+
+
+Watch
+----------------------------------------------------
+Screencasts and conferences videos, or other video feeds ...
+
+* ES6 - The Awesome Parts
+  js - feb 13 - 35m
+  http://www.youtube.com/watch?v=Q-ejVLibHVs
+  Presentation of features in the next javascript.
+
+* SassConf videos
+  css3 - feb 16 - 15 videos
+  http://vimeo.com/sassconf/videos
+  Presentation of features in the next javascript.
+
+
+Listen
+----------------------------------------------------
+What could be heard last week ..
+
+* GitMinutes #27
+  tool - feb 17 - 1h21
+  http://episodes.gitminutes.com/2014/02/gitminutes-27-stefan-saasen-from.html
+  Stefan Saasen from Atlassian.
+
+* Giant robots #86
+  web - feb 17 - 22m
+  http://podcasts.thoughtbot.com/giantrobots/86
+  Humility and Patience (Peter Reinhardt of segment.io)
+
+* Ruby5 441
+  rb - feb 18 - 6m
+  http://ruby5.envylabs.com/episodes/477-episode-441-february-18th-2014
+  mruby, Hound CI, Activeinteraction, gails flash partials, inch, inheritable aliases, RFZ updated.
+
+* Ruby Rogues 144
+  rb - feb 19 - 1h05
+  http://rubyrogues.com/144-rr-passion/
+  Passion, what it is not, and what it abusively used for, as a word.
+
+* Javascript Jabber 097
+  js - feb 19 - 42m
+  http://javascriptjabber.com/097-jsj-gulp-js-with-eric-schoffstall/
+  Gulp.js with Eric Schoffstall.
+
+* Devops cafe 49
+  ops - feb 20 - 58m
+  http://devopscafe.org/show/2014/2/20/devops-cafe-episode-49-brandon-burton.html
+  With Brandon Burton (Mozilla) to talk about his DevOps journey.
+
+* Ruby5 442
+  rb - feb 21 - 3m
+  http://ruby5.envylabs.com/episodes/478-episode-442-february-21st-2014
+  Jim Weirich (his ukulele performance).
+
+
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a 
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+
