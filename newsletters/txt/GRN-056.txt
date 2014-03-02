@@ -1,0 +1,219 @@
+----------------------------------------------------
+Green Ruby News #056 - mar 2nd 2014
+----------------------------------------------------
+
+Edito
+----------------------------------------------------
+This week big news is the 21th birthday for ruby, with some new releases for each branch. Check the <a href="http://svn.ruby-lang.org/repos/ruby/tags/v2_1_1/ChangeLog">changelog for ruby 2.1.1</a> it's pretty massive.
+
+mose - the green ruby editor
+xenor - the informer
+http://greenruby.org
+
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+* 20 cool and inspirational website designs
+  http://neatdesigns.net/20-cool-and-inspirational-website-designs/
+  Neat indeed.
+
+* Geisha
+  http://geisha.io/app/
+  Keeping designers inspired and informed every day.
+
+* What happens when placeholder text doesn’t get replaced
+  http://www.elezea.com/2014/02/lorem-ipsum-gone-wrong/
+  Shots of funny cases where a text was not supposed to be final.
+
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+* UltraHook
+  tool
+  http://www.ultrahook.com/
+  Receive webhooks on localhost.
+
+* Codesnipp
+  tool
+  http://csnipp.com/
+  Code snippets collection.
+
+* GSS
+  css3
+  http://gridstylesheets.org/
+  GSS reimagines CSS layout.
+
+* html and css Code Guide
+  html5
+  http://mdo.github.io/code-guide/
+  Standards for developing flexible, durable, and sustainable HTML and CSS.
+
+* Graf.ly
+  html5
+  http://www.graf.ly/
+  Early beta access for now.
+
+* Kobra.io
+  tool
+  https://kobra.io
+  Online code editor, featuring built in video.
+
+* Paymill
+  tool
+  https://www.paymill.com/en-gb/
+  An interesting alternative to stripe?
+
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+* Ruby 2.1.1
+  rb
+  https://www.ruby-lang.org/en/news/2014/02/24/ruby-2-1-1-is-released/
+  Released on feb 24, along with a 1.9.3-p545 and a 2.0.0-p451.
+
+* Atom
+  tool
+  https://atom.io/
+  A new chrome-based desktop app from github, on invite only for now.
+
+* Neovim
+  tool
+  http://neovim.org/
+  vim's rebirth for the 21st century.
+
+* Formulaic
+  rb
+  http://robots.thoughtbot.com/form-filling-is-formulaic
+  A helper for form filling and simpleform.
+
+* Go continuous delivery
+  tool
+  http://www.go.cd/
+  Recently open sourced, this is nothing to do with the go programming language, it's actually java-based.
+
+* Doctored.js
+  tool
+  http://holloway.co.nz/doctored/
+  A web based xml editor.
+
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+* Visualizations of Continuous Delivery
+  tool - feb 20
+  http://continuousdelivery.com/2014/02/visualizations-of-continuous-delivery/
+  Four fabulous visualizations of continuous delivery flow.
+
+* Analytics at GitHub
+  tool - feb 24
+  http://johnnunemaker.com/analytics-at-github/
+  The architecture of analytics at github.
+
+* The Adapter Pattern
+  rb - feb 25
+  http://monkeyandcrow.com/blog/reading_rails_the_adapter_pattern/
+  Ruby Adapter pattern, inspired by Rails.
+
+* Single Sign-On (SSO) Explained
+  tool - feb 26
+  http://www.sitepoint.com/single-sign-on-explained/
+  A quick overview of the discuss SSO.
+
+* Make Remote Files Local with Ruby Tempfile
+  rb - feb 27
+  http://viget.com/extend/make-remote-files-local-with-ruby-tempfile
+  Details about a good use for the Tempfile ruby class.
+
+* Testing at Airbnb
+  tool - feb 27
+  http://nerds.airbnb.com/testing-at-airbnb/
+  Excellent post about building a testing culture in an organisation.
+
+* Working With and Around the Same-Origin Policy
+  js - feb 28
+  http://www.sitepoint.com/working-around-origin-policy/
+  Various ways to live with the same-origin ajax policy.
+
+* Elasticsearch for Ruby on Rails: An Introduction to Chewy
+  rb - feb 28
+  http://www.toptal.com/ruby-on-rails/elasticsearch-for-ruby-on-rails-an-introduction-to-chewy
+  Chewy extends the Elasticsearch-Ruby client, with tighter integration with Rails.
+
+* Charming Large Databases with Octopuses
+  rb - mar 2
+  http://www.polyglotprogramminginc.com/charming-large-databases-with-octopuses/
+  How to configure sharding with activerecords and mysql.
+
+
+Watch
+----------------------------------------------------
+Screencasts and conferences videos, or other video feeds ...
+
+* SOA in Ruby
+  rb - feb 27 - 37m
+  http://www.youtube.com/watch?v=hAA_JAprdkE
+  Approaching SOA with lightweight ruby tools.
+
+
+Listen
+----------------------------------------------------
+What could be heard last week ..
+
+* Arrested Devops 7
+  ops - feb 23 - 1h
+  http://www.arresteddevops.com/2014/02/23/all-together-now/
+  Tools and best practices in devops.
+
+* Giant robots #87
+  web - feb 24 - 23m
+  http://podcasts.thoughtbot.com/giantrobots/867
+  Monitoring the Bathrooms (Tony DiPasquale), an arduino story.
+
+* Ruby5 443
+  rb - feb 25 - 6m
+  http://ruby5.envylabs.com/episodes/479-episode-443-february-25th-2014
+  rspec, ruby 2.1.1, ruby's demise, adequaterecords, rubyheroes.
+
+* Ruby Rogues 145
+  rb - feb 26 - 58m
+  http://rubyrogues.com/145-rr-data-analytics-with-heather-rivers/
+  Data Analytics with Heather Rivers.
+
+* Javascript Jabber 098
+  js - feb 26 - 43m
+  http://javascriptjabber.com/098-jsj-assemble-io-with-brian-woodward-and-jon-schlinkert/
+  Assemble.io with Brian Woodward and Jon Schlinkert.
+
+* Ruby5 444
+  rb - feb 28 - 6m
+  http://ruby5.envylabs.com/episodes/480-episode-444-february-28th-2014
+  Thermometer, atom editor, rails 4.1 with omniauth, ruby gotchas, tempfile.
+
+
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a 
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+
