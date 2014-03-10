@@ -93,7 +93,12 @@ ul.letters li a span.date {
   font-size: 1.2em;
   font-weight: 700;
 }
+.social {
+  list-style: none;
+}
+.social li {
 
+}
 #footer {
   position: relative;
   padding: 5px 20px;
