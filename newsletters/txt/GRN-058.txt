@@ -1,0 +1,269 @@
+----------------------------------------------------
+Green Ruby News #058 - mar 16th 2014
+----------------------------------------------------
+
+Edito
+----------------------------------------------------
+This week I opened a <a href="https://www.facebook.com/pages/Green-Ruby/1413063455616628">facebook</a> page and a <a href="https://plus.google.com/103851980502956488088">google+</a> too, in more than the <a href="http://twitter.com/greenrubist">twitter</a> account. Not that I'm really into it but I wanted to try bufferapp, which is pretty neat. So you can check links there during the week. Also note that there may be more links in those feeds than in the newsletter, and the newsletter has links that are not in the feed.
+
+mose - the green ruby editor
+xenor - the informer
+http://greenruby.org
+
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+* The web is 25
+  http://www.webat25.org/
+  Join the many users world-wide who have sent birthday greetings to the Web!
+
+* The Hitchicker Guide is 30
+  http://www.bbc.co.uk/programmes/articles/1g84m0sXpnNCv84GpN2PLZG/the-hitchhiker-s-guide-to-the-galaxy-game-30th-anniversary-edition
+  A game named Don't Panic to celebrate this anniversary.
+
+* Pixelcasts
+  design
+  http://www.pixelcasts.io/
+  One new video every month showing you how your favorite designers create amazing things..
+
+* Best of the visualisation web… January 2014
+  http://www.visualisingdata.com/index.php/2014/03/best-of-the-visualisation-web-january-2014/
+  Links to various interesting data visualizations.
+
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+* Product Hunt
+  web
+  http://www.producthunt.co/
+  A daily leaderboard of the best new products (pretty much anything, but some Saas services popup there sometimes).
+
+* Buffer
+  tool
+  https://bufferapp.com
+  Write once and post to various social networks.
+
+* Gitprint
+  tool
+  https://gitprint.com/
+  Easily print GitHub markdown.
+
+* Web Appers
+  tool
+  https://www.stormboard.com/
+  Collaborative online sticky note whiteboard.
+
+* Commando
+  ops
+  https://commando.io/
+  Executing same command on multi servers through web.
+
+* Sashe
+  css3
+  http://www.sache.in/
+  Discover Sass & Compass Extensions.
+
+* Easy EDA
+  web
+  http://www.webappers.com/
+  Open source web resources for devs.
+
+* Stormboard
+  tool
+  https://www.stormboard.com/
+  Collaborative online sticky note whiteboard.
+
+* Mango Map
+  tool
+  https://mangomap.com/
+  Transform your GIS data into web map applications.
+
+* 25 Brand New Freebie Icon Sets from Dribbble Members
+  design
+  http://www.webresourcesdepot.com/25-brand-new-freebie-iconsets/
+  Who don't like freebie, heh?
+
+* Shippable
+  ops
+  http://blog.shippable.com/announcing-shippable-10
+  New version 1.0 for this CI deployment docker tool.
+
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+* Rails 4.0.4
+  rb
+  http://weblog.rubyonrails.org/2014/3/14/Rails-4-0-4-has-been-released/
+  A lot of bugfixes.
+
+* Passenger 4.0.38
+  rb
+  http://blog.phusion.nl/2014/03/10/phusion-passenger-4-0-38-released/
+  This new version supports ruby 2.1.0 OOB GC.
+
+* Sass 3.3
+  css3
+  http://blog.sass-lang.com/posts/184094-sass-33-is-released
+  Sass 3.3 released with maps feature (key-value pair hash).
+
+* Vagrant 1.5
+  ops
+  http://www.vagrantup.com/blog/vagrant-1-5-and-vagrant-cloud.html
+  A new releae plus a new service, named vagrant cloud.
+
+* Sup
+  rb
+  http://supmua.org/
+  The hacker's Mail User Agent for people with a lot of email.
+
+* RailRoady
+  rb
+  https://github.com/preston/railroady
+  Generates UML graphs from rails models with graphviz.
+
+* Wraith
+  rb
+  https://github.com/BBC-News/wraith
+  A responsive screenshot comparison tool.
+
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+* Capybara, PhantomJs, Poltergeist, and Rspec Tips
+  rb - mar 9
+  http://www.railsonmaui.com/tips/rails/capybara-phantomjs-poltergeist-rspec-rails-tips.html
+  Code illustrated example of UI testing.
+
+* Switch from Photoshop to GIMP: Tips From A Pro
+  design - mar 9
+  http://www.rileybrandt.com/2014/03/09/photoshop-to-gimp/
+  How Gimp may actualy be good enough.
+
+* Hash#reject regression in Ruby 2.1.1
+  rb - mar 10
+  http://blog.sorah.jp/2014/03/10/hash-reject-regression-in-ruby211
+  A small detail that may deserve attention.
+
+* Component-based Rails
+  rb - mar 10
+  http://blog.envylabs.com/post/79198082352/component-based-rails
+  A good method to namespace stuff in big rails apps.
+
+* Git Flow vs Github Flow
+  tool - mar 10
+  http://lucamezzalira.com/2014/03/10/git-flow-vs-github-flow/
+  Comparison between 2 major models of git collaboration.
+
+* Rails Console Shortcuts, Tips, and Tricks
+  rb - mar 11
+  http://pragmaticstudio.com/blog/2014/3/11/console-shortcuts-tips-tricks
+  Various tricks that you may already know, but maybe not.
+
+* Fake It ‘til You Make It
+  js - mar 11
+  http://www.intridea.com/blog/2014/3/11/fake-it-til-you-make-it
+  Usage of D3 fakebook.
+
+* GopherJS: Go to Javascript Transpiler
+  go - mar 11
+  http://legacytotheedge.blogspot.de/2014/03/gopherjs-go-to-javascript-transpiler.html
+  Hmm, this looks tasty .. or heretic?
+
+* Techniques for authentication in AngularJS applications
+  js - mar 13
+  https://medium.com/opinionated-angularjs/7bbf0346acec
+  A collection of ideas for authentication & access control.
+
+* A basic user authentication model in rails 4
+  rb - mar 13
+  http://nycda.com/blog/basic-user-authentication-model-in-rails-4/
+  Of course you can use devise, or you may want to roll your own just once for sake of understanding it.
+
+* A brief introduction to server-testing with serverspec
+  ops - mar 13
+  http://www.debian-administration.org/article/703/A_brief_introduction_to_server-testing_with_serverspec
+  Example of usage of sercerspec for infrastructure validation.
+
+* Back to Basics: Polymorphism and Ruby
+  rb - mar 14
+  http://robots.thoughtbot.com/back-to-basics-polymorphism-and-ruby
+  A look at a few different ways to achieve polymorphism in ruby.
+
+* Self-daemonizing code is awful
+  ops - mar 15
+  http://grimoire.ca/devops/self-daemonization-sucks
+  A look at a few different ways to achieve polymorphism in ruby.
+
+
+Watch
+----------------------------------------------------
+Screencasts and conferences videos, or other video feeds ...
+
+* Creativity with Ruby-Processing
+  rb - mar 13 - 19m
+  http://vimeo.com/88994050
+  Ruby-Processing is a simple wrapper for the Processing framework.
+
+
+Listen
+----------------------------------------------------
+What could be heard last week ..
+
+* Giant robots #89
+  web - mar 10 - 35m
+  http://podcasts.thoughtbot.com/giantrobots/89
+  Moving Beyond The Wheel, Mahmoud Abdelkader CTO of Balanced.
+
+* Ruby5 447
+  rb - mar 11 - 5m
+  http://ruby5.envylabs.com/episodes/483-episode-447-march-11th-2014
+  Gsoc, test-driven rails, cancancan, building ruby gems, ruby heroes.
+
+* Arrested Devops 8
+  ops - mar 11 - 1h01
+  http://www.arresteddevops.com/managing-your-mental-stack/
+  Managing Your Mental Stack.
+
+* Ruby Rogues 147
+  rb - mar 12 - 1h16
+  http://rubyrogues.com/147-rr-apis-that-dont-suck-with-michele-titolo/
+  APIs That Don’t Suck with Michele Titolo.
+
+* Javascript Jabber 100
+  js - mar 12 - 49m
+  http://javascriptjabber.com/100-jsj-centennial-episode-celebration/
+  Centennial Episode Celebration.
+
+* Ruby5 448
+  rb - mar 14 - 5m
+  http://ruby5.envylabs.com/episodes/484-episode-448-march-14th-2014
+  Circuit breaker, cuncumber top 5, speed up specs, railroady, railsconf.
+
+
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a 
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+
