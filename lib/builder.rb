@@ -106,6 +106,7 @@ module Greeby
         maker.channel.language = "en-US"
 
         letters = JSON.parse(File.read(File.join(@static_path, 'editions.json')))
+        partial = ERB.new(File.read(File.join(@news_path, 'grn-rss.erb')))
         tenletters = Hash[letters.to_a.reverse[0..9]]
         tenletters.each do |letter,c|
           maker.items.new_item do |item|
@@ -113,9 +114,9 @@ module Greeby
             item.guid.content = "http://greenruby.org/#{c['link']}"
             item.title = "Green Ruby News ##{letter}"
             item.updated = c['date']
-            content = to_ostruct(YAML::load_file(File.join(@news_path, "archives/grn-#{letter}.yml")))
-            item.description = content.edito
-            item.content_encoded = File.read(File.join(@news_path, "partials/GRN-#{letter}.html"))
+            @c = to_ostruct(YAML::load_file(File.join(@news_path, "archives/grn-#{letter}.yml")))
+            item.description = @c.edito
+            item.content_encoded = partial.result(binding)
           end
         end
       end

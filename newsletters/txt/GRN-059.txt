@@ -1,0 +1,228 @@
+----------------------------------------------------
+Green Ruby News #059 - mar 23th 2014
+----------------------------------------------------
+
+Edito
+----------------------------------------------------
+There is some intense turmoil in Taiwan right now. Got busy following http://g0v.today and I'm amazed by the level of organization displayed both by protesters and by the geek community. A real lesson of activism.
+
+mose - the green ruby editor
+xenor - the informer
+http://greenruby.org
+
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+* If Apple, Google And Facebook Were Countries
+  http://viralscape.com/map-of-the-internet
+  A huge map or the new world.
+
+* The Open Company Initiative
+  http://www.opencompany.org/
+  Maximizing trust through genuine corporate transparency and openness.
+
+* Google will eat itself
+  http://www.googlewilleatitself.com/
+  A canibalistic project of a new kind.
+
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+* Github Showcase
+  tool
+  https://github.com/explore
+  A new classification of github hosted projects.
+
+* ScoutRealtime
+  ops
+  http://scoutapp.github.io/scout_realtime/
+  The top unix command for the modern developer.
+
+* Minutes
+  tool
+  https://minutes.io/
+  Take notes & share them right away.
+
+* Apportable
+  mobile
+  http://www.apportable.com/
+  Objective-C for Android.
+
+* bunkr
+  web
+  https://www.bunkr.me/
+  Create easily your HTML5 presentations.
+
+* Feedbag
+  design
+  http://feedbag.io/
+  A super lightweight design collaboration tool.
+
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+* Prawn 1.0
+  rb
+  http://elmcitycraftworks.org/post/79929183748/prawn-1-0-is-finally-here
+  A new fresh start for this PDF generation library.
+
+* Kibana 3.0.0
+  ops
+  http://www.elasticsearch.org/blog/kibana-3-0-0-ga-now-available
+  The elasticsearch visualization dashboard gets more stable.
+
+* Loomio
+  rb
+  https://www.loomio.org/
+  The world needs a better way to make decisions together.
+
+* Server-rendered React components in Rails
+  rb
+  http://bensmithett.com/server-rendered-react-components-in-rails/
+  The react-rails gem and how to use it.
+
+* Bootflat
+  css3
+  http://bootflat.github.io/
+  An open source Flat UI KIT based on Bootstrap 3.1.0 CSS framework.
+
+* Iconic history
+  web
+  http://shan-huang.com/browserdatavis/index.html
+  A chrome extension that visualizes your browser history as a favicon stack.
+
+* ngxtop
+  ops
+  https://github.com/lebinh/ngxtop
+  parses your nginx access log and outputs useful, top-like, metrics of your nginx server.
+
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+* 7 daily use cases of Ruby Hash
+  rb - mar 14
+  http://blog.8thcolor.com/en/2014/03/7-daily-use-cases-of-ruby-hash/
+  Hashes to hashes ...
+
+* How to Switch Between Selenium and Poltergeist in Capybara
+  rb - mar 14
+  http://ruby-journal.com/how-to-switch-between-selenium-and-poltergeist-for-rails-integration-rsped-test
+  For rails integration Rspec Test.
+
+* 100 awesome css/javascript plugins and coding techniques
+  js - mar 16
+  http://www.themebox.in/tutorials/100-awesome-cssjavascript-plugins-and-coding-techniques
+  A whole list of links to various tricks.
+
+* Docker Log Management Using Fluentd
+  ops - mar 17
+  http://jasonwilder.com/blog/2014/03/17/docker-log-management-using-fluentd/
+  Centralized data collection for docker farms.
+
+* The Case for a Dedicated Scrum Master
+  tool - mar 17
+  http://www.infoq.com/articles/case-dedicated-scrum-master
+  Small teams cut back on scrum master position ? They should not.
+
+* Exploring Maps In Sass 3.3
+  css3 - mar 17
+  http://www.phase2technology.com/blog/exploring-maps-in-sass-3-3/
+  The long waited associative array in Sass.
+
+* MySQL Fabric – adding High Availability to MySQL
+  ops - mar 18
+  http://www.clusterdb.com/mysql-fabric/mysql-fabric-adding-high-availability-to-mysql
+  MySQL Fabric is a new framework that adds High Availability (HA) and/or scaling-out for MySQL.
+
+* Deploying multi-server docker apps with ambassadors
+  ops - mar 18
+  http://www.centurylinklabs.com/deploying-multi-server-docker-apps-with-ambassadors/
+  Ambassadors are containers who’s sole purpose is to help connect containers across multiple hosts.
+
+* How to use a waterfall chart to diagnose your website’s performance pains
+  web - mar 18
+  http://www.webperformancetoday.com/2014/03/18/waterfalls-101-how-to-use-a-waterfall-chart-to-diagnose-performance-pains/
+  How to interpret a waterfall chart.
+
+* Comparing speed of RABL and Active Model Serializers
+  rb - mar 19
+  http://amishyn.tumblr.com/post/80052168555/comparing-speed-of-rabl-and-active-model-serializers
+  In short, Active model serializer is faster.
+
+* Using RSpec Shared Contexts to Ensure API Consistency
+  rb - mar 21
+  http://blog.bignerdranch.com/4691-using-rspec-shared-contexts-ensure-api-consistency/
+  Shared contexts are groups of examples that you can call from within multiple describe blocks.
+
+* Writing a Non-Gemified Strategy for Omniauth
+  rb - mar 21
+  http://www.polyglotprogramminginc.com/writing-a-non-gemified-strategy-for-omniauth/
+  When you want to develop a strategy as part of you application,  not as a gem.
+
+
+Watch
+----------------------------------------------------
+Screencasts and conferences videos, or other video feeds ...
+
+* Awesome talks
+  https://github.com/JanVanRyswyck/awesome-talks
+  A curated list of great technical talks.
+
+
+Listen
+----------------------------------------------------
+What could be heard last week ..
+
+* Giant robots #90
+  web - mar 17 - 23m
+  http://podcasts.thoughtbot.com/giantrobots/90
+  Do One Thing Well (George Brocklehurst, Mike Burns).
+
+* Ruby5 449
+  rb - mar 18 - 5m
+  http://ruby5.envylabs.com/episodes/485-episode-449-march-18th-2014
+  Experimental features, half your app, rake rule, polymorphism, hash selector, rails 4.0.4.
+
+* Ruby Rogues 148
+  rb - mar 19 - 1h03
+  http://rubyrogues.com/148-rr-cloud-confusions-with-amy-palamountain/
+  Cloud Confusions with Amy Palamountain.
+
+* Javascript Jabber 101
+  js - mar 19 - 50m
+  http://javascriptjabber.com/101-jsj-js-git-with-tim-caswell/
+  js-git with Tim Caswell.
+
+* Ruby5 450
+  rb - mar 21 - 6m
+  http://ruby5.envylabs.com/episodes/486-episode-450-march-21st-2014
+  Prawn, nobody knows ruby, rubygems index, rails girl, ruby cli.
+
+
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+
