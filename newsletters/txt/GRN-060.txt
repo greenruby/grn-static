@@ -1,0 +1,209 @@
+----------------------------------------------------
+Green Ruby News #060 - mar 30th 2014
+----------------------------------------------------
+
+Edito
+----------------------------------------------------
+Fresh links of the week. Well yes sometimes it's not that easy to write an edito.
+
+mose - the green ruby editor
+xenor - the informer
+http://greenruby.org
+
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+* NZK portfolio
+  http://www.nizuka.fr/
+  A designer protfolio, each link is a blast.
+
+* Visualizing Git Concepts with D3
+  http://www.wei-wang.com/ExplainGitWithD3/
+  A sandbox that visually shows what git actually does.
+
+* Cyber Threat realtime map
+  http://cyberwar.kaspersky.com/
+  Not that useful, but beautiful :)
+
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+* WebDesign Repo
+  design
+  http://www.webdesignrepo.com/
+  A selected list of web design related links.
+
+* Elasticsearch – the definitive guide
+  tool
+  http://www.elasticsearch.org/blog/elasticsearch-definitive-guide/
+  The Book for elasticsearch, now available online.
+
+* Google Cloud DNS
+  tool
+  http://googlecloudplatform.blogspot.tw/2014/03/announcing-google-cloud-dns.html
+  DNS management that has an API.
+
+* Dribbbox
+  design
+  http://dribbbox.com/
+  Your Dribbble portfolio in a simple js script you can put anywhere.
+
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+* Reek
+  rb
+  https://github.com/troessner/reek
+  Code smell detector for Ruby.
+
+* Sidekiq 3.0
+  rb
+  http://www.mikeperham.com/2014/03/28/sidekiq-3-0/
+  A new big milestone for this background job manager.
+
+* Rails 4.1.0 rc2
+  rb
+  http://weblog.rubyonrails.org/2014/3/25/Rails-4-1-rc2/
+  Last stop before 4.1.0 final.
+
+* Motion Prime
+  mobile
+  http://prime.droidlabs.pro/
+  RubyMotion apps development framework.
+
+* Friction
+  rb
+  https://github.com/rafalchmiel/friction
+  A tool to check if your project is contribution friendly.
+
+* Epic Editor
+  js
+  http://epiceditor.com/
+  Embeddable JavaScript Markdown editor.
+
+* Framework7
+  mobile
+  http://www.idangero.us/framework7/
+  Full Featured HTML Framework For Building iOS7 Apps.
+
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+* Form object validations in Rails 4
+  rb - mar 22
+  http://crypt.codemancers.com/posts/2013-12-18-form-objects-validations/
+  Using and testing validation with form objects.
+
+* Using Docker For Development
+  tool - mar 24
+  http://internistic.blogspot.tw/2014/03/using-docker-for-development.html
+  Advices on how to contain your dev environment in an isolated environment.
+
+* Heuristics for recognizing professional testers
+  tool - mar 25
+  http://www.huibschoots.nl/wordpress/?p=1666
+  List of skills that you need to look for when recruiting a tester.
+
+* 12 Small Web Frameworks for Ruby Developers
+  rb - mar 25
+  http://codecondo.com/12-small-ruby-frameworks/
+  When you don't need the full rails load, consider one of these options.
+
+* Understanding the Object Model
+  rb - mar 26
+  http://www.sitepoint.com/understanding-object-model/
+  Deep into what is an 'object' in ruby.
+
+* Web Components, building blocks of the future web
+  html5 - mar 27
+  https://www.infinum.co/the-capsized-eight/articles/web-components-building-blocks-of-the-future-web
+  Historic and current state of web components.
+
+* Spring-cleaning Unused CSS
+  css3 - mar 27
+  http://addyosmani.com/blog/removing-unused-css/
+  In many cases 90% of your css rules are not used. Here is how to clean it up.
+
+* Thread Safety With Ruby
+  rb - mar 27
+  http://lucaguidi.com/2014/03/27/thread-safety-with-ruby.html
+  As rule of thumb, avoid mutations after an object is being initialized.
+
+* Rack: ArgumentError: invalid byte sequence in UTF-8
+  rb - mar 29
+  http://dev.mensfeld.pl/2014/03/rack-argument-error-invalid-byte-sequence-in-utf-8/
+  Clean your utf8 input before it's too late.
+
+* Agile: To succeed, avoid the fundamentalists
+  tool - mar 29
+  http://venturebeat.com/2014/03/29/agile-in-the-enterprise-to-succeed-avoid-the-fundamentalists/
+  A great retrospective on Agile Development.
+
+
+Watch
+----------------------------------------------------
+Screencasts and conferences videos, or other video feeds ...
+
+* VIM configuration for Ruby on Rails applications
+  rb - mar 25 - 18m
+  https://www.youtube.com/watch?v=LdNac8uSzaw
+  A curated list of great technical talks.
+
+
+Listen
+----------------------------------------------------
+What could be heard last week ..
+
+* Giant robots #91
+  web - mar 24 - 34m
+  http://podcasts.thoughtbot.com/giantrobots/91
+  Not Ruining Design (Rich Thornett from Dribbble).
+
+* Ruby5 451
+  rb - mar 25 - 6m
+  http://ruby5.envylabs.com/episodes/487-episode-451-march-25th-2014
+  Postgres and jsonb, cucumber jvm, offshore, deploying to openshift.
+
+* Ruby Rogues 149
+  rb - mar 26 - 1h13
+  http://rubyrogues.com/149-rr-ruby-in-government-with-sarah-allen/
+  Ruby in Government with Sarah Allen.
+
+* Arrested DevOps 9
+  ops - mar 27 - 1h10
+  http://www.arresteddevops.com/configuration-management/
+  Fast and Furious: Configuration Drift.
+
+* Ruby5 452
+  rb - mar 28 - 7m
+  http://ruby5.envylabs.com/episodes/489-episode-452-march-28th-2014
+  Mock5, Ahoy, Lexeme, Rails 4 rc2, ping pong, small web framework.
+
+
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a 
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+
