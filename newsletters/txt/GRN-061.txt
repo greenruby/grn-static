@@ -1,0 +1,215 @@
+----------------------------------------------------
+Green Ruby News #061 - apr 6th 2014
+----------------------------------------------------
+
+Edito
+----------------------------------------------------
+This month on 25th there is a <a href="http://rubyconf.tw/2014/">rubyconf in Taipei</a>, so I prepared simple <a href="http://greenruby.org/img/grn-sticker.png">stickers</a> because geeks like to stick stuff on their laptops. If you want some, just come there, or <a href="mailto:mose@greenruby.org">send me a mail</a> see if I can send you a bunch of them.<br>Side Note: There is no stupid april's fool joke in this edition (pfew).
+
+mose - the green ruby editor
+xenor - the informer
+http://greenruby.org
+
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+* Nightwalk
+  https://nightwalk.withgoogle.com
+  A visit in Marseille on Cours Julien (with the french accent).
+
+* The uncomfortable
+  http://www.kkstudio.gr/#the-uncomfortable
+  Gallery of design that for some reason made me laungh a lot.
+
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+* Ruby Asia
+  rb
+  http://rubyasia.com/
+  A recent newsletter focused on ruby publication in Asia.
+
+* Nginx Admin Guide
+  ops
+  http://nginx.com/admin-guide/
+  The new official Nginx Guide, espcially good if you discover it.
+
+* The Magic of Css
+  css3
+  http://adamschwartz.co/magic-of-css/
+  A textbook with examples to (re-)learn CSS.
+
+* WakaTime
+  tool
+  https://wakatime.com/
+  Time tracking for programmers.
+
+* Codacy
+  tool
+  https://www.codacy.com/
+  Automated code review platform (seems like codeclimate).
+
+* Ghost Inspector
+  tool
+  https://ghostinspector.com/
+  Record yourself browsing. Make assertions. Replay in the cloud.
+
+* Scalyr
+  tool
+  https://www.scalyr.com/
+  Monitoring tool based on log parsing, similar to logentries.
+
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+* Gor
+  go
+  https://github.com/buger/gor/
+  HTTP traffic replay in real-time.
+
+* Priscilla
+  rb
+  https://github.com/Arkham/priscilla
+  For displaying console output values in a flashy way.
+
+* Rubymation
+  mobile
+  http://www.multunus.com/open_source/rubymation-series-animation-libraries-rubymotion/
+  Smooth animation in Rubymotion.
+
+* Sysdig
+  ops
+  http://www.sysdig.org/
+  Capture system state and activity from a running Linux instance.
+
+* Snapi
+  rb
+  https://github.com/pwnieexpress/snapi
+  A modular API functionality definition tool based on sinatra.
+
+* Slick
+  js
+  http://kenwheeler.github.io/slick/
+  The last carousel you'll ever need.
+
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+* Wrapping C libraries with Ruby using SWIG
+  rb - mar 25
+  http://engineering.zenpayroll.com/simple-ruby-c-extensions-with-swig/
+  Write C code for ruby extensions is not that hard.
+
+* Heap Overflow in YAML
+  rb - mar 29
+  https://www.ruby-lang.org/en/news/2014/03/29/heap-overflow-in-yaml-uri-escape-parsing-cve-2014-2525/
+  This is a vulnerability issue, that you need to get fixed.
+
+* Go development environment for Vim
+  go - mar 29
+  http://blog.gopheracademy.com/vimgo-development-environment
+  vim-go is a pathogen compatible bundle.
+
+* Heroku on Docker
+  ops - mar 31
+  http://www.centurylinklabs.com/heroku-on-docker/
+  Examples on how to containerize your apps for Heroku.
+
+* Debugging Asynchronous JavaScript with Chrome DevTools
+  js - mar 31
+  http://www.html5rocks.com/en/tutorials/developertools/async-call-stack/
+  Now in Chrome Canary DevTools, the full call stack of asynchronous JavaScript callbacks.
+
+* What's new in edge Rails: Active Record enums
+  rb - apr 1
+  http://robots.thoughtbot.com/whats-new-in-edge-rails-active-record-enum
+  A tiny but useful new ActiveRecord feature.
+
+* Working From Home? Here's an Extra Shot of Focus
+  tool - apr 2
+  https://techblog.livingsocial.com/blog/2014/04/02/working-from-home-heres-an-extra-shot-of-focus/
+  Experience from a remote worker.
+
+* The Three Most Heated Debates In Git
+  tool - apr 3
+  http://readwrite.com/2014/04/03/git-three-most-heated-debates
+  Pull or fetch and merge ? Merge or rebase ? Pull request or code review ?
+
+* 6 JS Libraries for Building Visualized Charts & Graphs
+  js - apr 3
+  http://codecondo.com/6-js-libraries-building-visualized-charts-graphs
+  A good selection if you need more data vizualization (and you do).
+
+* Opal: Ruby in Your Browser, the Basics
+  rb - apr 4
+  http://www.sitepoint.com/opal-ruby-browser-basics/
+  Opal translates Ruby code into Javascript..
+
+
+Watch
+----------------------------------------------------
+Screencasts and conferences videos, or other video feeds ...
+
+* Setting up Bower and Polymer
+  js - mar 28 - 23m
+  https://www.youtube.com/watch?v=1rz334A8U7o
+  A screencast with some polymer demo.
+
+
+Listen
+----------------------------------------------------
+What could be heard last week ..
+
+* Giant robots #92
+  web - mar 31 - 33m
+  http://podcasts.thoughtbot.com/giantrobots/92
+  Program to the Machine You Have (Ryan Hoover from Producthunt).
+
+* Ruby Rogues 150
+  rb - apr 2 - 1h28
+  http://rubyrogues.com/150-rr-the-debugging-mindset-with-danielle-sucher/
+  The Debugging Mindset with Danielle Sucher.
+
+* Javascript Jabber 102
+  js - apr 2 - 47m
+  http://javascriptjabber.com/102-jsj-angular-and-open-source-projects-with-brad-green/
+  Angular and Open Source Projects with Brad Green.
+
+* NodeUp 61
+  js - apr 2 - 1h26
+  http://nodeup.com/sixtyone
+  a cls show (Continuation-Local Storage).
+
+* Ruby5 453
+  rb - apr 4 - 5m
+  http://ruby5.envylabs.com/episodes/490-episode-453-april-4th-2014
+  Rails PDFs, ruby 2.1 GC, mobile CDN, ActiveRecord::Enum, iOS on rails.
+
+
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a 
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+
