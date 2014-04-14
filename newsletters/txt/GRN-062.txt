@@ -1,0 +1,238 @@
+----------------------------------------------------
+Green Ruby News #062 - apr 13th 2014
+----------------------------------------------------
+
+Edito
+----------------------------------------------------
+The week of the bleeding heart was busy with server upgrades. ruby recompilation, SSL renewals, passwords and keys rotations. There are so many posts about it this week.
+http://heartbleed.com
+
+mose - the green ruby editor
+xenor - the informer
+http://greenruby.org
+
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+* Active Theory
+  http://activetheory.net/
+  An impressive portfolio.
+
+* Mental Notes
+  http://www.getmentalnotes.com/
+  A set of cards representing psychology traits that belong web design world.
+
+* Design for the web
+  http://www.designingfortheweb.co.uk/
+  A free book about web design.
+
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+* Heartbleed tests
+  tool
+  http://filippo.io/Heartbleed
+  https://reverseheartbleed.com
+  https://github.com/emboss/heartbeat
+  This one is obvious, but there is also a reverse Heartbleed tester and ruby standlone testing code.
+
+* Cross platform password manager
+  tool
+  http://www.slant.co/topics/900/~what-is-the-best-cross-platform-windows-osx-linux-password-manager
+  http://www.zx2c4.com/projects/password-store/
+  All this password changing may be a good time to consider using one of those tools (but I prefer pass personally).
+
+* Flaticon
+  design
+  http://www.flaticon.com/
+  The largest database of free vector icons.
+
+* Ruby Survey 2014
+  rb
+  http://www.ruby-survey.com/
+  Started in 2008, this survey is the 4th of its kind.
+
+* Angular-rails
+  rb
+  http://angular-rails.com/
+  A free Micro eBook on Getting Started with Angular on Rails.
+
+* Designer resources
+  design
+  https://medium.com/design-ux/799d16952a56
+  160+ sites, apps & books that I recommend any designer should check out.
+
+* RegExr
+  tool
+  http://www.regexr.com/
+  An online tool to learn, build, & test Regular Expressions.
+
+* Superhero.js
+  js
+  http://superherojs.com/
+  A collection of the best articles, videos and presentations about javascript.
+
+* Developer Agents
+  tool
+  http://www.developeragents.com/
+  A shared newsletter promoting talented developers as soon as they become available.
+
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+* Rails 4.1
+  rb
+  http://weblog.rubyonrails.org/2014/4/8/Rails-4-1/
+  Spring, Variants, Enums, Mailer previews, secrets.yml.
+
+* Passenger 4.0.41
+  devops
+  http://blog.phusion.nl/2014/04/08/phusion-passenger-4-0-41-released-openssl-heartbleed-security-update/
+  The OpenSSL Heartbleed security update.
+
+* ExpressJS 4
+  js
+  http://expressjs.com/4x/api.html
+  Some nice performance improvements (but <a href="http://scotch.io/bar-talk/expressjs-4-0-new-features-and-upgrading-from-3-0">upgrading</a> can use some attention).
+
+* Web-repl
+  rb
+  https://github.com/arirusso/web-repl
+  Javascript/Web REPL in Ruby.
+
+* iHover
+  css3
+  http://gudh.github.io/ihover/dist/index.html
+  CSS3 hover effects pack.
+
+* PredictionIO
+  tool
+  https://hacks.mozilla.org/2014/04/introducing-predictionio/
+  An open source machine learning server from Mozilla.
+
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+* Go for Rubyists
+  go - apr 3
+  https://blog.engineyard.com/2014/intro-to-go-rubyists
+  Another go primer that covers the very basics of Go and compares with ruby code.
+
+* Crafting a conference talk
+  tool - apr 4
+  http://blog.testdouble.com/posts/2014-04-04-crafting-a-conference-talk.html
+  An extensive fedback about how to give talks.
+
+* 4 Signs You're Doing Agile Development Wrong
+  tool - apr 4
+  http://www.informationweek.com/strategic-cio/executive-insights-and-innovation/4-signs-youre-doing-agile-development-wrong/d/d-id/1174135
+  Agile is nice, when it works. When it doesn't, here are some hints about why.
+
+* Running ElasticSearch, LogStash and Kibana in Docker
+  ops - apr 6
+  http://jeremytinley.wordpress.com/2014/04/06/elk-stack-in-docker/
+  Comments about getting the ELK up in containers.
+
+* Linking docker containers with a Serf ambassador
+  devops - apr 7
+  http://www.centurylinklabs.com/linking-docker-containers-with-a-serf-ambassador/
+  An example setup for linking containers.
+
+* Ruby 2.1 GC: ready for production
+  rb - apr 8
+  http://samsaffron.com/archive/2014/04/08/ruby-2-1-garbage-collection-ready-for-production
+  A good reason to use Ruby 2.1.1 in production.
+
+* Using a Ruby Class To Write Functional Code
+  rb - apr 8
+  http://patshaughnessy.net/2014/4/8/using-a-ruby-class-to-write-functional-code
+  A post from Pat with once agin very deep insights into ruby language.
+
+* How To Build A Ruby Gem
+  rb - apr 8
+  http://www.smashingmagazine.com/2014/04/08/how-to-build-ruby-gem-with-bundler-travis-ci-coveralls/
+  With Bundler, Test-Driven Development, Travis CI And Coveralls. A long article.
+
+* The Insider's Guide to JavaScript Interviewing
+  js - apr 9
+  http://www.toptal.com/javascript#hiring-guide
+  Questions to ask to see if your JS candidates are what they think they are.
+
+* Heartbleed and ruby
+  rb - apr 10
+  https://www.ruby-lang.org/en/news/2014/04/10/severe-openssl-vulnerability/
+  How is Ruby affected by the bleeding.
+
+* Extract Mostly-Constant Data from the Database
+  rb - apr 11
+  http://robots.thoughtbot.com/extract-mostly-constant-data-from-the-database
+  Just some common sense to the sake of performance.
+
+
+Watch
+----------------------------------------------------
+Screencasts and conferences videos, or other video feeds ...
+
+* AngularJS and i18n
+  js - apr 9 - 34m
+  https://www.youtube.com/watch?v=1rz334A8U7o
+  A talk by Pascal Precht at kod.io 2014.
+
+
+Listen
+----------------------------------------------------
+What could be heard last week ..
+
+* Giant robots #93
+  web - apr 7 - 42m
+  http://podcasts.thoughtbot.com/giantrobots/93
+  Diversity of Approach (David Nolen from NY Times).
+
+* Ruby5 454
+  rb - apr 8 - 6m
+  http://ruby5.envylabs.com/episodes/491-episode-454-april-8th-2014
+  postgres, tips for hiring, ruby love, proposals, conference talk, json schema, build a ruby gem, apis with rails.
+
+* Ruby5 455
+  rb - apr 8 - 9m
+  http://ruby5.envylabs.com/episodes/492-episode-455-april-8th-2014
+  Heartbleed, tco gem, ruby 2.1 GC, hound, rails 4.1.
+
+* Ruby Rogues 151
+  rb - apr 9 - 1h02
+  http://rubyrogues.com/151-rr-the-jim-weirich-tribute-episode/
+  The Jim Weirich Tribute Episode.
+
+* Javascript Jabber 103
+  js - apr 9 - 1h04
+  http://javascriptjabber.com/103-jsj-robots-with-raquel-velez/
+  Robots with Raquel Vélez.
+
+
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+
