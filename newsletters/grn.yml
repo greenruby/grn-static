@@ -1,8 +1,8 @@
 ---
-edition: "064"
-pubdate: "apr 27th 2014"
+edition: "065"
+pubdate: "may 4th 2014"
 edito:
-  "That's a busy weekend for us, RubyConf taiwan just ended, <a href=\"https://twitter.com/search?q=rubyconftw&mode=photos\">check some photos</a>. RailsConf 2014 happened at the same time and confreaks published videos on justin.tv (see below). And else in the world, here are the geeky news of the week."
+  "Hey if you know rails and are between jobs, why not come to Taiwan teach a few months ? Check this <a href=\"https://dl.dropboxusercontent.com/u/56565651/ACamp%20RoR%20Instructor.pdf\">announce (pdf)</a>, this may be the occasion (it's paid and hosted)."
 
 topics:
 
@@ -11,194 +11,190 @@ topics:
     "Examples of UI/UX, graphic performance, web design and flashy things."
   links:
 
-  - title: "Aquatilis"
-    url: "http://aquatilis.tv//"
-    comment: "An project of exploration of oceans, superb images and nice navigation"
+  - title: "Guillaume Juvenet"
+    url: "http://www.guillaumejuvenet.com/"
+    comment: "A simple but nicely done resume website."
+
+  - title: "The expressive web"
+    url: "http://beta.theexpressiveweb.com/"
+    comment: "Showcase of some of the newest features being added to the web today (by adobe)."
 
 - title: Use
   baseline:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: "Accredible"
-    url: "https://www.accredible.com/"
-    comment: "Keep track of online training sessions from coursera, edX, udacity."
-    tags:
-      - tool
-
-  - title: "Pintask"
-    url: "https://pintask.me/"
-    comment: "Task tracker, ala Trello."
-    tags:
-      - tool
-
-  - title: "Waffle"
-    url: "https://waffle.io/"
-    comment: "A workflow tool for github issues."
-    tags:
-      - tool
-
-  - title: "Gandalf.io"
-    url: "https://gandalf.io/"
-    comment: "Simple docker hosting for private images."
-    tags:
-      - ops
-
-  - title: "3D Hubs"
-    url: "http://www.3dhubs.com/"
-    comment: "Find a 3D printer near you."
-    tags:
-      - tool
-
-  - title: "IE status"
-    url: "http://status.modern.ie/"
-    comment: "The prevision of IE support of new css3/js/html5 features, from microsoft."
-    tags:
-      - html5
-
-  - title: "Rails 4 Application Development"
-    url: "http://www.amazon.com/dp/1783286296/"
-    comment: "I usualy don't link books in this letter, but that one is pretty good."
+  - title: "Sublime Text Cheat Sheet for Ruby & RoR"
+    url: "http://www.icicletech.com/cheat-sheets/sublime-cheat-sheet-for-ruby-and-ruby-on-rails"
+    comment: "A handy PDF to print and stick on your wall."
     tags:
       - rb
 
+  - title: "Dorm Room Tycoon"
+    url: "http://drt.fm/"
+    comment: "Insightful interviews for designers, hackers and startup founders."
+    tags:
+      - web
+
+  - title: "Google web fundamentals"
+    url: "https://developers.google.com/web/fundamentals/"
+    comment: "Comprehensive resource for multi-device web development."
+    tags:
+      - web
+
+  - title: "ASCII to PNG"
+    url: "http://shaky.github.bushong.net/"
+    comment: "Instantly makes png out of ascii charts."
+    tags:
+      - tool
+
+  - title: "Perfect Icons"
+    url: "http://perfecticons.com/"
+    comment: "The easiest way to create resolution independent social icons."
+    tags:
+      - tool
+
+  - title: "Pesticide"
+    url: "http://pesticide.io/"
+    comment: "Faster CSS layout debugging chrome extension."
+    tags:
+      - css3
 
 - title: Install
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: "Allocation tracer"
-    url: "https://github.com/ko1/allocation_tracer"
-    comment: "Allocation tracer, checking ruby objects lifecycle."
+  - title: "Nodegh"
+    url: "http://nodegh.io/"
+    comment: "GitHub command line tools."
+    tags:
+      - tool
+
+  - title: "Synvert"
+    url: "http://xinminlabs.github.io/synvert/"
+    comment: "Convert ruby code to better syntax (also helpful for rails upgrade to 4.0)."
     tags:
       - rb
 
-  - title: "Flynn first preview"
-    url: "https://github.com/flynn/flynn"
-    comment: "This long waited PaaS tool released its first usable version."
+  - title: "Various"
+    url: "https://github.com/kulte/various"
+    comment: "simple ActionPack::Variant configuration for Rails 4.1."
     tags:
-      - ops
+      - rb
 
-  - title: "Gocd"
-    url: "http://www.go.cd/"
-    comment: "Automate and streamline the build-test-release cycle for continuous delivery."
+  - title: "Ahoy"
+    url: "https://ankane.github.io/ahoy/"
+    comment: "Simple, powerful visit tracking for Rails."
     tags:
-      - go
+      - rb
 
-  - title: "Minicron"
-    url: "http://jamesrwhite.github.io/minicron/"
-    comment: "A rails app with a GUI to manage cron jobs and notifications."
+  - title: "Sandimeter"
+    url: "https://github.com/makaroni4/sandi_meter/"
+    comment: "Static analysis tool for checking Ruby code for Sandi Metz' rules."
     tags:
-      - ops
+      - rb
 
-  - title: "Consul"
-    url: "http://www.consul.io/"
-    comment: "A new service discovery tool from the vagrant guys, seems like an evolution of Serf."
+  - title: "Oauthd"
+    url: "https://github.com/oauth-io/oauthd"
+    comment: "The open source version of the OAuth.io core."
     tags:
-      - ops
+      - js
 
-  - title: "Shine"
-    url: "http://bigspaceship.github.io/shine.js/"
-    comment: "A library for pretty shadows."
+  - title: "Circular"
+    url: "http://circular.io/"
+    comment: "An open source Buffer app."
     tags:
-      - css3
+      - js
 
-  - title: "Gogs"
-    url: "https://github.com/gogits/gogs"
-    comment: "Self Hosted Git Service, like a gitlab limited to the git features."
+  - title: "Velocity"
+    url: "http://julian.com/research/velocity/"
+    comment: "Accelerated JavaScript animation as jQuery plugin."
     tags:
-      - go
+      - js
+
+  - title: "jQuery 1.11.1 and 2.1.1"
+    url: "http://blog.jquery.com/2014/05/01/jquery-1-11-1-and-2-1-1-released/"
+    comment: "A new jquery with some bug fixed."
+    tags:
+      - js
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: "Using Facebook Notes to DDoS any website"
-    url: "http://chr13.com/2014/04/20/using-facebook-notes-to-ddos-any-website/"
-    comment: "They say they cannot fix it. Read carefully and protect yourself against this."
-    pubdate: apr 20
-    tags:
-      - web
-
-  - title: "TravisCI-like Continuous Integration with Docker and Jenkins"
-    url: "https://zapier.com/engineering/continuous-integration-jenkins-docker-github/"
-    comment: "Zapier explains how they use jenkins, docker and github commit API."
-    pubdate: apr 21
+  - title: "SSH Kung Fu"
+    url: "http://blog.tjll.net/ssh-kung-fu/"
+    comment: "A great list of tips for having a deeper use of SSH."
+    pubdate: apr 27
     tags:
       - ops
 
-  - title: "TravisCI-like Continuous Integration with Docker and Jenkins"
-    url: "https://zapier.com/engineering/continuous-integration-jenkins-docker-github/"
-    comment: "Zapier explains how they use jenkins, docker and github commit API."
-    pubdate: apr 21
+  - title: "Go, Robots and Code Refactoring"
+    url: "http://matt.aimonetti.net/posts/2014/04/28/refactoring-go-code/"
+    comment: "A dive into gobots, an occasion for some go tips."
+    pubdate: apr 28
+    tags:
+      - go
+
+  - title: "Vagrant as Docker-Based Development Environments"
+    url: "http://www.vagrantup.com/blog/feature-preview-vagrant-1-6-docker-dev-environments.html"
+    comment: "Feature Preview of the next 1.6 version of Vagrant."
+    pubdate: apr 28
     tags:
       - ops
 
-  - title: "What docker is and when to use it"
-    url: "http://www.centurylinklabs.com/what-is-docker-and-when-to-use-it/"
-    comment: "A very good explanation of what docker is not, and how it compares to other technologies."
-    pubdate: apr 22
-    tags:
-      - ops
-
-  - title: "Ruby Tips Part 5"
-    url: "http://globaldev.co.uk/2014/04/ruby-tips-part-5/"
-    comment: "Misc tips about ruby, also good to check the previous ones."
-    pubdate: apr 22
-    tags:
-      - rb
-
-  - title: "Ruby Security Have You Not!"
-    url: "https://hakiri.io/blog/ruby-security-have-you-not"
-    comment: "Metrics from Hakiri, a service for checking gems security."
-    pubdate: apr 22
-    tags:
-      - rb
-
-  - title: "TDD is dead. Long live testing."
-    url: "http://david.heinemeierhansson.com/2014/tdd-is-dead-long-live-testing.html"
-    comment: "A shout out against test-first paradigm from the rails father."
-    pubdate: apr 23
-    tags:
-      - rb
-
-  - title: "Model-view-controller, Haskell-style"
-    url: "http://www.haskellforall.com/2014/04/model-view-controller-haskell-style.html"
-    comment: "Doing MVC in Haskell."
-    pubdate: apr 25
-    tags:
-      - hk
-
-  - title: "Chrome DevTools Features You May Have Missed"
-    url: "http://code.tutsplus.com/tutorials/chrome-devtools-features-you-may-have-missed--cms-20850"
-    comment: "6 dev features from chrome."
-    pubdate: apr 25
+  - title: "Test-induced design damage"
+    url: "http://david.heinemeierhansson.com/2014/test-induced-design-damage.html"
+    comment: "DHH strikes again on his recent argument against TDD."
+    pubdate: apr 29
     tags:
       - tool
 
-  - title: "What Can Men Do?"
-    url: "http://blog.codinghorror.com/what-can-men-do/"
-    comment: "Why we need more lady-coders and how to help it."
-    pubdate: apr 25
+  - title: "Mastering Rails Validations: Contexts"
+    url: "http://blog.arkency.com/2014/04/mastering-rails-validations-contexts/"
+    comment: "Skip validations in Rails depending on contexts."
+    pubdate: apr 29
     tags:
-      - web
+      - rb
+
+  - title: "Gourmet Service Objects"
+    url: "http://brewhouse.io/blog/2014/04/30/gourmet-service-objects.html"
+    comment: "A pattern for service objects explained."
+    pubdate: apr 29
+    tags:
+      - rb
+
+  - title: "Git Workflows That Work"
+    url: "http://blog.endpoint.com/2014/05/git-workflows-that-work.html"
+    comment: "Review of 4 different git workflows."
+    pubdate: may 2
+    tags:
+      - tool
+
+  - title: "Guarding with arrays"
+    url: "http://reefpoints.dockyard.com/2014/05/03/guarding-with-arrays.html"
+    comment: "A simple trick for prettier arrays iterations."
+    pubdate: may 3
+    tags:
+      - rb
+
+  - title: "Speeding Up ActiveRecord Tests"
+    url: "http://articles.coreyhaines.com/posts/active-record-spec-helper/"
+    comment: "A trick to avoid loading the whole rails env while testing models."
+    pubdate: may 3
+    tags:
+      - rb
+
 
 - title: Watch
   baseline: "Screencasts and conferences videos, or other video feeds ..."
   links:
 
-  - title: "Building JavaScript Tools"
-    url: "https://www.youtube.com/watch?v=XA8_hZfVecI"
-    comment: "JavaScript Abstract Syntax Trees and building your own tools."
-    duration: 29m
-    pubdate: apr 25
-    tags:
-      - js
-
-  - title: "RailsConf 2014"
-    url: "http://www.justin.tv/confreaks/b/522089408"
-    comment: "Preview of the confreaks footage from the railsconf this weekend."
-    pubdate: apr 25
+  - title: "RailsConf 2014 Recap: Day 4 with Aaron Patterson"
+    url: "http://www.bigastronaut.com/blog/2014/railsconf-2014-recap-day-4-with-aaron-patterson"
+    comment: "Short recap, tenderlove relaunches the beard fashion."
+    duration: 4m
+    pubdate: apr 26
     tags:
       - rb
 
@@ -206,66 +202,74 @@ topics:
   baseline: What could be heard last week ..
   links:
 
-  - title: "Giant robots #95"
-    url: http://podcasts.thoughtbot.com/giantrobots/95
-    duration:  42m
-    pubdate: apr 21
-    comment: "Making Time (Chas Emerick, The Quilt Project)."
+  - title: "Giant robots #96"
+    url: http://podcasts.thoughtbot.com/giantrobots/96
+    duration:  35m
+    pubdate: apr 28
+    comment: "Business is Hard (Jeff Casimir from The Turing School)."
     tags:
       - web
 
-  - title: "CodePen podcast 009"
-    url: http://blog.codepen.io/2014/04/22/009-code-quality/
+  - title: "NodeUp 62"
+    url: http://nodeup.com/sixtytwo
+    duration:  1h02
+    pubdate: apr 28
+    comment: "a nodeconf 2014 show."
+    tags:
+      - web
+
+  - title: Product Hunt Radio 3
+    url: http://blog.producthunt.co/post/84223359564/product-hunt-radio-episode-3
     duration: 29m
-    pubdate: apr 22
-    comment: "Code quality (linting)."
-    tags:
-      - js
-
-  - title: Product Hunt Radio 2
-    url: http://blog.producthunt.co/post/83516326966/product-hunt-radio-episode-2
-    duration: 32m
-    pubdate: apr 22
-    comment: "About online-to-offline apps, and various other topics."
+    pubdate: apr 29
+    comment: "About products, from selfie apps to new innovative healthcare solutions."
     tags:
       - web
 
-  - title: Ruby5 458
-    url: http://ruby5.envylabs.com/episodes/495-episode-458-april-22nd-2014
-    duration: 6m
-    pubdate: apr 22
-    comment: "Searchlight, no dumping, this week in rails, whiny validation, bootstrap 3 and simple forms, open source gardener."
+  - title: Ruby5 460
+    url: http://ruby5.envylabs.com/episodes/497-episode-460-april-29th-2014
+    duration: 7m
+    pubdate: apr 29
+    comment: "Various, what's next, railsreloader, capistrano, angular, PG power."
     tags:
       - rb
 
-  - title: Ruby Rogues 153
-    url: http://rubyrogues.com/153-rr-from-the-forum/
-    duration: 1h10
-    pubdate: apr 23
-    comment: "From the Forum, extracts from the ruby parley discourse."
+  - title: Food fight show 72
+    url: http://foodfightshow.org/2014/04/cookbook-patterns.html
+    duration: 1h09
+    pubdate: apr 29
+    comment: "Cookbook Patterns."
+    tags:
+      - ops
+
+  - title: Ruby Rogues 154
+    url: http://rubyrogues.com/154-rr-indie-game-development-with-megan-fox/
+    duration: 1h07
+    pubdate: apr 30
+    comment: "Indie Game Development with Megan Fox."
     tags:
       - rb
 
-  - title: Javascript Jabber 105
-    url: http://javascriptjabber.com/105-jsj-jsconf-and-organizing-conferences-with-chris-williams/
-    duration: 1h16
-    pubdate: apr 23
-    comment: "JSConf and Organizing Conferences with Chris Williams."
-    tags:
-      - js
-
-  - title: TheChangelog 119
-    url: http://5by5.tv/changelog/119
+  - title: Javascript Jabber 106
+    url: http://javascriptjabber.com/106-jsj-protractor-with-julie-ralph/
     duration: 48m
-    pubdate: apr 25
-    comment: "MEAN.js & Full-Stack JavaScript w/ Roie and Amos."
+    pubdate: apr 30
+    comment: "Protractor with Julie Ralph (angular testing)."
     tags:
       - js
 
-  - title: Ruby5 459
-    url: http://ruby5.envylabs.com/episodes/494-episode-457-april-18th-2014
-    duration: 6m
-    pubdate: apr 25
-    comment: "letter opener web, mint-exporter, moingoid observers, DHH interview, ids_please, ruby heroes 2014."
+  - title: TheChangelog 120
+    url: http://5by5.tv/changelog/120
+    duration: 1h11
+    pubdate: may 2
+    comment: "Ruby tooling, chruby, ruby-install, and security with Postmodern."
+    tags:
+      - rb
+
+  - title: Ruby5 461
+    url: http://ruby5.envylabs.com/episodes/498-episode-461-may-2nd-2014
+    duration: 5m
+    pubdate: may 2
+    comment: "test-induced design damage, priscilla, advanced rake, mutation testing, worldcup2014.db."
     tags:
       - rb
