@@ -9,7 +9,544 @@
     <link>http://greenruby.org/feed.rss</link>
     <description>Green Ruby News is a feed of fresh links of the week about ruby, javascript, webdev, devops, collected by mose every sunday</description>
     <language>en-US</language>
-    <pubDate>Mon, 05 May 2014 05:40:28 +0800</pubDate>
+    <pubDate>Mon, 12 May 2014 02:03:58 +0800</pubDate>
+    <item>
+      <title>Green Ruby News #066</title>
+      <link>http://greenruby.org/grn-066.html</link>
+      <description>A lot of new releases this week, both on ruby, and on rails, but also various others. We also have a lot of podcasts at the bottom too.</description>
+      <pubDate>Sun, 11 May 2014 00:00:00 +0800</pubDate>
+      <guid>http://greenruby.org/grn-066.html</guid>
+      <content:encoded>
+&lt;h1&gt;#066 - may 11th 2014&lt;/div&gt;
+
+&lt;h2&gt;Edito&lt;/h2&gt;
+A lot of new releases this week, both on ruby, and on rails, but also various others. We also have a lot of podcasts at the bottom too.
+&lt;br&gt;
+&lt;br&gt;
+&lt;em&gt;&amp;nbsp; mose - the green ruby editor&lt;/em&gt;&lt;br&gt;
+&lt;em&gt;&amp;nbsp;
+
+	xenor - the informer
+
+&lt;/em&gt;&lt;br&gt;
+&amp;nbsp; &lt;a href=&quot;http://greenruby.org&quot; target=&quot;_self&quot;&gt;http://greenruby.org&lt;/a&gt;
+&lt;br&gt;
+
+
+&lt;h3&gt;Look&lt;/h3&gt;
+&lt;div&gt;Examples of UI/UX, graphic performance, web design and flashy things.&lt;/div&gt;
+&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; border=&quot;0&quot; width=&quot;100%&quot;&gt;
+
+&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+&lt;a href=&quot;http://www.youthedesigner.com/2014/05/01/awesome-playing-cards-for-web-developers/&quot;&gt;Playing Cards for Web Developers&lt;/a&gt; 
+&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+
+
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
+Great gift for beginners.
+&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+&lt;a href=&quot;http://demosthenes.info/blog/758/Resources-For-Free-Legal-Web-Images&quot;&gt;Resources For Free, Legal Web Images&lt;/a&gt; 
+&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+
+
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
+When original photo is not possible, and budget is tight, royalty-free photos can help.
+&lt;/td&gt;&lt;/tr&gt;
+
+&lt;/table&gt;
+
+&lt;h3&gt;Use&lt;/h3&gt;
+&lt;div&gt;Web applications, resources and tools, available for making our life easier or funnier.&lt;/div&gt;
+&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; border=&quot;0&quot; width=&quot;100%&quot;&gt;
+
+&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+&lt;a href=&quot;http://webcomponents.org/&quot;&gt;WebComponents.org&lt;/a&gt; 
+&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+
+
+&lt;img class=&quot;icon&quot; src=&quot;ico/html5.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;html5&quot; /&gt;
+
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
+A place to discuss and evolve web component best-practices.
+&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+&lt;a href=&quot;https://moqups.com/&quot;&gt;Moqups&lt;/a&gt; 
+&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+
+
+&lt;img class=&quot;icon&quot; src=&quot;ico/design.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;design&quot; /&gt;
+
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
+New version of Moqups is available. Make mockups online.
+&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+&lt;a href=&quot;http://www.stylestats.org/&quot;&gt;StyleStats&lt;/a&gt; 
+&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+
+
+&lt;img class=&quot;icon&quot; src=&quot;ico/css3.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;css3&quot; /&gt;
+
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
+Instantly give stats on CSS for any website.
+&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+&lt;a href=&quot;http://sourcemaking.com/&quot;&gt;SourceMaking&lt;/a&gt; 
+&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+
+
+&lt;img class=&quot;icon&quot; src=&quot;ico/tool.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;tool&quot; /&gt;
+
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
+A general purpose collection of patterns references for coders.
+&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+&lt;a href=&quot;http://leanstack.io/cloud-stacks&quot;&gt;Leanstack&lt;/a&gt; 
+&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+
+
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
+See what the best startups and companies in the world are using.
+&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+&lt;a href=&quot;http://www.accentlearners.com/&quot;&gt;Accent Learners&lt;/a&gt; 
+&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+
+
+&lt;img class=&quot;icon&quot; src=&quot;ico/tool.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;tool&quot; /&gt;
+
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
+If your boss rolls eyes at your English accent, make him pay you this (yeah most Green Ruby readers are not English native speakers actually).
+&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+&lt;a href=&quot;http://rails-refactoring.com/&quot;&gt;Rails Refactoring&lt;/a&gt; 
+&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+
+
+&lt;img class=&quot;icon&quot; src=&quot;ico/rb.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;rb&quot; /&gt;
+
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
+This is another book about fearless refactoring, published this year.
+&lt;/td&gt;&lt;/tr&gt;
+
+&lt;/table&gt;
+
+&lt;h3&gt;Install&lt;/h3&gt;
+&lt;div&gt;A selection of gems or applications updated during past week.&lt;/div&gt;
+&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; border=&quot;0&quot; width=&quot;100%&quot;&gt;
+
+&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+&lt;a href=&quot;https://www.ruby-lang.org/en/news/2014/05/09/ruby-2-1-2-is-released/&quot;&gt;Ruby 2.1.2&lt;/a&gt; 
+&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+
+
+&lt;img class=&quot;icon&quot; src=&quot;ico/rb.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;rb&quot; /&gt;
+
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
+With Hash#reject regression fix.
+&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+&lt;a href=&quot;http://weblog.rubyonrails.org/2014/5/6/Rails_3_2_18_4_0_5_and_4_1_1_have_been_released/&quot;&gt;Rails 3.2.18, 4.0.5, 4.1.1&lt;/a&gt; 
+&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+
+
+&lt;img class=&quot;icon&quot; src=&quot;ico/rb.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;rb&quot; /&gt;
+
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
+This is a security release related to CVE-2014-0130.
+&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+&lt;a href=&quot;http://jekyllrb.com/news/2014/05/06/jekyll-turns-2-0-0/&quot;&gt;Jekyll turns 2.0.0&lt;/a&gt; 
+&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+
+
+&lt;img class=&quot;icon&quot; src=&quot;ico/rb.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;rb&quot; /&gt;
+
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
+Exactly one year after the 1.0.0, this version has a lot of changes.
+&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+&lt;a href=&quot;http://blog.atom.io/2014/05/06/atom-is-now-open-source.html&quot;&gt;Atom open sourced&lt;/a&gt; 
+&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+
+
+&lt;img class=&quot;icon&quot; src=&quot;ico/tool.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;tool&quot; /&gt;
+
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
+This was uncertain for a while, but they made it! Great move.
+&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+&lt;a href=&quot;http://packetbeat.com/&quot;&gt;PacketBeat&lt;/a&gt; 
+&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+
+
+&lt;img class=&quot;icon&quot; src=&quot;ico/ops.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;ops&quot; /&gt;
+
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
+Open Source application monitoring &amp; packet tracing system.
+&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+&lt;a href=&quot;http://flippinawesome.org/2014/05/05/slush-a-better-web-app-scaffolding-tool/&quot;&gt;Slush&lt;/a&gt; 
+&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+
+
+&lt;img class=&quot;icon&quot; src=&quot;ico/js.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;js&quot; /&gt;
+
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
+A Better Web App Scaffolding Tool.
+&lt;/td&gt;&lt;/tr&gt;
+
+&lt;/table&gt;
+
+&lt;h3&gt;Read&lt;/h3&gt;
+&lt;div&gt;From the blogosphere or news feeds ...&lt;/div&gt;
+&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; border=&quot;0&quot; width=&quot;100%&quot;&gt;
+
+&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+&lt;a href=&quot;http://ruby-journal.com/how-to-override-default-primary-key-id-in-rails&quot;&gt;How to Override Default Primary Key Id in Rails&lt;/a&gt; 
+&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+apr 18
+
+&lt;img class=&quot;icon&quot; src=&quot;ico/rb.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;rb&quot; /&gt;
+
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
+Integer primary keys are not the only way.
+&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+&lt;a href=&quot;https://masteruby.github.io/productivity-booster/2014/05/02/vim-plugins-for-ruby.html&quot;&gt;10 useful vim plugins for Ruby&lt;/a&gt; 
+&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+may 2
+
+&lt;img class=&quot;icon&quot; src=&quot;ico/rb.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;rb&quot; /&gt;
+
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
+Many of you probably have those installed, but who knows.
+&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+&lt;a href=&quot;http://nicksda.apotomo.de/2014/05/reform-1-0-form-objects-for-ruby-and-rails/&quot;&gt;Reform 1.0 – Form Objects For Ruby And Rails&lt;/a&gt; 
+&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+may 5
+
+&lt;img class=&quot;icon&quot; src=&quot;ico/rb.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;rb&quot; /&gt;
+
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
+Examples of usage for the release of the 1.0 of reform.
+&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+&lt;a href=&quot;https://medium.com/p/a2010c13d3d5&quot;&gt;Getting gulpy&lt;/a&gt; 
+&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+may 6
+
+&lt;img class=&quot;icon&quot; src=&quot;ico/js.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;js&quot; /&gt;
+
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
+Advanced tips for using gulp.js.
+&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+&lt;a href=&quot;http://css-tricks.com/reading-position-indicator/&quot;&gt;Reading Position Indicator&lt;/a&gt; 
+&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+may 7
+
+&lt;img class=&quot;icon&quot; src=&quot;ico/css3.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;css3&quot; /&gt;
+
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
+Very nice when the page gets long.
+&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+&lt;a href=&quot;http://10kb.nl/blog/automatically-generate-angular-resources-for-your-rails-api&quot;&gt;Angular resources for your Rails API&lt;/a&gt; 
+&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+may 7
+
+&lt;img class=&quot;icon&quot; src=&quot;ico/rb.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;rb&quot; /&gt;
+
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
+Automatically generate them, with some rails route setup.
+&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+&lt;a href=&quot;http://globaldev.co.uk/2014/05/ruby-2-1-in-detail/&quot;&gt;Ruby 2.1 In Detail&lt;/a&gt; 
+&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+may 6
+
+&lt;img class=&quot;icon&quot; src=&quot;ico/rb.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;rb&quot; /&gt;
+
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
+Changes and improvements in the last ruby version.
+&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+&lt;a href=&quot;http://blog.arkency.com/2014/05/mastering-rails-validations-objectify/&quot;&gt;Mastering Rails Validations - Objectify&lt;/a&gt; 
+&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+may 8
+
+&lt;img class=&quot;icon&quot; src=&quot;ico/rb.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;rb&quot; /&gt;
+
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
+Advanced techniques for managing validations, a sequel from a link published last week.
+&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+&lt;a href=&quot;http://scotch.io/bar-talk/bootstrap-3-tips-and-tricks-you-might-not-know&quot;&gt;Bootstrap 3 Tips and Tricks You Might Not Know&lt;/a&gt; 
+&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+may 8
+
+&lt;img class=&quot;icon&quot; src=&quot;ico/css3.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;css3&quot; /&gt;
+
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
+Various tricks to make Bootstrap more docile.
+&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+&lt;a href=&quot;http://shoesrb.com/2014/05/10/shoes-4pre1-release.html&quot;&gt;Shoes 4 preview released&lt;/a&gt; 
+&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+may 10
+
+&lt;img class=&quot;icon&quot; src=&quot;ico/rb.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;rb&quot; /&gt;
+
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
+This is the new shoes, so you can throw away the old ones. Help find bugs before the release.
+&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+&lt;a href=&quot;http://blog.8thlight.com/uncle-bob/2014/05/10/WhenToMock.html&quot;&gt;When to Mock&lt;/a&gt; 
+&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+may 10
+
+&lt;img class=&quot;icon&quot; src=&quot;ico/tool.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;tool&quot; /&gt;
+
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
+Great review of mocking by Uncle Bob.
+&lt;/td&gt;&lt;/tr&gt;
+
+&lt;/table&gt;
+
+&lt;h3&gt;Watch&lt;/h3&gt;
+&lt;div&gt;Screencasts and conferences videos, or other video feeds ...&lt;/div&gt;
+&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; border=&quot;0&quot; width=&quot;100%&quot;&gt;
+
+&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+&lt;a href=&quot;http://confreaks.com/events/railsconf&quot;&gt;RailsConf 2014&lt;/a&gt; &lt;span&gt;(26 videos)&lt;/span&gt;
+&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+
+
+&lt;img class=&quot;icon&quot; src=&quot;ico/rb.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;rb&quot; /&gt;
+
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
+The whole conf. Pay attention to the DHH keynote it seems to be quite controversial.
+&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+&lt;a href=&quot;http://confreaks.com/events/gophercon2014&quot;&gt;GopherCon 2014&lt;/a&gt; &lt;span&gt;(7 videos)&lt;/span&gt;
+&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+
+
+&lt;img class=&quot;icon&quot; src=&quot;ico/go.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;go&quot; /&gt;
+
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
+The first Go conference.
+&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+&lt;a href=&quot;http://vimeo.com/94347623&quot;&gt;Network connectivity: optional&lt;/a&gt; &lt;span&gt;(29m)&lt;/span&gt;
+&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+may 7
+
+&lt;img class=&quot;icon&quot; src=&quot;ico/web.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;web&quot; /&gt;
+
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
+Off-line access and the web.
+&lt;/td&gt;&lt;/tr&gt;
+
+&lt;/table&gt;
+
+&lt;h3&gt;Listen&lt;/h3&gt;
+&lt;div&gt;What could be heard last week ..&lt;/div&gt;
+&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; border=&quot;0&quot; width=&quot;100%&quot;&gt;
+
+&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+&lt;a href=&quot;http://blog.codepen.io/2014/05/05/010-email/&quot;&gt;Code Pen 010&lt;/a&gt; &lt;span&gt;(30m)&lt;/span&gt;
+&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+may 5
+
+&lt;img class=&quot;icon&quot; src=&quot;ico/css3.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;css3&quot; /&gt;
+
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
+Marketing email, transactional email, all kinds of email.
+&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+&lt;a href=&quot;http://podcasts.thoughtbot.com/giantrobots/97&quot;&gt;Giant robots #97&lt;/a&gt; &lt;span&gt;(26m)&lt;/span&gt;
+&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+may 5
+
+&lt;img class=&quot;icon&quot; src=&quot;ico/web.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;web&quot; /&gt;
+
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
+Railing Against Rails (Ernie Miller).
+&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+&lt;a href=&quot;http://blog.producthunt.co/post/84915320344/product-hunt-radio-episode-4&quot;&gt;Product Hunt Radio 4&lt;/a&gt; &lt;span&gt;(42m)&lt;/span&gt;
+&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+mat 6
+
+&lt;img class=&quot;icon&quot; src=&quot;ico/web.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;web&quot; /&gt;
+
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
+At Everywhere else conference, discussion between Josh Miller, Ben Yokovitz, Ryan Hoover.
+&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+&lt;a href=&quot;http://ruby5.envylabs.com/episodes/499-episode-462-may-6th-2014&quot;&gt;Ruby5 462&lt;/a&gt; &lt;span&gt;(7m)&lt;/span&gt;
+&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+may 6
+
+&lt;img class=&quot;icon&quot; src=&quot;ico/rb.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;rb&quot; /&gt;
+
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
+Good news from the Ruby Core meeting, TDD debates galore, AdequateRecord, and some surprisingly uneventful code ping pong.
+&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+&lt;a href=&quot;http://rubyrogues.com/155-rr-why-ruby-sucks/&quot;&gt;Ruby Rogues 155&lt;/a&gt; &lt;span&gt;(1h16)&lt;/span&gt;
+&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+may 7
+
+&lt;img class=&quot;icon&quot; src=&quot;ico/rb.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;rb&quot; /&gt;
+
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
+Why Ruby Sucks.
+&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+&lt;a href=&quot;http://javascriptjabber.com/107-jsj-clojurescript-om-with-david-nolen/&quot;&gt;Javascript Jabber 107&lt;/a&gt; &lt;span&gt;(52m)&lt;/span&gt;
+&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+may 7
+
+&lt;img class=&quot;icon&quot; src=&quot;ico/js.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;js&quot; /&gt;
+
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
+ClojureScript &amp; Om with David Nolen.
+&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+&lt;a href=&quot;http://5by5.tv/changelog/121&quot;&gt;TheChangelog 121&lt;/a&gt; &lt;span&gt;(57m)&lt;/span&gt;
+&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+may 8
+
+&lt;img class=&quot;icon&quot; src=&quot;ico/js.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;js&quot; /&gt;
+
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
+Dart with Lars Bak and Seth Ladd from Google.
+&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+&lt;a href=&quot;http://5by5.tv/rubyonrails/149&quot;&gt;Ruby on Rails Podcast #149&lt;/a&gt; &lt;span&gt;(1h)&lt;/span&gt;
+&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+may 8
+
+&lt;img class=&quot;icon&quot; src=&quot;ico/rb.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;rb&quot; /&gt;
+
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
+This podcast was revived after 5 years of silence in march. This episode is about early days of Ruby and Rails and the heterogeneous architecture of Wunderlist with Chad Fowler.
+&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+&lt;a href=&quot;http://www.arresteddevops.com/cloud-scaling/&quot;&gt;Arrested DevOps 10&lt;/a&gt; &lt;span&gt;(1h)&lt;/span&gt;
+&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+may 8
+
+&lt;img class=&quot;icon&quot; src=&quot;ico/ops.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;ops&quot; /&gt;
+
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
+Scaling the Application Mountains.
+&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+&lt;a href=&quot;http://nodeup.com/sixtythree&quot;&gt;NodeUp 63&lt;/a&gt; &lt;span&gt;(2h03)&lt;/span&gt;
+&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+may 9
+
+&lt;img class=&quot;icon&quot; src=&quot;ico/js.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;js&quot; /&gt;
+
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
+a live lnug show.
+&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+&lt;a href=&quot;http://ruby5.envylabs.com/episodes/500-episode-463-may-9th-2014&quot;&gt;Ruby5 463&lt;/a&gt; &lt;span&gt;(5m)&lt;/span&gt;
+&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+may 9
+
+&lt;img class=&quot;icon&quot; src=&quot;ico/rb.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;rb&quot; /&gt;
+
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
+Untangline spaghetti code, opening the Atom source, better presenters with DumbDelegator, managing your OS X setup with osxc, an intro to Rails view caching, and the Eldritch async DS.
+&lt;/td&gt;&lt;/tr&gt;
+
+&lt;/table&gt;
+
+
+</content:encoded>
+      <dc:date>2014-05-11T00:00:00+08:00</dc:date>
+    </item>
     <item>
       <title>Green Ruby News #065</title>
       <link>http://greenruby.org/grn-065.html</link>
@@ -4201,447 +4738,6 @@ Drone, under OS, hell ruby, rubygems.org costs, rails 4 assets, flippit.
 </content:encoded>
       <dc:date>2014-03-09T00:00:00+08:00</dc:date>
     </item>
-    <item>
-      <title>Green Ruby News #056</title>
-      <link>http://greenruby.org/grn-056.html</link>
-      <description>This week big news is the 21th birthday for ruby, with some new releases for each branch. Check the &lt;a href=&quot;http://svn.ruby-lang.org/repos/ruby/tags/v2_1_1/ChangeLog&quot;&gt;changelog for ruby 2.1.1&lt;/a&gt; it's pretty massive.</description>
-      <pubDate>Sun, 02 Mar 2014 00:00:00 +0800</pubDate>
-      <guid>http://greenruby.org/grn-056.html</guid>
-      <content:encoded>
-&lt;h1&gt;#056 - mar 2nd 2014&lt;/div&gt;
-
-&lt;h2&gt;Edito&lt;/h2&gt;
-This week big news is the 21th birthday for ruby, with some new releases for each branch. Check the &lt;a href=&quot;http://svn.ruby-lang.org/repos/ruby/tags/v2_1_1/ChangeLog&quot;&gt;changelog for ruby 2.1.1&lt;/a&gt; it's pretty massive.
-&lt;br&gt;
-&lt;br&gt;
-&lt;em&gt;&amp;nbsp; mose - the green ruby editor&lt;/em&gt;&lt;br&gt;
-&lt;em&gt;&amp;nbsp;
-
-	xenor - the informer
-
-&lt;/em&gt;&lt;br&gt;
-&amp;nbsp; &lt;a href=&quot;http://greenruby.org&quot; target=&quot;_self&quot;&gt;http://greenruby.org&lt;/a&gt;
-&lt;br&gt;
-
-
-&lt;h3&gt;Look&lt;/h3&gt;
-&lt;div&gt;Examples of UI/UX, graphic performance, web design and flashy things.&lt;/div&gt;
-&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; border=&quot;0&quot; width=&quot;100%&quot;&gt;
-
-&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-&lt;a href=&quot;http://neatdesigns.net/20-cool-and-inspirational-website-designs/&quot;&gt;20 cool and inspirational website designs&lt;/a&gt; 
-&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-
-
-&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
-Neat indeed.
-&lt;/td&gt;&lt;/tr&gt;
-
-&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-&lt;a href=&quot;http://geisha.io/app/&quot;&gt;Geisha&lt;/a&gt; 
-&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-
-
-&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
-Keeping designers inspired and informed every day.
-&lt;/td&gt;&lt;/tr&gt;
-
-&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-&lt;a href=&quot;http://www.elezea.com/2014/02/lorem-ipsum-gone-wrong/&quot;&gt;What happens when placeholder text doesn’t get replaced&lt;/a&gt; 
-&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-
-
-&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
-Shots of funny cases where a text was not supposed to be final.
-&lt;/td&gt;&lt;/tr&gt;
-
-&lt;/table&gt;
-
-&lt;h3&gt;Use&lt;/h3&gt;
-&lt;div&gt;Web applications, resources and tools, available for making our life easier or funnier.&lt;/div&gt;
-&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; border=&quot;0&quot; width=&quot;100%&quot;&gt;
-
-&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-&lt;a href=&quot;http://www.ultrahook.com/&quot;&gt;UltraHook&lt;/a&gt; 
-&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-
-
-&lt;img class=&quot;icon&quot; src=&quot;ico/tool.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;tool&quot; /&gt;
-
-&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
-Receive webhooks on localhost.
-&lt;/td&gt;&lt;/tr&gt;
-
-&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-&lt;a href=&quot;http://csnipp.com/&quot;&gt;Codesnipp&lt;/a&gt; 
-&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-
-
-&lt;img class=&quot;icon&quot; src=&quot;ico/tool.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;tool&quot; /&gt;
-
-&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
-Code snippets collection.
-&lt;/td&gt;&lt;/tr&gt;
-
-&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-&lt;a href=&quot;http://gridstylesheets.org/&quot;&gt;GSS&lt;/a&gt; 
-&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-
-
-&lt;img class=&quot;icon&quot; src=&quot;ico/css3.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;css3&quot; /&gt;
-
-&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
-GSS reimagines CSS layout.
-&lt;/td&gt;&lt;/tr&gt;
-
-&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-&lt;a href=&quot;http://mdo.github.io/code-guide/&quot;&gt;html and css Code Guide&lt;/a&gt; 
-&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-
-
-&lt;img class=&quot;icon&quot; src=&quot;ico/html5.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;html5&quot; /&gt;
-
-&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
-Standards for developing flexible, durable, and sustainable HTML and CSS.
-&lt;/td&gt;&lt;/tr&gt;
-
-&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-&lt;a href=&quot;http://www.graf.ly/&quot;&gt;Graf.ly&lt;/a&gt; 
-&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-
-
-&lt;img class=&quot;icon&quot; src=&quot;ico/html5.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;html5&quot; /&gt;
-
-&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
-Early beta access for now.
-&lt;/td&gt;&lt;/tr&gt;
-
-&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-&lt;a href=&quot;https://kobra.io&quot;&gt;Kobra.io&lt;/a&gt; 
-&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-
-
-&lt;img class=&quot;icon&quot; src=&quot;ico/tool.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;tool&quot; /&gt;
-
-&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
-Online code editor, featuring built in video.
-&lt;/td&gt;&lt;/tr&gt;
-
-&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-&lt;a href=&quot;https://www.paymill.com/en-gb/&quot;&gt;Paymill&lt;/a&gt; 
-&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-
-
-&lt;img class=&quot;icon&quot; src=&quot;ico/tool.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;tool&quot; /&gt;
-
-&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
-An interesting alternative to stripe?
-&lt;/td&gt;&lt;/tr&gt;
-
-&lt;/table&gt;
-
-&lt;h3&gt;Install&lt;/h3&gt;
-&lt;div&gt;A selection of gems or applications updated during past week.&lt;/div&gt;
-&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; border=&quot;0&quot; width=&quot;100%&quot;&gt;
-
-&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-&lt;a href=&quot;https://www.ruby-lang.org/en/news/2014/02/24/ruby-2-1-1-is-released/&quot;&gt;Ruby 2.1.1&lt;/a&gt; 
-&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-
-
-&lt;img class=&quot;icon&quot; src=&quot;ico/rb.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;rb&quot; /&gt;
-
-&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
-Released on feb 24, along with a 1.9.3-p545 and a 2.0.0-p451.
-&lt;/td&gt;&lt;/tr&gt;
-
-&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-&lt;a href=&quot;https://atom.io/&quot;&gt;Atom&lt;/a&gt; 
-&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-
-
-&lt;img class=&quot;icon&quot; src=&quot;ico/tool.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;tool&quot; /&gt;
-
-&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
-A new chrome-based desktop app from github, on invite only for now.
-&lt;/td&gt;&lt;/tr&gt;
-
-&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-&lt;a href=&quot;http://neovim.org/&quot;&gt;Neovim&lt;/a&gt; 
-&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-
-
-&lt;img class=&quot;icon&quot; src=&quot;ico/tool.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;tool&quot; /&gt;
-
-&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
-vim's rebirth for the 21st century.
-&lt;/td&gt;&lt;/tr&gt;
-
-&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-&lt;a href=&quot;http://robots.thoughtbot.com/form-filling-is-formulaic&quot;&gt;Formulaic&lt;/a&gt; 
-&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-
-
-&lt;img class=&quot;icon&quot; src=&quot;ico/rb.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;rb&quot; /&gt;
-
-&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
-A helper for form filling and simpleform.
-&lt;/td&gt;&lt;/tr&gt;
-
-&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-&lt;a href=&quot;http://www.go.cd/&quot;&gt;Go continuous delivery&lt;/a&gt; 
-&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-
-
-&lt;img class=&quot;icon&quot; src=&quot;ico/tool.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;tool&quot; /&gt;
-
-&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
-Recently open sourced, this is nothing to do with the go programming language, it's actually java-based.
-&lt;/td&gt;&lt;/tr&gt;
-
-&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-&lt;a href=&quot;http://holloway.co.nz/doctored/&quot;&gt;Doctored.js&lt;/a&gt; 
-&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-
-
-&lt;img class=&quot;icon&quot; src=&quot;ico/tool.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;tool&quot; /&gt;
-
-&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
-A web based xml editor.
-&lt;/td&gt;&lt;/tr&gt;
-
-&lt;/table&gt;
-
-&lt;h3&gt;Read&lt;/h3&gt;
-&lt;div&gt;From the blogosphere or news feeds ...&lt;/div&gt;
-&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; border=&quot;0&quot; width=&quot;100%&quot;&gt;
-
-&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-&lt;a href=&quot;http://continuousdelivery.com/2014/02/visualizations-of-continuous-delivery/&quot;&gt;Visualizations of Continuous Delivery&lt;/a&gt; 
-&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-feb 20
-
-&lt;img class=&quot;icon&quot; src=&quot;ico/tool.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;tool&quot; /&gt;
-
-&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
-Four fabulous visualizations of continuous delivery flow.
-&lt;/td&gt;&lt;/tr&gt;
-
-&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-&lt;a href=&quot;http://johnnunemaker.com/analytics-at-github/&quot;&gt;Analytics at GitHub&lt;/a&gt; 
-&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-feb 24
-
-&lt;img class=&quot;icon&quot; src=&quot;ico/tool.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;tool&quot; /&gt;
-
-&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
-The architecture of analytics at github.
-&lt;/td&gt;&lt;/tr&gt;
-
-&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-&lt;a href=&quot;http://monkeyandcrow.com/blog/reading_rails_the_adapter_pattern/&quot;&gt;The Adapter Pattern&lt;/a&gt; 
-&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-feb 25
-
-&lt;img class=&quot;icon&quot; src=&quot;ico/rb.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;rb&quot; /&gt;
-
-&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
-Ruby Adapter pattern, inspired by Rails.
-&lt;/td&gt;&lt;/tr&gt;
-
-&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-&lt;a href=&quot;http://www.sitepoint.com/single-sign-on-explained/&quot;&gt;Single Sign-On (SSO) Explained&lt;/a&gt; 
-&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-feb 26
-
-&lt;img class=&quot;icon&quot; src=&quot;ico/tool.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;tool&quot; /&gt;
-
-&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
-A quick overview of the discuss SSO.
-&lt;/td&gt;&lt;/tr&gt;
-
-&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-&lt;a href=&quot;http://viget.com/extend/make-remote-files-local-with-ruby-tempfile&quot;&gt;Make Remote Files Local with Ruby Tempfile&lt;/a&gt; 
-&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-feb 27
-
-&lt;img class=&quot;icon&quot; src=&quot;ico/rb.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;rb&quot; /&gt;
-
-&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
-Details about a good use for the Tempfile ruby class.
-&lt;/td&gt;&lt;/tr&gt;
-
-&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-&lt;a href=&quot;http://nerds.airbnb.com/testing-at-airbnb/&quot;&gt;Testing at Airbnb&lt;/a&gt; 
-&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-feb 27
-
-&lt;img class=&quot;icon&quot; src=&quot;ico/tool.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;tool&quot; /&gt;
-
-&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
-Excellent post about building a testing culture in an organisation.
-&lt;/td&gt;&lt;/tr&gt;
-
-&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-&lt;a href=&quot;http://www.sitepoint.com/working-around-origin-policy/&quot;&gt;Working With and Around the Same-Origin Policy&lt;/a&gt; 
-&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-feb 28
-
-&lt;img class=&quot;icon&quot; src=&quot;ico/js.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;js&quot; /&gt;
-
-&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
-Various ways to live with the same-origin ajax policy.
-&lt;/td&gt;&lt;/tr&gt;
-
-&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-&lt;a href=&quot;http://www.toptal.com/ruby-on-rails/elasticsearch-for-ruby-on-rails-an-introduction-to-chewy&quot;&gt;Elasticsearch for Ruby on Rails: An Introduction to Chewy&lt;/a&gt; 
-&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-feb 28
-
-&lt;img class=&quot;icon&quot; src=&quot;ico/rb.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;rb&quot; /&gt;
-
-&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
-Chewy extends the Elasticsearch-Ruby client, with tighter integration with Rails.
-&lt;/td&gt;&lt;/tr&gt;
-
-&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-&lt;a href=&quot;http://www.polyglotprogramminginc.com/charming-large-databases-with-octopuses/&quot;&gt;Charming Large Databases with Octopuses&lt;/a&gt; 
-&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-mar 2
-
-&lt;img class=&quot;icon&quot; src=&quot;ico/rb.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;rb&quot; /&gt;
-
-&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
-How to configure sharding with activerecords and mysql.
-&lt;/td&gt;&lt;/tr&gt;
-
-&lt;/table&gt;
-
-&lt;h3&gt;Watch&lt;/h3&gt;
-&lt;div&gt;Screencasts and conferences videos, or other video feeds ...&lt;/div&gt;
-&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; border=&quot;0&quot; width=&quot;100%&quot;&gt;
-
-&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-&lt;a href=&quot;http://www.youtube.com/watch?v=hAA_JAprdkE&quot;&gt;SOA in Ruby&lt;/a&gt; &lt;span&gt;(37m)&lt;/span&gt;
-&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-feb 27
-
-&lt;img class=&quot;icon&quot; src=&quot;ico/rb.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;rb&quot; /&gt;
-
-&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
-Approaching SOA with lightweight ruby tools.
-&lt;/td&gt;&lt;/tr&gt;
-
-&lt;/table&gt;
-
-&lt;h3&gt;Listen&lt;/h3&gt;
-&lt;div&gt;What could be heard last week ..&lt;/div&gt;
-&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; border=&quot;0&quot; width=&quot;100%&quot;&gt;
-
-&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-&lt;a href=&quot;http://www.arresteddevops.com/2014/02/23/all-together-now/&quot;&gt;Arrested Devops 7&lt;/a&gt; &lt;span&gt;(1h)&lt;/span&gt;
-&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-feb 23
-
-&lt;img class=&quot;icon&quot; src=&quot;ico/ops.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;ops&quot; /&gt;
-
-&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
-Tools and best practices in devops.
-&lt;/td&gt;&lt;/tr&gt;
-
-&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-&lt;a href=&quot;http://podcasts.thoughtbot.com/giantrobots/87&quot;&gt;Giant robots #87&lt;/a&gt; &lt;span&gt;(23m)&lt;/span&gt;
-&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-feb 24
-
-&lt;img class=&quot;icon&quot; src=&quot;ico/web.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;web&quot; /&gt;
-
-&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
-Monitoring the Bathrooms (Tony DiPasquale), an arduino story.
-&lt;/td&gt;&lt;/tr&gt;
-
-&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-&lt;a href=&quot;http://ruby5.envylabs.com/episodes/479-episode-443-february-25th-2014&quot;&gt;Ruby5 443&lt;/a&gt; &lt;span&gt;(6m)&lt;/span&gt;
-&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-feb 25
-
-&lt;img class=&quot;icon&quot; src=&quot;ico/rb.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;rb&quot; /&gt;
-
-&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
-rspec, ruby 2.1.1, ruby's demise, adequaterecords, rubyheroes.
-&lt;/td&gt;&lt;/tr&gt;
-
-&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-&lt;a href=&quot;http://rubyrogues.com/145-rr-data-analytics-with-heather-rivers/&quot;&gt;Ruby Rogues 145&lt;/a&gt; &lt;span&gt;(58m)&lt;/span&gt;
-&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-feb 26
-
-&lt;img class=&quot;icon&quot; src=&quot;ico/rb.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;rb&quot; /&gt;
-
-&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
-Data Analytics with Heather Rivers.
-&lt;/td&gt;&lt;/tr&gt;
-
-&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-&lt;a href=&quot;http://javascriptjabber.com/098-jsj-assemble-io-with-brian-woodward-and-jon-schlinkert/&quot;&gt;Javascript Jabber 098&lt;/a&gt; &lt;span&gt;(43m)&lt;/span&gt;
-&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-feb 26
-
-&lt;img class=&quot;icon&quot; src=&quot;ico/js.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;js&quot; /&gt;
-
-&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
-Assemble.io with Brian Woodward and Jon Schlinkert.
-&lt;/td&gt;&lt;/tr&gt;
-
-&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-&lt;a href=&quot;http://ruby5.envylabs.com/episodes/480-episode-444-february-28th-2014&quot;&gt;Ruby5 444&lt;/a&gt; &lt;span&gt;(6m)&lt;/span&gt;
-&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-feb 28
-
-&lt;img class=&quot;icon&quot; src=&quot;ico/rb.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;rb&quot; /&gt;
-
-&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
-Thermometer, atom editor, rails 4.1 with omniauth, ruby gotchas, tempfile.
-&lt;/td&gt;&lt;/tr&gt;
-
-&lt;/table&gt;
-
-
-</content:encoded>
-      <dc:date>2014-03-02T00:00:00+08:00</dc:date>
-    </item>
-    <dc:date>2014-05-05T05:40:28+08:00</dc:date>
+    <dc:date>2014-05-12T02:03:58+08:00</dc:date>
   </channel>
 </rss>
