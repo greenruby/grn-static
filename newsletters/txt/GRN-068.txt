@@ -1,0 +1,261 @@
+----------------------------------------------------
+Green Ruby News #068 - may 25th 2014
+----------------------------------------------------
+
+Edito
+----------------------------------------------------
+Testing is a hot topic recently in the rails community. Reminds me of this image [1]. But to tell you the truth, I'm not gonna stop unit testing, even if it's not enough. So, what is new this week? As usual, a bunch of things.
+[1] https://twitter.com/bloerwald/status/448415935926255618/photo/1
+
+mose - the green ruby editor
+xenor - the informer
+http://greenruby.org
+
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+* 808 cube
+  http://www.808cube.com/
+  A beatbox in html in 3d, careful it can be hypnotic.
+
+* Web field manual
+  http://webfieldmanual.com/
+  Various links and guidelines for modern web development.
+
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+* Oozled
+  design
+  http://oozled.com/
+  Curated resources for everything design related.
+
+* HTTP API Design Guide
+  web
+  https://github.com/interagent/http-api-design
+  HTTP API design guide extracted from work on the Heroku Platform API.
+
+* Web Api gap
+  mobile
+  https://github.com/w3c-webmob/web-api-gap
+  A comparison of various features and APIs across mobile platforms.
+
+* RAML
+  tool
+  http://raml.org/
+  RESTful API Modeling Language.
+
+* Captain icon
+  design
+  http://mariodelvalle.github.io/CaptainIconWeb/
+  A free set of 350 vector icons and a cool design for the website.
+
+* Opbeat
+  ops
+  https://opbeat.com/
+  Extends GitHub, tracks releases, catches Python/Ruby/Node.js exceptions.
+
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+* Ruby 1.9.3-p547
+  rb
+  https://www.ruby-lang.org/en/news/2014/05/16/ruby-1-9-3-p547-released/
+  Very minor released, only fixes an SSL issue with old libs.
+
+* Devise 2 factor
+  rb
+  https://github.com/tinfoil/devise-two-factor
+  Barebones two-factor authentication with Devise.
+
+* Simple token authentication
+  rb
+  https://github.com/gonzalo-bulnes/simple_token_authentication
+  Simple (but safe) token authentication for Rails apps or API with Devise.
+
+* DoBy
+  rb
+  https://github.com/andyw8/do_by
+  Automatically expiring TODO notes in Ruby.
+
+* ActiveJob
+  rb
+  https://github.com/rails/activejob
+  Declare job classes that can be run by a variety of queuing backends.
+
+* Smart Listing
+  rb
+  http://showcase.sology.eu/smart_listing
+  AJAX-enabled data lists with support for sorting, filtering and in-place editing.
+
+* OSWAP Mantra
+  tool
+  http://www.getmantra.com/owasp-mantra.html
+  It's a browser and a security toolkit.
+
+* Honey Badger
+  tool
+  http://gethoneybadger.com/
+  Honeybadger will dig up juicy informations about the site you are on.
+
+* Famo.us
+  js
+  http://famo.us/
+  A JS framework focused on modern animation and transformation, definitely graphical.
+
+* Jr static
+  js
+  https://github.com/xeoncross/Jr
+  Static web generator that moves the 'generator' part to the browser.
+
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+* About Martini
+  go - may 19
+  http://codegangsta.io/blog/2014/05/19/my-thoughts-on-martini/
+  Martini has lived, now Negroni is the new idiomatic web framework.
+
+* Git Undo by Example
+  tool - may 21
+  http://bytesizedthoughts.com/git/2014/05/21/git-undo-by-example/
+  Some common recovery scenarios.
+
+* Alert Design
+  ops - may 21
+  http://ryanfrantz.com/posts/alert-design/
+  Sometimes the alerts do little more than tell us that something went bump.
+
+* Notable Changes in RSpec 3
+  rb - may 21
+  http://myronmars.to/n/dev-blog/2014/05/notable-changes-in-rspec-3
+  3.0.0 final is just around the corner.
+
+* Caching in Rails 4 Applications
+  rb - may 22
+  http://www.slatestudio.com/blog/p/caching-in-rails-4-applications
+  Focus on some ways to handle cache in rails 4 with memcached and/or varnish.
+
+* How to handle big repositories with git
+  tool - may 22
+  http://blogs.atlassian.com/2014/05/handle-big-repositories-git/
+  Some ideas and techniques to deal properly with the different categories of huge repo.
+
+* Inspiration for article intro effects
+  design - may 22
+  http://tympanus.net/codrops/2014/05/22/inspiration-for-article-intro-effects/
+  Some inspiration for effects applied to title headers of articles with a fullscreen image.
+
+* Crowdfunded RVM 2.0
+  rb - may 23
+  https://www.bountysource.com/teams/rvm/updates
+  Lists what is planned for the new RVM 2.0.
+
+* Upgrading to Ruby 2.1
+  rb - may 23
+  http://engineering.freeagent.com/2014/05/23/upgrading-to-ruby-2.1/
+  Perfs improvements and how YAML parsing changed.
+
+* Next-Generation Responsive Web Design Tools
+  design - may 23
+  http://www.smashingmagazine.com/2014/05/23/next-generation-responsive-web-design-tools-webflow-edge-reflow-macaw/
+  Review of Webflow, Edge Reflow and Macaw
+
+
+Watch
+----------------------------------------------------
+Screencasts and conferences videos, or other video feeds ...
+
+* Rails 4.1 variants
+  rb - 3m
+  http://codemy.net/posts/rails-4-1-variants
+  How to setup and use the new Rails 4.1 feature variants..
+
+* OpenStack 2014
+  ops - may 20 - 38 videos
+  http://confreaks.com/events/openstacksummitatl2014
+  The videos os the OpenStack Summit Atlanta 2014.
+
+
+Listen
+----------------------------------------------------
+What could be heard last week ..
+
+* Giant robots #99
+  web - may 19 - 20m
+  http://podcasts.thoughtbot.com/giantrobots/99
+  You Are Not Alone (Greg Baugues about mental illness).
+
+* The Changelog #122
+  rb - may 19 - 1h13
+  http://5by5.tv/changelog/122
+  Rails Girls Summer of Code and Travis Foundation with Anika Lindtner and Floor Drees.
+
+* Product Hunt Radio 6
+  web - may 20 - 44m
+  http://blog.producthunt.co/post/86306039969/product-hunt-radio-episode-6
+  About time-saving products, new startup funding options, and fertility apps.
+
+* Ruby5 466
+  rb - may 20 - 6m
+  http://ruby5.envylabs.com/episodes/503-episode-466-may-20th-2014
+  Unexpected new Ruby, plenty of SMTP, Discovery Tests, building ROM, Windows ExecJS, Napybaras, and dangerous :nodocs: .
+
+* Code Pen 012
+  css3 - may 21 - 39m
+  http://blog.codepen.io/2014/05/21/012-vc/
+  Talking about VC funding.
+
+* Arrested DevOps 11
+  ops - may 21 - 1h
+  http://www.arresteddevops.com/devops-at-etsy/
+  DevOps at Etsy: Not a Unicorn, Just a Sparkly Horse.
+
+* Ruby Rogues 157
+  rb - may 21 - 1h23
+  http://rubyrogues.com/157-rr-book-club-object-design-book-club-with-rebecca-wirfs-brock/
+  Book Club – Object Design Book Club with Rebecca Wirfs-Brock.
+
+* Javascript Jabber 109
+  js - may 21 - 46m
+  http://javascriptjabber.com/109-jsj-dependency-injection-in-javascript-with-vojta-jina-misko-hevery/
+  Dependency Injection in JavaScript with Vojta Jína & Misko Hevery.
+
+* Ruby on Rails Podcast #151
+  rb - may 23 - 1h25
+  http://5by5.tv/rubyonrails/151
+  Ross Penman - 15 yr old Scottish programmer.
+
+* Ruby5 467
+  rb - may 23 - 5m
+  http://ruby5.envylabs.com/episodes/504-episode-467-may-23rd-2014
+  Rspec3 rc1, ActiveJob, Devise-two-factor, Camcorder, Teaching kids of Pis, Weirich on Exceptions.
+
+
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+

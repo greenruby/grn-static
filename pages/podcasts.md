@@ -1,5 +1,7 @@
 # Some active podcast links
 
+These are podcasts that I follow for the Green Ruby News. If you know any others, please send me a mail.
+
 * <http://blog.codepen.io/> (css/js)
 * <http://podcasts.thoughtbot.com/giantrobots> (rb/saas/web)
 * <http://blog.producthunt.co/> (saas/startups)
