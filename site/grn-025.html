@@ -25,55 +25,477 @@
     <!--[if lt IE 7]>
       <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
     <![endif]-->
-    <div class='navbar navbar-fixed-top topnav'>
-      <div class='container'>
-        <div class='navbar-header'>
-          <button class='navbar-toggle' data-target='.navbar-collapse' data-toggle='collapse'>
-            <span class='sr-only'>Toggle navigation</span>
-            <span class='icon-bar'></span>
-            <span class='icon-bar'></span>
-            <span class='icon-bar'></span>
-          </button>
-          <a class='navbar-brand logoized' href='index.html'>
-            Green Ruby News
-          </a>
-        </div>
-        <div class='navbar-collapse collapse'>
-          <ul class='nav navbar-nav'>
-            <li>
-              <a href='index.html'>Home</a>
-            </li>
-            <li>
-              <a href='http://cdb.io/1fRC0tQ'>Map</a>
-            </li>
-            <li>
-              <a href='https://github.com/greenruby/grn-static'>Source</a>
-            </li>
-            <li>
-              <a href='podcasts.html'>Podcasts</a>
-            </li>
-            <li>
-              <a href='about.html'>About</a>
-            </li>
-            <li>
-              <a href='mailto:news@greenruby.org'>Contact</a>
-            </li>
-          </ul>
+    <div class='navbar navbar-default navbar-fixed-top topnav' role='navigation'>
+      <div class='navbar-inner'>
+        <div class='container'>
+          <div class='navbar-header'>
+            <button class='navbar-toggle' data-target='#navcollapse' data-toggle='collapse'>
+              <span class='sr-only'>Toggle navigation</span>
+              <span class='icon-bar'></span>
+              <span class='icon-bar'></span>
+              <span class='icon-bar'></span>
+            </button>
+            <a class='navbar-brand logoized' href='index.html'>
+              Green Ruby News
+            </a>
+          </div>
+          <div class='collapse navbar-collapse navbar-right' id='navcollapse'>
+            <ul class='nav navbar-nav'>
+              <li>
+                <a href='index.html'>Home</a>
+              </li>
+              <li>
+                <a href='http://cdb.io/1fRC0tQ'>Map</a>
+              </li>
+              <li>
+                <a href='https://github.com/greenruby/grn-static'>Source</a>
+              </li>
+              <li>
+                <a href='podcasts.html'>Podcasts</a>
+              </li>
+              <li>
+                <a href='about.html'>About</a>
+              </li>
+              <li>
+                <a href='mailto:news@greenruby.org'>Contact</a>
+              </li>
+              <li>
+                <a href='feed.rss'>
+                  <img src='img/rss.png'>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
     <div class='container'>
       <div class='row'>
-        <div class='col-sm-3 col-md-2 leftbar'>
-          <h3>
-            <a href='feed.rss' style='float:right'>
-              <img src='img/rss.png'>
-            </a>
+        <div class='col-sm-3 col-md-2 leftbar hidden-print'>
+          <h3 data-target='#letters-collapse' data-toggle='collapse'>
             Archives
           </h3>
-          <ul class='nav nav-sidebar letters'></ul>
+          <div class='collapse navbar-collapse' id='letters-collapse'>
+            <ul class='nav nav-sidebar letters'>
+              <li>
+                <a href='grn-069.html'>
+                  069
+                  <span class='date'>jun 1st</span>
+                </a>
+              </li>
+              <li>
+                <a href='grn-068.html'>
+                  068
+                  <span class='date'>may 25th</span>
+                </a>
+              </li>
+              <li>
+                <a href='grn-067.html'>
+                  067
+                  <span class='date'>may 18th</span>
+                </a>
+              </li>
+              <li>
+                <a href='grn-066.html'>
+                  066
+                  <span class='date'>may 11th</span>
+                </a>
+              </li>
+              <li>
+                <a href='grn-065.html'>
+                  065
+                  <span class='date'>may 4th</span>
+                </a>
+              </li>
+              <li>
+                <a href='grn-064.html'>
+                  064
+                  <span class='date'>apr 27th</span>
+                </a>
+              </li>
+              <li>
+                <a href='grn-063.html'>
+                  063
+                  <span class='date'>apr 19th</span>
+                </a>
+              </li>
+              <li>
+                <a href='grn-062.html'>
+                  062
+                  <span class='date'>apr 13th</span>
+                </a>
+              </li>
+              <li>
+                <a href='grn-061.html'>
+                  061
+                  <span class='date'>apr 6th</span>
+                </a>
+              </li>
+              <li>
+                <a href='grn-060.html'>
+                  060
+                  <span class='date'>mar 30th</span>
+                </a>
+              </li>
+              <li>
+                <a href='grn-059.html'>
+                  059
+                  <span class='date'>mar 23th</span>
+                </a>
+              </li>
+              <li>
+                <a href='grn-058.html'>
+                  058
+                  <span class='date'>mar 16th</span>
+                </a>
+              </li>
+              <li>
+                <a href='grn-057.html'>
+                  057
+                  <span class='date'>mar 9th</span>
+                </a>
+              </li>
+              <li>
+                <a href='grn-056.html'>
+                  056
+                  <span class='date'>mar 2nd</span>
+                </a>
+              </li>
+              <li>
+                <a href='grn-055.html'>
+                  055
+                  <span class='date'>feb 23th</span>
+                </a>
+              </li>
+              <li>
+                <a href='grn-054.html'>
+                  054
+                  <span class='date'>feb 16th</span>
+                </a>
+              </li>
+              <li>
+                <a href='grn-053.html'>
+                  053
+                  <span class='date'>feb 9nd</span>
+                </a>
+              </li>
+              <li>
+                <a href='grn-052.html'>
+                  052
+                  <span class='date'>feb 2nd</span>
+                </a>
+              </li>
+              <li>
+                <a href='grn-051.html'>
+                  051
+                  <span class='date'>jan 26th</span>
+                </a>
+              </li>
+              <li>
+                <a href='grn-050.html'>
+                  050
+                  <span class='date'>jan 19th</span>
+                </a>
+              </li>
+              <li>
+                <a href='grn-049.html'>
+                  049
+                  <span class='date'>jan 12th</span>
+                </a>
+              </li>
+              <li>
+                <a href='grn-048.html'>
+                  048
+                  <span class='date'>jan 5th</span>
+                </a>
+              </li>
+              <li>
+                <a href='grn-047.html'>
+                  047
+                  <span class='date'>dec 29th</span>
+                </a>
+              </li>
+              <li>
+                <a href='grn-046.html'>
+                  046
+                  <span class='date'>dec 22th</span>
+                </a>
+              </li>
+              <li>
+                <a href='grn-045.html'>
+                  045
+                  <span class='date'>dec 15th</span>
+                </a>
+              </li>
+              <li>
+                <a href='grn-044.html'>
+                  044
+                  <span class='date'>dec 08th</span>
+                </a>
+              </li>
+              <li>
+                <a href='grn-043.html'>
+                  043
+                  <span class='date'>dec 01st</span>
+                </a>
+              </li>
+              <li>
+                <a href='grn-042.html'>
+                  042
+                  <span class='date'>nov 24th</span>
+                </a>
+              </li>
+              <li>
+                <a href='grn-041.html'>
+                  041
+                  <span class='date'>nov 17th</span>
+                </a>
+              </li>
+              <li>
+                <a href='grn-040.html'>
+                  040
+                  <span class='date'>nov 10th</span>
+                </a>
+              </li>
+              <li>
+                <a href='grn-039.html'>
+                  039
+                  <span class='date'>nov 3rd</span>
+                </a>
+              </li>
+              <li>
+                <a href='grn-038.html'>
+                  038
+                  <span class='date'>oct 27th</span>
+                </a>
+              </li>
+              <li>
+                <a href='grn-037.html'>
+                  037
+                  <span class='date'>oct 20th</span>
+                </a>
+              </li>
+              <li>
+                <a href='grn-036.html'>
+                  036
+                  <span class='date'>oct 14th</span>
+                </a>
+              </li>
+              <li>
+                <a href='grn-035.html'>
+                  035
+                  <span class='date'>oct 6th</span>
+                </a>
+              </li>
+              <li>
+                <a href='grn-034.html'>
+                  034
+                  <span class='date'>sep 29th</span>
+                </a>
+              </li>
+              <li>
+                <a href='grn-033.html'>
+                  033
+                  <span class='date'>sep 22th</span>
+                </a>
+              </li>
+              <li>
+                <a href='grn-032.html'>
+                  032
+                  <span class='date'>sep 15th</span>
+                </a>
+              </li>
+              <li>
+                <a href='grn-031.html'>
+                  031
+                  <span class='date'>sep 8th</span>
+                </a>
+              </li>
+              <li>
+                <a href='grn-030.html'>
+                  030
+                  <span class='date'>sep 1st</span>
+                </a>
+              </li>
+              <li>
+                <a href='grn-029.html'>
+                  029
+                  <span class='date'>aug 25th</span>
+                </a>
+              </li>
+              <li>
+                <a href='grn-028.html'>
+                  028
+                  <span class='date'>aug 19th</span>
+                </a>
+              </li>
+              <li>
+                <a href='grn-027.html'>
+                  027
+                  <span class='date'>aug 11th</span>
+                </a>
+              </li>
+              <li>
+                <a href='grn-026.html'>
+                  026
+                  <span class='date'>aug 4th</span>
+                </a>
+              </li>
+              <li>
+                <a href='grn-025.html'>
+                  025
+                  <span class='date'>jul 28th</span>
+                </a>
+              </li>
+              <li>
+                <a href='grn-024.html'>
+                  024
+                  <span class='date'>jul 21th</span>
+                </a>
+              </li>
+              <li>
+                <a href='grn-023.html'>
+                  023
+                  <span class='date'>jul 14th</span>
+                </a>
+              </li>
+              <li>
+                <a href='grn-022.html'>
+                  022
+                  <span class='date'>jul 7th</span>
+                </a>
+              </li>
+              <li>
+                <a href='grn-021.html'>
+                  021
+                  <span class='date'>jun 30th</span>
+                </a>
+              </li>
+              <li>
+                <a href='grn-020.html'>
+                  020
+                  <span class='date'>jun 22th</span>
+                </a>
+              </li>
+              <li>
+                <a href='grn-019.html'>
+                  019
+                  <span class='date'>jun 16th</span>
+                </a>
+              </li>
+              <li>
+                <a href='grn-018.html'>
+                  018
+                  <span class='date'>jun 9th</span>
+                </a>
+              </li>
+              <li>
+                <a href='grn-017.html'>
+                  017
+                  <span class='date'>jun 2nd</span>
+                </a>
+              </li>
+              <li>
+                <a href='grn-016.html'>
+                  016
+                  <span class='date'>may 26th</span>
+                </a>
+              </li>
+              <li>
+                <a href='grn-015.html'>
+                  015
+                  <span class='date'>may 19th</span>
+                </a>
+              </li>
+              <li>
+                <a href='grn-014.html'>
+                  014
+                  <span class='date'>may 12th</span>
+                </a>
+              </li>
+              <li>
+                <a href='grn-013.html'>
+                  013
+                  <span class='date'>may 5th</span>
+                </a>
+              </li>
+              <li>
+                <a href='grn-012.html'>
+                  012
+                  <span class='date'>apr 28th</span>
+                </a>
+              </li>
+              <li>
+                <a href='grn-011.html'>
+                  011
+                  <span class='date'>apr 21th</span>
+                </a>
+              </li>
+              <li>
+                <a href='grn-010.html'>
+                  010
+                  <span class='date'>apr 13th</span>
+                </a>
+              </li>
+              <li>
+                <a href='grn-009.html'>
+                  009
+                  <span class='date'>apr 06th</span>
+                </a>
+              </li>
+              <li>
+                <a href='grn-008.html'>
+                  008
+                  <span class='date'>mar 30th</span>
+                </a>
+              </li>
+              <li>
+                <a href='grn-007.html'>
+                  007
+                  <span class='date'>mar 23th</span>
+                </a>
+              </li>
+              <li>
+                <a href='grn-006.html'>
+                  006
+                  <span class='date'>mar 17th</span>
+                </a>
+              </li>
+              <li>
+                <a href='grn-005.html'>
+                  005
+                  <span class='date'>mar 09th</span>
+                </a>
+              </li>
+              <li>
+                <a href='grn-004.html'>
+                  004
+                  <span class='date'>mar 2nd</span>
+                </a>
+              </li>
+              <li>
+                <a href='grn-003.html'>
+                  003
+                  <span class='date'>feb 23th</span>
+                </a>
+              </li>
+              <li>
+                <a href='grn-002.html'>
+                  002
+                  <span class='date'>feb 16th</span>
+                </a>
+              </li>
+              <li>
+                <a href='grn-001.html'>
+                  001
+                  <span class='date'>feb 12th</span>
+                </a>
+              </li>
+            </ul>
+            <a data-all='0' href='#' id='show-more'>Show all</a>
+          </div>
         </div>
-        <div class='col-sm-5 col-md-7 main'>
+        <div class='col-sm-9 col-md-7 main'>
           <div id="templateContainer">
           <div id="templateHeader">
           <h1>#025 - jul 28th 2013</div>
@@ -795,28 +1217,26 @@
           </div>
           </div>
         </div>
-        <div class='col-sm-4 col-md-3 rightbar'>
-          <blockquote>
-            <p>Green Ruby News is a feed of fresh links of the week about ruby, javascript, webdev, devops, collected by mose every sunday.</p>
+        <div class='col-sm-12 col-md-3 rightbar hidden-print'>
+          <p class='header'>Green Ruby News is a feed of fresh links of the week about ruby, javascript, webdev, devops, collected by mose every sunday.</p>
+          <p></p>
+          <form action='http://greenruby.us6.list-manage.com/subscribe/post?u=f1b3b59d2383eeb07537f6440&amp;amp;id=7136c985cf' method='post'>
+            <div class='text-center'>
+              <b>Subscribe</b>
+            </div>
+            <div class='text-center'>
+              to the
+            </div>
+            <div class='text-center'>
+              <b>weekly newsletter</b>
+            </div>
             <p></p>
-            <form action='http://greenruby.us6.list-manage.com/subscribe/post?u=f1b3b59d2383eeb07537f6440&amp;amp;id=7136c985cf' method='post'>
-              <div class='text-center'>
-                <b>Subscribe</b>
-              </div>
-              <div class='text-center'>
-                to the
-              </div>
-              <div class='text-center'>
-                <b>weekly newsletter</b>
-              </div>
-              <p></p>
-              <p>
-                <input class='form-control' name='EMAIL' placeholder='email address' type='email'>
-                <input name='b_f1b3b59d2383eeb07537f6440_7136c985cf' type='hidden' value=''>
-                <input class='form-control btn btn-primary' name='subscribe' type='submit' value='Subscribe'>
-              </p>
-            </form>
-          </blockquote>
+            <p>
+              <input class='form-control' name='EMAIL' placeholder='email address' type='email'>
+              <input name='b_f1b3b59d2383eeb07537f6440_7136c985cf' type='hidden' value=''>
+              <input class='form-control btn btn-primary' name='subscribe' type='submit' value='Subscribe'>
+            </p>
+          </form>
           <small class='text-center'>Email distribution is powered by mailchimp.</small>
           <p></p>
           <ul class='social'>
@@ -846,10 +1266,11 @@
         </a>
       </div>
     </div>
-    <script src='//code.jquery.com/jquery-1.10.2.min.js'></script>
+    <script src='http://code.jquery.com/jquery-1.10.2.min.js'></script>
     <script>
       window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')
     </script>
+    <script src='js/bootstrap.min.js'></script>
     <script src='js/static.js'></script>
   </body>
 </html>

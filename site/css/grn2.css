@@ -6,12 +6,19 @@ body {
   padding-top: 59px;
   color: #555555;
 }
-
 .topnav {
   background-color: #fff;
   border-bottom: 1px solid #559955;
 }
-
+.navbar-default {
+  background-image: none;
+}
+.navbar-default .navbar-brand {
+  color: #5a5;
+}
+.navbar-default .navbar-brand:hover {
+  color: #000;
+}
 .logoized {
   padding-left: 100px;
   position: relative;
@@ -19,12 +26,16 @@ body {
   background: transparent url("../img/green-ruby-100.png") no-repeat 0px 5px;
   font-size: 36px;
   font-weight: 700;
+  font-family: "inder", monospace;
+  color: #5a5;
+}
+.logoized a {
+  color: #5a5;
+}
+.logoized a:hover {
+  color: #000;
 }
 
-.leftbar {
-  background: transparent url("../img/green-ruby-100.png") no-repeat 0px -54px;
-  padding-top: 23px;
-}
 h1, h2, h3 {
   font-weight: 700;
   font-family: "inder", monospace;
@@ -55,7 +66,13 @@ ul.letters li a span.date {
   font-weight: 400;
 }
 
-
+.rightbar .header {
+  font-size: 16px;
+  padding: 10px;
+  border: 1px solid #aaa;
+  border-top: 0;
+  background-color: #eee;
+}
 .main h2 {
   margin-top: 20px;
   margin-bottom: 0;
@@ -115,4 +132,46 @@ ul.letters li a span.date {
 #footer .copyright {
   margin-right: 20px;
   float: left;
+}
+@media (min-width: 992px) {
+  .leftbar .collapse {
+    display: block;
+    height: auto;
+  }
+}
+@media (max-width: 992px) {
+  .logoized {
+    font-size: 24px;
+  }
+  .nav li a {
+    padding: 19px 10px;
+  }
+  .rightbar .header {
+    border-top: 1px solid #aaa;
+  }
+
+  .rightbar ul.social {
+    padding: 0;
+  }
+  .rightbar ul.social li {
+    display: inline-block;
+  }
+  .rightbar .text-center {
+    display: inline-block;
+  }
+
+  .rightbar input.form-control {
+    display: inline-block;
+    width: 40%;
+  }
+}
+@media (max-width: 768px) {
+  .leftbar h3 {
+    margin: 0;
+    padding: 5px 10px;
+    border: 1px solid #aaa;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+  }
 }

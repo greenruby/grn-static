@@ -29,4 +29,20 @@ namespace :generate do
     builder.make_rss
   end
 
+  desc "full regeneration"
+  task :full do
+    Rake::Task["generate:letter"].invoke
+    Rake::Task["generate:all"].invoke
+  end
+
 end
+
+task :generate do
+  Rake::Task["generate:full"].invoke
+end
+
+task :letter do
+  Rake::Task["generate:letter"].invoke
+end
+
+task default: :generate

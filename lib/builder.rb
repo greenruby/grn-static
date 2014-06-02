@@ -48,7 +48,7 @@ module Greeby
       @c = to_ostruct(YAML::load_file(File.join(@news_path, source)))
 
       letters = JSON.parse(File.read(File.join(@static_path, 'editions.json')))
-      letters[@c.edition] = { link: "grn-#{@c.edition}.html", date: @c.pubdate }
+      letters[@c.edition] = { "link" => "grn-#{@c.edition}.html", "date" => @c.pubdate }
       File.open(File.join(@static_path, 'editions.json'),'w') do |f|
         f.puts letters.to_json
       end
@@ -64,6 +64,7 @@ module Greeby
       page.letters = letters
       page.name = @c.edition
       page.content = File.read(File.join(@news_path, 'partials', "GRN-#{@c.edition}.html"))
+      page.letters = Hash[letters.sort_by { |edition,data| -edition.to_i }]
       html = haml_engine.render(page)
       File.open(File.join(@static_path, "grn-#{page.name}.html"),'w') do |f|
         f.puts html
@@ -88,6 +89,8 @@ module Greeby
         page = OpenStruct.new
         page.name = File.basename(p, '.md')
         page.content = RDiscount.new(File.read(p)).to_html
+        letters = JSON.parse(File.read(File.join(@static_path, 'editions.json')))
+        page.letters = Hash[letters.sort_by { |edition,data| -(edition.to_i) }]
         html = haml_engine.render(page)
         File.open(File.join(@static_path, "#{page.name}.html"),'w') do |f|
           f.puts html
