@@ -1,0 +1,310 @@
+----------------------------------------------------
+Green Ruby News #070 - jun 8th 2014
+----------------------------------------------------
+
+Edito
+----------------------------------------------------
+This week I'm adding at the very bottom the <a href="http://devtips.faria.co">devtips</a> of the week. I had some positive feedback about them. So adding quick links may be of interest because they cover the same fullstack webdev topics as this newsletter.
+
+mose - the green ruby editor
+xenor - the informer
+http://greenruby.org
+
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+* Build in Amsterdam
+  http://www.buildinamsterdam.com/
+  A design company website, with neat navigation.
+
+* Airtype
+  http://airtype.io/
+  The keyless keyboard of the future.
+
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+* Sysadmin Casts
+  ops
+  http://sysadmincasts.com/
+  imple bite sized sysadmin screencasts (released weekly).
+
+* Tech Talks Hub
+  tool
+  http://www.techtalkshub.com/
+  A listing of Tech Talks.
+
+* The Odin Project
+  tool
+  http://www.theodinproject.com/
+  Online free courses to learn all about webdev.
+
+* Shape Catcher
+  tool
+  http://shapecatcher.com/
+  Unicode character recognition: draw the shape, it gives the code.
+
+* FlexJobs
+  tool
+  http://www.flexjobs.com/
+  Look for a remote job? give that one a look.
+
+* GemBundle
+  rb
+  http://www.gembundle.com/
+  A discovery engine for ruby gems (work in progress).
+
+* Go Native
+  rb
+  https://gonative.io/
+  A discovery engine for ruby gems (work in progress).
+
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+* Rspec 3
+  rb
+  http://myronmars.to/n/dev-blog/2014/06/rspec-2-99-0-and-3-0-0-have-been-released
+  Tons of great new features.
+
+* Brakeman 2.6.0
+  rb
+  http://brakemanscanner.org/blog/2014/06/06/brakeman-2-dot-6-0-released/
+  This release introduces significant changes to how and when files are parsed.
+
+* Dawn
+  rb
+  https://github.com/dawn/dawn
+  Docker-based PaaS in Ruby.
+
+* Logstash pluginbase
+  ops
+  https://github.com/coolacid/logstash-pluginbase
+  A base repo to make Logstash plugins.
+
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+* Setting up for infrastructure development
+  ops - jun 2
+  https://medium.com/@pereiragoncalo/setting-up-for-infrastructure-development-1ab67b721ff9
+  Local MacOSX environment for development and testing with Test Kitchen and Vagrant.
+
+* Option pattern in Ruby
+  rb - jun 2
+  http://blog.sharetribe.com/2014/06/02/option-pattern-maybe-monad-in-ruby/
+  Examples use the Possibly gem.
+
+* Why Swift Will Never Replace RubyMotion
+  mobile - jun 3
+  http://blog.motioninmotion.tv/why-swift-will-never-replace-rubymotion
+  Swift from Apple makes a buzz in iOS dev, but rubymotion is not going to die.
+
+* A Rails Development Environment with Docker and Vagrant
+  rb - jun 3
+  http://www.talkingquickly.co.uk/2014/06/rails-development-environment-with-vagrant-and-docker/
+  How-to for setting up a rails dev env.
+
+* YAGNI methods slow us down
+  rb - jun 4
+  http://tenderlovemaking.com/2014/06/04/yagni-methods-slow-us-down.html
+  OutputBuffer subclasses SafeBuffer which forces us to do runtime checks that are probably unnecessary.
+
+* Know Ruby: String Accessor
+  rb - jun 4
+  http://aaronlasseigne.com/2014/06/04/know-ruby-string-accessor/
+  Deep dive into the use of [] with strings.
+
+* The Toolbox Bundler Group
+  rb - jun 4
+  http://codecrate.com/2014/06/toolbox-bundler-group.html
+  A clever approach for managing Gemfile content.
+
+* PSD Viewing & Diffing on github
+  design - jun 5
+  https://github.com/blog/1845-psd-viewing-diffing
+  Now gitub supports diff on photoshop files.
+
+* Rails 4.1 Enums: How Not to Handle States
+  rb - jun 5
+  http://www.kcoleman.me/blog/2014/06/05/rails-4-dot-1-enums-how-not-to-handle-states/
+  Shout out against blind enum state machines.
+
+* The History of Vim
+  tool - jun 5
+  http://www.jovicailic.org/2014/06/the-history-of-vim/
+  Small recap of where vim comes from, in preparation of a new vim book.
+
+* How I discovered CCS Injection Vulnerability
+  ops - jun 5
+  http://ccsinjection.lepidum.co.jp/blog/2014-06-05/CCS-Injection-en/index.html
+  History of the discovery of CVE-2014-0224 from last week.
+
+* Automating Web Performance Measurement
+  js - jun 6
+  http://updates.html5rocks.com/2014/06/Automating-Web-Performance-Measurement
+  The PageSpeed Insights as a node module.
+
+
+Watch
+----------------------------------------------------
+Screencasts and conferences videos, or other video feeds ...
+
+* From Parallel to Concurrent
+  go - may 29 - 42m
+  http://channel9.msdn.com/Events/Lang-NEXT/Lang-NEXT-2014/From-Parallel-to-Concurrent
+  Talk of Rob Pike about Golang.
+
+* Interview with Deis CTO, Gabriel Monroy
+  ops - jun 2 - 32m
+  http://www.centurylinklabs.com/interview-with-deis-cto-gabriel-monroy/
+  Learn more about docker for PaaS.
+
+* Introducing the Polymer Designer tool
+  html5 - jun 2 - 18m
+  http://www.youtube.com/watch?v=djQh8XKRzRg&feature=youtu.be
+  Polymer has an IDE now.
+
+* #DOXLON DevOps Exchange – Deployment with Containers
+  ops - jun 3 - 3 videos
+  http://blog.dataloop.io/2014/06/03/doxlon-devops-exchange-may-14-deployment-with-containers/
+  Polymer has an IDE now.
+
+* Using Docker & Ansible by John Minnihan
+  ops - jun 4 - 32m
+  http://devops.com/blogs/using-docker-ansible/
+  Video from the DevOps track at Gluecon 2014.
+
+* Simple introduction to CoreOS
+  ops - jun 6 - 33m
+  http://www.centurylinklabs.com/simple-introduction-to-coreos-with-ceo-alex-polvi-and-cto-brandon-philips/
+  Interview with the CEO and CTO of CoreOS, Alex Polvi and Brandon Philips.
+
+
+Listen
+----------------------------------------------------
+What could be heard last week ..
+
+* Giant robots #101
+  rb - jun 2 - 39m
+  http://podcasts.thoughtbot.com/giantrobots/101
+  Developing Skills (Alex Fox, Jatin Bhandari).
+
+* Product Hunt Radio 8
+  web - jun 3 - 37m
+  http://blog.producthunt.com/post/87694345879/product-hunt-radio-episode-8
+  About betaworks new mobile game, anonymous social apps in schools, various other things.
+
+* Ruby5 469
+  rb - jun 3 - 7m
+  http://ruby5.envylabs.com/episodes/506-episode-469-june-3rd-2014
+  RSpec 3, Git 2, bower-rails, JSON responses with PostgreSQL, serialization & enumeration.
+
+* Ruby Rogues 159
+  rb - jun 4 - 1h26
+  http://rubyrogues.com/159-rr-hacking-education-with-saron-yitbarek/
+  Hacking Education with Saron Yitbarek.
+
+* Javascript Jabber 111
+  js - jun 4 - 1h08
+  http://javascriptjabber.com/111-jsj-the-ember-js-project-with-erik-bryn/
+  The Ember.js Project with Erik Bryn.
+
+* Food Fight Show june 2014
+  ops - jun 4 - 1h12
+  http://foodfightshow.org/2014/06/chef-metal.html
+  Chef Metal with it's creator, John Keiser.
+
+* Ruby on Rails Podcast #153
+  rb - jun 5 - 1h11
+  http://5by5.tv/rubyonrails/153
+  Ben Hundley - elasticsearch & Qbox.
+
+* Code Pen 014
+  web - jun 5 - 34m
+  http://blog.codepen.io/2014/06/05/014-security/
+  Security in Codepen.
+
+* Ruby5 470
+  rb - jun 6 - 5m
+  http://ruby5.envylabs.com/episodes/507-episode-470-june-6th-2014
+  Rails and Sinatra, Protocol Buffers, HTTP API design, dat science.
+
+
+Devtips
+----------------------------------------------------
+The tips of the week collected from Faria Dev Team ..
+
+* Wrap nil with try and avoid errors
+  rb
+  http://devtips.faria.co/2014-06-07-wrap-nil-with-try.html
+  
+
+* Codemirror for mail templates and limit user errors
+  js
+  http://devtips.faria.co/2014-06-05-codemirror-for-mail-template.html
+  
+
+* Git 2 push from matching to simple
+  tool
+  Git 2 push from matching to simple
+  
+
+* fs_usage debug for js compilation
+  tool
+  http://devtips.faria.co/2014-06-04-fs_usage-debug.html
+  
+
+* Photoshop custom sharpen with a cloned overlay
+  design
+  http://devtips.faria.co/2014-06-04-photoshop-custom-sharpen.html
+  
+
+* Media queries from scratch because small is beautiful
+  css3
+  http://devtips.faria.co/2014-06-04-media-queries-from-sratch.html
+  
+
+* Vim leader key from outer space
+  tool
+  http://devtips.faria.co/2014-06-04-vim-leader-key.html
+  
+
+* Make a gem it's simpler than what it looks
+  rb
+  http://devtips.faria.co/2014-06-04-make-a-gem.html
+  
+
+* Restore user data from a mysql db
+  ops
+  http://devtips.faria.co/2014-06-04-restore-user-data.html
+  
+
+
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a 
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+
