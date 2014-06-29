@@ -38,6 +38,7 @@ Those links and resources are used in the weekly collection of information for G
 
 ### News or links curators
 
+* <http://webplatformdaily.org/> (html5) *daily*
 * <http://regulargeek.com/> (developers) *daily*
 * <http://www.awwwards.com/> (design) *daily*
 * <http://afreshcup.com/> (ruby) *daily*
@@ -60,6 +61,7 @@ Those links and resources are used in the weekly collection of information for G
 * <http://javascriptjabber.com/> (js) *active weekly*
 * <http://rubyrogues.com/> (rb) *active weekly*
 * <http://5by5.tv/changelog> (coding/foss) *active semi-weekly*
+* <http://www.opsallthethings.com/> (ops) *active semi-weekly*
 * <http://www.arresteddevops.com/> (ops) *active semi-weekly*
 * <http://blog.codepen.io/> (css/js) *active semi-weekly*
 * <http://nodeup.com/> (js) *active semi-weekly*
