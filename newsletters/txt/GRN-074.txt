@@ -1,0 +1,290 @@
+----------------------------------------------------
+Green Ruby News #074 - jul 6th 2014
+----------------------------------------------------
+
+Edito
+----------------------------------------------------
+This week we had a rails upgrade for security (but only concerns postgres) and another one immediately for fixing a regression in the security fix. It happens sometimes. But there is so much more happening all around. It's very hard to compose this letter because I have to pick news from such a massive amount of new things. But here it is, enjoy :)
+
+mose - the green ruby editor
+xenor - the informer
+http://greenruby.org
+
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+* Gruber experiments
+  http://aelgru.github.io/
+  Various visual web experiments.
+
+* Google design
+  http://www.google.com/design/
+  A portal for everything design at google.
+
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+* Teleport
+  tool
+  http://teleport.org/
+  All about going live somewhere else, maybe remote working.
+
+* Tagtree
+  js
+  http://tagtree.tv/
+  Screencasts about modern javascript.
+
+* Wolfram Cloud
+  tool
+  http://www.wolframcloud.com/
+  For programming online in Wolfram.
+
+* Real Favicon Generator
+  design
+  http://realfavicongenerator.net/
+  Generate the favicon pictures and HTML code that work on all major browsers and platforms.
+
+* JSON-LD
+  web
+  http://json-ld.org/
+  This is Json plus a linked data layer, just became an official standard at W3C.
+
+* Bootstrap carnival
+  css3
+  http://bootstrapcarnival.com/
+  Showcasing 1000+ Bootstrap themes under many different categories.
+
+* BrowserTap
+  web
+  http://browsertap.com/
+  Fast and interactive cross-browser testing (in alpha test).
+
+* DeployDo
+  ops
+  https://www.deploy.do/
+  Cloud deployment service with preview.
+
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+* Rails 4.1.4
+  rb - jul 2
+  http://weblog.rubyonrails.org/2014/7/2/Rails_4_0_8_and_4_1_4_have_been_released/
+  Rails 4.0.8 and 4.1.4 have been released (security fix on 4.1.3 had a regression).
+
+* Docker 1.1.0
+  ops - jul 3
+  http://blog.docker.com/2014/07/announcing-docker-1-1/
+  Various improvements and new features. This is moving fast.
+
+* Yt
+  rb
+  https://github.com/Fullscreen/yt
+  The most reliable YouTube API Ruby client.
+
+* Browser-perf
+  css
+  https://github.com/axemclion/browser-perf
+  Performance Metrics for Web Browsers, designed for CI.
+
+* Buddha Line Icons Complete
+  design
+  http://pixelbuddha.net/freebie/buddha-line-icons-100
+  Freebie, 100 line icons.
+
+* Longshoreman
+  ops
+  https://github.com/longshoreman/longshoreman
+  Automated deployment with Docker.
+
+* Bootstrap 386
+  css3
+  https://github.com/kristopolous/BOOTSTRA.386
+  Bootstrap theme to make webpages look like they are from the 1980s.
+
+* Fast.js
+  js
+  https://github.com/codemix/fast.js
+  Faster user-land reimplementations for several common builtin native JavaScript functions.
+
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+* About Webpage Rendering
+  css3 - jun 30
+  http://frontendbabel.info/articles/webpage-rendering-101/
+  What Every Frontend Developer Should Know: repaint and reflow.
+
+* Techniques for mobile and responsive cross-browser testing
+  mobile - jun 30
+  http://webuild.envato.com/blog/techniques-for-mobile-and-responsive-cross-browser-testing/
+  An Envato case study. Pretty good list of tools.
+
+* robots.txt disallow: 20 Years of Mistakes To Avoid
+  web - jun 30
+  http://www.beussery.com/blog/index.php/2014/06/robots-txt-disallow-20/
+  robots.txt has 20 years, here is an update of how they are really used now.
+
+* Deb.js: the Tiniest Debugger in the World
+  js - jun 30
+  http://code.tutsplus.com/tutorials/debjs-the-tiniest-debugger-in-the-world--cms-21565
+  Detailed example of usage of deb.js.
+
+* Rails and the Warped Asset Pipeline
+  rb - jul 1
+  https://ninefold.com/blog/2014/07/01/rails-and-the-warped-asset-pipeline/
+  Magics of the asset pipeline explained.
+
+* From Rails to RubyMotion: basic toolkit
+  mobile - jul 1
+  http://blog.arkency.com/2014/07/one-ruby-to-rule-them-all/
+  Resources and tools for a smooth start on rubymotion.
+
+* Ruby blocks precedence
+  rb - jul 1
+  http://blog.plataformatec.com.br/2014/07/ruby-blocks-precedence/
+  Blocks have precedence too.
+
+* CSS Spheres
+  css3 - jul 2
+  https://medium.com/css-tutorials/css-spheres-aab1a341deb2
+  Using CSS gradients to create spheres.
+
+* Pixels are expensive
+  css3 - jul 3
+  http://aerotwist.com/blog/pixels-are-expensive/
+  An addendum to the other article about webpage rendering cited above.
+
+* Don’t Use jquery-latest.js
+  js - jul 3
+  http://blog.jquery.com/2014/07/03/dont-use-jquery-latest-js/
+  You shouldn’t be using jquery-latest.js on a production site, here is why.
+
+* Farewell Node.js
+  go - jul 4
+  https://medium.com/code-adventures/farewell-node-js-4ba9e7f3e52b
+  A <a href="https://github.com/visionmedia">prolific</a> node.js coder looks for new maintainers (express, jade, mocha, ...) now that he moves to golang. He explains why.
+
+
+Watch
+----------------------------------------------------
+Screencasts and conferences videos, or other video feeds ...
+
+* A to Z CSS: ID
+  css3 - jul 1 - 7m
+  http://www.atozcss.com/the-id-selector/
+  Some of the reasons why he prefers the class selector over ID.
+
+* Ruby Code Reading: Equalizer and Concord
+  rb - jun 24 - 1h26
+  https://www.youtube.com/watch?v=fIhIjub1ry0
+  Two Ruby Rogues read over some of the code from rom-rb.
+
+
+Listen
+----------------------------------------------------
+What could be heard last week ..
+
+* Giant robots #105
+  web - jun 30 - 33m
+  http://podcasts.thoughtbot.com/giantrobots/105
+  Use Your Info-magination (Marc-André Cournoyer).
+
+* Product Hunt 12
+  web - jun 30 - 43m
+  http://blog.producthunt.com/post/90351652849/product-hunt-radio-episode-12
+  At Homebrew headquarters with Hunter Walk and Satya Patel.
+
+* Ruby5 476
+  rb - jul 1 - 7m
+  http://ruby5.envylabs.com/episodes/513-episode-476-july-1st-2014
+  Fast attributes, Yt, Pundit, Active Admin jcrop, fragment caching optout, new Rails versions.
+
+* Ruby Rogues 163
+  rb - jul 2 - 1h16
+  http://rubyrogues.com/163-rr-education-with-coraline-ada-ehmke-and-katrina-owen/
+  Education with Coraline Ada Ehmke and Katrina Owen.
+
+* Javascript Jabber 115
+  js - jul 2 - 45m
+  http://javascriptjabber.com/115-jsj-the-es6-module-loader-polyfill-systemjs-and-jspm-with-guy-bedford/
+  The ES6 Module Loader Polyfill, SystemJS, and jspm with Guy Bedford.
+
+* Ruby5 477
+  rb - jul 4 - 5m
+  http://ruby5.envylabs.com/episodes/514-episode-477-july-4th-2014
+  rails security, modular migrations, warped asset pipeline, Arel.
+
+* Ruby on Rails Podcast #157
+  rb - jul 5 - 59m
+  http://5by5.tv/rubyonrails/157
+  Lex Friedman is Hiring a Ruby on Rails Developer for the Midroll Podcast Ad Network.
+
+
+Devtips
+----------------------------------------------------
+The tips of the week collected from Faria Dev Team ..
+
+* CSS line break even inside tables
+  css3
+  http://devtips.faria.co/2014-06-30-css-line-break.html
+  
+
+* Profiling Rspec to track long tests
+  rb
+  http://devtips.faria.co/2014-07-02-profiling-rspec.html
+  
+
+* Analytics in Elasticsearch are so fast
+  rb
+  http://devtips.faria.co/2014-07-02-analytics-in-elasticsearch.html
+  
+
+* Paths in Capybara when there are params
+  rb
+  http://devtips.faria.co/2014-07-02-paths-in-capybara.html
+  
+
+* Vim pbcopy to yank to clipboard
+  tool
+  http://devtips.faria.co/2014-07-02-vim-pbcopy.html
+  
+
+* SQL in a shell and more from the parallel package
+  tool
+  http://devtips.faria.co/2014-07-04-sql-in-a-shell.html
+  
+
+* Toggle mockup in background for html/css authoring
+  design
+  http://devtips.faria.co/2014-07-04-toggle-mockup-in-background.html
+  
+
+
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a 
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+

@@ -46,9 +46,8 @@ Those links and resources are used in the weekly collection of information for G
 
 ### Video channels
 
-(more to come here)
-
 * <http://confreaks.com/>
+* <http://tagtree.tv/>
 
 ### Podcasts
 
