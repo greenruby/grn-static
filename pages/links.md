@@ -11,6 +11,7 @@ Those links and resources are used in the weekly collection of information for G
 * <http://thecodeplayer.com/> (css/js)
 * <https://coderbits.com> (developers)
 * <http://getprismatic.com/> (misc)
+* <http://openruby.com/> (ruby)
 * <http://codepen.io> (css/js)
 * <http://www.slant.co/> (misc)
 * <http://news.humancoders.com/> (misc) (fr)
