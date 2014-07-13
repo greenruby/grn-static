@@ -1,0 +1,305 @@
+----------------------------------------------------
+Green Ruby News #075 - jul 13th 2014
+----------------------------------------------------
+
+Edito
+----------------------------------------------------
+Ok I will not say a word about football (yes I just did, I know) because xenor and me have opposite positions on this topic. On a more on-topic subject, if you can go to Japan this fall, registration to RubyKaigi [1] opened last week.
+[1]: http://rubykaigi.doorkeeper.jp/events/12215
+
+mose - the green ruby editor
+xenor - the informer
+http://greenruby.org
+
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+* BitShadow Machine
+  http://bitshadowmachine.com/
+  8bit experiment with css boxes.
+
+* AprilZero
+  http://aprilzero.com/
+  A guy is self-tracking himself on this website with neat graphic tricks.
+
+* Made by Uppercut
+  http://www.madebyuppercut.com/
+  Web agency website, cool design and typo work.
+
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+* Practice Inspiration
+  tool
+  http://tevko.github.io/practice/index.html
+  A website taht suggests random item for practice.
+
+* Inch CI
+  rb
+  http://inch-ci.org/
+  Raise the visibility of code documentation in Ruby.
+
+* GerritHub
+  tool
+  http://gerrithub.io/
+  Gerrit Code Review with GitHub repositories.
+
+* Runnable
+  tool
+  http://runnable.com/
+  Run Your Code Online (choice of 15 languages) in a container.
+
+* Introduction to Programming with Ruby
+  rb
+  http://www.gotealeaf.com/books/ruby
+  (free book) for the inexperienced or completely new programmer.
+
+* Auth0
+  tool
+  https://auth0.com/
+  Identity infrastructure, built for developers.
+
+* Chef Supermarket
+  ops
+  https://supermarket.getchef.com
+  This is the new cookbooks community site from Chef, quite a neat change.
+
+* List of lists of Github lists
+  tool
+  https://github.com/yaph/lologl
+  List of Lists of Github Lists.
+
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+* Ember 1.6.0
+  js
+  http://emberjs.com/blog/2014/07/07/ember-1-6-0-and-ember-1-7-0-beta-released.html
+  First to be published after converting the codebase to ES6 modules.
+
+* Breach
+  tool
+  http://breach.cc/
+  A browser for the HTML5 era. Entirely written in Javascript.
+
+* Rails Env Favicon
+  rb
+  https://github.com/accessd/rails-env-favicon
+  Gem to display the rails environment on the favicon.
+
+* InfluxDB
+  go
+  http://influxdb.com/
+  An open-source distributed time series database with no external dependencies (go + levelDB).
+
+* Graphana
+  ops
+  http://grafana.org/
+  Metrics dashboard and graph editor for Graphite, InfluxDB & OpenTSDB (inspired by Kibana).
+
+* Odyssey
+  js
+  http://cartodb.github.io/odyssey.js/
+  Create interactive maps by writing stories (on Cartodb).
+
+* Vim emoji
+  js
+  https://github.com/junegunn/vim-emoji
+  Named Emoji in Vim.
+
+* CSS Colorguard
+  css3
+  https://github.com/SlexAxton/css-colorguard
+  Keep a watchful eye on your css colors.
+
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+* My Favorite Emacs Add-Ons
+  tool - jul 6
+  http://spin.atomicobject.com/2014/07/06/best-emacs-addons/
+  This is just to say that there is not only vim and st3.
+
+* Zero to Smoke Test with Sinatra
+  rb - jul 8
+  http://devblog.avdi.org/2014/07/08/zero-to-smoke-test-with-sinatra/
+  Avdi documented the process of retrofitting tests to a test-less Sinatra app.
+
+* Metrics in a home
+  ops - jul 10
+  http://jpmens.net/2014/07/10/metrics-in-a-home/
+  Presentation of InfluxDB, an alternative to graphite.
+
+* Inspiration for custom select elements
+  css3 - jul 10
+  http://tympanus.net/codrops/2014/07/10/inspiration-for-custom-select-elements/
+  Custom version of the select element.
+
+* Web Spreadsheet in 99 lines
+  js - jul 10
+  https://github.com/audreyt/500lines/blob/master/spreadsheet/chapter.md
+  A detailed demo of angular coding, actually.
+
+* Pushing Pixels with JRuby+Truffle
+  rb - jul 10
+  http://www.chrisseaton.com/rubytruffle/pushing-pixels/
+  Performances and benchmarks for the truffle engine for jRuby.
+
+* Optimising for 60fps everywhere
+  rb - jul 10
+  https://engineering.gosquared.com/optimising-60fps-everywhere-in-javascript
+  Performance and speed in JavaScript.
+
+
+Watch
+----------------------------------------------------
+Screencasts and conferences videos, or other video feeds ...
+
+* A to Z CSS: Justify
+  css3 - jul 8 - 6m
+  http://www.atozcss.com/the-id-selector/
+  12 possible values for text-align.
+
+* Working with YAML Files
+  rb - jul 8 - 13m
+  https://www.codemy.net/posts/working-with-yaml-files
+  How to work with yaml files in ruby.
+
+* JS must watch list
+  js - 33 videos
+  https://github.com/bolshchikov/js-must-watch
+  Must-watch videos about javascript.
+
+
+Listen
+----------------------------------------------------
+What could be heard last week ..
+
+* Giant robots #106
+  web - jul 7 - 28m
+  http://podcasts.thoughtbot.com/giantrobots/106
+  Sprinting Thru Design (Alex Baldwin & Galen Frechette).
+
+* Product Hunt 13
+  web - jul 7 - 43m
+  http://blog.producthunt.com/post/91104673519/product-hunt-radio-episode-13
+  About what AngelList really is, time-saving apps, and a few crazy products.
+
+* Arrested DevOps 14
+  ops - jul 7 - 1h06
+  http://www.arresteddevops.com/how-to-eff-up-devops/
+  How To Eff Up DevOps.
+
+* Git Minutes 30
+  tool - jul 7 - 1h29
+  http://episodes.gitminutes.com/2014/07/gitminutes-30-luca-milanesio-on-gerrit.html
+  Luca Milanesio on Gerrit Code Review.
+
+* Ruby5 478
+  rb - jul 8 - 8m
+  http://ruby5.envylabs.com/episodes/515-episode-478-july-8th-2014
+  Rails 4.1.4, Awesome Ruby, MessageEncryptor, BHF, Inch CI, fourchette.
+
+* Ruby on Rails Podcast #158
+  rb - jul 8 - 1h17
+  http://5by5.tv/rubyonrails/158
+  Daniel Jalkut - Not a Ruby Programmer (Yet).
+
+* Food Fight Show 201407
+  ops - jul 8 - 1h10
+  http://foodfightshow.org/2014/07/supermarket.html
+  About the new community site: Chef Supermarket.
+
+* Ruby Rogues 164
+  rb - jul 9 - 1h17
+  http://rubyrogues.com/164-rr-staying-sharp-with-dave-thomas/
+  Staying Sharp with Dave Thomas.
+
+* Javascript Jabber 116
+  js - jul 9 - 1h
+  http://javascriptjabber.com/116-jsj-jquery-ui-vs-kendoui-with-burke-holland-and-tj-vantoll/
+  jQuery UI vs KendoUI with Burke Holland and TJ VanToll.
+
+* CodePen 17
+  css3 - jul 9 - 32m
+  http://blog.codepen.io/2014/07/09/017-community/
+  What the CodePen community is.
+
+* Ruby5 479
+  rb - jul 11 - 6m
+  http://ruby5.envylabs.com/episodes/516-episode-479-july-11th-2014
+  Time Travel with git, learn programming, adequate_exposure, Avdi's Sinatra testing adventure, App Server Arena, Informant.
+
+
+Devtips
+----------------------------------------------------
+The tips of the week collected from Faria Dev Team ..
+
+* Coffee to Js in Vim with one key down
+  js
+  http://devtips.faria.co/2014-07-09-coffee-to-js-in-vim.html
+
+
+* Fixed table layout to keep things under control
+  css3
+  http://devtips.faria.co/2014-07-09-fixed-table-layout.html
+
+
+* Nosleep for the insomniac mac
+  tool
+  http://devtips.faria.co/2014-07-09-nosleep.html
+
+
+* Mute cache in rails logs
+  rb
+  http://devtips.faria.co/2014-07-09-mute-cache.html
+
+
+* Anonymous functions in javascript
+  js
+  http://devtips.faria.co/2014-07-10-anonymous-functions.html
+
+
+* Activerecords transaction to save trouble
+  rb
+  http://devtips.faria.co/2014-07-10-activerecord-transaction.html
+
+
+* Reflect on association in activerecord
+  rb
+  http://devtips.faria.co/2014-07-10-reflective-associations.html
+
+
+* Tree command as a better ls
+  tool
+  http://devtips.faria.co/2014-07-11-tree-commandline.html
+
+
+
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+
