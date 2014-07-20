@@ -1,0 +1,334 @@
+----------------------------------------------------
+Green Ruby News #076 - jul 20th 2014
+----------------------------------------------------
+
+Edito
+----------------------------------------------------
+This week, on jul 25th, rails will have 10 years.
+
+mose - the green ruby editor
+xenor - the informer
+http://greenruby.org
+
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+* Making of AprilZero
+  http://aprilzero.com/journal/making-of-aprilzero/
+  This website was popular last week, here is the story behind it.
+
+* Jam3
+  http://www.jam3.com/
+  Extremely graphic website of a design agency from Toronto. Check their portfolio.
+
+* loopalo
+  http://loopalo.com/
+  A SVG loopy(?) drawing tool. Useless and beautiful.
+
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+* CodeMentor
+  tool
+  https://www.codementor.io/howitworks
+  Codementor connects you with expert developers for live 1:1 help..
+
+* The Docker Book
+  ops
+  http://www.dockerbook.com/
+  (book) new book by James Turnbull, I bought it and I liked it.
+
+* Prelang
+  rb
+  https://prelang.com/
+  Web-based GUI for prototyping rails code.
+
+* Awesome rails
+  rb
+  https://github.com/ekremkaraca/awesome-rails
+  Another list, this one is about applications made with rails.
+
+* Ruby Bookmarks
+  rb
+  https://github.com/dreikanter/ruby-bookmarks
+  Curated collection of essential Ruby and Ruby on Rails resources.
+
+* Tools of the Trade
+  tool
+  https://github.com/cjbarber/ToolsOfTheTrade
+  Huge list of SaaS services and tools for developers.
+
+* Elastibox
+  ops
+  http://elasticbox.com/
+  Dev And Ops Working Together. Platform for deploying preset stacks.
+
+* GoRails
+  rb
+  https://gorails.com/
+  Ruby on Rails screencasts for developers. Nothing to do with Golang.
+
+* Drunk User testing
+  web
+  http://drunkusertesting.com/
+  The real way to test usability.
+
+* Shoelace
+  css3
+  http://shoelace.io/
+  Visual Bootstrap 3 Grid Builder .
+
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+* Rubygems 2.4.0
+  rb
+  http://blog.rubygems.org/2014/07/16/2.4.0-released.html
+  Minor changes, mostly good for gem builders.
+
+* Chef Container
+  ops
+  http://downloads.getchef.com/chef-container/
+  Chef gets on the Docker wave.
+
+* Xiki
+  rb
+  https://github.com/trogdoro/xiki
+  A shell console with GUI features.
+
+* OpenProject
+  rb
+  https://openproject.org/
+  Open source project management platform in rails.
+
+* Source Han Sans
+  design
+  http://blog.typekit.com/2014/07/15/introducing-source-han-sans/
+  An open source Pan-CJK typeface, from Adobe and Google.
+
+* Pixi.js
+  js
+  http://www.pixijs.com/
+  2D webGL renderer with canvas fallback.
+
+* Mirrorbits
+  go
+  https://github.com/etix/mirrorbits
+  Geographical download redirector for distributing files across a set of mirrors.
+
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+* Share Rails configuration to Javascript
+  rb - jul 9
+  http://railsware.com/blog/2014/07/09/share-rails-configuration-to-javascript
+  Example use of the global gem.
+
+* AngularJS for Absolute Beginners
+  js - jul 15
+  http://medialoot.com/blog/angularjs-for-absolute-beginners/
+  An easy tutorial for approaching the basics of AngluarJS.
+
+* Rails 4 and PostgreSQL Arrays
+  rb - jul 15
+  http://blog.plataformatec.com.br/2014/07/rails-4-and-postgresql-arrays/
+  Rails 4 supports arrays fields for PostgreSQL in a nice way. Here is how.
+
+* Recommended Security Setup for AWS
+  ops - jul 16
+  http://collectiveidea.com/blog/archives/2014/07/15/recommended-security-setup-for-aws/
+  How to organize IAM accounts.
+
+* 18 Surprises From Reading jQuery's Source Code
+  js - jul 16
+  http://quickleft.com/blog/18-surprises-from-reading-jquery-s-source-code
+  Some interesting tricks in there.
+
+* Testing Rails Service Oriented Architecture
+  rb - jul 17
+  http://www.bignerdranch.com/blog/testing-rails-service-oriented-architecture/
+  Use of remote_factory_girl and remote_database_cleaner for testing remote service.
+
+* Configuring Elasticsearch for High Performance
+  ops - jul 18
+  https://www.loggly.com/blog/nine-tips-configuring-elasticsearch-for-high-performance/
+  Elasticsearch Configuration Properties are Key to Its Elasticity.
+
+* From big ball of mud to separated concerns
+  rb - jul 18
+  http://blog.arkency.com/2014/07/6-front-end-techniques-for-rails-developers-part-i-from-big-ball-of-mud-to-separated-concerns/
+  Part 1 of 6 front-end techniques for Rails developers.
+
+* 3 Ways to Create Classes in Ruby
+  rb - jul 19
+  http://techblog.thescore.com/2014/07/19/3-ways-to-create-classes-in-ruby/
+  Simple review of class creation, including internal classes with struct.
+
+
+Watch
+----------------------------------------------------
+Screencasts and conferences videos, or other video feeds ...
+
+* A to Z CSS: Justify
+  css3 - jul 8 - 6m
+  http://www.atozcss.com/the-id-selector/
+  12 possible values for text-align.
+
+* Goruco 2014
+  rb - jul 14 - 12 videos
+  http://confreaks.com/events/goruco
+  The New York event that happened on june 21th.
+
+* Edge Caching Dynamic Rails Apps
+  rb - jul 14 - 28m
+  http://www.youtube.com/watch?v=60rjetFNA_Q&amp;list=UUWnPjmqvljcafA0z2U1fwKQ
+  Various insights about CDN and rails.
+
+* Sysadmincasts #28
+  ops - jul 14 - 7m
+  http://confreaks.com/events/goruco
+  CLI Monday: cat, grep, awk, sort, uniq, spark.
+
+* What is Flynn: an open-source PaaS
+  ops - jul 16 - 33m
+  http://www.centurylinklabs.com/what-is-flynn-an-open-source-docker-paas/
+  Interview with Jonathan Rudenberg, one of Flynn creators.
+
+
+Listen
+----------------------------------------------------
+What could be heard last week ..
+
+* Giant robots #107
+  mobile - jul 14 - 33m
+  http://podcasts.thoughtbot.com/giantrobots/107
+  The Best Secrets Kept (Sara Haider).
+
+* Product Hunt 14
+  web - jul 15 - 48m
+  http://blog.producthunt.com/post/91845787959/product-hunt-radio-episode-14
+  About reddit’s upcoming mobile app, crack for beards, and the future of Product Hunt .
+
+* Ruby5 480
+  rb - jul 15 - 6m
+  http://ruby5.envylabs.com/episodes/517-episode-480-july-15th-2014
+  PunchClock, Prelang, Queue Pop with Timeout, Termit, Rails request handling.
+
+* Arrested DevOps 15
+  ops - jul 15 - 57m
+  http://www.arresteddevops.com/continuous-delivery/
+  Continuous Delivery.
+
+* TheChangelog 124
+  js - jul 15 - 1h04
+  http://5by5.tv/changelog/124
+  Tedit, JS-Git, and Jack with Tim Caswell.
+
+* TheChangelog 125
+  rb - jul 15 - 1h14
+  http://5by5.tv/changelog/125
+  Jekyll with Parker Moore.
+
+* TheChangelog 126
+  rb - jul 15 - 1h13
+  http://5by5.tv/changelog/126
+  Jekyll with Parker Moore.
+
+* Web platform #1
+  rb - jul 16 - 1h21
+  http://thewebplatform.libsyn.com/rubynation-rubys-cultural-impact
+  RubyNation & Ruby's Cultural Impact.
+
+* Ruby on Rails Podcast #159
+  rb - jul 16 - 1h14
+  http://5by5.tv/rubyonrails/159
+  Xiki and reimagining the shell with Craig Muth.
+
+* Ruby Rogues 165
+  rb - jul 16 - 1h05
+  http://rubyrogues.com/165-rr-systems-programming-tricks-with-julia-evans/
+  Systems Programming Tricks with Julia Evans.
+
+* Javascript Jabber 117
+  js - jul 16 - 50m
+  http://javascriptjabber.com/117-jsj-the-koa-framework-with-gerred-dillon-and-will-conant/
+  The Koa Framework with Gerred Dillon and Will Conant.
+
+* Ops all the things 9
+  ops - jul 17 - 51m
+  http://www.opsallthethings.com/podcast/009-debug-all-the-things/
+  Debug All The Things.
+
+* Ruby5 481
+  rb - jul 18 - 5m
+  http://ruby5.envylabs.com/episodes/518-episode-481-july-18th-2014
+  Peek, accessibility, polyglot, GoRails, EOL 1.8.7 and 1.9.2.
+
+* NodeUp 67
+  js - jul 18 - 55m
+  http://nodeup.com/sixtyseven
+  a breach show (the browser written in js).
+
+
+Devtips
+----------------------------------------------------
+The tips of the week collected from Faria Dev Team ..
+
+* Git remerge again a feature branch
+  tool
+  http://devtips.faria.co/2014-07-15-git-remerge.html
+  
+
+* Pagespeed insight from the commandline
+  tool
+  http://devtips.faria.co/2014-07-15-pagespeed-insight.html
+  
+
+* slice_before for custom splits
+  rb
+  http://devtips.faria.co/2014-07-16-slice-before.html
+  
+
+* Styled checkbox with some css
+  css3
+  http://devtips.faria.co/2014-07-17-styled-checkbox.html
+  
+
+* Browser testing with Sikuli by simulating user actions
+  tool
+  http://devtips.faria.co/2014-07-17-browser-testing-with-sikuli.html
+  
+
+* Gutter Color for sublimetext3
+  css3
+  http://devtips.faria.co/2014-07-17-gutter-color.html
+  
+
+
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a 
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+

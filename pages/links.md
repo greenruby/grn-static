@@ -49,6 +49,7 @@ Those links and resources are used in the weekly collection of information for G
 
 * <http://confreaks.com/>
 * <http://tagtree.tv/>
+* <http://sysadmincasts.com/> (sysadmin)
 
 ### Podcasts
 
@@ -67,5 +68,6 @@ Those links and resources are used in the weekly collection of information for G
 * <http://nodeup.com/> (js) *active semi-weekly*
 * <http://crypto-gram.libsyn.com/> (security) *active monthly*
 * <http://foodfightshow.org/> (ops/chef) *active monthly*
-* <http://episodes.gitminutes.com/> (git) *inactive since may 2014*
+* <http://thewebplatform.libsyn.com/> (web) *unknown frequency*
+* <http://episodes.gitminutes.com/> (git) *sporadic since may 2014*
 * <http://devopscafe.org/> (ops) *inactive since feb 2014*
