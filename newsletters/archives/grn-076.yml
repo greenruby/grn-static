@@ -206,14 +206,6 @@ topics:
   baseline: "Screencasts and conferences videos, or other video feeds ..."
   links:
 
-  - title: "A to Z CSS: Justify"
-    url: "http://www.atozcss.com/the-id-selector/"
-    comment: "12 possible values for text-align."
-    pubdate: jul 8
-    duration: 6m
-    tags:
-      - css3
-
   - title: "Goruco 2014"
     url: "http://confreaks.com/events/goruco"
     comment: "The New York event that happened on june 21th."
@@ -237,6 +229,14 @@ topics:
     pubdate: jul 14
     tags:
       - ops
+
+  - title: "A to Z CSS: @keyframes"
+    url: "http://www.atozcss.com/css-keyframe-animations/"
+    comment: "Animations that are suited to CSS."
+    pubdate: jul 15
+    duration: 6m
+    tags:
+      - css3
 
   - title: "What is Flynn: an open-source PaaS"
     url: "http://www.centurylinklabs.com/what-is-flynn-an-open-source-docker-paas/"
