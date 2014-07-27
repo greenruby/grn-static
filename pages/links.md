@@ -45,21 +45,25 @@ Those links and resources are used in the weekly collection of information for G
 * <http://afreshcup.com/> (ruby) *daily*
 * <http://tympanus.net/codrops/collective/> (design) *weekly*
 
-### Video channels
+### Video channels / screencasts
 
-* <http://confreaks.com/>
-* <http://tagtree.tv/>
 * <http://sysadmincasts.com/> (sysadmin)
+* <http://confreaks.com/> (conferences)
+* <http://www.atozcss.com/> (css)
+* <https://gorails.com/> (rails)
+* <http://tagtree.tv/> (misc)
 
 ### Podcasts
 
 * <http://ruby5.envylabs.com> (rb) *active bi-weekly*
 * <http://podcasts.thoughtbot.com/giantrobots> (rb/saas/web) *active weekly*
 * <http://blog.producthunt.co/> (saas/startups) *active weekly*
+* <http://thewebplatform.libsyn.com/> (web) *active weekly*
 * <http://revision3.com/haktip> (security) *active weekly*
 * <http://hackerpublicradio.org/> (misc) *active weekly*
 * <http://5by5.tv/rubyonrails> (rails) *active weekly*
 * <http://javascriptjabber.com/> (js) *active weekly*
+* <http://devopscafe.org/> (ops) *active weekly*
 * <http://rubyrogues.com/> (rb) *active weekly*
 * <http://5by5.tv/changelog> (coding/foss) *active semi-weekly*
 * <http://www.opsallthethings.com/> (ops) *active semi-weekly*
@@ -68,6 +72,4 @@ Those links and resources are used in the weekly collection of information for G
 * <http://nodeup.com/> (js) *active semi-weekly*
 * <http://crypto-gram.libsyn.com/> (security) *active monthly*
 * <http://foodfightshow.org/> (ops/chef) *active monthly*
-* <http://thewebplatform.libsyn.com/> (web) *unknown frequency*
 * <http://episodes.gitminutes.com/> (git) *sporadic since may 2014*
-* <http://devopscafe.org/> (ops) *inactive since feb 2014*

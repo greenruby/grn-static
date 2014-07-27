@@ -1,0 +1,279 @@
+----------------------------------------------------
+Green Ruby News #077 - jul 27th 2014
+----------------------------------------------------
+
+Edito
+----------------------------------------------------
+For those that live in Taiwan (or plan to pay us a visit on this amazingly geeky island) note in your calendar the <a href="http://railspacific.com/">Rails Pacific</a> conference in september. Also, I hope you hugged your favorite sysadmin on friday. Puppetlab organized a <a href="http://puppetlabs.com/gif-contest/sysadmin-appreciation-day-2014">gif contest</a> on the topic, but I really prefer the gifs from <a href="http://devopsreactions.tumblr.com/">DevOps reactions</a>. (and yeah, the sysadminday website went down on sysadmin day, pretty ironically).
+
+mose - the green ruby editor
+xenor - the informer
+http://greenruby.org
+
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+* Stickaz
+  http://www.stickaz.com/en/
+  Sticky pixel art for your walls.
+
+* Built With Ember
+  http://builtwithember.io/
+  Ambitious web applications built using Ember.js.
+
+* Random Excuse Generator
+  http://www.randomexcusegenerator.com/
+  hmm, would be nice to have such a service with an API for our error 500 pages.
+
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+* Security Data Science Papers
+  ops
+  http://www.covert.io/security-datascience-papers/
+  Many security research papers/slides.
+
+* PrepBootstrap
+  css3
+  http://www.prepbootstrap.com/
+  Bootstrap Themes and Templates.
+
+* the Firehose Project
+  web
+  http://www.thefirehoseproject.com/f/apprenticeship/path
+  Web Development Apprenticeship Curriculum, with 1-1 mentorship.
+
+* Binary Tree
+  ops
+  https://binarytree.io/
+  IT documentation without the need for thousands of huge spreadsheets.
+
+* DNS.watch
+  ops
+  https://dns.watch/index
+  Free DNS resolver.
+
+* Polymer Design Tool
+  js
+  http://www.polymer-project.org/tools/designer/
+  Visual code editor for working with the Polymer Web Components library.
+
+* Speaking JavaScript
+  js
+  http://speakingjs.com/
+  (book) For a deep dive into Javascript (free online, or buy a paper version).
+
+* Elixir for the functional rubyist
+  rb
+  http://elixir-for-rubyists.com/
+  (book) Learn Elixir basics compared to Ruby, and more.
+
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+* Dashing
+  rb
+  http://dashing.io/
+  Sinatra based framework that lets you build beautiful dashboards.
+
+* DbCharmer
+  ops
+  http://dbcharmer.net/
+  Rails plugin that significantly extends ActiveRecord’s ability to work with multiple databases.
+
+* CoreOS
+  ops
+  https://coreos.com/blog/stable-release/
+  Version 367.1.0 is the first stable release, one year after the first alpha.
+
+* OctoHost
+  ops
+  http://octohost.io/
+  Simple web focused Docker based mini-PaaS server.
+
+* Goiardi
+  ops
+  https://github.com/ctdk/goiardi
+  A Chef server written in Go, able to run entirely in memory.
+
+* Devstep
+  tool
+  http://fgrehm.viewdocs.io/devstep
+  Development environment builder powered by Docker and buildpacks.
+
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+* Multi-tenancy in Rails
+  rb - jul 21
+  http://www.allerin.com/blog/multi-tenancy-in-rails
+  Overview of some basic principles of multi-tenancy in rails apps.
+
+* The Open Source Identity Crisis
+  web - jul 21
+  http://modelviewculture.com/pieces/the-open-source-identity-crisis
+  Essay about the Open Source culture and patterns.
+
+* A Compendium of SVG Information
+  css3 - jul 22
+  http://css-tricks.com/mega-list-svg-information/
+  A huge pile of information about SVG.
+
+* GitHub's CSS
+  css3 - jul 23
+  http://markdotto.com/2014/07/23/githubs-css/
+  Development details of how Github manages its CSS.
+
+* What's the Most Popular Ruby Library?
+  rb - jul 23
+  http://omniref.com/blog/blog/2014/07/23/whats-the-most-used-ruby-library
+  Result of some data mining on public gems.
+
+* New HTML sanitizer in Rails 4.2
+  rb - jul 24
+  http://blog.plataformatec.com.br/2014/07/the-new-html-sanitizer-in-rails-4-2/
+  Essay about the Open Source culture and patterns.
+
+* 9 Things I Like About Go
+  go - jul 24
+  http://technosophos.com/2014/07/24/9-things-i-like-about-go.html
+  Good details about what makes Go such a popular choice.
+
+* Why Postgres Won't Always Use an Index
+  rb - jul 25
+  http://robots.thoughtbot.com/why-postgres-wont-always-use-an-index
+  The clever way of using index or not, and the way to find out how.
+
+* Guide to Responsive-Friendly CSS Columns
+  css3 - jul 25
+  http://css-tricks.com/guide-responsive-friendly-css-columns/
+  CSS columns have decent support (IE10+) and still require prefixes on all properties.
+
+
+Watch
+----------------------------------------------------
+Screencasts and conferences videos, or other video feeds ...
+
+* The future of docker
+  ops - jul 22 - 52m
+  http://www.centurylinklabs.com/the-future-of-docker/
+  Interview with Jeff Lindsay, creator of Dokku, about Flynn and all the Docker ecosystem.
+
+* Button Loading Animations with jQuery UJS
+  rb - jul 21 - 5m
+  https://gorails.com/episodes/button-loading-animations-with-jquery-ujs
+  To disable the submit button and display a loading animation when a user submits the form.
+
+* AtoZ CSS: line-height
+  css3 - jul 22 - 6m
+  http://www.atozcss.com/the-css-line-height-property/
+  Some different uses of line-height in CSS.
+
+* IPFS: The Permanent Web
+  ops - jul 22 - 40m
+  https://sourcegraph.com/blog/ipfs-the-permanent-web-by-juan-benet-talk
+  IPFS is a global, versioned, peer-to-peer file system.
+
+
+Listen
+----------------------------------------------------
+What could be heard last week ..
+
+* Giant robots #108
+  web - jul 21 - 33m
+  http://podcasts.thoughtbot.com/giantrobots/108
+  Picking Your Obsession (Brett Van Zuiden).
+
+* Product Hunt 15
+  web - jul 22 - 35m
+  http://blog.producthunt.com/post/92532829014/product-hunt-radio-episode-15
+  About a wearable smart ring, an app to command your friends, and a fun TapTalk meta game Susan.
+
+* Ruby5 482
+  rb - jul 22 - 6m
+  http://ruby5.envylabs.com/episodes/519-episode-482-july-22nd-2014
+  Gutter, Programming is Not Math, RubyCritic, Vim Plugins for Ruby, Classes in Ruby, RailsPacific.
+
+* Web platform #2
+  html5 - jul 22 - 58m
+  http://thewebplatform.libsyn.com/prototyping-with-purpose
+  Prototyping with Purpose.
+
+* DevOps Cafe 50
+  ops - jul 22 - 45m
+  http://devopscafe.org/show/2014/7/22/devops-cafe-episode-50-adrian-cockcroft.html
+  Adrian Cockcroft, Freedom and Responsibility. (return of this podcast after 6 month of silence)
+
+* DevOps Cafe 51
+  ops - jul 22 - 1h
+  http://devopscafe.org/show/2014/7/22/devops-cafe-episode-51-michael-cote-jay-lyman.html
+  Michael Coté and Jay Lyman, Analyzing with the Analyzers.
+
+* Ruby Rogues 166
+  rb - jul 23 - 1h07
+  http://rubyrogues.com/166-rr-polyglot-programming/
+  Polyglot Programming.
+
+* Javascript Jabber 118
+  js - jul 23 - 55m
+  http://javascriptjabber.com/118-jsj-web-developer-skills/
+  Web Developer Skills.
+
+* Ruby on Rails Podcast #160
+  rb - jul 25 - 1h20
+  http://5by5.tv/rubyonrails/160
+  Sean Devine - Interviewee & Pony.
+
+* Ruby5 483
+  rb - jul 25 - 6m
+  http://ruby5.envylabs.com/episodes/520-episode-483-july-25nd-2014
+  Rails Rumble, Debug Anything, Clone and dup, Speeding up Rails.
+
+* Product Hunt 16
+  web - jul 26 - 46m
+  http://blog.producthunt.com/post/92923122049/product-hunt-radio-episode-16
+  About emojis, GIFs, podcast apps.
+
+
+Devtips
+----------------------------------------------------
+The tips of the week collected from Faria Dev Team ..
+
+* Gitignore.io or .gitignore as a service
+  tool
+  http://devtips.faria.co/2014-07-25-gitignore-io.html
+  
+
+* Gsub in String subclass will not recognize its global variables
+  rb
+  http://devtips.faria.co/2014-07-27-gsub-in-string-subclass.html
+  
+
+
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a 
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+
