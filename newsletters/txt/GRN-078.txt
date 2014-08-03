@@ -1,0 +1,321 @@
+----------------------------------------------------
+Green Ruby News #078 - aug 3rd 2014
+----------------------------------------------------
+
+Edito
+----------------------------------------------------
+This week Airconf [1] begins. It's an interesting remote conference about remote pairing, collaboration, and various technical topics. It lasts 4 weeks during august. Be sure to check it out.
+
+[1] https://www.airpair.com/airconf2014
+
+mose - the green ruby editor
+xenor - the informer
+http://greenruby.org
+
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+* Mobile UI Design Patterns 2014
+  http://uxpin.com/mobile-design-patterns.html
+  (book) A Deeper Look At the Hottest Apps Today.
+
+* KLM flat or not
+  https://flatornot.klm.com/en_GB
+  It's not about flat design, just a very animated website about seats at KLM.
+
+* A Comprehensive Reading List for and by Designers
+  http://blog.invisionapp.com/reading-list-for-designers/
+  A lit of 75 books for designer.
+
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+* UXpin
+  design
+  http://uxpin.com/
+  UX design tool online.
+
+* DryStorm
+  rb
+  http://www.drystorm.co/
+  Create Rails apps faster.
+
+* StopLight
+  web
+  http://stoplight.io/
+  A Powerful HTTP Testing Tool.
+
+* Mailto Ninja
+  web
+  http://mailto.ninja/
+  A contact form on your site with one JavaScript file.
+
+* Cron checker
+  ops
+  http://www.cronchecker.net/
+  Cron commands explained in plain English.
+
+* A tmux Primer
+  tool
+  http://danielmiessler.com/study/tmux/
+  from 'wtf tmux' to 'omg tmux' with extreme haste.
+
+* Boot Bundle
+  css3
+  http://www.bootbundle.com/
+  Complete collection of stuff to make Bootstrap better.
+
+* CSS triggers
+  css3
+  http://csstriggers.com/
+  Definitive reference for what is triggered by changing various CSS properties.
+
+* Metaprogramming Ruby 2
+  rb
+  http://pragprog.com/book/ppmetr2/metaprogramming-ruby-2
+  (book) Revised and updated second edition of the Metaprogramming Ruby book.
+
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+* Terraform
+  ops
+  http://www.terraform.io/
+  Common configuration to launch infrastructure from servers to email and DNS providers.
+
+* Ocrad.js
+  js
+  http://antimatter15.com/ocrad.js/demo.html
+  Pure-javascript version of the Ocrad project for OCR in js.
+
+* Critical CSS
+  css3
+  https://github.com/addyosmani/critical
+  Extract & Inline Critical-path CSS from HTML (for faster initial rendering).
+
+* Active Mocker
+  rb
+  https://github.com/zeisler/active_mocker
+  Create mocks from ActiveRecord models and run them without loading rails or running a database.
+
+* ActiveModel::Otp
+  rb
+  https://github.com/heapsource/active_model_otp
+  Adds methods to set and authenticate against one time passwords in rails.
+
+* Pg Hero
+  rb
+  https://github.com/ankane/pghero
+  Postgresql Database insights made easy, as a mountable engine.
+
+* Ember cli
+  js
+  http://www.ember-cli.com/
+  The command line interface for Ember.js.
+
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+* Looking Backward: Ten Years on Rails
+  rb - jul 28
+  http://www.recursion.org/looking-backward/
+  Good retrospective of actually 42 (!) years of history that led to Rails where it is now.
+
+* 4 Simple Memoization Patterns in Ruby
+  rb - jul 28
+  http://www.justinweiss.com/blog/2014/07/28/4-simple-memoization-patterns-in-ruby-and-one-gem
+  Memoization patterns explained.
+
+* Optimizing docker images
+  ops - jul 28
+  http://www.centurylinklabs.com/optimizing-docker-images/
+  Great article on how to reduce docker image sizes.
+
+* Refactoring — Not on the backlog!
+  tool - jul 29
+  http://xprogramming.com/articles/refactoring-not-on-the-backlog/
+  On why integrate refactoring inside existing stories.
+
+* Most Loved Ruby on Rails Open Source Projects
+  rb - jul 29
+  https://netguru.co/blog/posts/most-loved-ruby-on-rails-open-source-projects
+  Best open source Ruby on Rails projects (ranked by the amount of stars on Github).
+
+* Party more quietly
+  rb - jul 29
+  https://github.com/jnunemaker/httparty/pull/315#issue-38949297
+  Avdi Grimm's pull request to well known httparty gem.
+
+* Fullscreen form interface
+  css3 - jul 30
+  http://tympanus.net/codrops/2014/07/30/fullscreen-form-interface/
+  Concept to allow distraction-free form filling with some fancy animations.
+
+* Points Of Interest
+  css3 - jul 30
+  http://codyhouse.co/gem/points-of-interest/
+  To highlight the points of interest of your products.
+
+* CodePen's CSS
+  css3 - jul 30
+  http://codepen.io/chriscoyier/blog/codepens-css
+  Chris Coyer explains how they do CSS at CodePen.
+
+* Build A Blog With Jekyll And GitHub Pages
+  rb - aug 1
+  http://www.smashingmagazine.com/2014/08/01/build-blog-jekyll-github-pages/
+  STory of a migration from Wordpress to Jekyll.
+
+* Adding GFM in your Rails application
+  rb - aug 2
+  http://www.watchsumo.com/posts/adding-github-flavoured-markdown-with-syntax-highlighting-in-your-rails-application
+  GitHub Flavored Markdown with syntax highlighting.
+
+* The State of Highly-Available Syslog
+  ops - aug 2
+  http://ianunruh.com/2014/08/ha-syslog.html
+  Some thoughts thrown on logs collection.
+
+
+Watch
+----------------------------------------------------
+Screencasts and conferences videos, or other video feeds ...
+
+* Introduction to Docker
+  ops - jul 28 - 16m
+  http://sysadmincasts.com/episodes/31-introduction-to-docker
+  A quick illustrated overview of Docker, with a demo.
+
+* Express-CDN
+  js - jul 28 - 7m
+  http://tagtree.tv/boost-express-website-performance
+  How-to for adding a CDN assets delivery with the Express framweork.
+
+* AtoZ CSS: media
+  css3 - jul 29 - 7m
+  http://www.atozcss.com/media-queries/
+  Two approaches for tackling page layout in responsive design.
+
+* Swift for JavaScript Developers
+  mobile - jul 30 - 55m
+  http://realm.io/news/swift-for-javascript-developers/
+  Swift for JavaScript Developers, Similarities & Differences.
+
+* GitHub Flow
+  tool - jul 31 - 1h
+  http://newrelic.com/webinar/github-for-teams
+  Collaborating effectively using Git and GitHub.
+
+
+Listen
+----------------------------------------------------
+What could be heard last week ..
+
+* Giant robots #109
+  web - jul 28 - 36m
+  http://podcasts.thoughtbot.com/giantrobots/109
+  Venturing Thru Capital (Alex Taussig).
+
+* Web platform #3
+  js - jul 28 - 58m
+  http://thewebplatform.libsyn.com/goangular-the-goinstant-platform
+  GoAngular & The GoInstant Platform (but seems there is no relationship with golang).
+
+* CodePen 018
+  web - jul 28 - 44m
+  http://blog.codepen.io/2014/07/28/018-seo/
+  Digging into search engine optimization (SEO).
+
+* Ruby5 484
+  rb - jul 29 - 6m
+  http://ruby5.envylabs.com/episodes/521-episode-484-july-29th-2014
+  Rails 4.2 sanitizer, ActiveMocker, validation_auditor, Timeouts in CRuby, Roar, RubyConf Portugal.
+
+* Ruby Rogues 167
+  rb - jul 30 - 1h08
+  http://rubyrogues.com/167-rr-speaking-at-conferences/
+  Speaking at Conferences.
+
+* Javascript Jabber 119
+  js - jul 30 - 55m
+  http://javascriptjabber.com/119-jsj-chrome-apps-with-joe-marini/
+  Chrome Apps with Joe Marini.
+
+* Ruby on Rails Podcast #161
+  rb - jul 31 - 1h07
+  http://5by5.tv/rubyonrails/161
+  Peter Cooper - Ruby Weekly.
+
+* Ruby5 485
+  rb - aug 1 - 5m
+  http://ruby5.envylabs.com/episodes/522-episode-485-august-1st-2014
+  Capistrano tutos, memoization patterns, Mocaroni, middleman-presentation, RubyConf 2014.
+
+* NodeUp 69
+  js - aug 2 - 1h44
+  http://nodeup.com/sixtynine
+  A peer-to-peer show.
+
+
+Devtips
+----------------------------------------------------
+The tips of the week collected from Faria Dev Team ..
+
+* Association merging and don't forget to .reload
+  rb
+  http://devtips.faria.co/2014-07-29-association-merging.html
+
+
+* Rename current file in vim without getting out of it
+  tool
+  http://devtips.faria.co/2014-07-30-rename-current-file-inside-vim.html
+
+
+* Gist in Sublimetext with the gist plugin
+  tool
+  http://devtips.faria.co/2014-07-30-gist-in-sublimetext.html
+
+
+* Collapsable div according to the width of container
+  css3
+  http://devtips.faria.co/2014-07-30-collapsable-div.html
+
+
+* Chrome Developer Tools keyboard shortcuts
+  tool
+  http://devtips.faria.co/2014-07-30-chrome-devtools-keyboard-shortcuts.html
+
+
+* Animated screen capture and the gif gets alive
+  tool
+  http://devtips.faria.co/2014-08-01-animated-screen-capture.html
+
+
+
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+

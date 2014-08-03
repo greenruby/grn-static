@@ -44,6 +44,7 @@ Those links and resources are used in the weekly collection of information for G
 * <http://www.awwwards.com/> (design) *daily*
 * <http://afreshcup.com/> (ruby) *daily*
 * <http://tympanus.net/codrops/collective/> (design) *weekly*
+* <http://devtips.faria.co/> (ruby,webdev) *weekly*
 
 ### Video channels / screencasts
 
