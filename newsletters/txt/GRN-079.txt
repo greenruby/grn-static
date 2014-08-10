@@ -1,0 +1,303 @@
+----------------------------------------------------
+Green Ruby News #079 - aug 10th 2014
+----------------------------------------------------
+
+Edito
+----------------------------------------------------
+As maybe you know that's a long time I wish to make the green ruby website dynamic, especially to feature a search engine on all the links. But I never found time yet. So if you feel like contributing, please to contact me [1]. Ideally I would think about some pre-generated json db and a js only frontend, so then there is no need for a backend. The source code of the current static site and generation scripts is on github [2].
+
+[1]: mailto:news@greenruby.org
+[2]: https://github.com/greenruby/grn-static
+
+mose - the green ruby editor
+xenor - the informer
+http://greenruby.org
+
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+* Digital Trip
+  http://dt.htdt.ru/
+  Google Chrome Experiment game with three.js and headtrackr.
+
+* Coffee Beans
+  http://coffeebeansdelivered.com.au/
+  Not so exceptional, neat design though. But, well, I have a weakness for coffee.
+
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+* Keep a CHANGELOG
+  tool
+  http://keepachangelog.com/
+  Grant the Changelog file a first class citizen status.
+
+* Reliably Deploying Rails Applications
+  rb
+  https://leanpub.com/deploying_rails_applications
+  [book] Framework for provisioning servers with Chef and deploying with Capistrano 3.
+
+* BestGems
+  rb
+  http://bestgems.org/
+  Ruby gems download ranking.
+
+* Committed
+  tool
+  http://nischaalc.github.io/committed/
+  Search github usernames to get summary of git activity.
+
+* Overv.io
+  tool
+  https://overv.io/
+  The missing link between GitHub and project shipping.
+
+* Input: Fonts for Code
+  tool
+  http://input.fontbureau.com/
+  This site has an interesting previewing tool.
+
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+* Starboard
+  rb
+  https://github.com/heroku/starboard
+  Onboarding, offboarding, or crossboarding made easy, from Heroku, using Trello linked to Github.
+
+* Coverband
+  rb
+  https://github.com/danmayer/coverband
+  Rack middleware to help measure production code coverage, find what code is never used and delete it.
+
+* kibana-rack
+  rb
+  https://github.com/tabolario/kibana-rack
+  Embed Kibana as a Rack application.
+
+* Diplomat
+  rb
+  https://github.com/WeAreFarmGeek/diplomat
+  A HTTP Ruby API for Consul (distributed key value store).
+
+* Gritter
+  rb
+  https://github.com/RobinBrouwer/gritter
+  Rails gem to add Growl-like notifications to your application.
+
+* P5.js
+  js
+  http://p5js.org/
+  JavaScript library that ports the original goal of Processing to the web.
+
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+* Using ruby Range with custom classes
+  rb - aug 3
+  http://blog.arkency.com/2014/08/using-ruby-range-with-custom-classes/
+  Example with code about making ranges your own.
+
+* Shipping the new GitHub Issues
+  tool - aug 4
+  http://markdotto.com/2014/08/04/shipping-the-new-github-issues/
+  The story of 9 month of preparing the new Github issues feature.
+
+* Shaking Off Your TDD Fatigue With a Few Quick Tips
+  rb - aug 4
+  http://www.justinweiss.com/blog/2014/08/04/shaking-off-your-tdd-fatigue-with-a-few-quick-tips/
+  How do you get the benefits of TDD when you don’t feel like TDDing.
+
+* How to Use MiniTest
+  rb - aug 4
+  http://blog.teamtreehouse.com/short-introduction-minitest
+  Minitest is nothing but new, but maybe you need a primer.
+
+* Search as a First-Class Object
+  rb - aug 5
+  http://viget.com/extend/search-as-a-first-class-object
+  Create an ActiveRecord model to represent a single search.
+
+* Ruby Hashes Cheat Guide for Beginners
+  rb - aug 5
+  http://buildingrails.com/a/ruby_hashes_cheat_guide_for_beginners
+  Methods regularly used when dealing with Hashes in Ruby and Rails.
+
+* Page preloading effect
+  css3 - aug 5
+  http://tympanus.net/codrops/2014/08/05/page-preloading-effect/
+  Using CSS animations, 3D transforms and SVGs.
+
+* Customize Minitest Assertions and Expectations
+  rb - aug 6
+  http://chriskottom.com/blog/2014/08/customize-minitest-assertions-and-expectations/
+  This article is more advanced, and shows how to write custom assertions.
+
+* Speeding up AngularJS apps with simple optimizations
+  js - aug 6
+  http://www.binpress.com/tutorial/speeding-up-angular-js-with-simple-optimizations/135
+  Performance pointers to keep building fast applications.
+
+* Getting Started with Node.js for the Rails Developer
+  js - aug 7
+  http://strongloop.com/strongblog/node-js-ruby-on-rails-getting-started/
+  Quick introduction to Node.js and LoopBack for Ruby on Rails minded developers.
+
+* Ruby Social Gems: Github
+  rb - aug 8
+  http://www.sitepoint.com/ruby-social-gems-github/
+  Example of implementation of oauth with github and other uses of their API.
+
+* Moving Ruby Apps From Heroku to Docker
+  ops - aug 8
+  http://thenewstack.io/moving-ruby-apps-from-heroku-to-docker/
+  Report on a migration, with all the details.
+
+* DNS to CDN to Origin
+  ops - aug 8
+  http://robots.thoughtbot.com/dns-cdn-origin
+  Some solutions for rails apps and delivery strategy.
+
+
+Watch
+----------------------------------------------------
+Screencasts and conferences videos, or other video feeds ...
+
+* Underscore: go with a ruby taste
+  go - aug 4 - 10m
+  https://www.youtube.com/watch?v=juHMdcTz5vM&list=TLoBBt7jO33dcssVaNdNplAN13SAcGsCLT
+  Wanna make go feel more like ruby using reflect.
+
+* AtoZ CSS: nth-child
+  css3 - aug 5 - 7m
+  http://www.atozcss.com/nth-child-and-nth-of-type-pseudo-classes/
+  the various ways of using :nth-child, :nth-of-type and others.
+
+* Elixir Conf 2014
+  tool - aug 6 - 15 videos
+  http://confreaks.com/events/elixirconf2014
+  All the elixir from the annual conf.
+
+
+Listen
+----------------------------------------------------
+What could be heard last week ..
+
+* Giant robots #110
+  web - aug 4 - 32m
+  http://podcasts.thoughtbot.com/giantrobots/110
+  Protecting Invisible Things (Eric Mill).
+
+* Arreted DevOps 17
+  ops - aug 4 - 59m
+  http://www.arresteddevops.com/get-help/
+  Help! I Need Somebody!.
+
+* Ruby5 486
+  rb - aug 5 - 7m
+  http://ruby5.envylabs.com/episodes/523-episode-486-august-5th-2014
+  ReactJS and rails, RubyGems Legal Stuff, Coverband, Unicorns and GitHub, Oat, Matz on the GIL.
+
+* Ruby Rogues 168
+  rb - aug 6 - 1h23
+  http://rubyrogues.com/168-rr-xiki-with-craig-muth/
+  Xiki with Craig Muth.
+
+* Javascript Jabber 120
+  js - aug 6 - 1h
+  http://javascriptjabber.com/120-jsj-google-polymer-with-rob-dodson-and-eric-bidelman/
+  Google Polymer with Rob Dodson and Eric Bidelman.
+
+* The Changelog #127
+  rb - aug 6 - 1h05
+  http://5by5.tv/changelog/127
+  Keep a CHANGELOG with Olivier Lacan.
+
+* Ruby5 487
+  rb - aug 8 - 5m
+  http://ruby5.envylabs.com/episodes/524-episode-487-august-8th-2014
+  tripit/slate, deprecating paths in Rails mailers, RubySteps, Starboard, new Heroku Button.
+
+* NodeUp 70
+  js - aug 8 - 2h06
+  http://nodeup.com/seventy
+  A npm client show.
+
+* Web platform #4
+  js - aug 8 - 58m
+  http://thewebplatform.libsyn.com/the-web-components-community-helpful-resources
+  The Web Components Community.
+
+
+Devtips
+----------------------------------------------------
+The tips of the week collected from Faria Dev Team ..
+
+* preventDefault after load requires delegation
+  js
+  http://devtips.faria.co/2014-08-06-preventdefault-after-load.html
+
+
+* moving lines on hackpad and sublimetext
+  tool
+  http://devtips.faria.co/2014-08-06-moving-lines.html
+
+
+* human readable names for columns
+  rb
+  http://devtips.faria.co/2014-08-06-human-readable-names.html
+
+
+* Dash from vim on mac
+  tool
+  http://devtips.faria.co/2014-08-06-dash-from-vim.html
+
+
+* Digitalocean CLI with tugboat
+  ops
+  http://devtips.faria.co/2014-08-07-digitalocean-cli.html
+
+
+* Zsh and git with oh-my-zsh and git-up
+  tool
+  http://devtips.faria.co/2014-08-08-zsh-and-git.html
+
+
+* Select status in html forms
+  js
+  http://devtips.faria.co/2014-08-08-select-status.html
+
+
+* Manage multiple versions of a formula with homebrew
+  tool
+  http://devtips.faria.co/2014-08-08-manage-multiple-formulae-versions-with-homebrew.html
+
+
+
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+
