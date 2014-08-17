@@ -2,7 +2,7 @@
 
 Those links and resources are used in the weekly collection of information for Green Ruby. It's still incomplete, I will update it from time to time.
 
-*Update in june 2014*
+*Updated in august 2014*
 
 ### Social websites and collectives
 
@@ -16,6 +16,14 @@ Those links and resources are used in the weekly collection of information for G
 * <http://www.slant.co/> (misc)
 * <http://news.humancoders.com/> (misc) (fr)
 * <http://linuxfr.org/> (misc) (fr)
+
+### Blogs and bloggers
+
+- <https://www.destroyallsoftware.com/blog> (Gary Bernhardt)
+- <http://blog.codinghorror.com> (Jeff Atwood)
+- <http://designbeep.com> (wordpress/design)
+- <http://thenewstack.io> (general IT)
+- <http://codegeekz.com> (web)
 
 ### Email newsletters
 
@@ -42,6 +50,7 @@ Those links and resources are used in the weekly collection of information for G
 * <http://webplatformdaily.org/> (html5) *daily*
 * <http://regulargeek.com/> (developers) *daily*
 * <http://www.awwwards.com/> (design) *daily*
+* <http://www.rubyflow.com/> (ruby) *daily*
 * <http://afreshcup.com/> (ruby) *daily*
 * <http://tympanus.net/codrops/collective/> (design) *weekly*
 * <http://devtips.faria.co/> (ruby,webdev) *weekly*
