@@ -1,0 +1,314 @@
+----------------------------------------------------
+Green Ruby News #081 - aug 24th 2014
+----------------------------------------------------
+
+Edito
+----------------------------------------------------
+Hmm I really don't like my icons. I added categories from time to time and got some random icon to match them. Now I look at the result and I don't like it. Maybe someone can suggest a collection that could match the Green Ruby categories collection? For example the ops and tool categories are too identical. and I need a generic engineering category too. It would be so lovely to have a uniform look for our icons. Maybe some monochrome Heroku style kind of 16 pixel icons. So, if you feel you can help, contact me at <a href="mailto:mose@greenruby.org">mose@greenruby.org</a>.
+
+mose - the green ruby editor
+xenor - the informer
+http://greenruby.org
+
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+* Bubble
+  http://followbubble.com/
+  Digital agency original website.
+
+* Beautiful Open
+  http://beautifulopen.com/
+  A gallery to prove that Open Source Project can have beautiful websites.
+
+* Pixel Perfect Precision Handbook
+  http://ustwo.com/ppp/
+  (Book) A comprehensive handbook on digital design.
+
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+* Omniref
+  rb
+  https://www.omniref.com/
+  The Universal Ruby Reference.
+
+* Biting the Bullet and Actually Learning JavaScript
+  js
+  http://www.tenleaves.com/paths/thinking-in-js
+  Steps to take for going further the js basics.
+
+* Visual.is
+  tool
+  http://visual.is/
+  Present information dynamically with dashboards, reports, and data presentations.
+
+* The Complete iOS 7 Course
+  tool
+  http://bitfountain.io/course/the-complete-ios-7-course-learn-by-building-14-apps/?couponCode=phunt&src=producthunt
+  Learn by Building 14 Apps (for free, thanks to Product Hunt).
+
+* Recruitment Resources by Toptal
+  tool
+  http://www.toptal.com/resources
+  List of HR resources for technical hiring.
+
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+* Rails 4.0.9 and 4.1.5
+  rb
+  http://weblog.rubyonrails.org/2014/8/18/Rails_4_0_9_and_4_1_5_have_been_released/
+  Security fix, upgrade as soon as possible.
+
+* Rails 4.2.0 beta1
+  rb
+  http://weblog.rubyonrails.org/2014/8/20/Rails-4-2-beta1/
+  Active Job, Deliver Later, Adequate Record, Web Console.
+
+* Omniref plugins
+  rb
+  https://www.omniref.com/blog/blog/2014/08/15/browser-plugins-for-chrome-and-firefox/
+  Omniref Plugins for Chrome and Firefox.
+
+* World Lite
+  rb
+  https://github.com/worlddb/world.lite.ruby
+  Lightweight public domain country data.
+
+* Vessel
+  ops
+  http://awvessel.github.io/
+  Automates the setup & use of dockerized development environments.
+
+* Recroom
+  js
+  https://github.com/mozilla/recroom
+  Utility belt from Mozilla, based on node.js and ember.js.
+
+* noVNC
+  tool
+  https://kanaka.github.io/noVNC/
+  VNC client using HTML5 (WebSockets, Canvas) with encryption (wss://) support..
+
+* Epic privacy browser
+  tool
+  https://www.epicbrowser.com/
+  What you browse & search should always be private.
+
+* perf-tools
+  ops
+  https://github.com/brendangregg/perf-tools
+  Performance analysis tools based on Linux perf_events (aka perf) and ftrace.
+
+* Duo.js
+  js
+  http://duojs.org/
+  New package manager that blends the best ideas from Component, Browserify and Go.
+
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+* A Way to Organize POROs in Rails
+  rb - aug 15
+  http://vrybas.github.io/blog/2014/08/15/a-way-to-organize-poros-in-rails/
+  Where do we put Plain Old Ruby Objects in our Rails app files structure.
+
+* Use .pluck If You Only Need a Subset of Model Attributes
+  rb - aug 20
+  http://viget.com/extend/pluck-subset-rails-activerecord-model-attributes
+  Pull back only the attributes you need as an array.
+
+* I Spent 3 Days With Sandi Metz – Here’s What I Learned
+  rb - aug 20
+  http://red-badger.com/blog/2014/08/20/i-spent-3-days-with-sandi-metz-heres-what-i-learned/
+  Full report about 3 full days of pair programming, code reviews and spirited group discussions.
+
+* 20 Free jQuery Plugins for Enhancing Web-based User Interfaces
+  js - aug 20
+  http://www.webresourcesdepot.com/20-free-jquery-plugins-for-enhancing-interfaces/
+  Open source examples of new jQuery plugins which can be used to enhance any website layout.
+
+* Modern Web Best Practice: Pub/Sub
+  tool - aug 20
+  http://modernweb.com/2014/08/20/modern-web-best-practice-pubsub/
+  Advantages of Pub/Sub libraries to communicate between modules.
+
+* Software Craftsmen Are Arrogant, Slow, and Dogmatic
+  web - aug 21
+  http://blog.8thlight.com/paul-pagel/2014/08/21/software-craftsmen-are-arrogant-slow-and-dogmatic.html
+  Don't fall for the provocative title, this is a debunking exercise.
+
+* Power Up Your Team with Nonviolent Communication Principles
+  web - aug 21
+  http://firstround.com/article/Power-Up-Your-Team-with-Nonviolent-Communication-Principles
+  No matter what, the fate of every company depends on the team’s ability to communicate clearly and constructively.
+
+* Regular Expressions Tools & Resources
+  tool - aug 22
+  http://codegeekz.com/regular-expressions-tools-resources-developers/
+  15 websites for improving your Regex power.
+
+* What Docker does right and what it doesn't do right yet
+  ops - aug 22
+  http://www.zdnet.com/what-docker-does-right-and-what-it-doesnt-do-right-yet-7000032889/
+  Docker founder Solomon Hykes explained at LinuxCon what Docker is, what it does right, and what it still needs to work on.
+
+* Orchestrating docker containers in production using fig
+  ops - aug 22
+  http://blog.docker.com/2014/08/orchestrating-docker-containers-in-production-using-fig/
+  How to define and run a multi-container app.
+
+* Sass 3.4 is out
+  css3 - aug 22
+  http://www.sitepoint.com/sass-3-4-is-out/
+  Code name 'Selective Steve'. Here are the details.
+
+
+Watch
+----------------------------------------------------
+Screencasts and conferences videos, or other video feeds ...
+
+* Interview of Panamax Founder, Lucas Carlson
+  ops - aug 16 - 33m
+  https://www.youtube.com/watch?v=cAbKfpoLwvE&feature=youtube_gdata_player
+  Discussion about the Panamax launch with its author.
+
+* AtoZ CSS: Pseudo Elements
+  css3 - aug 19 - 6m
+  http://www.atozcss.com/css-pseudo-elements/
+  The five different pseudo elements.
+
+* Cascadia Ruby Conf 2014
+  rb - aug 19 - 17 videos
+  http://confreaks.com/events/cascadiaruby2014
+  Dive into routing more deeply than just basic resources and writing routes from scratch.
+
+* Build podcast 62: Docker
+  ops - aug 22 - 28m
+  http://build-podcast.com/docker/
+  create isolated environment for apps based on docker.
+
+
+Listen
+----------------------------------------------------
+What could be heard last week ..
+
+* The Ship Show 46
+  ops - aug 14 - 1h06
+  http://theshipshow.com/2014/08/the-epistemology-of-devops/
+  The Epistemology of DevOps.
+
+* Giant robots #112
+  tool - aug 18 - 27m
+  http://podcasts.thoughtbot.com/giantrobots/112
+  Data By Design (Joanne Cheng).
+
+* DevOps Cafe 52
+  ops - aug 18 - 1h
+  http://devopscafe.org/show/2014/8/18/devops-cafe-episode-52-matt-ho-with-alex-honor.html
+  Matt Ho with Alex Honor.
+
+* Ruby5 490
+  rb - aug 19 - 5m
+  http://ruby5.envylabs.com/episodes/527-episode-490-august-19th-2014
+  Rails 4.0.9 and 4.1.5, flatten records, Http::Exceptions, configurations, Devise.
+
+* Web platform #7
+  html5 - aug 19 - 55m
+  http://thewebplatform.libsyn.com/web-rtc-and-designing-realtime-experiences
+  Web RTC and Designing Realtime Experiences.
+
+* Ruby Rogues 170
+  rb - aug 20 - 1h10
+  http://rubyrogues.com/170-rr-padrino-with-dario-cravero-nathan-esquenazi-arthur-chiu/
+  Padrino with Dario Cravero, Nathan Esquenazi, & Arthur Chiu.
+
+* Javascript Jabber 122
+  js - aug 20 - 48m
+  http://javascriptjabber.com/122-jsj-socket-io-with-guillermo-rauch/
+  Socket.IO with Guillermo Rauch.
+
+* Ruby on Rails Podcast 164
+  rb - aug 20 - 1h
+  http://5by5.tv/rubyonrails/164
+  Jim Remsik - Madison + Ruby.
+
+* Arrested Devops 18
+  ops - aug 20 - 1h13
+  http://www.arresteddevops.com/sysadmins/
+  What exactly does it mean to be a sysadmin.
+
+* Food Fight Show
+  ops - aug 22 - 1h18
+  http://foodfightshow.org/2014/08/test-kitchen-1-dot-x.html
+  Test Kitchen 1.x.
+
+* Ruby5 491
+  rb - aug 22 - 6m
+  http://ruby5.envylabs.com/episodes/528-episode-491-august-22nd-2014
+  Semaphore, PostRank-URI, STI with JSON fields, email validation, transit-rails, Pixel Perfect Precision Handbook.
+
+* The Cloudcast 159 - Panamax - Docker Simplified
+  ops - aug 22 - 38m
+  http://www.thecloudcast.net/2014/08/the-cloudcast-159-panamax-docker.html
+  Panamax - Docker Simplified.
+
+
+Devtips
+----------------------------------------------------
+The tips of the week collected from Faria Dev Team ..
+
+* ngrok tunnel
+  tool
+  http://devtips.faria.co/2014-08-20-ngrok.html
+  
+
+* enum in Rails 4.1
+  rb
+  http://devtips.faria.co/2014-08-20-enum-rails.html
+  
+
+* Disable controller prefix for partials
+  rb
+  http://devtips.faria.co/2014-08-20-partial-namespace.html
+  
+
+* Hot Corner for Mac
+  tool
+  http://devtips.faria.co/2014-08-21-mac-hot-corner.html
+  
+
+* Referencing parent selector in SASS
+  css3
+  http://devtips.faria.co/2014-08-21-referencing-parent.html
+  
+
+
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a 
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+

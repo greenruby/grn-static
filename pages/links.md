@@ -52,6 +52,7 @@ Those links and resources are used in the weekly collection of information for G
 * <http://www.awwwards.com/> (design) *daily*
 * <http://www.rubyflow.com/> (ruby) *daily*
 * <http://afreshcup.com/> (ruby) *daily*
+* <http://openruby.com/> (ruby) *daily*
 * <http://tympanus.net/codrops/collective/> (design) *weekly*
 * <http://devtips.faria.co/> (ruby,webdev) *weekly*
 
@@ -59,6 +60,7 @@ Those links and resources are used in the weekly collection of information for G
 
 * <http://sysadmincasts.com/> (sysadmin)
 * <http://confreaks.com/> (conferences)
+* <http://build-podcast.com> (misc)
 * <http://www.atozcss.com/> (css)
 * <https://gorails.com/> (rails)
 * <http://tagtree.tv/> (misc)
@@ -70,6 +72,7 @@ Those links and resources are used in the weekly collection of information for G
 * <http://blog.producthunt.co/> (saas/startups) *active weekly*
 * <http://thewebplatform.libsyn.com/> (web) *active weekly*
 * <http://revision3.com/haktip> (security) *active weekly*
+* <http://www.thecloudcast.net/> (cloud) *active weekly*
 * <http://hackerpublicradio.org/> (misc) *active weekly*
 * <http://5by5.tv/rubyonrails> (rails) *active weekly*
 * <http://javascriptjabber.com/> (js) *active weekly*
@@ -82,4 +85,5 @@ Those links and resources are used in the weekly collection of information for G
 * <http://nodeup.com/> (js) *active semi-weekly*
 * <http://crypto-gram.libsyn.com/> (security) *active monthly*
 * <http://foodfightshow.org/> (ops/chef) *active monthly*
+* <http://theshipshow.com/> (devops) *active monthly*
 * <http://episodes.gitminutes.com/> (git) *sporadic since may 2014*
