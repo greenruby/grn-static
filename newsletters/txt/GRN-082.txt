@@ -1,0 +1,305 @@
+----------------------------------------------------
+Green Ruby News #082 - aug 31th 2014
+----------------------------------------------------
+
+Edito
+----------------------------------------------------
+There was some much publications this week, it is harder and harder to make a selection. Also, I begin to have too long a list of podcasts and sometimes I can't listen to them all. Should I focus more? It would be annoying as I like eclecticism, in a certain range. Anyways, I'm happy to announce we almost have 500 subscribers by now, and more and more traffic on the website. You may laugh, but as I don't like google and their analytics/tracking, I use the good old webalizer for the Greenruby site stats [1]. So vintage! Maybe one day I will setup a piwik though.
+[1] http://greenruby.org/stats
+
+mose - the green ruby editor
+xenor - the informer
+http://greenruby.org
+
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+* Wired UK
+  http://www.wired.co.uk/
+  Great design with horizontal scrolling.
+
+* Freelancers websites
+  http://www.awwwards.com/design-inspiration/freelancer-websites-changing-the-way-you-work.html
+  Awwwards published a review of 6 websites for freelance designers this week.
+
+* Top 10 CodePens of the Week
+  http://scotch.io/bar-talk/top-10-codepens-of-the-week-3
+  Great selection if visual effects for your web UIs.
+
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+* Ops School Curriculum
+  ops
+  http://www.opsschool.org/en/latest/
+  Comprehensive program to become an operations engineer, community written.
+
+* Project GITenberg
+  tool
+  https://gitenberg.github.io/
+  43,000 book in this git-powered version of project Gutenberg.
+
+* Fearless Rails Deployment
+  rb
+  https://railsdeploymentbook.com/
+  (book) deploy your Rails applications using Chef, RVM, Nginx, Unicorn, and Vagrant.
+
+* Learn ruby on rails
+  rb
+  http://www.skilledup.com/learn-ruby-on-rails-guide/
+  Short list of 29 online eductional resources for learning rails.
+
+* Jobmote
+  tool
+  http://jobmote.com/
+  Directory of human-curated IT career opportunities that allow you to work from home.
+
+* Logio
+  ops
+  http://logio.org/
+  Real-time log monitoring in your browser (with node.js + socket.io).
+
+* curl.io
+  tool
+  http://curl.io/
+  Share your files from your Terminal.
+
+* Rocketboard
+  tool
+  http://www.rocketboard.it/
+  Capture whiteboards.
+
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+* Git 2.1 Released
+  tool
+  http://www.infoq.com/news/2014/08/git21-release-whats-new
+  The list of new features and improvements is large.
+
+* Web console
+  rb
+  https://github.com/rails/web-console
+  Rails Console on the Browser.
+
+* Descriptive Statistics
+  rb
+  https://github.com/thirtysixthspan/descriptive_statistics
+  This gem adds methods to the Enumerable module to allow easy calculation of basic descriptive statistics.
+
+* PutsReq
+  rb
+  https://putsreq.herokuapp.com/
+  Record the HTTP requests sent or received.
+
+* Timesheet.js
+  js
+  http://designbeep.com/2014/08/28/timesheet-js-javascript-library-for-simple-html5-css3-time-sheets/
+  JavaScript library for simple HTML5 & CSS3 time sheets.
+
+* Chartist
+  js
+  http://gionkunz.github.io/chartist-js/
+  Simple responsive charts library.
+
+* Slap
+  tool
+  https://github.com/slap-editor/slap
+  Sublime-like terminal-based text editor.
+
+* Vedeu
+  tool
+  https://github.com/gavinlaking/vedeu
+  Terminal based application framework in ruby without the need for Ncurses.
+
+* vagrant-env
+  tool
+  http://www.gregosuri.com/2014/08/31/introducing-vagrant-env-plugin/
+  Lets you place environment variables in a .env which are available to the Vagrantfile via ENV.
+
+* Stellar
+  tool
+  https://github.com/fastmonkeys/stellar
+  Fast database snapshot and restore tool for development.
+
+* Gogs
+  go
+  http://gogs.io/
+  A self-hosted Git service written in Go.
+
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+* Digging Rails - How Rails Initializes Itself
+  rb - aug 24
+  http://climber2002.github.io/blog/2014/08/24/digging-rails-how-rails-initializes-itself/
+  Detailed look at the Rails (4.2) initialization process.
+
+* The Lesser-known Features in Rails 4.2
+  rb - aug 25
+  http://www.justinweiss.com/blog/2014/08/25/the-lesser-known-features-in-rails-4-dot-2/
+  Some less advertised features that will totally improve your daily work with Rails.
+
+* Checklist for Deploying a Rails App to Heroku
+  rb - aug 26
+  http://pivotallabs.com/checklist-deploying-rails-app-heroku/
+  Optimal production deploy to Heroku.
+
+* Docker Do's And Don'ts
+  ops - aug 26
+  http://devo.ps/blog/docker-dos-and-donts/
+  Lessons learnt from building a SaaS with Docker from devo.ps.
+
+* Reading Rails - TimeWithZone
+  rb - aug 27
+  http://monkeyandcrow.com/blog/reading_rails_time_with_zone/
+  Where TimeWithZone comes from, and how it works (in rails).
+
+* Ruby version usage in commercial projects, 2014 edition
+  rb - aug 27
+  https://semaphoreapp.com/blog/2014/08/27/ruby-version-usage-in-commercial-projects-2014-edition.html
+  Like last year, Semaphore published the stats of the projects they run tests for.
+
+* Faster capistrano deploys
+  rb - aug 27
+  http://blog.penso.info/2014/08/27/faster-capistrano-deploys/
+  Deploy times from 5 minutes to less than 15 seconds.
+
+* Paperdragon: Explicit Image Processing
+  rb - aug 28
+  http://nicksda.apotomo.de/2014/08/paperdragon-explicit-image-processing/
+  Image processing gem for control freaks.
+
+* Terraform 0.2
+  ops - aug 28
+  http://www.hashicorp.com/blog/terraform-0-2.html
+  Terraform is a tool for safely and efficiently building, combining, and launching infrastructure
+
+* Yahoo stops YUI development
+  js - aug 29
+  http://yahooeng.tumblr.com/post/96098168666/important-announcement-regarding-yui
+  After 8 years of service, YUI slips into darkness.
+
+* This is why you never end up hiring good developers
+  web - aug 30
+  http://qz.com/258066/this-is-why-you-dont-hire-good-developers/
+  Great insight about technical recruitment.
+
+
+Watch
+----------------------------------------------------
+Screencasts and conferences videos, or other video feeds ...
+
+* AtoZ CSS: Quotes
+  css3 - aug 26 - 5m
+  http://www.atozcss.com/the-css-quotes-property/
+  The difference between dumb quotes and smart quotes.
+
+* How to use Ruby’s English and/or operators without going nuts
+  rb - aug 26 - 5m
+  http://devblog.avdi.org/2014/08/26/how-to-use-rubys-english-andor-operators-without-going-nuts/
+  A ruby tapas episode newly liberated by Avdi.
+
+* Rails 4.2 Introduction
+  rb - aug 27 - 6m
+  https://gorails.com/episodes/rails-4-2-introduction
+  A quick look at the new features of Rails 4.2 in the first beta that was recently released.
+
+* Interview with Sandstorms founder about the personal cloud platform
+  ops - aug 27 - 27m
+  http://www.centurylinklabs.com/interview-with-sandstorms-founder-about-the-personal-cloud-platform/?hvid=3EY4Ly
+  Why NOT use Docker in Sandstorm?
+
+
+Listen
+----------------------------------------------------
+What could be heard last week ..
+
+* Giant robots #113
+  tool - aug 25 - 33m
+  http://podcasts.thoughtbot.com/giantrobots/113
+  Minimum Path to Awesome (Rob Walling).
+
+* CodePen 20
+  css3 - aug 25 - 35m
+  http://blog.codepen.io/2014/08/25/020-apis/
+  Talking about APIs.
+
+* Web platform #8
+  js - aug 26 - 32m
+  http://thewebplatform.libsyn.com/web-rtc-and-designing-realtime-experiences
+  Exploring Dart & Polymer.
+
+* The Changelog 128
+  js - aug 27 - 1h
+  http://5by5.tv/changelog/128
+  Lineman.js and JavaScript apps with Justin Searls.
+
+* DevOps Cafe 53
+  ops - aug 27 - 1h04
+  http://devopscafe.org/show/2014/8/27/devops-cafe-episode-53-mandi-walls.html
+  Mandi Walls through her journeys in the DevOps movement.
+
+* Ruby Rogues 171
+  rb - aug 27 - 1h06
+  http://rubyrogues.com/171-rr-evaluating-yourself/
+  Evaluating Yourself.
+
+* Javascript Jabber 123
+  js - aug 27 - 43m
+  http://javascriptjabber.com/123-jsj-traceur-with-erik-arvidsson/
+  Traceur with Erik Arvidsson.
+
+* Food Fight Show 78
+  ops - aug 27 - 1h15
+  http://foodfightshow.org/2014/08/chefdk.html
+  ChefDK
+
+* Ruby5 492
+  rb - aug 27 - 7m
+  http://ruby5.envylabs.com/episodes/529-episode-492-august-27-2014
+  Rails 4.2beta, Royce, JSON API Resources, Country Select 2.0, Harpoon, Poodr course, feature focus.
+
+* Arrested Devops 19
+  ops - aug 28 - 1h05
+  http://www.arresteddevops.com/dev-to-ops/
+  Started as a Dev, now doing Ops.
+
+* Ops All The Things 010
+  ops - aug 29 - 50m
+  http://www.opsallthethings.com/podcast/010-development-and-the-sysadmin/
+  Development and the SysAdmin.
+
+* Ruby on Rails Podcast 165
+  rb - aug 29 - 1h05
+  http://5by5.tv/rubyonrails/165
+  James Chevalier - citystrides.com.
+
+
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+
