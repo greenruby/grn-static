@@ -35,6 +35,12 @@ namespace :generate do
     Rake::Task["generate:all"].invoke
   end
 
+  desc "creates json files"
+  task :json do
+    builder = Greeby::Builder.new
+    builder.make_json
+  end
+
 end
 
 task :generate do

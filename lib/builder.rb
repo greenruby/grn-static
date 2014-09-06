@@ -23,6 +23,7 @@ module Greeby
       @views_path = File.join(@root, 'views')
       @pages_path = File.join(@root, 'pages')
       @static_path = File.join(@root, 'site')
+      @json_path = File.join(@root, 'json')
     end
 
     def make_letter(source)
@@ -125,6 +126,43 @@ module Greeby
       end
       File.open(File.join(@static_path, "feed.rss"),'w') do |f|
         f.puts rss
+      end
+    end
+
+    def make_json(edition = nil)
+      issues = File.join(@json_path, "issues.json")
+      stories = File.join(@json_path, "stories.json")
+      issues_data = []
+      stories_data = []
+      letters = JSON.parse(File.read(File.join(@static_path, 'editions.json')))
+      letters.each do |letter,c|
+        data = to_ostruct(YAML::load_file(File.join(@news_path, "archives/grn-#{letter}.yml")))
+        issues_data << {
+          "id" => data.edition.to_i,
+          "date" => data.pubdate,
+          "edito" => data.edito,
+          "contributors" => data.contibutors
+        }
+        data.topics.each do |topic|
+          topic.links.each do |story|
+            stories_data << {
+              "issue" => data.edition.to_i,
+              "title" => story.title,
+              "link" => story.url,
+              "description" => story.comment,
+              "category" => topic.title,
+              "subject" => story.tags,
+              "date" => story.pubdate,
+              "quantity" => story.duration
+            }
+          end
+        end
+      end
+      File.open(issues,'w') do |f|
+        f.puts issues_data.to_json
+      end
+      File.open(stories,'w') do |f|
+        f.puts stories_data.to_json
       end
     end
 
