@@ -166,6 +166,80 @@ module Greeby
       end
     end
 
+
+    def make_json_small(edition = nil)
+      issues = File.join(@json_path, "issues_small.json")
+      stories = File.join(@json_path, "stories_small.json")
+      issues_data = []
+      stories_data = []
+      letters = JSON.parse(File.read(File.join(@static_path, 'editions.json')))
+      letters.each do |letter,c|
+        data = to_ostruct(YAML::load_file(File.join(@news_path, "archives/grn-#{letter}.yml")))
+        issues_data << {
+          "i" => data.edition.to_i,
+          "d" => data.pubdate,
+          "e" => data.edito,
+          "c" => data.contibutors
+        }
+        data.topics.each do |topic|
+          topic.links.each do |story|
+            stories_data << {
+              "i" => data.edition.to_i,
+              "t" => story.title,
+              "l" => story.url,
+              "d" => story.comment,
+              "c" => topic.title,
+              "s" => story.tags,
+              "p" => story.pubdate,
+              "q" => story.duration
+            }
+          end
+        end
+      end
+      File.open(issues,'w') do |f|
+        f.puts issues_data.to_json
+      end
+      File.open(stories,'w') do |f|
+        f.puts stories_data.to_json
+      end
+    end
+
+    def make_json_array
+      issues = File.join(@json_path, "issues_array.json")
+      stories = File.join(@json_path, "stories_array.json")
+      issues_data = []
+      stories_data = []
+      letters = JSON.parse(File.read(File.join(@static_path, 'editions.json')))
+      letters.each do |letter,c|
+        data = to_ostruct(YAML::load_file(File.join(@news_path, "archives/grn-#{letter}.yml")))
+        issues_data << [
+          data.edition.to_i,
+          data.pubdate,
+          data.edito,
+          data.contibutors
+        ]
+        data.topics.each do |topic|
+          topic.links.each do |story|
+            stories_data << [
+              data.edition.to_i,
+              story.title,
+              story.url,
+              story.comment,
+              topic.title,
+              story.tags,
+              story.pubdate,
+              story.duration
+            ]
+          end
+        end
+      end
+      File.open(issues,'w') do |f|
+        f.puts issues_data.to_json
+      end
+      File.open(stories,'w') do |f|
+        f.puts stories_data.to_json
+      end
+    end
     private
 
     def to_ostruct(obj)

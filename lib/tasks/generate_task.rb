@@ -41,6 +41,17 @@ namespace :generate do
     builder.make_json
   end
 
+  desc "creates json files (small)"
+  task :json_small do
+    builder = Greeby::Builder.new
+    builder.make_json_small
+  end
+
+  desc "creates json files (array)"
+  task :json_array do
+    builder = Greeby::Builder.new
+    builder.make_json_array
+  end
 end
 
 task :generate do
