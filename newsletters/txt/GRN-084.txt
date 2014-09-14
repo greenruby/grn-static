@@ -1,0 +1,309 @@
+----------------------------------------------------
+Green Ruby News #084 - sep 14th 2014
+----------------------------------------------------
+
+Edito
+----------------------------------------------------
+If you are not far from Denver in the US, you may need to know that this week there is the  Denver Startup Week [1] by Thoughtbot. I hope they will put some videos online.
+
+[1] http://robots.thoughtbot.com/denver-startup-week
+
+mose - the green ruby editor
+xenor - the informer
+http://greenruby.org
+
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+* No more snooze
+  design
+  http://www.nomoresnooze.com/
+  Sleep, the scientific approach, plus the brutal approach.
+
+* For the badges
+  design
+  http://forthebadge.com/
+  Badges for badge sake.
+
+* Nice Portfolio
+  design
+  http://niceportfol.io/
+  A curated showcase of the best design portfolios on the web.
+
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+* Git Colony
+  tool
+  http://www.gitcolony.com/
+  Submit your code, get it reviewed by the colony. Code review gamified.
+
+* Typing.io
+  tool
+  https://typing.io/
+  Typing Practice for Programmers.
+
+* Secrets of the Browser Developer Tools
+  tool
+  http://devtoolsecrets.com/
+  Covers developer tools in Chrome, Firebug, Firefox, Internet Explorer, Opera and Safari.
+
+* 10 Free Books for Learning JavaScript
+  js
+  http://codecondo.com/free-javascript-books/
+  Stay up to speed with Javascript.
+
+* Githut
+  tool
+  http://githut.info/
+  Github languages statistics.
+
+* CommonMark
+  tool
+  http://commonmark.org/
+  A strongly specified, highly compatible implementation of Markdown.
+
+* Polyfill as a Service
+  html5
+  https://cdn.polyfill.io/v1/
+  A CDN for polyfills.
+
+* Gulp fiction
+  js
+  http://gulpfiction.divshot.io/
+  Online Gulpfile builder.
+
+* TinyCert
+  ops
+  https://www.tinycert.org/
+  Free SSL certificates for developers.
+
+* Git pretty
+  ops
+  http://justinhileman.info/article/git-pretty/
+  Printable chart of various possible git operations.
+
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+* Rails 4.1.6 and 4.0.10
+  rb
+  http://weblog.rubyonrails.org/2014/9/12/Rails-4-1-6-and-4-0-10-has-been-released/
+  No big change in this release, essentially bug fixes.
+
+* Upmin-admin
+  rb
+  https://www.upmin.com/admin-rails
+  An admin dashboard engine for rails, similar to active-admin.
+
+* ThemeBandit
+  rb
+  https://github.com/lfender6445/theme_bandit
+  Convert any site theme template (Wordpress, Joomla, etc) into a rack application.
+
+* factory_girl-preload
+  rb
+  https://github.com/fnando/factory_girl-preload
+  Preload factories just like fixtures.
+
+* Hello.js
+  js
+  http://adodson.com/hello.js
+  Client-side Javascript SDK for authenticating with OAuth2.
+
+* DataCollection.js
+  js
+  http://thestorefront.github.io/DataCollection.js/
+  Manipulate data from API responses with ease.
+
+* Blackbox
+  tool
+  https://github.com/StackExchange/blackbox
+  Safely store secrets in Git/Mercurial.
+
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+* 3D Objects With Babylon.js
+  design - sep 5
+  http://www.awwwards.com/the-quick-learn-way-to-creating-a-3d-object-with-babylon-js.html
+  Javascript Framework for HTML5 and WebGL Games.
+
+* Chef Basics for Rails Developers
+  rb - sep 8
+  http://www.gotealeaf.com/blog/chef-basics-for-rails-developers
+  Configure a new server and install a sample Rails Application.
+
+* Rails 5, Module#prepend, and the End of alias_method_chain
+  rb - sep 8
+  http://www.justinweiss.com/blog/2014/09/08/rails-5-module-number-prepend-and-the-end-of-alias-method-chain/
+  Some interesting news about the upcoming Rails 5.
+
+* Two pretty-good techniques for styling tricky form elements
+  css3 - sep 8
+  http://blog.cloudfour.com/styling-form-elements/
+  Radio buttons, select and file uploads, and tricks to tweak them.
+
+* Write Reliable, Asynchronous Integration Tests With Capybara
+  rb - sep 10
+  http://robots.thoughtbot.com/write-reliable-asynchronous-integration-tests-with-capybara
+  Integration tests involving Ruby and JavaScript.
+
+* Automatic Docker Service Announcement with Registrator
+  ops - sep 10
+  http://progrium.com/blog/2014/09/10/automatic-docker-service-announcement-with-registrator/
+  Registrator is inspired by Skydock, but more generic and multihost.
+
+* Running and upgrading MySQL servers in Docker containers (or not)
+  ops - sep 11
+  https://intercityup.com/blog/running-upgrading-mysql-server-docker/
+  Few options and issues with possible solutions for database containers.
+
+* Oga: a new XML/HTML parser for Ruby
+  rb - sep 11
+  http://yorickpeterse.com/articles/oga-a-new-xml-and-html-parser-for-ruby/
+  Another XML/HTML parser that works on more ruby implementations than Nokogiri, and it's faster.
+
+* Introducing Helioth: Feature Flipping Gem
+  rb - sep 11
+  http://www.mythoughts.io/articles/introducing-helioth-feature-flipping-ruby-gem/
+  Manage feature flags for progressive feature releases.
+
+* Work On An Existing Rails App
+  rb - sep 12
+  http://blog.teamtreehouse.com/getting-know-rails-app/
+  First steps to follow when you enter into a new codebase.
+
+* 15 Best CSS Tools to Speed Up Your Coding
+  css3 - sep 13
+  http://designposts.net/15-best-css-tools-to-speed-up-your-coding/
+  Various tools for CSS designers.
+
+* Spend less time waiting, more time Cheffing
+  ops - sep 13
+  http://christinemdraper.wordpress.com/2014/09/13/spend-less-time-waiting-more-time-cheffing/
+  Tricks to accelerate testing under Vagrant with Chef.
+
+* Configuring macbook for rails development with automated scripts
+  rb - sep 13
+  http://shvets.github.io/blog/2014/09/13/configuring_macbook_with_scripts.html
+  Description of the osx_provision gem.
+
+* 3 Simple examples from Ruby to Elixir
+  rb - sep 14
+  http://dev.mikamai.com/post/94717466094/3-simple-examples-from-ruby-to-elixir
+  How to transform a simple script from Ruby to Elixir.
+
+
+Watch
+----------------------------------------------------
+Screencasts and conferences videos, or other video feeds ...
+
+* GoRails #23
+  rb - sep 7 - 24m
+  https://gorails.com/episodes/consuming-an-api-using-httparty-and-creating-a-gem
+  Consuming an API Using HTTParty and Creating a Gem.
+
+* AtoZ CSS: @support
+  css3 - sep 9 - 7m
+  http://www.atozcss.com/the-css-at-supports-rule/
+  How to provide alternative styles for unsupported features.
+
+* Feature Flagging with Ruby on Rails Engines
+  rb - sep 11 - 18m
+  http://www.hakkalabs.co/articles/feature-flagging-ruby-rails-engines
+  Rails engines, and deployment on different servers leveraging feature flags.
+
+
+Listen
+----------------------------------------------------
+What could be heard last week ..
+
+* Giant robots #115
+  tool - sep 8 - 37m
+  http://podcasts.thoughtbot.com/giantrobots/115
+  There's a Spectrum Involved Here (Brandon Bloom).
+
+* Web platform #10
+  css3 - sep 9 - 59m
+  http://thewebplatform.libsyn.com/mathematics-dynamic-css-visualizations
+  Mathematics & Dynamic CSS Visualizations.
+
+* Arrested DevOps 20
+  ops - sep 9 - 1h06
+  http://www.arresteddevops.com/devops-security/
+  Something About Security with Ben Hughes, Security Manager at Etsy.
+
+* Ruby5 494
+  rb - sep 9 - 6m
+  http://ruby5.envylabs.com/episodes/531-episode-494-september-9th-2014
+  RSpec 3.1, Rack::Tracker, new features in Rails 4.2, Fearless Rails Deployment book, The_Metal, RubyConf Portugal.
+
+* Ruby Rogues 173
+  rb - sep 10 - 1h10
+  http://rubyrogues.com/173-rr-activerecord-crud/
+  ActiveRecord CRUD with Eileen Uchitelle.
+
+* Javascript Jabber 125
+  js - sep 10 - 43m
+  http://javascriptjabber.com/125-jsj-webgl-with-sean-griffin/
+  WebGL with Sean Griffin.
+
+* CodePen 22
+  css3 - sep 11 - 45m
+  http://blog.codepen.io/2014/09/11/advertising/
+  Using advertising as part of a business model as well as using advertising to grow.
+
+* Ruby on Rails Podcast 167
+  rb - sep 11 - 58m
+  http://5by5.tv/rubyonrails/167
+  Kelli Shaver - 2013 Rails Rumble Solo Winner.
+
+* Ruby5 495
+  rb - sep 12 - 6m
+  http://ruby5.envylabs.com/episodes/532-episode-495-september-12th-2014
+  @rubystrings, Coderetreat 2014, Capybara, nice rake tasks, module prepend.
+
+* The Cloudcast #161
+  ops - sep 12 - 28m
+  http://www.thecloudcast.net/2014/09/the-cloudcast-161-transitioning-from.html
+  Transitioning from CTO to VC.
+
+* The ship show #48
+  ops - sep 12 - 1h04
+  http://theshipshow.com/2014/09/continuous-all-the-things-flowcon-2014/
+  Continuous All The Things: FlowCon 2014.
+
+* 2ddu #35
+  go - sep 12 - 1h15
+  http://2ddu.com/e/episode-35-going-to-go/
+  What Go is and its place in the universe of programming languages.
+
+
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+

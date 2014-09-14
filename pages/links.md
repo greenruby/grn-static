@@ -86,3 +86,4 @@ Those links and resources are used in the weekly collection of information for G
 * <http://foodfightshow.org/> (ops/chef) *active monthly*
 * <http://theshipshow.com/> (devops) *active monthly*
 * <http://episodes.gitminutes.com/> (git) *sporadic since may 2014*
+* <http://2ddu.com> (misc)
