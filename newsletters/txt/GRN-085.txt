@@ -1,0 +1,287 @@
+----------------------------------------------------
+Green Ruby News #085 - sep 21th 2014
+----------------------------------------------------
+
+Edito
+----------------------------------------------------
+There is some people every day on our <a href="http://webchat.freenode.net/?channels=%23greenruby">irc channel</a>, but as I wanted to try <a href="http://slack.com">slack</a> I opened a room there too (recent upgrades on hipchat were very annoying). <a href="mailto:mose@greenruby.org">Poke me</a> if you want an invite to join it, for some chatting, or just if you want to see how slack works.
+
+mose - the green ruby editor
+xenor - the informer
+http://greenruby.org
+
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+* Endless Icons
+  design
+  http://www.endlessicons.com/
+  A collection of free flat icons and creative stuff.
+
+* Design Patterns
+  html5
+  http://codepen.io/patterns/
+  Collections of patterns from Codepen contributions.
+
+* Party mode
+  html5
+  http://preziotte.com/partymode/
+  Experimental music visualizer using d3.js and the web audio api.
+
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+* Sinatra cookbook
+  rb
+  http://www.sinatracookbook.com/
+  (book) nothing to do with chef, all about Sinatra.
+
+* Ruby Gotchas
+  rb
+  https://docs.google.com/presentation/d/1cqdp89_kolr4q1YAQaB-6i5GXip8MHyve8MvQ_1r6_s/edit
+  Collection of some good small gotchas when you write ruby script.
+
+* Algomation
+  tool
+  http://www.algomation.com/
+  Platform for creating and sharing didactic visualizations of algorithms.
+
+* CollabShot
+  tool
+  http://collabshot.com/
+  Real time collaboration for screen grabs.
+
+* Weekend hacker
+  tool
+  http://www.weekendhacker.net/
+  Find ideas for your weekends.
+
+* SpeedCurve
+  web
+  http://speedcurve.com/
+  Monitor front-end performance.
+
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+* Ruby 2.1.3
+  rb
+  https://www.ruby-lang.org/en/news/2014/09/19/ruby-2-1-3-is-released/
+  Contains a change of full GC timing to reduce memory consumption.
+
+* Elixir v1.0.03
+  rb
+  http://elixir-lang.org/blog/2014/09/18/elixir-v1-0-0-released/
+  Elixir finally reached a stable milestone.
+
+* Katon
+  tool
+  https://github.com/typicode/katon
+  Alternative to Pow development tool, with a wider scope (Node, Ruby, Python, Go, ..).
+
+* Bosonic
+  js
+  https://bosonic.github.io/
+  Set of tools to build and use reusable Web Components.
+
+* SweetLogger
+  rb
+  https://github.com/MadRabbit/sweet-logger
+  A rails logger that don't let log entries for concurrent requests overlap.
+
+* Volt
+  rb
+  https://github.com/voltrb/volt
+  A ruby web framework where your ruby runs on both server and client.
+
+* Nomad
+  mobile
+  http://nomad-cli.com/
+  World-Class Command Line Utilities For iOS Development.
+
+* CosmosBrowserAndroid
+  mobile
+  https://github.com/ColdSauce/CosmosBrowserAndroid
+  Connect to internet by SMS, no data or wifi required.
+
+* Rickshaw
+  js
+  http://code.shutterstock.com/rickshaw/
+  JavaScript toolkit for creating interactive time series graphs (based on D3).
+
+* Tinycon
+  js
+  https://github.com/tommoor/tinycon
+  A small library for manipulating the favicon.
+
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+* Working With Complex SQL Statements in Rails and ActiveRecord
+  rb - sep 14
+  http://www.rigelgroupllc.com/blog/2014/09/14/working-with-complex-sql-statements/
+  Write your own activerecord method with custom postgresql sql code.
+
+* Daemonizing Ruby Processes
+  rb - sep 15
+  http://codeincomplete.com/posts/2014/9/15/ruby_daemons/
+  How-to for daemonizing Ruby code without adding any new dependencies.
+
+* A Lightweight Way to Handle Different Validation Situations
+  rb - sep 15
+  http://www.justinweiss.com/blog/2014/09/15/a-lightweight-way-to-handle-different-validation-situations/
+  Some cases of conditional validations.
+
+* Upgrading GitHub to Rails 3 with Zero Downtime
+  rb - sep 15
+  http://shayfrendt.com/posts/upgrading-github-to-rails-3-with-zero-downtime/
+  How they did it, plus some metrics.
+
+* Successful Tools in Remote Work
+  tool - sep 16
+  http://authenticff.com/journal/successful-tools-in-remote-work
+  Communication is king. It has to be, otherwise it all falls apart.
+
+* Getting Started with CSS Shapes
+  css3 - sep 16
+  http://www.html5rocks.com/en/tutorials/shapes/getting-started/
+  Wrapping content around custom paths.
+
+* Postgres Window Functions
+  tool - sep 16
+  http://robots.thoughtbot.com/postgres-window-functions
+  Advanced sorting and limiting on a subset of a joined table of data.
+
+* The Rails + Angular equation can give you satisfaction
+  rb - sep 17
+  http://dev.mikamai.com/post/97732414859/the-rails-angular-equation-can-give-you-satisfaction
+  Simple example or rails combined with angular.
+
+* Everything About Rake Tasks
+  rb - sep 17
+  http://edelpero.svbtle.com/everything-you-always-wanted-to-know-about-writing-good-rake-tasks-but-were-afraid-to-ask
+  What Makes a Rake Task a Good Task?
+
+* 4 ways Docker fundamentally changes application development
+  ops - sep 17
+  http://www.infoworld.com/article/2607128/application-development/4-ways-docker-fundamentally-changes-application-development.html
+  How Docker containers streamline development and deployment.
+
+* 9 ways to speed up your RSpec tests
+  rb - sep 19
+  https://netguru.co/blog/9-ways-to-speed-up-your-rspec-tests
+  Various tips to make your tests faster.
+
+* Splitting monolithic Rails applications
+  rb - sep 19
+  https://www.amberbit.com/blog/2014/9/19/splitting-monolithic-rails-applications/
+  An approach for making a rails application more modular.
+
+* ActiveRecord Eager Loading with Query Objects and Decorators
+  rb - sep 19
+  http://robots.thoughtbot.com/active-record-eager-loading-with-query-objects-and-decorators
+  Also illustrates the use of the postgres window function.
+
+* Testing Page Objects with SitePrism
+  rb - sep 19
+  http://www.sitepoint.com/testing-page-objects-siteprism/
+  SitePrism is a Page Object Model DSL for Capybara.
+
+
+Watch
+----------------------------------------------------
+Screencasts and conferences videos, or other video feeds ...
+
+* AtoZ CSS: text
+  css3 - sep 16 - 7m
+  http://www.atozcss.com/text-and-typography-in-css/
+  Quick reference about all the text css styles.
+
+* Tom Dale talks about the humans behind Tilde and Ember.js
+  js - sep 17 - 40m
+  https://www.youtube.com/watch?v=hiwZUxc1Fpw
+  Bonus: A tour of their office.
+
+* The Raw Experience of Setting Up RubyMotion for Android
+  mobile - sep 18 - 36m
+  https://motioninmotion.tv/screencasts/45
+  RubyMotion's support for Android has finally reached public beta.
+
+
+Listen
+----------------------------------------------------
+What could be heard last week ..
+
+* Giant robots #116
+  tool - sep 15 - 32m
+  http://podcasts.thoughtbot.com/giantrobots/116
+  A Model Jellyfish (Carl Smith).
+
+* Web platform #11
+  js - sep 15 - 54m
+  http://thewebplatform.libsyn.com/the-bosonic-project
+  The Bosonic Project.
+
+* Nodeup 72
+  js - sep 15 - 1h35
+  http://nodeup.com/seventytwo
+   A webgl show.
+
+* Ruby5 496
+  rb - sep 16 - 6m
+  http://ruby5.envylabs.com/episodes/533-episode-496-september-16th-2014
+  Volt, fast tests, protect from forgery, upmin admin.
+
+* Ruby Rogues 174
+  rb - sep 17 - 1h14
+  http://rubyrogues.com/174-rubygems-with-eric-hodel/
+  Rubygems with Eric Hodel.
+
+* Javascript Jabber 126
+  js - sep 17 - 59m
+  http://javascriptjabber.com/126-jsj-the-ionic-framework-with-max-lynch-and-tyler-renelle/
+  The Ionic Framework with Max Lynch and Tyler Renelle.
+
+* CodePen 23
+  css3 - sep 19 - 27m
+  http://blog.codepen.io/2014/09/19/023-churn/
+  Churn.
+
+* Ruby on Rails Podcast 168
+  rb - sep 19 - 1h06
+  http://5by5.tv/rubyonrails/168
+  Josh Owens - 2007 Rails Rumble Winner; Bonus Meteor Intro.
+
+* Ruby5 497
+  rb - sep 19 - 5m
+  http://ruby5.envylabs.com/episodes/534-episode-497-september-19th-2014
+  Fourchette, helioth, hutils, toshi, byebug.
+
+
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a 
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+

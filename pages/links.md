@@ -21,8 +21,13 @@ Those links and resources are used in the weekly collection of information for G
 - <https://www.destroyallsoftware.com/blog> (Gary Bernhardt)
 - <http://blog.codinghorror.com> (Jeff Atwood)
 - <http://designbeep.com> (wordpress/design)
+- <http://www.html5rocks.com/en/> (webdev)
+- <http://www.sitepoint.com/> (webdev)
 - <http://thenewstack.io> (general IT)
+- <http://css-tricks.com/.com> (css)
+- <http://devblog.avdi.org/> (ruby)
 - <http://codegeekz.com> (web)
+- <http://scotch.io/> (webdev)
 
 ### Email newsletters
 
@@ -57,8 +62,10 @@ Those links and resources are used in the weekly collection of information for G
 
 ### Video channels / screencasts
 
+* <https://motioninmotion.tv/> (ruby mobile)
 * <http://sysadmincasts.com/> (sysadmin)
 * <http://confreaks.com/> (conferences)
+* <http://www.rubytapas.com> (ruby)
 * <http://build-podcast.com> (misc)
 * <http://www.atozcss.com/> (css)
 * <https://gorails.com/> (rails)
