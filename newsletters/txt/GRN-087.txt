@@ -1,0 +1,282 @@
+----------------------------------------------------
+Green Ruby News #087 - oct 5th 2014
+----------------------------------------------------
+
+Edito
+----------------------------------------------------
+As there is a lot of new subscribers this week, let me remind you what this newsletter is.<br>I'm a french fullstack <a href="http://mose.com">geek</a> living in Taiwan, ruby lover, and currently in a devops phase. I don't have much time to surf around during the week as I have a fulltime job. So every Sunday I dedicate 4 to 6 hours to sort my inbox, check stuff, track what's new, so I can remain current. <br>And then as I'm doing it for myself, well, I structured it a bit and sent my review to some friends. <a href="http://mailchimp.com">Mailchimp</a> offers a free tier, the review is done already, why not share it to a wider audience. <a href="https://twitter.com/tubaxenor">Xenor</a> sends me some links every week, as well as various other people now. Having more people reading it and appreciating this review helps me to stay motivated doing it every week. So, thanks for that.
+
+mose - the green ruby editor
+xenor - the informer
+http://greenruby.org
+
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+* e3creative
+  design
+  http://www.e3creative.co.uk//
+  Website of a digital agency.
+
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+* Readme.io
+  tool
+  https://readme.io/
+  Project documentation made easy.
+
+* Inline Manual
+  tool
+  https://inlinemanual.com/
+  Interactive inline tutorials.
+
+* Sache
+  css3
+  http://www.sache.in/
+  Discover Sass & Compass Extensions.
+
+* Xip.io
+  ops
+  http://xip.io/
+  xip.io is a magic domain name that provides wildcard DNS for any IP address.
+
+* A Day in the Life of an Ember Developer
+  js
+  http://nomadjavascript.com/2014/09/october-2014/
+  A free webinar with Yahuda Katz on October 16.
+
+* Enjoycss
+  css3
+  http://enjoycss.com/
+  Advanced online CSS3 generator.
+
+* Color code
+  css3
+  http://colourco.de/
+  Find your color scheme.
+
+* Freepik
+  design
+  http://www.freepik.com/
+  Free Graphic Files for Download.
+
+* Taiga
+  tool
+  https://taiga.io/
+  Taiga is a project management platform for startups and agile developers (open source).
+
+* Internet Explorer Platform
+  web
+  https://wpdev.uservoice.com/forums/257854-internet-explorer-platform
+  The Internet Explorer team is looking for feature requests from the web developer community.
+
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+* Rails 4.2.0 beta2
+  rb
+  http://weblog.rubyonrails.org/2014/9/29/Rails-4-2-0-beta2-has-been-released/
+  Security fixes and some breaking changes (with beta1).
+
+* Spec me Maybe
+  rb
+  https://github.com/davidcelis/spec-me-maybe
+  Introduces the 'maybe' syntax to RSpec.
+
+* Inspeqtor
+  ops
+  http://www.mikeperham.com/2014/10/02/introducing-inspeqtor/
+  A go daemon to replace monit, by the author of sidekiq.
+
+* chef-koans
+  ops
+  https://github.com/leftathome/chef-koans
+  An experimental, test-driven way to learn about Chef.
+
+* Csstyle
+  css3
+  http://www.csstyle.io/
+  Csstyle is a modern approach for crafting maintainable stylesheets.
+
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+* 10 skills that will make you a better Rubyist
+  rb - sep 29
+  https://www.amberbit.com/blog/2014/9/29/10-skills-that-will-make-you-better-ruby-developer/
+  Skills required to advance your career (and get a better salary.
+
+* Adding a staging environment to Rails
+  rb - sep 29
+  http://emaxime.com/2014/adding-a-staging-environment-to-rails.html
+  A staging environment is a perfect place to battle test your code under the conditions of production.
+
+* How Do Gems Work?
+  rb - sep 29
+  http://www.justinweiss.com/blog/2014/09/29/how-do-gems-work/
+  Knowing RubyGems even at this surface level will help out a lot.
+
+* Benefits of Writing a DSL in Ruby
+  rb - sep 29
+  http://engineering.zenpayroll.com/benefits-of-writing-a-dsl/
+  Creating a domain specific language to accelerate and streamline the development process.
+
+* How GitHub is using Web Components in production
+  rb - sep 29
+  http://webcomponents.org/articles/interview-with-joshua-peek/
+  Ssking some questions to Joshua Peek, a programmer at GitHub.
+
+* Responsive Images with srcset
+  html5 - sep 30
+  http://css-tricks.com/responsive-images-youre-just-changing-resolutions-use-srcset/
+  If you’re just changing resolutions, use srcset.
+
+* Hacker's Guide to Setting up Your Mac
+  tool - sep 30
+  http://lapwinglabs.com/blog/hacker-guide-to-setting-up-your-mac
+  Some techniques to apply automation to the setup of your Mac.
+
+* CDN acceptance testing
+  web - oct 1
+  https://gdstechnology.blog.gov.uk/2014/10/01/cdn-acceptance-testing/
+  With the release of Rails 4.2, Active Job abstracts background workers syntax.
+
+* Getting Started With Active Job
+  rb - oct 1
+  https://blog.engineyard.com/2014/getting-started-with-active-job
+  How gov.uk migrated to one CDN provider to another. Bonus, the source code of their tests.
+
+* Taste and The Zen of GitHub
+  web - oct 2
+  http://warpspire.com/posts/taste/
+  What taste means in Github growth.
+
+* Code Reviews at Harvest
+  web - oct 2
+  http://techtime.getharvest.com/blog/code-reviews-at-harvest
+  Some good ideas about how to do the code review.
+
+* What is kubernetes and how to use it
+  ops - oct 2
+  http://www.centurylinklabs.com/what-is-kubernetes-and-how-to-use-it/
+  Solution to scale your web services both vertically and horizontally.
+
+* Rails with Webpack - Why and How
+  rb - oct 2
+  https://www.reinteractive.net/posts/213-rails-with-webpack-why-and-how
+  An alternative for bundling your assets for some projects.
+
+* Refactoring Ruby with Monads
+  rb - oct 3
+  http://codon.com/refactoring-ruby-with-monads
+  How monads can help to make code simpler, clearer and more reusable.
+
+* Refactoring Ruby with Monads
+  rb - oct 3
+  http://codon.com/refactoring-ruby-with-monads
+  How monads can help to make code simpler, clearer and more reusable.
+
+* Better Know Enumerable: Partition
+  rb - oct 3
+  http://gofullstack.com/better-know-enumerable-partition/
+  Using the partition to split a collection into two complementary parts.
+
+* AngularJS Tutorial: A Comprehensive 10,000 Word Guide
+  js - oct 3
+  http://www.airpair.com/angularjs
+  An ultimate resource point to begin learning AngularJS.
+
+
+Watch
+----------------------------------------------------
+Screencasts and conferences videos, or other video feeds ...
+
+* AtoZ CSS: Vertical-align
+  css3 - oct 1 - 5m
+  http://www.atozcss.com/vertical-alignment-in-css/
+  The vertical-align property and how and when it works.
+
+* Gogaruco 2014
+  ops - oct 3 - 13 videos
+  http://confreaks.com/events/gogaruco2014
+  Golden Gate Ruby Conference.
+
+
+Listen
+----------------------------------------------------
+What could be heard last week ..
+
+* DevOps cafe 55
+  ops - sep 30 - 1h12
+  http://devopscafe.org/show/2014/9/30/devops-cafe-episode-55-tom-limoncelli.html
+  With Tom Limoncelli.
+
+* Ruby on Rails Podcast 170
+  rb - oct 1 - 1h11
+  http://5by5.tv/rubyonrails/170
+  Salesforce $1 Million Hackathon @ Dreamforce 2014.
+
+* Ruby Rogues 176
+  rb - oct 1 - 58m
+  http://rubyrogues.com/176-rr-rails-as-an-soa-client-with-pete-hodgson/
+  Rails as an SOA Client with Pete Hodgson.
+
+* Javascript Jabber 128
+  js - oct 1 - 55m
+  http://javascriptjabber.com/128-jsj-famo-us-with-steve-newcomb/
+  Famo.us with Steve Newcomb.
+
+* The Ship Show 49
+  ops - oct 1 - 1h04
+  http://theshipshow.com/2014/10/the-pulse-of-puppetconf-2014/
+  The Pulse of PuppetConf 2014.
+
+* CodePen #24
+  web - oct 2 - 31m
+  http://blog.codepen.io/2014/10/02/024-responsibility/
+  Our Responsibilities at CodePen.
+
+* Adventure in angular #10
+  js - oct 2 - 34m
+  http://devchat.tv/adventures-in-angular/010-aia-preferred-backends
+  Preferred Backends with Angular.
+
+* Ruby5 500
+  rb - oct 3 - 6m
+  http://ruby5.envylabs.com/episodes/537-episode-500-october-3rd-2014
+  Greenscreen.io, onboarding your junior devs, better Rubyist, staging environments, absolutes.
+
+* The Cloudcast #164
+  ops - oct 3 - 28m
+  http://www.thecloudcast.net/2014/10/the-cloudcast-164-full-stack-real-time.html
+  Full-Stack Real-Time Monitoring from the Cloud. Datadog.
+
+
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a 
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+

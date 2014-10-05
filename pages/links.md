@@ -75,6 +75,7 @@ Those links and resources are used in the weekly collection of information for G
 
 * <http://ruby5.envylabs.com> (rb) *active bi-weekly*
 * <http://podcasts.thoughtbot.com/giantrobots> (rb/saas/web) *active weekly*
+* <http://devchat.tv/adventures-in-angular> (agular.js) *active weekly*
 * <http://blog.producthunt.co/> (saas/startups) *active weekly*
 * <http://thewebplatform.libsyn.com/> (web) *active weekly*
 * <http://revision3.com/haktip> (security) *active weekly*
@@ -92,5 +93,5 @@ Those links and resources are used in the weekly collection of information for G
 * <http://crypto-gram.libsyn.com/> (security) *active monthly*
 * <http://foodfightshow.org/> (ops/chef) *active monthly*
 * <http://theshipshow.com/> (devops) *active monthly*
-* <http://episodes.gitminutes.com/> (git) *sporadic since may 2014*
+* <http://episodes.gitminutes.com/> (git) *inactive*
 * <http://2ddu.com> (misc)
