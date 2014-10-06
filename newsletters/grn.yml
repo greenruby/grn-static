@@ -171,14 +171,14 @@ topics:
 
   - title: "CDN acceptance testing"
     url: "https://gdstechnology.blog.gov.uk/2014/10/01/cdn-acceptance-testing/"
-    comment: "With the release of Rails 4.2, Active Job abstracts background workers syntax."
+    comment: "How gov.uk migrated to one CDN provider to another. Bonus, the source code of their tests."
     pubdate: oct 1
     tags:
       - web
 
   - title: "Getting Started With Active Job"
     url: "https://blog.engineyard.com/2014/getting-started-with-active-job"
-    comment: "How gov.uk migrated to one CDN provider to another. Bonus, the source code of their tests."
+    comment: "With the release of Rails 4.2, Active Job abstracts background workers syntax."
     pubdate: oct 1
     tags:
       - rb
@@ -208,13 +208,6 @@ topics:
     url: "https://www.reinteractive.net/posts/213-rails-with-webpack-why-and-how"
     comment: "An alternative for bundling your assets for some projects."
     pubdate: oct 2
-    tags:
-      - rb
-
-  - title: "Refactoring Ruby with Monads"
-    url: "http://codon.com/refactoring-ruby-with-monads"
-    comment: "How monads can help to make code simpler, clearer and more reusable."
-    pubdate: oct 3
     tags:
       - rb
 
