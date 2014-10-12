@@ -1,0 +1,280 @@
+----------------------------------------------------
+Green Ruby News #088 - oct 12th 2014
+----------------------------------------------------
+
+Edito
+----------------------------------------------------
+If you understand japanese, check the presentation [1] of tenderlove at rubykaigi. Damn he's good.
+
+[1] http://www.youtube.com/watch?v=jLJvdMIoJs4
+
+mose - the green ruby editor
+xenor - the informer
+http://greenruby.org
+
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+* Designspiration
+  design
+  http://designspiration.net/
+  Resource to help discover and share great design.
+
+* The grid
+  design
+  https://thegrid.io/
+  AI websites that design themselves.
+
+* Pablo the flamingo
+  design
+  http://pablotheflamingo.com/
+  Totally useless dancing flamingo (also check the behind the scene).
+  http://pablotheflamingo.com/?dev
+
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+* Dev Free Casts
+  tool
+  http://devfreecasts.org/
+  A huge collection of free screencasts for devs.
+
+* DevToolsTips
+  tool
+  http://devtoolstips.com/
+  Curated collection of Chrome Developer Tools tips and tricks.
+
+* Rails Crash Course
+  rb
+  http://www.nostarch.com/railscrashcourse
+  (Book) A No-Nonsense Guide to Rails Development.
+
+* Code Fights
+  js
+  https://codefights.com/
+  Code challenges that test how fast you can debug JavaScript.
+
+* Must-Watch CSS
+  css3
+  https://github.com/AllThingsSmitty/must-watch-css
+  A useful list of must-watch videos about CSS.
+
+* Programming course comparison
+  tool
+  https://www.bloc.io/programming-course-comparison
+  13 popular options for learning how to code, analyzed and compared.
+
+* 35 Useful HTML5, JavaScript Tools and jQuery Plugins
+  web
+  http://www.nextdesignweb.com/2014/10/HTML5-JavaScript-Tools-and-jQuery-Plugins.html
+  Another of those lists, this one has some nice entries.
+
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+* Quick Secure
+  ops
+  https://github.com/marshyski/quick-secure
+  Simple script for hardening and securing base linux systems.
+
+* Taste Tester
+  ops
+  https://github.com/facebook/taste-tester
+  The test-tester utility for testing chef diffs via chef-zero.
+
+* PerfMap
+  js
+  https://github.com/zeman/perfmap
+  Front-end performance heatmap bookmarklet.
+
+* kibana-rack
+  rb
+  https://github.com/tabolario/kibana-rack
+  Embed Kibana as a Rack application and creates a proxy to Elasticsearch.
+
+* ClassyCancan
+  rb
+  https://github.com/neckhair/classy_cancan
+  Classify your cancancan abilities.
+
+* easy-emoji
+  rb
+  https://github.com/Aufree/easy-emoji
+  Make the emoji easier to use for Rails.
+
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+* Move fast & break nothing
+  web - oct 3
+  http://zachholman.com/talk/move-fast-break-nothing/
+  Transcript of a talk from Zach Holman from Github. Very long and very wise.
+
+* Top 8 tools for Ruby on Rails code optimization and cleanup
+  rb - oct 6
+  https://www.infinum.co/the-capsized-eight/articles/top-8-tools-for-ruby-on-rails-code-optimization-and-cleanup
+  Keeping your code clean and organized while developing a large Rails application.
+
+* Three Great Ways to Learn Ruby Faster
+  rb - oct 6
+  http://www.justinweiss.com/blog/2014/10/06/three-great-ways-to-learn-ruby-faster/
+  In short: Ruby Quiz, Exercism.io and try a tiny app.
+
+* What’s wrong with Angular.js
+  js - oct 6
+  https://medium.com/este-js-framework/whats-wrong-with-angular-js-97b0a787f903
+  Not everybody is happy about angular. This one explains why, and gets bunch of interesting comments in return.
+
+* What I would recommend instead of Angular.js?
+  js - oct 7
+  https://medium.com/este-js-framework/what-i-would-recommend-instead-of-angular-js-62b057d8a9e
+  Sequel of the previous one.
+
+* The best developer tools, now free for students
+  tool - oct 7
+  https://github.com/blog/1900-the-best-developer-tools-now-free-for-students
+  The GitHub Student Developer Pack.
+
+* Cleaning up a Rails routes file
+  rb - oct 7
+  http://thomasleecopeland.com/2014/10/07/cleaning-up-a-rails-routes-file.html
+  Large Rails apps have a way of gathering cruft. One popular cruft hideout is config/routes.rb.
+
+* Introducing Leche
+  js - oct 7
+  http://tech.blog.box.com/2014/10/introducing-leche-a-javascript-testing-utility-for-mocha-and-sinon/
+  A JavaScript Testing Utility for Mocha and Sinon.
+
+* Object Oriented Programming is an expensive disaster which must end
+  tool - oct 7
+  http://www.smashcompany.com/technology/object-oriented-programming-is-an-expensive-disaster-which-must-end
+  A very long writing about OOP. only go there if you have time and brain cells to dedicate to it. Spoiler, functionnal programming is the new black.
+
+* Memoization in Ruby, Python and Javascript
+  tool - oct 8
+  http://codingnews.info/post/memoization.html
+  How the different languages haadle memoization.
+
+* Analyze ruby execution stack with #caller
+  rb - oct 8
+  http://dev.mikamai.com/post/99472635014/analyze-ruby-execution-stack-with-caller
+  Make backtrace your custom debugging tool with #caller.
+
+* Tail Call Optimisation in MRI
+  rb - oct 9
+  https://www.reinteractive.net/posts/214-tail-call-optimisation-in-ruby-mri
+  TCO is disabled by default, but it's good to know what it does.
+
+* Why Ruby Is the Crown Jewel in a Developer's Resume
+  web - oct 9
+  http://www.cio.com/article/2824615/careers-staffing/why-ruby-is-the-crown-jewel-in-a-developers-resume.html
+  Demand for Ruby on Rails talent continues at a steady pace.
+
+* Rebuild a Gem: Rack
+  rb - oct 10
+  http://www.kavinder.com/blog/2014-10-10-rebuild-a-gem-rack/
+  Exercise to rewrite rack for educative purpose.
+
+* Refactoring From Model to View Helper to Null Object
+  rb - oct 10
+  http://robots.thoughtbot.com/from-model-logic-to-views-helpers-and-to-null-objects
+  Replacing conditional with polymorphism.
+
+
+Watch
+----------------------------------------------------
+Screencasts and conferences videos, or other video feeds ...
+
+* Speeding up Rails 4.2
+  ops - oct 8 - 23m
+  https://sysadmincasts.com/episodes/38-crash-course-on-mysql
+  Common tasks associated with looking after a single MySQL server.
+
+* Crash Course on MySQL
+  ops - oct 8 - 23m
+  https://sysadmincasts.com/episodes/38-crash-course-on-mysql
+  Common tasks associated with looking after a single MySQL server.
+
+* Rules of Devops
+  ops - oct 8 - 35m
+  https://www.youtube.com/watch?v=eq1v_3dQC00
+  Talk given at DeveopDay Chicago about devops culture.
+
+* AtoZ CSS: Widows
+  css3 - oct 9 - 5m
+  http://www.atozcss.com/widows-and-orphans/
+  Paged media, Widows and Orphans.
+
+* Nested Attributes and fields_for
+  rb - oct 9 - 9m
+  https://gorails.com/episodes/forum-nested-attributes-and-fields-for
+  Forum Series Part 3 from gorails.
+
+
+Listen
+----------------------------------------------------
+What could be heard last week ..
+
+* Food Fight 201410
+  ops - oct 7 - 1h22
+  http://foodfightshow.org/2014/10/windows-automation-for-angry-neckbeards.html
+  Windows Automation for Frustrated Sysadmins.
+
+* Ruby5 501
+  rb - oct 7 - 6m
+  http://ruby5.envylabs.com/episodes/538-episode-501-october-7th-2014
+  Rails data migrations, tools for optimization, Bundler::Updater, UUID with Postgres, Active Record, Ruby 2.2.0.
+
+* Ruby Rogues 177
+  rb - oct 8 - 1h17
+  http://rubyrogues.com/177-rr-creativity-and-technology/
+  Creativity and Technology.
+
+* Javascript Jabber 129
+  js - oct 8 - 54m
+  http://javascriptjabber.com/129-jsj-baas-with-ryan-done/
+  BaaS with Ryan Done.
+
+* NodeUp 73
+  js - oct 9 - 1h04
+  http://nodeup.com/seventythree
+  An internet of things show.
+
+* Adventure in angular #11
+  js - oct 10 - 34m
+  http://devchat.tv/adventures-in-angular/011-aia-angular-fire-with-david-east-and-kato-wulf
+  Angular Fire with David East and Kato Wulf.
+
+* Web Platform #13
+  js - oct 10 - 1h07
+  http://thewebplatform.libsyn.com/meshblu-npm-and-the-internet-of-everywhere
+  MeshBlu, NPM, and The Internet of Everywhere.
+
+
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+
