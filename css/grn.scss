@@ -326,6 +326,11 @@ a:hover {
   #templateBody {
     padding: 10px !important;
   }
+  .logoized {
+    span {
+      display: none;
+    }
+  }
   #container {
     width: 100%;
     #wrapper {
@@ -340,7 +345,7 @@ a:hover {
           height: auto;
           margin: 5px 0;
           padding: 0;
-        }
+       }
       }
       .cell {
         box-shadow: none;
