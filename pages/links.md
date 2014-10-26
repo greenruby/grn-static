@@ -90,6 +90,7 @@ Those links and resources are used in the weekly collection of information for G
 * <http://javascriptjabber.com/> (js) *active weekly*
 * <http://devopscafe.org/> (ops) *active weekly*
 * <http://rubyrogues.com/> (rb) *active weekly*
+* <http://puppetlabs.com/resources/podcasts> (puppet) *active semi-weekly*
 * <http://5by5.tv/changelog> (coding/foss) *active semi-weekly*
 * <http://www.opsallthethings.com/> (ops) *active semi-weekly*
 * <http://www.arresteddevops.com/> (ops) *active semi-weekly*
