@@ -1,0 +1,307 @@
+----------------------------------------------------
+Green Ruby News #091 - nov 2nd 2014
+----------------------------------------------------
+
+Edito
+----------------------------------------------------
+This week I left my job at <a href="http://faria.co">Faria</a> and I joined <a href="http://gandi.net">Gandi Asia</a>, as a devops again. The consequence is that I'm flying to Paris next week for one month. I wonder if I will be able to feed up Greenruby links curation as regularly as usual. That may be challenging. In the while, check out the <a href="http://railsrumble.com/entries/winners">Rails Rumble Winners</a> for this year, there is some cool things.
+
+mose - the green ruby editor
+xenor - the informer
+http://greenruby.org
+
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+* Benoît Boucart
+  design
+  http://blog.webbb.be/
+  Benoît Boucart, a web designer, made a nice looking timeline.
+
+* Emoji Tracker
+  tool
+  http://www.emojitracker.com/
+  Realtime emoji use on twitter.
+
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+* Trailblazer book
+  rb
+  https://packager.io/
+  (Book) A New Architecture For Rails (writing still in progress).
+
+* Polarr
+  design
+  https://www.polarr.co
+  A WebGL photo editor faster than Adobe Lightroom.
+
+* Gitgo
+  tool
+  https://gitgo.io/
+  Free private version control hosting, charging per volume above 200M, not per accounts or repos.
+
+* Orion
+  tool
+  http://planetorion.org/news/2014/10/announcing-orion-7-0/
+  Open Source Platform For Cloud Based Development, online IDE from eclipse.
+
+* Whiteout
+  tool
+  https://whiteout.io/
+  Email encryption for the rest of us.
+
+* Packager
+  tool
+  https://packager.io/
+  Distributing and installing modern web applications, automatically packaged.
+
+* Magic Import
+  tool
+  https://magic.import.io/
+  The fastest way to turn a webpage into a table of data.
+
+* ZenHub
+  tool
+  https://www.zenhub.io/
+  Turns GitHub Issues into real time draggable cards on shared Boards.
+
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+* Ruby 2.1.4
+  rb
+  https://www.ruby-lang.org/en/news/2014/10/27/ruby-2-1-4-released/
+  Mostly a security release, with also some bugfixes.
+
+* Rails 3.2.20, 4.0.11, 4.1.7, and 4.2.0.beta3
+  rb
+  http://weblog.rubyonrails.org/2014/10/30/Rails_3_2_20_4_0_11_4_1_7_and_4_2_0_beta3_have_been_released/
+  A security upgrade related to CVE-2014-7818.
+
+* Rails 4.2.0.beta4
+  rb
+  http://weblog.rubyonrails.org/2014/10/30/Rails-4-2-0-beta4-has-been-released/
+  The beta3 was just a security upgrade, this beta4 contains the real changes towards RC.
+
+* Rubinius 2.3.0
+  rb
+  https://github.com/rubinius/rubinius/releases/tag/v2.3.0
+  A big changelog for this new version of rbx.
+
+* TTY::ProgressBar
+  rb
+  https://github.com/peter-murach/tty-progressbar
+  A flexible progress bars drawing in terminal emulators.
+
+* rdoc-generator-mdoc
+  rb
+  https://github.com/thoughtbot/rdoc-generator-mdoc
+  This generator outputs gem documentation in man format.
+
+* RailsScript
+  js
+  https://github.com/gemgento/rails_script
+  Rails-centric, object oriented, featherweight framework for writing CoffeeScript.
+
+* Dashboards
+  css3
+  https://github.com/keen/dashboards
+  Responsive Dashboard Templates for Bootstrap.
+
+* linux_provision
+  ops
+  https://github.com/shvets/linux_provision
+  Library for provisioning initial setup of Linux computer for Ruby/Rails development.
+
+* OSquery
+  ops
+  http://osquery.io/
+  Use SQL to query low-level operating system information.
+
+* pgweb
+  go
+  https://github.com/sosedoff/pgweb
+  Web-based PostgreSQL database browser written in Go.
+
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+* Adding reentrancy fallback for your Sidekiq workers
+  rb - oct 27
+  http://dev.mensfeld.pl/2014/10/adding-reentrancy-and-a-on-failure-fallback-for-sidekiq-workers/
+  A nice way to implement reentrancy.
+
+* I Went to Haskell and All I Got Was a Pattern Matcher for Ruby
+  rb - oct 27
+  http://dudzik.co/blog/2014/10/27/i-went-on-a-journey-to-haskell-and-all-i-got-was-a-pattern-matcher-for-ruby/
+  Defp is a pattern matcher implementation written for and in ruby.
+
+* Containerization, Security and Trust Models
+  ops - oct 27
+  http://guardtime.com/blog/in-docker-we-trust-containerization-security-and-trust-models
+  New signed builds in docker 1.3 brings the topic of trust and key management.
+
+* Let’s Get Serious About Readability
+  tool - oct 28
+  https://medium.com/bloc-posts/lets-get-serious-about-readability-4e4ce6a9b6c2
+  What makes code readable.
+
+* In search of the perfect JavaScript framework
+  js - oct 28
+  https://dev.opera.com/articles/perfect-javascript-framework/
+  Review of the criteria to take in account when making a choice of js framework.
+
+* jQuery 3.0: The Next Generations
+  js - oct 29
+  http://blog.jquery.com/2014/10/29/jquery-3-0-the-next-generations/
+  How compat will be handled in the next verion os jquery.
+
+* Memoization in Ruby Using Metaprogramming
+  rb - oct 29
+  http://nithinbekal.com/posts/ruby-memoization/
+  Example of memoization with a function that calculates factorial recursively.
+
+* Real World Examples of Rails Engines in Action
+  rb - oct 29
+  http://www.toptal.com/ruby-on-rails/rails-engines-in-the-wild-real-world-examples-of-rails-engines-in-action
+  4 rails engine examined (forem, devise, spree, refinery).
+
+* 4 Fantastic Ways to Set Up State in Minitest
+  rb - oct 29
+  http://chriskottom.com/blog/2014/10/4-fantastic-ways-to-set-up-state-in-minitest/
+  How to add the missing parts for minitest to compete with Rspec.
+
+* What I Learned About Hunting Memory Leaks in Ruby 2.1
+  rb - oct 30
+  http://blog.skylight.io/hunting-for-leaks-in-ruby/
+  Example and resources to optimize ruby programs, checking rbtrace dumps.
+
+* Ruby is about to get red hot. Again.
+  rb - oct 30
+  http://astonj.com/tech/ruby-is-about-to-get-red-hot-again/
+  Various ruby-based solutions to bring ruby everywhere (especially volt and rubyfire seem cool, for web apps).
+
+* How to write code that speaks for itself
+  rb - oct 30
+  https://netguru.co/blog/how-to-write-code-that-speaks-for
+  Self documenting code is code that speaks for itself.
+
+* Feature Flags on Rails
+  rb - oct 30
+  https://www.reinteractive.net/posts/221-feature-flags-on-rails
+  Use the Rollout gem as a way of implementing Feature flags.
+
+* The Best Plugins for Sublime Text
+  tool - oct 30
+  http://ipestov.com/the-best-plugins-for-sublime-text/
+  Subjective but extensive list of ST3 plugins.
+
+* PGP and You
+  tool - oct 31
+  http://robots.thoughtbot.com/pgp-and-you
+  Great primer that enables encrypted communication between individuals (more and more a required concern).
+
+
+Watch
+----------------------------------------------------
+Screencasts and conferences videos, or other video feeds ...
+
+* AtoZ CSS: z-index
+  css3 - oct 30 - 8m
+  http://www.atozcss.com/the-z-index-css-property/
+  Stacking order for DOM elements.
+
+
+Listen
+----------------------------------------------------
+What could be heard last week ..
+
+* Product Hunt Radio 27
+  css3 - oct 28 - 43m
+  http://blog.producthunt.com/post/101173201249/product-hunt-radio-episode-27-hackathon-edition
+  Talking about Hackathons.
+
+* CodePen 025
+  css3 - oct 28 - 36m
+  http://blog.codepen.io/2014/10/28/25-payments/
+  Payments, Stripe, IPN.
+
+* Giant Robots 120
+  web - oct 28 - 54m
+  http://giantrobots.fm/120
+  Open Your World For Commentary (Tom Lehman)
+
+* Ruby5 506
+  rb - oct 28 - 6m
+  http://ruby5.envylabs.com/episodes/543-episode-506-october-28th-2014
+  Pocketsphinx-ruby, Lita, ognivo, Neo4j in rails, rails rumble winners.
+
+* Ruby on Rails Podcast 174
+  rb - oct 29 - 1h11
+  http://5by5.tv/rubyonrails/174
+  Introduction to Ninefold for Rails Hosting.
+
+* RubyRogues 179
+  rb - oct 29 - 1h32
+  http://devchat.tv/ruby-rogues/179-rr-accountability-and-diversity-with-meagan-waller
+  Accountability and Diversity with Meagan Waller.
+
+* Javascript Jabber 131
+  js - oct 29 - 49m
+  http://devchat.tv/js-jabber/131-jsj-conferences-meetups-with-dave-nugent
+  Conferences & Meetups with Dave Nugent.
+
+* The Cloudcast #168
+  ops - oct 29 - 22m
+  http://www.thecloudcast.net/2014/10/the-cloudcast-168-containerized.html
+  Containerized Continuous Delivery.
+
+* The Cloudcast #169
+  ops - oct 29 - 26m
+  http://www.thecloudcast.net/2014/10/the-cloudcast-169-devops-incident.html
+  DevOps Incident Management with BigPanda.
+
+* CenturyLink Labs #19
+  ops - oct 29 - 37m
+  http://centurylinklabs.podomatic.com/entry/2014-10-29T15_15_22-07_00
+  Making Clustered Infra Look Like One Big Server with Mesosphere and Florian Leibert.
+
+* Adventure in angular #14
+  js - oct 30 - 38m
+  http://devchat.tv/adventures-in-angular/014-aia-using-es6-with-angular-with-scott-allen
+  Using ES6 with Angular with Scott Allen.
+
+* Web Platform #16
+  web - nov 1 - 1h09
+  http://thewebplatform.libsyn.com/measures-of-success-in-pair-programming
+  Measures of Success in Pair Programming.
+
+
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a 
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+

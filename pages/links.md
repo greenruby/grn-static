@@ -81,6 +81,7 @@ Those links and resources are used in the weekly collection of information for G
 * <http://ruby5.envylabs.com> (rb) *active bi-weekly*
 * <http://podcasts.thoughtbot.com/giantrobots> (rb/saas/web) *active weekly*
 * <http://devchat.tv/adventures-in-angular> (agular.js) *active weekly*
+* <http://centurylinklabs.podomatic.com/> (ops) *active weekly*
 * <http://blog.producthunt.co/> (saas/startups) *active weekly*
 * <http://thewebplatform.libsyn.com/> (web) *active weekly*
 * <http://revision3.com/haktip> (security) *active weekly*
