@@ -1,0 +1,287 @@
+----------------------------------------------------
+Green Ruby News #092 - nov 9th 2014
+----------------------------------------------------
+
+Edito
+----------------------------------------------------
+My new job is much deeper in devops than before. Gandi really is a great environment for real geeks. Rails and ruby still remains dear to my heart, but now this becomes a side interest for me. I hope I still can keep up with this weekly gathering of links. Some focus may change though. I'm switching now from chef to puppet, and I may have even more interest on devops links. But I will try to keep it balanced. Maybe organize the links gathering a little more collaboratively?
+
+mose - the green ruby editor
+xenor - the informer
+http://greenruby.org
+
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+* TwoFold
+  design
+  http://twofold.com/
+  Website of a design agency, pretty beautiful.
+
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+* Bada55
+  css3
+  http://bada55.io/
+  BADA55.io is about finding the most badass leet words for your CSS hex colors.
+
+* Useful Chrome Extensions for Designers & Developers
+  tool
+  http://codegeekz.com/useful-chrome-extensions-designers-developers/
+  20 chrome extensions you may need.
+
+* Do
+  tool
+  https://do.com/
+  Helps people run productive meetings.
+
+* Stackshare
+  tool
+  http://stackshare.io
+  Discover what top companies are using.
+
+* Cheatography
+  tool
+  http://www.cheatography.com/
+  Cheat sheet generator and repository where you can build and share cheat sheets.
+
+* Pixelapse
+  design
+  https://www.pixelapse.com/
+  Visual version control and collaboration workflow for open source and private design projects.
+
+* Google Container Engine
+  ops
+  https://cloud.google.com/container-engine/
+  Run Docker containers on Google Cloud Platform, powered by Kubernetes.
+
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+* Ruby 2.2 packages for Ubuntu
+  rb
+  http://brightbox.com/blog/2014/11/03/ruby-2-2-packages-for-ubuntu/
+  Brightbox packaged ruby 2.2.0 preview 1.
+
+* Shoryuken
+  rb
+  https://github.com/phstc/shoryuken
+  AWS SQS thread based message processor for Ruby.
+
+* Pronto
+  rb
+  https://github.com/mmozuras/pronto
+  Quick automated code review of your changes.
+
+* RailsStats
+  rb
+  https://github.com/bleonard/rails_stats
+  See stuff about a Rails app.
+
+* Close Enough
+  rb
+  http://ruby-jokes.github.io/close_enough/
+  For dyslexic coders. Yes, it's a joke.
+
+* Twemoji
+  js
+  https://blog.twitter.com/2014/open-sourcing-twitter-emoji-for-everyone
+  Open sourcing Twitter emoji for everyone.
+
+* Stager
+  ops
+  https://github.com/localytics/stager-server
+  Automatically build staging environments from GitHub pull requests.
+
+* Materialize
+  css3
+  http://dogfalo.github.io/materialize/index.html
+  A modern responsive front-end framework based on Material Design.
+
+* ShadowCrypt
+  tool
+  http://shadowcrypt-release.weebly.com/
+  Encrypt your social communications.
+
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+* Getting Started with Hadoop
+  tool - nov 3
+  http://www.airpair.com/hadoop/posts/getting-started-with-hadoop
+  Basics of what Hadoop is, what options are out there, setting up a basic cluster.
+
+* Why your code is so hard to understand
+  tool - nov 3
+  https://medium.com/on-coding/why-your-code-is-so-hard-to-understand-83057c115a2b
+  Why my code makes perfect sense while I am writing it but looks like gibberish when I go back to it later.
+
+* Benchmarking Rack Middleware
+  rb - nov 3
+  https://engineering.heroku.com/blogs/2014-11-03-benchmarking-rack-middleware
+  If we can't measure something, we can't make it fast.
+
+* 'respond_to' Without All the Pain
+  rb - nov 3
+  http://www.justinweiss.com/blog/2014/11/03/respond-to-without-all-the-pain/
+  If you want to return different information for different formats, you have a few options.
+
+* Rails Rumble Gem Teardown
+  rb - nov 4
+  https://www.dwellable.com/blog/Rails-Rumble-Gem-Teardown
+  166 Gemfiles analyzed to see what tools rails rumblers have used.
+
+* Fluentd Goes Gopher
+  go - nov 4
+  http://www.fluentd.org/blog/fluentd-goes-gopher
+  Fluentd forwarder now will be written in go (like logstash forwarder, interestingly).
+
+* AngularJS: The Bad Parts
+  js - nov 5
+  http://larseidnes.com/2014/11/05/angularjs-the-bad-parts/
+  Opinion: Whatever the reason is for Angulars popularity, it isn’t that it’s a great framework.
+
+* The Ruby Ecosystem for New Rubyists
+  rb - nov 6
+  http://www.sitepoint.com/ruby-ecosystem-new-rubyists/
+  Review of various initial ruby tools that newcomers to ruby should be aware about.
+
+* Rust and Go
+  tool - nov 7
+  https://medium.com/@adamhjk/rust-and-go-e18d511fbd95
+  Brief comparison between Rust and Go, picking up on some of the nice features in both.
+
+* Lazy Refactoring
+  rb - nov 7
+  http://robots.thoughtbot.com/lazy-refactoring
+  Example of step by step refactoring using lazy enumerators.
+
+* State Machines in Ruby
+  rb - nov 7
+  http://notahat.com/2014/11/07/state-machines-in-ruby.html
+  Example of step by step refactoring using lazy enumerators.
+
+* Layout Math with CSS: Understanding calc
+  css3 - nov 8
+  https://demosthenes.info/blog/953/Layout-Math-with-CSS-Understanding-calc
+  A couple of examples of usage of calc() in css.
+
+* PID tracking in modern init systems
+  ops - nov 9
+  http://spootnik.org/entries/2014/11/09_pid-tracking-in-modern-init-systems.html
+  Two ways of enabling daemons to coexist with upstart and systemd.
+
+
+Watch
+----------------------------------------------------
+Screencasts and conferences videos, or other video feeds ...
+
+* Time Zones using the local_time Gem
+  rb - nov 6 - 12m
+  https://gorails.com/episodes/forum-time-zones-with-local_time
+  A look into times, timezones, and how to handle it better with javascript.
+
+* DevOps Enterprise Summit 2014
+  ops - nov 6 - 27 videos
+  https://www.youtube.com/user/DOES2014
+  Recordings of talks from the DevOps Enterprise Summit, held October 21 - 23, 2014.
+
+
+Listen
+----------------------------------------------------
+What could be heard last week ..
+
+* Giant Robots 121
+  web - nov 3 - 32m
+  http://giantrobots.fm/121
+  Prolificness (Allison House)
+
+* Ruby5 507
+  rb - nov 4 - 7m
+  http://ruby5.envylabs.com/episodes/544-episode-507-november-4th-2014
+  Rubinius 2.3.0, Zopfli-ffi, Benchmarking Rack, Enums and Queries, Ruby Garbage Collector, Hunting for Leaks in Ruby.
+
+* CenturyLink Labs #20
+  ops - nov 4 - 35m
+  http://centurylinklabs.podomatic.com/entry/2014-11-04T09_00_00-08_00
+  Geeking Out On APIs With Wynn Netherland from GitHub.
+
+* NodeUp 75
+  js - nov 4 - 52m
+  http://nodeup.com/seventyfive
+  A nodeforward show.
+
+* Food Fight Show 83
+  ops - nov 4 - 52m
+  http://foodfightshow.org/2014/11/devopsdays-belgium-2014.html
+  DevOpsDays Belgium 2014.
+
+* The ShipShow 51
+  ops - nov 4 - 1h
+  http://theshipshow.com/2014/11/five-years-of-devops-and-its-days/
+  Five Years of DevOps (and Its Days).
+
+* RubyRogues 180
+  rb - nov 5 - 59m
+  http://devchat.tv/ruby-rogues/180-rr-barriers-to-new-developers-with-kinsey-ann-durham
+  Barriers to New Developers with Kinsey Ann Durham.
+
+* Javascript Jabber 132
+  js - nov 5 - 58m
+  http://devchat.tv/js-jabber/132-jsj-mv-frameworks-with-craig-mckeachie
+  MV Frameworks with Craig McKeachie.
+
+* Adventure in angular #15
+  js - nov 6 - 34m
+  http://devchat.tv/adventures-in-angular/015-aia-angular-and-kendo-ui-with-jesse-liberty
+  Angular and Kendo UI with Jesse Liberty.
+
+* Web Platform #17
+  js - nov 6 - 1h06
+  http://thewebplatform.libsyn.com/the-famous-vision-of-mobile-first
+  The Famo.us vision of 'Mobile First'.
+
+* Ruby5 508
+  rb - nov 7 - 6m
+  http://ruby5.envylabs.com/episodes/545-episode-508-november-7th-2014
+  Rails Rumble Gem, Shopify admin, 4 ways to setup minitest, Rails with Ember.
+
+* Ruby on Rails Podcast 175
+  rb - nov 7 - 1h06
+  http://5by5.tv/rubyonrails/175
+  Carlos Souza from Code School.
+
+* The Cloudcast #170
+  ops - nov 8 - 35m
+  http://www.thecloudcast.net/2014/11/the-cloudcast-170-reigniting-of-cloud.html
+  Reigniting of the Cloud Wars.
+
+
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a 
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+

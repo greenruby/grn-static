@@ -97,6 +97,7 @@ Those links and resources are used in the weekly collection of information for G
 * <http://www.arresteddevops.com/> (ops) *active semi-weekly*
 * <http://blog.codepen.io/> (css/js) *active semi-weekly*
 * <http://nodeup.com/> (js) *active semi-weekly*
+* <http://bikeshed.fm> (ruby, webdev) *active bi-weekly*
 * <http://crypto-gram.libsyn.com/> (security) *active monthly*
 * <http://foodfightshow.org/> (ops/chef) *active monthly*
 * <http://theshipshow.com/> (devops) *active monthly*
