@@ -1,0 +1,267 @@
+----------------------------------------------------
+Green Ruby News #093 - nov 16th 2014
+----------------------------------------------------
+
+Edito
+----------------------------------------------------
+This newsletter is sent from Marseille, gonna catch a train back to Paris now.
+
+mose - the green ruby editor
+xenor - the informer
+http://greenruby.org
+
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+* Teye
+  design
+  http://teye.denkwerk.com
+  Graphical presentation of a communication device.
+
+* Nerisson
+  design
+  http://www.nerisson.fr/
+  Very graphical freelance website.
+
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+* Ruby on Rails ActiveRecord Model Visualizer
+  rb
+  http://rarmv.herokuapp.com/
+  Draws an image with relationships between rails models.
+
+* Crypton
+  js
+  https://crypton.io/
+  So the server doesn't know the contents it's storing on behalf of users.
+
+* Ocean
+  design
+  http://ocean.ink/
+  Community of designers sharing feedback..
+
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+* Ruby 2.1.5
+  rb
+  https://www.ruby-lang.org/en/news/2014/11/13/ruby-2-1-5-is-released/
+  This is a security release (CVE-2014-8090). Upgrades are also available on 1.9.3 and 2.0.0 branches.
+
+* Pakyow
+  rb
+  http://pakyow.com/
+  Open-source platform for the modern web, like an alternative to rails.
+
+* Ru
+  rb
+  https://github.com/tombenner/ru
+  Brings Ruby's expressiveness, cleanliness, and readability to the command line.
+
+* Scribble
+  rb
+  https://github.com/stefankroes/scribble/
+  Client facing template language similar to Liquid build in Ruby.
+
+* Maxitest
+  rb
+  https://github.com/grosser/maxitest
+  Minitest + all the features you always wanted.
+
+* ThemesOnRails
+  rb
+  https://github.com/yoolk/themes_on_rails
+  Adds multi themes support to your Rails 3/4 application.
+
+* SlimerJS
+  js
+  http://slimerjs.org/
+  Interact with a web page through an external JS script (for testing, too).
+
+* Material ui
+  css3
+  http://material-ui.com
+  CSS Framework and a Set of React Components that Implement Google's Material Design.
+
+* Rancher
+  ops
+  https://github.com/rancherio/rancher
+  Portable AWS-style infrastructure service for Docker.
+
+* Bosun
+  ops
+  http://bosun.org/
+  An advanced, open-source monitoring and alerting system by Stack Exchange.
+
+* Dockership
+  ops
+  http://docker.sh/ip/
+  Tool for easily deploying Docker containers to one or multiple Docker servers.
+
+* Raigad
+  ops
+  https://github.com/Netflix/Raigad
+  Process/tool that runs alongside Elasticsearch to automate various things.
+
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+* Rubinius 3.0 - Part 1: The Rubinius Team
+  rb - nov 10
+  http://rubini.us/2014/11/10/rubinius-3-0-part-1-the-rubinius-team/
+  First article in a serie of 5, published this week, all about rubinius 3.
+
+* Fun With the 'method' Method
+  rb - nov 10
+  http://www.justinweiss.com/blog/2014/11/10/fun-with-the-method-method/
+  Methods as easy as lambdas.
+
+* Natural Language Parsing with Ruby
+  rb - nov 11
+  http://blog.glaucocustodio.com/2014/11/10/natural-language-parsing-with-ruby/
+  Using treetop gem.
+
+* Making Ruby Faster
+  rb - nov 12
+  http://omniref.com/blog/blog/2014/11/12/making-ruby-faster/
+  Some of the optimizations going on deep inside the guts of Ruby interpreter.
+
+* Prevent MySQL deadlocks in your Rails application
+  rb - nov 13
+  http://brightbox.com/blog/2014/11/13/preventing-mysql-deadlocks/
+  Some good advices and explanations about deadlocks and how to avoid them.
+
+* Clojure Loops in Ruby
+  rb - nov 13
+  http://www.sitepoint.com/clojure-loops-ruby/
+  Someone decided to port this new Clojure loop into Ruby, and explains how.
+
+* 20 Free Data Visualization Tools
+  rb - nov 13
+  http://codegeekz.com/free-data-visualization-tools/
+  Quite a good list.
+
+* AWS EC2 Container Service
+  ops - nov 13
+  https://aws.amazon.com/blogs/aws/cloud-container-management/
+  A lot of new things this week at AWS, this is only one of them.
+
+* Speed Up JavaScript Capybara Specs
+  js - nov 14
+  http://robots.thoughtbot.com/speed-up-javascript-capybara-specs-by-blacklisting-urls
+  ... by Blacklisting URLs.
+
+* 7 Unique Ways To Practice Your Coding Skills
+  tool - nov 14
+  http://www.makeuseof.com/tag/7-unique-ways-practice-coding-skills/
+  Some innovative websites you may already know, or not.
+
+* Shorter, simpler code with Forwardable
+  rb - nov 15
+  http://www.saturnflyer.com/blog/jim/2014/11/15/shorter-simpler-code-with-forwardable/
+  And use of the delegate method.
+
+
+Watch
+----------------------------------------------------
+Screencasts and conferences videos, or other video feeds ...
+
+* Web Components - Custom Elements 
+  html5 - nov 11 - 8m
+  https://www.youtube.com/watch?v=iVJA-lGkEFw
+  How to work with Custom Elements.
+
+* Gorails 32
+  rb - nov 14 - 17m
+  https://gorails.com/episodes/markdown-emoji-with-html-pipeline-gem
+  Markdown and Emoji with the html-pipeline gem.
+
+
+Listen
+----------------------------------------------------
+What could be heard last week ..
+
+* Giant Robots 122
+  rb - nov 10 - 50m
+  http://giantrobots.fm/122
+  Ruby, the Weird Way (Britt Ballard, Caleb Thompson, Richard Schneeman, Terence Lee)
+
+* Ruby5 509
+  rb - nov 11 - 5m
+  http://ruby5.envylabs.com/episodes/546-episode-509-november-11-2014
+  CLI gems, autoload paths, Ruby and Rails releases, static analysis.
+
+* TheChangelog 130
+  rb - nov 11 - 1h05
+  http://5by5.tv/changelog/130
+  Sidekiq, Inspeqtor and OSS Products With Mike Perham.
+
+* RubyRogues 180
+  rb - nov 12 - 1h15
+  http://devchat.tv/ruby-rogues/181-rr-rubyinstaller-with-luis-lavena
+  RubyInstaller with Luis Lavena.
+
+* Javascript Jabber 133
+  js - nov 12 - 53m
+  http://devchat.tv/js-jabber/133-jsj-remote-work-with-mike-hostetler
+  Remote Work with Mike Hostetler.
+
+* Arrested Devops 24
+  ops - nov 12 - 1h06
+  http://www.arresteddevops.com/git-101/
+  Git 101.
+
+* Adventure in angular #16
+  js - nov 13 - 54m
+  http://devchat.tv/adventures-in-angular/016-aia-ng-1-3-and-2-0-with-brad-green-igor-minar-and-mi-ko-hevery
+  NG 1.3 and 2.0 with Brad Green, Igor Minar, and Miško Hevery.
+
+* The Cloudcast #171
+  ops - nov 13 - 22m
+  http://www.thecloudcast.net/2014/11/the-cloudcast-171-evolving-api-economy.html
+  Evolving API Economy & Hackathons .
+
+* Ruby5 510
+  rb - nov 14 - 5m
+  http://ruby5.envylabs.com/episodes/547-episode-510-november-14th-2014
+  Tail call optimizations, keeping migrations healthy, how raptor is faster, psychology of SAAS products,Ru.
+
+* Ruby on Rails Podcast 176
+  rb - nov 14 - 58m
+  http://5by5.tv/rubyonrails/176
+  Rails Rumble 2014 Solo Winner - Flora Saramago .
+
+* NodeUp 76
+  js - nov 14 - 1h18
+  http://nodeup.com/seventysix
+  A structuring applications show.
+
+
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a 
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+
