@@ -1,0 +1,278 @@
+----------------------------------------------------
+Green Ruby News #094 - nov 23th 2014
+----------------------------------------------------
+
+Edito
+----------------------------------------------------
+I'm still on the move, this weekend at Rennes.
+
+mose - the green ruby editor
+xenor, tysliu - the informers
+
+http://greenruby.org
+
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+* Nothing but thieves
+  design
+  http://www.nbthieves.com/
+  Simple but graphical band website.
+
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+* Clean Ruby
+  rb
+  http://clean-ruby.com/
+  (book) Write code that announces how it works with the techniques in this book
+
+* Stream
+  tool
+  https://getstream.io/
+  Build scalable newsfeeds & activity.
+
+* Komments
+  tool
+  https://komments.net/
+  Simple comment embedding, an alternative to discuss ?
+
+* Crypton
+  js
+  https://crypton.io/
+  So the server doesn't know the contents it's storing on behalf of users.
+
+* Ocean
+  design
+  http://ocean.ink/
+  Community of designers sharing feedback..
+
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+* Rails 3.2.21, 4.0.12, and 4.1.8
+  rb
+  http://weblog.rubyonrails.org/2014/11/17/Rails-3-2-21-4-0-12-and-4-1-8-have-been-released/
+  Security fix version, note that 4.0.11.1 and 4.1.7.1 also are available for 'just the fix'.
+
+* Bh - Bootstrap Helpers
+  rb
+  http://fullscreen.github.io/bh/
+  Include Bootstrap components in your Ruby apps with short, documented, tested helpers.
+
+* SimonSays
+  rb
+  https://github.com/SimplyBuilt/SimonSays
+  A simple, declarative, role-based access control system for Rails.
+
+* ApiView
+  rb
+  https://github.com/mindreframer/api_view
+  Fast and small Object Serializer gem.
+
+* Hansi
+  rb
+  https://github.com/rkh/hansi
+  Your Hipster ANSI color library.
+
+* ReadActivity
+  rb
+  https://github.com/FeGs/read_activity
+  Supports read/unread status (including read_at), and more.
+
+* Stream Rails
+  rb
+  https://github.com/GetStream/Stream-Rails
+  Build activity feeds, newsfeeds and activity streams.
+
+* interact.js
+  js
+  https://www.ruby-lang.org/en/news/2014/11/13/ruby-2-1-5-is-released/
+  JavaScript drag and drop, resizing and multi-touch gestures with inertia and snapping.
+
+* MetricsGraphics.js
+  js
+  http://metricsgraphicsjs.org/
+  Library built on top of D3 that is optimized for visualizing and laying out time-series data.
+
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+* Difference Between various ways to launch irb
+  rb - nov 18
+  http://www.justinweiss.com/blog/2014/11/17/what-are-the-differences-between-irb/
+  There are a lot of ways to launch a Ruby or Rails console.
+
+* Creating Rails Active Record Validation Contexts With Inheritance
+  rb - nov 18
+  http://brandonhilkert.com/blog/creating-rails-active-record-validation-contexts-with-inheritance/?utm_source=rubyflow&utm_medium=social&utm_campaign=ar-contexts
+  Description of a technique for validations code organization.
+
+* Massive Garbage Collection Speedup in Ruby 2.2
+  rb - nov 18
+  https://www.omniref.com/blog/blog/2014/11/18/ko1-at-rubyconf-2014-massive-garbage-collection-speedup-in-ruby-2-dot-2
+  Some enhancements that are going to be in Ruby 2.2.
+
+* AWS Lambda Will Help Create a New Normal
+  rb - nov 18
+  http://thenewstack.io/aws-lambda-is-a-step-towards-creating-a-new-normal/
+  Some enhancements that are going to be in Ruby 2.2.
+
+* Specifying Ruby on Rails Controllers with RSpec
+  rb - nov 19
+  http://woss.name/articles/specifying-rails-controllers-with-rspec/
+  Sharing about rspec in the form of a worked example.
+
+* Writing DSLs in Ruby without monkeypatching Object
+  rb - nov 19
+  http://pragtob.wordpress.com/2014/11/19/writing-dsls-in-ruby-without-monkeypatching-object/
+  write beautiful DSLs without polluting every Ruby object with your methods.
+
+* Are Your Cache-Control Directives Doing What They Are Supposed to Do?
+  web - nov 19
+  http://techblog.thescore.com/2014/11/19/are-your-cache-control-directives-doing-what-they-are-supposed-to-do/
+  Recap on various params impacting cache strategies in HTTP.
+
+* Mini-chat with Rails and Server-Sent Events
+  rb - nov 20
+  http://www.sitepoint.com/mini-chat-rails-server-sent-events/
+  Example using Server Side EVents to replace websockets on a tutorial chat rails app.
+
+* Unicorn Unix Magic Tricks
+  rb - nov 20
+  http://thorstenball.com/blog/2014/11/20/unicorn-unix-magic-tricks/
+  Post based on the talk at the Arrrrcamp conf, best post about unicorn ever.
+
+* The Basics of Node.js Streams
+  js - nov 20
+  http://www.sitepoint.com/basics-node-js-streams/
+  Explore Streams in detail and understand how they can simplify I/O.
+
+* Sass Multiple Arguments, Lists or Arglist
+  css3 - nov 20
+  http://www.sitepoint.com/sass-multiple-arguments-lists-or-arglist/
+  Where to use list, where to use arglist, in functions and mixins arguments.
+
+* Raptor optimizations
+  rb - nov 21
+  http://www.rubyraptor.org/pointer-tagging-linked-string-hash-tables-turbocaching-and-other-raptor-optimizations/
+  How they made Raptor fast, the geeky details.
+
+* 15 Best jQuery File Upload Plugins
+  js - nov 22
+  http://codegeekz.com/best-jquery-file-upload-plugins/
+  Easily add file upload feature to web applications.
+
+
+Watch
+----------------------------------------------------
+Screencasts and conferences videos, or other video feeds ...
+
+* ArrrrCamp 2014 Schedule
+  rb - nov 14 - 14 videos
+  http://confreaks.com/events/arrrrcamp2014
+  Videos from early october arrcamp.
+
+* Sysadmincasts #39
+  ops - nov 17 - 11m
+  https://sysadmincasts.com/episodes/39-cli-monday-how-to-keep-your-ssh-sessions-alive
+  CLI Monday: How to Keep Your SSH Sessions Alive.
+
+* CSS and the Critical Path 
+  css3 - nov 20 - 23m
+  https://www.youtube.com/watch?v=_0Fk85to6hA&list=UUzoVCacndDCfGDf41P-z0iA
+  Patrick Hamann at CSSconf EU 2014.
+
+* Gorails 33
+  rb - nov 21 - 24m
+  https://gorails.com/episodes/omniauth-twitter-sign-in
+  Sign In With Twitter using Omniauth and the Twitter gem.
+
+
+Listen
+----------------------------------------------------
+What could be heard last week ..
+
+* Web Platform Podcast 18
+  ops - nov 17 - 50m
+  http://thewebplatform.libsyn.com/ortc-web-rtc-deep-dive-with-tsahil-levent-levi
+  ORTC & WebRTC Deep Dive with Tsahi Levent-Levi.
+
+* The bike shed #2
+  rb - nov 17 - 35m
+  http://bikeshed.fm/2
+  Rails 4.2.
+
+* Food Fight Show 84
+  ops - nov 17 - 59m
+  http://foodfightshow.org/2014/11/apache-kafka.html
+  Apache Kafka.
+
+* Giant Robots 123
+  rb - nov 18 - 24m
+  http://giantrobots.fm/1223
+  Don't Call It a Codecation (Chris Hunt)
+
+* Ruby5 511
+  rb - nov 18 - 6m
+  http://ruby5.envylabs.com/episodes/548-episode-511-november-18th-2014
+  Ruby 2.1.5,  Scribble, Curly, Rubysierung, Minitest-Reporters.
+
+* TheChangelog 131
+  js - nov 18 - 1h08
+  http://5by5.tv/changelog/131
+  The Road to Ember 2.0 with Tom Dale and Yehuda Katz.
+
+* RubyRogues 182
+  rb - nov 19 - 1h05
+  http://devchat.tv/ruby-rogues/182-rr-keeping-libraries-and-utilities-small-and-simple-with-michel-martens
+  Keeping Libraries and Utilities Small and Simple with Michel Martens.
+
+* Javascript Jabber 134
+  js - nov 19 - 39m
+  http://devchat.tv/js-jabber/134-jsj-quilljs-with-jason-chen
+  Quilljs with Jason Chen.
+
+* Adventure in angular #17
+  js - nov 20 - 31m
+  http://devchat.tv/adventures-in-angular/017-aia-atscript-with-mi-ko-hevery
+  AtScript with Miško Hevery.
+
+* Ruby5 512
+  rb - nov 21 - 5m
+  http://ruby5.envylabs.com/episodes/549-episode-512-november-21st-2014
+  RubyConf 2014, accelerating Rails, RubyGems.org gets redesigned, Heroku HTTP Git, Rails released.
+
+* Ruby on Rails Podcast 177
+  rb - nov 21 - 47m
+  http://5by5.tv/rubyonrails/177
+  RefactorCop - Winner of the 2014 Rails Rumble.
+
+
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a 
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+
