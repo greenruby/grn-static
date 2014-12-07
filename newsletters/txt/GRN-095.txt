@@ -1,0 +1,268 @@
+----------------------------------------------------
+Green Ruby News #095 - nov 30th 2014
+----------------------------------------------------
+
+Edito
+----------------------------------------------------
+This is a quick edition. Enjoy number 95 from Paris.
+
+mose - the green ruby editor
+xenor, simon - the informers
+
+http://greenruby.org
+
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+* JS conf Argentina
+  design
+  https://www.jsconfar.com/
+  Just a pretty good looking conf website.
+
+* Rolex Awards
+  design
+  http://magazine.rolexawards.com/
+  Very nice scrolling overall.
+
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+* Pixactly
+  tool
+  http://pixact.ly/
+  Tests how well you know your pixels.
+
+* Exception Trap
+  tool
+  https://exceptiontrap.com/
+  Ruby on Rails and PHP Error Tracking and Exception Monitoring.
+
+* Snipt
+  tool
+  https://snipt.net/
+  The publishing platform for coders.
+
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+* Ruby 2.2.0-preview2
+  rb
+  https://www.ruby-lang.org/en/news/2014/11/28/ruby-2-2-0-preview2-released/
+  Many new features and improvements.
+
+* Rails 4.2.0.rc1
+  rb
+  http://weblog.rubyonrails.org/2014/11/28/Rails-4-2-0-rc1-has-been-released/
+  Final 4.2 is almost ready.
+
+* Ronin
+  rb
+  http://ronin-ruby.github.io/
+  Ruby platform for vulnerability research and exploit development.
+
+* Refile
+  rb
+  https://github.com/elabs/refile
+  Ruby file uploads, take 3. By the original author of Carrierwave.
+
+* ScrollMagic
+  js
+  http://janpaepke.github.io/ScrollMagic/
+  jQuery Plugin for magical scroll interactions.
+
+* Charted
+  js
+  https://github.com/mikesall/charted
+  A charting tool that produces automatic, shareable charts from any data file.
+
+* Ruxit
+  js
+  http://blog.ruxit.com/new-kid-node-js-monitoring/
+  Automatic monitoring of Node.js applications.
+
+* Ok Go Web Template
+  go
+  https://github.com/runemadsen/ok-go
+  A template for golang web applications inspired by Ruby on Rails.
+
+* Logspout
+  go
+  https://github.com/progrium/logspout
+  Log routing for Docker container logs.
+
+* LittleChef
+  ops
+  https://github.com/tobami/littlechef
+  Cook with Chef without a Chef Server.
+
+* Docker 1.3.2
+  ops
+  https://docs.docker.com/release-notes/#version-132
+  Some security fixes.
+
+* CotEditor
+  tool
+  http://coteditor.com/
+  Opensource Plain-Text Editor for OS X.
+
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+* Challenges faced in a little larger Rails API project
+  rb - nov 23
+  http://labs.kollegorna.se/blog/2014/11/rails-api/
+  Inside view on a rails API project.
+
+* Each... Or Else
+  rb - nov 24
+  http://www.justinweiss.com/blog/2014/11/24/each-dot-dot-dot-or-else/
+  Some thoughts about calling each on empty objects.
+
+* Unraveling String Key Performance in Ruby 2.2
+  rb - nov 24
+  http://www.sitepoint.com/unraveling-string-key-performance-ruby-2-2/
+  Optimizations added in Ruby 2.2.0 when working with a Hash and string keys.
+
+* CoffeeScript? TypeScript? How about JavaScript?
+  js - nov 24
+  https://medium.com/innoarchitech-innovation-architecture-technology/coffeescript-typescript-how-about-javascript-8d4469b8a906
+  Do yourself a favor and master JavaScript first.
+
+* Fixing Fixtures
+  rb - nov 25
+  http://chriskottom.com/blog/2014/11/fixing-fixtures/
+  Long post about how to enjoy fixtures revival.
+
+* As programmers why we never finish our projects
+  tool - nov 25
+  http://programmer-hek.blogspot.fr/2014/11/as-programmers-why-we-never-finish-our.html
+  Tips and tricks for getting projects done.
+
+* Dockerising a Rails App
+  rb - nov 26
+  http://woss.name/articles/dockerising-a-rails-app/
+  Long post about how to enjoy fixtures revival.
+
+* Distributed Configuration, Dark Launching Using Consul
+  ops - nov 26
+  http://code.hootsuite.com/distributed-configuration-management-and-dark-launching-using-consul/
+  Hootsuite experience with implementing Consul to fit their need.
+
+* Let's Simplify Ruby
+  rb - nov 27
+  http://collectiveidea.com/blog/archives/2014/11/27/lets-simplify-ruby/
+  The flip flop operator wakes up old trends.
+
+* Async jobs between Go and Ruby
+  go - nov 28
+  http://blog.appsdeck.eu/post/103797147978/async-jobs-between-go-and-ruby
+  Go-Workers is a Sidekiq-compatible tool to handle jobs with Go, using almost the same DSL.
+
+* Elasticsearch Cluster Setup
+  ops - nov 29
+  http://blog.9bplus.com/elasticsearch-cluster-setup-extended-notes/
+  Experience with setting up an ES cluster, explained.
+
+* Scaling Docker with Kubernetes
+  ops - nov 29
+  http://www.infoq.com/articles/scaling-docker-with-kubernetes
+  Diving into an example of usage of kubernetes for containers management.
+
+
+Watch
+----------------------------------------------------
+Screencasts and conferences videos, or other video feeds ...
+
+* Sysadmincasts #40
+  ops - nov 27 - 11m
+  https://sysadmincasts.com/episodes/40-simple-project-planning-for-sysadmins-part-1-of-3
+  Simple Project Planning for Sysadmins.
+
+
+Listen
+----------------------------------------------------
+What could be heard last week ..
+
+* Giant Robots 124
+  rb - nov 24 - 32m
+  http://giantrobots.fm/124
+  Maintaining Your Legacy (Scott Ford)
+
+* CodePen 27
+  web - nov 24 - 37m
+  http://blog.codepen.io/2014/11/24/027-scaling/
+  Scaling.
+
+* Ruby5 513
+  rb - nov 25 - 6m
+  http://ruby5.envylabs.com/episodes/550-episode-513-november-25th-2014
+  Statically Typed Ruby, flip flop operator, Ferry, speeding up Capybara, Ruby meet up resources.
+
+* Web Platform Podcast 19
+  js - nov 25 - 47m
+  http://thewebplatform.libsyn.com/nodejs-application-security
+  Node.js Application Security.
+
+* RubyRogues 183
+  rb - nov 26 - 1h01
+  http://devchat.tv/ruby-rogues/183-rr-consequences-of-technology-with-ben-hammersley
+  Consequences of Technology with Ben Hammersley.
+
+* Javascript Jabber 135
+  js - nov 26 - 54m
+  http://devchat.tv/js-jabber/135-jsj-smallest-federated-wiki-with-ward-cunningham
+  Smallest Federated Wiki with Ward Cunningham.
+
+* Rails refactoring podcast #2
+  rb - nov 27 - 34m
+  http://rails-refactoring.com/podcast/
+  The Rails Way, rails DNA, rails community history.
+
+* Adventure in angular #18
+  js - nov 27 - 35m
+  http://devchat.tv/adventures-in-angular/018-aia-style-guides
+  Style Guides.
+
+* NodeUp #77
+  js - nov 27 - 1h23
+  http://nodeup.com/seventyseven
+  A testing show at campjs.
+
+* The bike shed #3
+  js - nov 28 - 25m
+  http://bikeshed.fm/3
+  Flipping the Script.
+
+* TheChangelog 132
+  js - nov 28 - 58m
+  http://5by5.tv/changelog/132
+  Buckets CMS on Node.js with Dave Kaneda.
+
+
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a 
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+

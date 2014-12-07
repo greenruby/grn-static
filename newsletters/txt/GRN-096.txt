@@ -1,0 +1,278 @@
+----------------------------------------------------
+Green Ruby News #096 - dec 7th 2014
+----------------------------------------------------
+
+Edito
+----------------------------------------------------
+Here is another week of links. Pay some attention to the rubyconf videos that were published this week. Hey thanks xenor and simon for your help in links gathering in the last few weeks. As I'm still in France and on the move, and my time is scarce. But I'll be back to Taiwan next week.
+
+mose - the green ruby editor
+xenor, simon - the informers
+
+http://greenruby.org
+
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+* Qards
+  design
+  http://designmodo.com/qards/
+  Nice design.
+
+* The Numbers project
+  design
+  http://numbersproj.com/
+  Playing with numbers.
+
+* The DNA project
+  design
+  http://jviewz.com/
+  Very advanced multimedia experiment.
+
+* Deviantart relooking
+  design
+  http://spyed.deviantart.com/journal/Boldly-Facing-The-Future-498282387
+  The new look of devinatart.
+
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+* SecCasts
+  rb
+  https://seccasts.com/mror
+  Free screencasts about web security, especially rails app.
+
+* CSS Specificity Graph Generator
+  rb
+  http://jonassebastianohlsson.com/specificity-graph/
+  Stylesheet analysis tool.
+
+* Learn Ruby on Rails
+  rb
+  http://www.amazon.com/dp/B00QK2T1SY
+  (book) a solid start on Ruby on Rails web development by Daniel Kehoe.
+
+* Forward
+  tool
+  https://forwardhq.com/
+  v2 of this forwarder service, shareable URL for your local dev site.
+
+* Nibbler
+  web
+  http://nibbler.silktide.com/
+  Website analyzer and report generator.
+
+* Devops Bookmarks
+  ops
+  http://www.devopsbookmarks.com/
+  Discover tools and frameworks in the DevOps landscape.
+
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+* Rails 4.2.0.rc2
+  rb
+  http://weblog.rubyonrails.org/2014/12/5/Rails-4-2-0-rc2-has-been-released/
+  Rails 4.2 is almost there.
+
+* ruby-prof-flamegraph
+  rb
+  https://github.com/oozou/ruby-prof-flamegraph
+  Easily find bottlenecks in your Ruby code.
+
+* X Ray Machine
+  rb
+  https://github.com/MadRabbit/x-ray-machine
+  A logger/profiler that helps you to track heavy calls in rails apps.
+
+* Dashboards
+  css3
+  http://keen.github.io/dashboards/
+  Responsive dashboard templates for Bootstrap.
+
+* MozBrick
+  js
+  http://mozbrick.github.io/
+  Collection of UI components designed for the easy and quick building of web application.
+
+* Rocket
+  ops
+  https://github.com/coreos/rocket
+  App Container runtime, alternative to docker.
+
+* Golang Lib for DevOps
+  ops
+  https://github.com/mindreframer/golang-devops-stuff
+  A nice collection of go libs for devops.
+
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+* Better Globals With a Tiny ActiveSupport Module
+  rb - dec 1
+  http://www.justinweiss.com/blog/2014/12/01/better-globals-with-a-tiny-activesupport-module/
+  Sometimes, a global in the right place can make your code a lot simpler.
+
+* Introduction to Service Worker
+  js - dec 1
+  http://www.html5rocks.com/en/tutorials/service-worker/introduction/
+  A service worker is a script that is run by your browser in the background, separate from a web page.
+
+* Automating CSS Regression Testing
+  css3 - dec 1
+  http://css-tricks.com/automating-css-regression-testing/
+  Breaking CSS is easy, testing it is hard.
+
+* Clipping and Masking in CSS
+  css3 - dec 2
+  http://css-tricks.com/clipping-masking-css/
+  Used to hide some parts of elements and show other parts.
+
+* A Point On MVC And Architecture
+  tool - dec 2
+  http://blog.ircmaxell.com/2014/12/a-point-on-mvc-and-architecture.html?m=1
+  Does your project really need a MVC framework?
+
+* CoreOS Calls Docker 'Fundamentally Flawed', Releases Prototype Alternative
+  ops - dec 2
+  http://thenewstack.io/coreos-calls-docker-fundamentally-flawed-releases-prototype-alternative/
+  CoreOS on Monday released a prototype alternative on GitHub called Rocket.
+
+* Top 15 JavaScript Libraries for December 2014
+  js - dec 3
+  http://codegeekz.com/top-15-javascript-libraries-december-2014/
+  Great selection of recent js libs.
+
+* A Guide to Caching Your Rails Application With Fastly
+  rb - dec 5
+  http://robots.thoughtbot.com/a-guide-to-caching-your-rails-application-with-fastly
+  Fastly is a content delivery network (CDN).
+
+* RailsBricks: Start Faster with Rails
+  rb - dec 5
+  http://www.sitepoint.com/railsbricks-start-faster-rails/
+  Gem that enables you to create Rails apps much faster by automating mundane setup tasks.
+
+* valid , valid? , valid!
+  rb - dec 5
+  https://redbooth.com/engineering/technical/valid-valid-valid
+  Some interesting Ruby validation techniques.
+
+* Mootor, an HTML5 Framework for Mobile Development
+  mobile - dec 5
+  http://www.sitepoint.com/mootor-html5-framework-mobile-development/
+  HTML5 frameowrk for mobile development.
+
+
+Watch
+----------------------------------------------------
+Screencasts and conferences videos, or other video feeds ...
+
+* Sysadmincasts #41
+  ops - dec 2 - 4m
+  https://sysadmincasts.com/episodes/41-cli-monday-apt-file-and-yum-provides
+  CLI Monday: apt-file and yum provides.
+
+* RubyConf 2014
+  rb - dec 4 - 16 videos
+  http://confreaks.com/events/RubyConf2014
+  Videos of this year rubyconf from San Diego.
+
+* Keep ruby weird 2014
+  rb - dec 5 - 8 videos
+  http://confreaks.com/events/KeepRubyWeird14
+  Weirdness as a ruby conference topic.
+
+* Gorails 34
+  rb - dec 5 - 10m
+  https://gorails.com/episodes/forms-with-multiple-submit-buttons
+  Forms With Multiple Submit Buttons.
+
+
+Listen
+----------------------------------------------------
+What could be heard last week ..
+
+* Web Platform Podcast 20
+  js - nov 30 - 1h10
+  http://thewebplatform.libsyn.com/mozilla-brick-a-uikit-for-mobile-first
+  Mozilla Brick, ‘UIKit’ for The Web.
+
+* CodePen 28
+  web - dec 1 - 41m
+  http://blog.codepen.io/2014/12/01/028-users/
+  Users.
+
+* Ruby5 514
+  rb - dec 2 - 8m
+  http://ruby5.envylabs.com/episodes/551-episode-514-december-2-2014
+  Rails 4.2 RC1, Opal, Deployment, Interpol, Sportdb, Service Objects, Emails.
+
+* RubyRogues 184
+  rb - dec 3 - 1h52
+  http://devchat.tv/ruby-rogues/184-rr-what-we-actually-know-about-software-development-and-why-we-believe-it-s-true-with-greg-wilson-and-andreas-stefik
+  What We Actually Know About Software Development and Why We Believe It's True with Greg Wilson and Andreas Stefik.
+
+* Cloudcast #172
+  ops - dec 3 - 40m
+  http://www.thecloudcast.net/2014/12/the-cloudcast-172-state-of-containers.html
+   The State of Containers.
+
+* Puppet Podcast dec 2014
+  ops - dec 3 - 34m
+  http://puppetlabs.com/podcasts/podcast-node-manager
+  Node Manager.
+
+* Javascript Jabber 136
+  js - dec 3 - 47m
+  http://devchat.tv/js-jabber/136-jsj-trackingjs-with-eduardo-lundgren
+  TrackingJS with Eduardo Lundgren.
+
+* Ruby on Rails podcast #178
+  rb - dec 4 - 1h08
+  http://5by5.tv/rubyonrails/178
+  Recruiting - Steve Robinson from rubynow.com.
+
+* Adventure in angular #19
+  js - dec 4 - 44m
+  http://devchat.tv/adventures-in-angular/019-aia-microsoft-tooling-with-mads-kristensen
+  Microsoft Tooling with Mads Kristensen.
+
+* TheChangelog 133
+  tool - dec 3 - 58m
+  http://5by5.tv/changelog/133
+  All Things Perl With Curtis 'Ovid' Poe.
+
+* Ruby5 515
+  rb - dec 5 - 5m
+  http://ruby5.envylabs.com/episodes/552-episode-515-december-5th-2014
+  RubyConf 2014, Spyme, foreign keys, forwarding messages, free SecCasts.
+
+
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a 
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+

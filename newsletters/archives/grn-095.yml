@@ -1,0 +1,318 @@
+---
+edition: "095"
+pubdate: "nov 30th 2014"
+edito:
+  "This is a quick edition. Enjoy number 95 from Paris."
+contributors: "xenor, simon"
+
+topics:
+
+- title: Look
+  baseline:
+    "Examples of UI/UX, graphic performance, web design and flashy things."
+  links:
+
+  - title: "JS conf Argentina"
+    url: "https://www.jsconfar.com/"
+    comment: "Just a pretty good looking conf website."
+    tags:
+      - design
+
+  - title: "Rolex Awards"
+    url: "http://magazine.rolexawards.com/"
+    comment: "Very nice scrolling overall."
+    tags:
+      - design
+
+- title: Use
+  baseline:
+    "Web applications, resources and tools, available for making our life easier or funnier."
+  links:
+
+  - title: "Pixactly"
+    url: "http://pixact.ly/"
+    comment: "Tests how well you know your pixels."
+    tags:
+      - tool
+
+  - title: "Exception Trap"
+    url: "https://exceptiontrap.com/"
+    comment: "Ruby on Rails and PHP Error Tracking and Exception Monitoring."
+    tags:
+      - tool
+
+  - title: "Snipt"
+    url: "https://snipt.net/"
+    comment: "The publishing platform for coders."
+    tags:
+      - tool
+
+- title: Install
+  baseline: "A selection of gems or applications updated during past week."
+  links:
+
+  - title: "Ruby 2.2.0-preview2"
+    url: "https://www.ruby-lang.org/en/news/2014/11/28/ruby-2-2-0-preview2-released/"
+    comment: "Many new features and improvements."
+    tags:
+      - rb
+
+  - title: "Rails 4.2.0.rc1"
+    url: "http://weblog.rubyonrails.org/2014/11/28/Rails-4-2-0-rc1-has-been-released/"
+    comment: "Final 4.2 is almost ready."
+    tags:
+      - rb
+
+  - title: "Ronin"
+    url: "http://ronin-ruby.github.io/"
+    comment: "Ruby platform for vulnerability research and exploit development."
+    tags:
+      - rb
+
+  - title: "Refile"
+    url: "https://github.com/elabs/refile"
+    comment: "Ruby file uploads, take 3. By the original author of Carrierwave."
+    tags:
+      - rb
+
+  - title: "ScrollMagic"
+    url: "http://janpaepke.github.io/ScrollMagic/"
+    comment: "jQuery Plugin for magical scroll interactions."
+    tags:
+      - js
+
+  - title: "Charted"
+    url: "https://github.com/mikesall/charted"
+    comment: "A charting tool that produces automatic, shareable charts from any data file."
+    tags:
+      - js
+
+  - title: "Ruxit"
+    url: "http://blog.ruxit.com/new-kid-node-js-monitoring/"
+    comment: "Automatic monitoring of Node.js applications."
+    tags:
+      - js
+
+  - title: "Ok Go Web Template"
+    url: "https://github.com/runemadsen/ok-go"
+    comment: "A template for golang web applications inspired by Ruby on Rails."
+    tags:
+      - go
+
+  - title: "Logspout"
+    url: "https://github.com/progrium/logspout"
+    comment: "Log routing for Docker container logs."
+    tags:
+      - go
+
+  - title: "LittleChef"
+    url: "https://github.com/tobami/littlechef"
+    comment: "Cook with Chef without a Chef Server."
+    tags:
+      - ops
+
+  - title: "Docker 1.3.2"
+    url: "https://docs.docker.com/release-notes/#version-132"
+    comment: "Some security fixes."
+    tags:
+      - ops
+
+  - title: "CotEditor"
+    url: "http://coteditor.com/"
+    comment: "Opensource Plain-Text Editor for OS X."
+    tags:
+      - tool
+
+- title: Read
+  baseline: "From the blogosphere or news feeds ..."
+  links:
+
+  - title: "Challenges faced in a little larger Rails API project"
+    url: "http://labs.kollegorna.se/blog/2014/11/rails-api/"
+    comment: "Inside view on a rails API project."
+    pubdate: nov 23
+    tags:
+      - rb
+
+  - title: "Each... Or Else"
+    url: "http://www.justinweiss.com/blog/2014/11/24/each-dot-dot-dot-or-else/"
+    comment: "Some thoughts about calling each on empty objects."
+    pubdate: nov 24
+    tags:
+      - rb
+
+  - title: "Unraveling String Key Performance in Ruby 2.2"
+    url: "http://www.sitepoint.com/unraveling-string-key-performance-ruby-2-2/"
+    comment: "Optimizations added in Ruby 2.2.0 when working with a Hash and string keys."
+    pubdate: nov 24
+    tags:
+      - rb
+
+  - title: "CoffeeScript? TypeScript? How about JavaScript?"
+    url: "https://medium.com/innoarchitech-innovation-architecture-technology/coffeescript-typescript-how-about-javascript-8d4469b8a906"
+    comment: "Do yourself a favor and master JavaScript first."
+    pubdate: nov 24
+    tags:
+      - js
+
+  - title: "Fixing Fixtures"
+    url: "http://chriskottom.com/blog/2014/11/fixing-fixtures/"
+    comment: "Long post about how to enjoy fixtures revival."
+    pubdate: nov 25
+    tags:
+      - rb
+
+  - title: "As programmers why we never finish our projects"
+    url: "http://programmer-hek.blogspot.fr/2014/11/as-programmers-why-we-never-finish-our.html"
+    comment: "Tips and tricks for getting projects done."
+    pubdate: nov 25
+    tags:
+      - tool
+
+  - title: "Dockerising a Rails App"
+    url: "http://woss.name/articles/dockerising-a-rails-app/"
+    comment: "Long post about how to enjoy fixtures revival."
+    pubdate: nov 26
+    tags:
+      - rb
+
+  - title: "Distributed Configuration, Dark Launching Using Consul"
+    url: "http://code.hootsuite.com/distributed-configuration-management-and-dark-launching-using-consul/"
+    comment: "Hootsuite experience with implementing Consul to fit their need."
+    pubdate: nov 26
+    tags:
+      - ops
+
+  - title: "Let's Simplify Ruby"
+    url: "http://collectiveidea.com/blog/archives/2014/11/27/lets-simplify-ruby/"
+    comment: "The flip flop operator wakes up old trends."
+    pubdate: nov 27
+    tags:
+      - rb
+
+  - title: "Async jobs between Go and Ruby"
+    url: "http://blog.appsdeck.eu/post/103797147978/async-jobs-between-go-and-ruby"
+    comment: "Go-Workers is a Sidekiq-compatible tool to handle jobs with Go, using almost the same DSL."
+    pubdate: nov 28
+    tags:
+      - go
+
+  - title: "Elasticsearch Cluster Setup"
+    url: "http://blog.9bplus.com/elasticsearch-cluster-setup-extended-notes/"
+    comment: "Experience with setting up an ES cluster, explained."
+    pubdate: nov 29
+    tags:
+      - ops
+
+  - title: "Scaling Docker with Kubernetes"
+    url: "http://www.infoq.com/articles/scaling-docker-with-kubernetes"
+    comment: "Diving into an example of usage of kubernetes for containers management."
+    pubdate: nov 29
+    tags:
+      - ops
+
+
+
+- title: Watch
+  baseline: "Screencasts and conferences videos, or other video feeds ..."
+  links:
+
+  - title: "Sysadmincasts #40"
+    url: "https://sysadmincasts.com/episodes/40-simple-project-planning-for-sysadmins-part-1-of-3"
+    comment: "Simple Project Planning for Sysadmins."
+    duration: 11m
+    pubdate: nov 27
+    tags:
+      - ops
+
+- title: Listen
+  baseline: What could be heard last week ..
+  links:
+
+  - title: Giant Robots 124
+    url: http://giantrobots.fm/124
+    duration: 32m
+    pubdate: nov 24
+    comment: "Maintaining Your Legacy (Scott Ford)"
+    tags:
+      - rb
+
+  - title: CodePen 27
+    url: http://blog.codepen.io/2014/11/24/027-scaling/
+    duration: 37m
+    pubdate: nov 24
+    comment: "Scaling."
+    tags:
+      - web
+
+  - title: Ruby5 513
+    url: http://ruby5.envylabs.com/episodes/550-episode-513-november-25th-2014
+    duration: 6m
+    pubdate: nov 25
+    comment: "Statically Typed Ruby, flip flop operator, Ferry, speeding up Capybara, Ruby meet up resources."
+    tags:
+      - rb
+
+  - title: "Web Platform Podcast 19"
+    url: http://thewebplatform.libsyn.com/nodejs-application-security
+    duration: 47m
+    pubdate: nov 25
+    comment: "Node.js Application Security."
+    tags:
+      - js
+
+  - title: RubyRogues 183
+    url: http://devchat.tv/ruby-rogues/183-rr-consequences-of-technology-with-ben-hammersley
+    duration: 1h01
+    pubdate: nov 26
+    comment: "Consequences of Technology with Ben Hammersley."
+    tags:
+      - rb
+
+  - title: Javascript Jabber 135
+    url: http://devchat.tv/js-jabber/135-jsj-smallest-federated-wiki-with-ward-cunningham
+    duration: 54m
+    pubdate: nov 26
+    comment: "Smallest Federated Wiki with Ward Cunningham."
+    tags:
+      - js
+
+  - title: "Rails refactoring podcast #2"
+    url: http://rails-refactoring.com/podcast/
+    duration: 34m
+    pubdate: nov 27
+    comment: "The Rails Way, rails DNA, rails community history."
+    tags:
+      - rb
+
+  - title: "Adventure in angular #18"
+    url: http://devchat.tv/adventures-in-angular/018-aia-style-guides
+    duration: 35m
+    pubdate: nov 27
+    comment: "Style Guides."
+    tags:
+      - js
+
+  - title: "NodeUp #77"
+    url: http://nodeup.com/seventyseven
+    duration: 1h23
+    pubdate: nov 27
+    comment: "A testing show at campjs."
+    tags:
+      - js
+
+  - title: "The bike shed #3"
+    url: http://bikeshed.fm/3
+    duration: 25m
+    pubdate: nov 28
+    comment: "Flipping the Script."
+    tags:
+      - js
+
+  - title: TheChangelog 132
+    url: http://5by5.tv/changelog/132
+    duration: 58m
+    pubdate: nov 28
+    comment: "Buckets CMS on Node.js with Dave Kaneda."
+    tags:
+      - js
