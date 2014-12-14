@@ -1,0 +1,287 @@
+----------------------------------------------------
+Green Ruby News #097 - dec 14th 2014
+----------------------------------------------------
+
+Edito
+----------------------------------------------------
+Back to Taipei, after a one-month trip to Paris in the Headquarters of <a href="http://gandi.net">Gandi</a>. My new devops job is amazing, the team is hardcore and the culture really refreshing. Despite it's not anymore focused on rails, well, I think I can continue my weekly review for a while, on the side.
+
+mose - the green ruby editor
+xenor - the informer
+http://greenruby.org
+
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+* Your Future
+  design
+  http://budoucnost.utb.cz/en/
+  Pretty creative university teaser.
+
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+* APIcast
+  tool
+  http://www.3scale.net/apicast/
+  A free cloud API gateway service that lets you launch, manage, and scale your API.
+
+* Kano computer kit
+  tool
+  http://www.kano.me/
+  A raspberry DIY computer for kids.
+
+* Kanbanote
+  tool
+  http://www.kanbanote.com/
+  Makes evernote look like trello.
+
+* Fork-n-go
+  tool
+  http://jlord.us/forkngo/
+  A template to start with, free hosting and deployment in a few clicks, with jekyll and github pages.
+
+* Infogram
+  tool
+  https://infogr.am/
+  Infographics. The easy way.
+
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+* Traveling Ruby
+  rb
+  http://phusion.github.io/traveling-ruby/
+  Project which supplies self-contained, 'portable' Ruby binaries, for easier apps distribution.
+
+* Slide Show (S9) 
+  rb
+  http://slideshow-s9.github.io/
+  A free web alternative to PowerPoint and Keynote in Ruby.
+
+* Graph
+  rb
+  https://github.com/seattlerb/graph
+  Graph is a type of hash that outputs in graphviz's dot format.
+
+* mina_maintenance
+  rb
+  https://github.com/mbajur/mina_maintenance
+  Maintenance Page Support For Mina, like it does with capistrano.
+
+* X-tag
+  js
+  http://www.x-tags.org/
+  Web Components Custom Element capabilities to all modern browsers.
+
+* Converse
+  js
+  https://conversejs.org/
+  A free and open-source XMPP chat client for your website.
+
+* github-todos
+  tool
+  https://github.com/naholyr/github-todos
+  Git hook to convert your TODOs into Github issues.
+
+* Fossil
+  tool
+  http://fossil-scm.org/
+  A distributed version control systems, alternative to git.
+
+* Seagull
+  ops
+  https://github.com/tobegit3hub/seagull
+  Friendly Web UI to monitor docker daemon.
+
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+* Make Your Program Slower With Threads
+  rb - dec 6
+  http://brooker.co.za/blog/2014/12/06/random.html
+  How much do context switches matter?
+
+* Weird Ruby Part Two: Exceptional Ensurance
+  rb - dec 8
+  http://blog.newrelic.com/2014/12/10/weird-ruby-2-rescue-interrupt-ensure/
+  Play with exceptions oddities.
+
+* Docker extensions: the new Docker plugins model
+  ops - dec 8
+  https://clusterhq.com/blog/docker-extensions/
+  A future of healthy innovation in the Docker ecosystem.
+
+* How to Keep Bad Abstractions From Handcuffing Your Code
+  rb - dec 9
+  http://www.justinweiss.com/blog/2014/12/09/how-to-keep-bad-abstractions-from-handcuffing-your-code/
+  How do you build good abstractions, while staying far away from the bad.
+
+* Using FactoryGirl to easily create complex data sets in Rails
+  rb - dec 9
+  http://blog.thefrontiergroup.com.au/2014/12/using-factorygirl-easily-create-complex-data-sets-rails/
+  Leveraging ffaker you can make realistic looking, randomized data.
+
+* Top 11 Best Ruby On Rails CMS for Programmers
+  rb - dec 10
+  http://devzum.com/2014/12/10/top-best-ruby-on-rails-cms-for-programmers/
+  List of some Ruby on Rails content management systems.
+
+* Rubinius Metrics meet InfluxDB
+  rb - dec 10
+  http://rubini.us/2014/12/10/rubinius-metrics-meets-influxdb/
+  Combine rubinius metrics with statsd, influxdb and grafana.
+
+* Rack middleware that will add nofollow to your links
+  rb - dec 10
+  http://dev.mensfeld.pl/2014/12/rackrails-middleware-that-will-ensure-relnofollow-for-all-your-links/
+  Using nokogiri for hooking change in rendered pages.
+
+* Why did Koding move away from Docker to virtual machines?
+  ops - dec 10
+  http://www.quora.com/Why-did-Koding-move-away-from-containers-and-Docker-to-virtual-machines
+  Explanation from Koding CEO of why they ended up to use AWS.
+
+* Learn Regular Expressions in 20 Minutes
+  js - dec 11
+  http://tutorialzine.com/2014/12/learn-regular-expressions-in-20-minutes/
+  Quick overview of most common use cases of regexes.
+
+* The Inconvenient Truth About Dynamic vs. Static Typing
+  js - dec 11
+  http://blog.jooq.org/2014/12/11/the-inconvenient-truth-about-dynamic-vs-static-typing/
+  In short, dynamically typed languages are dead.
+
+* Why You Should Avoid Sass @extend
+  css3 - dec 11
+  http://www.sitepoint.com/avoid-sass-extend/
+  Extending is invisible, not flexible. Mixins have no drawback.
+
+* Fun with Robots, Lita, and HipChat
+  rb - dec 11
+  http://www.sitepoint.com/fun-robots-lita-hipchat/
+  How to setup Lita, connect it to HipChat and to a rails app.
+
+* Ruby and R
+  rb - dec 12
+  http://www.information-management.com/blogs/ruby-and-r-10026341-1.html
+  R-Ruby libraries that provides capabilities to execute blocks of R code within a Ruby program.
+
+* Thinking Sphinx on Ruby on Rails
+  rb - dec 12
+  http://sphinxsearch.com/blog/2014/12/12/thinking-sphinx-on-ruby-on-rails-part-1/
+  Quick implementation of a search engine in rails.
+
+* Exciting logstash plugin ecosystem changes
+  ops - dec 12
+  http://www.elasticsearch.org/blog/plugin-ecosystem-changes/
+  With the release of Logstash 1.5.0 Beta, huge changes in the way plugins are installed, maintained, and published.
+
+
+Watch
+----------------------------------------------------
+Screencasts and conferences videos, or other video feeds ...
+
+* Build podcast 063
+  js - dec 14 - 30m
+  http://build-podcast.com/socket-io/
+  Socket IO.
+
+
+Listen
+----------------------------------------------------
+What could be heard last week ..
+
+* Giant Robots 125
+  ops - dec 8 - 43m
+  http://giantrobots.fm/125
+  Rebooting (Adarsh Pandit).
+
+* Arrested DevOps 26
+  ops - dec 8 - 1h
+  http://www.arresteddevops.com/continuous-delivery-database/
+  The Database: The Elephant in the Room.
+
+* CodePen 29
+  rb - dec 9 - 30m
+  http://blog.codepen.io/2014/12/09/029-testing/
+  Testing.
+
+* Ruby5 516
+  rb - dec 9 - 6m
+  http://ruby5.envylabs.com/episodes/553-episode-516-december-9-2014
+  jRuby, ROM, Traveling Ruby, early validations, rewrites with Science, Rails Camp NZ.
+
+* RubyRogues 185
+  rb - dec 10 - 1h12
+  http://devchat.tv/ruby-rogues/185-rr-rails-4-test-prescriptions-with-noel-rappin
+  Rails 4 Test Prescriptions with Noel Rappin.
+
+* Century Link Podcast 21
+  ops - dec 10 - 28m
+  http://centurylinklabs.podomatic.com/entry/2014-12-10T15_26_02-08_00
+  VirtKick: an Open Source VPS and Your Own Digital Ocean.
+
+* Puppet Podcast Puppet Server
+  ops - dec 10 - 34m
+  http://puppetlabs.com/podcasts/podcast-node-manager
+  Puppet Server is a rewrite of puppet master in clojure.
+
+* Javascript Jabber 137
+  js - dec 10 - 1h
+  http://devchat.tv/js-jabber/137-jsj-yet-with-henrik-jorteg-and-phil-roberts
+  &yet with Henrik Jorteg and Phil Roberts.
+
+* Cloudcast #173
+  ops - dec 11 - 27m
+  http://www.thecloudcast.net/2014/12/the-cloudcast-173-hashicorp-atlas.html
+  Hashicorp Atlas - Framework for Cloud Automation.
+
+* Adventure in angular #20
+  js - dec 11 - 42m
+  http://devchat.tv/adventures-in-angular/020-aia-structuring-code-in-an-angularjs-app-with-dan-wahlin
+  Structuring Code in an AngularJS App with Dan Wahlin.
+
+* Ruby on Rails podcast #179
+  rb - dec 12 - 1h21
+  http://5by5.tv/rubyonrails/179
+  Trek Glowacki - Learning Ember.
+
+* Web Platform Podcast 21
+  js - dec 12 - 1h10
+  http://thewebplatform.libsyn.com/21-the-x-tag-project
+  The X-Tag Project.
+
+* The Bike Shed 4
+  rb - dec 12 - 38m
+  http://bikeshed.fm/4
+  Put Everything on the Front End.
+
+
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a 
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+
