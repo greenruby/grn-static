@@ -1,0 +1,302 @@
+----------------------------------------------------
+Green Ruby News #098 - dec 21th 2014
+----------------------------------------------------
+
+Edito
+----------------------------------------------------
+Jingle bell, Rails 4.2 is out. There are a bunch of new features there that have been expected for a while. But there is a lot other things to check out in this week collection of links. Enjoy your holidays if you get any.
+
+mose - the green ruby editor
+xenor - the informer
+http://greenruby.org
+
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+* Gif my live
+  design
+  http://gifmylive.arte.tv/fr
+  In french, and so visual. Takes a bit to load though.
+
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+* AppGyver
+  mobile
+  http://www.appgyver.com/
+  For hybrid app development from the get-go.
+
+* Apps for Creating Online Graphs and Charts
+  tool
+  http://www.sitepoint.com/online-graphs-charts/
+  Creating graph online without any installations.
+
+* Working Effectively with Unit Tests
+  tool
+  https://leanpub.com/wewut
+  (book) most effective way to test.
+
+* Designing for Performance
+  web
+  http://css-tricks.com/relating-designing-performance-lara-hogan/
+  (book) review of the book 'Designing for Performance' by Lara Hogan.
+
+* Best jQuery Timeline Plugins for Developers
+  js
+  http://codegeekz.com/best-jquery-timeline-plugins-developers/
+  Curated list of jQuery timeline plugins.
+
+* 25 Free Responsive HTML5 Templates for 2014
+  css3
+  http://codegeekz.com/free-responsive-html5-templates/
+  25 templates to get your project started.
+
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+* Rails 4.2
+  rb
+  http://weblog.rubyonrails.org/2014/12/19/Rails-4-2-final/
+  Active Job, Asynchronous Mails, Adequate Record, Web Console, Foreign Keys.
+
+* Ruby 2.2.0-rc1
+  rb
+  https://www.ruby-lang.org/en/news/2014/12/18/ruby-2-2-0-rc1-released/
+  The final release of Ruby 2.2.0 is scheduled on December 25, 2014.
+
+* Jam
+  rb
+  https://github.com/grosser/rubinjam
+  Jam entire gem into a binary that works with any ruby.
+
+* Jam
+  rb
+  https://github.com/grosser/rubinjam
+  Jam entire gem into a binary that works with any ruby.
+
+* Dare
+  rb
+  https://github.com/nicklink483/dare
+  Ruby Web Game library on top of Opal.
+
+* Wysihtml
+  js
+  http://wysihtml.com/
+  The code is completely library agnostic: No jQuery, Prototype or similar is required.
+
+* Skeleton
+  css3
+  http://getskeleton.com/
+  A dead simple, responsive boilerplate.
+
+* Phusion Passenger 4.0.56
+  ops
+  http://blog.phusion.nl/2014/12/19/phusion-passenger-4-0-56-facepalming-file-descriptor-leak-node-js-load-balancing/
+  Facepalming at file descriptor leak, Node.js load balancing.
+
+* gitfs
+  ops
+  https://github.com/PressLabs/gitfs
+  Version controlled file system.
+
+* spigo
+  ops
+  https://github.com/adrianco/spigo
+  Simulate Protocol Interactions in Go.
+
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+* Vagrant Push: One Command to Deploy Any Application
+  ops - dec 12
+  https://www.vagrantup.com/blog/vagrant-push-to-deploy.html
+  Vagrant 1.7 comes with a new command: vagrant push.
+
+* Getting an A+ on Qualy's SSL Labs Tester
+  ops - dec 14
+  https://sethvargo.com/getting-an-a-plus-on-qualys-ssl-labs-tester/
+  This post will detail the steps for getting an A+ SSL rating using Nginx.
+
+* Hashie Considered Harmful
+  rb - dec 15
+  http://www.schneems.com/2014/12/15/hashie-considered-harmful.html
+  An Ode to Hash and OpenStruct.
+
+* What service objects are not
+  rb - dec 16
+  https://medium.com/@KamilLelonek/what-service-objects-are-not-7abef8aa2f99
+  An opinionated guide to Service Objects.
+
+* Object creation in Ruby and JavaScript
+  rb - dec 17
+  http://dev.mikamai.com/post/105439378224/opal-under-a-microscope-object-creation-in-ruby
+  How Ruby objects are mapped in JavaScript-land by the Opal compiler.
+
+* Exploring dependency injection options
+  rb - dec 17
+  http://brandonhilkert.com/blog/a-ruby-refactor-exploring-dependency-injection-options/
+  Constructor injection and setter injection.
+
+* Launch of iOS and Android Support on CircleCI
+  mobile - dec 17
+  http://blog.circleci.com/announcing-ios-and-android-support/
+  CircleCI just acquired Distiller, a company focused on iOS testing and deployment.
+
+* 16 Tips from the 2014 Winter Miniconf
+  rb - dec 18
+  http://hashrocket.com/blog/posts/16-tips-from-the-2014-winter-miniconf
+  Grab bag of Linux, shell, PostgreSQL, and Ruby tricks.
+
+* Elegant permalinks in Rails
+  rb - dec 18
+  http://www.developingandstuff.com/2014/12/elegant-permalinks-in-rails.html
+  Adding permalinks to a Rails app using the friendly_id gem.
+
+* Getting started with Guacamole on Rails
+  rb - dec 18
+  https://www.arangodb.com/2014/12/18/getting-started-guacamole-rails
+  Guacamole is a object-document-mapper, alternative to ActiveRecord.
+
+* RIP Nagios. Hello Docker Shinken!
+  rb - dec 18
+  http://www.rohit.io/blog/rip-nagios-hello-docker-shinken.html
+  Guacamole is a object-document-mapper, alternative to ActiveRecord.
+
+* Creating Stateful Modals in AngularJS
+  js - dec 19
+  http://www.sitepoint.com/creating-stateful-modals-angularjs-angular-ui-router/
+  With Angular UI Router.
+
+* How to Redirect a Web Page
+  html5 - dec 19
+  http://css-tricks.com/redirect-web-page/
+  Examples of redirects done by HTML, JS, Web servers, PHP, Ruby, Node js.
+
+* Graceful server restart with Go
+  go - dec 19
+  http://blog.appsdeck.eu/post/105609534953/graceful-server-restart-with-go
+  How to cleanly upgrade a running server.
+
+* Hash19: A JSON aggregation library
+  rb - dec 20
+  https://medium.com/@rcdexta/hash19-a-json-aggregation-library-f2ef43d64a86
+  A Ruby gem to map complex JSON to objects.
+
+* How to Use Omniauth with MongoDB to Authenticate your Users
+  rb - dec 20
+  http://www.devbattles.com/en/sand/post-470-How+to+Use+Omniauth+with+MongoDB+to+Authenticate+your+Users
+  A Ruby gem to map complex JSON to objects.
+
+* Don't update NTP – stop using it
+  ops - dec 20
+  https://blog.hboeck.de/archives/863-Dont-update-NTP-stop-using-it.html
+  Better use tlsdate.
+
+
+Watch
+----------------------------------------------------
+Screencasts and conferences videos, or other video feeds ...
+
+* The Death of Agile
+  rb - dec 16 - 44m
+  http://www.thoughtworks.com/talks/the-death-of-agile
+  Talk by Dave Thomas from ThoughtWorks, quite humorist.
+
+* Sysadmincast #43
+  ops - dec 16 - 22m
+  https://sysadmincasts.com/episodes/42-crash-course-on-vagrant-revised
+  Crash Course on Vagrant.
+
+* Velocity 2014
+  web - dec 16 - 9 videos
+  http://confreaks.com/events/velocityconfeu2014
+  Velocity Conference Europe 2014.
+
+* GoRails #36
+  rb - dec 19 - 22m
+  https://gorails.com/episodes/comments-with-polymorphic-associations
+  Comments With Polymorphic Associations.
+
+
+Listen
+----------------------------------------------------
+What could be heard last week ..
+
+* Giant Robots 126
+  ops - dec 15 - 47m
+  http://giantrobots.fm/126
+  Log In to Your Space (Zach Dunn).
+
+* Century Link Podcast 22
+  ops - dec 15 - 26m
+  http://centurylinklabs.podomatic.com/entry/2014-12-15T14_27_13-08_00
+  What's New in Deis 1.0 Docker PaaS.
+
+* Puppet Podcast: TDD
+  ops - dec 16 - 24m
+  http://puppetlabs.com/podcasts/podcast-test-driven-development
+  Puppet Server is a rewrite of puppet master in clojure.
+
+* Ruby5 517
+  rb - dec 16 - 4m
+  http://ruby5.envylabs.com/episodes/554-episode-517-december-16-2014
+  Streem, Rails 4.2.rc3, Papercrop, RubyMotion 3.0.
+
+* RubyRogues 186
+  rb - dec 17 - 1h07
+  http://devchat.tv/ruby-rogues/186-rr-the-4-rules-of-simple-design-with-corey-haines
+  The 4 Rules of Simple Design with Corey Haines.
+
+* Javascript Jabber 138
+  js - dec 17 - 1h02
+  http://devchat.tv/js-jabber/138-jsj-track-js-with-todd-gardner
+  {Track:js} with Todd Gardner.
+
+* Adventure in angular #21
+  js - dec 18 - 27m
+  http://devchat.tv/adventures-in-angular/021-aia-duck-angular-with-avishek-sen-gupta
+  Duck Angular with Avishek Sen Gupta.
+
+* Web Platform Podcast 22
+  web - dec 18 - 1h14
+  http://thewebplatform.libsyn.com/22-live-an-open-source-panel-disussion
+  LIVE - An Open Source Discussion Panel.
+
+* The Changelog #135
+  web - dec 19 - 1h
+  http://5by5.tv/changelog/135
+  EOY 2014 with Adam and Jerod.
+
+* Ruby5 518
+  rb - dec 19 - 7m
+  http://ruby5.envylabs.com/episodes/555-episode-518-december-19-2014
+  Eastward Ho, no hashie, Git, where does your code go, strong parameters.
+
+
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a 
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+
