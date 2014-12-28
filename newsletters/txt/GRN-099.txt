@@ -1,0 +1,267 @@
+----------------------------------------------------
+Green Ruby News #099 - dec 28th 2014
+----------------------------------------------------
+
+Edito
+----------------------------------------------------
+As announced, Ruby 2.2.0 was released on christmas day, nice gift. Various other projects also released new versions this week, check them out below. And, this is the last edition of the year. So, enjoy the last bits of 2014, and see you in 2015 for the 100th edition of Green Ruby.
+
+mose - the green ruby editor
+xenor - the informer
+http://greenruby.org
+
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+* Super Looper
+  design
+  http://superlooper.universlabs.co.uk/
+  Looper experiment that lets you play with touch and record loops.
+
+* Demodern
+  design
+  http://demodern.com/
+  Nice agency website.
+
+* FourZeroFour
+  design
+  http://404sites.tumblr.com/
+  Collection of 404 pages with nice design.
+
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+* All Ruby Books
+  rb
+  http://www.allrubybooks.com/
+  Links to 182 books on ruby, rails, and others.
+
+* Planet Ruby
+  rb
+  http://planetruby.herokuapp.com/
+  New syndication website for ruby news.
+
+* Uptime Robot
+  ops
+  https://uptimerobot.com/
+  50 Monitors, Checked Every 5 Minutes, Totally Free.
+
+* Testmunk
+  mobile
+  http://www.testmunk.com/
+  Test your app on a large pool of Android and iOS devices.
+
+* FlattyShadow
+  design
+  http://flattyshadow.com/
+  Flat Shadow Generator.
+
+* StoryboardThat
+  design
+  http://www.storyboardthat.com/
+  Online Storyboard Creator.
+
+* 25 Excellent Freebies for Designers
+  design
+  http://codegeekz.com/25-excellent-freebies-designers/
+  From icons to progress bars.
+
+* 20 Best Responsive Design Tools
+  design
+  http://codegeekz.com/20-best-responsive-design-tools/
+  Curated list of 20 modern tools.
+
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+* Ruby 2.2.0 Released
+  rb
+  https://www.ruby-lang.org/en/news/2014/12/25/ruby-2-2-0-released/
+  As announced previously, this is the final release for ruby 2.2. Faster with better GC.
+
+* JRuby 1.7.18 Released
+  rb
+  http://www.jruby.org/2014/12/22/jruby-1-7-18.html
+  Towards filling out any missing compatibility issues with Ruby 1.9.3.
+
+* Lotus 0.2.0
+  rb
+  http://lucaguidi.com/2014/12/23/2014-retrospective-a-year-of-lotus.html
+  2014 Retrospective: A Year Of Lotus (ruby web framework).
+
+* Slop 4.0
+  rb
+  https://github.com/leejarvis/slop
+  Simple Lightweight Option Parsing.
+
+* jQuery 1.11.2 and 2.1.3
+  js
+  http://blog.jquery.com/2014/12/18/jquery-1-11-2-and-2-1-3-released-safari-fail-safe-edition/
+  New jQuery releases with a significant bug fix/patch for Safari.
+
+* Animated Headlines
+  css3
+  http://codyhouse.co/gem/css-animated-headlines/
+  A collection of animated headlines using CSS transitions.
+
+* Gin
+  go
+  https://gin-gonic.github.io/gin/
+  Web framework written in Golang. Competes with martini.
+
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+* Your tests want you to change your design
+  rb - dec 19
+  http://tooky.co.uk/your-tests-want-you-to-change-your-design/
+  When something is hard to test it’s usually a good indicator that you should change something in your design.
+
+* My reason to be excited for Go 1.4
+  go - dec 22
+  https://justinas.org/my-reason-to-be-excited-for-go-14/
+  More than a week ago, Go 1.4 was released.
+
+* Link in Header? Or Header in Link?
+  html5 - dec 22
+  http://css-tricks.com/link-header-header-link/
+  Compare differences in link placement.
+
+* What Editor Do Rubyists Use?
+  tool - dec 22
+  http://www.sitepoint.com/editor-rubyists-use/
+  Ratings of text editors used by ruby devs.
+
+* Engineering Rotation
+  tool - dec 22
+  https://codeascraft.com/2014/12/22/engineering-rotation/
+  We Invite Everyone at Etsy to Do an Engineering Rotation: Here’s why.
+
+* Why Hackathons Are Always a Good Idea
+  tool - dec 22
+  https://netguru.co/blog/why-hackathons-are-always-a-good
+  Collection of mobile apps from Netguru to help doing hackathons.
+
+* A Compendium of Hooks in EmberCLI
+  js - dec 22
+  http://hashrocket.com/blog/posts/a-compendium-of-hooks-in-embercli
+  List all known addon hooks as of EmberCLI version 0.1.4.
+
+* Introducing Sass-Compatibility
+  css3 - dec 23
+  http://www.sitepoint.com/introducing-sass-compatibility/
+  Compatibilities in different versions of SASS.
+
+* Write Better Markup with HTML Inspector
+  html5 - dec 23
+  http://www.sitepoint.com/write-better-markup-html-inspector/
+  Code quality tool to help you and your team to write better markup.
+
+* Why You Should Use a Mechanical Keyboard
+  tool - dec 23
+  http://robots.thoughtbot.com/why-you-should-use-a-mechanical-keyboard
+  State of the art of the last keyboard fashion.
+
+* Handling Security Issues In Open Source Projects
+  web - dec 24
+  http://robots.thoughtbot.com/handling-security-issues-in-open-source-projects
+  How to deal with security issues in OSS.
+
+* Docker and Phoenix
+  ops - dec 25
+  http://ariya.ofilabs.com/2014/12/docker-and-phoenix-how-to-make-your-continuous-integration-more-awesome.html
+  How to Make Your Continuous Integration More Awesome.
+
+* Ruby and Rails Development Using Chef and Vagrant
+  web - dec 26
+  http://avi.io/blog/2014/12/26/ruby-and-rails-development-environment-using-chef-and-vagrant
+  The devbox gem is designed to fast provisioning of new laptops.
+
+* Ruby isn't dead
+  rb - dec 26
+  https://blog.engineyard.com/2014/ruby-isnt-dead
+  Why people say it's dying and why it's not dying.
+
+
+Watch
+----------------------------------------------------
+Screencasts and conferences videos, or other video feeds ...
+
+* Ruby Conference 2014
+  rb - dec 26 - 63 videos
+  http://confreaks.com/events/RubyConf2014
+  I already posted about this one, but more 24 videos were added this week.
+
+
+Listen
+----------------------------------------------------
+What could be heard last week ..
+
+* Giant Robots 127
+  web - dec 22 - 39m
+  http://giantrobots.fm/127
+  Merging Worlds (Meng To).
+
+* Puppet Podcast: Beaker
+  ops - dec 22 - 26m
+  http://puppetlabs.com/podcasts/podcast-automated-testing-beaker-windows
+  Automated Testing with Beaker for Windows.
+
+* Codepen 30
+  css3 - dec 22 - 33m
+  http://blog.codepen.io/2014/12/22/030-jobs/
+  Launched a new Job board.
+
+* NodeUp 80
+  js - dec 22 - 40m
+  http://nodeup.com/eighty
+  A developer mental health show.
+
+* Ruby on Rails Podcast 180
+  rb - dec 22 - 1h12
+  http://5by5.tv/rubyonrails/180
+  Josh Smith - Separating Server and Client Applications.
+
+* RubyRogues 187
+  rb - dec 24 - 1h15
+  http://devchat.tv/ruby-rogues/187-marketing-yourself-as-a-software-developer-with-john-sonmez
+  Marketing Yourself as a Software Developer with John Sonm.
+
+* Javascript Jabber 139
+  js - dec 24 - 54m
+  http://devchat.tv/js-jabber/139-jsj-the-mozilla-developer-network-with-les-orchard-and-david-walsh
+  The Mozilla Developer Network with Les Orchard and David Walsh.
+
+* Adventure in angular #22
+  js - dec 25 - 30m
+  http://devchat.tv/adventures-in-angular/022-aia-form-validation-with-kent-c-dodds
+  Form Validation with Kent C. Dodds.
+
+
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a 
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+

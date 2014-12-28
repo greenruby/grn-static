@@ -24,6 +24,7 @@ Those links and resources are used in the weekly collection of information for G
 - <http://www.html5rocks.com/en/> (webdev)
 - <http://www.sitepoint.com/> (webdev)
 - <http://thenewstack.io> (general IT)
+- <https://codeascraft.com/> (webdev)
 - <http://css-tricks.com/.com> (css)
 - <http://devblog.avdi.org/> (ruby)
 - <http://codegeekz.com> (web)
@@ -51,6 +52,7 @@ Those links and resources are used in the weekly collection of information for G
 
 ### News or links curators
 
+* <http://planetruby.herokuapp.com/> (ruby) *daily*
 * <http://webplatformdaily.org/> (html5) *daily*
 * <http://regulargeek.com/> (developers) *daily*
 * <http://www.awwwards.com/> (design) *daily*
