@@ -1,13 +1,3 @@
-GIT
-  remote: git://github.com/greenruby/alamano.git
-  revision: 43fc45d1d11dc5ecb4281395a34aab74c1a46e09
-  specs:
-    alamano (0.0.1)
-      haml
-      json
-      rake
-      rdiscount
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -86,7 +76,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  alamano!
   awesome_print
   compass
   compass-h5bp

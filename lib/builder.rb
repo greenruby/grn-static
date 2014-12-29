@@ -5,7 +5,7 @@ require 'rdiscount'
 require 'haml'
 require 'json'
 
-YAML::ENGINE.yamler = 'psych'
+#YAML::ENGINE.yamler = 'psych'
 
 module Greeby
 
