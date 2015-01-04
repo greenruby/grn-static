@@ -20,10 +20,10 @@ body {
   color: #000;
 }
 .logoized {
-  padding-left: 100px;
+  padding-left: 60px;
   position: relative;
   height: 58px;
-  background: transparent url("../img/green-ruby-100.png") no-repeat 0px 5px;
+  background: transparent url("../img/green-ruby-48.png") no-repeat 8px 12px;
   font-size: 36px;
   font-weight: 700;
   font-family: "inder", monospace;
@@ -115,6 +115,11 @@ ul.letters li a span.date {
 }
 .social li {
 
+}
+#rant {
+  background-color: #eee;
+  padding: 10px;
+  border: 1px solid #ccc;
 }
 #footer {
   position: relative;

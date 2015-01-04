@@ -4,8 +4,7 @@ require 'fileutils'
 require 'rdiscount'
 require 'haml'
 require 'json'
-
-#YAML::ENGINE.yamler = 'psych'
+require 'awesome_print'
 
 module Greeby
 
@@ -29,8 +28,10 @@ module Greeby
     def make_letter(source)
 
       @c = to_ostruct(YAML::load_file(File.join(@news_path, source)))
+      @c.rant_html = RDiscount.new(@c.rant.to_s).to_html
+      @c.rant_txt = @c.rant.gsub(/\n\n/,"\n")
 
-      erb = ERB.new(File.read(File.join(@news_path, 'grn.html.erb')))
+      erb = ERB.new(File.read(File.join(@news_path, 'grn.html.erb')), 0, '<>')
       File.open(File.join(@news_path, 'html', "GRN-#{@c.edition}.html"), 'w') do |f|
         f.puts erb.result(binding)
       end
@@ -47,6 +48,7 @@ module Greeby
     def make_archives(source)
 
       @c = to_ostruct(YAML::load_file(File.join(@news_path, source)))
+      @c.rant = RDiscount.new(@c.rant.to_s).to_html
 
       letters = JSON.parse(File.read(File.join(@static_path, 'editions.json')))
       letters[@c.edition] = { "link" => "grn-#{@c.edition}.html", "date" => @c.pubdate }

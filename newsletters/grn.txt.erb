@@ -1,28 +1,23 @@
 ----------------------------------------------------
 Green Ruby News #<%= c.edition %> - <%= c.pubdate %>
 ----------------------------------------------------
-
-Edito
-----------------------------------------------------
-<%= c.edito %>
-
-mose - the green ruby editor
-<% if @c.contributors %><%= @c.contributors %> - the informers
-<% else %>xenor - the informer<% end %>
-http://greenruby.org
-
 <% c.topics.each do |t| %>
 <%= t.title %>
 ----------------------------------------------------
 <%= t.baseline %>
 <% t.links.each do |l| %>
-* <%= l.title %>
-<% if l.tags %>  <%= l.tags.join(", ") %><% if l.pubdate %> - <%= l.pubdate %><% end %><% if l.duration %> - <%= l.duration %><% end %>
-<% end %>  <%= l.url %>
+* *<%= l.title %>* (<% if l.tags %><%= l.tags.join(", ") %><% if l.pubdate %> - <%= l.pubdate %><% end %><% if l.duration %> - <%= l.duration %><% end %>)<% end %>
+  <%= l.url %>
   <%= l.comment %>
-<% end %>
-<% end %>
+<% end %><% end %>
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+Links curated by by mose (editor), <% if @c.contributors %><%= @c.contributors %> (informers)<% else %>xenor (informer)<% end %>.
+<% if @c.rant.length > 10 %>
+Rant
+----------------------------------------------------
+The random rant of the week by mose.
 
+<%= @c.rant %><% end %>
 ====================================================
 EOF
 
@@ -35,7 +30,7 @@ Subscribe *|LIST:SUBSCRIBE|*
 
 Copyright (c) *|CURRENT_YEAR|* Mose
 http://creativecommons.org/licenses/by-sa/3.0/
-This publication is licensed under a 
+This publication is licensed under a
 Creative Commons Attribution-ShareAlike 3.0 License
 
 

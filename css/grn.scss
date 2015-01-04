@@ -265,6 +265,7 @@ a:hover {
   }
   .baseline {
     padding-bottom: 20px;
+    font-style: italic;
   }
   table {
     width: 100%;
@@ -289,6 +290,11 @@ a:hover {
       }
     }
   }
+}
+#rant {
+  background-color: #eee;
+  padding: 10px;
+  border: 1px solid #ccc;
 }
 #footer {
   position: relative;
