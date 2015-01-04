@@ -63,9 +63,10 @@ Those links and resources are used in the weekly collection of information for G
 
 ### Video channels / screencasts
 
+* <https://sysadmincasts.com/episodes> (sysadmin)
 * <http://www.learnallthenodes.com/> (node.js)
 * <https://motioninmotion.tv/> (ruby mobile)
-* <http://sysadmincasts.com/> (sysadmin)
+* <http://vimcasts.org/episodes/> (vim)
 * <http://confreaks.com/> (conferences)
 * <https://egghead.io/> (angular, js)
 * <http://www.rubytapas.com> (ruby)
@@ -74,7 +75,6 @@ Those links and resources are used in the weekly collection of information for G
 * <http://www.atozcss.com/> (css)
 * <https://gorails.com/> (rails)
 * <https://gocasts.io/> (golang)
-* <http://vimcasts.org/> (vim)
 * <http://tagtree.tv/> (misc)
 
 ### Podcasts

@@ -6,18 +6,19 @@ Green Ruby News #<%= c.edition %> - <%= c.pubdate %>
 ----------------------------------------------------
 <%= t.baseline %>
 <% t.links.each do |l| %>
-* *<%= l.title %>* (<% if l.tags %><%= l.tags.join(", ") %><% if l.pubdate %> - <%= l.pubdate %><% end %><% if l.duration %> - <%= l.duration %><% end %>)<% end %>
-  <%= l.url %>
-  <%= l.comment %>
+*<%= l.title %>* (<% if l.tags %><%= l.tags.join(", ") %><% if l.pubdate %> - <%= l.pubdate %><% end %><% if l.duration %> - <%= l.duration %><% end %>)<% end %>
+<%= l.url %>
+<%= l.comment %>
 <% end %><% end %>
 . . . . . . . . . . . . . . . . . . . . . . . . . .
 Links curated by by mose (editor), <% if @c.contributors %><%= @c.contributors %> (informers)<% else %>xenor (informer)<% end %>.
-<% if @c.rant.length > 10 %>
+<% if @c.rant != '' %>
 Rant
 ----------------------------------------------------
 The random rant of the week by mose.
 
-<%= @c.rant %><% end %>
+<%= @c.rant_txt %>
+<% end %>
 ====================================================
 EOF
 

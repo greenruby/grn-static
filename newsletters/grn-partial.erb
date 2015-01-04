@@ -41,11 +41,11 @@ xenor (informer)
 <% end %>.</i>
 </div>
 
-<% if @c.rant.length > 10 %>
+<% if @c.rant != '' %>
 <div id="rant">
 <h3>Rant</h3>
 <div class="baseline"><i>The random rant of the week by mose.</i></div>
-<%= @c.rant %>
+<%= @c.rant_html %>
 </div>
 <% end %>
 

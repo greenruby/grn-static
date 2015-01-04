@@ -29,7 +29,7 @@ module Greeby
 
       @c = to_ostruct(YAML::load_file(File.join(@news_path, source)))
       @c.rant_html = RDiscount.new(@c.rant.to_s).to_html
-      @c.rant_txt = @c.rant.gsub(/\n\n/,"\n")
+      @c.rant_txt = wrap(@c.rant)
 
       erb = ERB.new(File.read(File.join(@news_path, 'grn.html.erb')), 0, '<>')
       File.open(File.join(@news_path, 'html', "GRN-#{@c.edition}.html"), 'w') do |f|
@@ -256,6 +256,17 @@ module Greeby
         result = result.map { |r| to_ostruct(r) }
       end
       return result
+    end
+
+    def wrap(s, width=78)
+      #s.scan(/\S.{0,#{width-2}}\S(?=\s|$)|\S+/)
+      #s.gsub(/(.{10,#{width}})(\s+)/, "\\1\n")
+      # s.gsub!( /(\S{#{width}})(?=\S)/, '\1 ' )
+      # s.gsub!( /(.{1,#{width}})(\s+|$)/, "\\1\\2" )
+      # s
+      s.split("\n\n").collect! do |l|
+        l.length > width ? l.gsub(/(.{1,#{width}})(\s+|$)/, "\\1\n").strip : l
+      end * "\n\n"
     end
 
   end

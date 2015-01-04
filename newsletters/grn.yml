@@ -4,7 +4,7 @@ pubdate: "jan 4th 2015"
 contributors: "xenor, simon"
 
 rant:
-  "This week is the 100th edition of Green Ruby, it's also the first one of 2015. Tis week the [Linux Outlaws][1] broadcasted their last show, and Rebecca Watson left the [Skeptics Guide to the Universe][2]. Those are 2 podcasts that I never list in the Green Ruby list (they are not really on topic) but I rarely miss any of them. Too bad they leave. I thought about it too, but no, I will stay.
+  "This week is the 100th edition of Green Ruby, it's also the first one of 2015. This week the [Linux Outlaws][1] broadcasted their last show, and Rebecca Watson left the [Skeptics Guide to the Universe][2]. Those are 2 podcasts that I never list in the Green Ruby list (they are not really on topic) but I rarely miss any of them. Too bad they leave. I thought about it too, but no, I will stay.
 
 
 So, happy new year or, as we say in french: Bananier!
@@ -16,13 +16,19 @@ For 100 weeks already I gathered those links and sent them to whoever wants them
 There is now 971 subscribers to the mail newsletter, a hole lot of people prefer to subscribe using the RSS feed, and the website has 8 or 9k visits per month. But this is still a side project, with no business behind it, just one single guy and a couple of friends sharing the result of their weekly review of the news of their craft.
 
 
-So, as you can notice, this edito becomes a rant, and is going to get a bit longer. For a while I was trying to keep it short just because it sits on the top of the letter and what matters are the links and not the ranting. By moving the blah blah at the bottom I free myself from format constraints and can unleash my writing desires. muahaha. Not that I have much to say. But you can consider this new section of Green Ruby as the last screen displayed in [The Big Band Theory][3], where producers display some random thoughts, rants or anecdote, that you need to pause for being able to read.
+So, as you can notice, this edito becomes a rant, and is going to get a bit longer. For a while I was trying to keep it short just because it sits on the top of the letter and what matters are the links and not the ranting. By moving the blah blah at the bottom I free myself from format constraints and can unleash my writing desires. muahaha. Not that I have much to say. But you can consider this new section of Green Ruby as the last screen displayed in [The Big Band Theory][3], where producers display some random thoughts, rants or anecdote, that you need to pause for being able to read. Yeah I know I could blog like everybody else. But it's just convenient for me to include this writing in my weekly process.
 
 
-Another significant change is that I disabled the link tracking in Mailchimp. As a matter of fact I dislike the trackling-by-default attitude. I have been able to see how much clicks we had on each edition, but this is not really something I totally need. It's more about curiosity. It revealed that links to books were quite popular, so I paid attention to add some of those. And I could notice that links on the top of the letter are more clicked, but I don't need metrics for knowing that.
+I also improved formatting for text-only diffusion. There is still something bugging me about the link tracking, which is mandatory when using the free tier of Mailchimp service. I guess I will have to find a way around: either I will get away from mailchimp, either I will find a sponsor to pay for removing the tracking (!?). Goddamn I hate tracking. Maybe I will end up setting up my own postfix with some mailman.
 
 
-The result will be much better text-only newsletter with shorter links, and faster clicks as it doesn't pass through mailchimp anymore. And also, it's one more step toward the rebellion against generalized tracking. Yeahaa!
+It's amazing how many times I saw dev add google analytics on their templates and at the end nobody was going to check stats except for volume metrics. If you only need volumetry, use your web server logs! If you really need fine metrics, why not consider using self-hosted analytics like [Piwik][4]?
+
+
+Don't get me wrong, I don't hate analytics. What bothers me is what is made of those data by companies chose as a business model to consider the user as a merchandise.
+
+
+Oh, one last word, next week I will prepare an option so you can chose to receive only the links and no rant. Or only the rant and no links. Maybe I will make each section of the letter opt-out too, if you never listen to podcasts why should you get those, right? I just like choice.
 
 
 [1]: http://sixgun.org/episodes/lo370
@@ -30,6 +36,8 @@ The result will be much better text-only newsletter with shorter links, and fast
 [2]: http://www.theskepticsguide.org/podcast/sgu/495
 
 [3]: http://www.chucklorre.com/index-bbt.php
+
+[4]: http://piwik.org
 
   "
 
@@ -40,21 +48,9 @@ topics:
     "Examples of UI/UX, graphic performance, web design and flashy things."
   links:
 
-  - title: "Super Looper"
-    url: "http://superlooper.universlabs.co.uk/"
-    comment: "Looper experiment that lets you play with touch and record loops."
-    tags:
-      - design
-
-  - title: "Demodern"
-    url: "http://demodern.com/"
-    comment: "Nice agency website."
-    tags:
-      - design
-
-  - title: "FourZeroFour"
-    url: "http://404sites.tumblr.com/"
-    comment: "Collection of 404 pages with nice design."
+  - title: "Booking"
+    url: "http://www.booking.com/nye/"
+    comment: "Booking's promotional website with image slider and great effects."
     tags:
       - design
 
@@ -63,213 +59,210 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: "All Ruby Books"
-    url: "http://www.allrubybooks.com/"
-    comment: "Links to 182 books on ruby, rails, and others."
+  - title: "Designer Watch"
+    url: "http://designers.watch/"
+    comment: "The Must-See Documentaries for Designers & Artists."
     tags:
-      - rb
+      - design
 
-  - title: "Planet Ruby"
-    url: "http://planetruby.herokuapp.com/"
-    comment: "New syndication website for ruby news."
+  - title: "Input Types Sandbox"
+    url: "http://inputtypes.com/"
+    comment: "Test onscreen keyboards, input types, patterns and attributes."
     tags:
-      - rb
+      - html5
 
-  - title: "Uptime Robot"
-    url: "https://uptimerobot.com/"
-    comment: "50 Monitors, Checked Every 5 Minutes, Totally Free."
+  - title: "Nginx Resources"
+    url: "https://github.com/fcambus/nginx-resources"
+    comment: "A collection of resources covering Nginx, Nginx + Lua, OpenResty and Tengine."
     tags:
       - ops
-
-  - title: "Testmunk"
-    url: "http://www.testmunk.com/"
-    comment: "Test your app on a large pool of Android and iOS devices."
-    tags:
-      - mobile
-
-  - title: "FlattyShadow"
-    url: "http://flattyshadow.com/"
-    comment: "Flat Shadow Generator."
-    tags:
-      - design
-
-  - title: "StoryboardThat"
-    url: "http://www.storyboardthat.com/"
-    comment: "Online Storyboard Creator."
-    tags:
-      - design
-
-  - title: "25 Excellent Freebies for Designers"
-    url: "http://codegeekz.com/25-excellent-freebies-designers/"
-    comment: "From icons to progress bars."
-    tags:
-      - design
-
-  - title: "20 Best Responsive Design Tools"
-    url: "http://codegeekz.com/20-best-responsive-design-tools/"
-    comment: "Curated list of 20 modern tools."
-    tags:
-      - design
-
-
 
 - title: Install
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: "Ruby 2.2.0 Released"
-    url: "https://www.ruby-lang.org/en/news/2014/12/25/ruby-2-2-0-released/"
-    comment: "As announced previously, this is the final release for ruby 2.2. Faster with better GC."
+  - title: "Rails 4.1.9.rc1 and 4.0.13.rc1"
+    url: "http://weblog.rubyonrails.org/2015/1/2/Rails-4-1-9-rc1-and-4-0-13-rc1-have-been-released/"
+    comment: "First release of the year, it includes a lot of bug fixes."
     tags:
       - rb
 
-  - title: "JRuby 1.7.18 Released"
-    url: "http://www.jruby.org/2014/12/22/jruby-1-7-18.html"
-    comment: "Towards filling out any missing compatibility issues with Ruby 1.9.3."
+  - title: "Databound"
+    url: "http://databound.me/"
+    comment: "Provides Javascript a simple CRUD API to the Ruby on Rails backend."
     tags:
       - rb
 
-  - title: "Lotus 0.2.0"
-    url: "http://lucaguidi.com/2014/12/23/2014-retrospective-a-year-of-lotus.html"
-    comment: "2014 Retrospective: A Year Of Lotus (ruby web framework)."
+  - title: "Brakeman 3.0.0"
+    url: "http://brakemanscanner.org/blog/2015/01/02/brakeman-3-dot-0-0-released/"
+    comment: "Some backwards-incompatible changes."
     tags:
       - rb
 
-  - title: "Slop 4.0"
-    url: "https://github.com/leejarvis/slop"
-    comment: "Simple Lightweight Option Parsing."
+  - title: "SimonSays"
+    url: "http://simonsays.onsimplybuilt.com/"
+    comment: "A ruby gem for simple, declarative, role-based access control system for Rails."
     tags:
       - rb
 
-  - title: "jQuery 1.11.2 and 2.1.3"
-    url: "http://blog.jquery.com/2014/12/18/jquery-1-11-2-and-2-1-3-released-safari-fail-safe-edition/"
-    comment: "New jQuery releases with a significant bug fix/patch for Safari."
+  - title: "slack-api"
+    url: "https://github.com/aki017/slack-ruby-gem"
+    comment: "A Ruby wrapper for the Slack API."
+    tags:
+      - rb
+
+  - title: "ROM 0.5.0"
+    url: "http://rom-rb.org/blog/2014/12/31/rom-0-5-0-released/"
+    comment: "First release after Rom Reboot."
+    tags:
+      - rb
+
+  - title: "snabbt.js"
+    url: "http://daniel-lundin.github.io/snabbt.js/index.html"
+    comment: "60FPS even on mobile."
     tags:
       - js
 
-  - title: "Animated Headlines"
-    url: "http://codyhouse.co/gem/css-animated-headlines/"
-    comment: "A collection of animated headlines using CSS transitions."
+  - title: "PostgreSQL 9.4"
+    url: "http://www.postgresql.org/about/news/1557/"
+    comment: "Increases Flexibility, Scalability and Performance."
     tags:
-      - css3
-
-  - title: "Gin"
-    url: "https://gin-gonic.github.io/gin/"
-    comment: "Web framework written in Golang. Competes with martini."
-    tags:
-      - go
+      - ops
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: "Your tests want you to change your design"
-    url: "http://tooky.co.uk/your-tests-want-you-to-change-your-design/"
-    comment: "When something is hard to test it’s usually a good indicator that you should change something in your design."
-    pubdate: dec 19
-    tags:
-      - rb
-
-  - title: "My reason to be excited for Go 1.4"
-    url: "https://justinas.org/my-reason-to-be-excited-for-go-14/"
-    comment: "More than a week ago, Go 1.4 was released."
-    pubdate: dec 22
-    tags:
-      - go
-
-  - title: "Link in Header? Or Header in Link?"
-    url: "http://css-tricks.com/link-header-header-link/"
-    comment: "Compare differences in link placement."
-    pubdate: dec 22
-    tags:
-      - html5
-
-  - title: "What Editor Do Rubyists Use?"
-    url: "http://www.sitepoint.com/editor-rubyists-use/"
-    comment: "Ratings of text editors used by ruby devs."
-    pubdate: dec 22
-    tags:
-      - tool
-
-  - title: "Engineering Rotation"
-    url: "https://codeascraft.com/2014/12/22/engineering-rotation/"
-    comment: "We Invite Everyone at Etsy to Do an Engineering Rotation: Here’s why."
-    pubdate: dec 22
-    tags:
-      - tool
-
-  - title: "Why Hackathons Are Always a Good Idea"
-    url: "https://netguru.co/blog/why-hackathons-are-always-a-good"
-    comment: "Collection of mobile apps from Netguru to help doing hackathons."
-    pubdate: dec 22
-    tags:
-      - tool
-
-  - title: "A Compendium of Hooks in EmberCLI"
-    url: "http://hashrocket.com/blog/posts/a-compendium-of-hooks-in-embercli"
-    comment: "List all known addon hooks as of EmberCLI version 0.1.4."
-    pubdate: dec 22
+  - title: "Why I don't use CoffeeScript"
+    url: "http://jugoncalv.es/blog/javascript/why-i-dont-use-coffeescript/"
+    comment: "Choose your tools wisely."
+    pubdate: dec 27
     tags:
       - js
 
-  - title: "Introducing Sass-Compatibility"
-    url: "http://www.sitepoint.com/introducing-sass-compatibility/"
-    comment: "Compatibilities in different versions of SASS."
-    pubdate: dec 23
+  - title: "Having fun with collections in Ruby"
+    url: "http://micubiculo.com/having-fun-with-collections-in-ruby/"
+    comment: "Juggling exercises with ruby arrays and hashes."
+    pubdate: dec 27
+    tags:
+      - rb
+
+  - title: "Assume Everything Will Break"
+    url: "http://6ftdan.com/allyourdev/2014/12/27/assume-everything-will-break-development"
+    comment: "The pattern of AEWB, Nil Driven Development, Paranoia Design Pattern."
+    pubdate: dec 27
+    tags:
+      - rb
+
+  - title: "A Peek at Ruby in 2015"
+    url: "http://www.sitepoint.com/ruby-peek-2015/"
+    comment: "What improvements was made to Ruby in 2014 and what to come for 2015."
+    pubdate: dec 29
+    tags:
+      - rb
+
+  - title: "10 Web Predictions for 2014: The Results!"
+    url: "http://www.sitepoint.com/10-web-predictions-2014-results/"
+    comment: "Craig reviews his previsions from last year."
+    pubdate: dec 30
+    tags:
+      - web
+
+  - title: "Pushing Push – Have Notifications Come of Age?"
+    url: "http://www.sitepoint.com/pushing-push-notifications-come-age/"
+    comment: "Designing an effective push strategy for your app."
+    pubdate: dec 30
+    tags:
+      - web
+
+  - title: "My $2375 Amazon EC2 Mistake"
+    url: "http://www.devfactor.net/2014/12/30/2375-amazon-mistake/"
+    comment: "It's common sense, but it happens. AWS api keys can be used if disclosed. yeah right."
+    pubdate: dec 30
+    tags:
+      - rb
+
+  - title: "Approaches to Media Queries in Sass"
+    url: "http://css-tricks.com/approaches-media-queries-sass/"
+    comment: "Some more flexibility in the way breakpoints are created."
+    pubdate: dec 30
     tags:
       - css3
 
-  - title: "Write Better Markup with HTML Inspector"
-    url: "http://www.sitepoint.com/write-better-markup-html-inspector/"
-    comment: "Code quality tool to help you and your team to write better markup."
-    pubdate: dec 23
+  - title: "A Good Front-End Architecture"
+    url: "http://www.sitepoint.com/good-front-end-architecture/"
+    comment: "An opinion about how maintainable front-end architecture should look like."
+    pubdate: dec 30
     tags:
-      - html5
+      - web
 
-  - title: "Why You Should Use a Mechanical Keyboard"
-    url: "http://robots.thoughtbot.com/why-you-should-use-a-mechanical-keyboard"
-    comment: "State of the art of the last keyboard fashion."
-    pubdate: dec 23
+  - title: "Ruby Developers Don't Use RubySpec"
+    url: "http://rubini.us/2014/12/31/matz-s-ruby-developers-don-t-use-rubyspec/"
+    comment: "Matz's Ruby Developers Don't Use RubySpec and It's Hurting Ruby."
+    pubdate: dec 31
+    tags:
+      - rb
+
+  - title: "Useful Sublime Text 3 Packages for a Rubyist"
+    url: "http://thirtysixthspan.com/posts/useful-sublime-text-3-packages-for-a-rubyist"
+    comment: "List of my most used Packages and the custom key bindings for ST3."
+    pubdate: dec 31
+    tags:
+      - rb
+
+  - title: "Ampersand and/or Colon with Proc, Map, and Inject"
+    url: "http://6ftdan.com/allyourdev/2015/01/01/when-to-use-ampersand-andor-colon-with-proc-map-and-inject/"
+    comment: "When to use which."
+    pubdate: jan 1
+    tags:
+      - rb
+
+  - title: "Manipulating Audio on Web Pages"
+    url: "http://codegeekz.com/tools-libraries-manipulating-audio-web-pages/"
+    comment: "Tools and libraries for manipulating audio."
+    pubdate: jan 1
+    tags:
+      - rb
+
+  - title: "Tools for Testing Website Performance"
+    url: "http://www.sitepoint.com/tools-testing-website-performance/"
+    comment: "If your page load time is 3 seconds or more, 57% of your visitor will abandon your page."
+    pubdate: jan 1
+    tags:
+      - web
+
+  - title: "RubySpec is dead, long live RubySpec"
+    url: "https://gist.github.com/nateberkopec/11dbcf0ee7f2c08450ea"
+    comment: "Response to the rant about rubyspec."
+    pubdate: jan 2
+    tags:
+      - rb
+
+  - title: "Python Environment Management for Rubyists"
+    url: "http://spin.atomicobject.com/2015/01/02/python-environment-mgmt"
+    comment: "Pyenv is rbenv for virtuaslenv."
+    pubdate: jan 2
+    tags:
+      - rb
+
+  - title: "Best MySQL Management Applications"
+    url: "http://codegeekz.com/15-best-mysql-management-applications/"
+    comment: "Curated list of 15 MySQL management tools."
+    pubdate: jan 3
     tags:
       - tool
 
-  - title: "Handling Security Issues In Open Source Projects"
-    url: "http://robots.thoughtbot.com/handling-security-issues-in-open-source-projects"
-    comment: "How to deal with security issues in OSS."
-    pubdate: dec 24
-    tags:
-      - web
 
-  - title: "Docker and Phoenix"
-    url: "http://ariya.ofilabs.com/2014/12/docker-and-phoenix-how-to-make-your-continuous-integration-more-awesome.html"
-    comment: "How to Make Your Continuous Integration More Awesome."
-    pubdate: dec 25
-    tags:
-      - ops
-
-  - title: "Ruby and Rails Development Using Chef and Vagrant"
-    url: "http://avi.io/blog/2014/12/26/ruby-and-rails-development-environment-using-chef-and-vagrant"
-    comment: "The devbox gem is designed to fast provisioning of new laptops."
-    pubdate: dec 26
-    tags:
-      - web
-
-  - title: "Ruby isn't dead"
-    url: "https://blog.engineyard.com/2014/ruby-isnt-dead"
-    comment: "Why people say it's dying and why it's not dying."
-    pubdate: dec 26
-    tags:
-      - rb
 
 - title: Watch
   baseline: "Screencasts and conferences videos, or other video feeds ..."
   links:
 
-  - title: "Ruby Conference 2014"
-    url: "http://confreaks.com/events/RubyConf2014"
-    comment: "I already posted about this one, but more 24 videos were added this week."
-    duration: 63 videos
-    pubdate: dec 26
+  - title: "Go Rails 37"
+    url: "https://gorails.com/episodes/file-uploads-with-refile"
+    comment: "File Uploads with Refile."
+    duration: 23min
+    pubdate: jan 3
     tags:
       - rb
 
@@ -278,66 +271,66 @@ topics:
   baseline: What could be heard last week ..
   links:
 
-  - title: "Giant Robots 127"
-    url: http://giantrobots.fm/127
-    duration: 39m
-    pubdate: dec 22
-    comment: "Merging Worlds (Meng To)."
-    tags:
-      - web
-
-  - title: "Puppet Podcast: Beaker"
-    url: http://puppetlabs.com/podcasts/podcast-automated-testing-beaker-windows
-    duration: 26m
-    pubdate: dec 22
-    comment: "Automated Testing with Beaker for Windows."
+  - title: "Puppet Podcast: Core"
+    url: http://puppetlabs.com/podcasts/podcast-how-contribute-puppet-core
+    duration: 21m
+    pubdate: dec 29
+    comment: "How to Contribute to the Puppet Core."
     tags:
       - ops
 
-  - title: Codepen 30
-    url: http://blog.codepen.io/2014/12/22/030-jobs/
-    duration: 33m
-    pubdate: dec 22
-    comment: "Launched a new Job board."
+  - title: "The Cloudcast #174"
+    url: http://www.arresteddevops.com/a-year-of-ado/
+    duration: 45m
+    pubdate: dec 31
+    comment: "The 2014 Year in Review & 2015 Predictions."
+    tags:
+      - ops
+
+  - title: "Arrested DevOps 27"
+    url: http://www.thecloudcast.net/2014/12/the-cloudcast-174-2014-year-in-review.html
+    duration: 1h20
+    pubdate: dec 31
+    comment: "A Year of ADO."
+    tags:
+      - ops
+
+  - title: RubyRogues 188
+    url: http://devchat.tv/ruby-rogues/188-rr-community-building-with-pieter-hintjens
+    duration: 1h02
+    pubdate: dec 31
+    comment: "Community Building with Pieter Hintjens."
+    tags:
+      - rb
+
+  - title: The Bike Shed 5
+    url: http://bikeshed.fm/5
+    duration: 39m
+    pubdate: dec 31
+    comment: "Rails is Not Your Architecture."
+    tags:
+      - rb
+
+  - title: Javascript Jabber 140
+    url: http://devchat.tv/js-jabber/140-jsj-using-art-to-get-and-keep-people-interested-in-programming-with-jenn-schiffer
+    duration: 52m
+    pubdate: dec 31
+    comment: "Using Art to Get and Keep People Interested in Programming with Jenn Schiffer."
+    tags:
+      - js
+
+  - title: "Adventure in angular #23"
+    url: http://devchat.tv/adventures-in-angular/023-aia-back-with-itay-herskovits-and-relly-rivlan
+    duration: 31m
+    pubdate: jan 1
+    comment: "Back& with Itay Herskovits and Relly Rivlan."
+    tags:
+      - js
+
+  - title: Codepen 31
+    url: http://blog.codepen.io/2015/01/01/031-different/
+    duration: 27m
+    pubdate: jan 1
+    comment: "What sets us apart from the competition?"
     tags:
       - css3
-
-  - title: NodeUp 80
-    url: http://nodeup.com/eighty
-    duration: 40m
-    pubdate: dec 22
-    comment: "A developer mental health show."
-    tags:
-      - js
-
-  - title: Ruby on Rails Podcast 180
-    url: http://5by5.tv/rubyonrails/180
-    duration: 1h12
-    pubdate: dec 22
-    comment: "Josh Smith - Separating Server and Client Applications."
-    tags:
-      - rb
-
-  - title: RubyRogues 187
-    url: http://devchat.tv/ruby-rogues/187-marketing-yourself-as-a-software-developer-with-john-sonmez
-    duration: 1h15
-    pubdate: dec 24
-    comment: "Marketing Yourself as a Software Developer with John Sonm."
-    tags:
-      - rb
-
-  - title: Javascript Jabber 139
-    url: http://devchat.tv/js-jabber/139-jsj-the-mozilla-developer-network-with-les-orchard-and-david-walsh
-    duration: 54m
-    pubdate: dec 24
-    comment: "The Mozilla Developer Network with Les Orchard and David Walsh."
-    tags:
-      - js
-
-  - title: "Adventure in angular #22"
-    url: http://devchat.tv/adventures-in-angular/022-aia-form-validation-with-kent-c-dodds
-    duration: 30m
-    pubdate: dec 25
-    comment: "Form Validation with Kent C. Dodds."
-    tags:
-      - js

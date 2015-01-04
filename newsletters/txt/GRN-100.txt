@@ -6,189 +6,177 @@ Look
 ----------------------------------------------------
 Examples of UI/UX, graphic performance, web design and flashy things.
 
-* *Super Looper* (design)
-  http://superlooper.universlabs.co.uk/
-  Looper experiment that lets you play with touch and record loops.
-
-* *Demodern* (design)
-  http://demodern.com/
-  Nice agency website.
-
-* *FourZeroFour* (design)
-  http://404sites.tumblr.com/
-  Collection of 404 pages with nice design.
+*Booking* (design)
+http://www.booking.com/nye/
+Booking's promotional website with image slider and great effects.
 
 Use
 ----------------------------------------------------
 Web applications, resources and tools, available for making our life easier or funnier.
 
-* *All Ruby Books* (rb)
-  http://www.allrubybooks.com/
-  Links to 182 books on ruby, rails, and others.
+*Designer Watch* (design)
+http://designers.watch/
+The Must-See Documentaries for Designers & Artists.
 
-* *Planet Ruby* (rb)
-  http://planetruby.herokuapp.com/
-  New syndication website for ruby news.
+*Input Types Sandbox* (html5)
+http://inputtypes.com/
+Test onscreen keyboards, input types, patterns and attributes.
 
-* *Uptime Robot* (ops)
-  https://uptimerobot.com/
-  50 Monitors, Checked Every 5 Minutes, Totally Free.
-
-* *Testmunk* (mobile)
-  http://www.testmunk.com/
-  Test your app on a large pool of Android and iOS devices.
-
-* *FlattyShadow* (design)
-  http://flattyshadow.com/
-  Flat Shadow Generator.
-
-* *StoryboardThat* (design)
-  http://www.storyboardthat.com/
-  Online Storyboard Creator.
-
-* *25 Excellent Freebies for Designers* (design)
-  http://codegeekz.com/25-excellent-freebies-designers/
-  From icons to progress bars.
-
-* *20 Best Responsive Design Tools* (design)
-  http://codegeekz.com/20-best-responsive-design-tools/
-  Curated list of 20 modern tools.
+*Nginx Resources* (ops)
+https://github.com/fcambus/nginx-resources
+A collection of resources covering Nginx, Nginx + Lua, OpenResty and Tengine.
 
 Install
 ----------------------------------------------------
 A selection of gems or applications updated during past week.
 
-* *Ruby 2.2.0 Released* (rb)
-  https://www.ruby-lang.org/en/news/2014/12/25/ruby-2-2-0-released/
-  As announced previously, this is the final release for ruby 2.2. Faster with better GC.
+*Rails 4.1.9.rc1 and 4.0.13.rc1* (rb)
+http://weblog.rubyonrails.org/2015/1/2/Rails-4-1-9-rc1-and-4-0-13-rc1-have-been-released/
+First release of the year, it includes a lot of bug fixes.
 
-* *JRuby 1.7.18 Released* (rb)
-  http://www.jruby.org/2014/12/22/jruby-1-7-18.html
-  Towards filling out any missing compatibility issues with Ruby 1.9.3.
+*Databound* (rb)
+http://databound.me/
+Provides Javascript a simple CRUD API to the Ruby on Rails backend.
 
-* *Lotus 0.2.0* (rb)
-  http://lucaguidi.com/2014/12/23/2014-retrospective-a-year-of-lotus.html
-  2014 Retrospective: A Year Of Lotus (ruby web framework).
+*Brakeman 3.0.0* (rb)
+http://brakemanscanner.org/blog/2015/01/02/brakeman-3-dot-0-0-released/
+Some backwards-incompatible changes.
 
-* *Slop 4.0* (rb)
-  https://github.com/leejarvis/slop
-  Simple Lightweight Option Parsing.
+*SimonSays* (rb)
+http://simonsays.onsimplybuilt.com/
+A ruby gem for simple, declarative, role-based access control system for Rails.
 
-* *jQuery 1.11.2 and 2.1.3* (js)
-  http://blog.jquery.com/2014/12/18/jquery-1-11-2-and-2-1-3-released-safari-fail-safe-edition/
-  New jQuery releases with a significant bug fix/patch for Safari.
+*slack-api* (rb)
+https://github.com/aki017/slack-ruby-gem
+A Ruby wrapper for the Slack API.
 
-* *Animated Headlines* (css3)
-  http://codyhouse.co/gem/css-animated-headlines/
-  A collection of animated headlines using CSS transitions.
+*ROM 0.5.0* (rb)
+http://rom-rb.org/blog/2014/12/31/rom-0-5-0-released/
+First release after Rom Reboot.
 
-* *Gin* (go)
-  https://gin-gonic.github.io/gin/
-  Web framework written in Golang. Competes with martini.
+*snabbt.js* (js)
+http://daniel-lundin.github.io/snabbt.js/index.html
+60FPS even on mobile.
+
+*PostgreSQL 9.4* (ops)
+http://www.postgresql.org/about/news/1557/
+Increases Flexibility, Scalability and Performance.
 
 Read
 ----------------------------------------------------
 From the blogosphere or news feeds ...
 
-* *Your tests want you to change your design* (rb - dec 19)
-  http://tooky.co.uk/your-tests-want-you-to-change-your-design/
-  When something is hard to test it’s usually a good indicator that you should change something in your design.
+*Why I don't use CoffeeScript* (js - dec 27)
+http://jugoncalv.es/blog/javascript/why-i-dont-use-coffeescript/
+Choose your tools wisely.
 
-* *My reason to be excited for Go 1.4* (go - dec 22)
-  https://justinas.org/my-reason-to-be-excited-for-go-14/
-  More than a week ago, Go 1.4 was released.
+*Having fun with collections in Ruby* (rb - dec 27)
+http://micubiculo.com/having-fun-with-collections-in-ruby/
+Juggling exercises with ruby arrays and hashes.
 
-* *Link in Header? Or Header in Link?* (html5 - dec 22)
-  http://css-tricks.com/link-header-header-link/
-  Compare differences in link placement.
+*Assume Everything Will Break* (rb - dec 27)
+http://6ftdan.com/allyourdev/2014/12/27/assume-everything-will-break-development
+The pattern of AEWB, Nil Driven Development, Paranoia Design Pattern.
 
-* *What Editor Do Rubyists Use?* (tool - dec 22)
-  http://www.sitepoint.com/editor-rubyists-use/
-  Ratings of text editors used by ruby devs.
+*A Peek at Ruby in 2015* (rb - dec 29)
+http://www.sitepoint.com/ruby-peek-2015/
+What improvements was made to Ruby in 2014 and what to come for 2015.
 
-* *Engineering Rotation* (tool - dec 22)
-  https://codeascraft.com/2014/12/22/engineering-rotation/
-  We Invite Everyone at Etsy to Do an Engineering Rotation: Here’s why.
+*10 Web Predictions for 2014: The Results!* (web - dec 30)
+http://www.sitepoint.com/10-web-predictions-2014-results/
+Craig reviews his previsions from last year.
 
-* *Why Hackathons Are Always a Good Idea* (tool - dec 22)
-  https://netguru.co/blog/why-hackathons-are-always-a-good
-  Collection of mobile apps from Netguru to help doing hackathons.
+*Pushing Push – Have Notifications Come of Age?* (web - dec 30)
+http://www.sitepoint.com/pushing-push-notifications-come-age/
+Designing an effective push strategy for your app.
 
-* *A Compendium of Hooks in EmberCLI* (js - dec 22)
-  http://hashrocket.com/blog/posts/a-compendium-of-hooks-in-embercli
-  List all known addon hooks as of EmberCLI version 0.1.4.
+*My $2375 Amazon EC2 Mistake* (rb - dec 30)
+http://www.devfactor.net/2014/12/30/2375-amazon-mistake/
+It's common sense, but it happens. AWS api keys can be used if disclosed. yeah right.
 
-* *Introducing Sass-Compatibility* (css3 - dec 23)
-  http://www.sitepoint.com/introducing-sass-compatibility/
-  Compatibilities in different versions of SASS.
+*Approaches to Media Queries in Sass* (css3 - dec 30)
+http://css-tricks.com/approaches-media-queries-sass/
+Some more flexibility in the way breakpoints are created.
 
-* *Write Better Markup with HTML Inspector* (html5 - dec 23)
-  http://www.sitepoint.com/write-better-markup-html-inspector/
-  Code quality tool to help you and your team to write better markup.
+*A Good Front-End Architecture* (web - dec 30)
+http://www.sitepoint.com/good-front-end-architecture/
+An opinion about how maintainable front-end architecture should look like.
 
-* *Why You Should Use a Mechanical Keyboard* (tool - dec 23)
-  http://robots.thoughtbot.com/why-you-should-use-a-mechanical-keyboard
-  State of the art of the last keyboard fashion.
+*Ruby Developers Don't Use RubySpec* (rb - dec 31)
+http://rubini.us/2014/12/31/matz-s-ruby-developers-don-t-use-rubyspec/
+Matz's Ruby Developers Don't Use RubySpec and It's Hurting Ruby.
 
-* *Handling Security Issues In Open Source Projects* (web - dec 24)
-  http://robots.thoughtbot.com/handling-security-issues-in-open-source-projects
-  How to deal with security issues in OSS.
+*Useful Sublime Text 3 Packages for a Rubyist* (rb - dec 31)
+http://thirtysixthspan.com/posts/useful-sublime-text-3-packages-for-a-rubyist
+List of my most used Packages and the custom key bindings for ST3.
 
-* *Docker and Phoenix* (ops - dec 25)
-  http://ariya.ofilabs.com/2014/12/docker-and-phoenix-how-to-make-your-continuous-integration-more-awesome.html
-  How to Make Your Continuous Integration More Awesome.
+*Ampersand and/or Colon with Proc, Map, and Inject* (rb - jan 1)
+http://6ftdan.com/allyourdev/2015/01/01/when-to-use-ampersand-andor-colon-with-proc-map-and-inject/
+When to use which.
 
-* *Ruby and Rails Development Using Chef and Vagrant* (web - dec 26)
-  http://avi.io/blog/2014/12/26/ruby-and-rails-development-environment-using-chef-and-vagrant
-  The devbox gem is designed to fast provisioning of new laptops.
+*Manipulating Audio on Web Pages* (rb - jan 1)
+http://codegeekz.com/tools-libraries-manipulating-audio-web-pages/
+Tools and libraries for manipulating audio.
 
-* *Ruby isn't dead* (rb - dec 26)
-  https://blog.engineyard.com/2014/ruby-isnt-dead
-  Why people say it's dying and why it's not dying.
+*Tools for Testing Website Performance* (web - jan 1)
+http://www.sitepoint.com/tools-testing-website-performance/
+If your page load time is 3 seconds or more, 57% of your visitor will abandon your page.
+
+*RubySpec is dead, long live RubySpec* (rb - jan 2)
+https://gist.github.com/nateberkopec/11dbcf0ee7f2c08450ea
+Response to the rant about rubyspec.
+
+*Python Environment Management for Rubyists* (rb - jan 2)
+http://spin.atomicobject.com/2015/01/02/python-environment-mgmt
+Pyenv is rbenv for virtuaslenv.
+
+*Best MySQL Management Applications* (tool - jan 3)
+http://codegeekz.com/15-best-mysql-management-applications/
+Curated list of 15 MySQL management tools.
 
 Watch
 ----------------------------------------------------
 Screencasts and conferences videos, or other video feeds ...
 
-* *Ruby Conference 2014* (rb - dec 26 - 63 videos)
-  http://confreaks.com/events/RubyConf2014
-  I already posted about this one, but more 24 videos were added this week.
+*Go Rails 37* (rb - jan 3 - 23min)
+https://gorails.com/episodes/file-uploads-with-refile
+File Uploads with Refile.
 
 Listen
 ----------------------------------------------------
 What could be heard last week ..
 
-* *Giant Robots 127* (web - dec 22 - 39m)
-  http://giantrobots.fm/127
-  Merging Worlds (Meng To).
+*Puppet Podcast: Core* (ops - dec 29 - 21m)
+http://puppetlabs.com/podcasts/podcast-how-contribute-puppet-core
+How to Contribute to the Puppet Core.
 
-* *Puppet Podcast: Beaker* (ops - dec 22 - 26m)
-  http://puppetlabs.com/podcasts/podcast-automated-testing-beaker-windows
-  Automated Testing with Beaker for Windows.
+*The Cloudcast #174* (ops - dec 31 - 45m)
+http://www.arresteddevops.com/a-year-of-ado/
+The 2014 Year in Review & 2015 Predictions.
 
-* *Codepen 30* (css3 - dec 22 - 33m)
-  http://blog.codepen.io/2014/12/22/030-jobs/
-  Launched a new Job board.
+*Arrested DevOps 27* (ops - dec 31 - 1h20)
+http://www.thecloudcast.net/2014/12/the-cloudcast-174-2014-year-in-review.html
+A Year of ADO.
 
-* *NodeUp 80* (js - dec 22 - 40m)
-  http://nodeup.com/eighty
-  A developer mental health show.
+*RubyRogues 188* (rb - dec 31 - 1h02)
+http://devchat.tv/ruby-rogues/188-rr-community-building-with-pieter-hintjens
+Community Building with Pieter Hintjens.
 
-* *Ruby on Rails Podcast 180* (rb - dec 22 - 1h12)
-  http://5by5.tv/rubyonrails/180
-  Josh Smith - Separating Server and Client Applications.
+*The Bike Shed 5* (rb - dec 31 - 39m)
+http://bikeshed.fm/5
+Rails is Not Your Architecture.
 
-* *RubyRogues 187* (rb - dec 24 - 1h15)
-  http://devchat.tv/ruby-rogues/187-marketing-yourself-as-a-software-developer-with-john-sonmez
-  Marketing Yourself as a Software Developer with John Sonm.
+*Javascript Jabber 140* (js - dec 31 - 52m)
+http://devchat.tv/js-jabber/140-jsj-using-art-to-get-and-keep-people-interested-in-programming-with-jenn-schiffer
+Using Art to Get and Keep People Interested in Programming with Jenn Schiffer.
 
-* *Javascript Jabber 139* (js - dec 24 - 54m)
-  http://devchat.tv/js-jabber/139-jsj-the-mozilla-developer-network-with-les-orchard-and-david-walsh
-  The Mozilla Developer Network with Les Orchard and David Walsh.
+*Adventure in angular #23* (js - jan 1 - 31m)
+http://devchat.tv/adventures-in-angular/023-aia-back-with-itay-herskovits-and-relly-rivlan
+Back& with Itay Herskovits and Relly Rivlan.
 
-* *Adventure in angular #22* (js - dec 25 - 30m)
-  http://devchat.tv/adventures-in-angular/022-aia-form-validation-with-kent-c-dodds
-  Form Validation with Kent C. Dodds.
+*Codepen 31* (css3 - jan 1 - 27m)
+http://blog.codepen.io/2015/01/01/031-different/
+What sets us apart from the competition?
 
 . . . . . . . . . . . . . . . . . . . . . . . . . .
 Links curated by by mose (editor), xenor, simon (informers).
@@ -197,23 +185,63 @@ Rant
 ----------------------------------------------------
 The random rant of the week by mose.
 
-This week is the 100th edition of Green Ruby, it's also the first one of 2015. Tis week the [Linux Outlaws][1] broadcasted their last show, and Rebecca Watson left the [Skeptics Guide to the Universe][2]. Those are 2 podcasts that I never list in the Green Ruby list (they are not really on topic) but I rarely miss any of them. Too bad they leave. I thought about it too, but no, I will stay.
+This week is the 100th edition of Green Ruby, it's also the first one of 2015.
+This week the [Linux Outlaws][1] broadcasted their last show, and Rebecca
+Watson left the [Skeptics Guide to the Universe][2]. Those are 2 podcasts that
+I never list in the Green Ruby list (they are not really on topic) but I
+rarely miss any of them. Too bad they leave. I thought about it too, but no, I
+will stay.
 
 So, happy new year or, as we say in french: Bananier!
 
-For 100 weeks already I gathered those links and sent them to whoever wants them. Every damn single week. Just for the fun of it. This is a kind of personal kata, it keeps me in the loop. I just make my exercise in a way I can share it. And my streak of never missing one week is a kind of personal challenge.
+For 100 weeks already I gathered those links and sent them to whoever wants
+them. Every damn single week. Just for the fun of it. This is a kind of
+personal kata, it keeps me in the loop. I just make my exercise in a way I can
+share it. And my streak of never missing one week is a kind of personal
+challenge.
 
-There is now 971 subscribers to the mail newsletter, a hole lot of people prefer to subscribe using the RSS feed, and the website has 8 or 9k visits per month. But this is still a side project, with no business behind it, just one single guy and a couple of friends sharing the result of their weekly review of the news of their craft.
+There is now 971 subscribers to the mail newsletter, a hole lot of people
+prefer to subscribe using the RSS feed, and the website has 8 or 9k visits per
+month. But this is still a side project, with no business behind it, just one
+single guy and a couple of friends sharing the result of their weekly review
+of the news of their craft.
 
-So, as you can notice, this edito becomes a rant, and is going to get a bit longer. For a while I was trying to keep it short just because it sits on the top of the letter and what matters are the links and not the ranting. By moving the blah blah at the bottom I free myself from format constraints and can unleash my writing desires. muahaha. Not that I have much to say. But you can consider this new section of Green Ruby as the last screen displayed in [The Big Band Theory][3], where producers display some random thoughts, rants or anecdote, that you need to pause for being able to read.
+So, as you can notice, this edito becomes a rant, and is going to get a bit
+longer. For a while I was trying to keep it short just because it sits on the
+top of the letter and what matters are the links and not the ranting. By
+moving the blah blah at the bottom I free myself from format constraints and
+can unleash my writing desires. muahaha. Not that I have much to say. But you
+can consider this new section of Green Ruby as the last screen displayed in
+[The Big Band Theory][3], where producers display some random thoughts, rants
+or anecdote, that you need to pause for being able to read. Yeah I know I
+could blog like everybody else. But it's just convenient for me to include
+this writing in my weekly process.
 
-Another significant change is that I disabled the link tracking in Mailchimp. As a matter of fact I dislike the trackling-by-default attitude. I have been able to see how much clicks we had on each edition, but this is not really something I totally need. It's more about curiosity. It revealed that links to books were quite popular, so I paid attention to add some of those. And I could notice that links on the top of the letter are more clicked, but I don't need metrics for knowing that.
+I also improved formatting for text-only diffusion. There is still something
+bugging me about the link tracking, which is mandatory when using the free
+tier of Mailchimp service. I guess I will have to find a way around: either I
+will get away from mailchimp, either I will find a sponsor to pay for removing
+the tracking (!?). Goddamn I hate tracking. Maybe I will end up setting up my
+own postfix with some mailman.
 
-The result will be much better text-only newsletter with shorter links, and faster clicks as it doesn't pass through mailchimp anymore. And also, it's one more step toward the rebellion against generalized tracking. Yeahaa!
+It's amazing how many times I saw dev add google analytics on their templates
+and at the end nobody was going to check stats except for volume metrics. If
+you only need volumetry, use your web server logs! If you really need fine
+metrics, why not consider using self-hosted analytics like [Piwik][4]?
+
+Don't get me wrong, I don't hate analytics. What bothers me is what is made of
+those data by companies chose as a business model to consider the user as a
+merchandise.
+
+Oh, one last word, next week I will prepare an option so you can chose to
+receive only the links and no rant. Or only the rant and no links. Maybe I
+will make each section of the letter opt-out too, if you never listen to
+podcasts why should you get those, right? I just like choice.
 
 [1]: http://sixgun.org/episodes/lo370
 [2]: http://www.theskepticsguide.org/podcast/sgu/495
 [3]: http://www.chucklorre.com/index-bbt.php
+[4]: http://piwik.org
 
 ====================================================
 EOF
