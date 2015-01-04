@@ -48,7 +48,6 @@ module Greeby
     def make_archives(source)
 
       @c = to_ostruct(YAML::load_file(File.join(@news_path, source)))
-      @c.rant = RDiscount.new(@c.rant.to_s).to_html
       @c.rant_html = RDiscount.new(@c.rant.to_s).to_html
 
       letters = JSON.parse(File.read(File.join(@static_path, 'editions.json')))
