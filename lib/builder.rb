@@ -49,6 +49,7 @@ module Greeby
 
       @c = to_ostruct(YAML::load_file(File.join(@news_path, source)))
       @c.rant = RDiscount.new(@c.rant.to_s).to_html
+      @c.rant_html = RDiscount.new(@c.rant.to_s).to_html
 
       letters = JSON.parse(File.read(File.join(@static_path, 'editions.json')))
       letters[@c.edition] = { "link" => "grn-#{@c.edition}.html", "date" => @c.pubdate }
@@ -259,11 +260,6 @@ module Greeby
     end
 
     def wrap(s, width=78)
-      #s.scan(/\S.{0,#{width-2}}\S(?=\s|$)|\S+/)
-      #s.gsub(/(.{10,#{width}})(\s+)/, "\\1\n")
-      # s.gsub!( /(\S{#{width}})(?=\S)/, '\1 ' )
-      # s.gsub!( /(.{1,#{width}})(\s+|$)/, "\\1\\2" )
-      # s
       s.split("\n\n").collect! do |l|
         l.length > width ? l.gsub(/(.{1,#{width}})(\s+|$)/, "\\1\n").strip : l
       end * "\n\n"
