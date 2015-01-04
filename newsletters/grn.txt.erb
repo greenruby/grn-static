@@ -1,6 +1,7 @@
 ----------------------------------------------------
 Green Ruby News #<%= c.edition %> - <%= c.pubdate %>
 ----------------------------------------------------
+*|IFNOT:CONTENT=Only Rant|*
 <% c.topics.each do |t| %>
 <%= t.title %>
 ----------------------------------------------------
@@ -12,6 +13,8 @@ Green Ruby News #<%= c.edition %> - <%= c.pubdate %>
 <% end %><% end %>
 . . . . . . . . . . . . . . . . . . . . . . . . . .
 Links curated by by mose (editor), <% if @c.contributors %><%= @c.contributors %> (informers)<% else %>xenor (informer)<% end %>.
+*|END:IF|*
+*|IFNOT:CONTENT=Only Links|*
 <% if @c.rant != '' %>
 Rant
 ----------------------------------------------------
@@ -19,6 +22,8 @@ The random rant of the week by mose.
 
 <%= @c.rant_txt %>
 <% end %>
+*|END:IF|*
+
 ====================================================
 EOF
 

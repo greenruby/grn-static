@@ -86,6 +86,7 @@ Is this email not displaying correctly?
 </div>
 <div id="templateBody">
 
+*|IFNOT:CONTENT=Only Rant|*
 
 <h2>Look</h2>
 <div class="baseline">Examples of UI/UX, graphic performance, web design and flashy things.</div>
@@ -429,7 +430,9 @@ What sets us apart from the competition?</td></tr>
 xenor, simon (informers)
 .</i>
 </div>
+*|END:IF|*
 
+*|IFNOT:CONTENT=Only Links|*
 <div id="rant">
 <h2>Rant</h2>
 <div class="baseline"><i>If you don't need the rant section in your mailbox, you can <a href="*|UPDATE_PROFILE|*">adjust your preferences</a>.</i></div>
@@ -451,6 +454,7 @@ xenor, simon (informers)
 
 <p>Oh, one last word, next week I will prepare an option so you can chose to receive only the links and no rant. Or only the rant and no links. Maybe I will make each section of the letter opt-out too, if you never listen to podcasts why should you get those, right? I just like choice.</p>
 </div>
+*|END:IF|*
 
 <hr>
 <div class="baseline">

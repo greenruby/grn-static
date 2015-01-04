@@ -86,6 +86,7 @@ Is this email not displaying correctly?
 </div>
 <div id="templateBody">
 
+*|IFNOT:CONTENT=Only Rant|*
 <% if @c.edito && @c.edito != '' %>
 <div>
 <div class="baseline">
@@ -132,13 +133,16 @@ Is this email not displaying correctly?
 xenor (informer)
 <% end %>.</i>
 </div>
+*|END:IF|*
 
 <% if @c.rant != '' %>
+*|IFNOT:CONTENT=Only Links|*
 <div id="rant">
 <h2>Rant</h2>
 <div class="baseline"><i>If you don't need the rant section in your mailbox, you can <a href="*|UPDATE_PROFILE|*">adjust your preferences</a>.</i></div>
 <%= @c.rant_html %>
 </div>
+*|END:IF|*
 <% end %>
 
 <hr>

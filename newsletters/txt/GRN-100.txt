@@ -1,6 +1,7 @@
 ----------------------------------------------------
 Green Ruby News #100 - jan 4th 2015
 ----------------------------------------------------
+*|IFNOT:CONTENT=Only Rant|*
 
 Look
 ----------------------------------------------------
@@ -184,6 +185,8 @@ What sets us apart from the competition?
 
 . . . . . . . . . . . . . . . . . . . . . . . . . .
 Links curated by by mose (editor), xenor, simon (informers).
+*|END:IF|*
+*|IFNOT:CONTENT=Only Links|*
 
 Rant
 ----------------------------------------------------
@@ -248,6 +251,8 @@ podcasts why should you get those, right? I just like choice.
 [2]: http://www.theskepticsguide.org/podcast/sgu/495
 [3]: http://www.chucklorre.com/index-bbt.php
 [4]: http://piwik.org
+
+*|END:IF|*
 
 ====================================================
 EOF
