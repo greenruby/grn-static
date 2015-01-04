@@ -1,21 +1,5 @@
 
 <h1>#<%= @c.edition %> - <%= @c.pubdate %></div>
-
-<h2>Edito</h2>
-<%= @c.edito %>
-<br>
-<br>
-<em>&nbsp; mose - the green ruby editor</em><br>
-<em>&nbsp;
-<% if @c.contributors %>
-	<%= @c.contributors %> - the informers
-<% else %>
-	xenor - the informer
-<% end %>
-</em><br>
-&nbsp; <a href="http://greenruby.org" target="_self">http://greenruby.org</a>
-<br>
-
 <% @c.topics.each do |t| %>
 <h3><%= t.title %></h3>
 <div><%= t.baseline %></div>
