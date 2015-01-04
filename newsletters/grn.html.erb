@@ -125,7 +125,7 @@ Is this email not displaying correctly?
 <% end %>
 
 <div class="baseline" style="border-top: 1px solid #ccc">
-<i>Links curated by by mose (editor),
+<i>Links curated by mose (editor),
 <% if @c.contributors %>
 <%= @c.contributors %> (informers)
 <% else %>
@@ -133,11 +133,11 @@ xenor (informer)
 <% end %>.</i>
 </div>
 
-<% if c.rant != '' %>
+<% if @c.rant != '' %>
 <div id="rant">
 <h2>Rant</h2>
 <div class="baseline"><i>If you don't need the rant section in your mailbox, you can <a href="*|UPDATE_PROFILE|*">adjust your preferences</a>.</i></div>
-<%= c.rant_html %>
+<%= @c.rant_html %>
 </div>
 <% end %>
 
