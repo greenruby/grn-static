@@ -1,0 +1,309 @@
+----------------------------------------------------
+Green Ruby News #101 - jan 11th 2015
+----------------------------------------------------
+*|IFNOT:CONTENT=Only Rant|*
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+*50 years of Bose* (design)
+http://dreamandreach.bose.com/home
+Very graphical retrospective of the Bose history.
+
+*Thoughtbot 2014 Report* (design)
+http://2014.thoughtbot.com/
+Nice looking and informative report from Thoughtbot.
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+*Railsbox* (rb)
+https://railsbox.io/
+Fast and easy Ruby on Rails virtual machines.
+
+*RubyBench* (rb)
+https://rubybench.org/
+RubyBench is a long running Ruby benchmark.
+
+*Sass Guidelines* (css3)
+http://sass-guidelin.es/
+An opinionated styleguide for writing sane, maintainable and scalable Sass.
+
+*Rocketbin* (tool)
+http://rocketb.in/
+Like pastebin, but looks better, and is open source.
+
+*Git Magic* (tool)
+http://www-cs-students.stanford.edu/~blynn/gitmagic/
+(book) An amazing online book about git.
+
+*Sed - An Introduction and Tutorial* (tool)
+http://www.grymoire.com/Unix/sed.html
+(grymoire) an updated reference for sed usage.
+
+*unhosted web apps* (web)
+https://unhosted.org/
+Either you connect your own server at runtime, or your data stays within the browser.
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+*Rails 4.1.9 and 4.0.13* (rb)
+http://weblog.rubyonrails.org/2015/1/6/Rails-4-1-9-and-4-0-13-have-been-released/
+After a quick RC last week, here are the final versions.
+
+*Recog* (rb)
+https://github.com/rapid7/recog
+Recog is a framework for identifying products, services, operating systems, and hardware.
+
+*bundler-audit* (rb)
+https://github.com/rubysec/bundler-audit
+Patch-level verification for Bundler.
+
+*Parelation* (rb)
+http://meskyanichi.github.io/parelation/
+Query your ActiveRecord-mapped database using simple GET requests.
+
+*Configurations* (rb)
+https://github.com/beatrichartz/configurations
+Unified approach to do configurations for gems or other ruby code.
+
+*Ginatra* (rb)
+https://github.com/narkoz/ginatra
+Simple web-based git repository browser built on Ruby Sinatra.
+
+*pgcli* (tool)
+http://pgcli.com/
+Command line interface for Postgres with auto-completion and syntax highlighting.
+
+*Octohub* (tool)
+http://octohubapp.com/
+A desktop client for github (for mac only and on invite beta).
+
+*booterator* (css3)
+https://github.com/cardeo/booterator
+A Bootstrap theme generator.
+
+*deSVG* (js)
+http://benhowdle.im/deSVG/
+Replace SVG image references in your HTML with inline SVG.
+
+*eCharts* (js)
+http://echarts.baidu.com/index-en.html
+Version 2.0 of Baidu's Canvas charting library.
+
+*Clocker* (ops)
+https://github.com/brooklyncentral/clocker
+Brooklyn managed Docker containers.
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+*Secure Secure Shell* (tool - jan 4)
+https://stribika.github.io/2015/01/04/secure-secure-shell.html
+How to make ssh really (or more) secure.
+
+*The rise of the multimodel database* (tool - jan 6)
+http://www.infoworld.com/article/2861579/database/the-rise-of-the-multimodel-database.html
+A single data store can support multiple data models.
+
+*Concurrency Control In Multi-Player Games Using Aerospike* (js - jan 6)
+http://www.iamontheinet.com/2015/01/06/concurrency-control-in-multi-player-games-aerospike/#sthash.Ml3qOs4U.dpbs
+Look at a web-based tic-tac-toe game with multiple players playing at the same time.
+
+*ActiveRecord 4.2's Type Casting* (rb - jan 6)
+http://technology.customink.com/blog/2015/01/06/activerecord-42s-type-casting/
+How ActiveRecord type casts values and what is new about it.
+
+*Speed Up Rails By Starting on the Front* (rb - jan 6)
+http://viget.com/extend/rails-front-end-performance
+Various frontend and server optimizations tricks for faster rails apps.
+
+*CarrierWave - basic video conversion* (rb - jan 6)
+https://prograils.com/posts/carrierwave-basic-video-conversion
+Using streamio-ffmpeg with Carrierwave.
+
+*Messaging with Rails and Mailboxer* (rb - jan 8)
+http://www.sitepoint.com/messaging-rails-mailboxer/
+Mailboxer is a Rails gem that is a part of the social_stream framework for building social networks.
+
+*5 Tools To Help Audit Your CSS Code* (css3 - jan 8)
+http://www.hongkiat.com/blog/audit-optimize-css/
+As your code expands, CSS may suddenly become hard to maintain.
+
+*Five Ruby Methods You Should Be Using* (rb - jan 9)
+https://blog.engineyard.com/2015/five-ruby-methods-you-should-be-using
+Details about: Object#tap, Array#bsearch, Enumerable#flat_map, Array.new with a Block, <=>.
+
+*From Ember-Rails to Ember CLI* (js - jan 9)
+http://robots.thoughtbot.com/migrating-from-ember-rails-to-ember-cli
+An environment to develop, build, and test your Ember applications.
+
+*The Dark Side of Open Source* (tool - jan 9)
+https://medium.com/@fox/the-dark-side-of-open-source-ba5a66c8a4c3
+Based on github visibility and how it influences badly some early coders.
+
+*Stack Traces In Go* (go - jan 11)
+http://www.goinggo.net/2015/01/stack-traces-in-go.html
+Information the stack trace provides, including how to identify the value for each parameter.
+
+Watch
+----------------------------------------------------
+Screencasts and conferences videos, or other video feeds ...
+
+*Portland Ruby Brigade December 2014* (rb - jan 6 - 3 videos)
+http://confreaks.com/events/PDXRBDEC2015
+pdx.rb is a user group for Ruby programmers in the Portland, Oregon area.
+
+*Portland Ruby Brigade January 2014* (rb - jan 7 - 2 videos)
+http://confreaks.com/events/PDXRBJAN2015
+January sessions from pdx.rb.
+
+Listen
+----------------------------------------------------
+What could be heard last week ..
+
+*Giant Robots 128* (web - jan 5 - 47m)
+http://giantrobots.fm/128
+To Attract and Retain (Dan Croak).
+
+*The Cloudcast #175* (ops - jan 5 - 42m)
+http://www.thecloudcast.net/2015/01/the-cloudcast-175-machine-data-devops.html
+Machine Data & DevOps.
+
+*Ruby5 #519* (rb - jan 6 - 6m)
+http://ruby5.envylabs.com/episodes/556-episode-519-january-6th-2015
+Ruby 2.2.0, Rails 4.2.0, Finishing Moves, RubySpec, Databound, testing controllers, James Golick.
+
+*CenturyLinks Lab 23* (ops - jan 7 - 19m)
+http://centurylinklabs.podomatic.com/entry/2015-01-07T14_44_39-08_00
+What is Rocket and How It's Different Than Docker.
+
+*RubyRogues 189* (rb - jan 7 - 1h27)
+http://devchat.tv/ruby-rogues/189-rr-choosing-a-javascript-mvc-framework-with-craig-mckeachie-
+Choosing a JavaScript MVC Framework with Craig McKeachie.
+
+*Javascript Jabber 141* (js - jan 7 - 1h07)
+http://devchat.tv/js-jabber/140-jsj-using-art-to-get-and-keep-people-interested-in-programming-with-jenn-schiffer
+Firefox OS with Jason Weathersby.
+
+*The Changelog 136* (rb - jan 8 - 1h01)
+http://5by5.tv/changelog/136
+Phusion Passenger (Ruby Raptor) with Hongli Lai.
+
+*Adventure in angular #24* (js - jan 8 - 32m)
+http://devchat.tv/adventures-in-angular/024-aia-replacing-silverlight-with-wijmo-and-angular-with-chris-bannon-and-bernardo-castilho
+Replacing Silverlight with Wijmo and Angular with Chris Bannon and Bernardo Castilho.
+
+*Ruby5 #520* (rb - jan 9 - 6m)
+http://ruby5.envylabs.com/episodes/557-episode-520-january-9th-2015
+Rails Misconceptions, performance, turbocache, microservice, Ginatra.
+
+*Ruby on Rails Podcast #181* (rb - jan 9 - 1h18)
+http://5by5.tv/rubyonrails/181
+Brian Cardarella of DockYard - Running a Software Consultancy & Betting on Ember.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+Links curated by by mose (editor), xenor, simon (informers).
+*|END:IF|*
+*|IFNOT:CONTENT=Only Links|*
+
+Rant
+----------------------------------------------------
+The random rant of the week by mose.
+
+#### 1000 subscribers
+
+After the 100th Greenruby last week, we get the 1000th subscriber to the email
+newsletter this week. Welcome George :) So for the occasion I refreshed the
+[subscribers map][1] on cartodb. About half of the subscribers are in the US,
+but there is a total of 73 countries represented, which is pretty neat. But
+this is based on the ip used for subscribing, so it's not totally accurate.
+
+#### Fighting logs pollution
+
+Some time ago, on edition 82, I posted a link to my webalizer stats for the
+greenruby website. Fatal mistake, I had referrers stats enabled and I got
+somehow listed somewhere. The consequence was a lot of fake traffic with only
+purpose to get links listed in my referrers section. After removing this
+section from webalizer config, and moving the url, the fake traffic was still
+there. Like a blind wave. This was pretty annoying.
+
+So I began to take some drastic measures. Because I didn't have referrers
+anymore in my stats, I went to my apache logs (yes it's an old server, still
+running apache2) and fire up a:
+
+```tail -5000 greenruby.org-access.log | cut -d' ' -f11 | sort | uniq -c |
+sort -n```
+
+This give me a nice view of the recent referrers. Fake ones are easy to
+notice. And that the fake traffic was only coming from a handful of ips, so I
+just made a few:
+
+```iptables -A INPUT -s <ip> -j DROP```
+
+The result was radically efficient. Certainly I had less volume but it's now
+much cleaner. But it makes it clear that having clean volume stats for traffic
+on your website is not that easy. There are a bunch of fake traffic sources
+that you may not suspect.
+
+#### New server soon
+
+I got a new job 2 month ago at [gandi][2], and there is some nice [VPS
+hosting][3] there. I can have a machine just for Green Ruby there. It can be
+neat and open some options. Green Ruby website is still very static. Various
+attempts to improve it with a search engine didn't end up to something
+concluding yet. Maybe this time it will.
+
+That also may be the occasion to build up a distribution system and move out
+of mailchimp. I looked around and all I found was php based. So I will
+probably just write my own ruby scripts, the [mail gem][4] looks great and the
+rest is a question of configuring a postfix with correct [SPF and DKIM
+setup][5].
+
+#### Je suis Charlie
+
+Well, this tragedy that happened this Thursday in France impacts a lot of
+people. Somehow, it perhaps impacts me more than the average. When I was
+younger I went to art school to become a cartoonist, and along the way I
+changed my mind. But I knew the work of the victims of this slaughter. They
+were icons in the French cartoon world.
+
+It's really sad, first because this is murder, second because the irrational
+impact it will have on society. This is crazy how a handful of brain-dead
+punks can impact history. Now France is going to become even more paranoid. I
+already was so uncomfortable when they began to send military with assault
+rifles wander in the train stations in Paris. It's not going to get better.
+
+[1]:
+http://mose.cartodb.com/viz/6a4d431e-d6b7-11e3-8757-0e10bcd91c2b/embed_map
+[2]: http://gandi.net
+[3]: https://www.gandi.net/hosting/iaas
+[4]: https://github.com/mikel/mail
+[5]:
+http://www.linuxlasse.net/linux/howtos/Postfix_with_DKIM_%28OpenDKIM%29_and_SPF
+
+*|END:IF|*
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+
