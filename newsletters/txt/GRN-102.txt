@@ -1,0 +1,283 @@
+----------------------------------------------------
+Green Ruby News #102 - jan 18th 2015
+----------------------------------------------------
+*|IFNOT:CONTENT=Only Rant|*
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+*365 awesome designers* (design)
+http://365awesomedesigners.com/
+That's a huge list of creative minds.
+
+*Karsh Hagan* (design)
+http://karshhagan.com
+A brand agency website.
+
+*Fixed* (design)
+http://fixedagency.com/
+Another digital agency cool website.
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+*R for cats* (tool)
+http://rforcats.net/
+An intro to R for new programmers.
+
+*The Guide to Mockups* (design)
+http://www.uxpin.com/guide-to-mockups.html
+(book) Mockup Types, Methods And Best Practices.
+
+*MEAN Machine* (design)
+https://leanpub.com/mean-machine
+(book) A beginner's practical guide to the JavaScript stack.
+
+*Hardening Framework* (ops)
+https://telekomlabs.github.io/
+Set of Puppet and Chef code for hardening servers.
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+*Rbkit* (rb)
+http://rbkit.codemancers.com/
+Rbkit has been designed as a low-pause profiler to be used for profiling real world applications.
+
+*Loaf* (rb)
+https://github.com/peter-murach/loaf
+Manages and displays breadcrumb trails in Rails app.
+
+*Octodown* (rb)
+https://github.com/ianks/octodown
+Github markdown previewing straight from your shell (well, by launching a browser, heh).
+
+*Kickstart* (css3)
+http://getkickstart.com/
+Faster and lighter than Bootstrap.
+
+*6to5* (js)
+https://6to5.org/
+Turns ES6+ code into vanilla ES5, so you can use next generation features today.
+
+*blessed-contrib* (js)
+https://github.com/yaronn/blessed-contrib
+Build dashboards using ascii/ansi art and javascript.
+
+*TheaterJS* (js)
+http://gabinaureche.com/TheaterJS/
+Typing effect mimicking human behavior.
+
+*Myth* (css3)
+http://www.myth.io/
+Write pure CSS while still giving you the benefits of tools like LESS and Sass.
+
+*Dashiell* (ops)
+http://dashiell.io/
+Websockets frontend for server interrogation.
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+*Code Quality: Metrics That Matter* (rb - jan 11)
+http://chriskottom.com/blog/2015/01/code-quality-metrics-that-matter/
+Review of useful tools to measure (rails) code quality.
+
+*Understanding some Enumerable methods* (rb - jan 12)
+http://www.justinweiss.com/blog/2015/01/13/when-edge-cases-poke-holes-in-your-perfect-solution/
+An abstraction exercise by implementing Enumerable methods in Ruby.
+
+*When Edge Cases Poke Holes in Your Perfect Solution* (rb - jan 13)
+http://www.justinweiss.com/blog/2015/01/13/when-edge-cases-poke-holes-in-your-perfect-solution/
+You can’t fight too much cleverness with more cleverness.
+
+*Debugging Super Methods with Ruby 2.2* (rb - jan 14)
+http://engineering.heroku.com/blogs/2014-01-14-debugging-super-methods-ruby22
+Why Ruby 2.2.0 exposing super method metadata needed to be added.
+
+*Getting Started with Myth Preprocessor* (css3 - jan 14)
+http://www.sitepoint.com/getting-started-myth-preprocessor-future/
+A new alternative to Less and Sass.
+
+*The Art of Promise-Based Architecture* (js - jan 14)
+http://blog.rangle.io/blog/the-art-of-promise-based-architecture/
+Problems can be resolved by switching from raw callbacks to promises.
+
+*Using Redis with Node.js* (js - jan 14)
+http://www.sitepoint.com/using-redis-node-js/
+Various ways of interacting with Redis from a Node.js app using the node_redis library.
+
+*The Fastest JSON Schema Validator for Node.js* (js - jan 15)
+http://gilesbowkett.blogspot.fr/2015/01/why-panda-strike-wrote-fastest-json.html
+JSCK is the fastest JSON Schema validator for Node.js, he says.
+
+*How Facebook Does Storage* (web - jan 15)
+http://thenewstack.io/facebook-storage/
+The special way to think about photo storage at high scale.
+
+*How we use Trello to generate our weekly newsletter* (tool - jan 15)
+http://thechangelog.com/trello-as-a-cms/
+The story behind the making of the Changelog weekly newsletter.
+
+*Instances, Classes, and Modules, Oh My!* (rb - jan 15)
+https://blog.engineyard.com/2015/instances-classes-and-modules
+Several levels of method visibility and scope level.
+
+*Rails Model Caching with Redis* (rb - jan 15)
+http://www.sitepoint.com/rails-model-caching-redis/
+Model level caching is something that’s often ignored, even by seasoned developers.
+
+*Why does Ruby have blocks?* (rb - jan 16)
+http://devblog.avdi.org/2015/01/16/why-does-ruby-have-blocks/
+The basic explanation of what blocks really are.
+
+*Clearwater, a Front-End Web Framework in Ruby* (rb - jan 17)
+http://jgaskins.org/blog/2015/1/17/clearwater-a-front-end-web-framework-in-ruby
+Based on Opal, write the frontend side using ruby.
+
+Watch
+----------------------------------------------------
+Screencasts and conferences videos, or other video feeds ...
+
+*Gorails 39* (rb - jan 17 - 19m)
+https://gorails.com/episodes/refactoring-controller-methods
+Refactoring Controller Methods.
+
+Listen
+----------------------------------------------------
+What could be heard last week ..
+
+*Codepen 32* (web - jan 13 - 33m)
+http://blog.codepen.io/2015/01/12/032-secrets/
+Secrets.
+
+*Nodeup 81* (js - jan 13 - 39m)
+http://nodeup.com/eightyone
+An io.js show.
+
+*Giant Robots 129* (web - jan 13 - 35m)
+http://giantrobots.fm/129
+The Engineering of Payments (Ian Logan).
+
+*Ruby5 #521* (rb - jan 13 - 7m)
+https://ruby5.codeschool.com/episodes/558-episode-521-january-13th-2015
+5 Ruby methods, code metrics, sprocket-traceur, toxiproxy, email_prefixer, phone verification.
+
+*RubyRogues 190* (rb - jan 14 - 1h12)
+http://devchat.tv/ruby-rogues/190-rr-apprenticeship-with-joseph-mastey-and-jill-lynch-of-enova
+Apprenticeship with Joseph Mastey and Jill Lynch of Enova.
+
+*Javascript Jabber 142* (js - jan 14 - 1h17)
+http://devchat.tv/js-jabber/142-jsj-sharejs-with-joseph-gentle
+ShareJS with Joseph Gentle.
+
+*The Cloudcast #176* (ops - jan 15 - 43m)
+http://www.thecloudcast.net/2015/01/the-cloudcast-176-devops-vc-perspective.html
+Dev,Ops & VC Perspective on Modern Apps.
+
+*Adventure in angular #25* (js - jan 15 - 40m)
+http://devchat.tv/adventures-in-angular/025-aia-testing-with-ward-bell
+Testing with Ward Bell.
+
+*Arrested DevOps 28* (ops - jan 15 - 1h12)
+http://www.arresteddevops.com/blameless/
+Incidents and Accidents: Examining Failure Without Blame.
+
+*Web Platform Podcast #25* (web - jan 15 - 55m)
+http://thewebplatform.libsyn.com/25-live-static-showdown-2015
+LIVE - Static Showdown 2015, with divshot.
+
+*The Bike Shed 6* (rb - jan 16 - 42m)
+http://bikeshed.fm/6
+Shh! Library Under Maintenance.
+
+*The Changelog 137* (rb - jan 16 - 1h05)
+http://5by5.tv/changelog/137
+Better GitHub Issues with HuBoard and Ryan Rauh.
+
+*Ruby5 #522* (rb - jan 16 - 5m)
+https://ruby5.codeschool.com/episodes/560-episodes-522-january-16th-2015
+ember-cli-rails, spyke, debugging super, recalculating counter cache, gauguin.
+
+*Ops All The Things 12* (ops - jan 16 - 51m)
+http://www.opsallthethings.com/podcast/012-catching-up/
+Catching Up. The return to a more consistent scheduling.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+Links curated by by mose (editor), xenor, simon (informers).
+*|END:IF|*
+*|IFNOT:CONTENT=Only Links|*
+
+Rant
+----------------------------------------------------
+The random rant of the week by mose.
+
+#### While 42
+
+This week I got in contact with Sylvain from [while 42][1]. It's a social
+network for french engineers, but with a special touch on it. There is no
+facebook page or google group. They intentionally decided to be irl-first. For
+people that are most likely to be online all the time, this sounds so
+therapeutic! So, I decided, with Thomas from Gandi, to setup a Taiwan chapter.
+If you want to know more (and are french, engineer, and living in Taipei) just
+drop me a mail.
+
+#### Traveling ruby
+
+This is a project from the [Phusion][2] people, called [Traveling ruby][3].
+Its purpose is to make it easy to build auto-sustaining tarballs for ruby
+programms, including ruby binary and all gems in it. That way you can publish
+a tarball and your customer/user will just launch whatever you put in it. No
+need to install ruby or any gems.
+
+I gave it a try yesterday on my [zabbix-ruby-client][4] gem, and after a few
+tweaks (mostly because I wanted to use an unpublished version of my gem), it
+all worked pretty fine. Result is a tarball of 8M. Uploaded to the server (an
+old squeeze), it just ran the self-contained ruby 2.1.5 with no hassle. It
+reminded me a bit of the feeling when you upload a go executable on the
+server. Really neat.
+
+#### Palm control
+
+There are tiny things that can change a lot. My recent tiny thing is the palm
+control technique. Every sunday when I prepare Green Ruby I do a huge amount
+of copy pasting all over the place. Recently I found on a post about keyboard
+someone talking about the palm control technique for avoiding the copypaste
+fatigue.
+
+Well, you need to have a keyboard that makes it possible. Mine is a [Logitech
+washable k310][5]. I already liked its look, and even better, it's perfect for
+this palm thing because keys are prominent. Use the palm to push control and
+then it's only a matter of hitting c or v with the index. Honestly, it changed
+my life!
+
+[1]: http://while42.org
+[2]: http://www.phusion.nl/
+[3]: https://github.com/phusion/traveling-ruby
+[4]: https://github.com/eduvo/zabbix-ruby-client
+[5]: http://support.logitech.com/en_us/product/10104
+
+*|END:IF|*
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+
