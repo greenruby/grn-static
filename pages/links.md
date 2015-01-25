@@ -90,6 +90,7 @@ Those links and resources are used in the weekly collection of information for G
 * <http://hackerpublicradio.org/> (misc) *active weekly*
 * <http://5by5.tv/rubyonrails> (rails) *active weekly*
 * <http://javascriptjabber.com/> (js) *active weekly*
+* <https://seccasts.com/mror/> (ops) *active weekly*
 * <http://rubyrogues.com/> (rb) *active weekly*
 * <http://puppetlabs.com/resources/podcasts> (puppet) *active semi-weekly*
 * <http://5by5.tv/changelog> (coding/foss) *active semi-weekly*
@@ -101,6 +102,7 @@ Those links and resources are used in the weekly collection of information for G
 * <http://crypto-gram.libsyn.com/> (security) *active monthly*
 * <http://foodfightshow.org/> (ops/chef) *active monthly*
 * <http://theshipshow.com/> (devops) *active monthly*
+* <http://drt.fm/> (startup people) *kinda monthly*
 * <http://rails-refactoring.com/podcast/> (rails) *not sure it will make it*
 * <http://episodes.gitminutes.com/> (git) *inactive since july 2104*
 * <http://2ddu.com> (misc) *random, nothing since setpt 2014*

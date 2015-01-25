@@ -1,0 +1,310 @@
+----------------------------------------------------
+Green Ruby News #103 - jan 25th 2015
+----------------------------------------------------
+*|IFNOT:CONTENT=Only Rant|*
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+*Aerolab* (design)
+https://aerolab.co/
+Excellent protfolio for that digiital agency from Buenos Aires.
+
+*Melanie F* (design)
+http://www.melanie-f.com/en/
+A shop for shoes, with cute graphical environment.
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+*RailsGoat* (rb)
+https://github.com/OWASP/railsgoat
+A vulnerable version of the Ruby on Rails to educate developers and security professionals.
+
+*Formstone* (js)
+http://formstone.it/
+A collection of front-end components.
+
+*TLD list* (tool)
+http://tld-list.com/
+820 Top Level Domains and Their Cheapest Registrars.
+
+*Open Source Candies* (tool)
+https://github.com/velikanov/opensource-candies
+Free stuff for open source projects.
+
+*Gittask* (tool)
+https://gittask.com/developer
+Get paid to work on what you love.
+
+*Awesome Remote Job* (tool)
+https://github.com/lukasz-madon/awesome-remote-job/
+A curated list of awesome remote working resources.
+
+*Shirtjs* (tool)
+http://shirtjs.com/
+Clothes for modern geeks.
+
+*Today I Learned* (tool)
+https://github.com/thoughtbot/til
+Short Markdown documents with tips and tricks.
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+*JRuby 9.0.0.0-pre1* (rb)
+http://jruby.org/2015/01/20/jruby-9-0-0-0-pre1.html
+Ruby 2.2 (almost) compatibility, and other major changes on that milestone.
+
+*Ensnare* (rb)
+https://github.com/ahoernecke/ensnare
+Combination of Honey Traps to entice malicious users, and Trap Responses to confuse, allude, delay, or stop an attacker.
+
+*binding.repl* (rb)
+https://github.com/r20/binding.repl
+binding.pry for every ruby repl.
+
+*PooledRedis* (rb)
+https://github.com/printercu/pooled_redis
+Simple way to access redis connections without global variables.
+
+*Artoo.js* (js)
+https://medialab.github.io/artoo/
+Nice small client-side content scraper (not related to artoo.io).
+
+*Gitlet* (js)
+http://gitlet.maryrosecook.com/
+Git implemented in JavaScript.
+
+*Gitrob* (tool)
+https://github.com/michenriksen/gitrob
+Find sensitive information published to your GitHub org before someone else does.
+
+*Fuse* (mobile)
+http://www.fusetools.com/
+Design and develop native apps for iOS and Android. In beta on invite.
+
+*Switcher* (go)
+https://github.com/jamescun/switcher
+Run SSH and HTTP(S) on the same port.
+
+*Goth* (go)
+https://github.com/markbates/goth
+Idiomatic way to write authentication packages for Go web applications.
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+*Let’s Write Fast JavaScript* (js - jan 19)
+https://medium.com/the-javascript-collection/lets-write-fast-javascript-2b03c5575d9e
+A few interesting JavaScript benchmarks and tips.
+
+*Ruby and self* (rb - jan 19)
+http://dev.mikamai.com/post/108536863609/ruby-and-self
+Various use cases for the self object.
+
+*Symbol GC in Ruby 2.2* (rb - jan 19)
+http://www.sitepoint.com/symbol-gc-ruby-2-2/
+What is symbol GC and why should you care.
+
+*Getting Literal With ES6 Template Strings* (js - jan 20)
+http://updates.html5rocks.com/2015/01/ES6-Template-Strings
+New ways to manipulate string in JS.
+
+*15 Best AngularJS Tutorials for Developers* (js - jan 20)
+http://codegeekz.com/best-angularjs-tutorials/
+If you are teased by the Angular buzz, give those tutorials a try.
+
+*3 Ways to Monkey-patch Without Making a Mess* (rb - jan 20)
+http://www.justinweiss.com/blog/2015/01/20/3-ways-to-monkey-patch-without-making-a-mess/
+Write monkey patches that won’t make you want to fire yourself for incompetence the next time you see them.
+
+*Rubyists: Just use double-quoted strings* (rb - jan 20)
+http://viget.com/extend/just-use-double-quoted-ruby-strings
+Some benchmarking to prove that double-quoting is not that much of a trade-off.
+
+*Ruby Forwardable Deep Dive* (rb - jan 20)
+http://www.saturnflyer.com/blog/jim/2015/01/20/ruby-forwardable-deep-dive/
+All you need to know about the Forwardable library.
+
+*Tuning Ruby's Global Method Cache* (rb - jan 21)
+http://www.shopify.com/technology/16777156-tuning-rubys-global-method-cache
+Using the system-level profiling tools, perf and ftrace, to find performance issues.
+
+*Getting Started with Skeleton, the Simple CSS Boilerplate* (css3 - jan 21)
+http://www.sitepoint.com/getting-started-with-skeleton-simple-css-boilerplate/
+An intro to Skeleton, a recent lightweight CSS framework.
+
+*Cleaner, safer Ruby API clients with Kleisli* (rb - jan 22)
+http://thoughts.codegram.com/cleaner-safer-ruby-api-clients-with-kleisli/
+Using kleisli special methods to handle error management.
+
+*Rails URL Helpers in Javascript with JsRoutes* (rb - jan 22)
+http://www.sitepoint.com/rails-url-helpers-javascript-jsroutes/
+You should not have to construct URLs manually in Javascript if a library can do it for you.
+
+*A Shell Primer* (tool - jan 23)
+http://www.cyberciti.biz/howto/shell-primer-configuring-your-linux-unix-osx-environment/
+Master Your Linux, OS X, Unix Shell Environment.
+
+*How to Make a Chrome Extension* (js - jan 23)
+http://robots.thoughtbot.com/how-to-make-a-chrome-extension
+A complete example of chrome extension, explained.
+
+*My experience with Minitest and RSpec* (rb - jan 23)
+http://tenderlovemaking.com/2015/01/23/my-experience-with-minitest-and-rspec.html
+Tenderlove feedback on 2 popular choices for testing ruby code.
+
+*Blocking Bad POST Requests Using NGINX Rate Limiting* (ops - jan 23)
+http://product.reverb.com/2015/01/23/first-line-of-defense-blocking-bad-post-requests-using-nginx-rate-limiting/
+Usage of the limit_req module in Nginx.
+
+Watch
+----------------------------------------------------
+Screencasts and conferences videos, or other video feeds ...
+
+*DevOops, I did it again* (ops - jan 7 - 1h02)
+https://www.youtube.com/watch?v=1kPw3tHt2oo
+This is brand new research to bring awareness to those responsible for securing a DevOps environment.
+
+Listen
+----------------------------------------------------
+What could be heard last week ..
+
+*Giant Robots 130* (web - jan 19 - 27m)
+http://giantrobots.fm/130
+Counting all the F-Words (Joanne Cheng).
+
+*Codepen 33* (web - jan 20 - 24m)
+http://blog.codepen.io/2015/01/20/033-postmortems/
+Postmortems.
+
+*Food fight show 86* (ops - jan 20 - 1h03)
+http://foodfightshow.org/2015/01/three-year-retrospective.html
+Three Year Retrospective.
+
+*DRT: How to Launch a Successful Product* (web - jan 20 - 40m)
+http://drt.fm/ryan-hoover/
+Interview of Ryan Hoover, founder of Product Hunt.
+
+*RubyRogues 191* (rb - jan 21 - 1h04)
+http://devchat.tv/ruby-rogues/191-rr-the-developer-happiness-team-with-kerri-miller
+The Developer Happiness Team with Kerri Miller.
+
+*Javascript Jabber 143* (js - jan 21 - 1h17)
+http://devchat.tv/js-jabber/143-jsj-teaching-programming-and-computer-science-with-pamela-fox
+Teaching Programming and Computer Science with Pamela Fox.
+
+*The Cloudcast #177* (ops - jan 22 - 24m)
+http://www.thecloudcast.net/2015/01/the-cloudcast-177-operationalized.html
+Operationalized OpenStack and NFV.
+
+*Arrested DevOps 29* (ops - jan 22 - 1h03)
+http://www.arresteddevops.com/blameless/
+Hiring in a Post-DevOps World.
+
+*Adventure in angular #26* (js - jan 22 - 50m)
+http://devchat.tv/adventures-in-angular/026-aia-testing-tools
+Testing Tools.
+
+*Web Platform Podcast #26* (rb - jan 22 - 1h06)
+http://thewebplatform.libsyn.com/26-ruby-on-rails-security-owasp-railsgoat
+Ruby on Rails Security & OWASP RailsGoat.
+
+*The Changelog 138* (rb - jan 23 - 1h)
+http://5by5.tv/changelog/138
+Rocket, App Container Spec, and CoreOS with Alex Polvi.
+
+*Ruby on Rails Podcast 182* (rb - jan 24 - 1h30)
+http://5by5.tv/rubyonrails/182
+Rigel St. Pierre from Bandsintown and Epicurrence.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+Links curated by by mose (editor), xenor, simon (informers).
+*|END:IF|*
+*|IFNOT:CONTENT=Only Links|*
+
+Rant
+----------------------------------------------------
+The random rant of the week by mose.
+
+#### More Screens
+
+Some time ago, when I left Faria, I bought a laptop with a clear purpose. I
+wanted to have on linux the same screen experience that I had with the macbook
+pro connected to 2 thunderbolts. So I got an [asus UX301L][1] plus 2 [Dell
+screens U2713HM][2] who supports a 2560x1440 resolution. The laptop in itself
+is amazing, dazzling fast, and all worked well with an ubuntu install. This
+was not cheap but that was a while I didn't spend anything on hardware.
+
+I struggled a bit to find the proper connectors so I could enable the extra
+large resolution on connected screens. I ended up using the mini-hdmi
+connector plus a mini-display port converter to DVI for the second one. And
+finally it worked last week. I had to [force the resolution in xrandr][3] and
+now I have a damn huge double display for a total of 7680x1440. What a blast!
+
+#### Debian, i3wm and urxvt
+
+Well this is an old story. Some time ago I switched from debian + fvwm2/ion to
+ubuntu + cinnamon just because I had to know about it. The goal was to be able
+to convince my wife (and some other non-techies) to switch to ubuntu. But I
+had to know how it worked on a daily basis. And it was a success for most of
+it.
+
+2 years ago at Faria I was given a mac. Well, it was good to know a bit more
+about it, my mac knowledge was dating from system 6.7 time. But if the
+hardware is really good, the OSX experience didn't really satisfy the geek
+that was deep inside me.
+
+Then I got back into a team that is deeply attached to pure linux traditions,
+when I joined Gandi. I now switched back to a debian jessie with [i3wm][7] on
+my work laptop. Wow this feels good to be back to such a rude but flexible
+environment. As a matter of fact all went perfectly well and all the tricks I
+knew 10 years ago are still very valid.
+
+I also took that occasion to get back into urxvt, for my terminal emulator.
+It's a very badly documented over-powerful tool. But when you get the grasp on
+it, possibilities are much more satisfying than with gnome-terminal. I'm still
+working on [my configuration][4] to match few features that gnome terminal had
+(like font resizing, clipboard management). The [notification plugin][5],
+combined with [dunst][6], gives amazing results.
+
+It feels good to be back into the cave. To mark this change, I didn't shave
+for 3 months so now I'm really bearded like the old-fashioned linux bears.
+Muhaha!
+
+PS: no worry, I'm still fullstack at heart and I still love ruby!
+
+[1]: http://www.asus.com/us/Notebooks_Ultrabooks/ASUS_ZENBOOK_UX301LA/
+[2]:
+http://accessories.ap.dell.com/sna/productdetail.aspx?c=au&cs=audhs1&l=en&redirect=1&s=dhs&sku=210-40773
+[3]: http://www.arunviswanathan.com/node/53
+[4]: https://github.com/mose/rcfiles/blob/master/.Xdefaults
+[5]: https://github.com/mose/rcfiles/blob/master/.urxvt/ext/notification
+[6]: http://knopwob.org/dunst/index.html
+[7]: https://i3wm.org/
+
+*|END:IF|*
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+
