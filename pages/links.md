@@ -22,6 +22,7 @@ Those links and resources are used in the weekly collection of information for G
 - <http://blog.codinghorror.com> (Jeff Atwood)
 - <http://designbeep.com> (wordpress/design)
 - <http://updates.html5rocks.com/> (webdev)
+- <http://www.leighhalliday.com> (rails)
 - <http://www.sitepoint.com/> (webdev)
 - <http://thenewstack.io> (general IT)
 - <https://codeascraft.com/> (webdev)
