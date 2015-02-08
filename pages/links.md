@@ -43,6 +43,7 @@ Those links and resources are used in the weekly collection of information for G
 * <https://www.dashingd3js.com/> (d3.js) *weekly*
 * <http://www.golangweekly.com/> (go) *weekly*
 * <http://javascriptweekly.com/> (js) *weekly*
+* <http://sublimetexttips.com> (st3) *weekly*
 * <http://html5weekly.com/> (html5) *weekly*
 * <http://usingchef.com/> (devops) *weekly*
 * <http://devopsweekly.com/> (ops) *weekly*
