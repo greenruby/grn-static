@@ -101,12 +101,13 @@ Those links and resources are used in the weekly collection of information for G
 * <http://www.arresteddevops.com/> (ops) *active semi-weekly*
 * <http://blog.codepen.io/> (css/js) *active semi-weekly*
 * <http://nodeup.com/> (js) *active semi-weekly*
-* <http://bikeshed.fm> (ruby, webdev) *active bi-weekly*
+* <http://fullstackradio.com/> (fullstack) *active bi-monthly*
 * <http://crypto-gram.libsyn.com/> (security) *active monthly*
 * <http://foodfightshow.org/> (ops/chef) *active monthly*
 * <http://theshipshow.com/> (devops) *active monthly*
+* <http://bikeshed.fm> (ruby, webdev) *kinda monthly*
 * <http://drt.fm/> (startup people) *kinda monthly*
 * <http://rails-refactoring.com/podcast/> (rails) *not sure it will make it*
 * <http://episodes.gitminutes.com/> (git) *inactive since july 2104*
-* <http://2ddu.com> (misc) *random, nothing since setpt 2014*
+* <http://2ddu.com> (misc) *random, nothing since sept 2014*
 * <http://devopscafe.org/> (ops) *sleepy since oct 2014*
