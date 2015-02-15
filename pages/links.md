@@ -25,6 +25,7 @@ Those links and resources are used in the weekly collection of information for G
 - <http://www.leighhalliday.com> (rails)
 - <http://www.sitepoint.com/> (webdev)
 - <http://thenewstack.io> (general IT)
+* <http://www.arubystory.com/> (ruby)
 - <https://codeascraft.com/> (webdev)
 - <http://css-tricks.com/> (css)
 - <http://devblog.avdi.org/> (ruby)
