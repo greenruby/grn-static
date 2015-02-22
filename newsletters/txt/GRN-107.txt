@@ -1,0 +1,269 @@
+----------------------------------------------------
+Green Ruby News #107 - feb 22th 2015
+----------------------------------------------------
+*|IFNOT:CONTENT=Only Rant|*
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+*Genelab* (design)
+http://genelab.nasa.gov/
+Nice website, but also, well, it's in space.
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+*Remote | OK* (tool)
+http://remoteok.io/
+An aggregated job board for remote opportunities.
+
+*Goal-Oriented Git* (tool)
+https://gumroad.com/l/goal-oriented-git/
+(book) another book from Thoughtbot, aimed at git beginners, now in beta.
+
+*Commits.io* (tool)
+https://commits.io/
+A shop that sells posters with your github code.
+
+*The devops checklist* (ops)
+http://devopschecklist.com/
+48 items you can use to gauge the maturity of your software delivery competency.
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+*Redmine 3.0.0* (rb)
+http://www.redmine.org/news/95
+and 2.6.2, including security fixes too.
+
+*Rails ERD* (rb)
+https://github.com/voormedia/rails-erd
+Generate Entity-Relationship Diagrams for Rails applications.
+
+*Cuba* (rb)
+https://github.com/soveran/cuba
+Cuba is a micro framework in ruby for web applications.
+
+*Deployinator* (rb)
+https://github.com/etsy/deployinator
+Deploy code like Etsy.
+
+*Sonny.js* (js)
+http://www.sonnyjs.org/?home
+Minimal single page app framework.
+
+*Konva* (js)
+http://konvajs.github.io/
+2d html5 canvas framework for desktop and mobile applications.
+
+*Graylog v1.0* (ops)
+https://www.graylog.org/announcing-graylog-v1-0-ga/
+A big milestone for that alternative to elk.
+
+*Baci* (ops)
+https://github.com/sgotti/baci
+ACI builder for rocket, using Dockerfiles.
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+*Mark Methods Private When You Don’t Test Them* (rb - feb 16)
+http://patshaughnessy.net/2015/2/16/mark-methods-private-when-you-dont-test-them
+Mark methods private when you test them indirectly by calling the other, public methods in the same class.
+
+*Creating an Image Gallery with the Flickr API* (js - feb 16)
+http://www.sitepoint.com/creating-image-gallery-using-flickr-api-requirements-markup/
+Tutorial on using the Flickr API.
+
+*Building a Credit Card Form Custom Element with Polymer* (js - feb 17)
+http://www.sitepoint.com/building-credit-card-form-custom-element-polymer/
+Demo of an example usage of polymer.
+
+*Breakpoints and Tweakpoints in Sass* (css3 - feb 17)
+http://www.sitepoint.com/breakpoints-tweakpoints-sass/
+A way to deal with responsive design is to use a map of breakpoints in a config file.
+
+*Refactoring code that accesses external services* (rb - feb 17)
+http://martinfowler.com/articles/refactoring-external-service.html
+Refactor some congealed code into a common pattern: separation of external service access code.
+
+*A Brief Look at Alternate Web Frameworks for Ruby* (rb - feb 17)
+https://blog.engineyard.com/2015/life-beyond-rails-brief-look-alternate-web-frameworks-ruby
+Because rails is not the only choice.
+
+*Using PostgreSQL and jsonb with Ruby on Rails* (rb - feb 17)
+http://nandovieira.com/using-postgresql-and-jsonb-with-ruby-on-rails
+PostgreSQL 9.4 introduced jsonb, a new column type for storing documents in your relational database.
+
+*Test Drive Your Dockerfiles with RSpec and ServerSpec* (ops - feb 17)
+https://robots.thoughtbot.com/tdd-your-dockerfiles-with-rspec-and-serverspec
+Demonstration on how to TDD a Dockerfile that installs Node on Ubuntu.
+
+*Accidental CSS Resets* (css3 - feb 18)
+http://css-tricks.com/accidental-css-resets/
+Any time you use a shorthand property in CSS, you set all the values for all the properties it deals with.
+
+*Gulp on Rails: Replacing the Asset Pipeline* (rb - feb 18)
+http://viget.com/extend/gulp-rails-asset-pipeline
+A solution that fully integrates a Gulp-based asset pipeline with Rails.
+
+*Models on a diet* (rb - feb 18)
+http://blog.lunarlogic.io/2015/models-on-a-diet/
+Usually models are very fat, here is how to extract validations out of the model.
+
+*Rails on Docker* (rb - feb 19)
+https://robots.thoughtbot.com/rails-on-docker
+Tutorial to seyup a working rails dev env on a mac.
+
+*Understanding Bundler's setup process* (rb - feb 19)
+http://www.brianstorti.com/understanding-bundler-setup-process/
+A look into Bundler's code.
+
+*The Registry Pattern* (rb - feb 19)
+https://mattbrictson.com/registry-pattern
+Using a Registry to look up collaborators in Rails, like external APIs.
+
+*Some Basic Ruby Tools for Sniffing out Errors* (rb - feb 20)
+http://6ftdan.com/allyourdev/2015/02/20/some-basic-ruby-tools-for-sniffing-out-errors/
+Quick review of pry, byebug, pry-debug, better_errors, notify_send.
+
+*Why doesn't my code work outside of Rails?* (rb - feb 20)
+http://www.leighhalliday.com/why-doesnt-my-code-work-outside-rails
+The evil of rails monkey-patching.
+
+Watch
+----------------------------------------------------
+Screencasts and conferences videos, or other video feeds ...
+
+*Introduction to Importing from CSV* (rb - jan 21 - 16m)
+https://gorails.com/episodes/intro-to-importing-from-csv
+Introduction to Importing from CSV.
+
+Listen
+----------------------------------------------------
+What could be heard last week ..
+
+*Developer tea 18* (web - feb 16 - 11m)
+http://www.developertea.com/episodes/7768
+Listener Questions.
+
+*NodeUp 83* (js - feb 16 - 1h06)
+http://nodeup.com/eightythree
+A libuv show.
+
+*Javascript Jabber 146* (js - feb 18 - 59m)
+http://devchat.tv/js-jabber/147-jsj-io-js-with-isaac-schleuter-and-mikeal-rogers
+io.js with Isaac Schlueter and Mikeal Rogers.
+
+*Web platform #31* (web - feb 17 - 51m)
+http://thewebplatform.libsyn.com/31-building-with-reactjs
+Building with React.js.
+
+*CodePen 36* (web - feb 18 - 31m)
+http://blog.codepen.io/2015/02/18/036-settings/
+Settings.
+
+*RubyRogues 195* (rb - feb 18 - 58m)
+http://devchat.tv/ruby-rogues/195-rr-building-your-technology-radar-with-neal-ford
+Building Your Technology Radar with Neal Ford.
+
+*Adventure in angular #30* (js - feb 19 - 29m)
+http://devchat.tv/adventures-in-angular/030-aia-angular-interns-with-rodric-haddad-and-anting-shen
+Angular Interns with Rodric Haddad and Anting Shen.
+
+*Git minutes #31* (rb - feb 19 - 1h05)
+http://episodes.gitminutes.com/2015/02/gitminutes-31-mary-rose-cook-on-gitlet.html
+Heroku Recommends Puma, pretty_backtrace, Weird Stuff with Hashes, Ruby Survey 2015, Que.
+
+*Ruby5 #529* (rb - feb 20 - 5m)
+https://ruby5.codeschool.com/episodes/567-episode-529-february-20th-2015
+private methods, Set intersection, fat models, Predicting Test Failures.
+
+*The cloudcast #179* (ops - feb 20 - 40m)
+http://www.thecloudcast.net/2015/02/krispy-kreme-donations-2015-huge-thank.html
+Managing Containers w/o a Tupperware Party.
+
+*Developer tea 19* (rb - feb 20 - 14m)
+http://www.developertea.com/episodes/7768
+Ben Orenstein from Thoughtbot, Part One.
+
+*The Bike Shed 8* (rb - feb 20 - 37m)
+http://bikeshed.fm/8
+Attributes API, Relation#or, Paid Open Source.
+
+*The Changelog #143* (js - feb 20 - 57m)
+http://5by5.tv/changelog/143
+Mary Rose Cook on Gitlet.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+Links curated by by mose (editor), xenor, simon (informers).
+*|END:IF|*
+*|IFNOT:CONTENT=Only Links|*
+
+Rant
+----------------------------------------------------
+The random rant of the week by mose.
+
+#### Happy year of the Goat
+
+Here it was Chinese New Year this week. A good occasion for those who are not
+familiar with chinese state of the web to read about its [web design trends
+2015][7]. This article is pretty deep and reflects accurately how China uses
+its connectivity.
+
+So, xin nian kuai le, and of course, gong xi fa cai. And if you need related
+icons, [here are some][7].
+
+#### Hello in Firefox
+
+Now that I'm working from Taiwan with a French company, I was have been
+searching for a decent solution for video conferencing. Because skype and
+google-hangouts are just not things I like to use. I found out that new
+versions of firefox include by default a one to one webrtc feature, named
+[Hello][1]. It works pretty nicely. I also tried out [Glideroom][2] and
+[Hutt][3]. There are also heavier solutions that I tried in the past like the
+[big blue button][4].
+
+Unfortunately some dude in the ops team pointed out that webrtc was [not
+secure][5], so it's not likely to become a standard for us. Hrum, well, that's
+debatable how proprietary solutions are more secure. There is no way to get it
+figured out. Anyways Webrtc became a [w3c standard][6] recently, and the
+section 12, named security, says: TBD. Let's hope it will be done properly.
+
+Any of you have some first hand experience with any alternative video
+conference system, please send me a mail with your feedback.
+
+[1]:
+https://support.mozilla.org/en-US/kb/firefox-hello-video-and-voice-conversations-online
+[2]: https://glideroom.com/
+[3]: https://hu.tt/
+[4]: http://bigbluebutton.org/
+[5]: https://blog.ipvanish.com/webrtc-security-hole-leaks-real-ip-addresses/
+[6]: http://www.w3.org/TR/2015/WD-webrtc-20150210/
+[7]:
+http://designbeep.com/2015/02/20/free-download-chinese-new-year-icon-pack-50-icons/
+
+*|END:IF|*
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+

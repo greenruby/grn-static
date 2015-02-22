@@ -62,6 +62,7 @@ Those links and resources are used in the weekly collection of information for G
 * <http://www.rubyflow.com/> (ruby) *daily*
 * <http://afreshcup.com/> (ruby) *daily*
 * <http://openruby.com/> (ruby) *daily*
+* <http://rubyhunt.org/> (ruby) *daily*
 * <http://tympanus.net/codrops/collective/> (design) *weekly*
 
 ### Video channels / screencasts
@@ -69,13 +70,13 @@ Those links and resources are used in the weekly collection of information for G
 * <https://sysadmincasts.com/episodes> (sysadmin)
 * <http://www.learnallthenodes.com/> (node.js)
 * <https://motioninmotion.tv/> (ruby mobile)
+* <http://www.atozcss.com/episodes/> (css)
 * <http://vimcasts.org/episodes/> (vim)
-* <http://confreaks.com/> (conferences)
+* <http://confreaks.tv/> (conferences)
 * <https://egghead.io/> (angular, js)
 * <http://www.rubytapas.com> (ruby)
 * <http://build-podcast.com> (misc)
 * <http://elixirsips.com/> (elixir)
-* <http://www.atozcss.com/> (css)
 * <https://gorails.com/> (rails)
 * <https://gocasts.io/> (golang)
 * <http://tagtree.tv/> (misc)
