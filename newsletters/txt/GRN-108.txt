@@ -1,0 +1,229 @@
+----------------------------------------------------
+Green Ruby News #108 - mar 1st 2015
+----------------------------------------------------
+*|IFNOT:CONTENT=Only Rant|*
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+*USM anniversary initiative* (design)
+http://project50.usm.com/
+Great layout, and creative navigation.
+
+*Coulee creative* (design)
+http://couleecreative.com/
+Web agency website, very graphical and animated.
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+*Ruby 2.0.0-p643* (rb)
+https://www.ruby-lang.org/en/news/2015/02/25/ruby-2-0-0-p643-is-released/
+last ordinal release of Ruby 2.0.0, it's going in security maintenance phase now.
+
+*middleman-presentation* (rb)
+https://github.com/fedux-org/middleman-presentation
+Build presentations based on reveal.js.
+
+*Fault Tolerant Router* (rb)
+https://github.com/drsound/fault_tolerant_router
+A daemon, running in background on a Linux router or firewall. A real router, not a rails one.
+
+*Impress* (css3)
+http://bartaz.github.io/impress.js
+Presentation tool using CSS3 transform and transitions.
+
+*Sharelock* (tool)
+https://github.com/auth0/sharelock
+Securely share data.
+
+*RancherOS* (ops)
+http://rancher.com/rancher-os/
+A minimalist distribution of Linux designed from the ground up to run Docker containers..
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+*Offline-first, fast, with the sw-precache module* (html5 - feb 23)
+http://updates.html5rocks.com/2015/02/offline-first-with-sw-precache
+sw-precache hooks into your existing node-based build process and generates a list of versioned resources.
+
+*Dropdown Menus with More Forgiving Mouse Movement Paths* (css3 - feb 23)
+https://css-tricks.com/dropdown-menus-with-more-forgiving-mouse-movement-paths/
+Old topic but still relevant for multi-level drop down menus.
+
+*There's More to Ruby Debugging Than puts()* (rb - feb 24)
+http://www.shopify.com/technology/17370004-theres-more-to-ruby-debugging-than-puts
+Advanced debugging katas.
+
+*Why We Killed Off Code Reviews* (tool - feb 24)
+http://eatcodeplay.com/why-we-killed-off-code-reviews/
+How pairing replaced code reviews at RealScout.
+
+*Using AngularJS for Data Visualisations* (js - feb 25)
+https://css-tricks.com/using-angularjs-for-data-visualisations/
+Run through creating three different sorts of charts using both inline CSS and SVG.
+
+*The Beginner’s Dilemma: Your First 100 Hours of Code* (tool - feb 26)
+http://www.vikingcodeschool.com/posts/the-beginner-s-dilemma-your-first-100-hours-of-code
+How to approach the first phase of the learning-to-code journey and a clear path to get you through it.
+
+*Using the Sucker Punch Ruby Gem to Cache Stripe Data in Rails* (rb - feb 26)
+http://brandonhilkert.com/blog/using-the-sucker-punch-ruby-gem-to-cache-stripe-data-in-rails/
+Even though Stripe is generally pretty fast, retrieving customer data on the fly can be expensive.
+
+*The simple but powerful Ruby Struct* (rb - feb 26)
+http://www.leighhalliday.com/ruby-struct
+A quick dive into ruby structs.
+
+*Service Objects in Rails* (rb - feb 26)
+http://cored.github.io/blog/2015/02/26/service-objects-in-rails/
+Service Layer to represent a domain-oriented layer of behaviors that provide an API for the domain layer.
+
+*Large Scale Payments Systems and Ruby on Rails* (rb - feb 26)
+http://nerds.airbnb.com/large-scale-payments-systems-ruby-rails/
+The case of Airbnb for managing payment code.
+
+*Fixing Passenger Enterprise + Capistrano zero-downtime restart caveats* (rb - feb 27)
+https://blog.phusion.nl/2015/02/27/fixing-passenger-enterprise-capistrano-zero-donwtime-restart-caveats/
+Using Capistrano with Passenger Enterprise's Standalone mode, rolling restarts appear to be broken. Here is how to fix it.
+
+*Introduction to Object.observe* (js - feb 27)
+http://www.sitepoint.com/introduction-object-observe/
+Feature to be added to Javascript of part of ECMAScript 7 to support object change detection natively in the browser.
+
+*Basic Curses* (rb - feb 28)
+http://graysoftinc.com/terminal-tricks/basic-curses
+Advanced curses tricks with ffi-ncurses.
+
+Watch
+----------------------------------------------------
+Screencasts and conferences videos, or other video feeds ...
+
+*Loading Code with Ruby* (rb - feb 26 - 6m)
+http://www.sitepoint.com/loading-code-ruby/
+Ruby load path, including how require works, how load works.
+
+Listen
+----------------------------------------------------
+What could be heard last week ..
+
+*FullStack Radio 10* (tool - feb 22 - 1h10)
+http://fullstackradio.com/episodes/10/
+Type Safety Roundtable with Ryan Tablada and Matt Machuga.
+
+*Giant Robots 135* (web - feb 23 - 33m)
+http://giantrobots.fm/135
+Planning For Change (Ben Arent).
+
+*Web platform #32* (web - feb 24 - 1h06)
+http://thewebplatform.libsyn.com/32-microsoft-spartan-internet-explorer
+Microsoft Spartan & Internet Explorer.
+
+*Ruby5 #530* (rb - feb 24 - 5m)
+https://ruby5.codeschool.com/episodes/568-episode-530-february-24th-2015
+1.9.3 is dead,  HTTP Request in Rails, Melt, Traveler, Merging Ruby Hashes, code outside of Rails, StopLight.
+
+*Javascript Jabber 148* (js - feb 25 - 1h05)
+http://devchat.tv/js-jabber/148-jsj-i-cx-and-everybit-js-with-matt-asher-and-dann-toliver
+.cx and EveryBit.js with Matt Asher and Dann Toliver.
+
+*RubyRogues 196* (ops - feb 25 - 1h15)
+http://devchat.tv/ruby-rogues/196-rr-testing-clojure-in-ruby-with-ashton-kemerling
+Docker with James Turnbull.
+
+*Developer tea 21* (web - feb 25 - 25m)
+http://www.developertea.com/episodes/7976
+Why You Should Create a Personal Site and Start Writing.
+
+*Adventure in angular #31* (js - feb 26 - 45m)
+http://devchat.tv/adventures-in-angular/031-aia-advanced-directives
+Advanced Directives.
+
+*Arretsed DevOps 31* (web - feb 26 - 1h06)
+http://www.arresteddevops.com/docker/
+Settings.
+
+*Javascript Jabber 150* (js - feb 27 - 1h02)
+http://devchat.tv/js-jabber/150-jsj-oims
+OIMs.
+
+*Puppetlabs 20150227* (web - feb 27 - 29m)
+https://puppetlabs.com/podcasts/starting-and-growing-puppet-user-group
+Starting and Growing a Puppet User Group.
+
+*Ruby5 #531* (rb - feb 27 - 6m)
+https://ruby5.codeschool.com/episodes/569-episode-531-february-27th-2015
+fast-ruby, middleman-presentation, railyard, ES6 with Rails, Caching with Sucker Punch.
+
+*The Changelog #144* (tool - feb 27 - 54m)
+http://5by5.tv/changelog/144
+GitHub Archive and Changelog Nightly with Ilya Grigorik.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+Links curated by by mose (editor), xenor, simon (informers).
+*|END:IF|*
+*|IFNOT:CONTENT=Only Links|*
+
+Rant
+----------------------------------------------------
+The random rant of the week by mose.
+
+#### Working abroad
+
+Our craft as webdev is clearly in huge demand. This provides an opportunity
+for us to travel abroad, discover new cultures, widen our horizon. When I went
+to live in Taiwan, I was not worried about finding a job. But when hunting for
+a job abroad it can be tricky to find companies that will sponsor a visa, a
+work permit, or whatever legal requirement is involved in each countries.
+
+That's what the new initiative called [TechMeAbroad][1] aims to fix, by
+listing only job opportunities for which a work permit is sponsored. As
+[Julien Barbier explains][2], it will launch in march, and if you know of any
+job offers that includes a visa or such thing, please let him know (or send it
+to me I will pass it along), so we can feed that platform with some real data
+quickly.
+
+#### So long ruby 1.9
+
+As planned, it's now time to say [byebye to ruby 1.9.3][3]. But there is still
+so many old version of ruby in the wild. In debian squeeze, you gotta use 1.8.
+In wheezy, you have 1.9. And there are still many servers that will refuse to
+upgrade.
+
+#### Pick your hero
+
+The registration for [Ruby Heroes 2015][4] is now open. Go vote for your
+favorite ruby influential dev. You have until [railsconf][5] that will happen
+in april, in Atlanta this year.
+
+[1]: http://techmeabroad.com
+[2]: http://jbarbier42.tumblr.com/post/112155851079/introducing-techmeabroad
+[3]:
+https://www.ruby-lang.org/en/news/2015/02/23/support-for-ruby-1-9-3-has-ended/
+[4]: http://rubyheroes.com/
+[5]: http://railsconf.com/
+
+*|END:IF|*
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+

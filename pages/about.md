@@ -34,14 +34,15 @@ So each week, I listen to various podcasts during my 50 min commute twice a day,
 something in my daily work I got tweet it on [@greenrubist][16] using a [Buffer][11] free account
 (but really those people rock, one day I will pay for it).
 
-And on sunday, [William][14] (aka xenor) also sends me a list of links. In the evening I begin to
+And on sunday, [William][14] (aka xenor) also sends me a list of links. Simon began to send links 
+as well, starting in autumn 2014. In the evening I begin to
 build the yaml file that I use for generating the letter and the website. I spend between 4 and 6 hours,
 reading around, checking what's up, and so on. Very often it's 3am when I'm done and then I send the
 letter manually from Mailchimp.
 
-## First year
+## After 2 years
 
-One year and half passed. Not one week came without its pubication. It became a sunday routine for me,
+Two years passed. Not one week came without its pubication. It became a sunday routine for me,
 with various benifits for myself and my friends. Few people subscribed each week from the website.
 
 There have been various attempts to automate the publication tool, using ember, or other toys.
