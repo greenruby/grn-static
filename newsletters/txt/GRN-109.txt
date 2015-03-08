@@ -1,0 +1,288 @@
+----------------------------------------------------
+Green Ruby News #109 - mar 8th 2015
+----------------------------------------------------
+*|IFNOT:CONTENT=Only Rant|*
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+*Dogstudio* (design)
+http://www.dogstudio.be/
+They make good shit (that's what they say).
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+*Modular Rails* (rb)
+http://modularity.samurails.com/
+(book) divide your application into small and reusable bricks.
+
+*Frontend Stuff* (tool)
+https://github.com/moklick/frontend-stuff
+A continuously expanded list of framework/libraries and tools for frontend, mostly js.
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+*Ruby 2.2.1* (rb)
+https://www.ruby-lang.org/en/news/2015/03/03/ruby-2-2-1-released/
+Some fixes in GC and ffi.
+
+*Passenger 5.0.1* (rb)
+https://blog.phusion.nl/2015/03/04/phusion-passenger-5-0-1-released/
+The famous Raptor was actually a new passenger.
+
+*Airbrush* (rb)
+https://github.com/mattbrictson/airbrussh
+Airbrussh pretties up your SSHKit and Capistrano output.
+
+*Concourse* (ops)
+http://concourse.ci/
+CI system based on pipelines.
+
+*HTTPie* (tool)
+https://github.com/metafizzy/flickity
+Command line HTTP client, a user-friendly cURL replacement.
+
+*Flickity* (js)
+https://github.com/jakubroztocil/httpie
+Touch, responsive, flickable galleries.
+
+*Slideout* (mobile)
+https://mango.github.io/slideout/
+A touch slideout navigation menu for mobile web apps.
+
+*Swiper* (mobile)
+http://www.idangero.us/swiper/
+Mobile touch slider with hardware accelerated transitions.
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+*Introducing Yesql for Ruby using ROM* (rb - mar 3)
+http://solnic.eu/2015/03/02/introducing-yesql-for-ruby-using-rom.html
+A new adapter for ROM based on the clojure yesql.
+
+*Browser Trends March 2015: Renewed Interest in Opera?* (tool - mar 3)
+http://www.sitepoint.com/browser-trends-march-2015-renewed-interest-opera/
+Most recent numbers of browser version usages.
+
+*Spicing Up the Bootstrap Carousel with CSS3 Animations* (css3 - mar 3)
+http://www.sitepoint.com/bootstrap-carousel-with-css3-animations/
+Bootstrap provides a caroussel plugin, here is how to improve it.
+
+*All About Methods* (rb - mar 3)
+http://jbodah.github.io/blog/2015/03/03/all-about-methods/
+How methods are defined and bound to instances.
+
+*asm.js Speedups Everywhere* (js - mar 3)
+https://hacks.mozilla.org/2015/03/asm-speedups-everywhere/
+State of how browsers optimizes asm, and where it's going.
+
+*Turning the database inside out with apache Samza* (ops - mar 4)
+http://blog.confluent.io/2015/03/04/turning-the-database-inside-out-with-apache-samza/
+A very long and detailled article in favor of replacing DB by Streams.
+
+*Requiring code in Ruby* (rb - mar 4)
+https://medium.com/@guiman/requiring-code-in-ruby-fcb934d4fb8c
+Require or require_relative, that is the question.
+
+*Blog in Markdown, Deploy with Webhooks* (rb - mar 4)
+https://robots.thoughtbot.com/blog-in-markdown-deploy-with-webhooks
+Thoughtbot evolution of their blog system.
+
+*A Guide to Markdown for Simpler Web Writing* (tool - mar 4)
+https://scotch.io/bar-talk/a-guide-to-markdown-for-simpler-web-writing
+Markdown is widely used in article writing, documentation, help text.
+
+*Volt: Assets, Components, and Routes* (rb - mar 5)
+http://www.sitepoint.com/volt-assets-components-routes/
+Dive inside an example of volt application.
+
+*Understanding the CSS animation-fill-mode Property* (css3 - mar 5)
+http://www.sitepoint.com/understanding-css-animation-fill-mode-property/
+That animation-based property isn’t very self-explanatory.
+
+*Creating responsive, touch-friendly carousels with Flickity* (js - mar 5)
+https://css-tricks.com/creating-responsive-touch-friendly-carousels-with-flickity/
+Example of usage of Flickity.
+
+*Demystifying React Components State* (js - mar 6)
+http://www.sitepoint.com/demystifying-react-components-state/
+Components state and when to use them.
+
+*Closures in JavaScript* (js - mar 7)
+http://www.codedodle.com/2015/03/closures-in-javascript.html
+How the variable names are resolved in nested functions.
+
+*Intro to MongoDB for Postgres developers* (rb - mar 7)
+http://www.leighhalliday.com/intro-to-mongodb-for-postgres-developers
+Review of what mongodb looks like when you come from postgres.
+
+*Rails 4 Performance Tips* (rb - mar 7)
+http://coding-is-art.com/rails-4-performance-tips/
+Tricks and tools to make it faster.
+
+Watch
+----------------------------------------------------
+Screencasts and conferences videos, or other video feeds ...
+
+*Gorail 45* (rb - mar 5 - 14m)
+https://gorails.com/episodes/export-to-csv/
+Exporting Records To CSV.
+
+Listen
+----------------------------------------------------
+What could be heard last week ..
+
+*Git Minutes 32* (tool - mar 2 - 1h16)
+http://episodes.gitminutes.com/2015/03/gitminutes-32-adam-spiers-on-git-deps.html
+Adam Spiers on git-deps.
+
+*Giant Robots 136* (web - mar 2 - 31m)
+http://giantrobots.fm/136
+I Think it Was the Altitude (Ben Orenstein).
+
+*Developer tea 23* (web - mar 2 - 14m)
+http://www.developertea.com/episodes/8650
+When to Adopt New Technology: A Simple Value-based Rubric.
+
+*Web platform #33* (js - mar 3 - 43m)
+http://thewebplatform.libsyn.com/33-react-week
+React Week.
+
+*Ruby5 #532* (rb - mar 3 - 5m)
+https://ruby5.codeschool.com/episodes/570-episode-532-march-3rd-2015
+Secure Cookies, Regex Examples, Debugging Ruby, Arbre. From Rails to Ember, Madison Ruby CFP.
+
+*Nodeup 84* (js - mar 4 - 32m)
+http://nodeup.com/eightyfour
+ io.js update #1.
+
+*RubyRogues 197* (rb - mar 4 - 1h11)
+http://devchat.tv/ruby-rogues/197-rr-the-social-coding-contract-with-justin-searls
+The Social Coding Contract with Justin Searls.
+
+*Developer tea 24* (css3 - mar 4 - 23m)
+http://www.developertea.com/episodes/8787
+Scott Jehl on Responsible Responsive Design and Progressive Enhancement, Part One (part 2 was published too, on mar 6th).
+
+*Javascript Jabber 149* (js - mar 4 - 43m)
+http://devchat.tv/js-jabber/149-jsj-passenger-enterprise-with-node-js-with-hongli-lai-and-tinco-andringa-
+Passenger Enterprise with Node.js with Hongli Lai and Tinco Andringa.
+
+*The Bike Shed 9* (rb - mar 5 - 34m)
+http://bikeshed.fm/9
+Monorails, For the Kids.
+
+*Adventure in angular #32* (js - mar 5 - 49m)
+http://devchat.tv/adventures-in-angular/032-aia-angular-ui-router-with-craig-mckeachie
+Angular UI Router with Craig McKeachie.
+
+*Food Fight Show 89* (ops - mar 5 - 52m)
+http://foodfightshow.org/2015/03/chefconf-preview.html
+ChefConf Preview.
+
+*Ruby5 #533* (rb - mar 6 - 5m)
+https://ruby5.codeschool.com/episodes/571-episode-533-march-6th-2015
+Ruby 2.2.1, Regularity, Loading Code with Ruby, Passenger 5.0.1, GORUCO CFP.
+
+*The Changelog #145* (rb - mar 6 - 1h48)
+http://5by5.tv/changelog/145
+10+ Years of Rails with DHH.
+
+*Cloudcast 181* (ops - mar 7 - 41m)
+http://www.thecloudcast.net/2015/03/the-cloudcast-181-investigating-elk.html
+Investigating the ELK Stack.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+Links curated by by mose (editor), xenor, simon (informers).
+*|END:IF|*
+*|IFNOT:CONTENT=Only Links|*
+
+Rant
+----------------------------------------------------
+The random rant of the week by mose.
+
+#### About blogging
+
+Well, since that whole blogging thing began, I never have been very active on
+it. Well, I have a [blog][blog] on Tumblr because I wanted to know how they
+are doing it, I published various posts in the [faria devtips][devtips], and
+after all, this rant could also count as a publication. So I think I will
+gather them all under one unique site. A Jekyll github-pages kind, easy and
+cheap.
+
+After all, I'm not sure the devtips website will stay up any longer. There
+have been no post since the day I left. Too bad. It's a demonstration that
+some collective actions can sometimes rely only on the energy of one person.
+
+So, I made a new repo on github for it, it will be <http://bla.mose.com> and I
+will gather whatever stuff I can find that I wrote in there.
+
+#### Lovely FreeBSD
+
+At our Gandi office in Taipei I had to install a [pfsense][pfsense] server,
+which is based on [FreeBSD][freebsd]. It was quite a pleasant experience,
+actually. Last time I played a bit with BSD that was 12 years ago, and that
+was not very smooth. I'm happy to be given that occasion to see how it goes
+now.
+
+For now I'm going to use it like if it was an [OpenWRT][openwrt] with some
+extra [OpenVPN][openvpn] abilities. And it will also be a file server for the
+LAN. Not sure yet how I will handle that.
+
+#### Ruby package management
+
+When I got in my new job, I discovered a new way to manage server management.
+They didn't want to use [rvm][rvm], or even [ruby gems][rubygems], or
+[pip][pip] or anything that is not debian packages. It may sound quite harsh.
+Since I came in ruby in 2010, rvm has been my best friend, bundle the second
+one. But this approach is very developer-based. When you maintain large and
+stable systems, it's more likely that you will not trust the bleeding edge
+stuff and prefer confirmed publication of packages before using them. This is
+an interesting slap on my face.
+
+Of course there are the [brightbox][brightbox] packages for Ubuntu, but that's
+missing the point. A release has to be out for a certain time so it can be
+strengthened by security reviews and proper production usage. There is a part
+of the population for each language that is considering the instability of
+current releases a normal trade-off. but there is a huge lot of other
+companies that will wait patiently that things get stable enough for their
+taste.
+
+[blog]:      http://blog.mose.com
+[devtips]:   http://devtips.faria.co/authors.html#mose-ref
+[pfsense]:   https://www.pfsense.org/
+[freebsd]:   https://www.freebsd.org/
+[rvm]:       http://rvm.io/
+[rubygems]:  https://rubygems.org/
+[pip]:       https://pip.pypa.io/en/latest/
+[brightbox]: https://www.brightbox.com/docs/ruby/ubuntu/
+[openwrt]:   https://openwrt.org/
+[openvpn]:   https://openvpn.net/index.php/open-source.html
+
+*|END:IF|*
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+
