@@ -67,6 +67,6 @@ have any cost. Mailchimp still is free for less than 2000 subscribers.
   [11]: http://bufferapp.com/ "Buffer"
   [12]: http://www.reddit.com/ "Reddit"
   [14]: https://github.com/tubaxenor "The Xenor with his tuba"
-  [16]: https://twitter.com/grenrubist "New tweet feed from Green Ruby"
+  [16]: https://twitter.com/greenrubist "New tweet feed from Green Ruby"
   [17]: https://twitter.com/mo5e "Personal tweet feed of mose"
   [42]: http://mose.com "Mose"
