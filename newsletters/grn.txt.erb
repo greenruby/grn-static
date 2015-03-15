@@ -12,7 +12,8 @@ Green Ruby News #<%= c.edition %> - <%= c.pubdate %>
 <%= l.comment %>
 <% end %><% end %>
 . . . . . . . . . . . . . . . . . . . . . . . . . .
-Links curated by by mose (editor), <% if @c.contributors %><%= @c.contributors %> (informers)<% else %>xenor (informer)<% end %>.
+<% if @c.contributors %>Links curated by by mose (editor), <%= @c.contributors %> (informers)<% elsif @c.editors 
+%>Links curated by by mose (publisher), <%= @c.editors %> (editors)<% end %>.
 *|END:IF|*
 *|IFNOT:CONTENT=Only Links|*
 <% if @c.rant != '' %>

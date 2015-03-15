@@ -1,0 +1,184 @@
+----------------------------------------------------
+Green Ruby News #110 - mar 15th 2015
+----------------------------------------------------
+*|IFNOT:CONTENT=Only Rant|*
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+*365 Best Websites Around The World 2014* (design)
+http://book.awwwards.com/
+(book) review of one year of awwwards.
+
+*Stupid studio* (design)
+https://stupid-studio.com/
+Website of a danish agency.
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+*USB Typewriter* (tool)
+http://www.usbtypewriter.com/collections/typewriters
+Yeah this is weird. Love it.
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+*Tunemygc* (rb)
+https://tunemygc.com/
+The default GC configuration is not suitable and optimal for Rails applications. Tune it!
+
+*Viewmaster* (rb)
+https://github.com/prey/viewmaster
+The layout version switcher for Rails.
+
+*Keypress* (js)
+http://dmauro.github.io/Keypress/
+A Javascript library for capturing keyboard input.
+
+*animatedModal.js* (js)
+http://dmauro.github.io/Keypress/
+jQuery plugin to create a fullscreen modal with CSS3 transitions.
+
+*Creative Gooey Effects* (js)
+http://tympanus.net/Development/CreativeGooeyEffects/index.html
+A set of example that use a gooey SVG filter for creating a variety of different effects for all kind of website components by Codedrops.
+
+*SkyBlue* (css3)
+http://stanko.github.io/skyblue/
+Minimal CSS Framework.
+
+*Afterglow* (tool)
+http://yabatadesign.github.io/afterglow-theme/
+A minimal dark Theme for Sublime Text.
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+*Vim Config for Rails Ninjas* (rb - mar 10)
+http://mixandgo.com/blog/vim-config-for-rails-ninjas
+Vim owns the Rails community. Deep dive in a configuration setup.
+
+*Creating a RubyGems plugin* (rb - mar 10)
+http://www.brianstorti.com/creating-a-rubygems-plugin/
+This tutorial creates a gem that adds the 'gem repo' command and opens a GitHub repository in your browser.
+
+*A Couple of Callback Gotchas (and a Rails 5 Fix)* (rb - mar 10)
+http://www.justinweiss.com/blog/2015/03/10/a-couple-callback-gotchas-and-a-rails-5-fix/
+A problem to consider due to race condition while using the after_save callback.
+
+*Introduction to fetch()* (js - mar 10)
+http://updates.html5rocks.com/2015/03/introduction-to-fetch
+Make network requests similar to XHR. The fetch API uses Promises, with a simpler and cleaner API.
+
+*Understanding CSS Grid Systems from the Ground Up* (css3 - mar 11)
+http://www.sitepoint.com/understanding-css-grid-systems/
+CSS grid systems have grown a lot in popularity, quickly becoming considered best practice for rapid layout scaffolding.
+
+*Why JavaScript ES6 Arrow Functions Will Make You Happy* (js - mar 11)
+http://jaspervalero.com/why-javascript-es6-arrow-functions-will-make-you-happy/
+Introduction to Arrow Fuctions in ES6.
+
+*Cool Things You Can Do with the PagerDuty API* (ops - mar 12)
+http://www.pagerduty.com/blog/cool-things-you-can-do-with-pagerduty-api/
+For those using Pagerduty, you really should take advantage of their great API.
+
+*Properly Setup and Secure a VPN Router* (ops - mar 12)
+http://freedomhacker.net/how-to-properly-setup-and-secure-a-vpn-router-3740/
+How to setup a flashed router for a secure VPN.
+
+*A Second Look at Alternate Web Frameworks for Ruby* (rb - mar 12)
+https://blog.engineyard.com/2015/life-beyond-rails-2-second-look-alternate-web-frameworks-ruby
+There are always choice in Ruby, Rails is not the only way to travel.
+
+*Schedule Cron Jobs with the Whenever Gem* (rb - mar 12)
+http://www.sitepoint.com/schedule-cron-jobs-whenever-gem/
+There are always choice in Ruby, Rails is not the only way to travel.
+
+*Push Notifications on the Open Web* (html5 - mar 12)
+http://updates.html5rocks.com/2015/03/push-notificatons-on-the-open-web
+As of Chrome version 42, Push API and Notification API are available to developers.
+
+*Understanding what is Cassandra* (ops - mar 12)
+http://rene-ace.com/cassandra-101-understanding-what-is-cassandra/
+A quick presentation of that NoSQL database.
+
+*Write Yourself a Roguelike* (rb - mar 13)
+https://robots.thoughtbot.com/announcing-write-yourself-a-roguelike
+(book) Console game design in ruby.
+
+*Add Twitter Authentication to an Ember.js App with Torii* (js - mar 13)
+http://www.sitepoint.com/twitter-authentication-ember-js-torii/
+Torii is a lightweight authentication library for Ember.js. It supports various OAuth providers (such as Twitter, Google or FaceBook).
+
+*Creating a Ruby DSL* (rb - mar 14)
+http://www.leighhalliday.com/creating-ruby-dsl
+Blocks are key to DSLs.
+
+Watch
+----------------------------------------------------
+Screencasts and conferences videos, or other video feeds ...
+
+*Ember conf 2015* (js - mar 8 - 23 videos)
+http://confreaks.tv/events/emberconf2015
+All the talks from Ember conf of this year.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+Links curated by by mose (publisher), xenor, simon (editors).
+*|END:IF|*
+*|IFNOT:CONTENT=Only Links|*
+
+Rant
+----------------------------------------------------
+The random rant of the week by mose.
+
+#### Time to upgrade
+
+This is a long time I plan to re-engineer the way Green Ruby is produced. Last
+week I told Xenor and Simon I was thinking about giving it a break. I'm not
+that much anymore in the flow. Now my days are full ops and not that much dev.
+But the guys didn't want to let me stop.
+
+So we are going to organize things a little differently. Xenor and Simon,
+which are full time rails developers, are going to handle the content more
+extensively, and I will just manage the publication, plus some devops links.
+So we need to get some tools ready to handle that new flow. Maybe, the time it
+gets ready, we will take some time off. Maybe not.
+
+What I wish is to have a way to let more people jump in, too. Maybe we will
+get inspiration in how [the changelog][trellochangelog] manages their news
+flow. They based it on a [Trello][trello] and it's quite clever. By chance I
+explored the trello API recently and I can tell it's really good, very
+suitable for custom automation.
+
+This week, I will play lazy on the podcasts. I don't think they are that much
+interesting anyways, and all that copy-pasting is exhausting. When some
+podcasts stands out of the crowd, I will rather feature it in this rant.
+
+[trello]:          http://trello.com
+[trellochangelog]: http://thechangelog.com/trello-as-a-cms/
+
+*|END:IF|*
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+

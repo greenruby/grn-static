@@ -126,12 +126,13 @@ Is this email not displaying correctly?
 <% end %>
 
 <div class="baseline" style="border-top: 1px solid #ccc">
-<i>Links curated by mose (editor),
 <% if @c.contributors %>
-<%= @c.contributors %> (informers)
+<i>Links curated by mose (editor), <%= @c.contributors %> (informers).</i>
+<% elsif @c.editors %>
+<i>Links curated by mose (publisher), <%= @c.editors %> (editors).</i>
 <% else %>
-xenor (informer)
-<% end %>.</i>
+<i>Links curated by mose (editor), xenor (informer).</i>
+<% end %>
 </div>
 *|END:IF|*
 
