@@ -1,0 +1,205 @@
+----------------------------------------------------
+Green Ruby News #111 - mar 22th 2015
+----------------------------------------------------
+*|IFNOT:CONTENT=Only Rant|*
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+*1000 Chrome experiments* (design)
+http://1000.chromeexperiments.com/
+Better get there with a webGL-enabled browser like, hmm, chrome (but works on firefox too).
+
+*White Frontier Brewery* (design)
+http://www.whitefrontier.ch/
+Neat design for Beer lovers.
+
+*Species in pieces* (design)
+http://www.species-in-pieces.com/
+A css-based exposition.
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+*AniCollection* (css3)
+http://anicollection.github.io/
+Animations from many libraries and many people all in one place.
+
+*Hackr.io* (tool)
+http://hackr.io/
+Share and discover the best programming tutorials online.
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+*Rails 4.2.1 and 4.1.10* (rb)
+http://weblog.rubyonrails.org/2015/3/19/Rails-4-2-1-and-4-1-10-have-been-released/
+Fresh new versions, announced at the end of the week.
+
+*Saddler* (rb)
+https://github.com/packsaddle/ruby-saddler
+Integrate any lint, security checker and tools with anywhere (e.g. GitHub Pull Request Review Comment).
+
+*Textures.js* (css3)
+http://riccardoscalco.github.io/textures/
+SVG patterns for Data Visualization.
+
+*Sanitize.css* (css3)
+https://github.com/jonathantneal/sanitize.css
+Render elements consistently. Style with best practices.
+
+*Reapp* (js)
+http://reapp.io/
+Build mobile apps with React and JavaScript.
+
+*Type.js* (js)
+http://typejs.org/
+New CSS properties to take finer typographic control of type styles on the web.
+
+*Logdown* (tool)
+https://github.com/caiogondim/logdown
+Debug utility with markdown support that runs on browser and server.
+
+*ES stats* (ops)
+https://github.com/jamiealquiza/es-stats
+ElasticSearch cluster metrics to Graphite.
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+*Reading Rails - Time Travel* (rb - mar 15)
+http://www.monkeyandcrow.com/blog/reading_rails_time_travel/
+In Rails 4.1, travel and travel_to helpers were introduced.
+
+*How Does Symbol#to_proc Work?* (rb - mar 16)
+http://benjamintan.io/blog/2015/03/16/how-does-symbol-to_proc-work/
+One of the finest examples of the flexibility and beauty of Ruby.
+
+*Internationalization of AngularJS Applications* (js - mar 16)
+https://scotch.io/tutorials/internationalization-of-angularjs-applications
+Using Yeoman AngularJS generator, asynchronous translate.
+
+*Strategies for Staying on Top of Web Performance* (html5 - mar 16)
+https://css-tricks.com/strategies-for-staying-on-top-of-web-performance/
+Various tricks to put performance on the first line.
+
+*How to Get Started with learning ES6* (js - mar 17)
+https://www.codementor.io/javascript/tutorial/learn-ecmascript6
+An exclusive guide for starting ES6 in production.
+
+*How Rails Sessions Work* (rb - mar 17)
+http://www.justinweiss.com/blog/2015/03/17/how-rails-sessions-work/
+A session is just a place to store data during one request that you can read during later requests.
+
+*Left Half and Right Half Layout* (css3 - mar 18)
+https://css-tricks.com/left-and-right/
+Spliting layouts using different techniques in CSS.
+
+*Probably Use initial-scale=1* (css3 - mar 18)
+https://css-tricks.com/probably-use-initial-scale1/
+When doing responsive design. Use initial zoom to prevent undesired zooming behavior when device orientation changes.
+
+*How to build React apps that load quickly using server side rendering* (js - mar 18)
+http://www.terlici.com/2015/03/18/fast-react-loading-server-rendering.html
+Benefits of server-side rendering in react apps.
+
+*S.O.L.I.D: The First 5 Principles of Object Oriented Design* (tool - mar 18)
+https://scotch.io/bar-talk/s-o-l-i-d-the-first-five-principles-of-object-oriented-design
+SOLID is an acronym for the first five object-oriented design (OOD) principle by Uncle Bob.
+
+*Tail Call Optimization in Ruby* (rb - mar 18)
+http://milhouseonsoftware.com/2015/02/18/tco-in-ruby/
+Ruby actually has support for TCO, but it's not enabled by default.
+
+*Make a Mobile App with ReactJS in 30 Minutes* (js - mar 19)
+https://scotch.io/tutorials/make-a-mobile-app-with-reactjs-in-30-minutes
+Reapp s a mobile app platform on React. Here is a small example of how to use it.
+
+*Speed Up Rails Asset Pipeline* (rb - mar 19)
+http://bikegriffith.tumblr.com/post/114046430847/speed-up-rails-asset-pipeline
+Write a custom compressor.
+
+*Scrolling Through Large Files* (rb - mar 19)
+http://www.sitepoint.com/ruby-medicine-scrolling-large-files/
+Navigate through large text files with Ruby.
+
+*Understanding Rack Apps and Middleware* (rb - mar 19)
+https://blog.engineyard.com/2015/understanding-rack-apps-and-middleware
+An in-depth look at Rack.
+
+*Can We Do Better Than The Click?* (js - mar 20)
+http://www.smashingmagazine.com/2015/03/20/better-browser-input-events/
+.. by understanding the event cascade.
+
+Watch
+----------------------------------------------------
+Screencasts and conferences videos, or other video feeds ...
+
+*Ruby on Ales 2015* (rb - mar 17 - 14 videos)
+http://confreaks.tv/events/roa2015
+Only first 2 are available yet but it should fill up quickly.
+
+*Gorails 47* (rb - mar 20 - 23m)
+https://gorails.com/episodes/multitenancy-with-apartment
+Multitenancy with the Apartment gem.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+Links curated by by mose (publisher), xenor, simon (editors).
+*|END:IF|*
+*|IFNOT:CONTENT=Only Links|*
+
+Rant
+----------------------------------------------------
+The random rant of the week by mose.
+
+#### Drones and makers
+
+This is now obvious. We are going to get invaded by drones. Of course we will
+pretend we control them, for a while. But I can bet it's not going to stand
+too long. Their autonomy is a competitive factor, and, in our current society,
+competitive is the Darwinian selective factor. It can be a bit scary.
+
+But on another hand, when we geeks look at those things with our (never-aging)
+kids eyes, we see fun toys. Look at the [B Flying car][bcar]. We can [do them
+ourselves][diy]. Like we were able to tinker with the first computers, the
+first radio stations. But now we have 3D printing. Yet not that affordable,
+but it seems to get better. There is also that creepy [3Doodler][3doodler]
+thingie, and various other new techniques.
+
+Maybe the Makers movement is the hope for humanity. Reclaim the daily small
+things! Check that [instructable][ins] website it's a lot of fun.
+
+Well yeah this all has nothing to do with webdev. Except from the fact that
+open standards made possible to people like me to do the web myself. After a
+time, it became a professional activity. Will we get professional makers in
+the future and see a revival of craftsmanship? I really wonder.
+
+[bcar]:  http://www.bgobeyond.co.uk/
+[diy]:   http://diydrones.com/
+[ins]:   http://www.instructables.com/
+[3doodler]: http://the3doodler.com/
+
+*|END:IF|*
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+
