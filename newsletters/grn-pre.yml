@@ -6,3 +6,74 @@ editors: "xenor, simon"
 rant:
 
 topics:
+
+- title: Look
+  baseline:
+    "Examples of UI/UX, graphic performance, web design and flashy things."
+  links:
+
+- title: Use
+  baseline:
+    "Web applications, resources and tools, available for making our life easier or funnier."
+  links:
+
+- title: Install
+  baseline: "A selection of gems or applications updated during past week."
+  links:
+
+  - title: "Crono"
+    url: "https://github.com/plashchynski/crono"
+    comment: "A time-based background job scheduler daemon for Rails."
+    tags:
+      - rb
+
+  - title: "DeviceDetector"
+    url: "https://github.com/podigee/device_detector"
+    comment: "Fast user agent parser with an extensive database."
+    tags:
+      - rb
+
+  - title: "Attestor"
+    url: "https://github.com/nepalez/attestor"
+    comment: "Validations and policies for immutable Ruby objects."
+    tags:
+      - rb
+
+  - title: "Variables"
+    url: "https://github.com/shuber/variables"
+    comment: "Variable objects for class and instance variables"
+    tags:
+      - rb
+
+- title: Read
+  baseline: "From the blogosphere or news feeds ..."
+  links:
+
+  - title: "Different Collection Types in Ruby"
+    url: "http://6ftdan.com/allyourdev/2015/03/26/different-collection-types-in-ruby/"
+    comment: "Most known to least known collection types in Ruby"
+    pubdate: mar 26
+    tags:
+      - rb
+
+  - title: "How to write a template engine in less than 30 lines of code"
+    url: "http://bits.citrusbyte.com/how-to-write-a-template-library/"
+    comment: "Most known to least known collection types in Ruby"
+    pubdate: mar 26
+    tags:
+      - rb
+
+  - title: "I like to keep my Promises (when I Javascript)"
+    url: "https://developer.atlassian.com/blog/2015/03/i-keep-my-promises/"
+    comment: "Why and how to use promises in Javascript"
+    pubdate: mar 25
+    tags:
+      - js
+
+  - title: "Why Baidu was hijacked to attack GitHub"
+    url: "https://www.larrysalibra.com/2015/03/27/why-baidu-was-hijacked-to-attack-github/"
+    comment: "Explanation of the Github DDoS incident of the week"
+    pubdate: mar 27
+    tags:
+      - js
+
