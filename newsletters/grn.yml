@@ -1,7 +1,17 @@
 ---
 edition: "112"
 pubdate: "mar 29th 2015"
-editors: "xenor, simon"
+editors: "xenor, tysliu"
+rant: 
+  "#### Green Ruby New Generation
+
+
+We had this week a very productive meeting with xenor and tysliu in our preferred coffee shop. I explained more in detail my workflow and my quality criterias. So now they can feed the links section and become the major editors of Green Ruby. I Still keep the role of the publisher. I get their links, I clean up stuff, verify freshness and reachability, remove superlatives, fix category if needed. 
+
+
+Special thanks a lot to Xenor and Tysliu (aka. Simon). Now they do the heavy lifting and they are the reason why Green Ruby is still in your mailbox every week.
+
+"
 
 topics:
 
@@ -10,92 +20,81 @@ topics:
     "Examples of UI/UX, graphic performance, web design and flashy things."
   links:
 
+  - title: "Plastibionic"
+    url: "http://www.plasticbionic.com/"
+    comment: "Website of a design studio. The pull-to-load at the bottom is quite clever."
+    tags:
+      - design
+
+
 - title: Install
   baseline: "A selection of gems or applications updated during past week."
   links:
 
+  - title: "Crono"
+    url: "https://github.com/plashchynski/crono"
+    comment: "A time-based background job scheduler daemon for Rails."
+    tags:
+      - rb
+
+  - title: "DeviceDetector"
+    url: "https://github.com/podigee/device_detector"
+    comment: "Fast user agent parser with an extensive database."
+    tags:
+      - rb
+
+  - title: "Attestor"
+    url: "https://github.com/nepalez/attestor"
+    comment: "Validations and policies for immutable Ruby objects."
+    tags:
+      - rb
+
+  - title: "Variables"
+    url: "https://github.com/shuber/variables"
+    comment: "Variable objects for class and instance variables."
+    tags:
+      - rb
+
+  - title: "Artoo"
+    url: "http://artoo.io/"
+    comment: "Robotics framework in Ruby with support for 15 different platforms."
+    tags:
+      - rb
+
   - title: "Circulus.svg"
     url: "http://sarasoueidan.com/tools/circulus/"
-    comment: "Circulus.svg is a circular menu generator, that lets you generate an SVG menu. It offers two different styles, with full or half circles, and various options for styling."
+    comment: "Circular menu generator, that lets you generate an SVG menu."
     tags:
       - css3
 
   - title: "PageSpeed Insights"
     url: "https://developers.google.com/speed/pagespeed/insights/"
-    comment: "Google has indicated that sites with faster performance do better in search results. Just recently, they started testing a “Slow” warning tag for heavy sites in search results."
+    comment: "Sites with faster performance do better in search results."
     tags:
       - web
-
-  - title: "Artoo - Ruby on Robobts"
-    url: "http://artoo.io/"
-    comment: "Next generation robotics framework in Ruby with support for 15 different platforms."
-    tags:
-      - rb
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: "Toward a Better Markdown Tutorial"
-    url: "http://blog.codinghorror.com/toward-a-better-markdown-tutorial/"
-    comment: "It is surprising when technical people say they don't know Markdown. Do you not use GitHub? Stack Overflow? Reddit?"
-    pubdate: mar 28
-    tags:
-      - web
-
-  - title: "Devise Authentication in Depth"
-    url: "http://www.sitepoint.com/devise-authentication-in-depth/"
-    comment: "Devise comes with a handful of modules, allowing you to choose only the required ones. There is a module to support password recovery, e-mail confirmation, account lock out, and many others."
-    pubdate: mar 26
+  - title: "Upcoming changes in Rails 5.0"
+    url: "https://intercityup.com/blog/upcoming-changes-in-rails-5-0.html"
+    comment: "Changes that are confirmed to be in the new version."
+    pubdate: mar 23
     tags:
       - rb
 
-  - title: "Building a Custom Right-Click (Context) Menu with JavaScript"
-    url: "http://www.sitepoint.com/building-custom-right-click-context-menu-javascript/"
-    comment: "A context menu is a menu in a GUI that appears upon user interaction, such as a right-click mouse operation."
-    pubdate: mar 25
-    tags:
-      - js
-
-  - title: "Toolkit: A Front-End Framework for the Modern Web"
-    url: "http://www.sitepoint.com/toolkit-front-end-framework-modern-web/"
-    comment: "Toolkit is a front-end framework that provides a collection of powerful state-based, role-specific user interface components and utility classes for the responsive, mobile, and modern web."
-    pubdate: mar 24
-    tags:
-      - web
-
-  - title: "Choose a Random Option based on a Range"
-    url: "https://css-tricks.com/choose-an-random-option-based-on-a-range/"
-    comment: "Random, but not equally random."
-    pubdate: mar 26
-    tags:
-      - js
-
-  - title: "Numeric Inputs – A Comparison of Browser Defaults"
-    url: "https://css-tricks.com/numeric-inputs-a-comparison-of-browser-defaults/"
-    comment: "In this article we're looking specifically at how browsers handles <input type='number'>"
-    pubdate: mar 25
-    tags:
-      - js
-
-  - title: "Build a Time Tracker with Laravel 5 and AngularJS – Part 1"
-    url: "https://scotch.io/tutorials/build-a-time-tracker-with-laravel-5-and-angularjs-part-1"
-    comment: "Laravel and AngularJS work great together, but it can be a little tricky to get going at first, especially if you are new to the frameworks."
-    pubdate: mar 26
-    tags:
-      - web
-
-  - title: "Aesthetic Sass 1: Architecture and Style Organization"
-    url: "https://scotch.io/tutorials/aesthetic-sass-1-architecture-and-style-organization"
-    comment: "Sass is a very powerful extension language for CSS that gives you the ability to improve the organization of both stylesheet files and styles within these stylesheets."
-    pubdate: mar 24
+  - title: "Only Grab the Files You Need While Using Bower"
+    url: "https://scotch.io/tutorials/only-grab-the-files-you-need-while-using-bower"
+    comment: "Bower brings some sanity to the multitudes of frontend packages that can be used in your application."
+    pubdate: mar 23
     tags:
       - css3
 
   - title: "Aesthetic Sass 1: Architecture and Style Organization"
-    url: "https://scotch.io/tutorials/only-grab-the-files-you-need-while-using-bower"
-    comment: "Bower is an amazing tool to bring some sanity to the multitudes of frontend packages that can be used in your application."
-    pubdate: mar 23
+    url: "https://scotch.io/tutorials/aesthetic-sass-1-architecture-and-style-organization"
+    comment: "Improve the organization of both stylesheet files and styles within these stylesheets."
+    pubdate: mar 24
     tags:
       - css3
 
@@ -106,30 +105,91 @@ topics:
     tags:
       - rb
 
-  - title: "Upcoming changes in Rails 5.0"
-    url: "https://intercityup.com/blog/upcoming-changes-in-rails-5-0.html"
-    comment: "Changes that are confirmed to be in the new version."
+  - title: "Toolkit: A Front-End Framework for the Modern Web"
+    url: "http://www.sitepoint.com/toolkit-front-end-framework-modern-web/"
+    comment: "Front-end framework that provides a collection of user interface components and utility classes."
+    pubdate: mar 24
+    tags:
+      - web
+
+  - title: "I like to keep my Promises"
+    url: "https://developer.atlassian.com/blog/2015/03/i-keep-my-promises/"
+    comment: "Why and how to use promises in Javascript."
+    pubdate: mar 25
+    tags:
+      - js
+
+  - title: "Building a Custom Right-Click (Context) Menu with JavaScript"
+    url: "http://www.sitepoint.com/building-custom-right-click-context-menu-javascript/"
+    comment: "A menu that appears upon user interaction, such as a right-click mouse operation."
+    pubdate: mar 25
+    tags:
+      - js
+
+  - title: "Numeric Inputs – A Comparison of Browser Defaults"
+    url: "https://css-tricks.com/numeric-inputs-a-comparison-of-browser-defaults/"
+    comment: "How browsers handles input with type number."
+    pubdate: mar 25
+    tags:
+      - js
+
+  - title: "Choose a Random Option based on a Range"
+    url: "https://css-tricks.com/choose-an-random-option-based-on-a-range/"
+    comment: "Random, but not equally random."
+    pubdate: mar 26
+    tags:
+      - js
+
+  - title: "Different Collection Types in Ruby"
+    url: "http://6ftdan.com/allyourdev/2015/03/26/different-collection-types-in-ruby/"
+    comment: "Most known to least known collection types in Ruby."
+    pubdate: mar 26
     tags:
       - rb
 
-  - title: "Rails 4.2.1 and 4.1.10 have been released!"
-    url: "http://weblog.rubyonrails.org/2015/3/19/Rails-4-2-1-and-4-1-10-have-been-released"
-    comment: "After four release candidates the final versions for Rails 4.2.1 and 4.1.10 have been released."
+  - title: "A template engine in less than 30 lines of code"
+    url: "http://bits.citrusbyte.com/how-to-write-a-template-library/"
+    comment: "Template engines are really simple once you look inside."
+    pubdate: mar 26
     tags:
       - rb
 
-  - title: "How to write a template engine in less than 30 lines of code"
-    url: "http://bits.citrusbyte.com/how-to-write-a-template-library"
-    comment: "Template engines are tools that generate text (strings) from templates and help separate presentation from application logic."
+  - title: "Devise Authentication in Depth"
+    url: "http://www.sitepoint.com/devise-authentication-in-depth/"
+    comment: "Second article in a Devise series, which dives into authentication customization."
+    pubdate: mar 26
     tags:
       - rb
 
-  - title: "Using Docker to parallelize Rails tests"
-    url: "http://blog.codeship.com/using-docker-to-parallelize-rails-tests"
-    comment: "Using docker provides excellent encapsulation to allow for parallelization of rails test suites."
+  - title: "Performance Issue Considerations for Microservices APIs"
+    url: "http://www.sitepoint.com/devise-authentication-in-depth/"
+    comment: "When architecture slides to microservices, logging and monitoring require a new kind of attention."
+    pubdate: mar 26
     tags:
-      - rb
+      - ops
+
+  - title: "Why Baidu was hijacked to attack GitHub"
+    url: "https://www.larrysalibra.com/2015/03/27/why-baidu-was-hijacked-to-attack-github/"
+    comment: "Explanation of the Github DDoS incident of the week."
+    pubdate: mar 27
+    tags:
+      - web
+
+  - title: "Toward a Better Markdown Tutorial"
+    url: "http://blog.codinghorror.com/toward-a-better-markdown-tutorial/"
+    comment: "It is surprising when technical people say they don't know Markdown. Do you not use GitHub? Stack Overflow? Reddit?"
+    pubdate: mar 28
+    tags:
+      - web
 
 - title: Watch
   baseline: "Screencasts and conferences videos, or other video feeds ..."
   links:
+
+  - title: "MountainWest JavaScript 2015"
+    url: "http://confreaks.tv/events/mwjs2015"
+    comment: "It happened in early march, confreaks just uploaded the videos."
+    duration: 15 videos
+    pubdate: mar 27
+    tags:
+      - js
