@@ -1,33 +1,7 @@
 ---
-edition: "111"
-pubdate: "mar 22th 2015"
+edition: "112"
+pubdate: "mar 29th 2015"
 editors: "xenor, simon"
-
-rant:
-  "#### Drones and makers
-
-
-This is now obvious. We are going to get invaded by drones. Of course we will pretend we control them, for a while. But I can bet it's not going to stand too long. Their autonomy is a competitive factor, and, in our current society, competitive is the Darwinian selective factor. It can be a bit scary.
-
-
-But on another hand, when we geeks look at those things with our (never-aging) kids eyes, we see fun toys. Look at the [B Flying car][bcar]. We can [do them ourselves][diy]. Like we were able to tinker with the first computers, the first radio stations. But now we have 3D printing. Yet not that affordable, but it seems to get better. There is also that creepy [3Doodler][3doodler] thingie, and various other new techniques.
-
-
-Maybe the Makers movement is the hope for humanity. Reclaim the daily small things! Check that [instructable][ins] website it's a lot of fun.
-
-
-Well yeah this all has nothing to do with webdev. Except from the fact that open standards made possible to people like me to do the web myself. After a time, it became a professional activity. Will we get professional makers in the future and see a revival of craftsmanship? I really wonder.
-
-
-[bcar]:  http://www.bgobeyond.co.uk/
-
-[diy]:   http://diydrones.com/
-
-[ins]:   http://www.instructables.com/
-
-[3doodler]: http://the3doodler.com/
-
-"
 
 topics:
 
@@ -36,227 +10,126 @@ topics:
     "Examples of UI/UX, graphic performance, web design and flashy things."
   links:
 
-  - title: "1000 Chrome experiments"
-    url: "http://1000.chromeexperiments.com/"
-    comment: "Better get there with a webGL-enabled browser like, hmm, chrome (but works on firefox too)."
-    tags:
-      - design
-
-  - title: "White Frontier Brewery"
-    url: "http://www.whitefrontier.ch/"
-    comment: "Neat design for Beer lovers."
-    tags:
-      - design
-
-  - title: "Species in pieces"
-    url: "http://www.species-in-pieces.com/"
-    comment: "A css-based exposition."
-    tags:
-      - design
-
-- title: Use
-  baseline:
-    "Web applications, resources and tools, available for making our life easier or funnier."
-  links:
-
-  - title: "AniCollection"
-    url: "http://anicollection.github.io/"
-    comment: "Animations from many libraries and many people all in one place."
-    tags:
-      - css3
-
-  - title: "Hackr.io"
-    url: "http://hackr.io/"
-    comment: "Share and discover the best programming tutorials online."
-    tags:
-      - tool
-
 - title: Install
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: "Rails 4.2.1 and 4.1.10"
-    url: "http://weblog.rubyonrails.org/2015/3/19/Rails-4-2-1-and-4-1-10-have-been-released/"
-    comment: "Fresh new versions, announced at the end of the week."
-    tags:
-      - rb
-
-  - title: "Saddler"
-    url: "https://github.com/packsaddle/ruby-saddler"
-    comment: "Integrate any lint, security checker and tools with anywhere (e.g. GitHub Pull Request Review Comment)."
-    tags:
-      - rb
-
-  - title: "Textures.js"
-    url: "http://riccardoscalco.github.io/textures/"
-    comment: "SVG patterns for Data Visualization."
+  - title: "Circulus.svg"
+    url: "http://sarasoueidan.com/tools/circulus/"
+    comment: "Circulus.svg is a circular menu generator, that lets you generate an SVG menu. It offers two different styles, with full or half circles, and various options for styling."
     tags:
       - css3
 
-  - title: "Sanitize.css"
-    url: "https://github.com/jonathantneal/sanitize.css"
-    comment: "Render elements consistently. Style with best practices."
+  - title: "PageSpeed Insights"
+    url: "https://developers.google.com/speed/pagespeed/insights/"
+    comment: "Google has indicated that sites with faster performance do better in search results. Just recently, they started testing a “Slow” warning tag for heavy sites in search results."
     tags:
-      - css3
+      - web
 
-  - title: "Reapp"
-    url: "http://reapp.io/"
-    comment: "Build mobile apps with React and JavaScript."
+  - title: "Artoo - Ruby on Robobts"
+    url: "http://artoo.io/"
+    comment: "Next generation robotics framework in Ruby with support for 15 different platforms."
     tags:
-      - js
-
-  - title: "Type.js"
-    url: "http://typejs.org/"
-    comment: "New CSS properties to take finer typographic control of type styles on the web."
-    tags:
-      - js
-
-  - title: "Logdown"
-    url: "https://github.com/caiogondim/logdown"
-    comment: "Debug utility with markdown support that runs on browser and server."
-    tags:
-      - tool
-
-  - title: "ES stats"
-    url: "https://github.com/jamiealquiza/es-stats"
-    comment: "ElasticSearch cluster metrics to Graphite."
-    tags:
-      - ops
-
+      - rb
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: "Reading Rails - Time Travel"
-    url: "http://www.monkeyandcrow.com/blog/reading_rails_time_travel/"
-    comment: "In Rails 4.1, travel and travel_to helpers were introduced."
-    pubdate: mar 15
+  - title: "Toward a Better Markdown Tutorial"
+    url: "http://blog.codinghorror.com/toward-a-better-markdown-tutorial/"
+    comment: "It is surprising when technical people say they don't know Markdown. Do you not use GitHub? Stack Overflow? Reddit?"
+    pubdate: mar 28
+    tags:
+      - web
+
+  - title: "Devise Authentication in Depth"
+    url: "http://www.sitepoint.com/devise-authentication-in-depth/"
+    comment: "Devise comes with a handful of modules, allowing you to choose only the required ones. There is a module to support password recovery, e-mail confirmation, account lock out, and many others."
+    pubdate: mar 26
     tags:
       - rb
 
-  - title: "How Does Symbol#to_proc Work?"
-    url: "http://benjamintan.io/blog/2015/03/16/how-does-symbol-to_proc-work/"
-    comment: "One of the finest examples of the flexibility and beauty of Ruby."
-    pubdate: mar 16
-    tags:
-      - rb
-
-  - title: "Internationalization of AngularJS Applications"
-    url: "https://scotch.io/tutorials/internationalization-of-angularjs-applications"
-    comment: "Using Yeoman AngularJS generator, asynchronous translate."
-    pubdate: mar 16
+  - title: "Building a Custom Right-Click (Context) Menu with JavaScript"
+    url: "http://www.sitepoint.com/building-custom-right-click-context-menu-javascript/"
+    comment: "A context menu is a menu in a GUI that appears upon user interaction, such as a right-click mouse operation."
+    pubdate: mar 25
     tags:
       - js
 
-  - title: "Strategies for Staying on Top of Web Performance"
-    url: "https://css-tricks.com/strategies-for-staying-on-top-of-web-performance/"
-    comment: "Various tricks to put performance on the first line."
-    pubdate: mar 16
+  - title: "Toolkit: A Front-End Framework for the Modern Web"
+    url: "http://www.sitepoint.com/toolkit-front-end-framework-modern-web/"
+    comment: "Toolkit is a front-end framework that provides a collection of powerful state-based, role-specific user interface components and utility classes for the responsive, mobile, and modern web."
+    pubdate: mar 24
     tags:
-      - html5
+      - web
 
-  - title: "How to Get Started with learning ES6"
-    url: "https://www.codementor.io/javascript/tutorial/learn-ecmascript6"
-    comment: "An exclusive guide for starting ES6 in production."
-    pubdate: mar 17
+  - title: "Choose a Random Option based on a Range"
+    url: "https://css-tricks.com/choose-an-random-option-based-on-a-range/"
+    comment: "Random, but not equally random."
+    pubdate: mar 26
     tags:
       - js
 
-  - title: "How Rails Sessions Work"
-    url: "http://www.justinweiss.com/blog/2015/03/17/how-rails-sessions-work/"
-    comment: "A session is just a place to store data during one request that you can read during later requests."
-    pubdate: mar 17
+  - title: "Numeric Inputs – A Comparison of Browser Defaults"
+    url: "https://css-tricks.com/numeric-inputs-a-comparison-of-browser-defaults/"
+    comment: "In this article we're looking specifically at how browsers handles <input type='number'>"
+    pubdate: mar 25
     tags:
-      - rb
+      - js
 
-  - title: "Left Half and Right Half Layout"
-    url: "https://css-tricks.com/left-and-right/"
-    comment: "Spliting layouts using different techniques in CSS."
-    pubdate: mar 18
+  - title: "Build a Time Tracker with Laravel 5 and AngularJS – Part 1"
+    url: "https://scotch.io/tutorials/build-a-time-tracker-with-laravel-5-and-angularjs-part-1"
+    comment: "Laravel and AngularJS work great together, but it can be a little tricky to get going at first, especially if you are new to the frameworks."
+    pubdate: mar 26
+    tags:
+      - web
+
+  - title: "Aesthetic Sass 1: Architecture and Style Organization"
+    url: "https://scotch.io/tutorials/aesthetic-sass-1-architecture-and-style-organization"
+    comment: "Sass is a very powerful extension language for CSS that gives you the ability to improve the organization of both stylesheet files and styles within these stylesheets."
+    pubdate: mar 24
     tags:
       - css3
 
-  - title: "Probably Use initial-scale=1"
-    url: "https://css-tricks.com/probably-use-initial-scale1/"
-    comment: "When doing responsive design. Use initial zoom to prevent undesired zooming behavior when device orientation changes."
-    pubdate: mar 18
+  - title: "Aesthetic Sass 1: Architecture and Style Organization"
+    url: "https://scotch.io/tutorials/only-grab-the-files-you-need-while-using-bower"
+    comment: "Bower is an amazing tool to bring some sanity to the multitudes of frontend packages that can be used in your application."
+    pubdate: mar 23
     tags:
       - css3
-  
-  - title: "How to build React apps that load quickly using server side rendering"
-    url: "http://www.terlici.com/2015/03/18/fast-react-loading-server-rendering.html"
-    comment: "Benefits of server-side rendering in react apps."
-    pubdate: mar 18
-    tags:
-      - js
-    
-  - title: "S.O.L.I.D: The First 5 Principles of Object Oriented Design"
-    url: "https://scotch.io/bar-talk/s-o-l-i-d-the-first-five-principles-of-object-oriented-design"
-    comment: "SOLID is an acronym for the first five object-oriented design (OOD) principle by Uncle Bob."
-    pubdate: mar 18
-    tags:
-      - tool
-  
-  - title: "Tail Call Optimization in Ruby"
-    url: "http://milhouseonsoftware.com/2015/02/18/tco-in-ruby/"
-    comment: "Ruby actually has support for TCO, but it's not enabled by default."
-    pubdate: mar 18
-    tags:
-      - rb
-  
-  - title: "Make a Mobile App with ReactJS in 30 Minutes"
-    url: "https://scotch.io/tutorials/make-a-mobile-app-with-reactjs-in-30-minutes"
-    comment: "Reapp s a mobile app platform on React. Here is a small example of how to use it."
-    pubdate: mar 19
-    tags:
-      - js
 
-  - title: "Speed Up Rails Asset Pipeline"
-    url: "http://bikegriffith.tumblr.com/post/114046430847/speed-up-rails-asset-pipeline"
-    comment: "Write a custom compressor."
-    pubdate: mar 19
+  - title: "Playing with Constants, Methods, and Superclasses"
+    url: "http://weblog.jamisbuck.org/2015/3/24/playing-with-constants-methods-and-superclasses.html"
+    comment: "Did you know that you can have a constant and a method with the exact same name, and they won’t collide?"
+    pubdate: mar 24
     tags:
       - rb
 
-  - title: "Scrolling Through Large Files"
-    url: "http://www.sitepoint.com/ruby-medicine-scrolling-large-files/"
-    comment: "Navigate through large text files with Ruby."
-    pubdate: mar 19
+  - title: "Upcoming changes in Rails 5.0"
+    url: "https://intercityup.com/blog/upcoming-changes-in-rails-5-0.html"
+    comment: "Changes that are confirmed to be in the new version."
     tags:
       - rb
 
-  - title: "Understanding Rack Apps and Middleware"
-    url: "https://blog.engineyard.com/2015/understanding-rack-apps-and-middleware"
-    comment: "An in-depth look at Rack."
-    pubdate: mar 19
+  - title: "Rails 4.2.1 and 4.1.10 have been released!"
+    url: "http://weblog.rubyonrails.org/2015/3/19/Rails-4-2-1-and-4-1-10-have-been-released"
+    comment: "After four release candidates the final versions for Rails 4.2.1 and 4.1.10 have been released."
     tags:
       - rb
 
-  - title: "Can We Do Better Than The Click?"
-    url: "http://www.smashingmagazine.com/2015/03/20/better-browser-input-events/"
-    comment: ".. by understanding the event cascade."
-    pubdate: mar 20
+  - title: "How to write a template engine in less than 30 lines of code"
+    url: "http://bits.citrusbyte.com/how-to-write-a-template-library"
+    comment: "Template engines are tools that generate text (strings) from templates and help separate presentation from application logic."
     tags:
-      - js 
+      - rb
 
+  - title: "Using Docker to parallelize Rails tests"
+    url: "http://blog.codeship.com/using-docker-to-parallelize-rails-tests"
+    comment: "Using docker provides excellent encapsulation to allow for parallelization of rails test suites."
+    tags:
+      - rb
 
 - title: Watch
   baseline: "Screencasts and conferences videos, or other video feeds ..."
   links:
-
-  - title: "Ruby on Ales 2015"
-    url: "http://confreaks.tv/events/roa2015"
-    comment: "Only first 2 are available yet but it should fill up quickly."
-    duration: 14 videos
-    pubdate: mar 17
-    tags:
-      - rb
-
-  - title: "Gorails 47"
-    url: "https://gorails.com/episodes/multitenancy-with-apartment"
-    comment: "Multitenancy with the Apartment gem."
-    duration: 23m
-    pubdate: mar 20
-    tags:
-      - rb
