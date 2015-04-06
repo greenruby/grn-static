@@ -1,0 +1,186 @@
+---
+edition: "113"
+pubdate: "apr 5th 2015"
+editors: "xenor"
+rant: 
+  "#### Multiple inheritance simulation
+
+
+This is a bit twisted. In ruby, as you know, you cannot use multiple inheritance. But the flexibility of the language, especially the metaprogramming aspect, opens the door for some cheating. Check out [this code][inheritance], it tricks it by declaring the first class as the super class and the remaining classes as modules included in that super class. Pretty acrobatic and elegant, imho.
+
+
+#### About vaping
+
+
+Well this has been my burden for 30 years, and I'm not proud of it. But last week it finally ended. I quit smoking. But this was kindof a trick, as it was made possible by switching to [vaping][vaping]. It certainly doesn't solve the nicotine addiction issue, but I'm very happy with this move and hopeful for a gradual freedom.
+
+I also found out that this vaping practice is very geeky. The hardware part is quite elaborate, vaping devices are really neat piece of work, there are a bunch of vendors. The liquidware is also quite a subject of hacking. Technically it's not that hard to do it yourself. Not surprising that I discovered this vaping practice in geeks circles.
+
+
+
+[vaping]: http://gizmodo.com/5-facts-that-everyone-gets-wrong-about-vaping-1659938937
+
+[inheritance]: https://gist.github.com/capitalist/473543b7ea24d461d030
+
+"
+
+topics:
+
+- title: Look
+  baseline:
+    "Examples of UI/UX, graphic performance, web design and flashy things."
+  links:
+
+  - title: "Bindfilm"
+    url: "http://www.bindfilm.nl/"
+    comment: "It's all in dutch but the visual work speaks for itself."
+    tags:
+      - design
+
+
+- title: Use
+  baseline:
+    "Web applications, resources and tools, available for making our life easier or funnier."
+  links:
+
+  - title: "Rails Play"
+    url: "http://nicoschuele.github.io/railsplay/"
+    comment: "A playground to experiment with Rails quickly and easily."
+    tags:
+      - rb
+
+  - title: "Ruby Performance Optimization"
+    url: "http://www.alexdymo.com/blog/2015/04/ruby-performance-optimization-book-beta.html"
+    comment: "(book) beta release."
+    tags:
+      - rb
+
+  - title: "Primer"
+    url: "http://primercss.io/"
+    comment: "The CSS toolkit and guidelines that power GitHub."
+    tags:
+      - css3
+
+- title: Install
+  baseline: "A selection of gems or applications updated during past week."
+  links:
+
+  - title: "Crystal"
+    url: "http://crystal-lang.org/"
+    comment: "A compiled language with a Ruby-flavored syntax."
+    tags:
+      - rb
+
+  - title: "Eldr"
+    url: "https://github.com/eldr-rb/eldr"
+    comment: "A minimal Ruby framework only on top of rack."
+    tags:
+      - rb
+
+  - title: "ToNil"
+    url: "https://github.com/mrThe/to_nil"
+    comment: "Cast everything to nil."
+    tags:
+      - rb
+
+  - title: "Irb tgools"
+    url: "http://irb.tools/"
+    comment: "Improvements for ruby irb."
+    tags:
+      - rb
+
+  - title: "Citadel"
+    url: "http://citadeltoolkit.org/"
+    comment: "Toolkit for scheduling containers on a Docker cluster."
+    tags:
+      - ops
+
+  - title: "FnordMetric"
+    url: "http://fnordmetric.io/"
+    comment: "Write SQL queries that return SVG charts rather than tables."
+    tags:
+      - ops
+
+  - title: "shpec"
+    url: "https://github.com/rylnd/shpec"
+    comment: "Test your shell scripts."
+    tags:
+      - ops
+
+  - title: "React Native"
+    url: "http://facebook.github.io/react-native/"
+    comment: "A framewwork for building native apps using react."
+    tags:
+      - mobile
+
+- title: Read
+  baseline: "From the blogosphere or news feeds ..."
+  links:
+
+  - title: "On Ruby"
+    url: "http://hawkins.io/2015/03/on-ruby/"
+    comment: "Gain code confidence by select good libraries"
+    pubdate: mar 30
+    tags:
+      - rb
+
+  - title: "Rails 4 Awesome enums"
+    url: "http://6ftdan.com/allyourdev/2015/03/31/rails-4s-awesome-enums/"
+    comment: "Introducing Rails 4 enum method"
+    pubdate: mar 31
+    tags:
+      - rb
+
+  - title: "Know Ruby: Enumerable grep"
+    url: "http://aaronlasseigne.com/2015/04/01/know-ruby-enumerable-grep/"
+    comment: "Another convenient method for fetching elements in collection."
+    pubdate: apr 1
+    tags:
+      - rb
+
+  - title: "Ways to Optimize Jenkins"
+    url: "http://www.sitepoint.com/7-ways-optimize-jenkins/"
+    comment: "Seven ways to make sure you use Jenkins efficiently."
+    pubdate: apr 1
+    tags:
+      - tool
+
+  - title: "Ruby Metaprogramming - Creating Methods"
+    url: "http://aaronlasseigne.com/2015/04/01/know-ruby-enumerable-grep/"
+    comment: "Use metaprogramming to avoid writing repetitive code."
+    pubdate: apr 2
+    tags:
+      - rb
+
+  - title: "The Rise of Unikernels"
+    url: "http://devops.com/blogs/one-secure-os-for-the-cloud-the-rise-of-unikernels/"
+    comment: "How Unikernels Deliver Better Security."
+    pubdate: apr 2
+    tags:
+      - ops
+
+  - title: "Starting a Refactor with CSS Dig"
+    url: "https://css-tricks.com/starting-a-refactor-with-css-dig/"
+    comment: "CSS dig is an open source Chrome Extension for analyzing CSS."
+    pubdate: apr 3
+    tags:
+      - css3
+
+  - title: "Testing react component with jest"
+    url: "http://racingtadpole.com/blog/test-react-with-jest/"
+    comment: "Jest makes a bold claim to be 'Painless Javascript Unit Testing'."
+    pubdate: apr 3
+    tags:
+      - js
+
+- title: Watch
+  baseline: "Screencasts and conferences videos, or other video feeds ..."
+  links:
+
+  - title: "Gorails 49"
+    url: "https://gorails.com/episodes/newsletter-sign-up"
+    comment: "Newsletter Sign Up Form with country_select"
+    duration: 19m
+    pubdate: apr 4
+    tags:
+      - rb

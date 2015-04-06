@@ -1,0 +1,164 @@
+----------------------------------------------------
+Green Ruby News #113 - apr 5th 2015
+----------------------------------------------------
+*|IFNOT:CONTENT=Only Rant|*
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+*Bindfilm* (design)
+http://www.bindfilm.nl/
+It's all in dutch but the visual work speaks for itself.
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+*Rails Play* (rb)
+http://nicoschuele.github.io/railsplay/
+A playground to experiment with Rails quickly and easily.
+
+*Ruby Performance Optimization* (rb)
+http://www.alexdymo.com/blog/2015/04/ruby-performance-optimization-book-beta.html
+(book) beta release.
+
+*Primer* (css3)
+http://primercss.io/
+The CSS toolkit and guidelines that power GitHub.
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+*Crystal* (rb)
+http://crystal-lang.org/
+A compiled language with a Ruby-flavored syntax.
+
+*Eldr* (rb)
+https://github.com/eldr-rb/eldr
+A minimal Ruby framework only on top of rack.
+
+*ToNil* (rb)
+https://github.com/mrThe/to_nil
+Cast everything to nil.
+
+*Irb tgools* (rb)
+http://irb.tools/
+Improvements for ruby irb.
+
+*Citadel* (ops)
+http://citadeltoolkit.org/
+Toolkit for scheduling containers on a Docker cluster.
+
+*FnordMetric* (ops)
+http://fnordmetric.io/
+Write SQL queries that return SVG charts rather than tables.
+
+*shpec* (ops)
+https://github.com/rylnd/shpec
+Test your shell scripts.
+
+*React Native* (mobile)
+http://facebook.github.io/react-native/
+A framewwork for building native apps using react.
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+*On Ruby* (rb - mar 30)
+http://hawkins.io/2015/03/on-ruby/
+Gain code confidence by select good libraries
+
+*Rails 4 Awesome enums* (rb - mar 31)
+http://6ftdan.com/allyourdev/2015/03/31/rails-4s-awesome-enums/
+Introducing Rails 4 enum method
+
+*Know Ruby: Enumerable grep* (rb - apr 1)
+http://aaronlasseigne.com/2015/04/01/know-ruby-enumerable-grep/
+Another convenient method for fetching elements in collection.
+
+*Ways to Optimize Jenkins* (tool - apr 1)
+http://www.sitepoint.com/7-ways-optimize-jenkins/
+Seven ways to make sure you use Jenkins efficiently.
+
+*Ruby Metaprogramming - Creating Methods* (rb - apr 2)
+http://aaronlasseigne.com/2015/04/01/know-ruby-enumerable-grep/
+Use metaprogramming to avoid writing repetitive code.
+
+*The Rise of Unikernels* (ops - apr 2)
+http://devops.com/blogs/one-secure-os-for-the-cloud-the-rise-of-unikernels/
+How Unikernels Deliver Better Security.
+
+*Starting a Refactor with CSS Dig* (css3 - apr 3)
+https://css-tricks.com/starting-a-refactor-with-css-dig/
+CSS dig is an open source Chrome Extension for analyzing CSS.
+
+*Testing react component with jest* (js - apr 3)
+http://racingtadpole.com/blog/test-react-with-jest/
+Jest makes a bold claim to be 'Painless Javascript Unit Testing'.
+
+Watch
+----------------------------------------------------
+Screencasts and conferences videos, or other video feeds ...
+
+*Gorails 49* (rb - apr 4 - 19m)
+https://gorails.com/episodes/newsletter-sign-up
+Newsletter Sign Up Form with country_select
+
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+Links curated by by mose (publisher), xenor (editors).
+*|END:IF|*
+*|IFNOT:CONTENT=Only Links|*
+
+Rant
+----------------------------------------------------
+The random rant of the week by mose.
+
+#### Multiple inheritance simulation
+
+This is a bit twisted. In ruby, as you know, you cannot use multiple
+inheritance. But the flexibility of the language, especially the
+metaprogramming aspect, opens the door for some cheating. Check out [this
+code][inheritance], it tricks it by declaring the first class as the super
+class and the remaining classes as modules included in that super class.
+Pretty acrobatic and elegant, imho.
+
+#### About vaping
+
+Well this has been my burden for 30 years, and I'm not proud of it. But last
+week it finally ended. I quit smoking. But this was kindof a trick, as it was
+made possible by switching to [vaping][vaping]. It certainly doesn't solve the
+nicotine addiction issue, but I'm very happy with this move and hopeful for a
+gradual freedom.
+I also found out that this vaping practice is very geeky. The hardware part is
+quite elaborate, vaping devices are really neat piece of work, there are a
+bunch of vendors. The liquidware is also quite a subject of hacking.
+Technically it's not that hard to do it yourself. Not surprising that I
+discovered this vaping practice in geeks circles.
+
+[vaping]:
+http://gizmodo.com/5-facts-that-everyone-gets-wrong-about-vaping-1659938937
+[inheritance]: https://gist.github.com/capitalist/473543b7ea24d461d030
+
+*|END:IF|*
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+
