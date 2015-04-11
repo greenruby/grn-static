@@ -38,33 +38,78 @@ topics:
   links:
 
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "Isabella"
+    url: "https://github.com/chrisvfritz/isabella"
+    comment: "A voice-computing assistant built in Ruby."
     tags:
       - rb
 
+  - title: "garfio"
+    url: "https://github.com/TheBlasfem/garfio"
+    comment: "A small yet neat lib for adding callbacks to methods"
+    tags:
+      - rb
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
-    pubdate: mar 23
+  - title: "Ruby’s Partition for Enumerables"
+    url: "http://tosbourn.com/ruby-partition-enumerable/"
+    comment: "Less known Enum method which splits collecction to 2 by match/unmatch condition."
+    pubdate: apr 8
     tags:
       - rb
 
+  - title: "Why is Rubygems slow?"
+    url: "http://www.sitepoint.com/rubygems-slow/"
+    comment: "A deep walk through of how Rubygems works."
+    pubdate: apr 9
+    tags:
+      - rb
 
+  - title: "How to Debug Ruby Performance Problems in Production"
+    url: "http://www.justinweiss.com/blog/2015/04/06/how-to-debug-ruby-performance-problems-in-production/"
+    comment: "Use rbtrace like strace and debug your ruby/rails code."
+    pubdate: apr 6
+    tags:
+      - rb
+
+  - title: "Ruby Metaprogramming - Method Missing"
+    url: "http://www.leighhalliday.com/ruby-metaprogramming-method-missing"
+    comment: "Use method_missing in metaprogramming."
+    pubdate: apr 8
+    tags:
+      - rb
+
+  - title: "WebSockets in Rails 4"
+    url: "http://blog.codeship.com/websockets-in-rails-4/"
+    comment: "Implement websockets by cuncurrency and rack hijack."
+    pubdate: apr 9
+    tags:
+      - rb
+
+  - title: "Template Method Pattern in Ruby"
+    url: "http://rubylogs.com/template-method-pattern-in-ruby/"
+    comment: "Implement template method pattern in ruby."
+    pubdate: apr 6
+    tags:
+      - rb
+
+  - title: "How to build a parser with Ruby"
+    url: "http://www.blackbytes.info/2015/04/parsing-with-ruby/"
+    comment: "Build a parser by ruby StringScanner class."
+    pubdate: apr 7
+    tags:
+      - rb
 - title: Watch
   baseline: "Screencasts and conferences videos, or other video feeds ..."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
-    duration: 
-    pubdate: mar 23
+  - title: "BathRuby 2015"
+    url: "http://confreaks.tv/events/bathruby2015"
+    comment: "All talks in BathRuby Conference 2015"
+    duration:
+    pubdate: apr 10
     tags:
       - rb
