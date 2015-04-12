@@ -1,6 +1,6 @@
 ---
-edition: "114"
-pubdate: "apr 12th 2015"
+edition: "115"
+pubdate: "apr 19th 2015"
 editors: "xenor, tysliu"
 rant: 
   "
@@ -25,38 +25,21 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: "3D Bold Navigation"
-    url: "http://codyhouse.co/gem/3d-bold-navigation/"
-    comment: "A bold navigation that slides in when active, replacing the current content in a 3D space."
-    tags:
-      - js
-
-  - title: "Eldr"
-    url: "https://github.com/eldr-rb/eldr"
-    comment: "Eldr is a ruby framework without all the magic."
+  - title: ""
+    url: ""
+    comment: ""
     tags:
       - rb
 
-  - title: "waitMe"
-    url: "http://vadimsva.github.io/waitMe/"
-    comment: "Simple to use jQuery plugin for easy creating content loading animations."
-    tags:
-      - js
 
 - title: Install
   baseline: "A selection of gems or applications updated during past week."
   links:
 
 
-  - title: "Isabella"
-    url: "https://github.com/chrisvfritz/isabella"
-    comment: "A voice-computing assistant built in Ruby."
-    tags:
-      - rb
-
-  - title: "garfio"
-    url: "https://github.com/TheBlasfem/garfio"
-    comment: "A small yet neat lib for adding callbacks to methods"
+  - title: ""
+    url: ""
+    comment: ""
     tags:
       - rb
 
@@ -64,119 +47,23 @@ topics:
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: "Ruby’s Partition for Enumerables"
-    url: "http://tosbourn.com/ruby-partition-enumerable/"
-    comment: "Less known Enum method which splits collecction to 2 by match/unmatch condition."
-    pubdate: apr 8
+  - title: ""
+    url: ""
+    comment: ""
+    pubdate:
     tags:
       - rb
 
-  - title: "Why is Rubygems slow?"
-    url: "http://www.sitepoint.com/rubygems-slow/"
-    comment: "A deep walk through of how Rubygems works."
-    pubdate: apr 9
-    tags:
-      - rb
 
-  - title: "How to Debug Ruby Performance Problems in Production"
-    url: "http://www.justinweiss.com/blog/2015/04/06/how-to-debug-ruby-performance-problems-in-production/"
-    comment: "Use rbtrace like strace and debug your ruby/rails code."
-    pubdate: apr 6
-    tags:
-      - rb
-
-  - title: "Ruby Metaprogramming - Method Missing"
-    url: "http://www.leighhalliday.com/ruby-metaprogramming-method-missing"
-    comment: "Use method_missing in metaprogramming."
-    pubdate: apr 8
-    tags:
-      - rb
-
-  - title: "WebSockets in Rails 4"
-    url: "http://blog.codeship.com/websockets-in-rails-4/"
-    comment: "Implement websockets by cuncurrency and rack hijack."
-    pubdate: apr 9
-    tags:
-      - rb
-
-  - title: "Template Method Pattern in Ruby"
-    url: "http://rubylogs.com/template-method-pattern-in-ruby/"
-    comment: "Implement template method pattern in ruby."
-    pubdate: apr 6
-    tags:
-      - rb
-
-  - title: "How to build a parser with Ruby"
-    url: "http://www.blackbytes.info/2015/04/parsing-with-ruby/"
-    comment: "Build a parser by ruby StringScanner class."
-    pubdate: apr 7
-    tags:
-      - rb
-
-  - title: "Introduction to R and RStudio"
-    url: "http://www.sitepoint.com/introduction-r-rstudio/"
-    comment: "R is a language built solely for statistical computing."
-    pubdate: apr 11
-    tags:
-      - web
-
-  - title: "Accelerate Your JavaScript Development with CoffeeScript"
-    url: "http://www.sitepoint.com/accelerate-javascript-development-coffeescript/"
-    comment: "CoffeeScript is a tiny language which compiles into JavaScript. "
-    pubdate: apr 10
-    tags:
-      - js
-
-  - title: "Add a Timeline to Your Website with Google Charts"
-    url: "http://www.sitepoint.com/add-timeline-website-google-charts/"
-    comment: "how to use Google Charts to add professional looking timelines to your web pages."
-    pubdate: apr 9
-    tags:
-      - web
-
-  - title: "Build a Node.js-powered Chatroom Web App: Connecting with WebSockets"
-    url: "http://www.sitepoint.com/build-node-js-powered-chatroom-web-app-connecting-websockets/"
-    comment: "This Node.js tutorial series will help you build a Node.js-powered real-time chatroom web app fully deployed in the cloud."
-    pubdate: apr 9
-    tags:
-      - js
-
-  - title: "How Do You Keep Up?"
-    url: "http://www.sitepoint.com/how-do-you-keep-up/"
-    comment: "Ways to keep up with the insane number of dev-related things coming out each day."
-    pubdate: apr 9
-    tags:
-      - web
-
-  - title: "How to Code HTML Email Newsletters"
-    url: "http://www.sitepoint.com/how-to-code-html-email-newsletters/"
-    comment: "the task of creating an HTML email that will display consistently appears both simple and horribly complex."
-    pubdate: apr 8
-    tags:
-      - web
-
-  - title: "How to Create a Chrome Extension in 10 Minutes Flat"
-    url: "http://www.sitepoint.com/create-chrome-extension-10-minutes-flat/"
-    comment: "Creating a Chrome extension is easier than you think."
-    pubdate: apr 8
-    tags:
-      - web
-
-  - title: "Hunting Down Asteroids with Machine Learning and a World of Programmers"
-    url: "http://thenewstack.io/hunting-down-asteroids-with-machine-learning-and-a-world-of-programmers/"
-    comment: "Winner of a NASA competition achieved 15 percent improvement from the current method of identifying asteroids that orbit between Mars and Jupiter."
-    pubdate: apr 11
-    tags:
-      - web
 
 - title: Watch
   baseline: "Screencasts and conferences videos, or other video feeds ..."
   links:
 
-  - title: "BathRuby 2015"
-    url: "http://confreaks.tv/events/bathruby2015"
-    comment: "All talks in BathRuby Conference 2015"
-    duration:
-    pubdate: apr 10
+  - title: ""
+    url: ""
+    comment: ""
+    pubdate:
+    duration: 
     tags:
       - rb
