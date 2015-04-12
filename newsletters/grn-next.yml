@@ -25,13 +25,23 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
+  - title: "3D Bold Navigation"
+    url: "http://codyhouse.co/gem/3d-bold-navigation/"
+    comment: "A bold navigation that slides in when active, replacing the current content in a 3D space."
+    tags:
+      - js
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "Eldr"
+    url: "https://github.com/eldr-rb/eldr"
+    comment: "Eldr is a ruby framework without all the magic."
     tags:
       - rb
 
+  - title: "waitMe"
+    url: "http://vadimsva.github.io/waitMe/"
+    comment: "Simple to use jQuery plugin for easy creating content loading animations."
+    tags:
+      - js
 
 - title: Install
   baseline: "A selection of gems or applications updated during past week."
@@ -102,6 +112,70 @@ topics:
     pubdate: apr 7
     tags:
       - rb
+
+  - title: "Introduction to R and RStudio"
+    url: "http://www.sitepoint.com/introduction-r-rstudio/"
+    comment: "R is a language built solely for statistical computing."
+    pubdate: apr 11
+    tags:
+      - web
+
+  - title: "Accelerate Your JavaScript Development with CoffeeScript"
+    url: "http://www.sitepoint.com/accelerate-javascript-development-coffeescript/"
+    comment: "CoffeeScript is a tiny language which compiles into JavaScript. "
+    pubdate: apr 10
+    tags:
+      - js
+
+  - title: "Add a Timeline to Your Website with Google Charts"
+    url: "http://www.sitepoint.com/add-timeline-website-google-charts/"
+    comment: "how to use Google Charts to add professional looking timelines to your web pages."
+    pubdate: apr 9
+    tags:
+      - web
+
+  - title: "Build a Node.js-powered Chatroom Web App: Connecting with WebSockets"
+    url: "http://www.sitepoint.com/build-node-js-powered-chatroom-web-app-connecting-websockets/"
+    comment: "This Node.js tutorial series will help you build a Node.js-powered real-time chatroom web app fully deployed in the cloud."
+    pubdate: apr 9
+    tags:
+      - js
+
+  - title: "How Do You Keep Up?"
+    url: "http://www.sitepoint.com/how-do-you-keep-up/"
+    comment: "Ways to keep up with the insane number of dev-related things coming out each day."
+    pubdate: apr 9
+    tags:
+      - web
+
+  - title: "How to Code HTML Email Newsletters"
+    url: "http://www.sitepoint.com/how-to-code-html-email-newsletters/"
+    comment: "the task of creating an HTML email that will display consistently appears both simple and horribly complex."
+    pubdate: apr 8
+    tags:
+      - web
+
+  - title: "How to Create a Chrome Extension in 10 Minutes Flat"
+    url: "http://www.sitepoint.com/create-chrome-extension-10-minutes-flat/"
+    comment: "Creating a Chrome extension is easier than you think."
+    pubdate: apr 8
+    tags:
+      - web
+
+  - title: "Hunting Down Asteroids with Machine Learning and a World of Programmers"
+    url: "http://thenewstack.io/hunting-down-asteroids-with-machine-learning-and-a-world-of-programmers/"
+    comment: "Winner of a NASA competition achieved 15 percent improvement from the current method of identifying asteroids that orbit between Mars and Jupiter."
+    pubdate: apr 11
+    tags:
+      - web
+
+  - title: "Run Gulp Tasks in Laravel Easily with Elixir"
+    url: "https://scotch.io/tutorials/run-gulp-tasks-in-laravel-easily-with-elixir"
+    comment: ""
+    pubdate: apr 9
+    tags:
+      - web
+
 - title: Watch
   baseline: "Screencasts and conferences videos, or other video feeds ..."
   links:
