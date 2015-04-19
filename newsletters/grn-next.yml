@@ -25,11 +25,17 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "30 CSS Page Preload Animations"
+    url: "http://simbyone.com/css-page-preload-animations/"
+    comment: "The animations are very easy to customize since they are made out of just CSS."
     tags:
-      - rb
+      - css3
+
+  - title: "Ghostlab"
+    url: "http://vanamco.com/ghostlab/"
+    comment: "Debug CSS and Javascript cross multiple devices."
+    tags:
+      - Web
 
 
 - title: Install
@@ -47,23 +53,98 @@ topics:
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
-    pubdate:
+  - title: "Ruby 2.2.2 Released"
+    url: "https://www.ruby-lang.org/en/news/2015/04/13/ruby-2-2-2-released"
+    comment: "This release includes the security fix for a OpenSSL extension’s hostname verification vulnerability."
+    pubdate: apr 13
     tags:
       - rb
 
+  - title: "Cut and Copy Commands"
+    url: "http://updates.html5rocks.com/2015/04/cut-and-copy-commands"
+    comment: "IE10+ and Chrom 43+ now support cut and copy commands."
+    pubdate: apr 15
+    tags:
+      - web
 
+  - title: "Savon"
+    url: "http://www.leighhalliday.com/savon-soap-doesnt-leave-you-feeling-dirty"
+    comment: "SOAP that doesn't leave you feeling dirty."
+    pubdate: apr 17
+    tags:
+      - web
+
+  - title: "Thinking Outside the DOM: Composed Validators and Data Collection"
+    url: "http://www.sitepoint.com/thinking-outside-dom-composed-validators-data-collection/"
+    comment: "Validate several parts of the email address separately and provide a targeted email validation error."
+    pubdate: apr 16
+    tags:
+      - js
+
+  - title: "Responsive Data Tables"
+    url: "http://www.sitepoint.com/responsive-data-tables-comprehensive-list-solutions/"
+    comment: "Since the adoption of responsive web design, various approaches have been developed for establishing tables that can scale well in different viewport sizes."
+    pubdate: apr 16
+    tags:
+      - css3
+
+  - title: "Sass Theming with Configuration Files"
+    url: "http://www.sitepoint.com/sass-theming-withconfiguration-files/"
+    comment: "Managing multiple websites based on the same CSS codebase."
+    pubdate: apr 16
+    tags:
+      - css3
+
+  - title: "RethinkDB in Ruby: Map Reduce and Joins"
+    url: "http://www.sitepoint.com/rethinkdb-ruby-map-reduce-joins/"
+    comment: "Take a look at some of the features in RethinkDB."
+    pubdate: apr 16
+    tags:
+      - rb
+
+  - title: "Introduction to inuitcss: A Different Kind of CSS Framework"
+    url: "http://www.sitepoint.com/introduction-inuitcss-different-kind-css-framework/"
+    comment: "Instead of including a bunch of modules that we will never use, inuitCSS lets us piece together our own architecture."
+    pubdate: apr 15
+    tags:
+      - css3
+
+  - title: "HTML vs Body in CSS"
+    url: "https://css-tricks.com/html-vs-body-in-css/"
+    comment: "The difference between <html> and <body> is easy to overlook."
+    pubdate: apr 17
+    tags:
+      - css3
+
+  - title: "More Control over Text Decoration"
+    url: "https://css-tricks.com/more-control-over-text-decoration/"
+    comment: "text-decoration: you may not be aware that there is more you can do with this property, as well as various sub-properties offering more fine-grained control."
+    pubdate: apr 14
+    tags:
+      - css3
+
+  - title: "Exploring new methods in Ruby 2.2.0"
+    url: "http://rubylogs.com/exploring-new-methods-in-ruby-two-point-two"
+    comment: "Ruby 2.2.0 introduced couple of new methods to the Enumerable module, Float, File and String classes."
+    pubdate: apr 15
+    tags:
+      - rb
+
+  - title: "Unexpected: The New Minitest::Spec Syntax"
+    url: "http://chriskottom.com/blog/2015/04/unexpected-the-new-minitest-spec-syntax"
+    comment: "A lot of of developers got started with Minitest during the past few years because of Minitest::Spec."
+    pubdate: apr 14
+    tags:
+      - rb
 
 - title: Watch
   baseline: "Screencasts and conferences videos, or other video feeds ..."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
-    pubdate:
-    duration: 
+  - title: "How To Write 'Macros' in Ruby"
+    url: "https://pragmaticstudio.com/blog/2015/4/14/ruby-macros"
+    comment: "In this short video tutorial we recreate a simplified version of the has_many declaration from scratch so you understand how to apply this same powerful technique in your own Ruby code!"
+    pubdate: apr 14
+    duration: 15m
     tags:
       - rb
