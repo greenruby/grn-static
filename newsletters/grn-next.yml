@@ -37,11 +37,23 @@ topics:
     tags:
       - Web
 
+  - title: "Lastbackend"
+    url: "http://lastbackend.com/"
+    comment: "Visual interface to create stacks adn deployments."
+    tags:
+      - ops
+
 
 - title: Install
   baseline: "A selection of gems or applications updated during past week."
   links:
 
+  - title: "Ruby 2.2.2 Released"
+    url: "https://www.ruby-lang.org/en/news/2015/04/13/ruby-2-2-2-released"
+    comment: "This release includes the security fix for a OpenSSL extension’s hostname verification vulnerability."
+    pubdate: apr 13
+    tags:
+      - rb
 
   - title: ""
     url: ""
@@ -53,10 +65,24 @@ topics:
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: "Ruby 2.2.2 Released"
-    url: "https://www.ruby-lang.org/en/news/2015/04/13/ruby-2-2-2-released"
-    comment: "This release includes the security fix for a OpenSSL extension’s hostname verification vulnerability."
-    pubdate: apr 13
+  - title: "Unexpected: The New Minitest::Spec Syntax"
+    url: "http://chriskottom.com/blog/2015/04/unexpected-the-new-minitest-spec-syntax"
+    comment: "A lot of of developers got started with Minitest during the past few years because of Minitest::Spec."
+    pubdate: apr 14
+    tags:
+      - rb
+
+  - title: "More Control over Text Decoration"
+    url: "https://css-tricks.com/more-control-over-text-decoration/"
+    comment: "text-decoration: you may not be aware that there is more you can do with this property, as well as various sub-properties offering more fine-grained control."
+    pubdate: apr 14
+    tags:
+      - css3
+
+  - title: "Exploring new methods in Ruby 2.2.0"
+    url: "http://rubylogs.com/exploring-new-methods-in-ruby-two-point-two"
+    comment: "Ruby 2.2.0 introduced couple of new methods to the Enumerable module, Float, File and String classes."
+    pubdate: apr 15
     tags:
       - rb
 
@@ -67,12 +93,19 @@ topics:
     tags:
       - web
 
-  - title: "Savon"
-    url: "http://www.leighhalliday.com/savon-soap-doesnt-leave-you-feeling-dirty"
-    comment: "SOAP that doesn't leave you feeling dirty."
-    pubdate: apr 17
+  - title: "Introduction to inuitcss: A Different Kind of CSS Framework"
+    url: "http://www.sitepoint.com/introduction-inuitcss-different-kind-css-framework/"
+    comment: "Instead of including a bunch of modules that we will never use, inuitCSS lets us piece together our own architecture."
+    pubdate: apr 15
     tags:
-      - web
+      - css3
+
+  - title: "RethinkDB in Ruby: Map Reduce and Joins"
+    url: "http://www.sitepoint.com/rethinkdb-ruby-map-reduce-joins/"
+    comment: "Take a look at some of the features in RethinkDB."
+    pubdate: apr 16
+    tags:
+      - rb
 
   - title: "Thinking Outside the DOM: Composed Validators and Data Collection"
     url: "http://www.sitepoint.com/thinking-outside-dom-composed-validators-data-collection/"
@@ -95,19 +128,12 @@ topics:
     tags:
       - css3
 
-  - title: "RethinkDB in Ruby: Map Reduce and Joins"
-    url: "http://www.sitepoint.com/rethinkdb-ruby-map-reduce-joins/"
-    comment: "Take a look at some of the features in RethinkDB."
-    pubdate: apr 16
+  - title: "Savon - SOAP that doesn't leave you feeling dirty"
+    url: "http://www.leighhalliday.com/savon-soap-doesnt-leave-you-feeling-dirty"
+    comment: "Quick intor on how to soap in ruby."
+    pubdate: apr 17
     tags:
-      - rb
-
-  - title: "Introduction to inuitcss: A Different Kind of CSS Framework"
-    url: "http://www.sitepoint.com/introduction-inuitcss-different-kind-css-framework/"
-    comment: "Instead of including a bunch of modules that we will never use, inuitCSS lets us piece together our own architecture."
-    pubdate: apr 15
-    tags:
-      - css3
+      - web
 
   - title: "HTML vs Body in CSS"
     url: "https://css-tricks.com/html-vs-body-in-css/"
@@ -115,27 +141,6 @@ topics:
     pubdate: apr 17
     tags:
       - css3
-
-  - title: "More Control over Text Decoration"
-    url: "https://css-tricks.com/more-control-over-text-decoration/"
-    comment: "text-decoration: you may not be aware that there is more you can do with this property, as well as various sub-properties offering more fine-grained control."
-    pubdate: apr 14
-    tags:
-      - css3
-
-  - title: "Exploring new methods in Ruby 2.2.0"
-    url: "http://rubylogs.com/exploring-new-methods-in-ruby-two-point-two"
-    comment: "Ruby 2.2.0 introduced couple of new methods to the Enumerable module, Float, File and String classes."
-    pubdate: apr 15
-    tags:
-      - rb
-
-  - title: "Unexpected: The New Minitest::Spec Syntax"
-    url: "http://chriskottom.com/blog/2015/04/unexpected-the-new-minitest-spec-syntax"
-    comment: "A lot of of developers got started with Minitest during the past few years because of Minitest::Spec."
-    pubdate: apr 14
-    tags:
-      - rb
 
 - title: Watch
   baseline: "Screencasts and conferences videos, or other video feeds ..."
