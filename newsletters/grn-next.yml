@@ -1,28 +1,9 @@
 ---
-edition: "115"
-pubdate: "apr 19th 2015"
-editors: "tysliu"
+edition: "116"
+pubdate: "apr 26th 2015"
+editors: "xenor, tysliu"
 rant: 
-  "#### State surveillance in France
-
-
-What happened this week in France is quite shocking. How can they be so long to make useful laws and so quick to pass harmful ones? Well the move began in [December last year][frenchpatriot]. Some call it a French Patriot act. This is not the first time there is an attempt from French government to enforce stronger control on the internet. The pressure of lobbies and media industries have been pushing hard to preserve their interests. 
-
-
-But this time, it's just about copying the NSA, and get legal requirement for service providers to host the black boxes. Seems that the Snowden revelations gave the lawmakers some ideas. The impact is not anecdotal in the French society. Some service providers announce they will leave the country like [Altern][altern] (French), others [call to action][laurent] (French). Both Valentin and Laurent are long time activists in the French landscape. I know them for a while. Funny how things turn out, I'm now working in the company they founded in 99 (and passed hands in 2005).
-
-
-But all this makes me think that we are facing a technicality. The real thing is systemic. It seems that we failed, as a civilization, to regain control over our systems. The course of evolution is going to lead to more control to the machines, more dependence on the computerized information. Up to a point where our insignificance as human being will become really obvious. 
-
-
-We, as small makers of this computerized universe, should have some part of responsibility. Is there a way that we can bend the course of history by the small choices we make? Can we not take decisions in regard of how to implement solutions, in a way that we can preserve a margin of freedom and respect for the human species? I'm not sure, at this point, there is anything we can do. But if we don't try, we will never know. Think about it. You build systems. You shape the world. Your choice matters.
-
-
-
-[frenchpatriot]: http://www.theguardian.com/world/2013/dec/11/french-officials-internet-users-real-time-law
-[altern]: http://www.theguardian.com/world/2013/dec/11/french-officials-internet-users-real-time-law
-[laurent]: http://blogs.mediapart.fr/blog/laurent-chemla/170415/lettre-ceux-qui-sen-foutent
-
+  "
 "
 
 topics:
@@ -32,9 +13,9 @@ topics:
     "Examples of UI/UX, graphic performance, web design and flashy things."
   links:
 
-  - title: "Andre do Amaral"
-    url: "http://doamaral.com/"
-    comment: "Designer website with great portfolio"
+  - title: ""
+    url: ""
+    comment: ""
     tags:
       - design
 
@@ -44,210 +25,42 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: "30 CSS Page Preload Animations"
-    url: "http://simbyone.com/css-page-preload-animations/"
-    comment: "The animations are very easy to customize since they are made out of just CSS."
+  - title: ""
+    url: ""
+    comment: ""
     tags:
-      - css3
-
-  - title: "Ghostlab"
-    url: "http://vanamco.com/ghostlab/"
-    comment: "Debug CSS and Javascript cross multiple devices."
-    tags:
-      - css3
-
-  - title: "Trianglify Generator"
-    url: "http://qrohlf.com/trianglify-generator/"
-    comment: "Beautiful background generator."
-    tags:
-      - design
-
-  - title: "Pay me or else"
-    url: "http://thenuschool.com/pay-me-or-else/"
-    comment: "(book) free book about how to avoid and deal with clients that don't pay."
-    tags:
-      - tool
-
-  - title: "Lastbackend"
-    url: "http://lastbackend.com/"
-    comment: "Visual interface to create stacks and deployments."
-    tags:
-      - ops
+      - rb
 
 
 - title: Install
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: "Ruby 2.2.2 Released"
-    url: "https://www.ruby-lang.org/en/news/2015/04/13/ruby-2-2-2-released"
-    comment: "This release includes the security fix for a OpenSSL extension’s hostname verification vulnerability."
-    pubdate: apr 13
+  - title: ""
+    url: ""
+    comment: ""
     tags:
       - rb
-
-  - title: "Layzr.js"
-    url: "http://callmecavs.github.io/layzr.js/"
-    comment: "Dependency-free library for lazy loading images."
-    tags:
-      - js
-
-  - title: "Pair up"
-    url: "https://github.com/A-Helberg/pair-up"
-    comment: "Allows two developers to be jointly credited when Pair Programming."
-    tags:
-      - tool
-
-  - title: "Git LFS"
-    url: "https://git-lfs.github.com/"
-    comment: "An open source Git extension for versioning large files."
-    tags:
-      - tool
-
-  - title: "Smolder"
-    url: "https://github.com/sky-shiny/smolder"
-    comment: "Simple rest smoke tests."
-    tags:
-      - tool
-
-  - title: "RancherVM"
-    url: "https://github.com/rancherio/vm"
-    comment: "Package and Run Virtual Machines as Docker Containers."
-    tags:
-      - ops
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: "A Visual Guide to CSS3 Flexbox Properties"
-    url: "https://scotch.io/tutorials/a-visual-guide-to-css3-flexbox-properties"
-    comment: "How the flex properties affect the layout in a visual way."
-    pubdate: apr 13
-    tags:
-      - css3
-
-  - title: "Unexpected: The New Minitest::Spec Syntax"
-    url: "http://chriskottom.com/blog/2015/04/unexpected-the-new-minitest-spec-syntax"
-    comment: "A lot of of developers got started with Minitest during the past few years because of Minitest::Spec."
-    pubdate: apr 14
+  - title: ""
+    url: ""
+    comment: ""
+    pubdate: apr 19
     tags:
       - rb
-
-  - title: "More Control over Text Decoration"
-    url: "https://css-tricks.com/more-control-over-text-decoration/"
-    comment: "text-decoration properties and various sub-properties for more fine-grained control."
-    pubdate: apr 14
-    tags:
-      - css3
-
-  - title: "Protecting infrastructure secrets with Keywhiz"
-    url: "https://corner.squareup.com/2015/04/keywhiz.html"
-    comment: "This is a project by Square, for distributed secrets management."
-    pubdate: apr 14
-    tags:
-      - css3
-
-  - title: "Exploring new methods in Ruby 2.2.0"
-    url: "http://rubylogs.com/exploring-new-methods-in-ruby-two-point-two"
-    comment: "Ruby 2.2.0 introduced couple of new methods to the Enumerable module, Float, File and String classes."
-    pubdate: apr 15
-    tags:
-      - rb
-
-  - title: "Class methods and singleton methods"
-    url: "http://thomasleecopeland.com/2015/04/15/singleton-methods.html"
-    comment: "Some trick for dealing with singleton methods and inheritance."
-    pubdate: apr 15
-    tags:
-      - rb
-
-  - title: "Cut and Copy Commands"
-    url: "http://updates.html5rocks.com/2015/04/cut-and-copy-commands"
-    comment: "IE10+ and Chrome 43+ now support cut and copy commands."
-    pubdate: apr 15
-    tags:
-      - web
-
-  - title: "Introduction to inuitcss: A Different Kind of CSS Framework"
-    url: "http://www.sitepoint.com/introduction-inuitcss-different-kind-css-framework/"
-    comment: "Instead of including a bunch of modules that we will never use, inuitCSS lets us piece together our own architecture."
-    pubdate: apr 15
-    tags:
-      - css3
-
-  - title: "RethinkDB in Ruby: Map Reduce and Joins"
-    url: "http://www.sitepoint.com/rethinkdb-ruby-map-reduce-joins/"
-    comment: "Take a look at some of the features in RethinkDB."
-    pubdate: apr 16
-    tags:
-      - rb
-
-  - title: "Thinking Outside the DOM: Composed Validators and Data Collection"
-    url: "http://www.sitepoint.com/thinking-outside-dom-composed-validators-data-collection/"
-    comment: "Validate several parts of the email address separately and provide a targeted email validation error."
-    pubdate: apr 16
-    tags:
-      - js
-
-  - title: "Responsive Data Tables"
-    url: "http://www.sitepoint.com/responsive-data-tables-comprehensive-list-solutions/"
-    comment: "Tables that can scale well in different viewport sizes."
-    pubdate: apr 16
-    tags:
-      - css3
-
-  - title: "Sass Theming with Configuration Files"
-    url: "http://www.sitepoint.com/sass-theming-withconfiguration-files/"
-    comment: "Managing multiple websites based on the same CSS codebase."
-    pubdate: apr 16
-    tags:
-      - css3
-
-  - title: "Savon - SOAP that doesn't leave you feeling dirty"
-    url: "http://www.leighhalliday.com/savon-soap-doesnt-leave-you-feeling-dirty"
-    comment: "Quick intor on how to soap in ruby."
-    pubdate: apr 17
-    tags:
-      - web
-
-  - title: "HTML vs Body in CSS"
-    url: "https://css-tricks.com/html-vs-body-in-css/"
-    comment: "The difference between <html> and <body> is easy to overlook."
-    pubdate: apr 17
-    tags:
-      - css3
-
-  - title: "A QUIC update on Google’s experimental transport"
-    url: "https://blog.chromium.org/2015/04/a-quic-update-on-googles-experimental.html"
-    comment: "Google Wants To Speed Up The Web With Its QUIC Protocol."
-    pubdate: apr 17
-    tags:
-      - web
-
-  - title: "Open-source log monitoring tools on Linux"
-    url: "http://xmodulo.com/open-source-log-monitoring-tools-linux.html"
-    comment: "Review of 25 tools you can use on linux for monitoring."
-    pubdate: apr 17
-    tags:
-      - ops
 
 - title: Watch
   baseline: "Screencasts and conferences videos, or other video feeds ..."
   links:
 
-  - title: "How To Write 'Macros' in Ruby"
-    url: "https://pragmaticstudio.com/blog/2015/4/14/ruby-macros"
-    comment: "Recreate a simplified version of the has_many declaration from scratch."
-    pubdate: apr 14
-    duration: 15m
-    tags:
-      - rb
-
-  - title: "Gorails 51"
-    url: "https://gorails.com/episodes/pdf-receipts"
-    comment: "Add PDF receipts to your application."
-    pubdate: apr 17
-    duration: 13m
+  - title: ""
+    url: ""
+    comment: ""
+    pubdate: apr 19
+    duration:  
     tags:
       - rb

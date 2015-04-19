@@ -1,0 +1,213 @@
+----------------------------------------------------
+Green Ruby News #115 - apr 19th 2015
+----------------------------------------------------
+*|IFNOT:CONTENT=Only Rant|*
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+*Andre do Amaral* (design)
+http://doamaral.com/
+Designer website with great portfolio
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+*30 CSS Page Preload Animations* (css3)
+http://simbyone.com/css-page-preload-animations/
+The animations are very easy to customize since they are made out of just CSS.
+
+*Ghostlab* (css3)
+http://vanamco.com/ghostlab/
+Debug CSS and Javascript cross multiple devices.
+
+*Trianglify Generator* (design)
+http://qrohlf.com/trianglify-generator/
+Beautiful background generator.
+
+*Pay me or else* (tool)
+http://thenuschool.com/pay-me-or-else/
+(book) free book about how to avoid and deal with clients that don't pay.
+
+*Lastbackend* (ops)
+http://lastbackend.com/
+Visual interface to create stacks and deployments.
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+*Ruby 2.2.2 Released* (rb - apr 13)
+https://www.ruby-lang.org/en/news/2015/04/13/ruby-2-2-2-released
+This release includes the security fix for a OpenSSL extension’s hostname verification vulnerability.
+
+*Layzr.js* (js)
+http://callmecavs.github.io/layzr.js/
+Dependency-free library for lazy loading images.
+
+*Pair up* (tool)
+https://github.com/A-Helberg/pair-up
+Allows two developers to be jointly credited when Pair Programming.
+
+*Git LFS* (tool)
+https://git-lfs.github.com/
+An open source Git extension for versioning large files.
+
+*Smolder* (tool)
+https://github.com/sky-shiny/smolder
+Simple rest smoke tests.
+
+*RancherVM* (ops)
+https://github.com/rancherio/vm
+Package and Run Virtual Machines as Docker Containers.
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+*A Visual Guide to CSS3 Flexbox Properties* (css3 - apr 13)
+https://scotch.io/tutorials/a-visual-guide-to-css3-flexbox-properties
+How the flex properties affect the layout in a visual way.
+
+*Unexpected: The New Minitest::Spec Syntax* (rb - apr 14)
+http://chriskottom.com/blog/2015/04/unexpected-the-new-minitest-spec-syntax
+A lot of of developers got started with Minitest during the past few years because of Minitest::Spec.
+
+*More Control over Text Decoration* (css3 - apr 14)
+https://css-tricks.com/more-control-over-text-decoration/
+text-decoration properties and various sub-properties for more fine-grained control.
+
+*Protecting infrastructure secrets with Keywhiz* (css3 - apr 14)
+https://corner.squareup.com/2015/04/keywhiz.html
+This is a project by Square, for distributed secrets management.
+
+*Exploring new methods in Ruby 2.2.0* (rb - apr 15)
+http://rubylogs.com/exploring-new-methods-in-ruby-two-point-two
+Ruby 2.2.0 introduced couple of new methods to the Enumerable module, Float, File and String classes.
+
+*Class methods and singleton methods* (rb - apr 15)
+http://thomasleecopeland.com/2015/04/15/singleton-methods.html
+Some trick for dealing with singleton methods and inheritance.
+
+*Cut and Copy Commands* (web - apr 15)
+http://updates.html5rocks.com/2015/04/cut-and-copy-commands
+IE10+ and Chrome 43+ now support cut and copy commands.
+
+*Introduction to inuitcss: A Different Kind of CSS Framework* (css3 - apr 15)
+http://www.sitepoint.com/introduction-inuitcss-different-kind-css-framework/
+Instead of including a bunch of modules that we will never use, inuitCSS lets us piece together our own architecture.
+
+*RethinkDB in Ruby: Map Reduce and Joins* (rb - apr 16)
+http://www.sitepoint.com/rethinkdb-ruby-map-reduce-joins/
+Take a look at some of the features in RethinkDB.
+
+*Thinking Outside the DOM: Composed Validators and Data Collection* (js - apr 16)
+http://www.sitepoint.com/thinking-outside-dom-composed-validators-data-collection/
+Validate several parts of the email address separately and provide a targeted email validation error.
+
+*Responsive Data Tables* (css3 - apr 16)
+http://www.sitepoint.com/responsive-data-tables-comprehensive-list-solutions/
+Tables that can scale well in different viewport sizes.
+
+*Sass Theming with Configuration Files* (css3 - apr 16)
+http://www.sitepoint.com/sass-theming-withconfiguration-files/
+Managing multiple websites based on the same CSS codebase.
+
+*Savon - SOAP that doesn't leave you feeling dirty* (web - apr 17)
+http://www.leighhalliday.com/savon-soap-doesnt-leave-you-feeling-dirty
+Quick intor on how to soap in ruby.
+
+*HTML vs Body in CSS* (css3 - apr 17)
+https://css-tricks.com/html-vs-body-in-css/
+The difference between <html> and <body> is easy to overlook.
+
+*A QUIC update on Google’s experimental transport* (web - apr 17)
+https://blog.chromium.org/2015/04/a-quic-update-on-googles-experimental.html
+Google Wants To Speed Up The Web With Its QUIC Protocol.
+
+*Open-source log monitoring tools on Linux* (ops - apr 17)
+http://xmodulo.com/open-source-log-monitoring-tools-linux.html
+Review of 25 tools you can use on linux for monitoring.
+
+Watch
+----------------------------------------------------
+Screencasts and conferences videos, or other video feeds ...
+
+*How To Write 'Macros' in Ruby* (rb - apr 14 - 15m)
+https://pragmaticstudio.com/blog/2015/4/14/ruby-macros
+Recreate a simplified version of the has_many declaration from scratch.
+
+*Gorails 51* (rb - apr 17 - 13m)
+https://gorails.com/episodes/pdf-receipts
+Add PDF receipts to your application.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+Links curated by by mose (publisher), tysliu (editors).
+*|END:IF|*
+*|IFNOT:CONTENT=Only Links|*
+
+Rant
+----------------------------------------------------
+The random rant of the week by mose.
+
+#### State surveillance in France
+
+What happened this week in France is quite shocking. How can they be so long
+to make useful laws and so quick to pass harmful ones? Well the move began in
+[December last year][frenchpatriot]. Some call it a French Patriot act. This
+is not the first time there is an attempt from French government to enforce
+stronger control on the internet. The pressure of lobbies and media industries
+have been pushing hard to preserve their interests.
+
+But this time, it's just about copying the NSA, and get legal requirement for
+service providers to host the black boxes. Seems that the Snowden revelations
+gave the lawmakers some ideas. The impact is not anecdotal in the French
+society. Some service providers announce they will leave the country like
+[Altern][altern] (French), others [call to action][laurent] (French). Both
+Valentin and Laurent are long time activists in the French landscape. I know
+them for a while. Funny how things turn out, I'm now working in the company
+they founded in 99 (and passed hands in 2005).
+
+But all this makes me think that we are facing a technicality. The real thing
+is systemic. It seems that we failed, as a civilization, to regain control
+over our systems. The course of evolution is going to lead to more control to
+the machines, more dependence on the computerized information. Up to a point
+where our insignificance as human being will become really obvious.
+
+We, as small makers of this computerized universe, should have some part of
+responsibility. Is there a way that we can bend the course of history by the
+small choices we make? Can we not take decisions in regard of how to implement
+solutions, in a way that we can preserve a margin of freedom and respect for
+the human species? I'm not sure, at this point, there is anything we can do.
+But if we don't try, we will never know. Think about it. You build systems.
+You shape the world. Your choice matters.
+
+[frenchpatriot]:
+http://www.theguardian.com/world/2013/dec/11/french-officials-internet-users-real-time-law
+[altern]:
+http://www.theguardian.com/world/2013/dec/11/french-officials-internet-users-real-time-law
+[laurent]:
+http://blogs.mediapart.fr/blog/laurent-chemla/170415/lettre-ceux-qui-sen-foutent
+
+*|END:IF|*
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+
