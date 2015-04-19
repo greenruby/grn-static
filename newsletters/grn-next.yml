@@ -1,9 +1,28 @@
 ---
 edition: "115"
 pubdate: "apr 19th 2015"
-editors: "xenor, tysliu"
+editors: "tysliu"
 rant: 
-  "
+  "#### State surveillance in France
+
+
+What happened this week in France is quite shocking. How can they be so long to make useful laws and so quick to pass harmful ones? Well the move began in [December last year][frenchpatriot]. Some call it a French Patriot act. This is not the first time there is an attempt from French government to enforce stronger control on the internet. The pressure of lobbies and media industries have been pushing hard to preserve their interests. 
+
+
+But this time, it's just about copying the NSA, and get legal requirement for service providers to host the black boxes. Seems that the Snowden revelations gave the lawmakers some ideas. The impact is not anecdotal in the French society. Some service providers announce they will leave the country like [Altern][altern] (French), others [call to action][laurent] (French). Both Valentin and Laurent are long time activists in the French landscape. I know them for a while. Funny how things turn out, I'm now working in the company they founded in 99 (and passed hands in 2005).
+
+
+But all this makes me think that we are facing a technicality. The real thing is systemic. It seems that we failed, as a civilization, to regain control over our systems. The course of evolution is going to lead to more control to the machines, more dependence on the computerized information. Up to a point where our insignificance as human being will become really obvious. 
+
+
+We, as small makers of this computerized universe, should have some part of responsibility. Is there a way that we can bend the course of history by the small choices we make? Can we not take decisions in regard of how to implement solutions, in a way that we can preserve a margin of freedom and respect for the human species? I'm not sure, at this point, there is anything we can do. But if we don't try, we will never know. Think about it. You build systems. You shape the world. Your choice matters.
+
+
+
+[frenchpatriot]: http://www.theguardian.com/world/2013/dec/11/french-officials-internet-users-real-time-law
+[altern]: http://www.theguardian.com/world/2013/dec/11/french-officials-internet-users-real-time-law
+[laurent]: http://blogs.mediapart.fr/blog/laurent-chemla/170415/lettre-ceux-qui-sen-foutent
+
 "
 
 topics:
@@ -13,9 +32,9 @@ topics:
     "Examples of UI/UX, graphic performance, web design and flashy things."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "Andre do Amaral"
+    url: "http://doamaral.com/"
+    comment: "Designer website with great portfolio"
     tags:
       - design
 
@@ -35,11 +54,23 @@ topics:
     url: "http://vanamco.com/ghostlab/"
     comment: "Debug CSS and Javascript cross multiple devices."
     tags:
-      - Web
+      - css3
+
+  - title: "Trianglify Generator"
+    url: "http://qrohlf.com/trianglify-generator/"
+    comment: "Beautiful background generator."
+    tags:
+      - design
+
+  - title: "Pay me or else"
+    url: "http://thenuschool.com/pay-me-or-else/"
+    comment: "(book) free book about how to avoid and deal with clients that don't pay."
+    tags:
+      - tool
 
   - title: "Lastbackend"
     url: "http://lastbackend.com/"
-    comment: "Visual interface to create stacks adn deployments."
+    comment: "Visual interface to create stacks and deployments."
     tags:
       - ops
 
@@ -55,15 +86,46 @@ topics:
     tags:
       - rb
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "Layzr.js"
+    url: "http://callmecavs.github.io/layzr.js/"
+    comment: "Dependency-free library for lazy loading images."
     tags:
-      - rb
+      - js
+
+  - title: "Pair up"
+    url: "https://github.com/A-Helberg/pair-up"
+    comment: "Allows two developers to be jointly credited when Pair Programming."
+    tags:
+      - tool
+
+  - title: "Git LFS"
+    url: "https://git-lfs.github.com/"
+    comment: "An open source Git extension for versioning large files."
+    tags:
+      - tool
+
+  - title: "Smolder"
+    url: "https://github.com/sky-shiny/smolder"
+    comment: "Simple rest smoke tests."
+    tags:
+      - tool
+
+  - title: "RancherVM"
+    url: "https://github.com/rancherio/vm"
+    comment: "Package and Run Virtual Machines as Docker Containers."
+    tags:
+      - ops
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
   links:
+
+  - title: "A Visual Guide to CSS3 Flexbox Properties"
+    url: "https://scotch.io/tutorials/a-visual-guide-to-css3-flexbox-properties"
+    comment: "How the flex properties affect the layout in a visual way."
+    pubdate: apr 13
+    tags:
+      - css3
 
   - title: "Unexpected: The New Minitest::Spec Syntax"
     url: "http://chriskottom.com/blog/2015/04/unexpected-the-new-minitest-spec-syntax"
@@ -74,7 +136,14 @@ topics:
 
   - title: "More Control over Text Decoration"
     url: "https://css-tricks.com/more-control-over-text-decoration/"
-    comment: "text-decoration: you may not be aware that there is more you can do with this property, as well as various sub-properties offering more fine-grained control."
+    comment: "text-decoration properties and various sub-properties for more fine-grained control."
+    pubdate: apr 14
+    tags:
+      - css3
+
+  - title: "Protecting infrastructure secrets with Keywhiz"
+    url: "https://corner.squareup.com/2015/04/keywhiz.html"
+    comment: "This is a project by Square, for distributed secrets management."
     pubdate: apr 14
     tags:
       - css3
@@ -86,9 +155,16 @@ topics:
     tags:
       - rb
 
+  - title: "Class methods and singleton methods"
+    url: "http://thomasleecopeland.com/2015/04/15/singleton-methods.html"
+    comment: "Some trick for dealing with singleton methods and inheritance."
+    pubdate: apr 15
+    tags:
+      - rb
+
   - title: "Cut and Copy Commands"
     url: "http://updates.html5rocks.com/2015/04/cut-and-copy-commands"
-    comment: "IE10+ and Chrom 43+ now support cut and copy commands."
+    comment: "IE10+ and Chrome 43+ now support cut and copy commands."
     pubdate: apr 15
     tags:
       - web
@@ -116,7 +192,7 @@ topics:
 
   - title: "Responsive Data Tables"
     url: "http://www.sitepoint.com/responsive-data-tables-comprehensive-list-solutions/"
-    comment: "Since the adoption of responsive web design, various approaches have been developed for establishing tables that can scale well in different viewport sizes."
+    comment: "Tables that can scale well in different viewport sizes."
     pubdate: apr 16
     tags:
       - css3
@@ -142,14 +218,36 @@ topics:
     tags:
       - css3
 
+  - title: "A QUIC update on Google’s experimental transport"
+    url: "https://blog.chromium.org/2015/04/a-quic-update-on-googles-experimental.html"
+    comment: "Google Wants To Speed Up The Web With Its QUIC Protocol."
+    pubdate: apr 17
+    tags:
+      - web
+
+  - title: "Open-source log monitoring tools on Linux"
+    url: "http://xmodulo.com/open-source-log-monitoring-tools-linux.html"
+    comment: "Review of 25 tools you can use on linux for monitoring."
+    pubdate: apr 17
+    tags:
+      - ops
+
 - title: Watch
   baseline: "Screencasts and conferences videos, or other video feeds ..."
   links:
 
   - title: "How To Write 'Macros' in Ruby"
     url: "https://pragmaticstudio.com/blog/2015/4/14/ruby-macros"
-    comment: "In this short video tutorial we recreate a simplified version of the has_many declaration from scratch so you understand how to apply this same powerful technique in your own Ruby code!"
+    comment: "Recreate a simplified version of the has_many declaration from scratch."
     pubdate: apr 14
     duration: 15m
+    tags:
+      - rb
+
+  - title: "Gorails 51"
+    url: "https://gorails.com/episodes/pdf-receipts"
+    comment: "Add PDF receipts to your application."
+    pubdate: apr 17
+    duration: 13m
     tags:
       - rb
