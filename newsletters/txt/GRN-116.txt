@@ -1,0 +1,185 @@
+----------------------------------------------------
+Green Ruby News #116 - apr 26th 2015
+----------------------------------------------------
+*|IFNOT:CONTENT=Only Rant|*
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+*Weightshift* (design)
+http://weightshift.com/
+A design studio from San Francisco.
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+*js.org* (js)
+http://dns.js.org/
+Providing nice and free subdomains for GitHub Pages under *.js.org.
+
+*Center in CSS* (css3)
+http://howtocenterincss.com/
+Am online generator for centered things.
+
+*Animate Transition* (js)
+http://rapid-application-development-js.github.io/AnimateTransition/
+A generator for a Library of transition animations between blocks.
+
+*Retrospective Wiki* (tool)
+http://retrospectivewiki.org/
+Resource for sharing retrospective plans, tips & tricks, tools and ideas.
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+*datapak* (rb)
+https://github.com/textkit/datapak
+Yet another library to work with tabular data packages.
+
+*kiba* (rb)
+https://github.com/thbar/kiba
+Lightweight ETL for Ruby.
+
+*Egg.js* (js)
+https://github.com/mikeflynn/egg.js
+A simple javascript library to add easter eggs to web pages.
+
+*Sticky-Kit* (js)
+http://leafo.net/sticky-kit/
+A jQuery plugin for making smart sticky elements
+
+*SMINT* (js)
+http://www.outyear.co.uk/smint/
+Sticky Menu Including Navigation.
+
+*Bourbon* (css3)
+http://bourbon.io/
+A simple and lightweight mixin library for Sass.
+
+*Sneaker* (go)
+https://github.com/codahale/sneaker
+A tool for securely storing secrets on S3 using Amazon KMS.
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+*Rails API to be part of Rails 5* (rb - apr 20)
+http://wyeworks.com/blog/2015/4/20/rails-api-is-going-to-be-included-in-rails-5
+A decision was made to incorporate Rails API into Rails core.
+
+*The Event Store for Rails developers* (rb - apr 21)
+http://blog.arkency.com/2015/04/the-event-store-for-rails-developers/
+The rails_event_store gem and its usage.
+
+*The Difference Between Instance_eval And Instance_exec* (rb - apr 22)
+http://www.saturnflyer.com/blog/jim/2015/04/22/the-difference-between-instance_eval-and-instance_exec
+Here is a great demonstration about how to use them well in FactoryGirl.
+
+*Token based authentication with Node.js* (js - apr 22)
+https://scotch.io/tutorials/authenticate-a-node-js-api-with-json-web-tokens
+Authentication is one of the big parts of every application.
+
+*How to Block Entire Countries from Accessing Your Website* (web - apr 22)
+http://www.sitepoint.com/how-to-block-entire-countries-from-accessing-website/
+If you run a website, then by default it is accessible to the whole planet.
+
+*Eight Docker Development Patterns* (web - apr 22)
+http://www.hokstad.com/docker/patterns
+Various patterns of usage of docker.
+
+*How to Make a Smartphone Controlled 3D Web Game* (mobile - apr 22)
+https://css-tricks.com/how-to-make-a-smartphone-controlled-3d-web-game/
+Use you phone as a input device for an interactive application.
+
+*Rails Authentication with OAuth 2.0 and OmniAuth* (rb - apr 23)
+http://www.sitepoint.com/rails-authentication-oauth-2-0-omniauth/
+Code examp[le on how to implement OAuth in a rails app.
+
+*Three JavaScript Quirks That Java/C Developers Should Know* (js - apr 23)
+http://www.sitepoint.com/three-javascript-quirks-java-c-developers-should-know/
+JavaScript can be a deceiving language and it can be a real pain because it isn’t 100% consistent.
+
+*Your Password is Too Damn Short* (web - apr 23)
+http://blog.codinghorror.com/your-password-is-too-damn-short/
+How short is too short?
+
+*7 Deadly Sins of Ruby Metaprogramming* (rb - apr 24)
+https://www.codeschool.com/blog/2015/04/24/7-deadly-sins-of-ruby-metaprogramming/
+7 bad patterns when writing metaprogramming codes
+
+*Where is this method defined?* (rb - apr 24)
+http://www.leighhalliday.com/where-is-this-method-defined
+Use ruby's Method class to find out your method's information
+
+*An Introduction to the Futuristic New Router in AngularJS* (js - apr 24)
+http://www.sitepoint.com/introduction-futuristic-new-router-angularjs/
+Angular 2 will support more complex router scenarios, such as nested views, parallel views or a sequence of views.
+
+*Chaining Multiple Blend Modes* (css3 - apr 24)
+https://css-tricks.com/chaining-multiple-blend-modes/
+The background-blend-mode CSS property blends one image with its own background-color, or even with another image.
+
+Watch
+----------------------------------------------------
+Screencasts and conferences videos, or other video feeds ...
+
+*RailsConf 2015 Room 202 Day 1* (rb - apr 21 - 8hr)
+https://www.youtube.com/watch?v=oMlX9i9Icno
+A pretty long one.
+
+*RailsConf 2015 Room 202 Day 2* (rb - apr 22 - 8hr)
+https://www.youtube.com/watch?v=wQCda5PBn0A
+Yeah it was not long enough!
+
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+Links curated by by mose (publisher), xenor, tysliu (editors).
+*|END:IF|*
+*|IFNOT:CONTENT=Only Links|*
+
+Rant
+----------------------------------------------------
+The random rant of the week by mose.
+
+#### Welcome Jessie
+
+Ok, right. Maybe you don't care, but this saturday [Jessie][jessie] was
+officially released. It's the next stable version of debian, version 8.0, and
+it's great that it finally got out. Debian release cycles are certainly not as
+fast as Ubuntu, but the stuff in there is more stable. And well, in my
+personal case, I work in a place where everything is in debian wheezy and can
+now finally get upgraded.
+
+Actually I have been using Ubuntu on my desktop for some time. The reason was
+that I wanted to be able to help people to transition to linux, without being
+overloaded with support. So I had to know how ubuntu work. But last year I
+switched back to the original debian and I have been pretty happy about that.
+There is less cruft and opinionated choices (no freaking unity as a default
+window manager). And it's pretty straightfoward in the install process. I
+suspect even non-techies could give it a try (I know some that did).
+
+[jessie]: https://www.debian.org/releases/jessie 
+
+*|END:IF|*
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+
