@@ -2,7 +2,7 @@
 edition: "116"
 pubdate: "apr 26th 2015"
 editors: "xenor, tysliu"
-rant: 
+rant:
   "
 "
 
@@ -25,11 +25,23 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "Bourbon"
+    url: "http://bourbon.io/"
+    comment: "A simple and lightweight mixin library for Sass."
     tags:
-      - rb
+      - css3
+
+  - title: "SMINT"
+    url: "http://www.outyear.co.uk/smint/"
+    comment: "Sticky Menu Including Navigation."
+    tags:
+      - web
+
+  - title: "Sticky-Kit"
+    url: "http://leafo.net/sticky-kit/"
+    comment: "A jQuery plugin for making smart sticky elements"
+    tags:
+      - js
 
 
 - title: Install
@@ -46,10 +58,66 @@ topics:
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
-    pubdate: apr 19
+  - title: "An Introduction to the Futuristic New Router in AngularJS"
+    url: "http://www.sitepoint.com/introduction-futuristic-new-router-angularjs/"
+    comment: "A new router for Angular 2 will support more complex scenarios, such as nested views, parallel views or a sequence of views."
+    pubdate: apr 24
+    tags:
+      - js
+
+  - title: "Three JavaScript Quirks That Java/C Developers Should Know"
+    url: "http://www.sitepoint.com/three-javascript-quirks-java-c-developers-should-know/"
+    comment: "JavaScript can be a deceiving language and it can be a real pain because it isn’t 100% consistent."
+    pubdate: apr 23
+    tags:
+      - js
+
+  - title: "Rails Authentication with OAuth 2.0 and OmniAuth"
+    url: "http://www.sitepoint.com/rails-authentication-oauth-2-0-omniauth/"
+    comment: "OAuth 2 is an authorization protocol that enables a third-party applications to obtain limited access to an HTTP service."
+    pubdate: apr 23
+    tags:
+      - rb
+
+  - title: "How to Block Entire Countries from Accessing Your Website"
+    url: "http://www.sitepoint.com/how-to-block-entire-countries-from-accessing-website/"
+    comment: "If you run a website, then by default it is accessible to the whole planet."
+    pubdate: apr 22
+    tags:
+      - web
+
+  - title: "Chaining Multiple Blend Modes"
+    url: "https://css-tricks.com/chaining-multiple-blend-modes/"
+    comment: "The background-blend-mode CSS property gives developers the ability to blend one background-image with its own background-color, or even with another background-image."
+    pubdate: apr 24
+    tags:
+      - css3
+
+  - title: "How to Make a Smartphone Controlled 3D Web Game"
+    url: "https://css-tricks.com/how-to-make-a-smartphone-controlled-3d-web-game/"
+    comment: "Use you phone as a input device for an interactive application."
+    pubdate: apr 22
+    tags:
+      - web
+
+  - title: "Token based authentication with Node.js"
+    url: "https://scotch.io/tutorials/authenticate-a-node-js-api-with-json-web-tokens"
+    comment: "Authentication is one of the big parts of every application."
+    pubdate: apr 22
+    tags:
+      - js
+
+  - title: "The Difference Between Instance_eval And Instance_exec"
+    url: "http://www.saturnflyer.com/blog/jim/2015/04/22/the-difference-between-instance_eval-and-instance_exec"
+    comment: "There’s an important difference between instance_eval and instance_exec. And there’s a great lesson about how to use them well in FactoryGirl."
+    pubdate: apr 22
+    tags:
+      - rb
+
+  - title: "Rails API to be part of Rails 5"
+    url: "http://wyeworks.com/blog/2015/4/20/rails-api-is-going-to-be-included-in-rails-5"
+    comment: "A decision was made to incorporate Rails API into Rails core."
+    pubdate: apr 20
     tags:
       - rb
 
@@ -57,10 +125,18 @@ topics:
   baseline: "Screencasts and conferences videos, or other video feeds ..."
   links:
 
-  - title: ""
-    url: ""
+  - title: "RailsConf 2015 Room 202 Day 1"
+    url: "https://www.youtube.com/watch?v=oMlX9i9Icno"
     comment: ""
-    pubdate: apr 19
-    duration:  
+    pubdate: apr 21
+    duration: 8hr
+    tags:
+      - rb
+
+  - title: "RailsConf 2015 Room 202 Day 2"
+    url: "https://www.youtube.com/watch?v=wQCda5PBn0A"
+    comment: ""
+    pubdate: apr 22
+    duration: 8hr
     tags:
       - rb
