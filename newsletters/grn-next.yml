@@ -48,9 +48,15 @@ topics:
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "datapak"
+    url: "https://github.com/textkit/datapak"
+    comment: "Yet another library to work with tabular data packages."
+    tags:
+      - rb
+
+  - title: "kiba"
+    url: "https://github.com/thbar/kiba"
+    comment: "Lightweight ETL for Ruby"
     tags:
       - rb
 
@@ -118,6 +124,20 @@ topics:
     url: "http://wyeworks.com/blog/2015/4/20/rails-api-is-going-to-be-included-in-rails-5"
     comment: "A decision was made to incorporate Rails API into Rails core."
     pubdate: apr 20
+    tags:
+      - rb
+
+  - title: "7 Deadly Sins of Ruby Metaprogramming"
+    url: "https://www.codeschool.com/blog/2015/04/24/7-deadly-sins-of-ruby-metaprogramming/"
+    comment: "7 bad patterns when writing metaprogramming codes"
+    pubdate: apr 24
+    tags:
+      - rb
+
+  - title: "Where is this method defined?"
+    url: "http://www.leighhalliday.com/where-is-this-method-defined"
+    comment: "Use ruby's Method class to find out your method's information"
+    pubdate: apr 24
     tags:
       - rb
 
