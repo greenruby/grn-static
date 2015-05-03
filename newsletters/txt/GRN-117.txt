@@ -1,0 +1,204 @@
+----------------------------------------------------
+Green Ruby News #117 - may 3rd 2015
+----------------------------------------------------
+*|IFNOT:CONTENT=Only Rant|*
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+*404 page templates* (design)
+http://www.webdesigndev.com/freebies/free-404-page-templates-psd-html
+It's always nice to put some efforts in making the 404 frustration a little less painful.
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+*Feed.us* (tool)
+http://feed.us/
+Add a CMS in your app, backed by a SaaS service. Like discuss for cms.
+
+*Usersnap* (tool)
+https://usersnap.com/
+Bug tracking in your browser.
+
+*OpenMotics* (tool)
+https://www.openmotics.com/
+Open source home automation.
+
+*LingoHub* (tool)
+https://lingohub.com/
+Continuous translation platform.
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+*Padrino* (rb)
+http://www.padrinorb.com/
+Padrino is a ruby framework built upon Sinatra Web Library.
+
+*NYNY* (rb)
+http://alisnic.github.io/nyny/
+Another small ruby based web framework.
+
+*awesome-activerecord* (rb)
+https://github.com/planetruby/awesome-activerecord
+A collection of awesome ActiveRecord goodies.
+
+*as-duration* (rb)
+https://github.com/janko-m/as-duration
+Extraction of ActiveSupport::Duration from Rails.
+
+*capistrano-foreman* (rb)
+https://github.com/RKushnir/capistrano-foreman
+Foreman integration for Capistrano.
+
+*FormHack* (css3)
+http://formhack.io/
+Hackable SASS-based form reset.
+
+*PostCSS* (css3)
+https://github.com/postcss/postcss
+Tool for transforming CSS with JS plugins.
+
+*Bracket* (tool)
+http://brackets.io/
+An open source competitor to sublimetext by Adobe.
+
+*Captain* (ops)
+https://github.com/harbur/captain
+Convert your Git workflow to Docker containers ready for Continuous Delivery.
+
+*CloudRouter* (ops)
+https://cloudrouter.org/
+collaborative open source project focused on developing a router designed for the cloud.
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+*3 Quick Gem Tricks* (rb - apr 27)
+http://www.justinweiss.com/blog/2015/04/27/3-quick-gem-tricks/
+gem pristine, underscore versioning, and fuzzy gem versions.
+
+*Ruby’s Important Hook Methods* (rb - apr 27)
+http://www.sitepoint.com/rubys-important-hook-methods
+An overview of five mostly used ruby hook methods.
+
+*An open letter to Matz on Ruby type systems* (rb - apr 29)
+http://tonyarcieri.com/an-open-letter-to-matz-on-ruby-type-systems
+A suggestion for ruby to use gradual typing
+
+*JavaScript like a Boss: Understanding Fluent APIs* (js - apr 29)
+http://www.sitepoint.com/javascript-like-boss-understanding-fluent-apis/
+Object-oriented API that aims to provide chainable code.
+
+*Building a Static Site Generator Grunt Plugin* (js - apr 29)
+http://www.sitepoint.com/building-static-site-generator-grunt-plugin/
+IT's not that difficult to write your own static site generator.
+
+*RethinkDB + React.js + Rails* (rb - apr 30)
+http://blog.arkency.com/2015/04/on-my-radar-rethinkdb-plus-react-dot-js-plus-rails/
+Exploration of some recent tools for alternatives rails setup.
+
+*FizzBuzz as a Ruby Hash* (rb - apr 30)
+http://www.bootstrap.me.uk/bootstrapped-blog/fizzbuzz-as-a-ruby-hash
+Build FizzBuzz game by ruby hash-table.
+
+*Requiring Uniqueness in Rails* (rb - apr 30)
+http://www.leighhalliday.com/requiring-uniqueness-in-rails
+How to ensure your values are unique.
+
+*Stripe Subscriptions in Rails* (rb - apr 30)
+http://www.sitepoint.com/stripe-subscriptions-rails/
+Choosing the right payment solution for a global marketplace.
+
+*Enhance Your JavaScript Debugging with Cross-Browser Source Maps* (js - apr 30)
+http://www.sitepoint.com/enhance-your-javascript-debugging-with-cross-browser-source-maps/
+Modern JS debugging.
+
+*Ruby, recursion and AI* (rb - may 1)
+http://blog.diatomenterprises.com/ruby-and-recursion-to-find-out-all-possible-chess-knights-movements-using-minimax-algorithm/
+How to use minmax algorithm to solve chess movement.
+
+*Revealing the Inner Workings of JavaScript’s this Keyword* (js - may 1)
+http://www.sitepoint.com/inner-workings-javascripts-this-keyword/
+One thing that confuses developers is how the `this` keyword works.
+
+*ZStack, an Infrastructure Software* (ops - may 1)
+http://thenewstack.io/zstack-an-infrastructure-software-with-an-in-process-microservices-architecture/
+ZStack is open source IaaS to automate datacenters through APIs.
+
+Watch
+----------------------------------------------------
+Screencasts and conferences videos, or other video feeds ...
+
+*RailsConf 2015* (rb - apr 30)
+http://confreaks.tv/events/railsconf2015
+Full list of presentations on RailsConf 2015
+
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+Links curated by by mose (publisher), xenor, tysliu (editors).
+*|END:IF|*
+*|IFNOT:CONTENT=Only Links|*
+
+Rant
+----------------------------------------------------
+The random rant of the week by mose.
+
+#### RFID world
+
+They begin to appear everywhere. I saw mine first on my passport, then I just
+got my new credit card and it has one in it. Those things are nice if you
+consider them naively. But the fact is that they are flawed and insecure. We
+carry around more and more of those items that can be read at a proximity by
+specially crafter devices. Gosh, did they not learn already the ingenuity of
+our kids?
+
+There have been myths in science fiction about human implanted with chips.
+Well, our phones for a while have been providing the same features. Call me
+paranoid, but I just don't like the feeling. And I also don't like not having
+any choice about it. Hopefully we can still [disable the credit cards
+RFID][disablecard], [craft some pockets][craftpocket] to put our passport in
+it, or buy some [faraday pockets][faradaypockets].
+
+If you pay attention, you can find or hear about phone apps called 'electronic
+pickpocket apps'. This choice of a name if so relevant to the situation. Note
+that NFC, included in more and more phones, is a subcategory of RFID, operates
+in much smaller range (10 cm). But basic RFID tags can be detected beyond 100
+meters with proper antennas.
+
+We talk about the Internet of Things. Sounds sexy. But clearly, we only are
+one of the Things of that Internet. Without any implant, just by carrying
+around passport and credit cards. Or by working at a company that uses that
+technology for [staff monitoring][staffmonitoring]. I don't know about you,
+but for me, it's scary as hell.
+
+[banknotes]: https://youtu.be/Kn5aqb-mN3Q
+[disablecard]: https://youtu.be/E_f5oRwaQew
+[craftpocket]: https://youtu.be/BEyRfjeE6ac
+[faradaypockets]: https://youtu.be/MhW-QLhmoVw
+[staffmonitoring]: http://www.wavetrend.net/personnel-tracking.php
+
+*|END:IF|*
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+
