@@ -37,21 +37,60 @@ topics:
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "awesome-activerecord"
+    url: "https://github.com/planetruby/awesome-activerecord"
+    comment: "A collection of awesome ActiveRecord goodies"
     tags:
       - rb
 
+  - title: "as-duration"
+    url: "https://github.com/janko-m/as-duration"
+    comment: "Extraction of ActiveSupport::Duration from Rails"
+    tags:
+      - rb
+
+  - title: "capistrano-foreman"
+    url: "https://github.com/RKushnir/capistrano-foreman"
+    comment: "Foreman integration for Capistrano"
+    tags:
+      - rb
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "3 Quick Gem Tricks"
+    url: "http://www.justinweiss.com/blog/2015/04/27/3-quick-gem-tricks/"
+    comment: "gem pristine, underscore versioning, and fuzzy gem versions"
     pubdate: apr 27
+    tags:
+      - rb
+
+  - title: "Ruby’s Important Hook Methods"
+    url: "http://www.sitepoint.com/rubys-important-hook-methods"
+    comment: "An overview of five mostly used ruby hook methods"
+    pubdate: apr 27
+    tags:
+      - rb
+
+  - title: "An open letter to Matz on Ruby type systems"
+    url: "http://tonyarcieri.com/an-open-letter-to-matz-on-ruby-type-systems"
+    comment: "A suggestion for ruby to use gradual typing"
+    pubdate: apr 29
+    tags:
+      - rb
+
+  - title: "FizzBuzz as a Ruby Hash"
+    url: "http://www.bootstrap.me.uk/bootstrapped-blog/fizzbuzz-as-a-ruby-hash"
+    comment: "Build FizzBuzz game by ruby hash-table"
+    pubdate: apr 30
+    tags:
+      - rb
+
+  - title: "Ruby, recursion and AI"
+    url: "http://blog.diatomenterprises.com/ruby-and-recursion-to-find-out-all-possible-chess-knights-movements-using-minimax-algorithm/"
+    comment: "How to use minmax algorithm solve chess movement"
+    pubdate: may 1
     tags:
       - rb
 
@@ -61,10 +100,10 @@ topics:
   baseline: "Screencasts and conferences videos, or other video feeds ..."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
-    pubdate: apr 27
-    duration: 
+  - title: "RailsConf 2015"
+    url: "http://confreaks.tv/events/railsconf2015"
+    comment: "Full list of presentations on RailsConf 2015"
+    pubdate: apr 30
+    duration:
     tags:
       - rb
