@@ -3,7 +3,7 @@ edition: "117"
 pubdate: "may 3rd 2015"
 editors: "xenor, tysliu"
 rant:
-  "#### 
+  "####
 "
 
 topics:
@@ -25,12 +25,23 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "FormHack"
+    url: "http://formhack.io/"
+    comment: "FormHack works by providing a few variables that allow you to change some common attributes such as border-radius, input height/width, and colours."
     tags:
       - css3
 
+  - title: "Padrino"
+    url: "http://www.padrinorb.com/"
+    comment: "Padrino is a ruby framework built upon the excellent Sinatra Web Library. Sinatra is a DSL for creating simple web applications in Ruby quickly and with minimal effort."
+    tags:
+      - rb
+
+  - title: "NYNY"
+    url: "http://alisnic.github.io/nyny/"
+    comment: "NYNY is unassuming, it has all the core stuff to get running, but nothing else. Your app is the framework. However, it's trivial to extend NYNY via its extension interface."
+    tags:
+      - rb
 
 
 - title: Install
@@ -54,6 +65,12 @@ topics:
     comment: "Foreman integration for Capistrano"
     tags:
       - rb
+
+  - title: "PostCSS"
+    url: "https://github.com/postcss/postcss"
+    comment: "PostCSS can do the same work as preprocessors like Sass, Less, and Stylus. But PostCSS is modular, 3-30 times faster, and much more powerful."
+    tags:
+      - css3
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
@@ -80,9 +97,51 @@ topics:
     tags:
       - rb
 
+  - title: "JavaScript like a Boss: Understanding Fluent APIs"
+    url: "http://www.sitepoint.com/javascript-like-boss-understanding-fluent-apis/"
+    comment: "A fluent API, as stated by this Wikipedia article, is an implementation of an object-oriented API that aims to provide for more readable code."
+    pubdate: apr 29
+    tags:
+      - js
+
+  - title: "Creating a Custom Login and Registration Form with Meteor"
+    url: "http://www.sitepoint.com/creating-custom-login-registration-form-with-meteor/"
+    comment: "Right out of the box, one of the simplest things you can do with the Meteor JavaScript framework is to create a user accounts system."
+    pubdate: apr 29
+    tags:
+      - js
+
+  - title: "Building a Static Site Generator Grunt Plugin"
+    url: "http://www.sitepoint.com/building-static-site-generator-grunt-plugin/"
+    comment: "You may be surprised that it isn’t overly difficult to write your own static site generator."
+    pubdate: apr 29
+    tags:
+      - web
+
   - title: "FizzBuzz as a Ruby Hash"
     url: "http://www.bootstrap.me.uk/bootstrapped-blog/fizzbuzz-as-a-ruby-hash"
     comment: "Build FizzBuzz game by ruby hash-table"
+    pubdate: apr 30
+    tags:
+      - rb
+
+  - title: "Requiring Uniqueness in Rails"
+    url: "http://www.leighhalliday.com/requiring-uniqueness-in-rails"
+    comment: "How to ensure your values are unique."
+    pubdate: apr 30
+    tags:
+      - rb
+
+  - title: "Enhance Your JavaScript Debugging with Cross-Browser Source Maps"
+    url: "http://www.sitepoint.com/enhance-your-javascript-debugging-with-cross-browser-source-maps/"
+    comment: "Something goes wrong with the production version of your code, and debugging it directly from the production server is a nightmare."
+    pubdate: apr 30
+    tags:
+      - js
+
+  - title: "Stripe Subscriptions in Rails"
+    url: "http://www.sitepoint.com/stripe-subscriptions-rails/"
+    comment: "Choosing the right payment solution for your app could be tricky, especially if you’re running a global marketplace."
     pubdate: apr 30
     tags:
       - rb
@@ -94,7 +153,19 @@ topics:
     tags:
       - rb
 
+  - title: "Revealing the Inner Workings of JavaScript’s “this” Keyword"
+    url: "http://www.sitepoint.com/inner-workings-javascripts-this-keyword/"
+    comment: "One thing that confuses inexperienced developers is how the `this` keyword works."
+    pubdate: may 1
+    tags:
+      - js
 
+  - title: "ZStack, an Infrastructure Software with an In-Process Microservices Architecture"
+    url: "http://thenewstack.io/zstack-an-infrastructure-software-with-an-in-process-microservices-architecture/"
+    comment: "ZStack is open source IaaS (infrastructure as a service) software designed to automate datacenters and manage resources of compute, storage and networking through APIs."
+    pubdate: may 1
+    tags:
+      - ops
 
 - title: Watch
   baseline: "Screencasts and conferences videos, or other video feeds ..."
