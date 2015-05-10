@@ -1,0 +1,205 @@
+----------------------------------------------------
+Green Ruby News #118 - may 10th 2015
+----------------------------------------------------
+*|IFNOT:CONTENT=Only Rant|*
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+*Zago* (design)
+http://zagollc.com/
+A design agency, had some interesting projects.
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+*Ruby Patterns* (rb)
+https://github.com/TheBlasfem/ruby-patterns
+Examples of Patterns in Ruby.
+
+*Idiosyncratic Ruby* (rb)
+http://idiosyncratic-ruby.com/index/
+A 31 Parts Story about Ruby Specialities. A New Post Every Day in May 2015!.
+
+*Website Style Guide Resources* (tool)
+http://styleguides.io/
+Things people have written about style guides.
+
+*Glip* (tool)
+https://glip.com/
+Real-time messaging with integrated task management, video conferencing, shared calendars, etc.
+
+*Google Charts* (tool)
+https://developers.google.com/chart/
+Google Charts can be an alternative to D3. Maybe.
+
+*Google Cloud Bigtable* (tool)
+https://cloud.google.com/bigtable/docs/
+Single-indexed, sparsely populated table that can scale to billions of rows and thousands of columns.
+
+*Chip* (tool)
+https://www.kickstarter.com/projects/1598272670/chip-the-worlds-first-9-computer
+Raspberry was cheap? Chip is the new cheap, at $9.
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+*pluck_to_hash* (rb)
+https://github.com/girishso/pluck_to_hash
+Extend ActiveRecord pluck to return hash.
+
+*PolyBelongsTo* (rb)
+https://github.com/danielpclark/PolyBelongsTo
+Uniform Omni-Relational ActiveRecord Methods.
+
+*inherit_from_matcher* (rb)
+https://github.com/fny/rspec-inherit_from_matcher
+RSpec matcher for checking whether a class inherits from another.
+
+*Quinn* (js)
+http://quinnjs.com/
+A web framework designed for things to come.
+
+*Archjs* (js)
+https://github.com/redbadger/arch
+Web application framework for React.
+
+*Marx* (css3)
+https://github.com/mblode/marx
+If you don't need the weight of heavy CSS frameworks, Marx is perfect for you.
+
+*Ring* (tool)
+http://ring.cx/
+Full control over your communications and an unmatched level of privacy.
+
+*Apollo* (ops)
+https://github.com/Capgemini/Apollo
+Mesos cluster provisioning and orchestration using Packer and Terraform.
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+*How Much Testing Is Too Much?* (rb - may 4)
+http://www.justinweiss.com/blog/2015/05/04/how-much-testing-is-too-much
+Suggestions on how to keep reasonable size and efficiency of your tests.
+
+*What the pack* (rb - may 4)
+http://idiosyncratic-ruby.com/4-what-the-pack.html
+Examples and explanations of Array#pack and String#unpack.
+
+*A Complete Guide to SVG Fallbacks* (css3 - may 4)
+https://css-tricks.com/a-complete-guide-to-svg-fallbacks/
+Approximately 5% of users browsing the web are doing so with web browsers that can't display SVG.
+
+*Building an Event Sourced application using rails_event_store* (rb - may 5)
+http://blog.arkency.com/2015/05/building-an-event-sourced-application-using-rails-event-store
+Event sourcing and CQRS by using rails_event_store.
+
+*Transforms on SVG Elements* (css3 - may 5)
+https://css-tricks.com/transforms-on-svg-elements/
+Just like HTML elements, SVG elements can be manipulated using transform functions.
+
+*Top 10 Elasticsearch Metrics to Watch* (ops - may 5)
+http://blog.sematext.com/2015/05/05/top-10-elasticsearch-metrics-to-watch/
+How to monitor Elasticsearch, or, in many cases, who is watching the watcher?
+
+*Object hierarchy in Ruby* (rb - may 6)
+http://www.leighhalliday.com/object-hierarchy-in-ruby
+Default ancestry chain in Ruby, how to create your own ancestors, what the base level objects in Ruby actually do.
+
+*Rails 5: what’s new* (rb - may 7)
+https://medium.com/evil-martians/the-rails-5-post-9c76dbac8fc
+Test runner, where.or, new test request API, Render From Anywhere and no more alias_method_chain.
+
+*Speed up ActiveRecord with a little tweaking* (rb - may 7)
+http://blog.codeship.com/speed-up-activerecord
+When a page of mostly simple content takes a second or more to come back from the server.
+
+*Immutability in React* (js - may 7)
+http://www.sitepoint.com/immutability-react/
+Immutability truly shines in tracking changes.
+
+*Large-scale cluster management at Google with Borg* (ops - may 7)
+http://blog.acolyer.org/2015/05/07/large-scale-cluster-management-at-google-with-borg/
+If you wonder where Kubernetes comes from, Borg is the answer.
+
+*Self Improvement* (rb - may 8)
+http://idiosyncratic-ruby.com/8-self-improvement.html
+Differences between module_function and extend self.
+
+*Timeout: Ruby's Most Dangerous API* (rb - may 8)
+http://www.mikeperham.com/2015/05/08/timeout-rubys-most-dangerous-api/
+Ruby’s Timeout is a giant hammer and will only lead to a big mess.
+
+*Chaining an Array into Arel ors* (rb - may 9)
+http://6ftdan.com/allyourdev/2015/05/09/chaining-an-array-into-arel-ors
+Build complex query by chain/build arel parts.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+Links curated by by mose (publisher), xenor, tysliu (editors).
+*|END:IF|*
+*|IFNOT:CONTENT=Only Links|*
+
+Rant
+----------------------------------------------------
+The random rant of the week by mose.
+
+#### Letter process and numbers
+
+That's a few weeks now that we are getting organized better, with Xenor and
+Tysliu, on the preparation of this newsletter. The guys are now putting more
+attention to the news gathering and preformatting the [yaml source
+file][yamlsource] that I use to generate the letter and the website. After
+some time of practice, it is much better for me, as now I don't spend 5 hours
+each sunday anymore and I can manage the publication process in less than 2
+hours. I still gather some extra links after the editors push their
+contributions. Then I verify the links, the categories, edit the comments
+sometimes, add dots at the ends of line, such tiny things. A huge thanks to
+Xenor and Tysliu!
+
+Now we have 1312 subscribers to the newsletter. Plus an unknown number of RSS
+subscribers, maybe around 200. We get 250 visits per day on the website
+(according to webalizer), and most of them come from rss readers of many
+sorts. As the mailchimp is still free until we reach 2000, there is some
+margin. When we reach 1600 I think I swill begin a cleaning campaign, to help
+people that actually don't read the letter to unsubscribe. I kind of like the
+idea of throwing accounts away. Usually in web business, an account is an
+asset and they are never thrown away. There is so much to be told about
+numbers, and their reality, in our industry.
+
+But the reality about numbers is usually the consequence of the over
+simplification required by marketeers. Things are never so simple as just a
+single number. The technicians among us are always in pain when we need to
+provide numbers, because they come with a strict definition of what they
+count, and that definition is never respected by the people that just want to
+use the number and put a sexy label on it. When we say 'registered accounts'
+they say 'users'. Do you see the difference? Damn, I hate that system that
+forces salesmen to become a liars.
+
+[yamlsource]:
+https://github.com/greenruby/grn-static/blob/master/newsletters/grn.yml
+
+*|END:IF|*
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+
