@@ -3,7 +3,7 @@ edition: "118"
 pubdate: "may 10th 2015"
 editors: "xenor, tysliu"
 rant:
-  "#### 
+  "####
 "
 
 topics:
@@ -37,7 +37,17 @@ topics:
     tags:
       - web
 
+  - title: "Google Charts"
+    url: "https://developers.google.com/chart/"
+    comment: "D3 is not the only player in town, Google Charts are rendered using HTML5/SVG to provide cross-browser compatibility."
+    tags:
+      - web
 
+  - title: "Google Cloud Bigtable"
+    url: "https://cloud.google.com/bigtable/docs/"
+    comment: "Cloud Bigtable is a single-indexed, sparsely populated table that can scale to billions of rows and thousands of columns, allowing you to store terabytes or even petabytes of data."
+    tags:
+      - web
 
 - title: Install
   baseline: "A selection of gems or applications updated during past week."
@@ -67,6 +77,12 @@ topics:
     tags:
       - js
 
+  - title: "Marx"
+    url: "https://github.com/mblode/marx"
+    comment: "If you don't need the weight of heavy CSS frameworks or you would just like to make an edible website quickly, Marx is perfect for you."
+    tags:
+      - css3
+
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
@@ -86,12 +102,47 @@ topics:
     tags:
       - rb
 
+  - title: "A Complete Guide to SVG Fallbacks"
+    url: "https://css-tricks.com/a-complete-guide-to-svg-fallbacks/"
+    comment: "Approximately 5% of users browsing the web are doing so with web browsers that can't display SVG."
+    pubdate: may 4
+    tags:
+      - css3
+
   - title: "Building an Event Sourced application using rails_event_store"
     url: "http://blog.arkency.com/2015/05/building-an-event-sourced-application-using-rails-event-store"
     comment: "Event sourcing and CQRS by using rails_event_store"
     pubdate: may 5
     tags:
       - rb
+
+  - title: "Transforms on SVG Elements"
+    url: "https://css-tricks.com/transforms-on-svg-elements/"
+    comment: "Just like HTML elements, SVG elements can be manipulated using transform functions. "
+    pubdate: may 5
+    tags:
+      - css3
+
+  - title: "Object hierarchy in Ruby"
+    url: "http://www.leighhalliday.com/object-hierarchy-in-ruby"
+    comment: "Default ancestry chain in Ruby, how to create your own ancestors, and what the base level objects in Ruby actually do."
+    pubdate: may 6
+    tags:
+      - rb
+
+  - title: "Speed up ActiveRecord with a little tweaking"
+    url: "http://blog.codeship.com/speed-up-activerecord"
+    comment: "When a page of mostly simple content takes a second or more to come back from the server."
+    pubdate: may 7
+    tags:
+      - rb
+
+  - title: "Immutability in React"
+    url: "http://www.sitepoint.com/immutability-react/"
+    comment: "Immutability truly shines in tracking changes."
+    pubdate: may 7
+    tags:
+      - js
 
   - title: "Self Improvement"
     url: "http://idiosyncratic-ruby.com/8-self-improvement.html"
@@ -123,6 +174,6 @@ topics:
     url: ""
     comment: ""
     pubdate: apr 27
-    duration: 
+    duration:
     tags:
       - rb
