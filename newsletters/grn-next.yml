@@ -25,11 +25,17 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "Ruby Patterns"
+    url: "https://github.com/TheBlasfem/ruby-patterns"
+    comment: "Examples of Patterns in Ruby"
     tags:
-      - css3
+      - rb
+
+  - title: "Website Style Guide Resources"
+    url: "http://styleguides.io/"
+    comment: "Things people have written about style guides"
+    tags:
+      - web
 
 
 
@@ -37,24 +43,76 @@ topics:
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "pluck_to_hash"
+    url: "https://github.com/girishso/pluck_to_hash"
+    comment: "Extend ActiveRecord pluck to return hash"
     tags:
       - rb
+
+  - title: "PolyBelongsTo"
+    url: "https://github.com/danielpclark/PolyBelongsTo"
+    comment: "Uniform Omni-Relational ActiveRecord Methods"
+    tags:
+      - rb
+
+  - title: "inherit_from_matcher"
+    url: "https://github.com/fny/rspec-inherit_from_matcher"
+    comment: "RSpec matcher for checking whether a class inherits from another"
+    tags:
+      - rb
+
+  - title: "Archjs"
+    url: "https://github.com/redbadger/arch"
+    comment: "Web application framework for React"
+    tags:
+      - js
 
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
-    pubdate: apr 27
+  - title: "How Much Testing Is Too Much?"
+    url: "http://www.justinweiss.com/blog/2015/05/04/how-much-testing-is-too-much"
+    comment: "suggestions on how to keep reasonable size and efficiency of your tests"
+    pubdate: may 4
     tags:
       - rb
 
+  - title: "What the pack"
+    url: "http://idiosyncratic-ruby.com/4-what-the-pack.html"
+    comment: "Examples and explanations of Array#pack and String#unpack"
+    pubdate: may 4
+    tags:
+      - rb
+
+  - title: "Building an Event Sourced application using rails_event_store"
+    url: "http://blog.arkency.com/2015/05/building-an-event-sourced-application-using-rails-event-store"
+    comment: "Event sourcing and CQRS by using rails_event_store"
+    pubdate: may 5
+    tags:
+      - rb
+
+  - title: "Self Improvement"
+    url: "http://idiosyncratic-ruby.com/8-self-improvement.html"
+    comment: "differences between module_function and extend self"
+    pubdate: may 8
+    tags:
+      - rb
+
+  - title: "Timeout: Ruby's Most Dangerous API"
+    url: "http://www.mikeperham.com/2015/05/08/timeout-rubys-most-dangerous-api/"
+    comment: "Ruby’s Timeout is a giant hammer and will only lead to a big mess."
+    pubdate: may 8
+    tags:
+      - rb
+
+  - title: "Chaining an Array into Arel ors"
+    url: "http://6ftdan.com/allyourdev/2015/05/09/chaining-an-array-into-arel-ors"
+    comment: "build complex query by chain/build arel parts"
+    pubdate: may 9
+    tags:
+      - rb
 
 
 - title: Watch
