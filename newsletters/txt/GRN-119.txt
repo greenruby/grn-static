@@ -1,0 +1,201 @@
+----------------------------------------------------
+Green Ruby News #119 - may 17th 2015
+----------------------------------------------------
+*|IFNOT:CONTENT=Only Rant|*
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+*Werkstatt* (design)
+http://www.werkstatt.fr/
+French interactive design studio, with a nicely done website.
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+*BLNKK* (tool)
+https://blnkk.com
+Connect with potential team members, investors, beta testers and early adopters (well done Gerben).
+
+*Makerbook* (tool)
+http://makerbook.net/
+A hand-picked directory of the best free resources for creatives..
+
+*Awesome MySQL* (ops)
+http://shlomi-noach.github.io/awesome-mysql/
+A curated list of awesome MySQL software, libraries and resources.
+
+*Erlang in anger* (ops)
+http://www.erlang-in-anger.com/
+(ebook) free little guide about how to be the Erlang medic in a time of war.
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+*aci9* (rb)
+https://github.com/be9/acl9
+Yet another role-based authorization system for Rails.
+
+*howitzer* (rb)
+https://github.com/strongqa/howitzer
+Universal Ruby Test Framework.
+
+*deep_enumerable* (rb)
+https://github.com/dgopstein/deep_enumerable
+A library for manipulating nested collections in Ruby.
+
+*SMOKE* (js)
+http://alfredobarron.github.io/smoke/#/
+Smoke is a jQuery Plugin library designed for use with Bootstrap 3.
+
+*Kore* (ops)
+https://kore.io/
+Easy to use web application framework for writing scalable web APIs in C.
+
+*Free Network Analyzer Tools for MySQL and PostgreSQL* (ops)
+https://vividcortex.com/blog/2015/05/13/announcing-vividcortex-network-analyzer-mysql-postgresql/
+Like tcpdump but database focused.
+
+*Terraframe* (ops)
+https://github.com/eropple/terraframe
+Processor in ruby for a DSL that outputs to the Terraform specification format.
+
+*Swaddle* (ops)
+https://github.com/raphaelcohn/swaddle
+Creates RPM, Deb and tarball packages using shell script.
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+*A New Way to Understand Your Rails App’s Performance* (rb - may 11)
+http://www.justinweiss.com/blog/2015/05/11/a-new-way-to-understand-your-rails-apps-performance
+About mini-profiler and flamegraph.
+
+*My solution to #5 Software Engineer challenge* (rb - may 11)
+http://www.leighhalliday.com/solution-software-engineer-interview-challenge
+Apparently every Software Engineer should be able to solve this in less than 1 hour.
+
+*How Ruby Uses Memory* (rb - may 11)
+http://www.sitepoint.com/ruby-uses-memory
+Why memory use goes up or down as your code executes.
+
+*More Inspections* (rb - may 12)
+http://idiosyncratic-ruby.com/12-more-inspections.html
+Introduce inspect options in irb.
+
+*The At-Rules of CSS* (css3 - may 12)
+https://css-tricks.com/the-at-rules-of-css/
+The at-rule is where it's at for making CSS do some crazy and interesting things.
+
+*Rails: Don’t “pluck” Unnecessarily* (rb - may 13)
+http://6ftdan.com/allyourdev/2015/05/13/rails-dont-pluck-unnecessarily
+`pluck` can lead to multi query unnecessarily.
+
+*Mega Dropdown* (web - may 13)
+http://codyhouse.co/gem/mega-dropdown/
+A responsive and easy to customize mega-dropdown component.
+
+*Experimental MySQL HTTP API and Ruby* (rb - may 14)
+http://ilyabylich.svbtle.com/experimental-mysql-http-api-and-ruby
+MySQL 5.7 ships it's experimental HTTP API for SQL/CRUD/JSON endpoints.
+
+*A Comparison of JavaScript HTTP Libraries for the Browser* (js - may 14)
+http://www.sitepoint.com/comparison-javascript-http-libraries/
+Two alternative libraries that allow you to perform Ajax requests.
+
+*Responsive Images with WURFL Image Tailor* (web - may 14)
+http://www.sitepoint.com/responsive-images-wurfl-image-tailor/
+When it comes to images and mobile devices, there is a lot more to consider.
+
+*Speed Up Your Rails Views By Deferring Changes* (rb - may 15)
+http://6ftdan.com/allyourdev/2015/05/15/speed-up-your-rails-views-by-deferring-changes/
+Using javascript + erb to lazy loads your helper query.
+
+*Building a Slack slash command with Sinatra, Finch and Heroku* (rb - may 15)
+http://wearestac.com/blog/building-a-slack-slash-command-with-sinatra-finch-and-heroku
+Registering a slash command with local sinatra application.
+
+*Test Incoming Webhook Requests with Faraday* (rb - may 15)
+https://robots.thoughtbot.com/use-faraday-to-test-incoming-webhooks
+A trick to simulate external webhooks in your test suite.
+
+*How To Write Ruby Faster at the Source Code Level* (rb - may 16)
+http://thenewstack.io/how-to-write-ruby-faster-at-the-source-code-level/
+Performance boosts by using another method(s) to achieve the same goal.
+
+Watch
+----------------------------------------------------
+Screencasts and conferences videos, or other video feeds ...
+
+*Gorails 55* (rb - may 15 - 19m)
+https://gorails.com/episodes/my-development-environment-for-ruby-on-rails
+My Development Environment
+
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+Links curated by by mose (publisher), xenor, tysliu (editors).
+*|END:IF|*
+*|IFNOT:CONTENT=Only Links|*
+
+Rant
+----------------------------------------------------
+The random rant of the week by mose.
+
+#### Noobs rule the planet
+
+There is something that I always did in my career managing internet tools. I
+volunteer helping non-technical people to get a presence online, build up
+communities and such things. But I have to confess, this comes with a price. A
+price on your nerves when you realize that easy obvious things that you take
+for granted are actually not clear at all by the average Joe.
+
+Yeah sure they can post of facebook. For many of them, it's pretty much all
+what internet means. But for the real things, they have no clue what they are
+doing. Talk about the merits of a chaos money to test your infrastructure.
+Well, the man on the street is pretty much the best you can get when it comes
+to chaos testing your design and workflow.
+
+But whatever infuriating it can be, it's a great thing to keep in mind. People
+have no clue what they are doing. They don't know what an url is. They think
+smileys are fun. They feel writing all in capitals is just a detail. When some
+popup appears they consider it's all broken and there is no need to read
+what's written on it because anyways that's over their heads.
+
+So, when you design your applications, you may be lucky enough to face an
+educated population. But in many cases, you may not. Take it in account. Make
+things over-explicit and use images to bypass the inability of the modern
+average people to read anything that is more than a sentence of 5 words.
+
+Go volunteer to help your fellow neighbors in your local non-tech communities.
+It's hard, but it helps keep in touch with the reality.
+
+And above all, keep patience. It's not their fault. There has never been any
+economical incentive to educate users. The shortest path is always the best
+path. So for sure, you should make things easy. But if you get any occasion to
+provide your users some education, it's never going to be on your spec sheets.
+You can do it as a natural thing to do. Add optional text to explain why
+things are the way they are. Few will read it, but they will learn from it.
+
+*|END:IF|*
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+
