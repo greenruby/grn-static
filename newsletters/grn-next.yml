@@ -37,24 +37,76 @@ topics:
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "aci9"
+    url: "https://github.com/be9/acl9"
+    comment: "Yet another role-based authorization system for Rails"
     tags:
       - rb
 
+  - title: "howitzer"
+    url: "https://github.com/strongqa/howitzer"
+    comment: "Universal Ruby Test Framework"
+    tags:
+      - rb
+
+  - title: "deep_enumerable"
+    url: "https://github.com/dgopstein/deep_enumerable"
+    comment: "A library for manipulating nested collections in Ruby"
+    tags:
+      - rb
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "A New Way to Understand Your Rails App’s Performance"
+    url: "http://www.justinweiss.com/blog/2015/05/11/a-new-way-to-understand-your-rails-apps-performance"
+    comment: "mini-profiler and flamegraph."
+    pubdate: may 11
+    tags:
+      - rb
+
+  - title: "More Inspections"
+    url: "http://idiosyncratic-ruby.com/12-more-inspections.html"
+    comment: "Introduce inspect options in irb"
+    pubdate: may 12
+    tags:
+      - rb
+
+  - title: "Rails: Don’t “pluck” Unnecessarily"
+    url: "http://6ftdan.com/allyourdev/2015/05/13/rails-dont-pluck-unnecessarily"
+    comment: "`pluck` can lead to multi query unnecessarily."
+    pubdate: may 13
+    tags:
+      - rb
+
+  - title: "Experimental MySQL HTTP API and Ruby"
+    url: "http://ilyabylich.svbtle.com/experimental-mysql-http-api-and-ruby"
+    comment: "MySQL 5.7 ships it's experimental HTTP API for SQL/CRUD/JSON endpoints."
+    pubdate: may 14
+    tags:
+      - rb
+
+  - title: "Speed Up Your Rails Views By Deferring Changes"
+    url: "http://6ftdan.com/allyourdev/2015/05/15/speed-up-your-rails-views-by-deferring-changes/"
+    comment: "Using javascript + erb to lazy loads your helper query."
     pubdate: may 15
     tags:
       - rb
 
+  - title: "Building a Slack slash command with Sinatra, Finch and Heroku"
+    url: "http://wearestac.com/blog/building-a-slack-slash-command-with-sinatra-finch-and-heroku"
+    comment: "Registering a slash command with local sinatra application"
+    pubdate: may 15
+    tags:
+      - rb
+
+  - title: "How To Write Ruby Faster at the Source Code Level"
+    url: "http://thenewstack.io/how-to-write-ruby-faster-at-the-source-code-level/"
+    comment: "Performance boosts by using another method(s) to achieve the same goal."
+    pubdate: may 16
+    tags:
+      - rb
 
 
 - title: Watch
