@@ -3,7 +3,7 @@ edition: "119"
 pubdate: "may 17th 2015"
 editors: "xenor, tysliu"
 rant:
-  "#### 
+  "####
 "
 
 topics:
@@ -55,6 +55,12 @@ topics:
     tags:
       - rb
 
+  - title: "SMOKE"
+    url: "http://alfredobarron.github.io/smoke/#/"
+    comment: "Smoke is a jQuery Plugin library designed for use with Bootstrap 3."
+    tags:
+      - js
+
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
   links:
@@ -66,12 +72,33 @@ topics:
     tags:
       - rb
 
+  - title: "My solution to #5 Software Engineer challenge"
+    url: "http://www.leighhalliday.com/solution-software-engineer-interview-challenge"
+    comment: "Apparently every Software Engineer should be able to solve this in less than 1 hour."
+    pubdate: may 11
+    tags:
+      - rb
+
+  - title: "How Ruby Uses Memory"
+    url: "http://www.sitepoint.com/ruby-uses-memory"
+    comment: "Few developers know the ins-and-outs of why their memory use goes up or down as their code executes."
+    pubdate: may 11
+    tags:
+      - rb
+
   - title: "More Inspections"
     url: "http://idiosyncratic-ruby.com/12-more-inspections.html"
     comment: "Introduce inspect options in irb"
     pubdate: may 12
     tags:
       - rb
+
+  - title: "The At-Rules of CSS"
+    url: "https://css-tricks.com/the-at-rules-of-css/"
+    comment: "The at-rule is where it's at for making CSS do some crazy and interesting things."
+    pubdate: may 12
+    tags:
+      - css3
 
   - title: "Rails: Don’t “pluck” Unnecessarily"
     url: "http://6ftdan.com/allyourdev/2015/05/13/rails-dont-pluck-unnecessarily"
@@ -80,12 +107,33 @@ topics:
     tags:
       - rb
 
+  - title: "Mega Dropdown"
+    url: "http://codyhouse.co/gem/mega-dropdown/"
+    comment: "A responsive and easy to customise mega-dropdown component."
+    pubdate: may 13
+    tags:
+      - web
+
   - title: "Experimental MySQL HTTP API and Ruby"
     url: "http://ilyabylich.svbtle.com/experimental-mysql-http-api-and-ruby"
     comment: "MySQL 5.7 ships it's experimental HTTP API for SQL/CRUD/JSON endpoints."
     pubdate: may 14
     tags:
       - rb
+
+  - title: "A Comparison of JavaScript HTTP Libraries for the Browser"
+    url: "http://www.sitepoint.com/comparison-javascript-http-libraries/"
+    comment: "Two alternative libraries that allow you to perform Ajax reuqests."
+    pubdate: may 14
+    tags:
+      - js
+
+  - title: "Responsive Images with WURFL Image Tailor"
+    url: "http://www.sitepoint.com/responsive-images-wurfl-image-tailor/"
+    comment: "When it comes to images and mobile devices, there’s a lot more to consider."
+    pubdate: may 14
+    tags:
+      - web
 
   - title: "Speed Up Your Rails Views By Deferring Changes"
     url: "http://6ftdan.com/allyourdev/2015/05/15/speed-up-your-rails-views-by-deferring-changes/"
@@ -117,6 +165,6 @@ topics:
     url: ""
     comment: ""
     pubdate: may 15
-    duration: 
+    duration:
     tags:
       - rb
