@@ -67,13 +67,15 @@
           %h3( data-toggle="collapse" data-target="#letters-collapse" )
             Archives
           .collapse.navbar-collapse#letters-collapse
+            %a.show-more(data-all="0" data-year="2015" href="#") Archives 2015
+            %a.show-more(data-all="0" data-year="2014" href="#") Archives 2014
+            %a.show-more(data-all="0" data-year="2013" href="#") Archives 2013
             %ul.nav.nav-sidebar.letters
               - letters.each do |num, letter|
-                %li
+                %li{ class: "#{letter['date'][/20[0-9]{2}/]}" }
                   %a{ href: letter['link'] }
                     = num
                     %span.date= letter['date'].gsub(/ [0-9]+$/,'')
-            %a#show-more(data-all="0" href="#") Show all
 
         .col-sm-9.col-md-7.main
           = content
