@@ -1,9 +1,9 @@
 ---
-edition: "120"
-pubdate: "may 24th 2015"
+edition: "121"
+pubdate: "may 31th 2015"
 editors: "xenor, tysliu"
 rant:
-  "####
+  "#### 
 "
 
 topics:
@@ -25,125 +25,46 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: "iconate.js"
-    url: "http://bitshadow.github.io/iconate/"
-    comment: "Transform your icons with trendy animations."
+  - title: ""
+    url: ""
+    comment: ""
     tags:
-      - js
+      - css3
 
-  - title: "Solved by Flexbox"
-    url: "https://philipwalton.github.io/solved-by-flexbox/"
-    comment: "Showcase of CSS problems once hard to solve but solved easily by the Flexbox."
-    tags:
-      - css
 
 
 - title: Install
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: "Oga"
-    url: "https://github.com/YorickPeterse/oga"
-    comment: "Until now if one wanted to parse XML and/or HTML in Ruby the most common choice would be Nokogiri."
+  - title: ""
+    url: ""
+    comment: ""
     tags:
-      - ruby
+      - rb
 
-  - title: "ruby-spark"
-    url: "https://github.com/ondra-m/ruby-spark"
-    comment: "Ruby wrapper for Apache Spark."
-    tags:
-      - ruby
-
-  - title: "persistent_open_struct"
-    url: "https://github.com/amcaplan/persistent_open_struct"
-    comment: "A faster implementation of OpenStruct"
-    tags:
-      - ruby
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: "How to Dispel Ruby Magic and Understand Your Gems"
-    url: "http://www.justinweiss.com/blog/2015/05/18/how-to-dispel-ruby-magic-and-understand-your-gems/"
-    comment: "source_location, bundle open, and gem pristine"
-    pubdate: may 18
-    tags:
-      - web
-
-  - title: "Building a Slack Clone in Meteor.js: Real-Time Data"
-    url: "https://scotch.io/tutorials/building-a-slack-clone-in-meteor-js-real-time-data"
-    comment: "This is the second of a five-part series on building a Slack clone using Meteor."
-    pubdate: may 18
-    tags:
-      - web
-
-  - title: "Rails 5 - Much Faster Collection Rendering"
-    url: "https://dev.firmafon.dk/blog/rails-5-much-faster-collection-rendering"
-    comment: "Rails 5 has sped up rendering collections of cached partials."
-    pubdate: may 19
-    tags:
-      - rb
-
-  - title: "Considerations on Bug Reporting in Teams"
-    url: "https://css-tricks.com/considerations-on-bug-reporting-in-teams/"
-    comment: "Having a system for bug reports in a team environment has a ton of benefits."
-    pubdate: may 19
-    tags:
-      - web
-
-  - title: "An Introduction to Vagrant"
-    url: "https://css-tricks.com/an-introduction-to-vagrant/"
-    comment: "I think most of us have uttered these words at least once: 'Well, it works on my local server'."
+  - title: ""
+    url: ""
+    comment: ""
     pubdate: may 20
     tags:
-      - web
-
-  - title: "Graph Algorithms in Ruby"
-    url: "http://www.sitepoint.com/graph-algorithms-ruby/"
-    comment: "The standard repertoire of algorithms is pretty fundamental to computer science and having a bit of experience with them can be incredibly beneficial."
-    pubdate: may 22
-    tags:
       - rb
 
-  - title: "The Final Steps to Mastering JavaScript’s “this” Keyword"
-    url: "http://www.sitepoint.com/mastering-javascripts-this-keyword/"
-    comment: "'this' context can be changed in a way we don’t expect."
-    pubdate: may 22
-    tags:
-      - js
 
-  - title: "What you should know about collapsing margins"
-    url: "https://css-tricks.com/what-you-should-know-about-collapsing-margins/"
-    comment: "Collapsing margins are real and they can be a real pain in the neck if you're not aware of what they are and how they behave."
-    pubdate: may 22
-    tags:
-      - css3
 
 - title: Watch
   baseline: "Screencasts and conferences videos, or other video feeds ..."
   links:
 
-  - title: "So what’s the deal with Ruby refinements, anyway?"
-    url: "http://devblog.avdi.org/2015/05/20/so-whats-the-deal-with-ruby-refinements-anyway/"
-    comment: "All about refine"
-    pubdate: may 20
-    duration: 4m
-    tags:
-      - rb
-
-  - title: "The Soul of Software"
-    url: "http://devblog.avdi.org/2015/05/21/the-soul-of-software/"
-    comment: "Speaker starts with the premise that the Ruby wave may have peaked."
-    pubdate: may 21
-    duration: 47m
-    tags:
-      - rb
-
-  - title: "Build a Realtime Chat App with Ruby and Volt"
-    url: "https://www.youtube.com/watch?v=rc4GR04KUy0"
-    comment: "Build a chat app in 9 minutes"
-    pubdate: may 21
-    duration: 9m
+  - title: ""
+    url: ""
+    comment: ""
+    pubdate: may 25
+    duration: 
     tags:
       - rb

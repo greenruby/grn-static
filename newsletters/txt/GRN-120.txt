@@ -1,0 +1,216 @@
+----------------------------------------------------
+Green Ruby News #120 - may 24th 2015
+----------------------------------------------------
+*|IFNOT:CONTENT=Only Rant|*
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+*Dreamteam* (design)
+http://dreamteam.pl/
+Great use of the scrolling for an alternative navigation.
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+*iconate.js* (js)
+http://bitshadow.github.io/iconate/
+Transform icons with shiny animations.
+
+*Solved by Flexbox* (css3)
+https://philipwalton.github.io/solved-by-flexbox/
+Showcase of CSS problems easily solved by Flexbox.
+
+*Notism* (design)
+https://www.notism.io
+Share and collaborate on design and video work.
+
+*Awesome* (tool)
+https://github.com/sindresorhus/awesome
+A curated list of awesome lists.
+
+*Github Engineering* (ops)
+http://githubengineering.com/
+A new blog about what does it take to run and build GitHub.
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+*Oga* (rb)
+https://github.com/YorickPeterse/oga
+An alternative to Nokogiri.
+
+*ruby-spark* (rb)
+https://github.com/ondra-m/ruby-spark
+Ruby wrapper for Apache Spark.
+
+*persistent_open_struct* (rb)
+https://github.com/amcaplan/persistent_open_struct
+A faster implementation of OpenStruct.
+
+*Tacokit* (rb)
+https://github.com/rossta/tacokit.rb
+A ruby wrapper for the Trello API.
+
+*Graylog 1.1 beta* (ops)
+https://www.graylog.org/graylog-1-1-beta-is-now-available/
+Focus on usability and ease of management.
+
+*ClearLinux* (ops)
+https://clearlinux.org/
+A new cloud linux distro from Intel.
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+*How to Dispel Ruby Magic and Understand Your Gems* (rb - may 18)
+http://www.justinweiss.com/blog/2015/05/18/how-to-dispel-ruby-magic-and-understand-your-gems/
+source_location, bundle open, and gem pristine.
+
+*Building a Slack Clone in Meteor.js: Real-Time Data* (js - may 18)
+https://scotch.io/tutorials/building-a-slack-clone-in-meteor-js-real-time-data
+This is the second of a five-part series on building a Slack clone using Meteor.
+
+*Rails 5 - Much Faster Collection Rendering* (rb - may 19)
+https://dev.firmafon.dk/blog/rails-5-much-faster-collection-rendering
+Rails 5 speeding up rendering collections of cached partials.
+
+*Considerations on Bug Reporting in Teams* (tool - may 19)
+https://css-tricks.com/considerations-on-bug-reporting-in-teams/
+Having a system for bug reports in a team environment has a ton of benefits.
+
+*An Introduction to Vagrant* (tool - may 20)
+https://css-tricks.com/an-introduction-to-vagrant/
+Make your local environment closer to the production.
+
+*A Field Guide to Docker Security Measures* (ops - may 21)
+https://zwischenzugs.wordpress.com/2015/05/21/a-field-guide-to-docker-security-measures/
+Some of the ways to reduce or help manage the risk of running docker farms.
+
+*Graph Algorithms in Ruby* (rb - may 22)
+http://www.sitepoint.com/graph-algorithms-ruby/
+In depth dive into this weird graph algorithm.
+
+*The Final Steps to Mastering JavaScript’s 'this' Keyword* (js - may 22)
+http://www.sitepoint.com/mastering-javascripts-this-keyword/
+The context of 'this' can be changed in a odd ways.
+
+*What you should know about collapsing margins* (css3 - may 22)
+https://css-tricks.com/what-you-should-know-about-collapsing-margins/
+Collapsing margins: what they are and how they behave.
+
+*CD for infrastructure services* (ops - may 22)
+http://fractio.nl/2015/05/22/cd-for-infrastructure-services/
+Lessons learned about continuously deploying infrastructure.
+
+*Working with files and folders* (rb - may 24)
+http://www.blackbytes.info/2015/05/working-with-files/
+Quick review on File, Dir and IO.
+
+*Upload video files with progress bar* (rb - may 24)
+http://www.alfredo.motta.name/upload-video-files-with-rails-paperclip-and-jquery-upload-file/
+Using Rails, Paperclip and Javascript.
+
+Watch
+----------------------------------------------------
+Screencasts and conferences videos, or other video feeds ...
+
+*So what’s the deal with Ruby refinements, anyway?* (rb - may 20 - 4m)
+http://devblog.avdi.org/2015/05/20/so-whats-the-deal-with-ruby-refinements-anyway/
+All about refinements.
+
+*The Soul of Software* (rb - may 21 - 47m)
+http://devblog.avdi.org/2015/05/21/the-soul-of-software/
+Speaker starts with the premise that the Ruby wave may have peaked.
+
+*Build a Realtime Chat App with Ruby and Volt* (rb - may 21 - 9m)
+https://www.youtube.com/watch?v=rc4GR04KUy0
+Build a chat app in 9 minutes.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+Links curated by by mose (publisher), xenor, tysliu (editors).
+*|END:IF|*
+*|IFNOT:CONTENT=Only Links|*
+
+Rant
+----------------------------------------------------
+The random rant of the week by mose.
+
+#### The side effects of recruitment
+
+Recently I had to look for a new devops for our team. I have been handling
+technical recruitment at many occasions, and each time I have to explain my
+colleagues that I have a special process. The fact is, the technical sphere is
+a small one, we are all linked, more or less, to a community. Well, in my
+case, I always have had to recruit people in companies that were hiring the
+kind of people that commit on github, have some kind of community activity, at
+least. I guess that in huge companies where people are just a set of
+checkboxes, things go a bit differently.
+
+But anyways, in my case, and probably in the case of all recruiters in modern
+and small businesses, it's not all about checkboxes and profiles. It's about
+personality, compatibility, and mindset. So when I first get a contact with a
+candidate, I invite him (or much more rarely, her), to a chat online,
+preferably on irc or whatever real-time discussion media is more fit (for a
+linux geek, if you can't go on irc, then there is a problem).
+
+I noticed that during my past sessions of recruitment, I established contacts
+with very interesting people. By having an unformal discussion online, just
+chit-chating of what work we do and what we did before, it's kind of easy to
+get an idea of what is the kind of relationship you will have with your
+potential future colleague. But beyond that, it's all about making things
+personal. We are all unique. It cannot be computed, scripted, engineered in a
+way that non-technical people would be successful conducting that process. It
+takes a geek to recognize another geek.
+
+At Gandi of course we have a HR person. But she usually appears at the very
+end of the process and not at the beginning. The peers are going to evaluate
+candidates, make their mind to see if they want to spend days and days
+collaborating with them. It matches with my way to do things, fortunately. If
+I have any doubt of the technical abilities on someone, I don't do stupid
+technical tests, I try to find other people that know the candidate and get
+third party feedback. If not, then I try to use a meetup in a community
+related to the speciality in question, so we can discuss and be around other
+people where some tangent discussion can happen.
+
+At the end, if all goes well, then the candidate is going to enter the more
+formal whatever the company uses as a recruitment flow. But that's merely a
+formality. And after 20 years building up teams and recruiting people, I can
+affirm that instinct always wins, in my case. If I smell anything fishy in an
+unformal context, there is going to be problems. Well, the process is never
+perfect, it also can smell ok but stink after 3 months, too.
+
+But the thing is that having those chats online with peers is pretty
+interesting. I learn a lot about how other companies work, how they handle
+their management, what kind of work conditions they have. Just because it's
+part of the contact process. So I'm not really in hurry to make a final
+decision because, to be honest, I just enjoy those contacts.
+
+It certainly takes some time, I can't be in constant recruitment, but from
+time to time, it's very valuable. And not only for the effect of recruiting
+someone. It creates bonds with the industry, with people, with communities.
+
+*|END:IF|*
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+
