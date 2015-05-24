@@ -31,6 +31,13 @@ topics:
     tags:
       - js
 
+  - title: "Solved by Flexbox"
+    url: "https://philipwalton.github.io/solved-by-flexbox/"
+    comment: "Showcase of CSS problems once hard to solve but solved easily by the Flexbox."
+    tags:
+      - css
+
+
 - title: Install
   baseline: "A selection of gems or applications updated during past week."
   links:
@@ -41,16 +48,28 @@ topics:
     tags:
       - ruby
 
-  - title: "iconate.js"
-    url: "http://bitshadow.github.io/iconate/"
-    comment: "Transform your icons with trendy animations."
+  - title: "ruby-spark"
+    url: "https://github.com/ondra-m/ruby-spark"
+    comment: "Ruby wrapper for Apache Spark."
     tags:
-      - js
+      - ruby
 
+  - title: "persistent_open_struct"
+    url: "https://github.com/amcaplan/persistent_open_struct"
+    comment: "A faster implementation of OpenStruct"
+    tags:
+      - ruby
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
   links:
+
+  - title: "How to Dispel Ruby Magic and Understand Your Gems"
+    url: "http://www.justinweiss.com/blog/2015/05/18/how-to-dispel-ruby-magic-and-understand-your-gems/"
+    comment: "source_location, bundle open, and gem pristine"
+    pubdate: may 18
+    tags:
+      - web
 
   - title: "Building a Slack Clone in Meteor.js: Real-Time Data"
     url: "https://scotch.io/tutorials/building-a-slack-clone-in-meteor-js-real-time-data"
@@ -105,10 +124,26 @@ topics:
   baseline: "Screencasts and conferences videos, or other video feeds ..."
   links:
 
+  - title: "So what’s the deal with Ruby refinements, anyway?"
+    url: "http://devblog.avdi.org/2015/05/20/so-whats-the-deal-with-ruby-refinements-anyway/"
+    comment: "All about refine"
+    pubdate: may 20
+    duration: 4m
+    tags:
+      - rb
+
   - title: "The Soul of Software"
     url: "http://devblog.avdi.org/2015/05/21/the-soul-of-software/"
     comment: "Speaker starts with the premise that the Ruby wave may have peaked."
     pubdate: may 21
     duration: 47m
+    tags:
+      - rb
+
+  - title: "Build a Realtime Chat App with Ruby and Volt"
+    url: "https://www.youtube.com/watch?v=rc4GR04KUy0"
+    comment: "Build a chat app in 9 minutes"
+    pubdate: may 21
+    duration: 9m
     tags:
       - rb
