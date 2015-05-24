@@ -3,7 +3,7 @@ edition: "120"
 pubdate: "may 24th 2015"
 editors: "xenor, tysliu"
 rant:
-  "#### 
+  "####
 "
 
 topics:
@@ -25,46 +25,90 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "iconate.js"
+    url: "http://bitshadow.github.io/iconate/"
+    comment: "Transform your icons with trendy animations."
     tags:
-      - css3
-
-
+      - js
 
 - title: Install
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "Oga"
+    url: "https://github.com/YorickPeterse/oga"
+    comment: "Until now if one wanted to parse XML and/or HTML in Ruby the most common choice would be Nokogiri."
     tags:
-      - rb
+      - ruby
+
+  - title: "iconate.js"
+    url: "http://bitshadow.github.io/iconate/"
+    comment: "Transform your icons with trendy animations."
+    tags:
+      - js
 
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
-    pubdate: may 20
+  - title: "Building a Slack Clone in Meteor.js: Real-Time Data"
+    url: "https://scotch.io/tutorials/building-a-slack-clone-in-meteor-js-real-time-data"
+    comment: "This is the second of a five-part series on building a Slack clone using Meteor."
+    pubdate: may 18
+    tags:
+      - web
+
+  - title: "Rails 5 - Much Faster Collection Rendering"
+    url: "https://dev.firmafon.dk/blog/rails-5-much-faster-collection-rendering"
+    comment: "Rails 5 has sped up rendering collections of cached partials."
+    pubdate: may 19
     tags:
       - rb
 
+  - title: "Considerations on Bug Reporting in Teams"
+    url: "https://css-tricks.com/considerations-on-bug-reporting-in-teams/"
+    comment: "Having a system for bug reports in a team environment has a ton of benefits."
+    pubdate: may 19
+    tags:
+      - web
 
+  - title: "An Introduction to Vagrant"
+    url: "https://css-tricks.com/an-introduction-to-vagrant/"
+    comment: "I think most of us have uttered these words at least once: 'Well, it works on my local server'."
+    pubdate: may 20
+    tags:
+      - web
+
+  - title: "Graph Algorithms in Ruby"
+    url: "http://www.sitepoint.com/graph-algorithms-ruby/"
+    comment: "The standard repertoire of algorithms is pretty fundamental to computer science and having a bit of experience with them can be incredibly beneficial."
+    pubdate: may 22
+    tags:
+      - rb
+
+  - title: "The Final Steps to Mastering JavaScript’s “this” Keyword"
+    url: "http://www.sitepoint.com/mastering-javascripts-this-keyword/"
+    comment: "'this' context can be changed in a way we don’t expect."
+    pubdate: may 22
+    tags:
+      - js
+
+  - title: "What you should know about collapsing margins"
+    url: "https://css-tricks.com/what-you-should-know-about-collapsing-margins/"
+    comment: "Collapsing margins are real and they can be a real pain in the neck if you're not aware of what they are and how they behave."
+    pubdate: may 22
+    tags:
+      - css3
 
 - title: Watch
   baseline: "Screencasts and conferences videos, or other video feeds ..."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
-    pubdate: may 20
-    duration: 
+  - title: "The Soul of Software"
+    url: "http://devblog.avdi.org/2015/05/21/the-soul-of-software/"
+    comment: "Speaker starts with the premise that the Ruby wave may have peaked."
+    pubdate: may 21
+    duration: 47m
     tags:
       - rb
