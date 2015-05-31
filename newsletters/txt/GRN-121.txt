@@ -143,7 +143,7 @@ partition where logs are stored went 100%. In such case, It's clever top purge
 old useless logfiles. Typical move for me would be to run logrotate manually
 with
 
-<pre> logrotate -f /etc/logrotate.conf </pre>
+  logrotate -f /etc/logrotate.conf
 
 But I had a case where that was not enough. A developer forgot to remove a
 debugging output and the logs were just gathering way too much information,
@@ -161,19 +161,19 @@ It's a pretty neat trick (if you have gdb installed on your production server,
 which may not always be the case, and for good reasons). Anyways I had it at
 hand, and here is the sequence:
 
-<pre> touch /path/to/new/logfile
+  touch /path/to/new/logfile
 
-gdb -p pid
+  gdb -p pid
 
-(gdb) call dup(1)
-$1 = 3
-(gdb) call close(1)
-$2 = 0
-(gdb) call open("/path/to/new/logfile", 2)
-$3 = 1
-(gdb) call close($1)
-$4 = 0
-(gdb) </pre>
+  (gdb) call dup(1)
+  $1 = 3
+  (gdb) call close(1)
+  $2 = 0
+  (gdb) call open("/path/to/new/logfile", 2)
+  $3 = 1
+  (gdb) call close($1)
+  $4 = 0
+  (gdb)
 
 This gave me the taste of digging up a little bit more on how gdb can interact
 with live processes.
