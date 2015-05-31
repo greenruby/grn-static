@@ -14,13 +14,13 @@ logrotate -f /etc/logrotate.conf
 </pre>
 
 
-But I had a case where that was not enough. A developer forgot to remove a debugging output and the logs were just piling up way too fast, more than what I could free with some janitoring.
+But I had a case where that was not enough. A developer forgot to remove a debugging output and the logs were just gathering way too much information, more than what I could free with some janitoring.
 
 
-To avoid losing logs, we can move the logfile where there is space and replace the file with a symbolic link. That's good enough for until the partition gets resized or the logs get cleaned. But when it's done on a live logfile, the running process that writes into it still has the same file descriptor. The process has to be relaunched so the new fd can be taken in account, on the new partition, as instructed by the symbolic link.
+To avoid losing logs, we can move the logfile where there is space and replace the file with a symbolic link. That's good enough for until the partition gets resized of the logs get cleaned. But when it's done on a live logfile, the running process that writes into it still has the same file descriptor. The process has to be relaunched so the new fd can be taken in account, on the new partition, as instructed by the symbolic link.
 
 
-So a colleague pointed out that could be done on a single process without restart by using gdb. It's a pretty neat trick (if you have gdb installed on your production server, which may not always be the case, and for good reasons). Anyways I had it at hand, and here is the sequence:
+So a colleague pointed out that could be done without restart by using gdb. It's a pretty neat trick (if you have gdb installed on your production server, which may not always be the case, and for good reasons). Anyways I had it at hand, and here is the sequence:
 
 
 <pre>

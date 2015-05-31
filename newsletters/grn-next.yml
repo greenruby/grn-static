@@ -1,6 +1,6 @@
 ---
-edition: "121"
-pubdate: "may 31th 2015"
+edition: "122"
+pubdate: "june 7th 2015"
 editors: "xenor, tysliu"
 rant:
   "#### 
@@ -25,88 +25,46 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: "http://www.libgrader.com/"
-    url: "http://www.libgrader.com/"
-    comment: "Find quality gems for your next project."
+  - title: ""
+    url: ""
+    comment: ""
     tags:
-      - rb
+      - css3
+
 
 
 - title: Install
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: "Spina"
-    url: "https://github.com/denkGroot/Spina"
-    comment: "A CMS built upon the Rails framework"
+  - title: ""
+    url: ""
+    comment: ""
     tags:
       - rb
 
-  - title: "leasot"
-    url: "https://github.com/pgilad/leasot"
-    comment: "Parse and output TODOs and FIXMEs from comments in your files"
-    tags:
-      - js
-
-  - title: "waterfall"
-    url: "https://github.com/apneadiving/waterfall"
-    comment: "A tool to chain ruby services and blocks"
-    tags:
-      - rb
-
-  - title: "acts_as_localized"
-    url: "https://github.com/GBH/acts_as_localized"
-    comment: "Localization accessor mechanism for AR models"
-    tags:
-      - rb
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: "Implementing 'the lovely' Singleton Pattern"
-    url: "http://rubylogs.com/singleton-pattern/"
-    comment: "The good part of singleton"
-    pubdate: may 26
+  - title: ""
+    url: ""
+    comment: ""
+    pubdate: may 20
     tags:
       - rb
 
-  - title: "Boldly refactoring complex code"
-    url: "http://engineering.vinted.com/2015/05/26/boldly-refactoring-complex-code/"
-    comment: "By using github's scientist gem"
-    pubdate: may 26
-    tags:
-      - rb
 
-  - title: "Rails Quick Tips: Easy ActiveRecord Optimizations"
-    url: "http://hashrocket.com/blog/posts/rails-quick-tips-easy-activerecord-optimizations"
-    comment: "Use select, any?, empty?, and pluck to boost the query performance"
-    pubdate: may 27
-    tags:
-      - rb
-
-  - title: "How to delegate methods in Ruby?"
-    url: "https://medium.com/@KamilLelonek/how-to-delegate-methods-in-ruby-a7a71b077d99"
-    comment: "5 ways of forwarding your work to some other object in Ruby"
-    pubdate: may 27
-    tags:
-      - rb
-
-  - title: "Ruby’s Exception vs StandardError: What’s the difference?"
-    url: "http://blog.honeybadger.io/ruby-exception-vs-standarderror-whats-the-difference"
-    comment: "Why you should never rescue Exception in ruby"
-    pubdate: may 29
-    tags:
-      - rb
 
 - title: Watch
   baseline: "Screencasts and conferences videos, or other video feeds ..."
   links:
 
-  - title: "RubyTapas Freebie: Sequel"
-    url: "http://devblog.avdi.org/2015/05/26/rubytapas-freebie-sequel/"
-    comment: "The good part of sequel gem"
-    pubdate: may 26
-    duration: 5m
+  - title: ""
+    url: ""
+    comment: ""
+    pubdate: may 25
+    duration: 
     tags:
       - rb
