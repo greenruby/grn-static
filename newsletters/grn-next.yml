@@ -37,9 +37,27 @@ topics:
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "webinspector"
+    url: "https://github.com/davidesantangelo/webinspector"
+    comment: "Yet another web scraper."
+    tags:
+      - rb
+
+  - title: "matchete"
+    url: "https://github.com/alehander42/matchete"
+    comment: "A DSL for method overloading based on pattern matching."
+    tags:
+      - rb
+
+  - title: "lapine"
+    url: "https://github.com/wanelo/lapine"
+    comment: "A RabbitMQ communicator"
+    tags:
+      - rb
+
+- title: "get_freaky"
+    url: "https://github.com/smcabrera/get_freaky"
+    comment: "Browse and download confreaks videos from the command line."
     tags:
       - rb
 
@@ -48,10 +66,31 @@ topics:
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
-    pubdate: may 20
+  - title: "Algorithmic Fun with Ruby Hashes"
+    url: "http://www.sitepoint.com/algorithmic-fun-ruby-hashes/"
+    comment: "Truth tables, memoization, and recursion in ruby hash."
+    pubdate: jun 1
+    tags:
+      - rb
+
+  - title: "Capturing stdout & stderr from shell commands via Ruby"
+    url: "http://blog.honeybadger.io/capturing-stdout-stderr-from-shell-commands-via-ruby/"
+    comment: "Several ways to get stdout and stderr by ruby."
+    pubdate: jun 1
+    tags:
+      - rb
+
+  - title: "Functional Programming with Ruby #2/2"
+    url: "https://medium.com/@KamilLelonek/functional-programming-with-ruby-2-2-c711a2db415c"
+    comment: "More Functional programming elements in ruby"
+    pubdate: jun 1
+    tags:
+      - rb
+
+  - title: "Benchmarking Ruby Dispatch Strategies"
+    url: "http://devblog.avdi.org/2015/06/03/benchmarking-ruby-dispatch-strategies/"
+    comment: "Comparison of different strategies of event dispatcher."
+    pubdate: jun 3
     tags:
       - rb
 
