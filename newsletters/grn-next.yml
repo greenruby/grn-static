@@ -1,9 +1,9 @@
 ---
-edition: "122"
-pubdate: "june 7th 2015"
+edition: "123"
+pubdate: "june 14th 2015"
 editors: "xenor, tysliu"
 rant:
-  "####
+  "#### 
 "
 
 topics:
@@ -25,11 +25,11 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: "Better Error Pages"
-    url: "https://better-error-pages.statuspage.io/"
-    comment: "Build free 404, 500-level, and maintenance pages in 60 seconds."
+  - title: ""
+    url: ""
+    comment: ""
     tags:
-      - web
+      - css3
 
 
 
@@ -37,117 +37,23 @@ topics:
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: "webinspector"
-    url: "https://github.com/davidesantangelo/webinspector"
-    comment: "Yet another web scraper."
+  - title: ""
+    url: ""
+    comment: ""
     tags:
       - rb
 
-  - title: "matchete"
-    url: "https://github.com/alehander42/matchete"
-    comment: "A DSL for method overloading based on pattern matching."
-    tags:
-      - rb
-
-  - title: "lapine"
-    url: "https://github.com/wanelo/lapine"
-    comment: "A RabbitMQ communicator"
-    tags:
-      - rb
-
-  - title: "get_freaky"
-      url: "https://github.com/smcabrera/get_freaky"
-      comment: "Browse and download confreaks videos from the command line."
-      tags:
-        - rb
-
-  - title: "paperclip.js"
-      url: "http://paperclipjs.com/"
-      comment: "A reactive template engine for modern web applications."
-      tags:
-        - js
-
-  - title: "hogan.js"
-      url: "http://twitter.github.io/hogan.js/"
-      comment: "JavaScript templating from Twitter."
-      tags:
-        - js
-
-  - title: "basicModal"
-      url: "http://basicmodal.electerious.com/"
-      comment: "Easy-to-use dialog system for modern web-apps."
-      tags:
-        - web
-
-  - title: "Insignia"
-      url: "http://bevacqua.github.io/insignia/"
-      comment: "Customizable tag input. Progressive. No non-sense!"
-      tags:
-        - web
-
-  - title: "readremaining.js"
-      url: "http://aerolab.github.io/readremaining.js/"
-      comment: "Tell your readers how long they'll need to get through all of your gibberish, with this clever jQuery plugin."
-      tags:
-        - web
-
-  - title: "ScrollMenu.js"
-      url: "http://ignitersworld.com/lab/scrollmenu/"
-      comment: "A new interface to replace your old boring scrollbar"
-      tags:
-        - web
-
-  - title: "Date Paginator for Twitter Bootstrap"
-      url: "http://www.jondmiles.com/bootstrap-datepaginator/"
-      comment: "A jQuery plugin which takes Twitter Bootstrap's already great pagination component and injects a bit of date based magic."
-      tags:
-        - web
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: "Algorithmic Fun with Ruby Hashes"
-    url: "http://www.sitepoint.com/algorithmic-fun-ruby-hashes/"
-    comment: "Truth tables, memoization, and recursion in ruby hash."
-    pubdate: jun 1
+  - title: ""
+    url: ""
+    comment: ""
+    pubdate: jun 10
     tags:
       - rb
-
-  - title: "Capturing stdout & stderr from shell commands via Ruby"
-    url: "http://blog.honeybadger.io/capturing-stdout-stderr-from-shell-commands-via-ruby/"
-    comment: "Several ways to get stdout and stderr by ruby."
-    pubdate: jun 1
-    tags:
-      - rb
-
-  - title: "Functional Programming with Ruby #2/2"
-    url: "https://medium.com/@KamilLelonek/functional-programming-with-ruby-2-2-c711a2db415c"
-    comment: "More Functional programming elements in ruby"
-    pubdate: jun 1
-    tags:
-      - rb
-
-  - title: "Benchmarking Ruby Dispatch Strategies"
-    url: "http://devblog.avdi.org/2015/06/03/benchmarking-ruby-dispatch-strategies/"
-    comment: "Comparison of different strategies of event dispatcher."
-    pubdate: jun 3
-    tags:
-      - rb
-
-  - title: "Easy AngularJS Forms with angular-formly"
-    url: "https://scotch.io/tutorials/easy-angularjs-forms-with-angular-formly"
-    comment: "A common problem developers face when creating AngularJS applications is that their HTML can tend to become bloated."
-    pubdate: jun 3
-    tags:
-      - js
-
-  - title: "Copy & Paste & The Web"
-    url: "https://css-tricks.com/copy-paste-the-web/"
-    comment: "Have you ever tried to copy and paste some text only to find it frustrating, awkward, or even impossible?"
-    pubdate: jun 5
-    tags:
-      - css3
 
 
 
@@ -158,7 +64,7 @@ topics:
   - title: ""
     url: ""
     comment: ""
-    pubdate: may 25
-    duration:
+    pubdate: jun 10
+    duration: 
     tags:
       - rb

@@ -1,57 +1,9 @@
 ---
-edition: "121"
-pubdate: "may 31th 2015"
+edition: "122"
+pubdate: "june 7th 2015"
 editors: "xenor, tysliu"
 rant:
-  "#### linux trick: too many logs
-
-
-Recently I found my self again in that situation on a linux server. The partition where logs are stored went 100%. In such case, It's clever top purge old useless logfiles. Typical move for me would be to run logrotate manually with
-
-
-<pre>
-logrotate -f /etc/logrotate.conf
-</pre>
-
-
-But I had a case where that was not enough. A developer forgot to remove a debugging output and the logs were just piling up way too fast, more than what I could free with some janitoring.
-
-
-To avoid losing logs, we can move the logfile where there is space and replace the file with a symbolic link. That's good enough for until the partition gets resized or the logs get cleaned. But when it's done on a live logfile, the running process that writes into it still has the same file descriptor. The process has to be relaunched so the new fd can be taken in account, on the new partition, as instructed by the symbolic link.
-
-
-So a colleague pointed out that could be done on a single process without restart by using gdb. It's a pretty neat trick (if you have gdb installed on your production server, which may not always be the case, and for good reasons). Anyways I had it at hand, and here is the sequence:
-
-
-<pre>
-touch /path/to/new/logfile
-
-
-gdb -p pid 
-
-
-(gdb) call dup(1)
-
-$1 = 3 
-
-(gdb) call close(1)
-
-$2 = 0 
-
-(gdb) call open(\"/path/to/new/logfile\", 2)
-
-$3 = 1 
-
-(gdb) call close($1)
-
-$4 = 0
-
-(gdb)
-</pre>
-
-
-This gave me the taste of digging up a little bit more on how gdb can interact with live processes.
-
+  "####
 "
 
 topics:
@@ -61,9 +13,9 @@ topics:
     "Examples of UI/UX, graphic performance, web design and flashy things."
   links:
 
-  - title: "Your time 4"
-    url: "http://yourtime4.com/"
-    comment: "Neat and simple horizontal page scrolling, and cool design."
+  - title: ""
+    url: ""
+    comment: ""
     tags:
       - design
 
@@ -73,179 +25,148 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: "libgrader"
-    url: "http://www.libgrader.com/"
-    comment: "Find quality gems for your next project."
-    tags:
-      - rb
-
-  - title: "Rails meets React"
-    url: "http://blog.arkency.com/rails-react/"
-    comment: "(book) still under progress, but already accessible."
-    tags:
-      - rb
-
-  - title: "PackageCloud"
-    url: "https://packagecloud.io/"
-    comment: "Public and private package repositories with powerful tooling, security and automation."
-    tags:
-      - ops
-
-  - title: "CloudSlang"
-    url: "http://www.cloudslang.io/"
-    comment: "Automate your DevOps use cases using ready-made workflows."
-    tags:
-      - ops
-
-  - title: "Linux performance"
-    url: "http://www.brendangregg.com/linuxperf.html"
-    comment: "Very neat gathering of tools for deep Linux observability."
-    tags:
-      - ops
-
-  - title: "Devbattles"
-    url: "http://www.devbattles.com/"
-    comment: "IT community for professionals."
+  - title: "Better Error Pages"
+    url: "https://better-error-pages.statuspage.io/"
+    comment: "Build free 404, 500-level, and maintenance pages in 60 seconds."
     tags:
       - web
+
 
 
 - title: Install
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: "Spina"
-    url: "https://github.com/denkGroot/Spina"
-    comment: "A CMS built upon the Rails framework."
+  - title: "webinspector"
+    url: "https://github.com/davidesantangelo/webinspector"
+    comment: "Yet another web scraper."
     tags:
       - rb
 
-  - title: "Waterfall"
-    url: "https://github.com/apneadiving/waterfall"
-    comment: "A tool to chain ruby services and blocks."
+  - title: "matchete"
+    url: "https://github.com/alehander42/matchete"
+    comment: "A DSL for method overloading based on pattern matching."
     tags:
       - rb
 
-  - title: "acts_as_localized"
-    url: "https://github.com/GBH/acts_as_localized"
-    comment: "Localization accessor mechanism for AR models."
+  - title: "lapine"
+    url: "https://github.com/wanelo/lapine"
+    comment: "A RabbitMQ communicator"
     tags:
       - rb
 
-  - title: "Polymer 1.0"
-    url: "https://www.polymer-project.org/1.0/"
-    comment: "Announced at Google IO, here is the first major release of this web component framework."
-    tags:
-      - js
+  - title: "get_freaky"
+      url: "https://github.com/smcabrera/get_freaky"
+      comment: "Browse and download confreaks videos from the command line."
+      tags:
+        - rb
 
-  - title: "Leasot"
-    url: "https://github.com/pgilad/leasot"
-    comment: "Parse and output TODOs and FIXMEs from comments in your files."
-    tags:
-      - js
+  - title: "paperclip.js"
+      url: "http://paperclipjs.com/"
+      comment: "A reactive template engine for modern web applications."
+      tags:
+        - js
 
-  - title: "Passenger 5.0.8"
-    url: "https://blog.phusion.nl/2015/05/20/phusion-passenger-5-0-8-new-debian-packages-red-hat-packages-bug-fixes/"
-    comment: "New Debian packages, Red Hat packages, bug fixes."
-    tags:
-      - ops
+  - title: "hogan.js"
+      url: "http://twitter.github.io/hogan.js/"
+      comment: "JavaScript templating from Twitter."
+      tags:
+        - js
 
-  - title: "Gitlab 7.11"
-    url: "https://about.gitlab.com/2015/05/22/gitlab-7-11-released/"
-    comment: "Two-factor Authentication, look and feel upgrade, and more."
-    tags:
-      - ops
+  - title: "basicModal"
+      url: "http://basicmodal.electerious.com/"
+      comment: "Easy-to-use dialog system for modern web-apps."
+      tags:
+        - web
+
+  - title: "Insignia"
+      url: "http://bevacqua.github.io/insignia/"
+      comment: "Customizable tag input. Progressive. No non-sense."
+      tags:
+        - web
+
+  - title: "readremaining.js"
+      url: "http://aerolab.github.io/readremaining.js/"
+      comment: "Tell your readers how long they'll need to get through all of your gibberish, with this clever jQuery plugin."
+      tags:
+        - web
+
+  - title: "ScrollMenu.js"
+      url: "http://ignitersworld.com/lab/scrollmenu/"
+      comment: "A new interface to replace your old boring scrollbar"
+      tags:
+        - web
+
+  - title: "Date Paginator for Twitter Bootstrap"
+      url: "http://www.jondmiles.com/bootstrap-datepaginator/"
+      comment: "A jQuery plugin which takes Twitter Bootstrap's pagination component and injects a bit of date based magic."
+      tags:
+        - web
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: "Remote Control Your Mac With Node.js and Arduino"
-    url: "http://www.sitepoint.com/remote-control-mac-node-js-arduino/"
-    comment: "Not really remote, more like an external keypad."
-    pubdate: may 25
+  - title: "Algorithmic Fun with Ruby Hashes"
+    url: "http://www.sitepoint.com/algorithmic-fun-ruby-hashes/"
+    comment: "Truth tables, memoization, and recursion in ruby hash."
+    pubdate: jun 1
+    tags:
+      - rb
+
+  - title: "Capturing stdout & stderr from shell commands via Ruby"
+    url: "http://blog.honeybadger.io/capturing-stdout-stderr-from-shell-commands-via-ruby/"
+    comment: "Several ways to get stdout and stderr by ruby."
+    pubdate: jun 1
+    tags:
+      - rb
+
+  - title: "Functional Programming with Ruby #2/2"
+    url: "https://medium.com/@KamilLelonek/functional-programming-with-ruby-2-2-c711a2db415c"
+    comment: "More Functional programming elements in ruby"
+    pubdate: jun 1
+    tags:
+      - rb
+
+  - title: "Benchmarking Ruby Dispatch Strategies"
+    url: "http://devblog.avdi.org/2015/06/03/benchmarking-ruby-dispatch-strategies/"
+    comment: "Comparison of different strategies of event dispatcher."
+    pubdate: jun 3
+    tags:
+      - rb
+
+  - title: "Easy AngularJS Forms with angular-formly"
+    url: "https://scotch.io/tutorials/easy-angularjs-forms-with-angular-formly"
+    comment: "A common problem developers face when creating AngularJS applications is that their HTML can tend to become bloated."
+    pubdate: jun 3
     tags:
       - js
 
-  - title: "Implementing 'the lovely' Singleton Pattern"
-    url: "http://rubylogs.com/singleton-pattern/"
-    comment: "The good part of singleton."
-    pubdate: may 26
+  - title: "Copy & Paste & The Web"
+    url: "https://css-tricks.com/copy-paste-the-web/"
+    comment: "Have you ever tried to copy and paste some text only to find it frustrating, awkward, or even impossible?"
+    pubdate: jun 5
+    tags:
+      - css3
+
+  - title: "Implementing Docker event monitoring from scratch"
+    url: "http://blog.scoutapp.com/articles/2015/06/05/monitoring-docker-events"
+    comment: "docker-api gem makes everything easy."
+    pubdate: jun 5
     tags:
       - rb
 
-  - title: "Boldly refactoring complex code"
-    url: "http://engineering.vinted.com/2015/05/26/boldly-refactoring-complex-code/"
-    comment: "By using github's scientist gem."
-    pubdate: may 26
-    tags:
-      - rb
 
-  - title: "Recursion in Ruby"
-    url: "http://www.leighhalliday.com/recursion-in-ruby"
-    comment: "Exemple of adding a head_tail method to array to ease up recursion."
-    pubdate: may 26
-    tags:
-      - rb
 
-  - title: "Rails Quick Tips: Easy ActiveRecord Optimizations"
-    url: "http://hashrocket.com/blog/posts/rails-quick-tips-easy-activerecord-optimizations"
-    comment: "Use select, any?, empty?, and pluck to boost the query performance."
-    pubdate: may 27
-    tags:
-      - rb
-
-  - title: "How to delegate methods in Ruby"
-    url: "https://medium.com/@KamilLelonek/how-to-delegate-methods-in-ruby-a7a71b077d99"
-    comment: "5 ways of forwarding your work to some other object in Ruby."
-    pubdate: may 27
-    tags:
-      - rb
-
-  - title: "Orchestrate Containers for Development with Docker Compose"
-    url: "http://blog.codeship.com/orchestrate-containers-for-development-with-docker-compose/"
-    comment: "It was known as Fig, now it's docker-compose."
-    pubdate: may 27
-    tags:
-      - tool
-
-  - title: "Build Custom User Analytics with Parse"
-    url: "http://www.sitepoint.com/build-custom-user-analytics-parse/"
-    comment: "Parse is an IaaS from Facebook with a large free tier."
-    pubdate: may 28
-    tags:
-      - rb
-
-  - title: "Ruby’s Exception vs StandardError: What’s the difference?"
-    url: "http://blog.honeybadger.io/ruby-exception-vs-standarderror-whats-the-difference"
-    comment: "Why you should never rescue Exception in ruby."
-    pubdate: may 29
-    tags:
-      - rb
-
-  - title: "CoffeeScript classes with React - pros and cons"
-    url: "http://blog.arkency.com/2015/05/you-can-use-coffeescript-classes-with-react-dot-js-pros-and-cons/"
-    comment: "You can use CoffeeScript classes to create React components (since 0.12)."
-    pubdate: may 31
-    tags:
-      - js
 
 - title: Watch
   baseline: "Screencasts and conferences videos, or other video feeds ..."
   links:
 
-  - title: "RubyTapas Freebie: Sequel"
-    url: "http://devblog.avdi.org/2015/05/26/rubytapas-freebie-sequel/"
-    comment: "The good part of sequel gem."
-    pubdate: may 26
-    duration: 5m
+  - title: ""
+    url: ""
+    comment: ""
+    pubdate: may 25
+    duration:
     tags:
       - rb
-
-  - title: "Docker Swarm"
-    url: "http://blog.docker.com/2015/05/docker-tutorial-11-docker-swarm/"
-    comment: "11th of the Docket Tutorial collectiopn."
-    pubdate: may 27
-    duration: 23m
-    tags:
-      - ops
