@@ -1,0 +1,197 @@
+---
+edition: "122"
+pubdate: "june 7th 2015"
+editors: "xenor, tysliu"
+rant:
+  "#### Thought about python fron a rubyist
+
+
+This weekend there was a python conference here in Taipei ([pycon apac][pycon]). As Gandi was sponsoring it, I [went there][photos] and tried to figure out how python and ruby communities differ in my local area. As a matter of fact, I also push my python coding skills a bit. I kind of like to nurture a general polyglot approach. 
+
+
+It first seems that the python community is more largely supported by sponsors than ruby one. It's more mainstream in the general engineering world, I guess. There was google, facebook, microsoft, having a table and talking about their cloud things. But the general setup was pretty similar to the ruby or rails conf I've been in. 
+
+
+The topics in this conference were maybe a little more scientific and less web-oriented than we can find in ruby world. Python has tighter bindings with lower level languages. I think it's not a specificity of the language because you also can build C extensions for ruby. But it's more a result of the community interests. 
+
+
+I have the feeling that the ruby community dedicated more efforts towards the web front and other rails related principle like testing suites, DSL and meta-programming. But my general feeling is that there is no technical reason for that. It's just how things happened over time, mostly given the weight of rails in the ruby communities.
+
+
+Actually, I also had the feeling that pythonists don't consider ruby as a 'competitor'. They feel closer to java, node or golang, and at various occasion I had the impression that they consider ruby to be only the language behind rails.
+
+
+I also thought that the ruby community was special about its adoption of macbook laptops. Even if actually the python coder has more diversity, I evaluate around half macbooks, the rest split between ubuntu and windows. It's less that in ruby confs where macbooks are kinda 90% and windows users are very few.
+
+
+Also, I noticed a similar movement about diversity with [django girls][djangogirls] and [pyladies][pyladies], comparable to the rails girls, which tries to close the gender gap in the engineering world. 
+
+
+Anyways that was good and interesting. Geeks are the same kind, whatever language they use (by trade or by taste). I strongly advise, if you have the occasion, to wander out of your usual communities and join other circles. It gives a good perspective on you usual world. 
+
+
+[pycon]: https://tw.pycon.org/2015apac/en/
+
+[djangogirls]: http://djangogirls.org/taipei/
+
+[pyladies]: http://www.meetup.com/PyLadiesTW/
+
+[photos]: https://www.flickr.com/photos/43946968@N07/sets/72157653640049980
+"
+
+topics:
+
+- title: Look
+  baseline:
+    "Examples of UI/UX, graphic performance, web design and flashy things."
+  links:
+
+  - title: "RDCM"
+    url: "http://rdcm.com/en/"
+    comment: "Website for a construction company in russia, with very cool effects."
+    tags:
+      - design
+
+
+- title: Use
+  baseline:
+    "Web applications, resources and tools, available for making our life easier or funnier."
+  links:
+
+  - title: "Better Error Pages"
+    url: "https://better-error-pages.statuspage.io/"
+    comment: "Build free 404, 500-level, and maintenance pages in 60 seconds."
+    tags:
+      - web
+
+
+
+- title: Install
+  baseline: "A selection of gems or applications updated during past week."
+  links:
+
+  - title: "webinspector"
+    url: "https://github.com/davidesantangelo/webinspector"
+    comment: "Yet another web scraper."
+    tags:
+      - rb
+
+  - title: "matchete"
+    url: "https://github.com/alehander42/matchete"
+    comment: "A DSL for method overloading based on pattern matching."
+    tags:
+      - rb
+
+  - title: "lapine"
+    url: "https://github.com/wanelo/lapine"
+    comment: "A RabbitMQ communicator."
+    tags:
+      - rb
+
+  - title: "get_freaky"
+    url: "https://github.com/smcabrera/get_freaky"
+    comment: "Browse and download confreaks videos from the command line."
+    tags:
+      - rb
+
+  - title: "paperclip.js"
+    url: "http://paperclipjs.com/"
+    comment: "A reactive template engine for modern web applications."
+    tags:
+      - js
+
+  - title: "hogan.js"
+    url: "http://twitter.github.io/hogan.js/"
+    comment: "JavaScript templating from Twitter."
+    tags:
+      - js
+
+  - title: "basicModal"
+    url: "http://basicmodal.electerious.com/"
+    comment: "Easy-to-use dialog system for modern web-apps."
+    tags:
+      - tool
+
+  - title: "Insignia"
+    url: "http://bevacqua.github.io/insignia/"
+    comment: "Customizable tag input. Progressive. No non-sense."
+    tags:
+      - tool
+
+  - title: "readremaining.js"
+    url: "http://aerolab.github.io/readremaining.js/"
+    comment: "Tell your readers how long they'll need to get through all of your gibberish, with this clever jQuery plugin."
+    tags:
+      - js
+
+  - title: "ScrollMenu.js"
+    url: "http://ignitersworld.com/lab/scrollmenu/"
+    comment: "A new interface to replace your old boring scrollbar"
+    tags:
+      - js
+
+  - title: "Date Paginator for Twitter Bootstrap"
+    url: "http://www.jondmiles.com/bootstrap-datepaginator/"
+    comment: "A jQuery plugin which takes Twitter Bootstrap's pagination component and injects a bit of date based magic."
+    tags:
+      - js
+
+- title: Read
+  baseline: "From the blogosphere or news feeds ..."
+  links:
+
+  - title: "Algorithmic Fun with Ruby Hashes"
+    url: "http://www.sitepoint.com/algorithmic-fun-ruby-hashes/"
+    comment: "Truth tables, memoization, and recursion in ruby hash."
+    pubdate: jun 1
+    tags:
+      - rb
+
+  - title: "Capturing stdout & stderr from shell commands via Ruby"
+    url: "http://blog.honeybadger.io/capturing-stdout-stderr-from-shell-commands-via-ruby/"
+    comment: "Several ways to get stdout and stderr by ruby."
+    pubdate: jun 1
+    tags:
+      - rb
+
+  - title: "Functional Programming with Ruby #2/2"
+    url: "https://medium.com/@KamilLelonek/functional-programming-with-ruby-2-2-c711a2db415c"
+    comment: "More Functional programming elements in ruby"
+    pubdate: jun 1
+    tags:
+      - rb
+
+  - title: "The accessibility cheatsheet"
+    url: "http://bitsofco.de/2015/the-accessibility-cheatsheet/"
+    comment: "Condensed set of rules to keep our web accessible."
+    pubdate: jun 2
+    tags:
+      - design
+
+  - title: "Benchmarking Ruby Dispatch Strategies"
+    url: "http://devblog.avdi.org/2015/06/03/benchmarking-ruby-dispatch-strategies/"
+    comment: "Comparison of different strategies of event dispatcher."
+    pubdate: jun 3
+    tags:
+      - rb
+
+  - title: "Easy AngularJS Forms with angular-formly"
+    url: "https://scotch.io/tutorials/easy-angularjs-forms-with-angular-formly"
+    comment: "A common problem developers face when creating AngularJS applications is that their HTML can tend to become bloated."
+    pubdate: jun 3
+    tags:
+      - js
+
+  - title: "Copy & Paste & The Web"
+    url: "https://css-tricks.com/copy-paste-the-web/"
+    comment: "Have you ever tried to copy and paste some text only to find it frustrating, awkward, or even impossible?"
+    pubdate: jun 5
+    tags:
+      - css3
+
+  - title: "Implementing Docker event monitoring from scratch"
+    url: "http://blog.scoutapp.com/articles/2015/06/05/monitoring-docker-events"
+    comment: "docker-api gem makes everything easy."
+    pubdate: jun 5
+    tags:
+      - rb
