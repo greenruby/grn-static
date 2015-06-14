@@ -1,9 +1,9 @@
 ---
-edition: "123"
-pubdate: "june 14th 2015"
+edition: "124"
+pubdate: "june 21th 2015"
 editors: "xenor, tysliu"
 rant:
-  "####
+  "#### 
 "
 
 topics:
@@ -37,120 +37,34 @@ topics:
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: "Glasses"
-    url: "https://github.com/otamm/Glasses"
-    comment: "a micro search framework to be used within Ruby web applications."
+  - title: ""
+    url: ""
+    comment: ""
     tags:
       - rb
 
-  - title: "method_hooks"
-    url: "https://github.com/fbonetti/method_hooks"
-    comment: "Add before, around, and after callbacks to any method"
-    tags:
-      - rb
-
-  - title: "xkcdize"
-    url: "https://github.com/zverok/xkcdize"
-    comment: "XKCD-like picture distortion in Ruby and RMagick"
-    tags:
-      - rb
-
-  - title: "Clusterize.js"
-    url: "http://nexts.github.io/Clusterize.js/"
-    comment: "Tiny plugin to display large data sets easily"
-    tags:
-      - js
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: "RubyConf Taiwan 2015 is calling for speakers"
-    url: "http://rubytaiwan.tumblr.com/post/120692846086/rubyconf-taiwan-2015-is-calling-for"
-    comment: "Rubyconf Taiwan will be hold at 9/11-9/12, it's now calling for papers"
-    pubdate: jun 4
-    tags:
-      - rb
-
-  - title: "How Arel Converts Ruby Queries Into SQL Statements"
-    url: "http://blog.codeship.com/how-arel-converts-ruby-queries-into-sql-statements/"
-    comment: "low-level binging between ActiveRecord and Arel"
-    pubdate: jun 8
-    tags:
-      - rb
-
-  - title: "Organizing Data: Replace Array with Object"
-    url: "http://designisrefactoring.com/2015/06/08/organizing-data-replace-array-with-object/"
-    comment: "Truns Hash or Array options as configuration object"
-    pubdate: jun 8
-    tags:
-      - rb
-
-  - title: "Refactoring to Reveal Rails Group_by"
-    url: "http://vaidehijoshi.github.io/blog/2015/06/09/refactoring-to-reveal-rails-group-by/"
-    comment: "How and when to use group_by in rails"
-    pubdate: jun 9
-    tags:
-      - rb
-
-  - title: "The Difference Between Throttling and Debouncing"
-    url: "https://css-tricks.com/the-difference-between-throttling-and-debouncing/"
-    comment: "Ways to limit the amount of JavaScript you are executing based on DOM events for performance reasons."
+  - title: ""
+    url: ""
+    comment: ""
     pubdate: jun 10
     tags:
-      - js
-
-  - title: "The Future Generation of CSS Selectors: Level 4"
-    url: "http://www.sitepoint.com/future-generation-css-selectors-level-4/"
-    comment: "The future of CSS selectors is also looking bright, with the Selectors Level 4 specification currently in Working Draft status."
-    pubdate: jun 10
-    tags:
-      - css3
-
-  - title: "How We Moved Our API From Ruby to Go and Saved Our Sanity"
-    url: "http://blog.parse.com/learn/how-we-moved-our-api-from-ruby-to-go-and-saved-our-sanity"
-    comment: "When the “one process per request” part of the Rails model started to fall apart."
-    pubdate: jun 10
-    tags:
-      - web
-
-  - title: "What’s New in Rails 5"
-    url: "http://www.sitepoint.com/whats-new-rails-5/"
-    comment: "Rails 5 is right around the corner (currently targeting Fall 2015) and there are some exciting features coming up."
-    pubdate: jun 11
-    tags:
       - rb
 
-  - title: "AngularJS Testing: Bootstrap Blocks, Routes, Events, and Animations"
-    url: "http://www.sitepoint.com/angularjs-testing-tips-bootstrap-blocks-routes-events-animations/"
-    comment: "AngularJS makes testing the code written using the framework easier by supporting features like Dependency Injection (DI)."
-    pubdate: jun 11
-    tags:
-      - js
 
-  - title: "A Simple Gulp’y Workflow For Sass"
-    url: "http://www.sitepoint.com/simple-gulpy-workflow-sass/"
-    comment: "Improve the compilation time with Gulp"
-    pubdate: jun 11
-    tags:
-      - web
 
 - title: Watch
   baseline: "Screencasts and conferences videos, or other video feeds ..."
   links:
 
-  - title: "RedDot Ruby Conf"
-    url: "http://confreaks.tv/events/rdrc2015"
-    comment: "Talks on RedDot Ruby Conf"
+  - title: ""
+    url: ""
+    comment: ""
     pubdate: jun 10
-    duration:
+    duration: 
     tags:
       - rb
-
-  - title: "Supercharging page load (100 Days of Google Dev)"
-    url: "https://www.youtube.com/watch?v=d5_6yHixpsQ"
-    comment: "Talks on RedDot Ruby Conf"
-    pubdate: jun 10
-    duration: 11m
-    tags:
-      - web
