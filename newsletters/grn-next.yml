@@ -3,7 +3,7 @@ edition: "123"
 pubdate: "june 14th 2015"
 editors: "xenor, tysliu"
 rant:
-  "#### 
+  "####
 "
 
 topics:
@@ -55,6 +55,11 @@ topics:
     tags:
       - rb
 
+  - title: "Clusterize.js"
+    url: "http://nexts.github.io/Clusterize.js/"
+    comment: "Tiny plugin to display large data sets easily"
+    tags:
+      - js
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
@@ -88,6 +93,47 @@ topics:
     tags:
       - rb
 
+  - title: "The Difference Between Throttling and Debouncing"
+    url: "https://css-tricks.com/the-difference-between-throttling-and-debouncing/"
+    comment: "Ways to limit the amount of JavaScript you are executing based on DOM events for performance reasons."
+    pubdate: jun 10
+    tags:
+      - js
+
+  - title: "The Future Generation of CSS Selectors: Level 4"
+    url: "http://www.sitepoint.com/future-generation-css-selectors-level-4/"
+    comment: "The future of CSS selectors is also looking bright, with the Selectors Level 4 specification currently in Working Draft status."
+    pubdate: jun 10
+    tags:
+      - css3
+
+  - title: "How We Moved Our API From Ruby to Go and Saved Our Sanity"
+    url: "http://blog.parse.com/learn/how-we-moved-our-api-from-ruby-to-go-and-saved-our-sanity"
+    comment: "When the “one process per request” part of the Rails model started to fall apart."
+    pubdate: jun 10
+    tags:
+      - web
+
+  - title: "What’s New in Rails 5"
+    url: "http://www.sitepoint.com/whats-new-rails-5/"
+    comment: "Rails 5 is right around the corner (currently targeting Fall 2015) and there are some exciting features coming up."
+    pubdate: jun 11
+    tags:
+      - rb
+
+  - title: "AngularJS Testing: Bootstrap Blocks, Routes, Events, and Animations"
+    url: "http://www.sitepoint.com/angularjs-testing-tips-bootstrap-blocks-routes-events-animations/"
+    comment: "AngularJS makes testing the code written using the framework easier by supporting features like Dependency Injection (DI)."
+    pubdate: jun 11
+    tags:
+      - js
+
+  - title: "A Simple Gulp’y Workflow For Sass"
+    url: "http://www.sitepoint.com/simple-gulpy-workflow-sass/"
+    comment: "Improve the compilation time with Gulp"
+    pubdate: jun 11
+    tags:
+      - web
 
 - title: Watch
   baseline: "Screencasts and conferences videos, or other video feeds ..."
@@ -97,6 +143,14 @@ topics:
     url: "http://confreaks.tv/events/rdrc2015"
     comment: "Talks on RedDot Ruby Conf"
     pubdate: jun 10
-    duration: 
+    duration:
     tags:
       - rb
+
+  - title: "Supercharging page load (100 Days of Google Dev)"
+    url: "https://www.youtube.com/watch?v=d5_6yHixpsQ"
+    comment: "Talks on RedDot Ruby Conf"
+    pubdate: jun 10
+    duration: 11m
+    tags:
+      - web
