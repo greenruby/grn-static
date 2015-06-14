@@ -37,9 +37,21 @@ topics:
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "Glasses"
+    url: "https://github.com/otamm/Glasses"
+    comment: "a micro search framework to be used within Ruby web applications."
+    tags:
+      - rb
+
+  - title: "method_hooks"
+    url: "https://github.com/fbonetti/method_hooks"
+    comment: "Add before, around, and after callbacks to any method"
+    tags:
+      - rb
+
+  - title: "xkcdize"
+    url: "https://github.com/zverok/xkcdize"
+    comment: "XKCD-like picture distortion in Ruby and RMagick"
     tags:
       - rb
 
@@ -48,22 +60,42 @@ topics:
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
-    pubdate: jun 10
+  - title: "RubyConf Taiwan 2015 is calling for speakers"
+    url: "http://rubytaiwan.tumblr.com/post/120692846086/rubyconf-taiwan-2015-is-calling-for"
+    comment: "Rubyconf Taiwan will be hold at 9/11-9/12, it's now calling for papers"
+    pubdate: jun 4
     tags:
       - rb
 
+  - title: "How Arel Converts Ruby Queries Into SQL Statements"
+    url: "http://blog.codeship.com/how-arel-converts-ruby-queries-into-sql-statements/"
+    comment: "low-level binging between ActiveRecord and Arel"
+    pubdate: jun 8
+    tags:
+      - rb
+
+  - title: "Organizing Data: Replace Array with Object"
+    url: "http://designisrefactoring.com/2015/06/08/organizing-data-replace-array-with-object/"
+    comment: "Truns Hash or Array options as configuration object"
+    pubdate: jun 8
+    tags:
+      - rb
+
+  - title: "Refactoring to Reveal Rails Group_by"
+    url: "http://vaidehijoshi.github.io/blog/2015/06/09/refactoring-to-reveal-rails-group-by/"
+    comment: "How and when to use group_by in rails"
+    pubdate: jun 9
+    tags:
+      - rb
 
 
 - title: Watch
   baseline: "Screencasts and conferences videos, or other video feeds ..."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "RedDot Ruby Conf"
+    url: "http://confreaks.tv/events/rdrc2015"
+    comment: "Talks on RedDot Ruby Conf"
     pubdate: jun 10
     duration: 
     tags:
