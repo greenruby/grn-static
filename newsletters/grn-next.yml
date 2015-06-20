@@ -25,37 +25,84 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "Flocker"
+    url: "https://clusterhq.com/2015/06/17/flocker-1-0/"
+    comment: "Container Data Management for Docker"
     tags:
-      - css3
+      - ops
 
+  - title: "Daily JavaScript community news and chat"
+    url: "https://jslive.com/"
+    comment: "A RubyFlow-inspired community news site for JavaScript and related technologies."
+    tags:
+      - js
 
+  - title: "Ruby Conference Calendar"
+    url: "https://github.com/planetruby/awesome-events/blob/master/CALENDAR.md"
+    comment: "auto-generated calendar for ruby conferences"
+    tags:
+      - rb
 
 - title: Install
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "material-theme"
+    url: "https://github.com/equinusocio/material-theme"
+    comment: "Bring Google material design to Sublime Text 3"
+    tags:
+      - tool
+
+  - title: "dokaz"
+    url: "https://github.com/zverok/dokaz"
+    comment: "Parse your ruby code written in markdown"
     tags:
       - rb
 
+  - title: "derailed_benchmarks"
+    url: "https://github.com/schneems/derailed_benchmarks"
+    comment: "Checking memory usage of your rails app in sevral ways."
+    tags:
+      - rb
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
-    pubdate: jun 10
+- title: "Auto-squashing Git Commits"
+  url: "https://robots.thoughtbot.com/autosquashing-git-commits"
+  comment: "The fixup and autosquash command"
+  pubdate: jun 15
+  tags:
+    - tool
+
+  - title: "Rack: First Principles"
+    url: "http://rubylogs.com/rack-first-principles"
+    comment: "What Rack is and what it's used for."
+    pubdate: jun 16
     tags:
       - rb
 
+  - title: "Ruby Error Handling, Beyond the Basics"
+    url: "http://www.sitepoint.com/ruby-error-handling-beyond-basics/"
+    comment: "More ways to handle ruby errors besides raise and rescue"
+    pubdate: jun 16
+    tags:
+      - rb
 
+  - title: "Understanding the rails-jquery CSRF vulnerability (CVE-2015-1840)"
+    url: "http://blog.honeybadger.io/understanding-the-rails-jquery-csrf-vulnerability-cve-2015-1840"
+    comment: "What's CVE-2015-1840 about."
+    pubdate: jun 17
+    tags:
+      - rb
+
+  - title: "Naming is the key"
+    url: "http://codingwithaxe.com/naming-is-the-key/"
+    comment: "Naming guideline for method and class"
+    pubdate: jun 17
+    tags:
+      - rb
 
 - title: Watch
   baseline: "Screencasts and conferences videos, or other video feeds ..."
