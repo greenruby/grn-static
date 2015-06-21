@@ -1,0 +1,198 @@
+----------------------------------------------------
+Green Ruby News #124 - june 21th 2015
+----------------------------------------------------
+*|IFNOT:CONTENT=Only Rant|*
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+*Big Omaha* (design)
+http://bigomaha.co/
+A conference website with very clear and nice layout.
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+*Ruby Conference Calendar* (rb)
+https://github.com/planetruby/awesome-events/blob/master/CALENDAR.md
+Auto-generated calendar for ruby conferences.
+
+*Meta Ruby* (rb)
+http://metaruby.com/
+A discourse forum about Ruby.
+
+*Daily JavaScript community news and chat* (js)
+https://jslive.com/
+A RubyFlow-inspired community news site for JavaScript and related technologies.
+
+*SVG on the web* (web)
+https://svgontheweb.com/
+A full practical guide for using SVG on websites.
+
+*TalentBoard* (tool)
+http://talentboard.me/
+Subscribe to receive free CVs of the best specialists for remote work in your company.
+
+*Own mailbox* (ops)
+http://www.own-mailbox.com/
+Plug at your home, read and write emails privately from anywhere in the world.
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+*Rails 3.2.22, 4.1.11 and 4.2.2 have been released and more* (rb - jun 16)
+http://weblog.rubyonrails.org/2015/6/16/Rails-3-2-22-4-1-11-and-4-2-2-have-been-released-and-more
+These releases contain security fixes, so please upgrade as soon as possible!
+
+*dokaz* (rb)
+https://github.com/zverok/dokaz
+Parse your ruby code written in markdown
+
+*derailed_benchmarks* (rb)
+https://github.com/schneems/derailed_benchmarks
+Checking memory usage of your rails app in several ways.
+
+*Filterable Product Grid* (js)
+http://tympanus.net/codrops/2015/06/16/filterable-product-grid/
+A responsive product grid layout with touch-friendly Flickity galleries and Isotope-powered filter functionality.
+
+*Page Scroll Effects* (js)
+http://codyhouse.co/demo/page-scroll-effects/
+Fancy effects that take place while the user is surfing through the sections of a web page.
+
+*material-theme* (tool)
+https://github.com/equinusocio/material-theme
+Bring Google material design to Sublime Text 3.
+
+*Flocker* (ops)
+https://clusterhq.com/2015/06/17/flocker-1-0/
+Container Data Management for Docker.
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+*Auto-squashing Git Commits* (tool - jun 15)
+https://robots.thoughtbot.com/autosquashing-git-commits
+The fixup and autosquash command
+
+*Rack: First Principles* (rb - jun 16)
+http://rubylogs.com/rack-first-principles
+What Rack is and what it's used for.
+
+*Ruby Error Handling, Beyond the Basics* (rb - jun 16)
+http://www.sitepoint.com/ruby-error-handling-beyond-basics/
+More ways to handle ruby errors besides raise and rescue.
+
+*Avoid race conditions in Rails with Postgres locks* (rb - jun 16)
+http://www.leighhalliday.com/avoid-race-conditions-with-postgres-locks
+Rails provides a great API in ActiveRecord for dealing with DB level locks. This works for both MySQL and Postgres.
+
+*Using Lambdas in Ruby* (rb - jun 16)
+http://blog.honeybadger.io/using-lambdas-in-ruby/
+Lambdas have some interesting tricks up their sleeves once you investigate them a little.
+
+*Understanding the rails-jquery CSRF vulnerability (CVE-2015-1840)* (rb - jun 17)
+http://blog.honeybadger.io/understanding-the-rails-jquery-csrf-vulnerability-cve-2015-1840
+What's CVE-2015-1840 about (one of the vulnerabilities fixed in the last rails update).
+
+*Naming is the key* (rb - jun 17)
+http://codingwithaxe.com/naming-is-the-key/
+Naming guideline for method and class.
+
+*Nokogiri Fundamentals: Extract HTML from the Web* (rb - jun 18)
+http://www.sitepoint.com/nokogiri-fundamentals-extract-html-web/
+The most common use for a parser like Nokogiri is to extract data from structured documents.
+
+*Useful Flexbox Technique: Alignment Shifting Wrapping* (css3 - jun 19)
+https://css-tricks.com/useful-flexbox-technique-alignment-shifting-wrapping/
+Text is always changing and the space you have available is variable.
+
+Watch
+----------------------------------------------------
+Screencasts and conferences videos, or other video feeds ...
+
+*The Future of Software Engineering* (rb - jun 16)
+https://www.youtube.com/watch?v=h1TGJJ-F-fE
+ICSE 2015 - Grady Booch Keynote.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+Links curated by by mose (publisher), xenor, tysliu (editors).
+*|END:IF|*
+*|IFNOT:CONTENT=Only Links|*
+
+Rant
+----------------------------------------------------
+The random rant of the week by mose.
+
+#### The yin and yang of software development
+
+The topic I talked about last week led me to think about it more widely. And I
+ended up with the thinking that many problems in software companies are a
+clear problem of balance between their yin and their yang.
+
+This [old chinese principle][yinyang] is documented in a very old-fashioned
+way, opposing genders and principles. But actually it sums up in the fact that
+many dynamics are to be based in a balance between two opposing principles.
+Otherwise they fail.
+
+The way I see it, software developers are a nurturing kind. This profile has
+to consider long term. It decides actions for later outcomes. It's about
+giving life and growing it. It feels closer to the Yin principle.
+
+On another hand, the business people are bound to a shorter time frame. And I
+don't talk about the entrepreneurs and the rare visionary people, but the real
+business work force. They are competitive, aggressive, fighters. That really
+feels to me like the Yang concept.
+
+And all occurrences where I saw software companies failing, I think it was
+because there was a lack of balance between those 2 principles. Either the
+management was too soft and not aggressive enough towards its market, either
+it was too aggressive and nurturing was not considered enough in their
+equation.
+
+I don't think that this balance requirement applies to everything, to be
+honest. But in a constituted body of a software organization, considering the
+current (questionable) market economy, it feels that the Yin and the Yang have
+to be in balance to grant a chance of survival to the organization.
+
+One may have the feeling that the dominant Yang (business side) is the more
+common case. But they are just more noisy. Many projects stay silently in the
+darkness just because there was no real business consideration (or even
+refusal of it).
+
+The [keynote of Grady Booch][keynote] (linked in the video section) confirmed
+me in various ways in this opinion. Engineers have the duty to fight for the
+balance when they can. They have to understand that it's not a one-way deal,
+as well. If you want to exercise programming in a nurturing-only context, win
+a lottery and dedicate your time writing free software (where market
+requirements don't apply). But in the usual case, you may have to consider if
+you are in a balanced context, and if not, try to work on balancing it.
+
+[yinyang]: https://en.wikipedia.org/wiki/Yin_and_yang
+[keynote]:
+http://modeling-languages.com/grady-booch-on-the-future-of-software-engineering-video-and-highlights/
+
+*|END:IF|*
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+
