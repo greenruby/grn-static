@@ -1,28 +1,38 @@
 ---
-edition: "123"
-pubdate: "june 14th 2015"
+edition: "124"
+pubdate: "june 21th 2015"
 editors: "xenor, tysliu"
 rant:
-  "#### A word about project gardening
+  "#### The yin and yang of software development
 
 
-In the last 2 companies where I worked, there was this recurring issue. Actually I noticed it for a while but for some reasons it became more obvious to me with time passing. The project management role is usually badly fulfilled. 
+The topic I talked about last week led me to think about it more widely. And I ended up with the thinking that many problems in software companies are a clear problem of balance between their yin and their yang.
 
 
-But at some point, and even from the point of view of a developer, there is in projects the need for a dedicated person for doing some gardening. Yeah it's all about daily ungrateful clearing the bad weeds, making sure the soil is rich enough, and that the seeds are all planted where they should be planted, that soil pH is adequate for this or that variety. Having someone that is just doing moderation on projects also frees the productive people from lengthly and sometimes non technical meetings. It is the occasion to have someone that keeps track of specs, sometimes gather them or (re)write them down in a central place.
+This [old chinese principle][yinyang] is documented in a very old-fashioned way, opposing genders and principles. But actually it sums up in the fact that many dynamics are to be based in a balance between two opposing principles. Otherwise they fail.
 
 
-The problem in the transition from waterfall to agile, is that in the waterfall model there is a hierarchic feeling in the role of the project manager. The Management word into it is misleading. It leads the developers to frown upon it. I have the impression that in agile teams, project management is supposed to be taken care of organically by the dev teams, sometimes by the scrum master or whatever facilitator is there for enforcing the agile process. Or the product owner will be technical enough to fill up that role. More or less.
+The way I see it, software developers are a nurturing kind. This profile has to consider long term. It decides actions for later outcomes. It's about giving life and growing it. It feels closer to the Yin principle.
 
 
-But the reality is that project grooming is a full time job that may have to be re-invented. It certainly should take in account developers creativity and pertinence in the match of the objectives with the technical realities. But it's necessary to have a person that is the reference on keeping track of the need and follow the quality process at all the stages. Well, at least when you begin to get many developers and many projects, and developers that work on many projects.
+On another hand, the business people are bound to a shorter time frame. And I don't talk about the entrepreneurs and the rare visionary people, but the real business work force. They are competitive, aggressive, fighters. That really feels to me like the Yang concept.
 
 
-I think it's a question of scale. Companies with less than 30 people may never face that need because there is a natural fluidity internally and not that many projects. But when you get to 100 and you still don't have people dedicated to projects, then you can see developers burning out. Projects become lousy because nobody has time to write specs. You also can see emergence of hero coders that can by miracle make it all happen. But you will postpone the problem because heroes are not scalable and can even be toxic on the long run (as any experienced practitioner already knows).
+And all occurrences where I saw software companies failing, I think it was because there was a lack of balance between those 2 principles. Either the management was too soft and not aggressive enough towards its market, either it was too aggressive and nurturing was not considered enough in their equation.
 
 
-Personally in my technical career I never liked the project managers that I met. But that is a long time I didn't meet any. It dates from an age where agile was not there yet. But now that I don't see them anymore, I feel that something is missing. It certainly exists in various places. And I can bet that many of them are as bad as they were in the last century. But maybe there is a new species of project curators out there that I didn't meet yet. I read about those in various places, but in my (small) world, this is still a mythical beast. 
+I don't think that this balance requirement applies to everything, to be honest. But in a constituted body of a software organization, considering the current (questionable) market economy, it feels that the Yin and the Yang have to be in balance to grant a chance of survival to the organization.
 
+
+One may have the feeling that the dominant Yang (business side) is the more common case. But they are just more noisy. Many projects stay silently in the darkness just because there was no real business consideration (or even refusal of it).
+
+
+The [keynote of Grady Booch][keynote] (linked in the video section) confirmed me in various ways in this opinion. Engineers have the duty to fight for the balance when they can. They have to understand that it's not a one-way deal, as well. If you want to exercise programming in a nurturing-only context, win a lottery and dedicate your time writing free software (where market requirements don't apply). But in the usual case, you may have to consider if you are in a balanced context, and if not, try to work on balancing it.
+
+
+[yinyang]: https://en.wikipedia.org/wiki/Yin_and_yang
+
+[keynote]: http://modeling-languages.com/grady-booch-on-the-future-of-software-engineering-video-and-highlights/
 "
 
 topics:
@@ -32,9 +42,9 @@ topics:
     "Examples of UI/UX, graphic performance, web design and flashy things."
   links:
 
-  - title: "Uber brand guidelines"
-    url: "http://brand.uber.com/"
-    comment: "Very professional branding guidelines, with very neat website effects"
+  - title: "Big Omaha"
+    url: "http://bigomaha.co/"
+    comment: "A conference website with very clear and nice layout."
     tags:
       - design
 
@@ -44,56 +54,86 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: "Rails Security Strategy Guide"
-    url: "http://bauland42.com/welcome-readers/"
-    comment: "(book) How to increase Rails security with mini habits."
+  - title: "Ruby Conference Calendar"
+    url: "https://github.com/planetruby/awesome-events/blob/master/CALENDAR.md"
+    comment: "Auto-generated calendar for ruby conferences."
     tags:
       - rb
 
-  - title: "Handwriting"
-    url: "https://www.handwriting.io/"
-    comment: "Real handwriting  without the pen."
+  - title: "Meta Ruby"
+    url: "http://metaruby.com/"
+    comment: "A discourse forum about Ruby."
+    tags:
+      - rb
+
+  - title: "Daily JavaScript community news and chat"
+    url: "https://jslive.com/"
+    comment: "A RubyFlow-inspired community news site for JavaScript and related technologies."
+    tags:
+      - js
+
+  - title: "SVG on the web"
+    url: "https://svgontheweb.com/"
+    comment: "A full practical guide for using SVG on websites."
+    tags:
+      - web
+
+  - title: "TalentBoard"
+    url: "http://talentboard.me/"
+    comment: "Subscribe to receive free CVs of the best specialists for remote work in your company."
     tags:
       - tool
 
-  - title: "Videvo"
-    url: "http://www.videvo.net/"
-    comment: "Free Stock Footage and Motion Graphics."
+  - title: "Own mailbox"
+    url: "http://www.own-mailbox.com/"
+    comment: "Plug at your home, read and write emails privately from anywhere in the world."
     tags:
-      - design
-
+      - ops
 
 - title: Install
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: "Glasses"
-    url: "https://github.com/otamm/Glasses"
-    comment: "A micro search framework to be used within Ruby web applications."
+  - title: "Rails 3.2.22, 4.1.11 and 4.2.2 have been released and more"
+    url: "http://weblog.rubyonrails.org/2015/6/16/Rails-3-2-22-4-1-11-and-4-2-2-have-been-released-and-more"
+    comment: "These releases contain security fixes, so please upgrade as soon as possible!"
+    pubdate: jun 16
     tags:
       - rb
 
-  - title: "method_hooks"
-    url: "https://github.com/fbonetti/method_hooks"
-    comment: "Add before, around, and after callbacks to any method."
+  - title: "dokaz"
+    url: "https://github.com/zverok/dokaz"
+    comment: "Parse your ruby code written in markdown"
     tags:
       - rb
 
-  - title: "xkcdize"
-    url: "https://github.com/zverok/xkcdize"
-    comment: "XKCD-like picture distortion in Ruby and RMagick."
+  - title: "derailed_benchmarks"
+    url: "https://github.com/schneems/derailed_benchmarks"
+    comment: "Checking memory usage of your rails app in several ways."
     tags:
       - rb
 
-  - title: "Clusterize.js"
-    url: "http://nexts.github.io/Clusterize.js/"
-    comment: "Tiny plugin to display large data sets easily."
+  - title: "Filterable Product Grid"
+    url: "http://tympanus.net/codrops/2015/06/16/filterable-product-grid/"
+    comment: "A responsive product grid layout with touch-friendly Flickity galleries and Isotope-powered filter functionality."
     tags:
       - js
 
-  - title: "Summon"
-    url: "https://conjurinc.github.io/summon/"
-    comment: "Command-line tool that injects secrets as environment variables into any process."
+  - title: "Page Scroll Effects"
+    url: "http://codyhouse.co/demo/page-scroll-effects/"
+    comment: "Fancy effects that take place while the user is surfing through the sections of a web page."
+    tags:
+      - js
+
+  - title: "material-theme"
+    url: "https://github.com/equinusocio/material-theme"
+    comment: "Bring Google material design to Sublime Text 3."
+    tags:
+      - tool
+
+  - title: "Flocker"
+    url: "https://clusterhq.com/2015/06/17/flocker-1-0/"
+    comment: "Container Data Management for Docker."
     tags:
       - ops
 
@@ -101,114 +141,78 @@ topics:
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: "RubyConf Taiwan 2015 is calling for speakers"
-    url: "http://rubytaiwan.tumblr.com/post/120692846086/rubyconf-taiwan-2015-is-calling-for"
-    comment: "Rubyconf Taiwan will be held on 9/11-9/12, it's now calling for papers."
-    pubdate: jun 4
+  - title: "Auto-squashing Git Commits"
+    url: "https://robots.thoughtbot.com/autosquashing-git-commits"
+    comment: "The fixup and autosquash command"
+    pubdate: jun 15
+    tags:
+      - tool
+
+  - title: "Rack: First Principles"
+    url: "http://rubylogs.com/rack-first-principles"
+    comment: "What Rack is and what it's used for."
+    pubdate: jun 16
     tags:
       - rb
 
-  - title: "Puppet in Docker"
-    url: "http://container-solutions.com/2015/06/puppet-in-docker/"
-    comment: "Proper Puppet master-slave setup in Docker containers, for testing purposes."
-    pubdate: jun 7
-    tags:
-      - ops
-
-  - title: "How Arel Converts Ruby Queries Into SQL Statements"
-    url: "http://blog.codeship.com/how-arel-converts-ruby-queries-into-sql-statements/"
-    comment: "Low-level binging between ActiveRecord and Arel."
-    pubdate: jun 8
+  - title: "Ruby Error Handling, Beyond the Basics"
+    url: "http://www.sitepoint.com/ruby-error-handling-beyond-basics/"
+    comment: "More ways to handle ruby errors besides raise and rescue."
+    pubdate: jun 16
     tags:
       - rb
 
-  - title: "Organizing Data: Replace Array with Object"
-    url: "http://designisrefactoring.com/2015/06/08/organizing-data-replace-array-with-object/"
-    comment: "Truns Hash or Array options as configuration object."
-    pubdate: jun 8
+  - title: "Avoid race conditions in Rails with Postgres locks"
+    url: "http://www.leighhalliday.com/avoid-race-conditions-with-postgres-locks"
+    comment: "Rails provides a great API in ActiveRecord for dealing with DB level locks. This works for both MySQL and Postgres."
+    pubdate: jun 16
     tags:
       - rb
 
-  - title: "Refactoring to Reveal Rails Group_by"
-    url: "http://vaidehijoshi.github.io/blog/2015/06/09/refactoring-to-reveal-rails-group-by/"
-    comment: "How and when to use group_by in rails."
-    pubdate: jun 9
+  - title: "Using Lambdas in Ruby"
+    url: "http://blog.honeybadger.io/using-lambdas-in-ruby/"
+    comment: "Lambdas have some interesting tricks up their sleeves once you investigate them a little."
+    pubdate: jun 16
     tags:
       - rb
 
-  - title: "On OpenSCAP and Foreman"
-    url: "http://foreman-shlomizadok.rhcloud.com/2015/06/09/openscap-foreman/"
-    comment: "Run automated vulnerability audits on your foreman hosts."
-    pubdate: jun 9
+  - title: "Understanding the rails-jquery CSRF vulnerability (CVE-2015-1840)"
+    url: "http://blog.honeybadger.io/understanding-the-rails-jquery-csrf-vulnerability-cve-2015-1840"
+    comment: "What's CVE-2015-1840 about (one of the vulnerabilities fixed in the last rails update)."
+    pubdate: jun 17
     tags:
-      - ops
+      - rb
 
-  - title: "The Difference Between Throttling and Debouncing"
-    url: "https://css-tricks.com/the-difference-between-throttling-and-debouncing/"
-    comment: "Ways to limit the amount of JavaScript you are executing based on DOM events for performance reasons."
-    pubdate: jun 10
+  - title: "Naming is the key"
+    url: "http://codingwithaxe.com/naming-is-the-key/"
+    comment: "Naming guideline for method and class."
+    pubdate: jun 17
     tags:
-      - js
+      - rb
 
-  - title: "The Future Generation of CSS Selectors: Level 4"
-    url: "http://www.sitepoint.com/future-generation-css-selectors-level-4/"
-    comment: "The future of CSS selectors is also looking bright, with the Selectors Level 4 specification currently in Working Draft status."
-    pubdate: jun 10
+  - title: "Nokogiri Fundamentals: Extract HTML from the Web"
+    url: "http://www.sitepoint.com/nokogiri-fundamentals-extract-html-web/"
+    comment: "The most common use for a parser like Nokogiri is to extract data from structured documents."
+    pubdate: jun 18
+    tags:
+      - rb
+
+  - title: "Useful Flexbox Technique: Alignment Shifting Wrapping"
+    url: "https://css-tricks.com/useful-flexbox-technique-alignment-shifting-wrapping/"
+    comment: "Text is always changing and the space you have available is variable."
+    pubdate: jun 19
     tags:
       - css3
 
-  - title: "How We Moved Our API From Ruby to Go and Saved Our Sanity"
-    url: "http://blog.parse.com/learn/how-we-moved-our-api-from-ruby-to-go-and-saved-our-sanity"
-    comment: "When the “one process per request” part of the Rails model started to fall apart."
-    pubdate: jun 10
-    tags:
-      - web
-
-  - title: "What’s New in Rails 5"
-    url: "http://www.sitepoint.com/whats-new-rails-5/"
-    comment: "Rails 5 is right around the corner (currently targeting Fall 2015) and there are some exciting features coming up."
-    pubdate: jun 11
-    tags:
-      - rb
-
-  - title: "AngularJS Testing: Bootstrap Blocks, Routes, Events, and Animations"
-    url: "http://www.sitepoint.com/angularjs-testing-tips-bootstrap-blocks-routes-events-animations/"
-    comment: "AngularJS makes testing the code written using the framework easier by supporting features like Dependency Injection."
-    pubdate: jun 11
-    tags:
-      - js
-
-  - title: "A Simple Gulp’y Workflow For Sass"
-    url: "http://www.sitepoint.com/simple-gulpy-workflow-sass/"
-    comment: "Improve the compilation time with Gulp"
-    pubdate: jun 11
-    tags:
-      - web
 
 - title: Watch
   baseline: "Screencasts and conferences videos, or other video feeds ..."
   links:
 
-  - title: "Continuous Acceleration"
-    url: "https://www.youtube.com/watch?v=0mUN3RppEHE"
-    comment: "Why Continuous Everything Requires A Supply Chain Approach."
-    pubdate: jun 8
-    duration: 46m
-    tags:
-      - ops
-
-  - title: "RedDot Ruby Conf 2015"
-    url: "http://confreaks.tv/events/rdrc2015"
-    comment: "Talks at RedDot Ruby Conf in Singapore."
-    pubdate: jun 10
-    duration: 25 videos
+  - title: "The Future of Software Engineering"
+    url: "https://www.youtube.com/watch?v=h1TGJJ-F-fE"
+    comment: "ICSE 2015 - Grady Booch Keynote."
+    pubdate: jun 16
+    duration: 
     tags:
       - rb
-
-  - title: "Supercharging page load (100 Days of Google Dev)"
-    url: "https://www.youtube.com/watch?v=d5_6yHixpsQ"
-    comment: "Making simple changes to Service Worker can vastly improve the startup and load performance of your web site"
-    pubdate: jun 10
-    duration: 11m
-    tags:
-      - web
