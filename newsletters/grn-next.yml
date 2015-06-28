@@ -3,7 +3,7 @@ edition: "125"
 pubdate: "june 28th 2015"
 editors: "xenor, tysliu"
 rant:
-  "#### 
+  "####
 "
 
 topics:
@@ -54,6 +54,12 @@ topics:
     tags:
       - rb
 
+  - title: "Animated Sign Up Flow"
+    url: "http://codyhouse.co/gem/animated-sign-up-flow/"
+    comment: "A pricing table that animates into a sign up form once the user selects a plan."
+    tags:
+      - web
+
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
   links:
@@ -72,12 +78,33 @@ topics:
     tags:
       - rb
 
+  - title: "Rails Multi-Database Best Practices Roundup"
+    url: "http://technology.customink.com/blog/2015/06/22/rails-multi-database-best-practices-roundup"
+    comment: "Most Rails applications I have worked with have managed two or more database connections."
+    pubdate: jun 22
+    tags:
+      - rb
+
   - title: "How to Preload Rails Scopes"
     url: "http://www.justinweiss.com/blog/2015/06/23/how-to-preload-rails-scopes"
     comment: "By change scope to associations."
     pubdate: jun 23
     tags:
       - rb
+
+  - title: "Drat! - Ruby has a Double Splat"
+    url: "https://dev.firmafon.dk/blog/drat-ruby-has-a-double-splat"
+    comment: "Double splats mean two things and they’re inverses of each other."
+    pubdate: jun 23
+    tags:
+      - rb
+
+  - title: "So. Many. States."
+    url: "https://css-tricks.com/so-many-states/"
+    comment: "Contexts or situations in which any given element might be in."
+    pubdate: jun 23
+    tags:
+      - css3
 
   - title: "Over-engineering?"
     url: "https://niallburkley.com/blog/ruby-publish-subscribe/"
@@ -86,6 +113,13 @@ topics:
     tags:
       - rb
 
+  - title: "Handling File Uploads Painlessly with Filepicker"
+    url: "https://scotch.io/tutorials/handling-file-uploads-painlessly-with-filepicker"
+    comment: "Filepicker is a web service for taking the headache out of file uploads."
+    pubdate: jun 24
+    tags:
+      - web
+
   - title: "Decouple ActiveRecord callbacks with some Pub/Sub"
     url: "http://andypike.com/blog/ruby-on-rails/over-engineering/"
     comment: "By background job and ActiveSupport::Notifications"
@@ -93,14 +127,21 @@ topics:
     tags:
       - rb
 
+  - title: "Showing similar results in Postgres"
+    url: "http://www.leighhalliday.com/showing-results-for-trigrams-in-postgres"
+    comment: "Just because the user is 1 letter off doesn't mean I shouldn't give them a meaningful search result."
+    pubdate: jun 25
+    tags:
+      - web
+
 - title: Watch
   baseline: "Screencasts and conferences videos, or other video feeds ..."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
-    pubdate: jun 10
-    duration: 
+  - title: "Video: Understanding React Events"
+    url: "http://www.sitepoint.com/video-understanding-react-events/"
+    comment: "Understand how to create events through React."
+    pubdate: jun 26
+    duration: 5m
     tags:
-      - rb
+      - web
