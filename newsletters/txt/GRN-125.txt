@@ -1,0 +1,173 @@
+----------------------------------------------------
+Green Ruby News #125 - june 28th 2015
+----------------------------------------------------
+*|IFNOT:CONTENT=Only Rant|*
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+*Void* (design)
+http://void.hi-res.net/
+Artistic web expriments.
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+*Opalist* (rb)
+http://www.opalist.co/
+Bi-weekly publication showcasing the latest news and tutorials for Opal.
+
+*No Code-Of-Conduct* (web)
+http://nocodeofconduct.com/ncoc
+Do we really need CoC?
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+*Rails 4.2.3 and 4.1.12* (rb - jun 26)
+http://weblog.rubyonrails.org/2015/6/26/Rails-4-2-3-and-4-1-12-have-been-released/
+This is a minor upgrade with some bugfixes.
+
+*filterrific* (rb)
+https://github.com/jhund/filterrific
+A Rails Engine plugin that filter, search, and sort ActiveRecord lists.
+
+*tty-pager* (rb)
+https://github.com/peter-murach/tty-pager
+Terminal output paging.
+
+*disposable* (rb)
+https://github.com/apotonick/disposable
+Decorators on top of ActiveRecord.
+
+*Atom 1.0* (tool)
+http://blog.atom.io/2015/06/25/atom-1-0.html
+After one year of dev, here is the first stable release for that text editor from Github.
+
+*Pale Moon* (tool)
+https://www.palemoon.org/
+Open Source, Firefox-based web browser
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+*Bitwise hacks in Ruby* (rb - jun 22)
+http://blog.honeybadger.io/bitwise-hacks-in-ruby/
+Some practical and less practical usage of bitwise operators.
+
+*Rails Multi-Database Best Practices Roundup* (rb - jun 22)
+http://technology.customink.com/blog/2015/06/22/rails-multi-database-best-practices-roundup
+Most Rails applications I have worked with have managed two or more database connections.
+
+*How to Preload Rails Scopes* (rb - jun 23)
+http://www.justinweiss.com/blog/2015/06/23/how-to-preload-rails-scopes
+By change scope to associations.
+
+*Drat! - Ruby has a Double Splat* (rb - jun 23)
+https://dev.firmafon.dk/blog/drat-ruby-has-a-double-splat
+Double splats mean two things and they’re inverses of each other.
+
+*So. Many. States.* (css3 - jun 23)
+https://css-tricks.com/so-many-states/
+Contexts or situations in which any given element might be in.
+
+*Docker Slips a Universal Runtime Into All Containers* (ops - jun 23)
+http://thenewstack.io/declaring-format-wars-over-docker-slips-a-universal-runtime-into-all-containers/
+Docker and CoreOs finally make peace.
+
+*Handling File Uploads Painlessly with Filepicker* (js - jun 24)
+https://scotch.io/tutorials/handling-file-uploads-painlessly-with-filepicker
+Filepicker is a web service for taking the headache out of file uploads.
+
+*Animated Sign Up Flow* (css3 - jun 24)
+http://codyhouse.co/gem/animated-sign-up-flow/
+A pricing table that animates into a sign up form once the user selects a plan.
+
+*Decouple ActiveRecord callbacks with some Pub/Sub* (rb - jun 25)
+http://andypike.com/blog/ruby-on-rails/over-engineering/
+By background job and ActiveSupport::Notifications.
+
+*Showing similar results in Postgres* (tool - jun 25)
+http://www.leighhalliday.com/showing-results-for-trigrams-in-postgres
+Just because the user is 1 letter off doesn't mean I shouldn't give them a meaningful search result.
+
+*Rails CI with Jenkins and Docker Compose* (rb - jun 26)
+https://medium.com/@WoloxEngineering/ruby-on-rails-continuous-integration-with-jenkins-and-docker-compose-8dfd24c3df57
+Details on how Wolox uses Jenkins with docker compose.
+
+*Disposable – The Missing API of ActiveRecord* (rb - jun 27)
+http://nicksda.apotomo.de/2015/06/disposable-the-missing-api-of-activerecord/
+Another invention from the Trailblazer track.
+
+Watch
+----------------------------------------------------
+Screencasts and conferences videos, or other video feeds ...
+
+*Gorails 61* (rb - jun 26 - 10m)
+https://gorails.com/episodes/rails-assets
+Manage Assets With Rails Assets.
+
+*Video: Understanding React Events* (js - jun 26 - 5m)
+http://www.sitepoint.com/video-understanding-react-events/
+Understand how to create events through React.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+Links curated by by mose (publisher), xenor, tysliu (editors).
+*|END:IF|*
+*|IFNOT:CONTENT=Only Links|*
+
+Rant
+----------------------------------------------------
+The random rant of the week by mose.
+
+#### a taste of FreeBSD
+
+This weekend I installed [FreeBSD][freebsd] 10.1 on a disk of my desktop.
+Beyond the fact that we are using that system at work, more and more, I was
+just curious about the setup for a desktop. I was pleasantly surprised and
+everything went very smoothly.
+
+I'm quite familiar with Linux and that was enough for making the ride very
+easy. The general impression is that actually the system is simpler than on
+Linux, maybe more consistent. The pkg system, alternative to the traditional
+ports system, makes thing much more 'out of the box'.
+
+And for the rest, well, in one afternoon, and just by following the doc, I had
+my window manager up and running, and ready to begin playing with
+[bhyve][bhyve]. I was surprised to see that bhyve kernel modules were included
+by default in recent releases. I heard there are still some bumps on the road
+for laptop about the sleep to disk mode, but I'm not concerned by that.
+
+It feels like BSD is a shy actor that actually powers much more stuff that we
+can suspect. But it has a pretty active community and a very decent
+documentation. Well, give it a try if you like playing with various
+distributions of free and open operating systems. It's much less scary that
+its reputation seems to convey.
+
+[freebsd]: http://freebsd.org
+[bhyve]: https://wiki.freebsd.org/bhyve 
+
+*|END:IF|*
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+
