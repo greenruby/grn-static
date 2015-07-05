@@ -1,0 +1,226 @@
+----------------------------------------------------
+Green Ruby News #126 - july 5th 2015
+----------------------------------------------------
+*|IFNOT:CONTENT=Only Rant|*
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+*Bruno Quintela* (design)
+http://brunoquintela.com/
+Graphic designer website, very visual.
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+*The Art of Command Line* (tool)
+https://github.com/jlevy/the-art-of-command-line
+Master the command line, in one page.
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+*Squib* (rb)
+https://andymeneely.github.io/squib/
+A Ruby DSL for prototyping card and board games.
+
+*IsoLatte* (rb)
+https://github.com/emcien/iso_latte
+Put block of code into subprocess.
+
+*Protector* (rb)
+https://github.com/inossidabile/protector
+Whitelist security restrictions for AR models on a field level.
+
+*Maktoub* (rb)
+https://github.com/Sandglaz/maktoub
+A simple newsletter engine for Rails.
+
+*IsoLatte* (rb)
+https://github.com/emcien/iso_latte
+Clean up after background jobs.
+
+*Lockr* (js)
+https://github.com/tsironis/lockr
+Lightweight library to facilitate interaction with localStorage.
+
+*Code Climate platform* (tool)
+https://codeclimate.com/platform
+Code climate open sourced its static analysis tool last month.
+
+*Endless* (tool)
+https://github.com/jcs/endless
+iOS web browser with a focus on security and privacy.
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+*Printing images in the terminal with 9 lines of Ruby* (rb - jun 29)
+http://radek.io/2015/06/29/catpix
+Easily turns your picture to ASCII art.
+
+*Weighted Quick Union & Quick Find Algorithm in Ruby* (rb - jun 29)
+http://www.leighhalliday.com/weighted-quick-union-find-algorithm-in-ruby
+Ruby implementation of node connection finding algorithm.
+
+*Creating Easy, Readable Attributes With ActiveRecord Enums* (rb - jun 30)
+http://www.justinweiss.com/blog/2015/06/30/creating-easy-readable-attributes-with-activerecord-enums/
+How to use Rails Enum.
+
+*Three Little Hacks* (rb - jul 1)
+http://thingsinabucket.com/2015/07/01/three_little_hacks/
+Find deep nested hash key, symbol's respond_to, and unary method.
+
+*Kiba: ETL Done Right* (rb - jul 1)
+http://www.sitepoint.com/kiba-etl-done-right/
+ETL is another way to say data migration with Kiba gem.
+
+*Build a RealTime Markdown Editor with Node.js* (js - jul 1)
+https://scotch.io/tutorials/building-a-real-time-markdown-viewer
+Raw markdown on the left and the converted markdown on the right.
+
+*Working with Shapes in Web Design* (css3 - jul 1)
+https://css-tricks.com/working-with-shapes-in-web-design/
+Components on a website are just rectangles after all.
+
+*WebAssembly & Life After JavaScript* (web - jul 1)
+http://www.sitepoint.com/future-programming-webassembly-life-after-javascript/
+Wasm makes the web platform a more attractive compilation target for other languages.
+
+*Change the process name of your Ruby script* (rb - jul 2)
+http://blog.honeybadger.io/how-to-change-the-process-name-in-ruby-for-top-and-ps/
+Ruby process show in top or ps can be innacurrate, here is how to change it.
+
+*Introduction to the Fetch API* (js - jul 2)
+http://www.sitepoint.com/introduction-to-the-fetch-api/
+The Fetch API aims to replace XMLHttpRequest as the foundation of communication with remote resources.
+
+*Implementing Lazy Enumerables in Ruby* (rb - jul 3)
+http://www.sitepoint.com/implementing-lazy-enumerables-in-ruby/
+Learn how Ruby implements this interesting programming technique by making your own lazy enumerable.
+
+*A Beginner’s Guide to Handlebars* (js - jul 3)
+http://www.sitepoint.com/a-beginners-guide-to-handlebars/
+Handlebars is a logic-less templating engine that dynamically generates your HTML page.
+
+*Browser Trends July 2015: Stalled Safari?* (web - jul 3)
+http://www.sitepoint.com/browser-trends-july-2015-stalled-safari/
+Worldwide Desktop & Tablet Browser Statistics, May to June 2015.
+
+*Delivering Power with Wi-Fi Signals* (web - jul 4)
+http://thenewstack.io/delivering-power-with-wi-fi-signals-to-the-next-billion-devices-no-batteries-required/
+We can harvest small amounts of power from these signals, tens of microwatts of power.
+
+Watch
+----------------------------------------------------
+Screencasts and conferences videos, or other video feeds ...
+
+*8 days Open source vlog* (rb - jul 1 - 8 videos)
+https://gorails.com/
+8 consecutive videos, one per day, about various ruby coding topics.
+
+*Elasticsearch primer* (ops - jul 1 - 5 videos)
+http://cbblog.azurewebsites.net/be-an-expert-in-elasticsearch-by-watching-5-videos/
+Become an expert (kinda) in ElasticSearch by watching these 5 videos.
+
+*Goruco 2015* (rb - jul 3 - 13 videos)
+http://confreaks.tv/events/goruco2015
+Videos from the Goruco in New York this year.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+Links curated by by mose (publisher), xenor, tysliu (editors).
+*|END:IF|*
+*|IFNOT:CONTENT=Only Links|*
+
+Rant
+----------------------------------------------------
+The random rant of the week by mose.
+
+#### Digital Generations
+
+I enjoyed very much watching the [keynote from Grady Booch at ICSE][keynote]
+last week. He retraces the whoel history of computing and software engineering
+in a very talented way.
+
+Later on I also watched the [keynote of Stephen Bourne at BSDCan][bourne],
+which also talked about history, but on a specific topic of the creation of
+Unix and the shell.
+
+Usually, I have to say, I consider myself as an old geek. But I'm a kid
+compared to those guys. It made me wonder what are generations based on the
+computerized world. In the physical world it's easy, there are births and
+generations are around 20-30 years long. But in our accelerated time frame in
+the digital age, what is the measure for generations and where are the gaps ?
+
+We could consider that some breakthrough are the base of generational shifts.
+On the top of my head I would say:
+
+- the dinosaurs age, before 70, where computing was just emerging
+- the university age, appearing with the interconnectivity between
+universities between 70 and 80
+- the personnal computer age, between 80 and 94, with various evolutions of pc
+available to larger audience
+- the hypertext age, beetween 94 and 2002, start of the public internet, the
+bubble, the web
+- the online age, from 2002 to 2012, with consolidation of big companies, web
+2.0 and all
+- the mobile age, from 2012 to now, even if mobile appeared previously, it
+dominates since recently
+
+So I can see an average of 8-15 years in the generations that I feel create
+disruptions between each others. People that jump in at one age will suffer a
+gap between their age and the next one. Many won't evolve. Few brave ones will
+constantly update and jump on the next train.
+
+But the overlap in digital generations is also different than in traditional
+generations. We still have a lot of legacy in our current systems inherited
+form the university age. And they don't seem to die, like the TCP stack or the
+C language.
+
+The next age may be the one of the Internet of things and the massive required
+switch to IPv6 as default. Which will include automated and autonomous
+systems, because they will be things and not part of a contained system. In
+something like 3 to 5 years, if I follow the same rough pattern I drew above.
+Unless next gap will come with VR and immersive technologies ?
+
+But I suspect that my simplistic characterization misses all the multi-layered
+aspect of the digital age, between the hardware advancements, the software
+improvements, the usages evolutions, the protocols modifications, the data
+models transformations, etc. I'm sure a more complex generational matrix could
+be designed if some more thought was given to it. But the gaps are real.
+
+It feels to me that people that predict that machines are going to take over
+the world are actually late, it already happened 40 years ago. It was just
+having a limited impact on people lives. Each digital generation dragging more
+human in its trails.
+
+Don't let yourself enclosed in a generation. Our computer overlords won't make
+any effort to include you if you drag your feet.
+
+[keynote]: https://www.youtube.com/watch?v=h1TGJJ-F-fE
+[bourne]: https://www.youtube.com/watch?v=2kEJoWfobpA
+
+*|END:IF|*
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+
