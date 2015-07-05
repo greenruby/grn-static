@@ -3,7 +3,7 @@ edition: "126"
 pubdate: "july 5th 2015"
 editors: "xenor, tysliu"
 rant:
-  "#### 
+  "####
 "
 
 topics:
@@ -25,11 +25,11 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "endless"
+    url: "https://github.com/jcs/endless"
+    comment: "iOS web browser with a focus on security and privacy "
     tags:
-      - css3
+      - web
 
 
 
@@ -37,9 +37,27 @@ topics:
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "Squib"
+    url: "https://andymeneely.github.io/squib/"
+    comment: "A Ruby DSL for prototyping card and board games."
+    tags:
+      - rb
+
+  - title: "IsoLatte"
+    url: "https://github.com/emcien/iso_latte"
+    comment: "Put block of code into subprocess."
+    tags:
+      - rb
+
+  - title: "Protector"
+    url: "https://github.com/inossidabile/protector"
+    comment: "Whitelist security restrictions for AR models on a field level."
+    tags:
+      - rb
+
+  - title: "maktoub"
+    url: "https://github.com/Sandglaz/maktoub"
+    comment: "A simple newsletter engine for Rails"
     tags:
       - rb
 
@@ -48,13 +66,40 @@ topics:
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
-    pubdate: jun 10
+  - title: "Printing images in the terminal with 9 lines of Ruby"
+    url: "http://radek.io/2015/06/29/catpix"
+    comment: "Easily turns your picture to ASCII art"
+    pubdate: jun 29
     tags:
       - rb
 
+  - title: "Weighted Quick Union & Quick Find Algorithm in Ruby"
+    url: "http://www.leighhalliday.com/weighted-quick-union-find-algorithm-in-ruby"
+    comment: "Ruby implementation of node connection finding algorithm"
+    pubdate: jun 29
+    tags:
+      - rb
+
+  - title: "Creating Easy, Readable Attributes With ActiveRecord Enums"
+    url: "http://www.justinweiss.com/blog/2015/06/30/creating-easy-readable-attributes-with-activerecord-enums/"
+    comment: "How to use Rails Enum"
+    pubdate: jun 30
+    tags:
+      - rb
+
+  - title: "Three Little Hacks"
+    url: "http://thingsinabucket.com/2015/07/01/three_little_hacks/"
+    comment: "Find deep nested hash key, symbol's respond_to, and unary method"
+    pubdate: jul 1
+    tags:
+      - rb
+
+  - title: "How to change the process name of your Ruby script as shown by `top` and `ps`"
+    url: "http://blog.honeybadger.io/how-to-change-the-process-name-in-ruby-for-top-and-ps/"
+    comment: "Ruby process can suck and here is how you can change it"
+    pubdate: jul 2
+    tags:
+      - rb
 
 
 - title: Watch
@@ -65,6 +110,6 @@ topics:
     url: ""
     comment: ""
     pubdate: jun 10
-    duration: 
+    duration:
     tags:
       - rb
