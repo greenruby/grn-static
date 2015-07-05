@@ -61,6 +61,18 @@ topics:
     tags:
       - rb
 
+  - title: "IsoLatte"
+    url: "https://github.com/emcien/iso_latte"
+    comment: "Sometimes you need to run background jobs that you can't make important guarantees about, and you need to be able to clean up after such problems."
+    tags:
+      - rb
+
+  - title: "Lockr"
+    url: "https://github.com/tsironis/lockr"
+    comment: "Lockr (pronounced /ˈlɒkəʳ/) is an extremely lightweight library (<2kb when minified), designed to facilitate how you interact with localStorage."
+    tags:
+      - js
+
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
@@ -80,6 +92,13 @@ topics:
     tags:
       - rb
 
+  - title: "Printing images in the terminal with 9 lines of Ruby"
+    url: "http://radek.io/2015/06/29/catpix/"
+    comment: "There are many ways to bringing graphics into the text-based environment of the terminal."
+    pubdate: jun 29
+    tags:
+      - rb
+
   - title: "Creating Easy, Readable Attributes With ActiveRecord Enums"
     url: "http://www.justinweiss.com/blog/2015/06/30/creating-easy-readable-attributes-with-activerecord-enums/"
     comment: "How to use Rails Enum"
@@ -94,6 +113,34 @@ topics:
     tags:
       - rb
 
+  - title: "Kiba: ETL Done Right"
+    url: "http://www.sitepoint.com/kiba-etl-done-right/"
+    comment: "ETL is another way to say \“data migration\"."
+    pubdate: jul 1
+    tags:
+      - rb
+
+  - title: "Build a Real-Time Markdown Editor with Node.js"
+    url: "https://scotch.io/tutorials/building-a-real-time-markdown-viewer"
+    comment: "Building an app that let’s us view the raw markdown on the left side and the converted markdown (to HTML) on the right side."
+    pubdate: jul 1
+    tags:
+      - js
+
+  - title: "Working with Shapes in Web Design"
+    url: "https://css-tricks.com/working-with-shapes-in-web-design/"
+    comment: "When we make a new component on a website, we’re effectively creating rectangles of different sizes, whether we realise it or not."
+    pubdate: jul 1
+    tags:
+      - css3
+
+  - title: "The Future of Programming: WebAssembly & Life After JavaScript"
+    url: "http://www.sitepoint.com/future-programming-webassembly-life-after-javascript/"
+    comment: "Wasm makes the web platform a more attractive compile target for other languages."
+    pubdate: jul 1
+    tags:
+      - web
+
   - title: "How to change the process name of your Ruby script as shown by `top` and `ps`"
     url: "http://blog.honeybadger.io/how-to-change-the-process-name-in-ruby-for-top-and-ps/"
     comment: "Ruby process can suck and here is how you can change it"
@@ -101,6 +148,40 @@ topics:
     tags:
       - rb
 
+  - title: "Introduction to the Fetch API"
+    url: "http://www.sitepoint.com/introduction-to-the-fetch-api/"
+    comment: "The Fetch API aims to replace XMLHttpRequest as the foundation of communication with remote resources."
+    pubdate: jul 2
+    tags:
+      - js
+
+  - title: "Implementing Lazy Enumerables in Ruby"
+    url: "http://www.sitepoint.com/implementing-lazy-enumerables-in-ruby/"
+    comment: "Learn how Ruby implements this interesting programming technique by making your own lazy enumerable."
+    pubdate: jul 3
+    tags:
+      - rb
+
+  - title: "A Beginner’s Guide to Handlebars"
+    url: "http://www.sitepoint.com/a-beginners-guide-to-handlebars/"
+    comment: "Handlebars is a logic-less templating engine that dynamically generates your HTML page."
+    pubdate: jul 3
+    tags:
+      - js
+
+  - title: "Browser Trends July 2015: Stalled Safari?"
+    url: "http://www.sitepoint.com/browser-trends-july-2015-stalled-safari/"
+    comment: "Worldwide Desktop & Tablet Browser Statistics, May to June 2015."
+    pubdate: jul 3
+    tags:
+      - web
+
+  - title: "Delivering Power with Wi-Fi Signals to the Next Billion Devices, No Batteries Required"
+    url: "http://thenewstack.io/delivering-power-with-wi-fi-signals-to-the-next-billion-devices-no-batteries-required/"
+    comment: "Our research has shown that we can harvest small amounts of power from these signals, tens of microwatts of power."
+    pubdate: jul 4
+    tags:
+      - web
 
 - title: Watch
   baseline: "Screencasts and conferences videos, or other video feeds ..."
