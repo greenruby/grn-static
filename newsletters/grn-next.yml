@@ -3,7 +3,7 @@ edition: "127"
 pubdate: "july 12th 2015"
 editors: "xenor, tysliu"
 rant:
-  "#### 
+  "####
 "
 
 topics:
@@ -43,6 +43,30 @@ topics:
     tags:
       - rb
 
+  - title: "Action Cable – Integrated websockets for Rails"
+    url: "https://github.com/rails/actioncable"
+    comment: "Action Cable seamlessly integrates websockets with the rest of your Rails application."
+    tags:
+      - rb
+
+  - title: "jQuery fontIconPicker"
+    url: "http://codeb.it/fonticonpicker/"
+    comment: "Elegant icon picker with categories, search and pagination inside your administration forms."
+    tags:
+      - js
+
+  - title: "Merge Conflicts"
+    url: "https://atom.io/packages/merge-conflicts"
+    comment: "Resolve your git merge conflicts in Atom!"
+    tags:
+      - tools
+
+  - title: "cola.js"
+    url: "http://marvl.infotech.monash.edu/webcola/"
+    comment: "Open-source JavaScript library for arranging your HTML5 documents and diagrams using constraint-based optimization techniques."
+    tags:
+      - js
+
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
@@ -55,6 +79,13 @@ topics:
     tags:
       - rb
 
+  - title: "Faking APIs in Development and Staging"
+    url: "https://robots.thoughtbot.com/faking-apis-in-development-and-staging"
+    comment: "Fakes are great for testing an application that interacts with 3rd party APIs."
+    pubdate: jul 6
+    tags:
+      - rb
+
   - title: "Using Enumerable as testing abstraction"
     url: "http://craftingruby.com/posts/2015/07/07/using-enumerable-as-abstraction-when-testing.html"
     comment: "Some neet usage of Enumerable"
@@ -62,9 +93,23 @@ topics:
     tags:
       - rb
 
+  - title: "Getting Started with Vim: An Interactive Guide"
+    url: "https://scotch.io/tutorials/getting-started-with-vim-an-interactive-guide"
+    comment: "Command line editors can be a scary thing to learn and use for beginners, and Vim is probably the scariest of them all."
+    pubdate: jul 6
+    tags:
+      - tools
+
+  - title: "The Pathway for New Rubyists"
+    url: "http://www.sitepoint.com/the-pathway-for-new-rubyists/"
+    comment: "Suggested list of books, courses, blogs, and forums on Ruby"
+    pubdate: jul 8
+    tags:
+      - rb
+
   - title: "Ruby is defined by terrible tools"
     url: "http://devblog.avdi.org/2015/07/08/ruby-is-defined-by-terrible-tools/"
-    comment: "We might never have good tools fro Ruby."
+    comment: "Programming languages cannot be considered separately from their ecosystems."
     pubdate: jul 8
     tags:
       - rb
@@ -76,6 +121,12 @@ topics:
     tags:
       - rb
 
+  - title: "Uploading Files with Paperclip"
+    url: "http://www.sitepoint.com/uploading-files-with-paperclip/"
+    comment: "Paperclip by Thoughtbot – probably, the most popular and feature-rich solution for integrating file uploading and management into an application."
+    pubdate: jul 10
+    tags:
+      - rb
 
 - title: Watch
   baseline: "Screencasts and conferences videos, or other video feeds ..."
