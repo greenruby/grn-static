@@ -1,0 +1,213 @@
+----------------------------------------------------
+Green Ruby News #127 - july 12th 2015
+----------------------------------------------------
+*|IFNOT:CONTENT=Only Rant|*
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+*Piaget Possession* (design)
+http://www.piaget.com/jewelry/possession/turn-and-the-world-is-yours
+Jewerly website with some advanced effects on video.
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+*Rails Karate* (rb)
+http://railskarate.com/
+A website publishing resources to learn rails.
+
+*The micro Gem principle* (rb)
+https://www.rubyplus.com/articles/2561
+Manifesto for tiny gems.
+
+*The art of monitoring* (css3)
+http://theartofmonitoring.tumblr.com/
+Graphs can be good looking, submit some there.
+
+*Tractorbot* (tool)
+https://github.com/ipswichmakerspace/TractorBot
+Code and files for TractorBot, the winner of the 2014 RobotWars competition, recently open sourced.
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+*Reform 2.0* (rb)
+https://github.com/apotonick/reform
+Form objects decoupled from your models.
+
+*Action Cable* (rb)
+https://github.com/rails/actioncable
+Action Cable seamlessly integrates websockets with Rails application.
+
+*jQuery fontIconPicker* (js)
+http://codeb.it/fonticonpicker/
+Elegant icon picker with categories, search and pagination inside administration forms.
+
+*Cola.js* (js)
+http://marvl.infotech.monash.edu/webcola/
+Arrange HTML5 documents and diagrams using constraint-based optimization techniques.
+
+*Merge Conflicts* (tool)
+https://atom.io/packages/merge-conflicts
+Resolve your git merge conflicts in Atom.
+
+*SwiftypeMonitoring* (ops)
+https://github.com/swiftype/swiftype-monitoring
+Framework for building application-level monitoring checks.
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+*WebSockets in the Ruby Ecosystem* (rb - jul 6)
+https://www.sitepoint.com/websockets-in-the-ruby-ecosystem
+How to use websoclet in a ruby app.
+
+*Faking APIs in Development and Staging* (rb - jul 6)
+https://robots.thoughtbot.com/faking-apis-in-development-and-staging
+Fakes are great for testing an application that interacts with 3rd party APIs.
+
+*Getting Started with Vim: An Interactive Guide* (tool - jul 6)
+https://scotch.io/tutorials/getting-started-with-vim-an-interactive-guide
+Vim is not the easiest text editor, this should help breaking the ice.
+
+*Cassandra, The Right Data Store* (ops - jul 6)
+http://www.rapidvaluesolutions.com/tech_blog/cassandra-the-right-data-store-for-scalability-performance-availability-and-maintainability/
+For Scalability, Performance, Availability and Maintainability. Overview.
+
+*Using Enumerable as testing abstraction* (rb - jul 7)
+http://craftingruby.com/posts/2015/07/07/using-enumerable-as-abstraction-when-testing.html
+Some neat usage of Enumerable.
+
+*How to write Rails middleware* (rb - jul 7)
+http://rubylogs.com/writing-rails-middleware/
+Third article about rack and middlewares, with code examples.
+
+*The Pathway for New Rubyists* (rb - jul 8)
+http://www.sitepoint.com/the-pathway-for-new-rubyists/
+Suggested list of books, courses, blogs, and forums on Ruby.
+
+*Ruby is defined by terrible tools* (rb - jul 8)
+http://devblog.avdi.org/2015/07/08/ruby-is-defined-by-terrible-tools/
+Programming languages cannot be considered separately from their ecosystems.
+
+*Nested errors in Ruby with Exception#cause* (rb - jul 8)
+http://blog.honeybadger.io/nested-errors-in-ruby-with-exception-cause/
+How Exception#cause can help in Ruby 2.1.
+
+*Managing Gluster Volume Snapshots using oVirt* (ops - jul 9)
+http://shtripat.blogspot.in/2015/07/oVirtAndGlusterVolumeSnapshots.html
+Gluster is a scale-out, software only, distributed file system which provides ability to store peta-bytes of data.
+
+*Uploading Files with Paperclip* (rb - jul 10)
+http://www.sitepoint.com/uploading-files-with-paperclip/
+Popular solution for integrating file uploading and management into a Rails app.
+
+*Rails tricky timezones* (rb - jul 12)
+https://techlace.wordpress.com/2015/07/12/rails-tricky-timezones/
+Clarify the confusion around timezones in rails.
+
+Watch
+----------------------------------------------------
+Screencasts and conferences videos, or other video feeds ...
+
+*Pair Programming on Rails Scopes* (rb - jul 6 - 1h03)
+https://gorails.com/episodes/rails-scopes?autoplay=1
+Pair programming session on some common model scopes related to time.
+
+*Simple And Clean RubyGem With Rails Engines* (rb - jul 8 - 4m)
+https://gorails.com/episodes/vlog-rails-engines
+Overview of rails engines.
+
+*How to provision a complete Rails server in 2 minutes with Ansible* (rb - jul 9 - 2m)
+https://vimeo.com/133059608
+Use ansible to easily provision an rails app server.
+
+*Rails 5's ActionCable and Websockets Introduction* (rb - jul 11 - 18m)
+https://gorails.com/episodes/rails-5-actioncable-websockets
+Feels like it's the week of actioncable, right ?
+
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+Links curated by by mose (publisher), xenor, tysliu (editors).
+*|END:IF|*
+*|IFNOT:CONTENT=Only Links|*
+
+Rant
+----------------------------------------------------
+The random rant of the week by mose.
+
+#### Javascript and thoughts on programming
+
+Recently I've been playing with plugins code in coffeescript for our company
+Hubot. That's a while I didn't do much js but I used it for a long time and I
+didn't find it too difficult to catch up. But for some reason, it brought me
+the same feeling I have each time I get back to that language. I feel dirty.
+Still I can do what I need to do, for sure, but I don't feel like a builder,
+more like an acrobat. And I'm far from a purist.
+
+Some people talk about javascript taking over the world. But that language
+imho just was there at the right place at the right time. By having a runtime
+embedded in browsers and browsers libraries, it has been used to hijack the
+most used software on our computers and mobile devices, to transform them into
+richer clients. Along the way various layers were added to fulfill the need of
+software design, because javascript initial goal was merely DOM manipulation.
+
+The thing that always stroke me the most with javascript is that despite the
+efforts from ecmascript, it has no formal standard or documentation. It is
+pretty extensively documented, of course, but because the language is pushed
+forward by the implementations rather than from a standard body, it gets a bit
+messy.
+
+I saw a [drawing][js] this week that illustrates the mess quite well. It feels
+like Javascript is waiting for something to come replace it.
+
+But there is hope with ES6. Seems like in recent years the normative effort on
+the ecmascript standard got some more traction and some more press coverage.
+But I personally don't think it's going to bring the solution. I enjoyed
+reading the [thoughts of Eric Elliot][thoughts] on that topic but I'm not sure
+he's right on everything. But what he's right about, is that there will be an
+after-javascript.
+
+Unless that after javascript doesn't arrive fast enough and gets useless by
+some new programming paradigm that may appear one day soon. I mean, in the
+next 10 years. At some point, like big data is too complex to be handled by
+human, programming will also get too complex and will be handled by
+algorithms. We already [see it coming][helium]. And all programmers will then
+become high end workflow designers or just play with antiquities.
+
+In this perspective, I think javascript is a great intermediary technology for
+the time being, given its pervasive aspect. It's far from satisfying, but it
+does the job. But the younger generation should keep an eye on higher level
+abstract approaches, like systems architectures, workflow logics, organization
+patterns, because imho that will drive software design in the next 10-20
+years.
+
+[js]: http://cube-drone.com/comics/c/relentless-persistence
+[thoughts]:
+http://www.sitepoint.com/future-programming-webassembly-life-after-javascript/
+[helium]: http://phys.org/news/2015-07-code-faster-expert.html
+
+*|END:IF|*
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+
