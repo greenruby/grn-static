@@ -37,9 +37,9 @@ topics:
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "Reform 2.0"
+    url: "https://github.com/apotonick/reform"
+    comment: "Form objects decoupled from your models"
     tags:
       - rb
 
@@ -48,23 +48,43 @@ topics:
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "WebSockets in the Ruby Ecosystem"
+    url: "https://www.sitepoint.com/websockets-in-the-ruby-ecosystem"
+    comment: "How to use websoclet in your ruby app"
     pubdate: jul 6
     tags:
       - rb
 
+  - title: "Using Enumerable as testing abstraction"
+    url: "http://craftingruby.com/posts/2015/07/07/using-enumerable-as-abstraction-when-testing.html"
+    comment: "Some neet usage of Enumerable"
+    pubdate: jul 7
+    tags:
+      - rb
+
+  - title: "Ruby is defined by terrible tools"
+    url: "http://devblog.avdi.org/2015/07/08/ruby-is-defined-by-terrible-tools/"
+    comment: "We might never have good tools fro Ruby."
+    pubdate: jul 8
+    tags:
+      - rb
+
+  - title: "Nested errors in Ruby with Exception#cause"
+    url: "http://blog.honeybadger.io/nested-errors-in-ruby-with-exception-cause/"
+    comment: "How Exception#cause can help you in Ruby 2.1"
+    pubdate: jul 8
+    tags:
+      - rb
 
 
 - title: Watch
   baseline: "Screencasts and conferences videos, or other video feeds ..."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
-    pubdate: jul 6
-    duration: 
+  - title: "How to provision a complete Rails server in 2 minutes with Ansible"
+    url: "https://vimeo.com/133059608"
+    comment: "Use ansible to easily provision an rails app server"
+    pubdate: jul 9
+    duration: 2m
     tags:
       - rb
