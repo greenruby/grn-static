@@ -25,11 +25,23 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "CodeDorm"
+    url: "http://www.codedorm.net/"
+    comment: "Finding sample projects for different programming language"
     tags:
-      - css3
+      - web
+
+  - title: "Colorizer"
+    url: "http://www.colorizer.org/"
+    comment: "Color picker with high precision and contrast test"
+    tags:
+      - web
+
+  - title: "Airbnb JavaScript Style Guide"
+    url: "https://github.com/airbnb/javascript"
+    comment: "Comprehensive javascript style guide (including ES6) from Airbnb"
+    tags:
+      - js
 
 
 
@@ -37,21 +49,43 @@ topics:
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "image_info"
+    url: "https://github.com/gottfrois/image_info"
+    comment: "Finds the size and type of a single or multiple images from the web"
     tags:
       - rb
+
 
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
-    pubdate: jul 6
+  - title: "Writing Smart Migrations: References, Reversible, and Indexes"
+    url: "http://vaidehijoshi.github.io/blog/2015/07/14/writing-smart-migrations-references-reversible-and-indexes/"
+    comment: "Some less used but handy methods in rails migrations"
+    pubdate: jul 14
+    tags:
+      - rb
+
+  - title: "Ruby’s case statement – advanced techniques"
+    url: "http://blog.honeybadger.io/rubys-case-statement-advanced-techniques/"
+    comment: "Use case for class, regex, lambda/proc matching, and custom matcher matching"
+    pubdate: jul 15
+    tags:
+      - rb
+
+  - title: "Value Objects in Ruby"
+    url: "http://insights.workshop14.io/2015/07/15/value-objects-in-ruby.html"
+    comment: "What is value object and how to use it"
+    pubdate: jul 15
+    tags:
+      - rb
+
+  - title: "Decoupling Ruby Applications with Amazon SNS & SQS"
+    url: "http://engineering.kapost.com/2015/07/decoupling-ruby-applications-with-amazon-sns-sqs/"
+    comment: "pub/sub by using Amazon SNS & SQS"
+    pubdate: jul 17
     tags:
       - rb
 
