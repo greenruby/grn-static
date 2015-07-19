@@ -3,7 +3,7 @@ edition: "128"
 pubdate: "july 19th 2015"
 editors: "xenor, tysliu"
 rant:
-  "#### 
+  "####
 "
 
 topics:
@@ -55,6 +55,12 @@ topics:
     tags:
       - rb
 
+  - title: "PurifyCSS"
+    url: "https://github.com/purifycss/purifycss"
+    comment: "Detects which CSS selectors your app is using and creates a file without the unused CSS."
+    tags:
+      - css3
+
 
 
 - title: Read
@@ -68,6 +74,27 @@ topics:
     tags:
       - rb
 
+  - title: "How unicorn talks to nginx – an introduction to unix sockets in Ruby"
+    url: "http://blog.honeybadger.io/how-unicorn-talks-to-nginx-an-introduction-to-unix-sockets-in-ruby/"
+    comment: "How does nginx talk with unicorn? One of the most efficient options is to use unix sockets."
+    pubdate: jul 14
+    tags:
+      - rb
+
+  - title: "Running a Rails Development Environment in Docker"
+    url: "http://blog.codeship.com/running-rails-development-environment-docker"
+    comment: "Switching your development environment to Docker does take some amount of work, but the benefits are well worth it."
+    pubdate: jul 14
+    tags:
+      - rb
+
+  - title: "Print Stylesheet Approaches: Blacklist vs Whitelist"
+    url: "https://css-tricks.com/print-stylesheet-approaches-blacklist-vs-whitelist/"
+    comment: "The "blacklist" is a common approach to print stylesheets."
+    pubdate: jul 14
+    tags:
+      - css3
+
   - title: "Ruby’s case statement – advanced techniques"
     url: "http://blog.honeybadger.io/rubys-case-statement-advanced-techniques/"
     comment: "Use case for class, regex, lambda/proc matching, and custom matcher matching"
@@ -78,6 +105,20 @@ topics:
   - title: "Value Objects in Ruby"
     url: "http://insights.workshop14.io/2015/07/15/value-objects-in-ruby.html"
     comment: "What is value object and how to use it"
+    pubdate: jul 15
+    tags:
+      - rb
+
+  - title: "Remote Debugging with Byebug, Rails and Pow"
+    url: "http://blog.honeybadger.io/remote-debugging-with-byebug-rails-and-pow/"
+    comment: "If you haven’t seen byebug before, I recommend that you check it out. It’s a great debugger for Ruby 2.x."
+    pubdate: jul 15
+    tags:
+      - rb
+
+  - title: "Speed Up Your Rails App by 66% - The Complete Guide to Rails Caching"
+    url: "http://www.nateberkopec.com/2015/07/15/the-complete-guide-to-rails-caching.html"
+    comment: "Caching in a Rails app is a little bit like that one friend you sometimes have around for dinner, but should really have around more often."
     pubdate: jul 15
     tags:
       - rb
@@ -99,6 +140,6 @@ topics:
     url: ""
     comment: ""
     pubdate: jul 6
-    duration: 
+    duration:
     tags:
       - rb
