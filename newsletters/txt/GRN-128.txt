@@ -1,0 +1,196 @@
+----------------------------------------------------
+Green Ruby News #128 - july 19th 2015
+----------------------------------------------------
+*|IFNOT:CONTENT=Only Rant|*
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+*Newstech* (design)
+http://www.newstech.jp/
+Totally futuristic design.
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+*CodeDorm* (web)
+http://www.codedorm.net/
+Finding sample projects for different programming language.
+
+*Colorizer* (tool)
+http://www.colorizer.org/
+Color picker with high precision and contrast test.
+
+*Airbnb JavaScript Style Guide* (js)
+https://github.com/airbnb/javascript
+Comprehensive javascript style guide (including ES6) from Airbnb.
+
+*Guide to functional programming* (tool)
+http://drboolean.gitbooks.io/mostly-adequate-guide/
+(book) This is a book on the functional paradigm in general.
+
+*Live coding* (tool)
+https://www.livecoding.tv/videos/ruby/
+Watch people coding live.
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+*Passenger 5.0.14* (ops)
+https://blog.phusion.nl/2015/07/15/passenger-5-0-14/
+Hotfix due to the CVE-2015-1793 vulnerability discovered in OpenSSL.
+
+*image_info* (rb)
+https://github.com/gottfrois/image_info
+Finds the size and type of a single or multiple images from the web.
+
+*Symbolized* (rb)
+https://github.com/TamerShlash/symbolized
+Hash with indifferent access, with keys stored internally as symbols.
+
+*test_changes* (rb)
+https://github.com/gsmendoza/test_changes
+Tests only the files that have changed since a given commit.
+
+*Colorized SQL Logging* (rb)
+https://github.com/customink/activerecord-colored_log_subscriber
+Colorized SQL Logging Backport for ActiveRecord.
+
+*Staytus* (rb)
+http://staytus.co/
+Staytus is a free, open source status site that you can install on your own servers.
+
+*PurifyCSS* (css3)
+https://github.com/purifycss/purifycss
+Detects which CSS selectors your app is using and creates a file without the unused CSS.
+
+*Hack.chat* (js)
+https://github.com/AndrewBelt/hack.chat
+A minimal, distraction-free chat application.
+
+*pg_shard* (ops)
+https://github.com/citusdata/pg_shard
+PostgreSQL extension to scale out real-time reads and writes.
+
+*Docker on FreeBSD* (ops)
+https://wiki.freebsd.org/Docker
+Docker on FreeBSD relies heavily on ZFS, jail and the 64bit Linux compatibility layer.
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+*Writing Smart Migrations: References, Reversible, and Indexes* (rb - jul 14)
+http://vaidehijoshi.github.io/blog/2015/07/14/writing-smart-migrations-references-reversible-and-indexes/
+Some less used but handy methods in rails migrations.
+
+*An introduction to unix sockets in Ruby* (rb - jul 14)
+http://blog.honeybadger.io/how-unicorn-talks-to-nginx-an-introduction-to-unix-sockets-in-ruby/
+How does nginx talk with unicorn? One of the most efficient options is to use unix sockets.
+
+*Running a Rails Development Environment in Docker* (rb - jul 14)
+http://blog.codeship.com/running-rails-development-environment-docker
+Switching development environment to Docker does take some amount of work, but the benefits are well worth it.
+
+*Print Stylesheet Approaches: Blacklist vs Whitelist* (css3 - jul 14)
+https://css-tricks.com/print-stylesheet-approaches-blacklist-vs-whitelist/
+The 'blacklist' is a common approach to print stylesheets.
+
+*Ruby's case statement* (rb - jul 15)
+http://blog.honeybadger.io/rubys-case-statement-advanced-techniques/
+Use case for class, regex, lambda/proc matching, and custom matcher matching.
+
+*Value Objects in Ruby* (rb - jul 15)
+http://insights.workshop14.io/2015/07/15/value-objects-in-ruby.html
+What is value object and how to use it.
+
+*Remote Debugging with Byebug, Rails and Pow* (rb - jul 15)
+http://blog.honeybadger.io/remote-debugging-with-byebug-rails-and-pow/
+A great debugger for Ruby 2.x.
+
+*Speed Up Your Rails App by 66% with Caching* (rb - jul 15)
+http://www.nateberkopec.com/2015/07/15/the-complete-guide-to-rails-caching.html
+Intelligent use of caching is usually the only path to achieving fast server response times in Rails.
+
+*Deploying a Crystal application to Heroku* (tool - jul 15)
+https://subvisual.co/blog/posts/63-deploying-a-crystal-application-to-heroku
+Crystal is a typed, LLVM compiled language that reads (mostly) as Ruby.
+
+*Solving the Makefile problem* (tool - jul 16)
+https://jaxenter.com/solving-the-makefile-problem-118911.html
+ZeroMQ founder Pieter Hintjens describes his journey in finding a solution to the problem of Makefiles.
+
+*Practical Persistence in Go: Organising Database Access* (go - jul 16)
+http://www.alexedwards.net/blog/organising-database-access
+Four different methods for structuring access to a database connection pool.
+
+*Decoupling Ruby Applications with Amazon SNS & SQS* (rb - jul 17)
+http://engineering.kapost.com/2015/07/decoupling-ruby-applications-with-amazon-sns-sqs/
+pub/sub by using Amazon SNS & SQS.
+
+Watch
+----------------------------------------------------
+Screencasts and conferences videos, or other video feeds ...
+
+*Building Crystal in Crystal* (tool - jul 18 - 23m)
+https://pragtob.wordpress.com/2015/07/18/talk-video-building-crystal-in-crystal/
+Talk at Berlin Ruby Usergroup
+
+*Do too many cooks really spoil the soup* (ops - jul 18 - 39m)
+https://www.youtube.com/watch?v=pt_qtcfTk3M&feature=youtu.be
+Devopsdays Minneapolis 2015 - Jon Cowie - Cheffing Etsy
+
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+Links curated by by mose (publisher), xenor, tysliu (editors).
+*|END:IF|*
+*|IFNOT:CONTENT=Only Links|*
+
+Rant
+----------------------------------------------------
+The random rant of the week by mose.
+
+#### RubyConf Taiwan 2015 CFP
+
+Hey it's time to give it a try, talking at a rubyconf is a great upgrade for
+any coder. That rubyconf will happen on september 11-12th in Taipei. [Check it
+out][rubyconf].
+
+#### NSA on Github
+
+Looks like someone is trying to fight back a reputation of obscurity. While
+they are still pushing on more invasion of privacy, they also release some
+[open source code][nsaoss]. Check the [NSA github repository][nsa], they
+released something already. [Simp][simp] especially has a bunch of puppet
+modules, but it's designed only for redhat kind of systems. Quite an
+interesting move.
+
+[rubyconf]:
+https://www.ruby-lang.org/en/news/2015/07/14/rubyconftw-2015-call-for-proposals/
+[nsaoss]:
+http://fossbytes.com/nsa-open-sources-its-linux-based-cyber-security-tool/
+[nsa]: https://github.com/NationalSecurityAgency
+[simp]: https://github.com/simp
+
+*|END:IF|*
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+
