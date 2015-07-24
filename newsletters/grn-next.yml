@@ -37,9 +37,21 @@ topics:
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "disc"
+    url: "https://github.com/pote/disc"
+    comment: "Disque-powered Ruby Jobs"
+    tags:
+      - rb
+
+  - title: "knock"
+    url: "https://github.com/pote/disc"
+    comment: "Disque-powered Ruby Jobs"
+    tags:
+      - rb
+
+  - title: "opal-native"
+    url: "https://github.com/zetachang/opal-native"
+    comment: "React Native in Ruby"
     tags:
       - rb
 
@@ -48,23 +60,42 @@ topics:
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
-    pubdate: jul 6
+  - title: "Making the best of private methods"
+    url: "https://dev.firmafon.dk/blog/making-the-best-of-private-methods/"
+    comment: "Good opinions about when to move method private"
+    pubdate: jul 21
     tags:
       - rb
 
+  - title: "Introducing the Passenger Library project"
+    url: "https://blog.phusion.nl/2015/07/21/introducing-the-passenger-library-project/"
+    comment: "Passenger starts to rewrite it's documentation to be more developer friendly."
+    pubdate: jul 21
+    tags:
+      - rb
 
+  - title: "JRuby 9000"
+    url: "http://blog.jruby.org/2015/07/jruby_9000/"
+    comment: "New version of JRuby is Ruby 2.2 only with new runtime"
+    pubdate: jul 22
+    tags:
+      - rb
+
+  - title: "Finder Objects"
+    url: "http://twin.github.io/finder-objects/"
+    comment: "Abstract search related logic to a specialized class"
+    pubdate: jul 22
+    tags:
+      - rb
 
 - title: Watch
   baseline: "Screencasts and conferences videos, or other video feeds ..."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
-    pubdate: jul 6
-    duration: 
+  - title: "Best Ruby on Rails refactoring talks"
+    url: "https://www.infinum.co/the-capsized-eight/articles/best-ruby-on-rails-refactoring-talks"
+    comment: "Collection of good rails/ruby code refactoring talks"
+    pubdate: jul 1
+    duration:
     tags:
       - rb
