@@ -1,28 +1,9 @@
 ---
-edition: "128"
-pubdate: "july 19th 2015"
-editors: "xenor, tysliu"
+edition: "129"
+pubdate: "july 26th 2015"
+editors: "xenor"
 rant:
-  "#### RubyConf Taiwan 2015 CFP
-
-
-Hey it's time to give it a try, talking at a rubyconf is a great upgrade for any coder. That rubyconf will happen on september 11-12th in Taipei. [Check it out][rubyconf].
-
-
-#### NSA on Github
-
-
-Looks like someone is trying to fight back a reputation of obscurity. While they are still pushing on more invasion of privacy, they also release some [open source code][nsaoss]. Check the [NSA github repository][nsa], they released something already. [Simp][simp] especially has a bunch of puppet modules, but it's designed only for redhat kind of systems. Quite an interesting move.
-
-
-[rubyconf]: https://www.ruby-lang.org/en/news/2015/07/14/rubyconftw-2015-call-for-proposals/
-
-[nsaoss]: http://fossbytes.com/nsa-open-sources-its-linux-based-cyber-security-tool/
-
-[nsa]: https://github.com/NationalSecurityAgency
-
-[simp]: https://github.com/simp
-
+  "#### 
 "
 
 topics:
@@ -32,9 +13,9 @@ topics:
     "Examples of UI/UX, graphic performance, web design and flashy things."
   links:
 
-  - title: "Newstech"
-    url: "http://www.newstech.jp/"
-    comment: "Totally futuristic design."
+  - title: ""
+    url: ""
+    comment: ""
     tags:
       - design
 
@@ -44,35 +25,11 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: "CodeDorm"
-    url: "http://www.codedorm.net/"
-    comment: "Finding sample projects for different programming language."
+  - title: "Up for grabs"
+    url: "http://up-for-grabs.net/"
+    comment: "List of projects which have curated tasks specifically for new contributors."
     tags:
       - web
-
-  - title: "Colorizer"
-    url: "http://www.colorizer.org/"
-    comment: "Color picker with high precision and contrast test."
-    tags:
-      - tool
-
-  - title: "Airbnb JavaScript Style Guide"
-    url: "https://github.com/airbnb/javascript"
-    comment: "Comprehensive javascript style guide (including ES6) from Airbnb."
-    tags:
-      - js
-
-  - title: "Guide to functional programming"
-    url: "http://drboolean.gitbooks.io/mostly-adequate-guide/"
-    comment: "(book) This is a book on the functional paradigm in general."
-    tags:
-      - tool
-
-  - title: "Live coding"
-    url: "https://www.livecoding.tv/videos/ruby/"
-    comment: "Watch people coding live."
-    tags:
-      - tool
 
 
 
@@ -80,174 +37,86 @@ topics:
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: "Passenger 5.0.14"
-    url: "https://blog.phusion.nl/2015/07/15/passenger-5-0-14/"
-    comment: "Hotfix due to the CVE-2015-1793 vulnerability discovered in OpenSSL."
-    tags:
-      - ops
-
-  - title: "image_info"
-    url: "https://github.com/gottfrois/image_info"
-    comment: "Finds the size and type of a single or multiple images from the web."
+  - title: "JRuby 9000"
+    url: "http://blog.jruby.org/2015/07/jruby_9000/"
+    comment: "New version of JRuby is Ruby 2.2 only with new runtime"
+    pubdate: jul 22
     tags:
       - rb
 
-  - title: "Symbolized"
-    url: "https://github.com/TamerShlash/symbolized"
-    comment: "Hash with indifferent access, with keys stored internally as symbols."
+  - title: "disc"
+    url: "https://github.com/pote/disc"
+    comment: "Disque-powered Ruby Jobs"
     tags:
       - rb
 
-  - title: "test_changes"
-    url: "https://github.com/gsmendoza/test_changes"
-    comment: "Tests only the files that have changed since a given commit."
+  - title: "knock"
+    url: "https://github.com/pote/disc"
+    comment: "Disque-powered Ruby Jobs"
     tags:
       - rb
 
-  - title: "Colorized SQL Logging"
-    url: "https://github.com/customink/activerecord-colored_log_subscriber"
-    comment: "Colorized SQL Logging Backport for ActiveRecord."
+  - title: "opal-native"
+    url: "https://github.com/zetachang/opal-native"
+    comment: "React Native in Ruby"
     tags:
       - rb
-
-  - title: "Staytus"
-    url: "http://staytus.co/"
-    comment: "Staytus is a free, open source status site that you can install on your own servers."
-    tags:
-      - rb
-
-  - title: "PurifyCSS"
-    url: "https://github.com/purifycss/purifycss"
-    comment: "Detects which CSS selectors your app is using and creates a file without the unused CSS."
-    tags:
-      - css3
-
-  - title: "Hack.chat"
-    url: "https://github.com/AndrewBelt/hack.chat"
-    comment: "A minimal, distraction-free chat application."
-    tags:
-      - js
-
-  - title: "pg_shard"
-    url: "https://github.com/citusdata/pg_shard"
-    comment: "PostgreSQL extension to scale out real-time reads and writes."
-    tags:
-      - ops
-
-  - title: "Docker on FreeBSD"
-    url: "https://wiki.freebsd.org/Docker"
-    comment: "Docker on FreeBSD relies heavily on ZFS, jail and the 64bit Linux compatibility layer."
-    tags:
-      - ops
-
 
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: "Writing Smart Migrations: References, Reversible, and Indexes"
-    url: "http://vaidehijoshi.github.io/blog/2015/07/14/writing-smart-migrations-references-reversible-and-indexes/"
-    comment: "Some less used but handy methods in rails migrations."
-    pubdate: jul 14
-    tags:
-      - rb
-
-  - title: "An introduction to unix sockets in Ruby"
-    url: "http://blog.honeybadger.io/how-unicorn-talks-to-nginx-an-introduction-to-unix-sockets-in-ruby/"
-    comment: "How does nginx talk with unicorn? One of the most efficient options is to use unix sockets."
-    pubdate: jul 14
-    tags:
-      - rb
-
   - title: "Running a Rails Development Environment in Docker"
-    url: "http://blog.codeship.com/running-rails-development-environment-docker"
-    comment: "Switching development environment to Docker does take some amount of work, but the benefits are well worth it."
-    pubdate: jul 14
+    url: "http://www.webcodegeeks.com/web-development/running-rails-development-environment-docker/"
+    comment: "Move a simple Rails applications into Docker during development."
+    pubdate: jul 20
     tags:
       - rb
 
-  - title: "Print Stylesheet Approaches: Blacklist vs Whitelist"
-    url: "https://css-tricks.com/print-stylesheet-approaches-blacklist-vs-whitelist/"
-    comment: "The 'blacklist' is a common approach to print stylesheets."
-    pubdate: jul 14
-    tags:
-      - css3
-
-  - title: "Ruby's case statement"
-    url: "http://blog.honeybadger.io/rubys-case-statement-advanced-techniques/"
-    comment: "Use case for class, regex, lambda/proc matching, and custom matcher matching."
-    pubdate: jul 15
+  - title: "Making the best of private methods"
+    url: "https://dev.firmafon.dk/blog/making-the-best-of-private-methods/"
+    comment: "Good opinions about when to move method private."
+    pubdate: jul 21
     tags:
       - rb
 
-  - title: "Value Objects in Ruby"
-    url: "http://insights.workshop14.io/2015/07/15/value-objects-in-ruby.html"
-    comment: "What is value object and how to use it."
-    pubdate: jul 15
+  - title: "Introducing the Passenger Library project"
+    url: "https://blog.phusion.nl/2015/07/21/introducing-the-passenger-library-project/"
+    comment: "Passenger starts to rewrite it's documentation to be more developer friendly."
+    pubdate: jul 21
     tags:
       - rb
 
-  - title: "Remote Debugging with Byebug, Rails and Pow"
-    url: "http://blog.honeybadger.io/remote-debugging-with-byebug-rails-and-pow/"
-    comment: "A great debugger for Ruby 2.x."
-    pubdate: jul 15
+  - title: "Using Ruby Exceptions"
+    url: "http://culttt.com/2015/07/22/using-ruby-exceptions/"
+    comment: "Tutorial looking at using Exceptions in Ruby applications."
+    pubdate: jul 22
     tags:
       - rb
 
-  - title: "Speed Up Your Rails App by 66% with Caching"
-    url: "http://www.nateberkopec.com/2015/07/15/the-complete-guide-to-rails-caching.html"
-    comment: "Intelligent use of caching is usually the only path to achieving fast server response times in Rails."
-    pubdate: jul 15
+  - title: "Memoization in Ruby"
+    url: "https://adamcooke.io/memoization-in-ruby/"
+    comment: "Memoization in ruby  with memist."
+    pubdate: jul 22
     tags:
       - rb
 
-  - title: "Deploying a Crystal application to Heroku"
-    url: "https://subvisual.co/blog/posts/63-deploying-a-crystal-application-to-heroku"
-    comment: "Crystal is a typed, LLVM compiled language that reads (mostly) as Ruby."
-    pubdate: jul 15
-    tags:
-      - tool
-
-  - title: "Solving the Makefile problem"
-    url: "https://jaxenter.com/solving-the-makefile-problem-118911.html"
-    comment: "ZeroMQ founder Pieter Hintjens describes his journey in finding a solution to the problem of Makefiles."
-    pubdate: jul 16
-    tags:
-      - tool
-
-  - title: "Practical Persistence in Go: Organising Database Access"
-    url: "http://www.alexedwards.net/blog/organising-database-access"
-    comment: "Four different methods for structuring access to a database connection pool."
-    pubdate: jul 16
-    tags:
-      - go
-
-  - title: "Decoupling Ruby Applications with Amazon SNS & SQS"
-    url: "http://engineering.kapost.com/2015/07/decoupling-ruby-applications-with-amazon-sns-sqs/"
-    comment: "pub/sub by using Amazon SNS & SQS."
-    pubdate: jul 17
+  - title: "Finder Objects"
+    url: "http://twin.github.io/finder-objects/"
+    comment: "Abstract search related logic to a specialized class."
+    pubdate: jul 22
     tags:
       - rb
-
-
 
 - title: Watch
   baseline: "Screencasts and conferences videos, or other video feeds ..."
   links:
 
-  - title: "Building Crystal in Crystal"
-    url: "https://pragtob.wordpress.com/2015/07/18/talk-video-building-crystal-in-crystal/"
-    comment: "Talk at Berlin Ruby Usergroup"
-    pubdate: jul 18
-    duration: 23m
+  - title: "Best Ruby on Rails refactoring talks"
+    url: "https://www.infinum.co/the-capsized-eight/articles/best-ruby-on-rails-refactoring-talks"
+    comment: "Collection of good rails/ruby code refactoring talks"
+    pubdate: jul 1
+    duration:
     tags:
-      - tool
-
-  - title: "Do too many cooks really spoil the soup"
-    url: "https://www.youtube.com/watch?v=pt_qtcfTk3M&feature=youtu.be"
-    comment: "Devopsdays Minneapolis 2015 - Jon Cowie - Cheffing Etsy"
-    pubdate: jul 18
-    duration: 39m
-    tags:
-      - ops
+      - rb
