@@ -1,0 +1,156 @@
+----------------------------------------------------
+Green Ruby News #129 - july 26th 2015
+----------------------------------------------------
+*|IFNOT:CONTENT=Only Rant|*
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+*Resim* (design)
+http://res.im/
+UX web agency with a pretty cool website.
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+*Up for grabs* (web)
+http://up-for-grabs.net/
+List of projects which have curated tasks specifically for new contributors.
+
+*Devops report* (ops)
+https://puppetlabs.com/2015-devops-report
+The yearly devops report from Puppetlabs.
+
+*Mesosphere Course* (ops)
+http://open.mesosphere.com/intro-course/ex1.html
+Open course material for learning all about Mesos.
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+*JRuby 9000* (rb - jul 22)
+http://blog.jruby.org/2015/07/jruby_9000/
+New version of JRuby is Ruby 2.2 only with new runtime
+
+*disc* (rb)
+https://github.com/pote/disc
+Disque-powered Ruby Jobs
+
+*opal-native* (rb)
+https://github.com/zetachang/opal-native
+React Native in Ruby.
+
+*Phez* (rb)
+https://github.com/phezco/phez
+A reddit clone in rails.
+
+*Kontena* (ops)
+http://www.kontena.io/
+Tools for deploying, managing, scaling and monitoring containerized applications.
+
+*Waffles* (ops)
+https://github.com/jtopjian/waffles
+A simple configuration management system written in Bash.
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+*Running a Rails Development Environment in Docker* (rb - jul 20)
+http://www.webcodegeeks.com/web-development/running-rails-development-environment-docker/
+Move a simple Rails applications into Docker during development.
+
+*Best Ruby on Rails refactoring talks* (rb - jul 21)
+https://www.infinum.co/the-capsized-eight/articles/best-ruby-on-rails-refactoring-talks
+Collection of good rails/ruby code refactoring talks.
+
+*Making the best of private methods* (rb - jul 21)
+https://dev.firmafon.dk/blog/making-the-best-of-private-methods/
+Good opinions about when to move method to private.
+
+*Introducing the Passenger Library project* (rb - jul 21)
+https://blog.phusion.nl/2015/07/21/introducing-the-passenger-library-project/
+Passenger starts to rewrite its documentation to be more developer friendly.
+
+*Using Ruby Exceptions* (rb - jul 22)
+http://culttt.com/2015/07/22/using-ruby-exceptions/
+Tutorial looking at using Exceptions in Ruby applications.
+
+*Memoization in Ruby* (rb - jul 22)
+https://adamcooke.io/memoization-in-ruby/
+Memoization in ruby  with memist.
+
+*Finder Objects* (rb - jul 22)
+http://twin.github.io/finder-objects/
+Abstract search related logic to a specialized class.
+
+*Implement an usable cookie bar* (rb - jul 23)
+http://davidmles.com/blog/usable-cookie-bar-rails/
+Comply with the EU cookie law.
+
+*Application border control with form objects* (rb - jul 23)
+http://insights.workshop14.io/2015/07/23/application-border-control-with-ruby-form-objects.html
+Error management in form objects.
+
+*The Hitchhiker's Guide to Modern JavaScript Tooling* (js - jul 26)
+http://reactkungfu.com/2015/07/the-hitchhikers-guide-to-modern-javascript-tooling/
+Quick overview about what popular js tools do, and whether you need them or not.
+
+*SSH tunneling in Golang* (go - jul 26)
+http://blog.ralch.com/tutorial/golang-ssh-tunneling/
+Example code for tunneling in go.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+Links curated by by mose (publisher), xenor (editors).
+*|END:IF|*
+*|IFNOT:CONTENT=Only Links|*
+
+Rant
+----------------------------------------------------
+The random rant of the week by mose.
+
+#### Back on tweeting
+
+I really don't like my phone. As an old timer I'm reluctant to trust my
+android, but it would be the same on an iphone. The way applications require
+access to the device, on android, is especially annoying and dishonest. They
+make the slope slippery for the sake of saving seconds in adopting new apps,
+but it's leading to a total remission of users control over their devices.
+
+But well, I still have a commute several times a week and I use my phone to
+listen to various podcasts. But I recently configured some accounts and some
+news readers, so I also can just do some links curation along the way. So I
+suspect there will be more tweeting on the [greenrubist][twitter] account from
+now on. It helps quite a lot when I want to gather links on every sundays.
+
+Well, nowadays, most of the links are actually gathered by xenor and tysliu,
+but I always add a few on my own (especially the devops ones). Those 2 guys
+are really doing an amazing demonstration of consistency. After 129 editions,
+we still didn't miss a single one week in our publication. It would not have
+been possible without my buddies. Thanks so much for their contribution.
+
+[twitter]: https://twitter.com/greenrubist 
+
+*|END:IF|*
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+
