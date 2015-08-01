@@ -37,21 +37,41 @@ topics:
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "access-granted"
+    url: "https://github.com/chaps-io/access-granted"
+    comment: "Light weight multi-role and whitelist based authorization"
     tags:
       - rb
+
+  - title: "access-granted"
+    url: "https://github.com/chaps-io/access-granted"
+    comment: "Light weight multi-role and whitelist based authorization"
+    tags:
+      - rb
+
+  - title: "proof"
+    url: "https://github.com/undercase/proof"
+    comment: "Secure Authentication for Single Page Applications"
+    tags:
+      - rb
+
 
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
-    pubdate: jul 6
+  - title: "Ode to Sequel"
+    url: "http://twin.github.io/ode-to-seque"
+    comment: "Using Sequel to replace ActiveRecord"
+    pubdate: jul 28
+    tags:
+      - rb
+
+  - title: "RubySpec is Reborn!"
+    url: "http://eregon.github.io/rubyspec/2015/07/29/rubyspec-is-reborn.html"
+    comment: "RubySpec is back"
+    pubdate: jul 29
     tags:
       - rb
 
