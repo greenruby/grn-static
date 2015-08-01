@@ -25,11 +25,17 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "Screenings"
+    url: "http://screenings.io/"
+    comment: "From typography to logo design, Screenings aggregates the best design-related videos from around the web."
     tags:
-      - css3
+      - design
+
+  - title: "Ruby Together"
+    url: "https://rubytogether.org/"
+    comment: "Initiative to fund elementary ruby ecosystem tools like rubygems, bundler and others."
+    tags:
+      - rb
 
 
 
@@ -39,7 +45,7 @@ topics:
 
   - title: "access-granted"
     url: "https://github.com/chaps-io/access-granted"
-    comment: "Light weight multi-role and whitelist based authorization"
+    comment: "Light weight multi-role and whitelist based authorization."
     tags:
       - rb
 
@@ -49,11 +55,30 @@ topics:
     tags:
       - rb
 
+  - title: "Ruby on raspberry PI"
+    url: "http://6ftdan.com/allyourdev/2015/07/23/ruby-on-the-raspberry-pi-free-distro-image/"
+    comment: "Customized Raspberry Pi distro (Raspbian) with Ruby 2.2.2."
+    tags:
+      - rb
+
+  - title: "RTC"
+    url: "https://github.com/rtc-io/rtc/"
+    comment: "Build WebRTC conferencing applications with easy using rtc.io."
+    tags:
+      - js
+
 
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
   links:
+
+  - title: "Power up your Sublime Text as Ruby/Rails IDE"
+    url: "http://tech.crowdfireapp.com/post/125257835004/power-up-your-sublime-text-as-rubyrails-ide"
+    comment: "Various tipsd to enhance the rubyness in sublimetext."
+    pubdate: jul 28
+    tags:
+      - rb
 
   - title: "Ode to Sequel"
     url: "http://twin.github.io/ode-to-sequel"
@@ -62,10 +87,31 @@ topics:
     tags:
       - rb
 
-  - title: "RubySpec is Reborn!"
+  - title: "Why shouldn’t I pass instance variables to views"
+    url: "http://theartandscienceofruby.com/2015/07/28/why-shouldnt-i-pass-instance-variables-to-views/"
+    comment: "Reasons for passing variables as locals from controllers to views."
+    pubdate: jul 28
+    tags:
+      - rb
+
+  - title: "Avoid repeated sync of feature branch using git rerere"
+    url: "http://www.tothenew.com/blog/git-branch-per-feature-avoid-repeated-sync-of-feature-branch-using-git-rerere/"
+    comment: "Details of the Reuse Recorded Resolution feature in git."
+    pubdate: jul 28
+    tags:
+      - tool
+
+  - title: "RubySpec is Reborn"
     url: "http://eregon.github.io/rubyspec/2015/07/29/rubyspec-is-reborn.html"
     comment: "RubySpec is back."
     pubdate: jul 29
+    tags:
+      - rb
+
+  - title: "Ruby On Rails: Hash#slice With Default Values"
+    url: "http://blog.endpoint.com/2015/07/ruby-on-rails-hashslice-with-default.html?m=1"
+    comment: "A trick for using a hash subclass for setting up defaults."
+    pubdate: jul 31
     tags:
       - rb
 
