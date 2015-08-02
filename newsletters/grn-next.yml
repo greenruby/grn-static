@@ -108,9 +108,37 @@ topics:
     tags:
       - rb
 
+  - title: "Cassandra and Ruby"
+    url: "http://lucasnogueira.me/en/Cassandra-&-Ruby/"
+    comment: "How Cassandra works, some configurations and the connection with its own Ruby driver."
+    pubdate: jul 30
+    tags:
+      - rb
+
+  - title: "Focus with well structured RSpec tests"
+    url: "https://www.madetech.com/news/focus-with-well-structured-rspec-tests"
+    comment: "Tests often turn out to be great documentation for others."
+    pubdate: jul 30
+    tags:
+      - rb
+
+  - title: "Wrap Your Dependencies"
+    url: "http://www.markphelps.me/2015/07/30/wrap-your-dependencies.html"
+    comment: "Wrap code that you don't control yourself."
+    pubdate: jul 30
+    tags:
+      - rb
+
   - title: "Ruby On Rails: Hash#slice With Default Values"
     url: "http://blog.endpoint.com/2015/07/ruby-on-rails-hashslice-with-default.html?m=1"
     comment: "A trick for using a hash subclass for setting up defaults."
+    pubdate: jul 31
+    tags:
+      - rb
+
+  - title: "Delayed Job Gem for CSV"
+    url: "http://railscarma.com/blog/technical-articles/delayed-job-gem-for-csv"
+    comment: "User should not wait for long task to finish, make it asynchronous."
     pubdate: jul 31
     tags:
       - rb
