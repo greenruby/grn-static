@@ -77,6 +77,12 @@ topics:
     tags:
       - rb
 
+  - title: "Racker"
+    url: "https://github.com/aspring/racker"
+    comment: "Opinionated Ruby DSL for generating Packer templates."
+    tags:
+      - rb
+
   - title: "RTC"
     url: "https://github.com/rtc-io/rtc/"
     comment: "Build WebRTC conferencing applications with easy using rtc.io."
@@ -158,6 +164,13 @@ topics:
     pubdate: jul 31
     tags:
       - rb
+
+  - title: "Containers and Configuration Management"
+    url: "http://txt.fliglio.com/2015/07/containers-and-cfg-mgmt/"
+    comment: "A critical approach of the docker solution."
+    pubdate: jul 31
+    tags:
+      - ops
 
 
 
