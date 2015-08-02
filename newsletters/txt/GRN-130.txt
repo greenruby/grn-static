@@ -1,0 +1,186 @@
+----------------------------------------------------
+Green Ruby News #130 - august 2nd 2015
+----------------------------------------------------
+*|IFNOT:CONTENT=Only Rant|*
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+*Owltastic* (design)
+http://owltastic.com/
+A designer website.
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+*Screenings* (design)
+http://screenings.io/
+From typography to logo design, Screenings aggregates the best design-related videos from around the web.
+
+*Ruby Together* (rb)
+https://rubytogether.org/
+Initiative to fund elementary ruby ecosystem tools like rubygems, bundler and others.
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+*access-granted* (rb)
+https://github.com/chaps-io/access-granted
+Light weight multi-role and whitelist based authorization.
+
+*proof* (rb)
+https://github.com/undercase/proof
+Secure Authentication for Single Page Applications
+
+*Ruby on raspberry PI* (rb)
+http://6ftdan.com/allyourdev/2015/07/23/ruby-on-the-raspberry-pi-free-distro-image/
+Customized Raspberry Pi distro (Raspbian) with Ruby 2.2.2.
+
+*Racker* (rb)
+https://github.com/aspring/racker
+Opinionated Ruby DSL for generating Packer templates.
+
+*RTC* (js)
+https://github.com/rtc-io/rtc/
+Build WebRTC conferencing applications with easy using rtc.io.
+
+*stretchy* (js)
+http://leaverou.github.io/stretchy/
+Form element autosizing, the way it should be.
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+*Use any C library from Ruby via Fiddle* (rb - jul 27)
+http://blog.honeybadger.io/use-any-c-library-from-ruby-via-fiddle-the-ruby-standard-librarys-best-kept-secret/
+Fiddle is a little-known module that was added to Ruby’s standard library in 1.9.x.
+
+*Power up your Sublime Text as Ruby/Rails IDE* (rb - jul 28)
+http://tech.crowdfireapp.com/post/125257835004/power-up-your-sublime-text-as-rubyrails-ide
+Various tips to enhance the rubyness in sublimetext.
+
+*Ode to Sequel* (rb - jul 28)
+http://twin.github.io/ode-to-sequel
+Using Sequel to replace ActiveRecord.
+
+*Why shouldn’t I pass instance variables to views* (rb - jul 28)
+http://theartandscienceofruby.com/2015/07/28/why-shouldnt-i-pass-instance-variables-to-views/
+Reasons for passing variables as locals from controllers to views.
+
+*How to clear all Sidekiq queues, using the power of emoji* (rb - jul 28)
+http://blog.honeybadger.io/how-to-clear-all-sidekiq-queues-using-the-power-of-emoji/
+Use emojis as method names.
+
+*Avoid repeated sync of feature branch using git rerere* (tool - jul 28)
+http://www.tothenew.com/blog/git-branch-per-feature-avoid-repeated-sync-of-feature-branch-using-git-rerere/
+Details of the Reuse Recorded Resolution feature in git.
+
+*RubySpec is Reborn* (rb - jul 29)
+http://eregon.github.io/rubyspec/2015/07/29/rubyspec-is-reborn.html
+RubySpec is back.
+
+*Implementing 'Show More/Less' Functionality with Pure CSS* (css3 - jul 29)
+http://www.sitepoint.com/implementing-show-moreless-functionality-with-pure-css/
+Implement the 'Show More/Less' functionality with plain CSS.
+
+*Targeting Broad Queries in Search* (web - jul 29)
+https://codeascraft.com/2015/07/29/targeting-broad-queries-in-search/
+Looking at the probability that a result belongs to a particular category.
+
+*Cassandra and Ruby* (rb - jul 30)
+http://lucasnogueira.me/en/Cassandra-&-Ruby/
+How Cassandra works, some configurations and the connection with its own Ruby driver.
+
+*Focus with well structured RSpec tests* (rb - jul 30)
+https://www.madetech.com/news/focus-with-well-structured-rspec-tests
+Tests often turn out to be great documentation for others.
+
+*Wrap Your Dependencies* (rb - jul 30)
+http://www.markphelps.me/2015/07/30/wrap-your-dependencies.html
+Wrap code that you don't control yourself.
+
+*Doing Terrible Things To Your Code* (web - jul 30)
+http://blog.codinghorror.com/doing-terrible-things-to-your-code/
+A good programmer knows they have to do terrible things to their code.
+
+*Ruby On Rails: Hash#slice With Default Values* (rb - jul 31)
+http://blog.endpoint.com/2015/07/ruby-on-rails-hashslice-with-default.html?m=1
+A trick for using a hash subclass for setting up defaults.
+
+*Delayed Job Gem for CSV* (rb - jul 31)
+http://railscarma.com/blog/technical-articles/delayed-job-gem-for-csv
+User should not wait for long task to finish, make it asynchronous.
+
+*Containers and Configuration Management* (ops - jul 31)
+http://txt.fliglio.com/2015/07/containers-and-cfg-mgmt/
+A critical approach of the docker solution.
+
+Watch
+----------------------------------------------------
+Screencasts and conferences videos, or other video feeds ...
+
+*Introducing One-Way Data Flow* (js - jul 29 - 5m)
+http://www.sitepoint.com/video-introducing-one-way-data-flow/
+React concept of one-way data flow.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+Links curated by by mose (publisher), xenor, tysliu (editors).
+*|END:IF|*
+*|IFNOT:CONTENT=Only Links|*
+
+Rant
+----------------------------------------------------
+The random rant of the week by mose.
+
+#### RubyConf Taiwan 2015
+
+In September 11 and 12 there is a [Rubyconf here in Taiwan][rubyconf]. I have
+been at some past editions and it's always a good time to meet people. Because
+we are close to Japan there is usually pretty good ruby core contributors from
+there. We get to see Matz, father of ruby, at each edition. But this time it
+seems that the organizers pulled some kind of special trick and the famous
+[Aaron Paterson][tenderlove] will be present. And I remember having heard
+[Sarah Allen on rubyrogues][sarah] last year, it is the first time she joins
+us in Taiwan too. I think both of them will bring some unique taste to this
+years rubyconf.
+
+If you looked for an occasion to visit Taiwan, that may be the right time. You
+won't regret it. The ruby community in Taiwan is quite active and Taiwanese
+people are amazingly welcoming to westerners.
+
+And, if you want to meet the 3 of us, we will all be there. Look around for
+Xenor and Tysliu, the famous editors of the Green Ruby newsletter. They
+tirelessly collect links and news, fresh from the week, about ruby and other
+things. And if you see someone with a Gandi T-Shirt, that will probably be me.
+We probably will distribute some green ruby stickers that I still have in
+stock. So then we can make new ones.
+
+[rubyconf]: http://2015.rubyconf.tw/
+[tenderlove]: http://tenderlovemaking.com/
+[sarah]:
+http://devchat.tv/ruby-rogues/149-rr-ruby-in-government-with-sarah-allen
+
+*|END:IF|*
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+

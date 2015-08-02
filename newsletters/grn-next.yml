@@ -1,25 +1,9 @@
 ---
-edition: "130"
-pubdate: "august 2nd 2015"
+edition: "131"
+pubdate: "august 9th 2015"
 editors: "xenor, tysliu"
 rant:
-  "#### RubyConf Taiwan 2015
-
-
-In september 11 and 12 there is a [Rubyconf here in Taiwan][rubyconf]. I have been at some past editions and it's always a good time to meet people. Because we are close to Japan there is usually pretty good ruby core contributors from there. We get to see Matz, father of ruby, at each edition. But this time it seems that the organizers pulled some kind of special trick and the famous [Aaron Paterson][tenderlove] will be present. And I remember having heard [Sarah Allen on rubyrogues][sarah] last year, it the first time she joins us in Taiwan too.
-
-
-If you looked for an occasion to visit Taiwan, that may tbe the right time. You won't regret it. The ruby community in Taiwan is quite active and taiwanese people are amazingly welcoming to westerners.
-
-
-And, if you want to meet the 3 of us, we will all be there. Look around for Xenor and Tysliu, the famous editors of the Green Ruby newsletter. They tirelessly collect links and news, fresh from the week, about ruby and other things. We probably will distribute some green ruby stickers that I still have in stock. So then we can make new ones.
-
-
-[rubyconf]: http://2015.rubyconf.tw/
-
-[tenderlove]: http://tenderlovemaking.com/
-
-[sarah]: http://devchat.tv/ruby-rogues/149-rr-ruby-in-government-with-sarah-allen
+  "#### 
 "
 
 topics:
@@ -29,9 +13,9 @@ topics:
     "Examples of UI/UX, graphic performance, web design and flashy things."
   links:
 
-  - title: "Owltastic"
-    url: "http://owltastic.com/"
-    comment: "A designer website."
+  - title: ""
+    url: ""
+    comment: ""
     tags:
       - design
 
@@ -41,17 +25,11 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: "Screenings"
-    url: "http://screenings.io/"
-    comment: "From typography to logo design, Screenings aggregates the best design-related videos from around the web."
+  - title: ""
+    url: ""
+    comment: ""
     tags:
-      - design
-
-  - title: "Ruby Together"
-    url: "https://rubytogether.org/"
-    comment: "Initiative to fund elementary ruby ecosystem tools like rubygems, bundler and others."
-    tags:
-      - rb
+      - css3
 
 
 
@@ -59,159 +37,23 @@ topics:
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: "access-granted"
-    url: "https://github.com/chaps-io/access-granted"
-    comment: "Light weight multi-role and whitelist based authorization."
+  - title: ""
+    url: ""
+    comment: ""
     tags:
       - rb
-
-  - title: "proof"
-    url: "https://github.com/undercase/proof"
-    comment: "Secure Authentication for Single Page Applications"
-    tags:
-      - rb
-
-  - title: "Ruby on raspberry PI"
-    url: "http://6ftdan.com/allyourdev/2015/07/23/ruby-on-the-raspberry-pi-free-distro-image/"
-    comment: "Customized Raspberry Pi distro (Raspbian) with Ruby 2.2.2."
-    tags:
-      - rb
-
-  - title: "Racker"
-    url: "https://github.com/aspring/racker"
-    comment: "Opinionated Ruby DSL for generating Packer templates."
-    tags:
-      - rb
-
-  - title: "RTC"
-    url: "https://github.com/rtc-io/rtc/"
-    comment: "Build WebRTC conferencing applications with easy using rtc.io."
-    tags:
-      - js
-
-  - title: "stretchy"
-    url: "http://leaverou.github.io/stretchy/"
-    comment: "Form element autosizing, the way it should be."
-    tags:
-      - js
-
 
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: "Use any C library from Ruby via Fiddle – the Ruby standard library’s best kept secret."
-    url: "http://blog.honeybadger.io/use-any-c-library-from-ruby-via-fiddle-the-ruby-standard-librarys-best-kept-secret/"
-    comment: "Fiddle is a little-known module that was added to Ruby’s standard library in 1.9.x. It allow you to interact directly with C libraries from Ruby."
-    pubdate: jul 27
+  - title: ""
+    url: ""
+    comment: ""
+    pubdate: jul 6
     tags:
       - rb
-
-  - title: "Power up your Sublime Text as Ruby/Rails IDE"
-    url: "http://tech.crowdfireapp.com/post/125257835004/power-up-your-sublime-text-as-rubyrails-ide"
-    comment: "Various tipsd to enhance the rubyness in sublimetext."
-    pubdate: jul 28
-    tags:
-      - rb
-
-  - title: "Ode to Sequel"
-    url: "http://twin.github.io/ode-to-sequel"
-    comment: "Using Sequel to replace ActiveRecord."
-    pubdate: jul 28
-    tags:
-      - rb
-
-  - title: "Why shouldn’t I pass instance variables to views"
-    url: "http://theartandscienceofruby.com/2015/07/28/why-shouldnt-i-pass-instance-variables-to-views/"
-    comment: "Reasons for passing variables as locals from controllers to views."
-    pubdate: jul 28
-    tags:
-      - rb
-
-  - title: "How to clear all Sidekiq queues, using the power of emoji"
-    url: "http://blog.honeybadger.io/how-to-clear-all-sidekiq-queues-using-the-power-of-emoji/"
-    comment: "Sidekiq::Queue.new(k).💣"
-    pubdate: jul 28
-    tags:
-      - rb
-
-  - title: "Avoid repeated sync of feature branch using git rerere"
-    url: "http://www.tothenew.com/blog/git-branch-per-feature-avoid-repeated-sync-of-feature-branch-using-git-rerere/"
-    comment: "Details of the Reuse Recorded Resolution feature in git."
-    pubdate: jul 28
-    tags:
-      - tool
-
-  - title: "RubySpec is Reborn"
-    url: "http://eregon.github.io/rubyspec/2015/07/29/rubyspec-is-reborn.html"
-    comment: "RubySpec is back."
-    pubdate: jul 29
-    tags:
-      - rb
-
-  - title: "Implementing “Show More/Less” Functionality with Pure CSS"
-    url: "http://www.sitepoint.com/implementing-show-moreless-functionality-with-pure-css/"
-    comment: "Implement the “Show More/Less” functionality with plain CSS."
-    pubdate: jul 29
-    tags:
-      - css3
-
-  - title: "Targeting Broad Queries in Search"
-    url: "https://codeascraft.com/2015/07/29/targeting-broad-queries-in-search/"
-    comment: "Looking at the probability that a result belongs to a particular category."
-    pubdate: jul 29
-    tags:
-      - web
-
-  - title: "Cassandra and Ruby"
-    url: "http://lucasnogueira.me/en/Cassandra-&-Ruby/"
-    comment: "How Cassandra works, some configurations and the connection with its own Ruby driver."
-    pubdate: jul 30
-    tags:
-      - rb
-
-  - title: "Focus with well structured RSpec tests"
-    url: "https://www.madetech.com/news/focus-with-well-structured-rspec-tests"
-    comment: "Tests often turn out to be great documentation for others."
-    pubdate: jul 30
-    tags:
-      - rb
-
-  - title: "Wrap Your Dependencies"
-    url: "http://www.markphelps.me/2015/07/30/wrap-your-dependencies.html"
-    comment: "Wrap code that you don't control yourself."
-    pubdate: jul 30
-    tags:
-      - rb
-
-  - title: "Doing Terrible Things To Your Code"
-    url: "http://blog.codinghorror.com/doing-terrible-things-to-your-code/"
-    comment: "A good programmer knows they have to do terrible things to their code."
-    pubdate: jul 30
-    tags:
-      - web
-
-  - title: "Ruby On Rails: Hash#slice With Default Values"
-    url: "http://blog.endpoint.com/2015/07/ruby-on-rails-hashslice-with-default.html?m=1"
-    comment: "A trick for using a hash subclass for setting up defaults."
-    pubdate: jul 31
-    tags:
-      - rb
-
-  - title: "Delayed Job Gem for CSV"
-    url: "http://railscarma.com/blog/technical-articles/delayed-job-gem-for-csv"
-    comment: "User should not wait for long task to finish, make it asynchronous."
-    pubdate: jul 31
-    tags:
-      - rb
-
-  - title: "Containers and Configuration Management"
-    url: "http://txt.fliglio.com/2015/07/containers-and-cfg-mgmt/"
-    comment: "A critical approach of the docker solution."
-    pubdate: jul 31
-    tags:
-      - ops
 
 
 
@@ -219,10 +61,10 @@ topics:
   baseline: "Screencasts and conferences videos, or other video feeds ..."
   links:
 
-  - title: "Video: Introducing One-Way Data Flow"
-    url: "http://www.sitepoint.com/video-introducing-one-way-data-flow/"
-    comment: "In this video, we look at React’s concept of one-way data flow."
-    pubdate: jul 29
-    duration: 5m
+  - title: ""
+    url: ""
+    comment: ""
+    pubdate: jul 6
+    duration: 
     tags:
-      - js
+      - rb
