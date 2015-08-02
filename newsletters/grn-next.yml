@@ -83,11 +83,24 @@ topics:
     tags:
       - js
 
+  - title: "stretchy"
+    url: "http://leaverou.github.io/stretchy/"
+    comment: "Form element autosizing, the way it should be."
+    tags:
+      - js
+
 
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
   links:
+
+  - title: "Use any C library from Ruby via Fiddle – the Ruby standard library’s best kept secret."
+    url: "http://blog.honeybadger.io/use-any-c-library-from-ruby-via-fiddle-the-ruby-standard-librarys-best-kept-secret/"
+    comment: "Fiddle is a little-known module that was added to Ruby’s standard library in 1.9.x. It allow you to interact directly with C libraries from Ruby."
+    pubdate: jul 27
+    tags:
+      - rb
 
   - title: "Power up your Sublime Text as Ruby/Rails IDE"
     url: "http://tech.crowdfireapp.com/post/125257835004/power-up-your-sublime-text-as-rubyrails-ide"
@@ -110,6 +123,13 @@ topics:
     tags:
       - rb
 
+  - title: "How to clear all Sidekiq queues, using the power of emoji"
+    url: "http://blog.honeybadger.io/how-to-clear-all-sidekiq-queues-using-the-power-of-emoji/"
+    comment: "Sidekiq::Queue.new(k).💣"
+    pubdate: jul 28
+    tags:
+      - rb
+
   - title: "Avoid repeated sync of feature branch using git rerere"
     url: "http://www.tothenew.com/blog/git-branch-per-feature-avoid-repeated-sync-of-feature-branch-using-git-rerere/"
     comment: "Details of the Reuse Recorded Resolution feature in git."
@@ -123,6 +143,20 @@ topics:
     pubdate: jul 29
     tags:
       - rb
+
+  - title: "Implementing “Show More/Less” Functionality with Pure CSS"
+    url: "http://www.sitepoint.com/implementing-show-moreless-functionality-with-pure-css/"
+    comment: "Implement the “Show More/Less” functionality with plain CSS."
+    pubdate: jul 29
+    tags:
+      - css3
+
+  - title: "Targeting Broad Queries in Search"
+    url: "https://codeascraft.com/2015/07/29/targeting-broad-queries-in-search/"
+    comment: "Looking at the probability that a result belongs to a particular category."
+    pubdate: jul 29
+    tags:
+      - web
 
   - title: "Cassandra and Ruby"
     url: "http://lucasnogueira.me/en/Cassandra-&-Ruby/"
@@ -145,6 +179,13 @@ topics:
     tags:
       - rb
 
+  - title: "Doing Terrible Things To Your Code"
+    url: "http://blog.codinghorror.com/doing-terrible-things-to-your-code/"
+    comment: "A good programmer knows they have to do terrible things to their code."
+    pubdate: jul 30
+    tags:
+      - web
+
   - title: "Ruby On Rails: Hash#slice With Default Values"
     url: "http://blog.endpoint.com/2015/07/ruby-on-rails-hashslice-with-default.html?m=1"
     comment: "A trick for using a hash subclass for setting up defaults."
@@ -165,10 +206,10 @@ topics:
   baseline: "Screencasts and conferences videos, or other video feeds ..."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
-    pubdate: jul 6
-    duration: 
+  - title: "Video: Introducing One-Way Data Flow"
+    url: "http://www.sitepoint.com/video-introducing-one-way-data-flow/"
+    comment: "In this video, we look at React’s concept of one-way data flow."
+    pubdate: jul 29
+    duration: 5m
     tags:
-      - rb
+      - js
