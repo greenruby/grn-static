@@ -1,0 +1,202 @@
+----------------------------------------------------
+Green Ruby News #131 - august 9th 2015
+----------------------------------------------------
+*|IFNOT:CONTENT=Only Rant|*
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+*Quant Agency* (design)
+http://quant.agency/
+Website of a creative agency.
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+*Cyfe* (tool)
+http://www.cyfe.com/
+All in one dashboard.
+
+*Sublime Text Desktop Wallpaper* (tool)
+http://speckyboy.com/2015/07/30/freebie-sublime-text-desktop-wallpaper/
+SublimeText cheatsheet that you can print and put on the wall.
+
+*Makefile tutorial* (tool)
+http://makefiletutorial.com/
+The good old makefiles still kicks, this cheatsheet can help catching up with the original Makefile way.
+
+*Helium* (tool)
+https://www.helium.com/
+Hardware and software to connect things to your cloud.
+
+*Random useful website* (web)
+http://www.randomusefulwebsites.com/
+Click the button, and get to a random more or less useful website. Perfect for procrastination.
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+*Graphana 2.1* (ops)
+http://grafana.org/blog/2015/08/04/Grafana-2-1-Released.html
+A lot of improvement in that new version.
+
+*Postcss* (css3)
+https://github.com/postcss/postcss
+Transforming CSS with JS plugins.
+
+*TODO-show package* (tool)
+https://atom.io/packages/todo-show
+Atom plugin to find all the TODO, FIXME, CHANGED, ... comments in your project.
+
+*PeerVPN* (tool)
+http://www.peervpn.net/
+Virtual ethernet networks between multiple computers.
+
+*Now UI Kit* (design)
+http://www.invisionapp.com/now
+A cross-platform UI kit for photoshop or sketch.
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+*Writing a Mumble Bot in Ruby* (rb - aug 2)
+http://devdungeon.com/content/writing-mumble-bot-ruby
+The gem mumble-ruby provides a library to connect and interact with Mumble as a client.
+
+*A Recipe for Rails Continuous Integration* (rb - aug 3)
+https://mattbrictson.com/rails-continuous-integration
+Matt shares the script he uses for his own Rails projects, and the reasoning behind it.
+
+*How Rails fancy exception page works* (rb - aug 3)
+http://blog.honeybadger.io/how-rails-fancy-exception-page-works/
+How error pages work in rails.
+
+*How I Learned to Program in Elixir* (el - aug 4)
+http://learningelixir.joekain.com/how-I-learned-elixir/
+Joseph explains how he jumped into Elixir.
+
+*Understanding and Using Ruby Rake* (rb - aug 5)
+http://culttt.com/2015/08/05/understanding-and-using-ruby-rake
+Rake, how it works and what you will find yourself using it for.
+
+*CSS: Why we need localized constants* (css3 - aug 5)
+https://macropod.com/blog/why-we-need-localized-css-constants/
+Discussion about the need for CSS to evolve in a more programmatic way.
+
+*Responsive Solutions for Feature Comparison Tables* (css3 - aug 5)
+http://www.sitepoint.com/responsive-solutions-for-feature-comparison-tables/
+The markup is rendered on the server and fed to the browser as complete HTML.
+
+*Creating Isomorphic Apps with Node.js, React, and Express* (js - aug 5)
+http://www.sitepoint.com/creating-isomorphic-apps-node-js-react-express/
+The markup is rendered on the server and fed to the browser as complete HTML.
+
+*Browser Trends August 2015: Chrome Exceeds 50%* (tool - aug 5)
+http://www.sitepoint.com/browser-trends-august-2015-chrome-exceeds-50/
+Worldwide Desktop & Tablet Browser Statistics.
+
+*Is There a Perfect Paragraph Length for the Web?* (web - aug 5)
+http://www.sitepoint.com/perfect-paragraph-length-even-care/
+The general consensus has been getting shorter for 200 years.
+
+*Patching Rails Performance* (rb - aug 6)
+http://engineering.heroku.com/blogs/2015-08-06-patching-rails-performance/
+In a recent patch we improved Rails response time by >10%, our largest improvement to date.
+
+*JWT with Rails, Sorcery and AngularJS* (rb - aug 6)
+https://www.codementor.io/ruby-on-rails/tutorial/jwt-with-rails-sorcery-angularjs#/
+JWT is being favored over the classic cookie scheme in Single Page Applications.
+
+*Phoenix for Railsies* (el - aug 6)
+http://www.sitepoint.com/phoenix-for-railsies/
+Phoenix is a web framework in Elixir, here presented from the rails point of view.
+
+*Ruby Occurrence Counting* (rb - aug 7)
+http://carol-nichols.com/2015/08/07/ruby-occurrence-couting/
+Some benchmarks on what is the fastest method for counting things.
+
+Watch
+----------------------------------------------------
+Screencasts and conferences videos, or other video feeds ...
+
+*JSChannel 2015* (js - aug 3 - 13 videos)
+http://confreaks.tv/events/jschannelconf2015
+17-18 July 2015 in Bangalore
+
+*JRuby Conf EU 2015* (rb - aug 8 - 11 videos)
+http://confreaks.tv/events/jrubyconf2015
+31 july in Postdam
+
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+Links curated by by mose (publisher), tysliu (editors).
+*|END:IF|*
+*|IFNOT:CONTENT=Only Links|*
+
+Rant
+----------------------------------------------------
+The random rant of the week by mose.
+
+#### Octopress 3 and other thoughts
+
+I'm currently involved in a community project and I installed a wordpress.
+From time to time I get one up to see how it evolves. But really this thing is
+not to my taste. To much trouble for making simple things. I reckon it can be
+useful for people with no technical knowledge but then they are going to mess
+up everything. The technical advisor still can't be avoided.
+
+So because now I saw a recent wordpress and didn't like it more than the
+previous attempts, I will give a try to the new [octopress 3.0][octopress].
+The octopress author [explains][30] that he's been doing it all wrong and now
+on version 3.0 he gets back to sort of a collection of gems that plug into
+jekyll. I kind of like the idea.
+
+Well to be honest I was also tempted to give a try to [phoenix][phoenix], but
+I know jekyll already and I don't have that much server resources for that
+community project. Static web always have had my preference. But the idea
+behind Phoenix is appealing. Like any new project it includes the new things
+and don't have to bother about legacy. The channels ideas, creating a stream
+between client and server, sounds very appealing.
+
+But to get back to why I will prefer jekyll over wordpress, is that my
+contributors are a mess. They don't care about styling, they copy-paste random
+html all over the place and the final look is totally inconsistent. My hope is
+that markdown would limit the possibilities of making a mess. But then I will
+have to propose them the github edit, as a backend, unless I cheat and use
+etherpad-lite as a pre-production backend.
+
+That [etherpad-lite][etherpad] thing is amazingly simple, I used sometimes and
+making it accessible behind a single password for everybody makes tings pretty
+direct. But totally unsafe, I reckon. I will probably have to write some kind
+of tool for managing the publication workflow. Hmm, that sounds like fun. If
+you ever had the same kind of adventure, please [share with me][me] :)
+
+[octopress]: http://octopress.org/
+[30]: http://octopress.org/2015/01/15/octopress-3.0-is-coming/
+[phoenix]: http://www.phoenixframework.org/
+[etherpad]: http://etherpad.org/
+[me]: mailto:mose@greenruby.org
+
+*|END:IF|*
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+
