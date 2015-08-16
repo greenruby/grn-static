@@ -3,7 +3,7 @@ edition: "132"
 pubdate: "august 16th 2015"
 editors: "xenor, tysliu"
 rant:
-  "#### 
+  "####
 "
 
 topics:
@@ -31,7 +31,11 @@ topics:
     tags:
       - rb
 
-
+  - title: "Calque"
+    url: "http://grimalschi.github.io/calque/index.html"
+    comment: "Calque is a web based calculator."
+    tags:
+      - web
 
 - title: Install
   baseline: "A selection of gems or applications updated during past week."
@@ -48,6 +52,12 @@ topics:
     comment: "Get IDs or screen names from links to social network accounts"
     tags:
       - rb
+
+  - title: "Angular Toasty"
+    url: "https://github.com/invertase/angular-toasty"
+    comment: "Angular Toasty is a simple standalone AngularJS module with extensive features that provides growl-style alerts and messages for your app."
+    tags:
+      - web
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
@@ -79,7 +89,28 @@ topics:
     comment: "We've all been there before..."
     pubdate: aug 11
     tags:
-      - rb
+      - js
+
+  - title: "Localizing Times in JavaScript"
+    url: "https://css-tricks.com/localizing-times-in-javascript/"
+    comment: "It can be nice to localize the time for the reader."
+    pubdate: aug 12
+    tags:
+      - js
+
+  - title: "Writing better JavaScript with Flow"
+    url: "http://www.sitepoint.com/writing-better-javascript-with-flow/"
+    comment: "Flow is a static type checker for JavaScript first introduced by Facebook at the Scale Conference in 2014."
+    pubdate: aug 12
+    tags:
+      - js
+
+  - title: "How to Improve Loading Time with basket.js"
+    url: "http://www.sitepoint.com/how-to-improve-loading-time-with-basket-js/"
+    comment: "basket.js is a small JavaScript library supporting localStorage caching of scripts."
+    pubdate: aug 12
+    tags:
+      - js
 
   - title: "Running three hours of Ruby tests in under three minutes"
     url: "https://stripe.com/blog/distributed-ruby-testing"
@@ -87,6 +118,31 @@ topics:
     pubdate: aug 13
     tags:
       - rb
+
+  - title: "The Pathway for New Railists"
+    url: "http://www.sitepoint.com/the-pathway-for-new-railists/"
+    comment: "A guide for you to start your journey with Rails."
+    pubdate: aug 13
+    tags:
+      - rb
+
+  - title: "Build a Real-Time Status Update App with AngularJS & Firebase"
+    url: "http://www.sitepoint.com/real-time-status-update-app-angularjs-firebase/"
+    comment: "Firebase is a realtime data store that makes it very easy to save and sync data across any platform."
+    pubdate: aug 14
+    tags:
+      - js
+
+  - title: "Strategies for Cache-Busting CSS"
+    url: "https://css-tricks.com/strategies-for-cache-busting-css/"
+    comment: "Strategies for breaking the cache and forcing the browser to download a new copy of the CSS."
+    pubdate: aug 14
+    tags:
+      - css3
+
+
+
+>>>>>>> 132 content
 
 
 - title: Watch
@@ -97,6 +153,6 @@ topics:
     url: ""
     comment: ""
     pubdate: aug 3
-    duration: 
+    duration:
     tags:
       - rb
