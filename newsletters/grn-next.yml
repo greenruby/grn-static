@@ -25,11 +25,11 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "Is it vulnerable?"
+    url: "https://isitvulnerable.com/"
+    comment: "Check if your ruby project vulnerable by uploading Gemfile.lock"
     tags:
-      - css3
+      - rb
 
 
 
@@ -37,24 +37,56 @@ topics:
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "factory_factory_girl"
+    url: "https://github.com/st0012/factory_factory_girl"
+    comment: "A factory to produce FactoryGirl templates"
     tags:
       - rb
 
+  - title: "ids_please"
+    url: "https://github.com/gazay/ids_please"
+    comment: "Get IDs or screen names from links to social network accounts"
+    tags:
+      - rb
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
-    pubdate: aug 3
+  - title: "A Survey of Non-Rails Frameworks in Ruby: Cuba, Sinatra, Padrino, Lotus"
+    url: "http://blog.codeship.com/a-survey-of-non-rails-frameworks-in-ruby-cuba-sinatra-padrino-lotus/"
+    comment: "A comprehensive comparison by route, model, controllr, and view."
+    pubdate: aug 10
     tags:
       - rb
 
+  - title: "How To Time Travel Using ActiveSupport TimeHelpers"
+    url: "http://blog.katpadi.ph/how-to-time-travel-using-activesupport-timehelpers/"
+    comment: "Use built-in travel method in Rails 4.1 to do simple time traveling instead of Timecop"
+    pubdate: aug 10
+    tags:
+      - rb
+
+  - title: "Using lazy enumerators to work with large files in Ruby"
+    url: "http://blog.honeybadger.io/using-lazy-enumerators-to-work-with-large-files-in-ruby"
+    comment: "The lazy magic in ruby enumerators"
+    pubdate: aug 10
+    tags:
+      - rb
+
+  - title: "What it’s like to come back to a Ruby project after 6 months"
+    url: "http://devblog.avdi.org/2015/08/11/what-its-like-to-come-back-to-a-ruby-project-after-6-months/"
+    comment: "We've all been there before..."
+    pubdate: aug 11
+    tags:
+      - rb
+
+  - title: "Running three hours of Ruby tests in under three minutes"
+    url: "https://stripe.com/blog/distributed-ruby-testing"
+    comment: "How Stripe do distributed testing"
+    pubdate: aug 13
+    tags:
+      - rb
 
 
 - title: Watch
