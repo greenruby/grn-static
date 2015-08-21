@@ -19,18 +19,20 @@ Those links and resources are used in the weekly collection of information for G
 ### Blogs and bloggers
 
 * <https://www.destroyallsoftware.com/blog> (Gary Bernhardt)
+* <http://www.justinweiss.com/blog> (ruby)
+* <http://updates.html5rocks.com> (webdev)
 * <http://blog.codinghorror.com> (Jeff Atwood)
-* <http://designbeep.com> (wordpress/design)
-* <http://updates.html5rocks.com/> (webdev)
 * <http://www.leighhalliday.com> (rails)
-* <http://www.sitepoint.com/> (webdev)
+* <http://www.blackbytes.info> (ruby)
+* <http://www.arubystory.com> (ruby)
+* <http://www.sitepoint.com> (webdev)
+* <https://codeascraft.com> (webdev)
+* <http://devblog.avdi.org> (ruby)
+* <http://css-tricks.com> (css)
+* <http://designbeep.com> (wordpress/design)
 * <http://thenewstack.io> (general IT)
-* <http://www.arubystory.com/> (ruby)
-* <https://codeascraft.com/> (webdev)
-* <http://css-tricks.com/> (css)
-* <http://devblog.avdi.org/> (ruby)
 * <http://codegeekz.com> (web)
-* <http://scotch.io/> (webdev)
+* <http://scotch.io> (webdev)
 
 ### Email newsletters
 
