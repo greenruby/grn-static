@@ -85,33 +85,32 @@ Those links and resources are used in the weekly collection of information for G
 
 ### Podcasts
 
-* <http://ruby5.envylabs.com> (rb) *active bi-weekly*
+* <http://ruby5.codeschool.com/> (rb) *active bi-weekly*
 * <http://www.developertea.com> (developers) "bi-weekly"
 * <http://podcasts.thoughtbot.com/giantrobots> (rb/saas/web) *active weekly*
 * <http://devchat.tv/adventures-in-angular> (agular.js) *active weekly*
-* <http://centurylinklabs.podomatic.com/> (ops) *active weekly*
-* <http://blog.producthunt.co/> (saas/startups) *active weekly*
-* <http://thewebplatform.libsyn.com/> (web) *active weekly*
+* <http://centurylinklabs.podomatic.com> (ops) *active weekly*
+* <http://blog.producthunt.co> (saas/startups) *active weekly*
+* <http://thewebplatform.libsyn.com> (web) *active weekly*
 * <http://revision3.com/haktip> (security) *active weekly*
-* <http://www.thecloudcast.net/> (cloud) *active weekly*
-* <http://hackerpublicradio.org/> (misc) *active weekly*
+* <http://www.thecloudcast.net> (cloud) *active weekly*
+* <http://hackerpublicradio.org> (misc) *active weekly*
 * <http://5by5.tv/rubyonrails> (rails) *active weekly*
-* <http://javascriptjabber.com/> (js) *active weekly*
-* <https://seccasts.com/mror/> (ops) *active weekly*
-* <http://rubyrogues.com/> (rb) *active weekly*
+* <http://javascriptjabber.com> (js) *active weekly*
+* <http://seccasts.com> (ops) *active weekly*
+* <http://5by5.tv/changelog> (coding/foss) *active weekly*
+* <http://rubyrogues.com> (rb) *active weekly*
 * <http://puppetlabs.com/resources/podcasts> (puppet) *active semi-weekly*
-* <http://5by5.tv/changelog> (coding/foss) *active semi-weekly*
-* <http://www.opsallthethings.com/> (ops) *active semi-weekly*
-* <http://www.arresteddevops.com/> (ops) *active semi-weekly*
-* <http://blog.codepen.io/> (css/js) *active semi-weekly*
-* <http://nodeup.com/> (js) *active semi-weekly*
-* <http://fullstackradio.com/> (fullstack) *active bi-monthly*
-* <http://crypto-gram.libsyn.com/> (security) *active monthly*
-* <http://foodfightshow.org/> (ops/chef) *active monthly*
-* <http://theshipshow.com/> (devops) *active monthly*
-* <http://bikeshed.fm> (ruby, webdev) *kinda monthly*
-* <http://drt.fm/> (startup people) *kinda monthly*
-* <http://rails-refactoring.com/podcast/> (rails) *not sure it will make it*
-* <http://episodes.gitminutes.com/> (git) *inactive since july 2104*
-* <http://2ddu.com> (misc) *random, nothing since sept 2014*
-* <http://devopscafe.org/> (ops) *sleepy since oct 2014*
+* <http://www.opsallthethings.com> (ops) *active semi-weekly*
+* <http://www.arresteddevops.com> (ops) *active semi-weekly*
+* <http://blog.codepen.io/radio> (css/js) *active semi-weekly*
+* <http://bikeshed.fm> (ruby, webdev) *active semi-weekly*
+* <http://nodeup.com> (js) *active semi-weekly*
+* <http://fullstackradio.com> (fullstack) *active bi-monthly*
+* <http://crypto-gram.libsyn.com> (security) *active monthly*
+* <http://foodfightshow.org> (ops/chef) *active monthly*
+* <http://theshipshow.com> (devops) *active monthly*
+* <http://devopscafe.org> (ops) *kinda monthly*
+* <http://drt.fm> (startup people) *kinda monthly*
+* <http://episodes.gitminutes.com> (git) *random*
+* <http://2ddu.com> (misc) *random*
