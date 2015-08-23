@@ -1,0 +1,204 @@
+----------------------------------------------------
+Green Ruby News #133 - august 23th 2015
+----------------------------------------------------
+*|IFNOT:CONTENT=Only Rant|*
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+*ISL* (design)
+https://isl.co/
+Digital agency website.
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+*Cssreset* (css3)
+http://cssreset.com/
+2015's most popular CSS Reset scripts, all in one place.
+
+*Agile IT Management* (ops)
+http://dm-academy.github.io/aitm/
+(book) a work in progress looking for reviewers.
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+*Ruby 2.2.3 Released* (rb - aug 18)
+https://www.ruby-lang.org/en/news/2015/08/18/ruby-2-2-3-released/
+This release includes the security fix for a RubyGems domain name verification vulnerability.
+
+*Middleware* (rb)
+https://github.com/Ibsciss/ruby-middleware
+Middleware pattern/framework for Ruby.
+
+*Lita 4.0* (rb)
+https://www.lita.io/
+Ruby chat bot framework.
+
+*Gotty* (go)
+https://github.com/yudai/gotty
+Share your terminal as a web application.
+
+*Drop.js* (js)
+http://github.hubspot.com/drop/docs/welcome/
+The fast and capable dropdown library.
+
+*Type­set.js* (js)
+https://blot.im/typeset/
+A ty­po­graphic pre-proces­sor for your html which uses zero client-side JavaScript.
+
+*jQuery.waterfall* (js)
+https://github.com/kudago/waterfall
+Pinterest-like layout with fluid width of columns.
+
+*WebGLStudio* (js)
+http://webglstudio.org/
+Platform to create interactive 3D scenes directly from the browser.
+
+*Gitfs* (tool)
+http://www.presslabs.com/gitfs/
+A FUSE file system that fully integrates with git.
+
+*Watchtower* (ops)
+https://github.com/CenturyLinkLabs/watchtower
+Automatically update running Docker containers.
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+*Understanding Scope in Ruby* (rb - aug 17)
+http://www.sitepoint.com/understanding-scope-in-ruby/
+How and where are variables visible.
+
+*Recursion and Memoization in Ruby* (rb - aug 17)
+http://www.blackbytes.info/2015/08/ruby-recursion-and-memoization/
+Recursion is great but sometimes it can be hard to grasp.
+
+*Tips for participating in the Rails Rumble* (rb - aug 18)
+https://infinum.co/the-capsized-eight/articles/tips-for-participating-in-the-rails-rumble
+Get ready for the year Rails Rumble (registration opens on oct 26).
+
+*Introduction to Roda* (rb - aug 18)
+http://twin.github.io/introduction-to-roda/
+Introducing alternative Ruby web framework, Roda.
+
+*Associative arrays in Ruby…what?* (rb - aug 18)
+http://blog.honeybadger.io/associative-arrays-in-ruby-what/
+Have you ever had a bunch of data in an array, but needed to do a key/value lookup like you would with a hash?
+
+*Making Charts with CSS* (css3 - aug 18)
+https://css-tricks.com/making-charts-with-css/
+Plain CSS methods for styling data.
+
+*JavaScript Mobile Libraries* (mobile - aug 18)
+http://jqueryhouse.com/javascript-mobile-libraries
+Quick review of 15 js libraries.
+
+*Direct uploads with AWS S3 and Rails* (rb - aug 19)
+http://blog.iempire.ru/2015/s3-direct-uploads/
+Reduced the file storage codebase and avoid using some unnecessary gems.
+
+*Mixing code and data in Ruby with DATA and __END__* (rb - aug 19)
+http://blog.honeybadger.io/data-and-end-in-ruby
+Use DATA instead of separate code to a single file.
+
+*The Great Icon Debate: Fonts Vs SVG* (design - aug 19)
+http://www.sitepoint.com/icon-fonts-vs-svg-debate/
+Review of pros and cons of the 2 modern methods for using icons.
+
+*Exploring some string methods* (rb - aug 20)
+http://www.leighhalliday.com/exploring-some-string-methods
+Users don't always enter data as you want them to.
+
+*Deploy Your Rails App to AWS* (rb - aug 20)
+http://www.sitepoint.com/deploy-your-rails-app-to-aws/
+Deploy Rails application on AWS with Capistrano.
+
+*Fixing That Mysterious Slow Request in Your Rails App* (rb - aug 21)
+http://blog.skylight.io/fixing-the-mysterious-slow-request/
+Some good tips to track down request slowness.
+
+*A Guide to Vanilla Ajax Without jQuery* (js - aug 21)
+http://www.sitepoint.com/guide-vanilla-ajax-without-jquery/
+Investigate improvements made to the Ajax API in vanilla JavaScript.
+
+Watch
+----------------------------------------------------
+Screencasts and conferences videos, or other video feeds ...
+
+*First Impression of GitHub Desktop* (tool - aug 19 - 10m)
+https://css-tricks.com/first-impression-of-github-desktop/
+Instead of GitHub for Mac and GitHub for Windows, we are now left with just GitHub Desktop.
+
+*Watch: Capturing Time in React* (js - aug 19 - 9m)
+http://www.sitepoint.com/watch-capturing-time-in-react/
+Building a Stopwatch component from scratch!
+
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+Links curated by by mose (publisher), xenor, tysliu (editors).
+*|END:IF|*
+*|IFNOT:CONTENT=Only Links|*
+
+Rant
+----------------------------------------------------
+The random rant of the week by mose.
+
+#### Just met Hugo
+
+Some weeks ago I was talking about Octopress. I think pre-generation of
+websites is a very sensible approach. And I heard about [Hugo][hugo] for some
+time now. It's like a cousin of Jekyll but writen in Go. The author of
+Middleman (another site generation engine) confessed in a [recent
+podcast][podcast] that he would try the Golang way if he had to start from
+scratch today.
+
+I got interested into Hugo mostly because one of the side projects I'm working
+on. It involves a bunch of people that run on windows. Having a binary that
+runs everywhere is a big plus for a gGo solution. Installing ruby is possible
+on windows, but not really for noobs afaict.
+
+Also, I want to check more Go projects. I have been playing in and out that
+language for a while now. Version 1.5 seems really great. So I upgraded my
+[gvm][gvm] and installed the thing. Well, I could havce just used the Hugo
+binary, but where is the fun in that?
+
+My first impression is very comfortable. It took a lot of the principles form
+Jekyll. But it seems to have some extra options and concepts that may be a
+little more advanced and seem very promising. The theming system is especially
+cool. I will probably first port my own blog under Hugo before porting my
+other project.
+
+As a matter of fact, that's a while I'm considering that I never feed my blog,
+but I should copy the rants I write here in there. It can be fun to add a rake
+task in the greenruby publication process to also add a page in a nearby hugo
+repo and publish it at the same time.
+
+[hugo]: https://gohugo.io/
+[podcast]: https://changelog.com/169/
+[gvm]: https://github.com/moovweb/gvm
+
+*|END:IF|*
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+
