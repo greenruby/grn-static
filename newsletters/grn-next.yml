@@ -1,9 +1,9 @@
 ---
-edition: "133"
-pubdate: "august 23th 2015"
+edition: "134"
+pubdate: "august 30th 2015"
 editors: "xenor, tysliu"
 rant:
-  "####
+  "#### 
 "
 
 topics:
@@ -25,145 +25,46 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: "Gitfs"
-    url: "http://www.presslabs.com/gitfs/"
-    comment: "A FUSE file system that fully integrates with git"
+  - title: ""
+    url: ""
+    comment: ""
     tags:
-      - tool
+      - css3
 
-  - title: "Lita 4.0"
-    url: "https://www.lita.io/"
-    comment: "Ruby chat bot framework"
-    tags:
-      - rb
 
 
 - title: Install
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: "Middleware"
-    url: "https://github.com/Ibsciss/ruby-middleware"
-    comment: "Middleware pattern/framework for Ruby"
+  - title: ""
+    url: ""
+    comment: ""
     tags:
       - rb
-
-  - title: "Drop.js"
-    url: "http://github.hubspot.com/drop/docs/welcome/"
-    comment: "The fast and capable dropdown library"
-    tags:
-      - js
-
-  - title: "Type­set.js"
-    url: "https://blot.im/typeset/"
-    comment: "A ty­po­graphic pre-proces­sor for your html which uses zero client-side JavaScript"
-    tags:
-      - js
-
-  - title: "jQuery.waterfall"
-    url: "https://github.com/kudago/waterfall"
-    comment: "Pinterest-like layout with fluid width of columns."
-    tags:
-      - js
 
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: "Mixing code and data in Ruby with DATA and __END__"
-    url: "http://blog.honeybadger.io/data-and-end-in-ruby"
-    comment: "Use DATA instead of separate code to a single file"
-    pubdate: aug 19
+  - title: ""
+    url: ""
+    comment: ""
+    pubdate: aug 3
     tags:
       - rb
 
-  - title: "Recursion and Memoization in Ruby"
-    url: "http://www.blackbytes.info/2015/08/ruby-recursion-and-memoization/"
-    comment: "Recursion is great but sometimes it can be hard to grasp."
-    pubdate: aug 17
-    tags:
-      - rb
-
-  - title: "Introduction to Roda"
-    url: "http://twin.github.io/introduction-to-roda/"
-    comment: "Introducing alternative Ruby web framework, Roda"
-    tags:
-      - rb
-
-  - title: "Ruby 2.2.3 Released"
-    url: "https://www.ruby-lang.org/en/news/2015/08/18/ruby-2-2-3-released/"
-    comment: "This release includes the security fix for a RubyGems domain name verification vulnerability."
-    pubdate: aug 18
-    tags:
-      - rb
-
-  - title: "Associative arrays in Ruby…what?"
-    url: "http://blog.honeybadger.io/associative-arrays-in-ruby-what/"
-    comment: "Have you ever had a bunch of data in an array, but needed to do a key/value lookup like you would with a hash?"
-    pubdate: aug 18
-    tags:
-      - rb
-
-  - title: "Direct uploads with AWS S3 and Rails"
-    url: "http://blog.iempire.ru/2015/s3-direct-uploads/"
-    comment: "By using direct uploads in the customer’s app, I reduced the file storage codebase and avoided using some unnecessary gems."
-    pubdate: aug 19
-    tags:
-      - rb
-
-  - title: "Fixing That Mysterious Slow Request in Your Rails App"
-    url: "http://blog.skylight.io/fixing-the-mysterious-slow-request/"
-    comment: "Some good tips to track down request slowness"
-    pubdate: aug 21
-    tags:
-      - rb
-
-  - title: "Making Charts with CSS"
-    url: "https://css-tricks.com/making-charts-with-css/"
-    comment: "Plain CSS methods for styling data."
-    pubdate: aug 19
-    tags:
-      - css3
-
-  - title: "Exploring some string methods"
-    url: "http://www.leighhalliday.com/exploring-some-string-methods"
-    comment: "Users don't always enter data as you want them to."
-    pubdate: aug 20
-    tags:
-      - rb
-
-  - title: "Deploy Your Rails App to AWS"
-    url: "http://www.sitepoint.com/deploy-your-rails-app-to-aws/"
-    comment: "Deploy Rails application on AWS with Capistrano."
-    pubdate: aug 20
-    tags:
-      - rb
-
-  - title: "A Guide to Vanilla Ajax Without jQuery"
-    url: "http://www.sitepoint.com/guide-vanilla-ajax-without-jquery/"
-    comment: "Investigate improvements made to the Ajax API in vanilla JavaScript."
-    pubdate: aug 21
-    tags:
-      - js
 
 
 - title: Watch
   baseline: "Screencasts and conferences videos, or other video feeds ..."
   links:
 
-  - title: "First Impression of GitHub Desktop"
-    url: "https://css-tricks.com/first-impression-of-github-desktop/"
-    comment: "Instead of GitHub for Mac and GitHub for Windows, we are now left with just GitHub Desktop."
-    pubdate: aug 19
-    duration: 10m
+  - title: ""
+    url: ""
+    comment: ""
+    pubdate: aug 3
+    duration: 
     tags:
-      - tools
-
-  - title: "Watch: Capturing Time in React"
-    url: "http://www.sitepoint.com/watch-capturing-time-in-react/"
-    comment: "Building a Stopwatch component from scratch!"
-    pubdate: aug 19
-    duration: 9m
-    tags:
-      - js
+      - rb
