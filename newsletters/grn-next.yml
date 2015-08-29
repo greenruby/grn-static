@@ -3,7 +3,7 @@ edition: "134"
 pubdate: "august 30th 2015"
 editors: "xenor, tysliu"
 rant:
-  "#### 
+  "####
 "
 
 topics:
@@ -48,23 +48,77 @@ topics:
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
-    pubdate: aug 3
+  - title: "Rails 4.2.4 and 4.1.13 have been released!"
+    url: "http://weblog.rubyonrails.org/2015/8/24/Rails-4-2-4-and-4-1-13-have-been-released/"
+    comment: "Mostly bug and vulnerability fixes."
+    pubdate: aug 24
     tags:
       - rb
 
+  - title: "Running a High Traffic Rails App on Heroku’s Performance Dynos"
+    url: "https://blog.growth.supply/running-a-high-traffic-rails-app-on-heroku-s-performance-dynos-d9e6833d34c4"
+    comment: "If you’re currently using 10+ 2x dynos. Consider using performance dynos."
+    pubdate: aug 24
+    tags:
+      - rb
 
+  - title: "Machine Learning made simple with Ruby"
+    url: "http://www.leanpanda.com/blog/2015/08/24/machine-learning-automatic-classification/"
+    comment: "How is it possible to make automatic classification work properly without resorting to using external prediction services?"
+    pubdate: aug 24
+    tags:
+      - rb
+
+  - title: "What’s New in Bootstrap 4"
+    url: "https://scotch.io/bar-talk/whats-new-in-bootstrap-4"
+    comment: "Last week, Bootstrap turned four-years-old, and its creators, Mark Otto and Jacob Thornton, released Bootstrap 4 alpha."
+    pubdate: aug 25
+    tags:
+      - css3
+
+  - title: "How to Use Rails Active Job"
+    url: "http://blog.codeship.com/how-to-use-rails-active-job/"
+    comment: "Active Job was first included in Rails 4.2 as a way to standardize the interface to a number of queueing options which already existed."
+    pubdate: aug 26
+    tags:
+      - rb
+
+  - title: "Introducing enquire.js"
+    url: "http://www.sitepoint.com/introducing-enquirejs/"
+    comment: "renquire.js is a lightweight, pure JavaScript library for responding to CSS media queries."
+    pubdate: aug 26
+    tags:
+      - js
+
+  - title: "An Editable Grid with jQuery, Bootstrap, and Shield UI Lite"
+    url: "http://www.sitepoint.com/editable-grid-jquery-bootstrap-shield-ui-lite/"
+    comment: "Shield UI Lite is an open source jQuery library that includes, among other components, a jQuery grid."
+    pubdate: aug 27
+    tags:
+      - web
+
+  - title: "Build a Clock in 18 Lines of JavaScript with no Dependencies"
+    url: "http://www.sitepoint.com/build-javascript-clock-no-dependencies/"
+    comment: "You can benefit from building a clock in raw JavaScript rather than reaching for the nearest plugin."
+    pubdate: aug 28
+    tags:
+      - js
+
+  - title: "Six Tips for Chrome DevTools"
+    url: "https://css-tricks.com/six-tips-for-chrome-devtools/"
+    comment: "You may have seen some of these before, but hopefully if you have they'll act as a refresher for what you can do during your Inspect Element journey."
+    pubdate: aug 28
+    tags:
+      - web
 
 - title: Watch
   baseline: "Screencasts and conferences videos, or other video feeds ..."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
-    pubdate: aug 3
-    duration: 
+  - title: "Watch: Elegant Coding Through Dynamic Methods"
+    url: "http://www.sitepoint.com/watch-elegant-coding-through-dynamic-methods/"
+    comment: "Ruby is a great language and metaprogramming is one of its most powerful features."
+    pubdate: aug 27
+    duration: 10m
     tags:
       - rb
