@@ -37,12 +37,17 @@ topics:
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "Writ"
+    url: "https://cmcenroe.me/writ/"
+    comment: "A default stylesheet for all browsers"
     tags:
-      - rb
+      - css
 
+  - title: "fit-commit"
+    url: "https://github.com/m1foley/fit-commit"
+    comment: "A Git hook to validate commit messages"
+    tags:
+      - tool
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
@@ -69,6 +74,13 @@ topics:
     tags:
       - rb
 
+  - title: "Caveats for interrupting Ruby code"
+    url: "http://milhouseonsoftware.com/2015/08/24/caveats-with-ruby-interrupt/"
+    comment: "Ways to interrupt codes in threads."
+    pubdate: aug 24
+    tags:
+      - rb
+
   - title: "What’s New in Bootstrap 4"
     url: "https://scotch.io/bar-talk/whats-new-in-bootstrap-4"
     comment: "Last week, Bootstrap turned four-years-old, and its creators, Mark Otto and Jacob Thornton, released Bootstrap 4 alpha."
@@ -89,6 +101,13 @@ topics:
     pubdate: aug 26
     tags:
       - js
+
+  - title: "Avoid these traps when nesting Ruby modules"
+    url: "http://blog.honeybadger.io/avoid-these-traps-when-nesting-ruby-modules"
+    comment: "Some gotcha in nested module"
+    pubdate: aug 26
+    tags:
+      - rb
 
   - title: "An Editable Grid with jQuery, Bootstrap, and Shield UI Lite"
     url: "http://www.sitepoint.com/editable-grid-jquery-bootstrap-shield-ui-lite/"
