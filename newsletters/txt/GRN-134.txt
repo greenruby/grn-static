@@ -1,0 +1,188 @@
+----------------------------------------------------
+Green Ruby News #134 - august 30th 2015
+----------------------------------------------------
+*|IFNOT:CONTENT=Only Rant|*
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+*UI movement* (design)
+http://uimovement.com/
+UI design inspiration.
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+*Evolvr* (web)
+https://www.evolvr.io/
+IMDb for Products & Companies.
+
+*go-starter-kit* (go)
+https://github.com/olebedev/go-starter-kit
+Golang Isomorphic React/Hot Reloadable/Flummox/Css-Module Starter Kit.
+
+*Awesome Sysadmin* (ops)
+https://github.com/kahun/awesome-sysadmin
+Curated list of open source sysadmin resources.
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+*Rails 4.2.4 and 4.1.13 have been released* (rb - aug 24)
+http://weblog.rubyonrails.org/2015/8/24/Rails-4-2-4-and-4-1-13-have-been-released/
+Mostly bug and vulnerability fixes.
+
+*Action Cable* (rb)
+https://github.com/rails/actioncable
+Framework for real-time communication over websockets in rails.
+
+*Dkron* (go)
+http://dkron.io/
+Job scheduling made easy, distributed and highly-available.
+
+*Writ* (css)
+https://cmcenroe.me/writ/
+A default stylesheet for all browsers.
+
+*fit-commit* (tool)
+https://github.com/m1foley/fit-commit
+A Git hook to validate commit messages.
+
+*hyper* (ops)
+https://hyper.sh/
+Hypervisor-agnostic Docker Engine.
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+*I, Object!* (rb - aug 23)
+http://jakeyesbeck.com/2015/08/23/ruby-objects/
+Ruby likes ducks.
+
+*Running a High Traffic Rails App on Heroku's Performance Dynos* (rb - aug 24)
+https://blog.growth.supply/running-a-high-traffic-rails-app-on-heroku-s-performance-dynos-d9e6833d34c4
+If you’re currently using 10+ 2x dynos. Consider using performance dynos.
+
+*Machine Learning made simple with Ruby* (rb - aug 24)
+http://www.leanpanda.com/blog/2015/08/24/machine-learning-automatic-classification/
+Make automatic classification work properly without resorting to using external prediction services.
+
+*Caveats for interrupting Ruby code* (rb - aug 24)
+http://milhouseonsoftware.com/2015/08/24/caveats-with-ruby-interrupt/
+Ways to interrupt codes in threads.
+
+*What’s New in Bootstrap 4* (css3 - aug 25)
+https://scotch.io/bar-talk/whats-new-in-bootstrap-4
+Last week, Bootstrap turned four-years-old, and its creators, Mark Otto and Jacob Thornton, released Bootstrap 4 alpha.
+
+*How to Use Rails Active Job* (rb - aug 26)
+http://blog.codeship.com/how-to-use-rails-active-job/
+Active Job is a way to standardize the interface to a number of queueing options which already existed.
+
+*Introducing enquire.js* (js - aug 26)
+http://www.sitepoint.com/introducing-enquirejs/
+Lightweight, pure JavaScript library for responding to CSS media queries.
+
+*Avoid these traps when nesting Ruby modules* (rb - aug 26)
+http://blog.honeybadger.io/avoid-these-traps-when-nesting-ruby-modules
+Some gotcha with nested modules.
+
+*An Editable Grid with jQuery, Bootstrap, and Shield UI Lite* (web - aug 27)
+http://www.sitepoint.com/editable-grid-jquery-bootstrap-shield-ui-lite/
+Shield UI Lite is an open source jQuery library that includes, among other components, a jQuery grid.
+
+*Build a Clock in 18 Lines of JavaScript with no Dependencies* (js - aug 28)
+http://www.sitepoint.com/build-javascript-clock-no-dependencies/
+You can benefit from building a clock in raw JavaScript rather than reaching for the nearest plugin.
+
+*Six Tips for Chrome DevTools* (tool - aug 28)
+https://css-tricks.com/six-tips-for-chrome-devtools/
+Inspect Element journey.
+
+*Stay safe while using html_safe in Rails* (rb - aug 28)
+http://product.reverb.com/2015/08/29/stay-safe-while-using-html_safe-in-rails/
+Story of that terribly named method in rails.
+
+*ActionCable Devise Authentication* (rb - aug 28)
+http://www.rubytutorial.io/actioncable-devise-authentication/
+Share the Devise authentication with a websocket server.
+
+Watch
+----------------------------------------------------
+Screencasts and conferences videos, or other video feeds ...
+
+*Watch: Elegant Coding Through Dynamic Methods* (rb - aug 27 - 10m)
+http://www.sitepoint.com/watch-elegant-coding-through-dynamic-methods/
+Ruby is a great language and metaprogramming is one of its most powerful features.
+
+*LoneStarRuby2015* (rb - aug 28 - 13 videos)
+http://confreaks.tv/events/lonestarruby2015
+Ruby conf that happened in Austin, Texas on august 15th.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+Links curated by by mose (publisher), tysliu (editors).
+*|END:IF|*
+*|IFNOT:CONTENT=Only Links|*
+
+Rant
+----------------------------------------------------
+The random rant of the week by mose.
+
+#### The dimensions of coding
+
+Today while wandering around in my weekly hunt for good links, my eye has been
+attracted by a post named [Coding is three dimensional][1]. It's quite an
+interesting way to consider it. But the reason why it struck me is that it was
+missing the fourth dimension. That makes all the difference when you get years
+of coding. You know that time is a parameter.
+
+Code don't exist out of time. It has a past, perspective of a future, that
+both shape its current morphology. There are a lot of efforts to produce code
+analysis. But the real analyst is an historian and needs a systemic approach
+that includes time as a factor. We are still far from being able to automate
+that. In some ways, it's a good news, we won't be replaced by small scripts
+very soon.
+
+The time factor is actually the essential element in the [technical debt][2]
+formula. Purist coders can't cope with technical debt but if you have two
+onces of business man inside, it makes total sense. The tradeoff in technical
+quality versus fast deliverability only makes sense because the timing is
+critical. [A mess is not a technical debt][3].
+
+If coding was disconnected from the market, and if it was not a business or
+more like an art, maybe time would not be that critical. But even open source
+software is dependent on the market at one point or another. I fail to see how
+it could be different.
+
+Honestly, I would prefer clean coding and no market tradeoff, but that's just
+a dream.
+
+[1]: https://medium.com/@scosta/coding-is-three-dimensional-cb331d1b4ad8
+[2]: http://martinfowler.com/bliki/TechnicalDebt.html
+[3]:
+https://sites.google.com/site/unclebobconsultingllc/a-mess-is-not-a-technical-debt
+
+*|END:IF|*
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+

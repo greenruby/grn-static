@@ -23,6 +23,7 @@ Those links and resources are used in the weekly collection of information for G
 * <http://updates.html5rocks.com> (webdev)
 * <http://blog.codinghorror.com> (Jeff Atwood)
 * <http://www.leighhalliday.com> (rails)
+* <http://blog.honeybadger.io> (webdev)
 * <http://www.blackbytes.info> (ruby)
 * <http://www.arubystory.com> (ruby)
 * <http://www.sitepoint.com> (webdev)
@@ -33,7 +34,6 @@ Those links and resources are used in the weekly collection of information for G
 * <http://thenewstack.io> (general IT)
 * <http://codegeekz.com> (web)
 * <http://scotch.io> (webdev)
-* <http://blog.honeybadger.io/> (webdev)
 
 ### Email newsletters
 
