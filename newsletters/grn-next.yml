@@ -1,9 +1,9 @@
 ---
-edition: "135"
-pubdate: "september 6th 2015"
+edition: "136"
+pubdate: "september 13th 2015"
 editors: "xenor, tysliu"
 rant:
-  "####
+  "#### 
 "
 
 topics:
@@ -19,105 +19,52 @@ topics:
     tags:
       - design
 
+
 - title: Use
   baseline:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: "Thimble"
-    url: "https://thimble.mozilla.org"
-    comment: "Online code editor made by Mozilla"
+  - title: ""
+    url: ""
+    comment: ""
     tags:
-      - tool
+      - css3
+
+
 
 - title: Install
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: "carrierwave-bombshelter"
-    url: "https://github.com/DarthSim/carrierwave-bombshelter"
-    comment: "Protects carrierwave from image bombs by checking pixel dimensions"
+  - title: ""
+    url: ""
+    comment: ""
     tags:
       - rb
 
-  - title: "Fix"
-    url: "https://github.com/fixrb/fix"
-    comment: "Simple spec framework for Ruby"
-    tags:
-      - rb
-
-  - title: "model_attribute"
-    url: "https://github.com/yammer/model_attribute"
-    comment: "Attributes for non-ActiveRecord models"
-    tags:
-      - rb
-
-  - title: "Squid"
-    url: "http://fullscreen.github.io/squid"
-    comment: "A Ruby library to plot charts in PDF files"
-    tags:
-      - rb
-
-  - title: "LITA"
-    url: "https://www.lita.io/"
-    comment: "A robot companion for your company's chat room"
-    tags:
-      - rb
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: "Should You Use Scopes or Class Methods?"
-    url: "http://www.justinweiss.com/blog/2015/09/01/should-you-use-scopes-or-class-methods/"
-    comment: "When your scope logic gets complicated, a class method feels like the right place to put it."
-    pubdate: sep 1
-    tags:
-      - rb
-
-  - title: "When to use freeze and frozen? in Ruby"
-    url: "http://blog.honeybadger.io/when-to-use-freeze-and-frozen-in-ruby"
-    comment: "When you don't want things to change."
-    pubdate: sep 2
-    tags:
-      - rb
-
-  - title: "Creating Ruby enumerators on the fly"
-    url: "http://blog.honeybadger.io/creating-ruby-enumerators-on-the-fly/"
-    comment: "When you treat your collections as enumerators, you get to use all your favorite functions like #map and #reduce without having to write any extra code."
+  - title: ""
+    url: ""
+    comment: ""
     pubdate: sep 3
     tags:
       - rb
 
-  - title: "Announcing RubyMotion 4.0: free Starter edition, cross-platform games, watchOS 2.0"
-    url: "http://www.rubymotion.com/news/2015/09/03/announcing-rubymotion-4-0-free-cross-platform-games-watchos-2-0.html"
-    comment: "Starter will statically compile your Ruby code into optimized machine code, and let you use 3rd-party libraries, with CocoaPods on iOS and Gradle on Android."
-    pubdate: sep 3
-    tags:
-      - rb
 
-  - title: "Testing race conditions in your Rails app"
-    url: "http://blog.arkency.com/2015/09/testing-race-conditions/"
-    comment: "Using thread and ActiveRecord connection pool to test race conditions"
-    pubdate: sep 4
-    tags:
-      - rb
-
-  - title: "Adapting RethinkDB For The Evented Web With Pusher"
-    url: "http://www.sitepoint.com/adapting-rethinkdb-for-the-evented-web-with-pusher/"
-    comment: "Changefeeds, a feature introduced by RethinkDB a few versions ago, allows your system to listen to changes in your database."
-    pubdate: sep 4
-    tags:
-      - rb
 
 - title: Watch
   baseline: "Screencasts and conferences videos, or other video feeds ..."
   links:
 
-  - title: "Watch: Mysteries of Eigenclasses in Ruby"
-    url: "http://www.sitepoint.com/watch-mysteries-of-eigenclasses-in-ruby/"
-    comment: "Eigenclasses (or singleton classes) are probably one of the most mysterious parts of the Ruby object model. "
+  - title: ""
+    url: ""
+    comment: ""
     pubdate: sep 3
-    duration: 7m
+    duration: 
     tags:
       - rb

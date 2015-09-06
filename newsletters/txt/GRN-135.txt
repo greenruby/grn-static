@@ -1,0 +1,178 @@
+----------------------------------------------------
+Green Ruby News #135 - september 6th 2015
+----------------------------------------------------
+*|IFNOT:CONTENT=Only Rant|*
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+*ISS virtual tour* (design)
+http://esamultimedia.esa.int/multimedia/virtual-tour-iss
+Well it's not really design, but the visit is very cool.
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+*Thimble* (tool)
+https://thimble.mozilla.org
+Online code editor made by Mozilla.
+
+*Gitualize* (tool)
+http://gitualize.com/
+Visual and animated representation of any github repo's history.
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+*RubyMotion 4.0: free Starter edition, cross-platform games, watchOS 2.0* (rb - sep 3)
+http://www.rubymotion.com/news/2015/09/03/announcing-rubymotion-4-0-free-cross-platform-games-watchos-2-0.html
+Starter version now available for free.
+
+*carrierwave-bombshelter* (rb)
+https://github.com/DarthSim/carrierwave-bombshelter
+Protects carrierwave from image bombs by checking pixel dimensions.
+
+*Fix* (rb)
+https://github.com/fixrb/fix
+Simple spec framework for Ruby.
+
+*model_attribute* (rb)
+https://github.com/yammer/model_attribute
+Attributes for non-ActiveRecord models.
+
+*Squid* (rb)
+http://fullscreen.github.io/squid
+A Ruby library to plot charts in PDF files.
+
+*Directus* (js)
+https://github.com/RNGR/directus
+Database GUI written in backbone.js.
+
+*Layout Grid* (css3)
+https://clippings.github.io/layout-grid/
+Static responsive grid with pure css.
+
+*Git radar* (tool)
+https://github.com/michaeldfallen/git-radar
+Add to your prompt to provide at-a-glance information on your git repo.
+
+*Hackpad* (tool)
+https://github.com/dropbox/hackpad
+Dropbox bought hackpad a while ago, and now they open source it.
+
+*Dex* (ops)
+https://github.com/coreos/dex
+Open ID Connect Identity Provider for CoreOS.
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+*Go at Basecamp* (go - aug 31)
+https://signalvnoise.com/posts/3897-go-at-basecamp
+How golang slowly gets adopted by that very ruby shop.
+
+*Should You Use Scopes or Class Methods?* (rb - sep 1)
+http://www.justinweiss.com/blog/2015/09/01/should-you-use-scopes-or-class-methods/
+When your scope logic gets complicated, a class method feels like the right place to put it.
+
+*How to exit a Ruby program* (rb - sep 2)
+http://blog.honeybadger.io/how-to-exit-a-ruby-program/
+Details of each way to exit a ruby program.
+
+*When to use freeze and frozen? in Ruby* (rb - sep 2)
+http://blog.honeybadger.io/when-to-use-freeze-and-frozen-in-ruby
+When you don't want things to change.
+
+*New React Developer Tools* (js - sep 2)
+http://facebook.github.io/react/blog/2015/09/02/new-react-developer-tools.html
+Browser extensions for react developers.
+
+*Creating Ruby enumerators on the fly* (rb - sep 3)
+http://blog.honeybadger.io/creating-ruby-enumerators-on-the-fly/
+Treat your collections as enumerators, to get functions like #map and #reduce.
+
+*Testing race conditions in your Rails app* (rb - sep 4)
+http://blog.arkency.com/2015/09/testing-race-conditions/
+Using thread and ActiveRecord connection pool to test race conditions.
+
+*Adapting RethinkDB For The Evented Web With Pusher* (rb - sep 4)
+http://www.sitepoint.com/adapting-rethinkdb-for-the-evented-web-with-pusher/
+Changefeeds allows the system to listen to changes in your database.
+
+Watch
+----------------------------------------------------
+Screencasts and conferences videos, or other video feeds ...
+
+*Watch: Mysteries of Eigenclasses in Ruby* (rb - sep 3 - 7m)
+http://www.sitepoint.com/watch-mysteries-of-eigenclasses-in-ruby/
+Eigenclasses (or singleton classes) are probably one of the most mysterious parts of the Ruby object model.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+Links curated by by mose (publisher), xenor, tysliu (editors).
+*|END:IF|*
+*|IFNOT:CONTENT=Only Links|*
+
+Rant
+----------------------------------------------------
+The random rant of the week by mose.
+
+#### Meet at rubyconf
+
+Next friday we will be at [rubyconf Taiwan][rubyconf]. Last year there was
+around 300 attendees and there is 256 this year. But maybe there will be more
+last minute registration, there is still some [spots available][spots] (well
+just 14 at this time). I will also be at the [pre-conf evening][preconf] on
+wednesday. Good time to meet if you are in Taiwan (we have 37 subscribers
+there).
+
+#### Some stats on greenruby
+
+From time to time I check an export of the subscribers list and do some stats
+out of curiosity. As of today there are 1466 subscribers, and more than half
+in the US (844) all the rest are in 88 other countries (most in India, UK,
+France and Taiwan, in that order). In the US most people are from New-York,
+just a little more than Los Angeles, and [Monticello][monticello] in Kentucky.
+I wonder what there is so special in that city of less than 10k people. Maybe
+that's a geo-location glitch? If not, please someone tell me what there is in
+that small and probably nice city. But if I had to bet, I would put my money
+on the glitch.
+
+Every week there is a small number of new subscribers, especially during
+summer. But if you don't really read or if you don't care that much, please
+unsubscribe. I will certainly have to do some invitation to unsubscribe when
+we will reach around 2000, because mailchimp if free of charge only under that
+limit.
+
+There are also a lot of unaccounted subscribers to the RSS feed, which is the
+most popular page on the website. But I don't use feedburner or any kind of
+tracking so I don't really know. And I kind of like it that way.
+
+[rubyconf]: http://2015.rubyconf.tw/
+[spots]: http://rubytaiwan.kktix.cc/events/rubyconftw2015
+[preconf]: http://rubytaiwan.kktix.cc/events/850d36b0
+[monticello]: https://en.wikipedia.org/wiki/Monticello,_Kentucky
+
+*|END:IF|*
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+
