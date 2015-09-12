@@ -3,7 +3,21 @@ edition: "136"
 pubdate: "september 13th 2015"
 editors: "xenor, tysliu"
 rant:
-  "#### 
+  "#### Rubyconftw - xenor
+
+  This is my first rant in Green Ruby News, and it's about (and not about) rubyconftw.
+
+  I am recently feeling burned-out on current job, this feeling affect my motivation and productivity.
+  The reason of it is because I am in a position which needs to watch over colleagues output but also having my own projects ongoing.
+  At first it's great and challenging, but after half year, it starts to bite me back with tireness and anxious about not
+  meeting my goal at the end of the day while cheking others' progress. It also leads me to a state that I need more breaks than usual -- which is the typical burned-out syndrome.
+
+  Rubyconf actually give me a break and breathe so that I can rethink what I was doing and how I can approve things around me.
+  And during the conference, I found some time to do [side project], this really helps and motivates me again on programming (I believe this can be called 'Event Driven Development')
+  You might wonder why I didn't say anything about the talks. IMHO, talks are just as great as all other conferences, and can be watched again few days aftar through recordings.
+  It's the atmosphere encourages people to try and learn something new, which to me, is the most important part.
+
+  [side project]: https://github.com/tubaxenor/squeezer
 "
 
 topics:
@@ -25,11 +39,11 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: 'httpbin'
+    url: 'http://httpbin.org/'
+    comment: "HTTP Client Testing Service"
     tags:
-      - css3
+      - web
 
 
 
@@ -37,9 +51,15 @@ topics:
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: slackin
+    url: 'https://github.com/rauchg/slackin'
+    comment: 'slackin - Public Slack organizations made easy'
+    tags:
+      - tool
+
+  - title: chaskiq
+    url: 'https://github.com/michelson/chaskiq'
+    comment: 'Newsletter Rails engine'
     tags:
       - rb
 
@@ -48,10 +68,31 @@ topics:
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
-    pubdate: sep 3
+  - title: 'Build APIs with Napa'
+    url: 'http://www.sitepoint.com/build-apis-with-napa/'
+    comment: 'Scaffolding your API by napa'
+    pubdate: sep 7
+    tags:
+      - rb
+
+  - title: 'Keeping your logs from becoming an unreadable mess'
+    url: 'http://www.justinweiss.com/blog/2015/09/08/keeping-your-logs-from-becoming-an-unreadable-mess'
+    comment: "By tagging you log using Rails' TaggedLogging"
+    pubdate: sep 8
+    tags:
+      - rb
+
+  - title: 'Pros and Cons of Ruby on Rails'
+    url: 'https://www.madetech.com/blog/pros-and-cons-of-ruby-on-rails'
+    comment: 'Find out why Ruby on Rails just might be the way forward for you and your modern web application.'
+    pubdate: sep 8
+    tags:
+      - rb
+
+  - title: 'Understanding method missing'
+    url: 'http://www.leighhalliday.com/understanding-method-missing'
+    comment: 'How method_missing and respond_to_missing? work by looking at the StringInquirer class of Ruby on Rails.'
+    pubdate: sep 8
     tags:
       - rb
 
@@ -65,6 +106,6 @@ topics:
     url: ""
     comment: ""
     pubdate: sep 3
-    duration: 
+    duration:
     tags:
       - rb
