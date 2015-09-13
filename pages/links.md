@@ -20,7 +20,6 @@ Those links and resources are used in the weekly collection of information for G
 
 * <https://www.destroyallsoftware.com/blog> (Gary Bernhardt)
 * <http://www.justinweiss.com/blog> (ruby)
-* <http://updates.html5rocks.com> (webdev)
 * <http://blog.codinghorror.com> (Jeff Atwood)
 * <http://www.leighhalliday.com> (rails)
 * <http://blog.honeybadger.io> (webdev)

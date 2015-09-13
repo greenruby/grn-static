@@ -22,9 +22,23 @@ Rubyconf gave me a break so that I can rethink what I was doing and how I can ev
 You might wonder why I didn't say anything about the talks. Actually, talks are just as great as all other conferences, and can be watched on the recordings that they will post soon. But the most important part is really the atmosphere of encouragement to try and learn something new.
 
 
-[rubyconf]: http://2015.rubyconf.tw/
-
 [aqueezer]: https://github.com/tubaxenor/squeezer
+
+#### Rubyconftw - tysliu
+
+Greetings. This is tysliu and this is also my first rant and my experience from going to 2015 Rubyconf TW.
+
+
+A interesting part of attending rubyconf this year, is that you start to say hello to more people. You start to see your past collegues and meet new people, it feel kinda nice see familiar faces and to catch up.
+
+
+The most interesting talk for me this years was tenderlove's talk. It was about how he attacked the issue of making Rails HTTP2 friendly. Basically, Rails at the moment is not http2 compatible, this is due the the current architecture of Rails and current implementation of rack middlewares. During the talk he was able to demo a prototype Rails that is H2 friendly.
+
+
+The best news for Rails developers is that there are plans to for making H2 compatible available in Rails 5.
+
+
+[rubyconf]: http://2015.rubyconf.tw/
 "
 
 topics:
@@ -70,6 +84,11 @@ topics:
     tags:
       - rb
 
+  - title: 'JQuery Advanced News Ticker'
+    url: 'http://risq.github.io/jquery-advanced-news-ticker/'
+    comment: 'A powerful, flexible and animated vertical news ticker plugin for JQuery.'
+    tags:
+      - js
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
@@ -107,6 +126,27 @@ topics:
     url: 'http://radar.oreilly.com/2015/09/better-code-is-cheaper.html'
     comment: "Summary of a podcast by O'Reily praising the benefits of quality code."
     pubdate: sep 9
+    tags:
+      - rb
+
+  - title: 'Ditching your single page app for…turbolinks?'
+    url: 'http://blog.honeybadger.io/ditching-your-single-page-app-for-turbolinks/'
+    comment: "Turbolinks – it’s probably one of the most despised words in the Rails universe."
+    pubdate: sep 9
+    tags:
+      - rb
+
+  - title: 'Promises in JavaScript Unit Tests: the Definitive Guide'
+    url: 'http://www.sitepoint.com/promises-in-javascript-unit-tests-the-definitive-guide/'
+    comment: "Despite making asynchronous code simpler, dealing with promises in unit tests is a hassle."
+    pubdate: sep 9
+    tags:
+      - js
+
+  - title: 'Happy Ending: An Epic Saga of Guard and Docker'
+    url: 'http://www.sitepoint.com/guard-and-docker/'
+    comment: "I’ve never liked how projects pollute my system."
+    pubdate: sep 10
     tags:
       - rb
 
