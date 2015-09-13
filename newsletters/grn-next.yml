@@ -34,9 +34,9 @@ topics:
     "Examples of UI/UX, graphic performance, web design and flashy things."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "Manycities"
+    url: "http://www.manycities.org/"
+    comment: "Spatio-temporal patterns of mobile phone activity in cities aroun dthe world."
     tags:
       - design
 
@@ -103,6 +103,19 @@ topics:
     tags:
       - rb
 
+  - title: 'Better code is cheaper'
+    url: 'http://radar.oreilly.com/2015/09/better-code-is-cheaper.html'
+    comment: "Summary of a podcast by O'Reily praising the benefits of quality code."
+    pubdate: sep 9
+    tags:
+      - rb
+
+  - title: 'Hunting Down Memory Issues in Rails'
+    url: 'http://techblog.realestate.com.au/hunting-down-memory-issues-in-rails/'
+    comment: "rbtrace and ruby_jmeter for the win."
+    pubdate: sep 11
+    tags:
+        - rb
 
 
 - title: Watch
