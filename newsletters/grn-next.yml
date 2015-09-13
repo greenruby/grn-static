@@ -1,44 +1,9 @@
 ---
-edition: "136"
-pubdate: "september 13th 2015"
+edition: "137"
+pubdate: "september 20th 2015"
 editors: "xenor, tysliu"
 rant:
-  "#### Rubyconftw - xenor
-
-
-Hey I'm xenor and this is my first rant in Green Ruby News about (and not about) [rubyconftw][rubyconf].
-
-
-I work in a ruby shop and manage a couple of people, I am recently feeling burned-out. It affects motivation and productivity. I am in a position which involves watching over colleagues output. But I also have my own coding projects ongoing.
-
-
-At first it's great and challenging. But after half a year, it starts to bite me back. I get tired and anxious about not
-  meeting my goal at the end of the day while checking others progress. I also need more breaks than usual. The typical burn-out syndrome.
-
-
-Rubyconf gave me a break so that I can rethink what I was doing and how I can evaluate things around me. During the conference, I found some time to do [side project][squeezer]. This really helps and re-motivates me on programming (I believe this could be called 'Conference Driven Development')
-
-
-You might wonder why I didn't say anything about the talks. Actually, talks are just as great as all other conferences, and can be watched on the recordings that they will post soon. But the most important part is really the atmosphere of encouragement to try and learn something new.
-
-
-[aqueezer]: https://github.com/tubaxenor/squeezer
-
-#### Rubyconftw - tysliu
-
-Greetings. This is tysliu and this is also my first rant and my experience from going to 2015 Rubyconf TW.
-
-
-A interesting part of attending rubyconf this year, is that you start to say hello to more people. You start to see your past collegues and meet new people, it feel kinda nice see familiar faces and to catch up.
-
-
-The most interesting talk for me this years was tenderlove's talk. It was about how he attacked the issue of making Rails HTTP2 friendly. Basically, Rails at the moment is not http2 compatible, this is due the the current architecture of Rails and current implementation of rack middlewares. During the talk he was able to demo a prototype Rails that is H2 friendly.
-
-
-The best news for Rails developers is that there are plans to for making H2 compatible available in Rails 5.
-
-
-[rubyconf]: http://2015.rubyconf.tw/
+  "#### 
 "
 
 topics:
@@ -48,9 +13,9 @@ topics:
     "Examples of UI/UX, graphic performance, web design and flashy things."
   links:
 
-  - title: "Manycities"
-    url: "http://www.manycities.org/"
-    comment: "Spatio-temporal patterns of mobile phone activity in cities aroun dthe world."
+  - title: ""
+    url: ""
+    comment: ""
     tags:
       - design
 
@@ -60,11 +25,11 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: 'httpbin'
-    url: 'http://httpbin.org/'
-    comment: "HTTP Client Testing Service"
+  - title: ""
+    url: ""
+    comment: ""
     tags:
-      - web
+      - css3
 
 
 
@@ -72,90 +37,24 @@ topics:
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: slackin
-    url: 'https://github.com/rauchg/slackin'
-    comment: 'slackin - Public Slack organizations made easy'
-    tags:
-      - tool
-
-  - title: chaskiq
-    url: 'https://github.com/michelson/chaskiq'
-    comment: 'Newsletter Rails engine'
+  - title: ""
+    url: ""
+    comment: ""
     tags:
       - rb
 
-  - title: 'JQuery Advanced News Ticker'
-    url: 'http://risq.github.io/jquery-advanced-news-ticker/'
-    comment: 'A powerful, flexible and animated vertical news ticker plugin for JQuery.'
-    tags:
-      - js
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: 'Build APIs with Napa'
-    url: 'http://www.sitepoint.com/build-apis-with-napa/'
-    comment: 'Scaffolding your API by napa'
-    pubdate: sep 7
+  - title: ""
+    url: ""
+    comment: ""
+    pubdate: sep 3
     tags:
       - rb
 
-  - title: 'Keeping your logs from becoming an unreadable mess'
-    url: 'http://www.justinweiss.com/blog/2015/09/08/keeping-your-logs-from-becoming-an-unreadable-mess'
-    comment: "By tagging you log using Rails' TaggedLogging"
-    pubdate: sep 8
-    tags:
-      - rb
-
-  - title: 'Pros and Cons of Ruby on Rails'
-    url: 'https://www.madetech.com/blog/pros-and-cons-of-ruby-on-rails'
-    comment: 'Find out why Ruby on Rails just might be the way forward for you and your modern web application.'
-    pubdate: sep 8
-    tags:
-      - rb
-
-  - title: 'Understanding method missing'
-    url: 'http://www.leighhalliday.com/understanding-method-missing'
-    comment: 'How method_missing and respond_to_missing? work by looking at the StringInquirer class of Ruby on Rails.'
-    pubdate: sep 8
-    tags:
-      - rb
-
-  - title: 'Better code is cheaper'
-    url: 'http://radar.oreilly.com/2015/09/better-code-is-cheaper.html'
-    comment: "Summary of a podcast by O'Reily praising the benefits of quality code."
-    pubdate: sep 9
-    tags:
-      - rb
-
-  - title: 'Ditching your single page app for…turbolinks?'
-    url: 'http://blog.honeybadger.io/ditching-your-single-page-app-for-turbolinks/'
-    comment: "Turbolinks – it’s probably one of the most despised words in the Rails universe."
-    pubdate: sep 9
-    tags:
-      - rb
-
-  - title: 'Promises in JavaScript Unit Tests: the Definitive Guide'
-    url: 'http://www.sitepoint.com/promises-in-javascript-unit-tests-the-definitive-guide/'
-    comment: "Despite making asynchronous code simpler, dealing with promises in unit tests is a hassle."
-    pubdate: sep 9
-    tags:
-      - js
-
-  - title: 'Happy Ending: An Epic Saga of Guard and Docker'
-    url: 'http://www.sitepoint.com/guard-and-docker/'
-    comment: "I’ve never liked how projects pollute my system."
-    pubdate: sep 10
-    tags:
-      - rb
-
-  - title: 'Hunting Down Memory Issues in Rails'
-    url: 'http://techblog.realestate.com.au/hunting-down-memory-issues-in-rails/'
-    comment: "rbtrace and ruby_jmeter for the win."
-    pubdate: sep 11
-    tags:
-        - rb
 
 
 - title: Watch
@@ -166,6 +65,6 @@ topics:
     url: ""
     comment: ""
     pubdate: sep 3
-    duration:
+    duration: 
     tags:
       - rb

@@ -1,0 +1,220 @@
+----------------------------------------------------
+Green Ruby News #136 - september 13th 2015
+----------------------------------------------------
+*|IFNOT:CONTENT=Only Rant|*
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+*Manycities* (design)
+http://www.manycities.org/
+Spatio-temporal patterns of mobile phone activity in cities aroun dthe world.
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+*Rails Composer with Rails Tutorials* (rb)
+https://www.kickstarter.com/projects/909377477/rails-composer-with-rails-tutorials
+Our friend Daniel Kehoe launched a kickstarter for his next move..
+
+*httpbin* (web)
+http://httpbin.org/
+HTTP Client Testing Service.
+
+*Operating Systems: Three Easy Pieces* (ops)
+http://pages.cs.wisc.edu/~remzi/OSTEP/
+(book) free online operating systems book.
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+*Camaleon CMS* (rb)
+http://camaleon.tuzitio.com/
+Advanced content management system based on Ruby on Rails 4 as an alternative to Wordpress.
+
+*chaskiq* (rb)
+https://github.com/michelson/chaskiq
+Newsletter Rails engine.
+
+*Living style guide* (rb)
+http://livingstyleguide.org/
+Create front-end style guides with Sass and markdown.
+
+*wpdb_activerecord* (rb)
+https://github.com/hothero/wpdb_activerecord
+Wrapper for the WordPress database, using ActiveRecord.
+
+*slackin* (tool)
+https://github.com/rauchg/slackin
+Public Slack organizations made easy.
+
+*Telepat* (js)
+http://telepat.io/
+Open-source backend stack, designed to deliver information and information updates in real-time to clients.
+
+*JQuery Advanced News Ticker* (js)
+http://risq.github.io/jquery-advanced-news-ticker/
+Animated vertical news ticker plugin for JQuery.
+
+*dinit* (ops)
+https://github.com/miekg/dinit
+An init for use inside Docker containers.
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+*Build APIs with Napa* (rb - sep 7)
+http://www.sitepoint.com/build-apis-with-napa/
+Scaffolding your API by napa.
+
+*Keeping your logs from becoming an unreadable mess* (rb - sep 8)
+http://www.justinweiss.com/blog/2015/09/08/keeping-your-logs-from-becoming-an-unreadable-mess
+By tagging you log using Rails TaggedLogging.
+
+*Kill the conditional in Ruby with polymorphism* (rb - sep 8)
+https://medium.com/@anonyo/kill-the-if-statement-or-conditional-in-ruby-with-polymorphism-a3a6f1b64e8d
+A simple way to get more object logics in ruby code.
+
+*Pros and Cons of Ruby on Rails* (rb - sep 8)
+https://www.madetech.com/blog/pros-and-cons-of-ruby-on-rails
+Find out why Ruby on Rails just might be the way forward for you and your modern web application.
+
+*Understanding method missing* (rb - sep 8)
+http://www.leighhalliday.com/understanding-method-missing
+How method_missing and respond_to_missing? work by looking at the StringInquirer class of Ruby on Rails.
+
+*Better code is cheaper* (web - sep 9)
+http://radar.oreilly.com/2015/09/better-code-is-cheaper.html
+Summary of a podcast by O'Reily praising the benefits of quality code.
+
+*Ditching your single page app for…turbolinks?* (rb - sep 9)
+http://blog.honeybadger.io/ditching-your-single-page-app-for-turbolinks/
+A lot of hate for turbolinks, but still, they can bring some power.
+
+*Promises in JavaScript Unit Tests: the Definitive Guide* (js - sep 9)
+http://www.sitepoint.com/promises-in-javascript-unit-tests-the-definitive-guide/
+Despite making asynchronous code simpler, dealing with promises in unit tests is a hassle.
+
+*Happy Ending: An Epic Saga of Guard and Docker* (rb - sep 10)
+http://www.sitepoint.com/guard-and-docker/
+I’ve never liked how projects pollute my system.
+
+*Hunting Down Memory Issues in Rails* (rb - sep 11)
+http://techblog.realestate.com.au/hunting-down-memory-issues-in-rails/
+rbtrace and ruby_jmeter for the win.
+
+*Switching from RSpec to Minitest* (rb - sep 11)
+http://theartandscienceofruby.com/2015/09/11/switching-from-rspec-to-minitest/
+Some tips to assist you in the migration.
+
+Watch
+----------------------------------------------------
+Screencasts and conferences videos, or other video feeds ...
+
+** (rb - sep 3)
+
+
+
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+Links curated by by mose (publisher), xenor, tysliu (editors).
+*|END:IF|*
+*|IFNOT:CONTENT=Only Links|*
+
+Rant
+----------------------------------------------------
+The random rant of the week by mose.
+
+#### Rubyconf TW
+
+So these last 2 days we went to RubyConfTW here in Taipei, like every year. At
+that occasion I kinda forced my buddies to take part in this rant section. So,
+that occasion of meeting the ruby community was as usual very enjoyable. Year
+after year we see the same people, the community is solid and persistent.
+
+Like last years Matz was here and he talked about ruby 3 and, that was a
+surprise to me, he talked about getting rid of the GIL very soon. That GIL
+topic has been a taboo for so many years. Getting rid off it can change the
+position of ruby in the family of the major scripting languages. He also
+defined laziness as one of the 3 required characteristics of a good coder. I'm
+not sure there is anything mainstream about those 3 qualities but for a long
+time I had my set of 3 requirements to evaluate a good coder and laziness was
+in it. maybe I will develop more about it in another rant.
+
+During this conference I also had the occasion to hear a lot of direct
+feedback from friends of Green Ruby. For example we have an irc channel but
+many people are not that comfortable with that chat system from another
+century and would prefer a slack room. As a matter of fact we have such a
+room, but we forgot about it for the past year. It's alive again, feel free to
+send a request for invite to news at greenruby.org to join
+<http://greenruby.slack.com>. It's open to everybody.
+
+#### Rubyconftw by xenor
+
+Hey I'm xenor and this is my first rant in Green Ruby News about (and not
+about) [rubyconftw][rubyconf].
+
+I work in a ruby shop and manage a couple of people, and I am recently feeling
+burned-out. It affects motivation and productivity. I am in a position which
+involves watching over colleagues output. But I also have my own coding
+projects ongoing.
+
+At first it's great and challenging. But after half a year, it starts to bite
+me back. I get tired and anxious about not meeting my goal at the end of the
+day while checking others progress. I also need more breaks than usual. The
+typical burn-out syndrome.
+
+Rubyconf gave me a break so that I can rethink what I was doing and how I can
+evaluate things around me. During the conference, I found some time to do
+[side project][squeezer]. This really helps and re-motivates me on programming
+(I believe this could be called 'Conference Driven Development')
+
+You might wonder why I didn't say anything about the talks. Actually, talks
+are just as great as all other conferences, and can be watched on the
+recordings that they will post soon. But the most important part is really the
+atmosphere of encouragement to try and learn something new.
+
+#### Rubyconftw by tysliu
+
+Greetings. This is tysliu and this is also my first rant and my experience
+from going to 2015 Rubyconf TW.
+
+The main benefit from attending rubyconf this year is that I said hello to
+more people. I met past colleagues and also new people. It feels nice to see
+familiar faces and catch up.
+
+The most interesting talk for me this years was tenderlove's talk. It was
+about how he attacked the issue of making Rails HTTP2 friendly. Basically,
+Rails at the moment is not http2 compatible. This is due the the current
+architecture of Rails and implementation of rack middlewares. During the talk
+he was able to demo a prototype Rails that is H2 friendly.
+
+The best news for Rails developers is that there are plans to for making HTTP
+2 compatibility available in Rails 5.
+
+[rubyconf]: http://2015.rubyconf.tw/
+[squeezer]: https://github.com/tubaxenor/squeezer
+
+*|END:IF|*
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+
