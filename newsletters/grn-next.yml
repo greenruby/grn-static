@@ -25,36 +25,52 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: 'Crab'
+    url: 'http://etia.co.uk/'
+    comment: 'Crab adds SQL to your command line.'
     tags:
-      - css3
-
-
+      - tool
 
 - title: Install
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: 'jobless'
+    url: 'https://github.com/dabrorius/jobless'
+    comment: 'jobless - A ruby DSL for generating CVs.'
     tags:
       - rb
 
+  - title: 'OpenSeadragon'
+    url: 'https://openseadragon.github.io/'
+    comment: 'An open-source, web-based viewer for high-resolution zoomable images'
+    tags:
+      - js
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
-    pubdate: sep 3
+  - title: 'How to debug Ruby memory issues'
+    url: 'http://eng.rightscale.com/2015/09/16/how-to-debug-ruby-memory-issues.html'
+    comment: 'Some good tips for debug and fix ruby memory issues.'
+    date: sep 16
     tags:
       - rb
 
+  - title: 'flexmock 2.0 released'
+    url: 'https://medium.com/@sylvain.joyeux/flexmock-revival-flexmock-2-0-released-f0aa3f4a364c'
+    comment: 'flexmock reaches 2.0 back to live again after some hard work.'
+    date: 'sep 18'
+    tags:
+      - rb
+
+  - title: "Tell Don't Ask vs the Web"
+    url: 'http://tmichel.github.io/2015/09/14/oo-controversies-tell-dont-ask-vs-the-web/'
+    comment: "Some opinions about service object design verses Tell Don't Ask principle"
+    date: sep 14
+    tags:
+      - rb
 
 
 - title: Watch
