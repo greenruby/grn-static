@@ -1,0 +1,199 @@
+----------------------------------------------------
+Green Ruby News #137 - sep 20th 2015
+----------------------------------------------------
+*|IFNOT:CONTENT=Only Rant|*
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+*Signes du quotidien* (design)
+http://www.signesduquotidien.org/
+Graphic design workshop website (in french).
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+*Railshurts* (rb)
+http://railshurts.com/
+Help developers to stop suffering while they are working with Ruby on Rails.
+
+*Notion* (tool)
+http://www.notion.so/
+Expressive and collaborative document editor.
+
+*Crab* (tool)
+http://etia.co.uk/
+Crab adds SQL to your command line.
+
+*Opsdash* (ops)
+https://www.opsdash.com/
+Self-hosted server and service monitoring.
+
+*Reactive Programming with JavaScript* (js)
+http://www.wowebook.org/reactive-programming-with-javascript.html
+(book) learn more about react.
+
+*React Podcats* (js)
+http://reactpodcast.com/
+5 episodes already out. A twice-monthly podcast on all things React.
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+*Jobless* (rb)
+https://github.com/dabrorius/jobless
+jobless - A ruby DSL for generating CVs.
+
+*Pastel* (rb)
+https://github.com/peter-murach/pastel
+Terminal output styling with intuitive and clean API, with no monkey patch on String class.
+
+*Slackiq* (rb)
+https://github.com/MightySignal/slackiq
+Slackiq integrates reporting Sidekiq jobs to Slack.
+
+*Pronto* (rb)
+https://github.com/mmozuras/pronto
+Quick automated code review.
+
+*OpenSeadragon* (js)
+https://openseadragon.github.io/
+An open-source, web-based viewer for high-resolution zoomable images.
+
+*Juiced* (css3)
+https://github.com/ovdojoey/Juiced
+A Flexbox CSS Framework.
+
+*React Native for android* (mobile)
+http://www.reactnative.com/react-native-for-android/
+It existed for iOS, now for android.
+
+*Detox* (tool)
+http://usedetox.com/
+A chrome extension to make facebook feed positively distracting.
+
+*GHraylog 1.2* (ops)
+https://www.graylog.org/announcing-graylog-1-2-ga-release-includes-30-new-features/
+Over 30 new features and bug fixes.
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+*Tell Don't Ask vs the Web* (rb)
+http://tmichel.github.io/2015/09/14/oo-controversies-tell-dont-ask-vs-the-web/
+Some opinions about service object design verses Tell Don't Ask principle
+
+*N-gram Analysis for Fun and Profit* (rb)
+http://www.blackbytes.info/2015/09/ngram-analysis-ruby/
+Extract some meaning out of a big collection of text.
+
+*Ruby Virtual Machine Internals and Investigating Variable Scope* (rb)
+http://techblog.shutl.com/2015/09/ruby-virtual-machine-internals-and-investigating-variable-scope/
+How scopes work under the hood.
+
+*Go Testing + Docker* (go)
+https://ericchiang.github.io/go/tests/testing/docker/2015/09/14/test-with-docker.html
+Avoid dependecies hell by using a container.
+
+*3 Steps to Fix Encoding Problems in Ruby* (rb)
+http://www.justinweiss.com/blog/2015/09/15/3-steps-to-fix-encoding-problems-in-ruby/
+What encoding does to a string, and how to fix any issue about it.
+
+*Build your own slackbot in go* (go)
+https://www.opsdash.com/blog/slack-bot-in-golang.html
+What encoding does to a string, and how to fix any issue about it.
+
+*How to debug Ruby memory issues* (rb)
+http://eng.rightscale.com/2015/09/16/how-to-debug-ruby-memory-issues.html
+Some good tips for debugging and fixing ruby memory issues.
+
+*How I Live-Coded My Most-Hearted Pen* (css3)
+https://css-tricks.com/how-i-live-coded-my-most-hearted-codepen-demo/
+The step by step adventures of Ana using maths and code to make art.
+
+*Deploy Your Rails to OpenShift* (rb)
+http://www.sitepoint.com/deploy-your-rails-to-openshift/
+OpenShift is Red Hat’s Platform-as-a-Service (PaaS). This howto is for putting a rails app on that.
+
+*Validating Input in Sass Mixins and Functions* (css3)
+http://www.sitepoint.com/validating-input-in-sass-mixins-and-functions/
+Sass has a number of functions that help us validate the input that developers put in to the Sass we write.
+
+*What you need to know about Node.js 4.0.0* (web)
+http://www.kogonuso.com/2015/09/what-you-need-to-know-about-nodejs-400.html
+Node 4 was officially released on september 8. Odd numbering, and what are the new features.
+
+*We are bad at interviewing developers* (web)
+http://blog.fogcreek.com/were-bad-at-interviewing-developers-and-how-to-fix-it-interview-with-kerri-miller/
+(podcast + transcript) interview with Kerri Miller from LivingSocial.
+
+*flexmock 2.0 released* (rb)
+https://medium.com/@sylvain.joyeux/flexmock-revival-flexmock-2-0-released-f0aa3f4a364c
+flexmock reaches 2.0 back to live again after some hard work.
+
+*Build a Face Detection App Using Node.js and OpenCV* (js)
+http://www.sitepoint.com/face-detection-nodejs-opencv/
+Human beings have an innate ability to detect, process and recognize faces — we’re born with it.
+
+*SQL vs NoSQL: The Differences* (tool)
+http://www.sitepoint.com/sql-vs-nosql-differences/
+Various aspect for comparison between those 2 data storage solutions.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+Links curated by by mose (publisher), xenor, tysliu (editors).
+*|END:IF|*
+*|IFNOT:CONTENT=Only Links|*
+
+Rant
+----------------------------------------------------
+The random rant of the week by mose.
+
+#### Join us on Slack
+
+Since we revived our [slack channel][slack], there is a small group of people
+lurking there everyday. Mostly in Taiwan timezone, but we get some guests from
+the americas as well. The result is that more people suggest links along the
+way. Thanks Ash and ilake, which brought some links to the present newsletter
+edition.
+
+So, if you want to join the fun, send a mail to news at greenruby,org to get
+an invite. It's open, english speaking, friendly and quite geeky.
+
+#### Looking for puppeteers
+
+Some time ago I wrote a tool that we needed at Gandi for analyzing our hiera
+params. We have a lot of nodes and farms and datacenters and cascading params.
+It's sometimes hard to see what overrides what. So recently I released it in a
+Gem named [Hieracles][hieracles]. For now that gem works just fine for us, but
+I would be curious to see if there is anyone out there with a similar setup
+that could use it. I would love to make this tool more generic, but there are
+so many ways do to puppet ... So if you wanna give it a try and need some
+guidance with it, feel free to poke me.
+
+[slack]: http://greenruby.slack.com
+[hieracles]: https://github.com/Gandi/hieracles
+
+*|END:IF|*
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+

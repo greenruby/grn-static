@@ -1,9 +1,9 @@
 ---
-edition: "137"
-pubdate: "sep 20th 2015"
+edition: "138"
+pubdate: "sep 27th 2015"
 editors: "xenor, tysliu"
 rant:
-  "####
+  "#### 
 "
 
 topics:
@@ -25,114 +25,35 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: 'Crab'
-    url: 'http://etia.co.uk/'
-    comment: 'Crab adds SQL to your command line.'
+  - title: ""
+    url: ""
+    comment: ""
     tags:
-      - tool
+      - css3
+
+
 
 - title: Install
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: 'jobless'
-    url: 'https://github.com/dabrorius/jobless'
-    comment: 'jobless - A ruby DSL for generating CVs.'
+  - title: ""
+    url: ""
+    comment: ""
     tags:
       - rb
 
-  - title: 'Pastel'
-    url: 'https://github.com/peter-murach/pastel'
-    comment: 'Terminal output styling with intuitive and clean API that doesn't monkey patch String class.'
-    tags:
-      - rb
-
-  - title: 'Slackiq'
-    url: 'https://github.com/MightySignal/slackiq'
-    comment: 'Slackiq integrates Slack and Sidekiq so that you can have vital information about your Sidekiq jobs sent directly to your team's Slack.'
-    tags:
-      - rb
-
-  - title: 'OpenSeadragon'
-    url: 'https://openseadragon.github.io/'
-    comment: 'An open-source, web-based viewer for high-resolution zoomable images'
-    tags:
-      - js
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: "Tell Don't Ask vs the Web"
-    url: 'http://tmichel.github.io/2015/09/14/oo-controversies-tell-dont-ask-vs-the-web/'
-    comment: "Some opinions about service object design verses Tell Don't Ask principle"
-    date: sep 14
+  - title: ""
+    url: ""
+    comment: ""
+    pubdate: sep 3
     tags:
       - rb
-
-  - title: 'N-gram Analysis for Fun and Profit'
-    url: 'http://www.blackbytes.info/2015/09/ngram-analysis-ruby/'
-    comment: 'What would you do if you are given a big collection of text and you want to extract some meaning out of it?'
-    date: sep 14
-    tags:
-      - rb
-
-  - title: '3 Steps to Fix Encoding Problems in Ruby'
-    url: 'http://www.justinweiss.com/blog/2015/09/15/3-steps-to-fix-encoding-problems-in-ruby/'
-    comment: 'You only really think about a string’s encoding when it breaks.'
-    date: sep 15
-    tags:
-      - rb
-
-  - title: 'How to debug Ruby memory issues'
-    url: 'http://eng.rightscale.com/2015/09/16/how-to-debug-ruby-memory-issues.html'
-    comment: 'Some good tips for debug and fix ruby memory issues.'
-    date: sep 16
-    tags:
-      - rb
-
-  - title: 'How I Live-Coded My Most-Hearted Pen'
-    url: 'https://css-tricks.com/how-i-live-coded-my-most-hearted-codepen-demo/'
-    comment: 'In mid-August, I decided to try to reproduce a nice looking GIF I found on 12gon.'
-    date: sep 16
-    tags:
-      - css3
-
-  - title: 'Deploy Your Rails to OpenShift'
-    url: 'http://www.sitepoint.com/deploy-your-rails-to-openshift/'
-    comment: 'OpenShift is Red Hat’s Platform-as-a-Service (PaaS) that allows developers to quickly develop, host, and scale applications in a cloud environment.'
-    date: sep 17
-    tags:
-      - rb
-
-  - title: 'Validating Input in Sass Mixins and Functions'
-    url: 'http://www.sitepoint.com/validating-input-in-sass-mixins-and-functions/'
-    comment: 'Sass has a number of functions that help us validate the input that developers put in to the Sass we write.'
-    date: sep 17
-    tags:
-      - css3
-
-  - title: 'flexmock 2.0 released'
-    url: 'https://medium.com/@sylvain.joyeux/flexmock-revival-flexmock-2-0-released-f0aa3f4a364c'
-    comment: 'flexmock reaches 2.0 back to live again after some hard work.'
-    date: sep 18
-    tags:
-      - rb
-
-  - title: 'Build a Face Detection App Using Node.js and OpenCV'
-    url: 'http://www.sitepoint.com/face-detection-nodejs-opencv/'
-    comment: 'Human beings have an innate ability to detect, process and recognize faces — we’re born with it.'
-    date: sep 18
-    tags:
-      - js
-
-  - title: 'SQL vs NoSQL: The Differences'
-    url: 'http://www.sitepoint.com/sql-vs-nosql-differences/'
-    comment: 'NoSQL databases have existed since the 1960s, but have been recently gaining traction with popular options such as MongoDB, CouchDB, Redis and Apache Cassandra.'
-    date: sep 18
-    tags:
-      - tools
-
 
 
 
@@ -144,6 +65,6 @@ topics:
     url: ""
     comment: ""
     pubdate: sep 3
-    duration:
+    duration: 
     tags:
       - rb
