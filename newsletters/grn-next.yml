@@ -37,9 +37,15 @@ topics:
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "data_filter"
+    url: "https://github.com/backupify/data_filter"
+    comment: "An extensible DSL for filtering data sets"
+    tags:
+      - rb
+
+  - title: "warden-github-rails"
+    url: "https://github.com/fphilipe/warden-github-rails"
+    comment: "Gives Rails an easy to use warden strategy to authenticate GitHub users"
     tags:
       - rb
 
@@ -48,10 +54,31 @@ topics:
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
-    pubdate: sep 3
+  - title: "How I spent two weeks hunting a memory leak in Ruby"
+    url: "http://www.be9.io/2015/09/21/memory-leak/"
+    comment: "Where to (and not to) look when debugging memory leaks."
+    pubdate: "sep 21"
+    tags:
+      - rb
+
+  - title: "Rails, ElasticSearch and Go – merry go round"
+    url: "http://blog.joshsoftware.com/2015/09/24/rails-elasticsearch-go-merry-go-round/"
+    comment: "Combining Go and ElasticSearch in Rails to boost up performance"
+    pubdate: "sep 24"
+    tags:
+      - rb
+
+  - title: "Respect HTTP Caching"
+    url: "http://techblog.thescore.com/2015/09/24/respect-http-caching/"
+    comment: "Use HTTP cache to reduce your API loading"
+    pubdate: "sep 24"
+    tags:
+      - rb
+
+  - title: "Why you should use Rails for your new company"
+    url: "http://www.bootstrap.me.uk/1/post/2015/09/why-you-should-use-rails-for-your-new-company.html"
+    comment: "Some opinions against Jared Friedman's 'Why I wouldn’t use Rails for a new company'"
+    pubdate: "sep 25"
     tags:
       - rb
 
@@ -61,10 +88,11 @@ topics:
   baseline: "Screencasts and conferences videos, or other video feeds ..."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
-    pubdate: sep 3
-    duration: 
+
+  - title: 'Full Stack Fest 2015: Ruby 3.0, by Yukihiro Matsumoto'
+    url: 'http://www.youtube.com/watch?v=48iKjUcENRE'
+    comment: 'Talk about cuncurrency and other new things in Ruby 3.0'
+    pubdate: sep 22
+    duration: 45m
     tags:
       - rb
