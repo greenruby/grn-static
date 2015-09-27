@@ -129,7 +129,9 @@ Is this email not displaying correctly?
 <% if @c.contributors %>
 <i>Links curated by mose (editor), <%= @c.contributors %> (informers).</i>
 <% elsif @c.editors %>
-<i>Links curated by mose (publisher), <%= @c.editors %> (editors).</i>
+<i>Links curated by mose (publisher), <%= @c.editors %> (editors)
+<% if @c.participants %>, <%@c.participants %> (contributors)<% end %>
+.</i>
 <% else %>
 <i>Links curated by mose (editor), xenor (informer).</i>
 <% end %>

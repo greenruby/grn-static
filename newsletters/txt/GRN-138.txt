@@ -1,0 +1,194 @@
+----------------------------------------------------
+Green Ruby News #138 - sep 27th 2015
+----------------------------------------------------
+*|IFNOT:CONTENT=Only Rant|*
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+*Keep out* (design)
+http://www.littleworkshop.fr/keepout.html
+A webGL experiment.
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+*Transforms in CSS* (css3)
+http://www.oreilly.com/free/transforms-in-css.csp?cmp=tw-web-free-lp-lgen_emeyer
+(free wbook) Revamp the Way You Design, by Eric A. Meyer.
+
+*RePhone* (tool)
+http://dangerousprototypes.com/2015/09/23/rephone-kit-worlds-first-open-source-and-modular-phone/
+Open source and modular phone.
+
+*Hoist* (tool)
+https://hoist.io/
+Like IFTTT, but kind of focused on financial services.
+
+*Union station* (ops)
+https://blog.phusion.nl/2015/09/14/monitor-and-analyze-your-passenger-applications-with-union-station/
+Monitor and analyze your Passenger apps, a new service from Phusion.
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+*data_filter* (rb)
+https://github.com/backupify/data_filter
+An extensible DSL for filtering data sets.
+
+*warden-github-rails* (rb)
+https://github.com/fphilipe/warden-github-rails
+Gives Rails an easy to use warden strategy to authenticate GitHub users.
+
+*Serial* (rb)
+https://github.com/elabs/serial
+Plain old Ruby for generating primitive data structures from object graphs.
+
+*Belle* (js)
+http://nikgraf.github.io/belle/#/
+Configurable React Components with great UX.
+
+*Traefik* (ops)
+http://traefik.github.io/
+HTTP reverse proxy and load balancer made to deploy microservices with ease.
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+*Develop fast web apps in Phoenix using pjax* (el - sep 20)
+http://rny.io/elixir/phoenix/2015/09/20/pjax-in-phoenix.html
+Simplistic approach for great client-side perfs without the load of a big framework.
+
+*React Native Example App: Navigation* (js - sep 21)
+http://tech.taskrabbit.com/blog/2015/09/21/react-native-example-app/
+Simple example on how to do a native app with react native.
+
+*Getting Started With Webpack* (css3 - sep 22)
+http://css-max.com/getting-started-with-webpack/
+Part module loader, part pre-compiler, Webpack fills an interesting niche in our tool chains.
+
+*Speed up your RSpec tests by reviewing Factory Girl* (rb - sep 23)
+http://shuheikagawa.com/blog/2015/09/26/speed-up-your-rspec-tests-by-reviewing-factory-girl/
+FactoryGirl, if not used it properly, it may imperceptibly slow down your tests.
+
+*Rails Got 99 Problems (But These Ain't Them)* (rb - sep 23)
+http://chriskottom.com/blog/2015/09/rails-got-99-problems-but-these-aint-them/
+A response to those that write about the problems with ruby.
+
+*Launching nginScript and Looking Ahead* (js - sep 23)
+https://www.nginx.com/blog/launching-nginscript-and-looking-ahead/
+Nginx launches its own javascript interpreter.
+
+*The 12 best websites to find your next remote job* (web - sep 23)
+http://www.futureworkreport.com/the-12-best-websites-to-find-your-next-remote-job/
+Review of the ways to find remote positions, remotely.
+
+*Rails, ElasticSearch and Go – merry go round* (rb - sep 24)
+http://blog.joshsoftware.com/2015/09/24/rails-elasticsearch-go-merry-go-round/
+Combining Go and ElasticSearch in Rails to boost up performance.
+
+*Respect HTTP Caching* (rb - sep 24)
+http://techblog.thescore.com/2015/09/24/respect-http-caching/
+Use HTTP cache to reduce your API loading.
+
+*How To Leverage Ruby's Functional Programming Capability* (rb - sep 24)
+http://www.programmableweb.com/news/how-to-leverage-rubys-functional-programming-capability/how-to/2015/09/24
+While Ruby is not a truly functional language, developers can still write Ruby code in a functional way.
+
+*JavaScript Debugging for Rubyists* (js - sep 24)
+https://eliotsykes.com/debug-js
+Translation guide to help Rubyists discover the JavaScript equivalents of common Ruby debugging techniques.
+
+*Inside The GitHub Systems Where Open Source Lives* (web - sep 24)
+http://www.theplatform.net/2015/09/24/inside-the-github-systems-where-open-source-lives/
+Sometimes the best way to cope with scale is to keep things simple. This is the Github approach.
+
+*Blocks in Ruby* (rb - sep 25)
+http://radar.oreilly.com/2015/09/blocks-in-ruby.html
+Yet another introduction to blocks.
+
+*Why you should use Rails for your new company* (rb - sep 25)
+http://www.bootstrap.me.uk/1/post/2015/09/why-you-should-use-rails-for-your-new-company.html
+Some more opinions against Jared Friedman's 'Why I wouldn’t use Rails for a new company'.
+
+*Golang: Working with Gzip and Tar* (go - sep 27)
+http://blog.ralch.com/tutorial/golang-working-with-tar-and-gzip/
+Example code for basic compresison operations in go.
+
+Watch
+----------------------------------------------------
+Screencasts and conferences videos, or other video feeds ...
+
+*Full Stack Fest 2015: Ruby 3.0, by Yukihiro Matsumoto* (rb - sep 22 - 45m)
+http://www.youtube.com/watch?v=48iKjUcENRE
+Talk about cuncurrency and other new things in Ruby 3.0.
+
+*New Turbolinks 3 Features With Ruby on Rails* (rb - sep 22 - 1h)
+https://www.livecoding.tv/video/new-turbolinks-3-features-with-ruby-on-rails/
+A Livecoding session about the new turbolinks.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+Links curated by by mose (publisher), xenor (editors),  (contributors).
+*|END:IF|*
+*|IFNOT:CONTENT=Only Links|*
+
+Rant
+----------------------------------------------------
+The random rant of the week by mose.
+
+#### Show your work
+
+There is one thing I'm know for. I'm relentlessly pushing people to publish
+their code and participate in the open source world. I starting more than 15
+years ago and I never stopped. The fact is that it's not easy to open up your
+possibly messy code to the world. But honestly, better have dirty code out
+there than nothing.
+
+Beyond the philosophical reasons on should publish his code, there are various
+practical reasons. Like craftsmen or artists, we depend on a reputation system
+that includes being visible. Some people write a lot of blog posts and that
+works too. But the easiest way to get yourself some legitimacy is to have an
+active github account (or any other public place where code can be seen).
+
+Honestly when I recruit developers, blank github accounts raise a suspicion.
+And when I meet someone new in a conference or a meetup, I first go to github
+before checking out linkedin. Don't you?
+
+So, if you have been thinking about putting more code on github for a while,
+but it didn't come to reality, just kick your own ass. Take a weekend. If you
+are more stimulated by interaction, interest some friend for doing a mini
+private hackathon. You certainly already have a lot of thing that would need
+just a little bit of cleaning for being released into the wild.
+
+And, if what stimulates you is to have other people nagging you about it, just
+join our slack channel (send a mail to [mose@greenruby.org][mail] to get an
+invite, no question asked). I think I will setup some clever page that makes
+auto-invites like the one they have on ruby-taiwan community. That group has
+some amazing activity recently (kudos juanito).
+
+[mail]: mailto:mose@greenruby.org 
+
+*|END:IF|*
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+

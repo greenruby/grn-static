@@ -1,8 +1,7 @@
 ---
-edition: "138"
-pubdate: "sep 27th 2015"
+edition: "139"
+pubdate: "oct 4th 2015"
 editors: "xenor, tysliu"
-contributors: "hsatac, ilake"
 rant:
   "#### 
 "
@@ -26,132 +25,33 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: "Transforms in CSS"
-    url: "http://www.oreilly.com/free/transforms-in-css.csp?cmp=tw-web-free-lp-lgen_emeyer"
-    comment: "(free wbook) Revamp the Way You Design, by Eric A. Meyer."
+  - title: ""
+    url: ""
+    comment: ""
     tags:
       - css3
 
-  - title: "RePhone"
-    url: "http://dangerousprototypes.com/2015/09/23/rephone-kit-worlds-first-open-source-and-modular-phone/"
-    comment: "Open source and modular phone."
-    tags:
-      - tool
-
-  - title: "Hoist"
-    url: "https://hoist.io/"
-    comment: "Like IFTTT, but kind of focused on financial services."
-    tags:
-      - tool
 
 
 - title: Install
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: "data_filter"
-    url: "https://github.com/backupify/data_filter"
-    comment: "An extensible DSL for filtering data sets."
+  - title: ""
+    url: ""
+    comment: ""
     tags:
       - rb
-
-  - title: "warden-github-rails"
-    url: "https://github.com/fphilipe/warden-github-rails"
-    comment: "Gives Rails an easy to use warden strategy to authenticate GitHub users."
-    tags:
-      - rb
-
-  - title: "Serial"
-    url: "https://github.com/elabs/serial"
-    comment: "Plain old Ruby for generating primitive data structures from object graphs."
-    tags:
-      - rb
-
-  - title: "Belle"
-    url: "http://nikgraf.github.io/belle/#/"
-    comment: "Configurable React Components with great UX."
-    tags:
-      - js
 
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: "Develop fast web apps in Phoenix using pjax"
-    url: "http://rny.io/elixir/phoenix/2015/09/20/pjax-in-phoenix.html"
-    comment: "Simplistic approach for great client-side perfs without the load of a big framework."
-    pubdate: sep 20
-    tags:
-      - el
-
-  - title: "React Native Example App: Navigation"
-    url: "http://tech.taskrabbit.com/blog/2015/09/21/react-native-example-app/"
-    comment: "Simple example on how to do a native app with react native."
-    pubdate: sep 21
-    tags:
-      - js
-
-  - title: "Getting Started With Webpack"
-    url: "http://css-max.com/getting-started-with-webpack/"
-    comment: "Part module loader, part pre-compiler, Webpack fills an interesting niche in our tool chains."
-    pubdate: "sep 22"
-    tags:
-      - css3
-
-  - title: "Rails Got 99 Problems (But These Ain't Them)"
-    url: "http://chriskottom.com/blog/2015/09/rails-got-99-problems-but-these-aint-them/"
-    comment: "A response to those that write about the problems with ruby."
-    pubdate: "sep 23"
-    tags:
-      - rb
-
- - title: "Launching nginScript and Looking Ahead"
-    url: "https://www.nginx.com/blog/launching-nginscript-and-looking-ahead/"
-    comment: "Nginx launches its own javascript interpreter"
-    pubdate: "sep 23"
-    tags:
-      - js
-
-  - title: "The 12 best websites to find your next remote job"
-    url: "http://www.futureworkreport.com/the-12-best-websites-to-find-your-next-remote-job/"
-    comment: "Review of the ways to find remote positions, remotely."
-    pubdate: "sep 23"
-    tags:
-      - web
-
-  - title: "Rails, ElasticSearch and Go – merry go round"
-    url: "http://blog.joshsoftware.com/2015/09/24/rails-elasticsearch-go-merry-go-round/"
-    comment: "Combining Go and ElasticSearch in Rails to boost up performance."
-    pubdate: "sep 24"
-    tags:
-      - rb
-
-  - title: "Respect HTTP Caching"
-    url: "http://techblog.thescore.com/2015/09/24/respect-http-caching/"
-    comment: "Use HTTP cache to reduce your API loading."
-    pubdate: "sep 24"
-    tags:
-      - rb
-
-  - title: "How To Leverage Ruby's Functional Programming Capability"
-    url: "http://www.programmableweb.com/news/how-to-leverage-rubys-functional-programming-capability/how-to/2015/09/24"
-    comment: "While Ruby is not a truly functional language, developers can still write Ruby code in a functional way."
-    pubdate: sep 24
-    tags:
-      - rb
-
-  - title: "Inside The GitHub Systems Where Open Source Lives"
-    url: "http://www.theplatform.net/2015/09/24/inside-the-github-systems-where-open-source-lives/"
-    comment: "Sometimes the best way to cope with scale is to keep things simple. This is the Github approach."
-    pubdate: "sep 24"
-    tags:
-      - web
-
-  - title: "Why you should use Rails for your new company"
-    url: "http://www.bootstrap.me.uk/1/post/2015/09/why-you-should-use-rails-for-your-new-company.html"
-    comment: "Some more opinions against Jared Friedman's 'Why I wouldn’t use Rails for a new company'."
-    pubdate: "sep 25"
+  - title: ""
+    url: ""
+    comment: ""
+    pubdate: sep 3
     tags:
       - rb
 
@@ -161,11 +61,10 @@ topics:
   baseline: "Screencasts and conferences videos, or other video feeds ..."
   links:
 
-
-  - title: 'Full Stack Fest 2015: Ruby 3.0, by Yukihiro Matsumoto'
-    url: 'http://www.youtube.com/watch?v=48iKjUcENRE'
-    comment: 'Talk about cuncurrency and other new things in Ruby 3.0.'
-    pubdate: sep 22
-    duration: 45m
+  - title: ""
+    url: ""
+    comment: ""
+    pubdate: sep 3
+    duration: 
     tags:
       - rb

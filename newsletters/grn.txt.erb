@@ -13,7 +13,7 @@ Green Ruby News #<%= c.edition %> - <%= c.pubdate %>
 <% end %><% end %>
 . . . . . . . . . . . . . . . . . . . . . . . . . .
 <% if @c.contributors %>Links curated by by mose (editor), <%= @c.contributors %> (informers)<% elsif @c.editors 
-%>Links curated by by mose (publisher), <%= @c.editors %> (editors)<% end %>.
+%>Links curated by by mose (publisher), <%= @c.editors %> (editors)<% if @c.participants %>, <%@c.participants %> (contributors)<% end %><% end %>.
 *|END:IF|*
 *|IFNOT:CONTENT=Only Links|*
 <% if @c.rant != '' %>
