@@ -4,6 +4,19 @@ pubdate: "oct 4th 2015"
 editors: "xenor, tysliu"
 rant:
   "####
+
+  Rails Bricks - xenor
+
+  The author of [Rails Bricks][railsbricks], Nico Schuele, suddenly remove all his works and seems disappear from the ruby/rails community. Here is [why][quora_link].
+
+  From reading the quora, it makes me really sad, especially when Nico said he replied many emails about asking questions for using the site, but only get a few that actually reply nor a simple 'thanks'.
+
+  When an open source project gets bigger, and there is only one man on it, it feels alone and stressful. I don't really think money is the reason that makes Nico gave up, it's the lack of emotional support that put off his fire.
+
+  So, if you are using an open source project, please give your best thanks to the author, sometimes just a star or :+1: is really enough and can probably save another Rails Bricks.
+
+  [quora_link]: https://www.quora.com/Why-did-Nico-Schuele-totally-abandon-and-remove-all-his-work-related-to-the-web-in-general-and-Rails-Bricks-in-particular
+  [railsbricks]: http://railsbricks.net/
 "
 
 topics:
@@ -25,12 +38,35 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "Gem Warrior"
+    url: "http://gw.codana.me/"
+    comment: "A a text adventure game as a ruby gem"
     tags:
-      - css3
+      - rb
 
+  - title: "deppbot"
+    url: "https://www.deppbot.com/"
+    comment: "Automated Bundle Update"
+    tags:
+      - rb
+
+  - title: "Ultimate Guide to Logging"
+    url: "https://www.loggly.com/ultimate-guide/"
+    comment: "An open-source resource for understanding, analyzing, and troubleshooting system logs"
+    tags:
+      - web
+
+  - title: "Zulip"
+    url: "https://www.zulip.org/"
+    comment: "An open sourced group chat server/client from Dropbox"
+    tags:
+      - tool
+
+  - title: "webXray"
+    url: "http://webxray.org/"
+    comment: "A tool for detecting third-party HTTP requests on large numbers of web pages"
+    tags:
+      - tool
 
 
 - title: Install
@@ -40,6 +76,24 @@ topics:
   - title: "Popmotion"
     url: "http://popmotion.io/"
     comment: "A 12kb JavaScript motion engine"
+    tags:
+      - js
+
+  - title: "ttnt"
+    url: "https://github.com/Genki-S/ttnt"
+    comment: "Stop running tests which are clearly not affected by the committed change."
+    tags:
+      - rb
+
+  - title: "SafeFinder"
+    url: "https://github.com/st0012/SafeFinder"
+    comment: "Use null object to replace non-exist ActiveRecord object."
+    tags:
+      - rb
+
+  - title: "clipboard.js"
+    url: "https://github.com/zenorocha/clipboard.js"
+    comment: "Modern copy to clipboard without Flash, does not work in safari"
     tags:
       - js
 
@@ -54,12 +108,26 @@ topics:
     tags:
       - web
 
+  - title: "Concurrency with Resque (hacking our way through)"
+    url: "http://blog.innovativetravel.eu/2015/09/concurrency-with-resque-hacking-our-way-through/"
+    comment: "Add concurrent feature for resque by "
+    pubdate: "sep 29"
+    tags:
+      - rb
+
   - title: "Why Do We Have 'repeating-linear-gradient' Anyway?"
     url: "https://css-tricks.com/why-do-we-have-repeating-linear-gradient-anyway/"
     comment: "Can't the same thing be achieved with a linear-gradient and background-size?"
     pubdate: sep 29
     tags:
       - css3
+
+  - title: "Instrumenting Your Cache With Notifications"
+    url: "http://sorentwo.com/2015/09/30/instrumenting-your-cache-with-notifications.html"
+    comment: "Use Rails notification instrumenting framwork to get stats of your cache performance"
+    pubdate: "sep 30"
+    tags:
+      - rb
 
   - title: "Who Does your Gem Work For"
     url: "http://www.schneems.com/blogs/2015-09-30-reverse-rubygems"
