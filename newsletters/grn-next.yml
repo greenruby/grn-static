@@ -3,7 +3,7 @@ edition: "139"
 pubdate: "oct 4th 2015"
 editors: "xenor, tysliu"
 rant:
-  "#### 
+  "####
 "
 
 topics:
@@ -37,25 +37,64 @@ topics:
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "Popmotion"
+    url: "http://popmotion.io/"
+    comment: "A 12kb JavaScript motion engine"
     tags:
-      - rb
-
+      - js
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
-    pubdate: sep 3
+  - title: "Creating Desktop Applications With AngularJS and GitHub Electron"
+    url: "https://scotch.io/tutorials/creating-desktop-applications-with-angularjs-and-github-electron"
+    comment: "GitHub’s Electron framework (formerly known as Atom Shell) lets you write cross platform desktop application using HTML, CSS and JavaScript."
+    pubdate: sep 28
+    tags:
+      - web
+
+  - title: "Why Do We Have 'repeating-linear-gradient' Anyway?"
+    url: "https://css-tricks.com/why-do-we-have-repeating-linear-gradient-anyway/"
+    comment: "Can't the same thing be achieved with a linear-gradient and background-size?"
+    pubdate: sep 29
+    tags:
+      - css3
+
+  - title: "Who Does your Gem Work For"
+    url: "http://www.schneems.com/blogs/2015-09-30-reverse-rubygems"
+    comment: "Rubygems.org has a reverse dependencies API endpoint."
+    pubdate: sep 30
     tags:
       - rb
 
+  - title: "Working with APIs"
+    url: "http://www.blackbytes.info/2015/09/working-with-apis/"
+    comment: "APIs are great because they let you interact with other applications, but they can be a bit intimidating if you never used one before."
+    pubdate: sep 30
+    tags:
+      - rb
 
+  - title: "Super Easy Activity Feeds with Stream"
+    url: "http://www.sitepoint.com/super-easy-activity-feeds-with-stream/"
+    comment: "Stream is a platform providing an API to build complex scalable feeds with ease."
+    pubdate: oct 1
+    tags:
+      - rb
+
+  - title: "Lose the jQuery Bloat ­— DOM Manipulation with NodeList.js"
+    url: "http://www.sitepoint.com/dom-manipulation-with-nodelist-js/"
+    comment: "The idea that You May Not Need jQuery has started to gain in popularity."
+    pubdate: oct 2
+    tags:
+      - js
+
+  - title: "Full Stack Overflow Developer"
+    url: "http://www.arubystory.com/2015/10/full-stack-overflow-developer.html"
+    comment: "It's better to start reading the related documentation instead of trying to find a prepared solution."
+    pubdate: oct 3
+    tags:
+      - web
 
 - title: Watch
   baseline: "Screencasts and conferences videos, or other video feeds ..."
@@ -65,6 +104,6 @@ topics:
     url: ""
     comment: ""
     pubdate: sep 3
-    duration: 
+    duration:
     tags:
       - rb
