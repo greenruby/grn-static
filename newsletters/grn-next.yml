@@ -1,27 +1,12 @@
 ---
-edition: "139"
-pubdate: "oct 4th 2015"
+edition: "140"
+pubdate: "oct 11th 2015"
 editors: "xenor, tysliu"
-participants: "hsatac, ilake, mickey, michealweigle"
+participants: "hsatac, ilake"
 rant:
-  "#### Rails Bricks - xenor
-
-
-The author of [Rails Bricks][railsbricks], Nico Schuele, suddenly removed all his works and disappeared from the ruby/rails community. Here is [why][quora_link].
-
-
-I got really sad when reading the quora thread. Especially when Nico said he replied many emails about using the site, but only got a few that actually reply or just a simple 'thanks'.
-
-
-When an open source project gets bigger, and there is only one man on it, it feels lonely and stressful. I don't really think money is the reason that made Nico give up, it's the lack of emotional support that started off his fire.
-
-
-So, if you are using an open source project, please give your best thanks to the authors. Sometimes just a star or :+1: is really enough and can probably save another Rails Bricks.
-
-
-[quora_link]: https://www.quora.com/Why-did-Nico-Schuele-totally-abandon-and-remove-all-his-work-related-to-the-web-in-general-and-Rails-Bricks-in-particular
-
-[railsbricks]: http://railsbricks.net/
+  author: mose
+  content:
+    "#### 
 "
 
 topics:
@@ -43,208 +28,37 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: "Gem Warrior"
-    url: "http://gw.codana.me/"
-    comment: "A text adventure game as a ruby gem."
+  - title: ""
+    url: ""
+    comment: ""
     tags:
-      - rb
+      - css3
 
-  - title: "deppbot"
-    url: "https://www.deppbot.com/"
-    comment: "Automated Bundle Update."
-    tags:
-      - rb
-
-  - title: "Ultimate Guide to Logging"
-    url: "https://www.loggly.com/ultimate-guide/"
-    comment: "An open-source resource for understanding, analyzing, and troubleshooting system logs."
-    tags:
-      - ops
 
 
 - title: Install
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: "ttnt"
-    url: "https://github.com/Genki-S/ttnt"
-    comment: "Stop running tests which are clearly not affected by the committed change."
+  - title: ""
+    url: ""
+    comment: ""
     tags:
       - rb
 
-  - title: "SafeFinder"
-    url: "https://github.com/st0012/SafeFinder"
-    comment: "Use null object to replace non-existant ActiveRecord object."
-    tags:
-      - rb
-
-  - title: "Spectacles"
-    url: "https://github.com/liveh2o/spectacles"
-    comment: "ActiveRecord Views for PostgreSQL."
-    tags:
-      - rb
-
-  - title: "Popmotion"
-    url: "http://popmotion.io/"
-    comment: "A 12kb JavaScript motion engine."
-    tags:
-      - js
-
-  - title: "clipboard.js"
-    url: "https://github.com/zenorocha/clipboard.js"
-    comment: "Modern copy to clipboard without Flash (but does not work in safari)."
-    tags:
-      - js
-
-  - title: "Mattermost"
-    url: "http://www.mattermost.org/"
-    comment: "Open source, on-prem Slack-alternative."
-    tags:
-      - go
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: "Get Lazy with Custom Enumerators"
-    url: "http://viget.com/extend/get-lazy-with-custom-enumerators"
-    comment: "Use a custom enumerator to clean up some hairy business logic"
-    pubdate: sep 28
+  - title: ""
+    url: ""
+    comment: ""
+    pubdate: sep 3
     tags:
       - rb
 
-  - title: "How to Solve Coding Anti-Patterns for Ruby Rookies"
-    url: "http://www.sitepoint.com/how-to-solve-coding-anti-patterns-for-ruby-rookies/"
-    comment: "Several anti-patterns that are commonly perpetrated by Ruby Rookies, and how to solve them."
-    pubdate: "sep 28"
-    tags:
-      - rb
 
-  - title: "Creating Desktop Applications With AngularJS and GitHub Electron"
-    url: "https://scotch.io/tutorials/creating-desktop-applications-with-angularjs-and-github-electron"
-    comment: "GitHub’s Electron framework (formerly known as Atom Shell) in action."
-    pubdate: sep 28
-    tags:
-      - js
-
-  - title: "Otto"
-    url: "https://www.hashicorp.com/blog/otto.html"
-    comment: "The successor to vagrant."
-    pubdate: sep 28
-    tags:
-      - tool
-
-  - title: "Concurrency with Resque"
-    url: "http://blog.innovativetravel.eu/2015/09/concurrency-with-resque-hacking-our-way-through/"
-    comment: "Add concurrent feature for resque in a non-trivial way."
-    pubdate: sep 29
-    tags:
-      - rb
-
-  - title: "Folding Postgres Window Functions into Rails"
-    url: "http://blog.codeship.com/folding-postgres-window-functions-into-rails/"
-    comment: "Postgres window functions, how to use them in a rails app."
-    pubdate: "sep 29"
-    tags:
-      - rb
-
-  - title: "Representing Trees in Rails"
-    url: "http://randycoulman.com//blog/2015/09/29/representing-trees-in-rails/"
-    comment: "How do we represent tree structures in our relational databases."
-    pubdate: sep 29
-    tags:
-      - rb
-
-  - title: "A cartoon guide to Flux"
-    url: "https://medium.com/code-cartoons/a-cartoon-guide-to-flux-6157355ab207"
-    comment: "Illustrated explanation of what the heck Flux is all about."
-    pubdate: "sep 29"
-    tags:
-      - js
-
-  - title: "Why Do We Have repeating-linear-gradient Anyway?"
-    url: "https://css-tricks.com/why-do-we-have-repeating-linear-gradient-anyway/"
-    comment: "Can't the same thing be achieved with a linear-gradient and background-size?"
-    pubdate: sep 29
-    tags:
-      - css3
-
-  - title: "IoTTLY"
-    url: "http://www.open-electronics.org/iottly-the-first-iot-open-source-distribution-for-makers-and-the-importance-of-going-open/"
-    comment: "the first IoT Open Source Distribution for Makers and the importance of going open."
-    pubdate: sep 29
-    tags:
-      - tool
-
-  - title: "Instrumenting Your Cache With Notifications"
-    url: "http://sorentwo.com/2015/09/30/instrumenting-your-cache-with-notifications.html"
-    comment: "Use Rails notification instrument framwork to get stats of your cache performance."
-    pubdate: "sep 30"
-    tags:
-      - rb
-
-  - title: "Who Does your Gem Work For?"
-    url: "http://www.schneems.com/blogs/2015-09-30-reverse-rubygems"
-    comment: "Rubygems.org has a reverse dependencies API endpoint."
-    pubdate: sep 30
-    tags:
-      - rb
-
-  - title: "Working with APIs"
-    url: "http://www.blackbytes.info/2015/09/working-with-apis/"
-    comment: "How to get started using any API."
-    pubdate: sep 30
-    tags:
-      - rb
-
-  - title: "Shaded Progress Bars: A CSS/Sass Exercise"
-    url: "http://tympanus.net/codrops/2015/09/30/shaded-progress-bars-css-sass-excercise/"
-    comment: "How to create some interesting 3D progress bars with CSS/Sass."
-    pubdate: "sep 30"
-    tags:
-      - css3
-
-  - title: "Using imagemagick, awk and kmeans to find dominant colors in images"
-    url: "http://javier.io/blog/en/2015/09/30/using-imagemagick-and-kmeans-to-find-dominant-colors-in-images.html"
-    comment: "Demo of a clever shell script named dcolors."
-    pubdate: sep 30
-    tags:
-      - tool
-
-  - title: "Super Easy Activity Feeds with Stream"
-    url: "http://www.sitepoint.com/super-easy-activity-feeds-with-stream/"
-    comment: "Stream is a platform providing an API to build complex scalable feeds."
-    pubdate: oct 1
-    tags:
-      - rb
-
-  - title: "Lose the jQuery Bloat ­— DOM Manipulation with NodeList.js"
-    url: "http://www.sitepoint.com/dom-manipulation-with-nodelist-js/"
-    comment: "The idea that You May Not Need jQuery has started to gain in popularity."
-    pubdate: oct 2
-    tags:
-      - js
-
-  - title: "GitHub supports Universal 2nd Factor authentication"
-    url: "https://github.com/blog/2071-github-supports-universal-2nd-factor-authentication"
-    comment: "Github expands its authentication system to support FIDO Universal 2nd Factor (U2F)."
-    pubdate: "oct 2"
-    tags:
-      - tool
-
-  - title: "Git Large File Storage v1.0"
-    url: "https://github.com/blog/2069-git-large-file-storage-v1-0"
-    comment: "Git LFS is now available to all repositories on GitHub.com."
-    pubdate: "oct 2"
-    tags:
-      - tool
-
-  - title: "Full Stack Overflow Developer"
-    url: "http://www.arubystory.com/2015/10/full-stack-overflow-developer.html"
-    comment: "It's better to start reading the related documentation instead of trying to find a prepared solution."
-    pubdate: oct 3
-    tags:
-      - web
 
 - title: Watch
   baseline: "Screencasts and conferences videos, or other video feeds ..."
@@ -254,6 +68,6 @@ topics:
     url: ""
     comment: ""
     pubdate: sep 3
-    duration:
+    duration: 
     tags:
       - rb

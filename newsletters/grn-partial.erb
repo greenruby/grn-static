@@ -47,7 +47,8 @@
 <% if @c.rant && @c.rant != '' %>
 <div id="rant">
 <h3>Rant</h3>
-<div class="baseline"><i>The random rant of the week by mose.</i></div>
+
+<div class="baseline"><i>The random rant of the week by <%= @c.rant.author rescue 'mose' %>.</i></div>
 <%= @c.rant_html %>
 </div>
 <% end %>

@@ -28,8 +28,13 @@ module Greeby
     def make_letter(source)
 
       @c = to_ostruct(YAML::load_file(File.join(@news_path, source)))
-      @c.rant_html = RDiscount.new(@c.rant.to_s).to_html
-      @c.rant_txt = wrap(@c.rant)
+      if @c.rant.class == String
+        @c.rant_html = RDiscount.new(@c.rant.to_s).to_html
+        @c.rant_txt = wrap(@c.rant)
+      elsif @c.rant
+        @c.rant_html = RDiscount.new(@c.rant.content.to_s).to_html
+        @c.rant_txt = wrap(@c.rant.content)
+      end
 
       erb = ERB.new(File.read(File.join(@news_path, 'grn.html.erb')), 0, '<>')
       File.open(File.join(@news_path, 'html', "GRN-#{@c.edition}.html"), 'w') do |f|
@@ -48,7 +53,11 @@ module Greeby
     def make_archives(source)
 
       @c = to_ostruct(YAML::load_file(File.join(@news_path, source)))
-      @c.rant_html = RDiscount.new(@c.rant.to_s).to_html
+      if @c.rant.class == String
+        @c.rant_html = RDiscount.new(@c.rant.to_s).to_html
+      elsif @c.rant
+        @c.rant_html = RDiscount.new(@c.rant.content.to_s).to_html
+      end
 
       letters = JSON.parse(File.read(File.join(@static_path, 'editions.json')))
       letters[@c.edition] = { "link" => "grn-#{@c.edition}.html", "date" => @c.pubdate }

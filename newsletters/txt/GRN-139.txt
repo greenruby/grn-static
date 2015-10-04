@@ -1,0 +1,191 @@
+----------------------------------------------------
+Green Ruby News #139 - oct 4th 2015
+----------------------------------------------------
+*|IFNOT:CONTENT=Only Rant|*
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+*Lezilus* (design)
+http://www.lezilus.fr/
+Very pop-art website of a group of illustrators.
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+*Gem Warrior* (rb)
+http://gw.codana.me/
+A text adventure game as a ruby gem.
+
+*deppbot* (rb)
+https://www.deppbot.com/
+Automated Bundle Update.
+
+*Ultimate Guide to Logging* (ops)
+https://www.loggly.com/ultimate-guide/
+An open-source resource for understanding, analyzing, and troubleshooting system logs.
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+*ttnt* (rb)
+https://github.com/Genki-S/ttnt
+Stop running tests which are clearly not affected by the committed change.
+
+*SafeFinder* (rb)
+https://github.com/st0012/SafeFinder
+Use null object to replace non-existent ActiveRecord object.
+
+*Spectacles* (rb)
+https://github.com/liveh2o/spectacles
+ActiveRecord Views for PostgreSQL.
+
+*Popmotion* (js)
+http://popmotion.io/
+A 12kb JavaScript motion engine.
+
+*clipboard.js* (js)
+https://github.com/zenorocha/clipboard.js
+Modern copy to clipboard without Flash (but does not work in safari).
+
+*Mattermost* (go)
+http://www.mattermost.org/
+Open source, on-prem Slack-alternative.
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+*Get Lazy with Custom Enumerators* (rb - sep 28)
+http://viget.com/extend/get-lazy-with-custom-enumerators
+Use a custom enumerator to clean up some hairy business logic
+
+*How to Solve Coding Anti-Patterns for Ruby Rookies* (rb - sep 28)
+http://www.sitepoint.com/how-to-solve-coding-anti-patterns-for-ruby-rookies/
+Several anti-patterns that are commonly perpetrated by Ruby Rookies, and how to solve them.
+
+*Creating Desktop Applications With AngularJS and GitHub Electron* (js - sep 28)
+https://scotch.io/tutorials/creating-desktop-applications-with-angularjs-and-github-electron
+GitHub’s Electron framework (formerly known as Atom Shell) in action.
+
+*Otto* (tool - sep 28)
+https://www.hashicorp.com/blog/otto.html
+The successor to vagrant.
+
+*Concurrency with Resque* (rb - sep 29)
+http://blog.innovativetravel.eu/2015/09/concurrency-with-resque-hacking-our-way-through/
+Add concurrent feature for resque in a non-trivial way.
+
+*Folding Postgres Window Functions into Rails* (rb - sep 29)
+http://blog.codeship.com/folding-postgres-window-functions-into-rails/
+Postgres window functions, how to use them in a rails app.
+
+*Representing Trees in Rails* (rb - sep 29)
+http://randycoulman.com//blog/2015/09/29/representing-trees-in-rails/
+How do we represent tree structures in our relational databases.
+
+*A cartoon guide to Flux* (js - sep 29)
+https://medium.com/code-cartoons/a-cartoon-guide-to-flux-6157355ab207
+Illustrated explanation of what the heck Flux is all about.
+
+*Why Do We Have repeating-linear-gradient Anyway?* (css3 - sep 29)
+https://css-tricks.com/why-do-we-have-repeating-linear-gradient-anyway/
+Can't the same thing be achieved with a linear-gradient and background-size?
+
+*IoTTLY* (tool - sep 29)
+http://www.open-electronics.org/iottly-the-first-iot-open-source-distribution-for-makers-and-the-importance-of-going-open/
+the first IoT Open Source Distribution for Makers and the importance of going open.
+
+*Instrumenting Your Cache With Notifications* (rb - sep 30)
+http://sorentwo.com/2015/09/30/instrumenting-your-cache-with-notifications.html
+Use Rails notification instrument framework to get stats of your cache performance.
+
+*Who Does your Gem Work For?* (rb - sep 30)
+http://www.schneems.com/blogs/2015-09-30-reverse-rubygems
+Rubygems.org has a reverse dependencies API endpoint.
+
+*Working with APIs* (rb - sep 30)
+http://www.blackbytes.info/2015/09/working-with-apis/
+How to get started using any API.
+
+*Shaded Progress Bars: A CSS/Sass Exercise* (css3 - sep 30)
+http://tympanus.net/codrops/2015/09/30/shaded-progress-bars-css-sass-excercise/
+How to create some interesting 3D progress bars with CSS/Sass.
+
+*Using imagemagick, awk and kmeans to find dominant colors in images* (tool - sep 30)
+http://javier.io/blog/en/2015/09/30/using-imagemagick-and-kmeans-to-find-dominant-colors-in-images.html
+Demo of a clever shell script named dcolors.
+
+*Super Easy Activity Feeds with Stream* (rb - oct 1)
+http://www.sitepoint.com/super-easy-activity-feeds-with-stream/
+Stream is a platform providing an API to build complex scalable feeds.
+
+*Lose the jQuery Bloat ­— DOM Manipulation with NodeList.js* (js - oct 2)
+http://www.sitepoint.com/dom-manipulation-with-nodelist-js/
+The idea that You May Not Need jQuery has started to gain in popularity.
+
+*GitHub supports Universal 2nd Factor authentication* (tool - oct 2)
+https://github.com/blog/2071-github-supports-universal-2nd-factor-authentication
+Github expands its authentication system to support FIDO Universal 2nd Factor (U2F).
+
+*Git Large File Storage v1.0* (tool - oct 2)
+https://github.com/blog/2069-git-large-file-storage-v1-0
+Git LFS is now available to all repositories on GitHub.com.
+
+*Full Stack Overflow Developer* (web - oct 3)
+http://www.arubystory.com/2015/10/full-stack-overflow-developer.html
+It's better to start reading the related documentation instead of trying to find a prepared solution.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+Links curated by by mose (publisher), xenor, tysliu (editors), hsatac, ilake, mickey, michealweigle (contributors).
+*|END:IF|*
+*|IFNOT:CONTENT=Only Links|*
+
+Rant
+----------------------------------------------------
+The random rant of the week by xenor.
+
+#### Rails Bricks
+
+The author of [Rails Bricks][railsbricks], Nico Schuele, suddenly removed all
+his works and disappeared from the ruby/rails community.
+
+I got really sad when reading the [quora postuora_link]. Especially when Nico
+said he replied many emails about using the site, but only got a few that
+actually reply or just a simple 'thanks'.
+
+When an open source project gets bigger, and there is only one man on it, it
+feels lonely and stressful. I don't really think money is the reason that made
+Nico give up, it's the lack of emotional support that started off his fire.
+
+So, if you are using an open source project, please give your best thanks to
+the authors. Sometimes just a star or :+1: is really enough and can probably
+save another Rails Bricks.
+
+[quora_link]:
+https://www.quora.com/Why-did-Nico-Schuele-totally-abandon-and-remove-all-his-work-related-to-the-web-in-general-and-Rails-Bricks-in-particular
+[railsbricks]: http://railsbricks.net/
+
+*|END:IF|*
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+

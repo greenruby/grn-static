@@ -19,7 +19,7 @@ Green Ruby News #<%= c.edition %> - <%= c.pubdate %>
 <% if @c.rant != '' %>
 Rant
 ----------------------------------------------------
-The random rant of the week by mose.
+The random rant of the week by <%= @c.rant.author rescue 'mose' %>.
 
 <%= @c.rant_txt %>
 <% end %>
