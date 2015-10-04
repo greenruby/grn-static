@@ -143,9 +143,10 @@ Is this email not displaying correctly?
 <div id="rant">
 <h2>Rant</h2>
 <div class="baseline"><i>The random rant of the week by <%= @c.rant.author rescue 'mose' %>.</i></div>
-<div class="baseline"><i>If you don't need the rant section in your mailbox, you can <a href="*|UPDATE_PROFILE|*">adjust your preferences</a>.</i></div>
 <%= @c.rant_html %>
 </div>
+<hr>
+<div class="baseline"><i>If you don't need the rant section in your mailbox, you can <a href="*|UPDATE_PROFILE|*">adjust your preferences</a>.</i></div>
 *|END:IF|*
 <% end %>
 
