@@ -2,11 +2,40 @@
 edition: "140"
 pubdate: "oct 11th 2015"
 editors: "xenor, tysliu"
-participants: "hsatac, ilake"
+participants: "michealweigle"
 rant:
   author: mose
   content:
-    "####
+    "#### Slack overflow
+
+
+Okay I reckon I'm very old school. I began on the net with irc and I still stick to it. I have been confused by the trend that make people use Twitter like if it was some kind of real-time interactive medium. I have watched skype becoming unavoidable, and despicable. I hope [Telegram][telegram] will kill it, honestly.  
+
+
+I have been using hipchat and slack for work. Hipchat was really cool, but slack came later on and seemed more modern and featurefull. But it didn't have a linux client for a while. So I didn't really played much with it. But now there is a linux client, and it seems that there is an ecosystem nuilding up around slack. As they don't charge for normal usage until you need many integrations with various services, it's pretty easy for anyone to create some new slack team.
+
+
+Slack was first designed for teams, and those teams are gathered by invite only. But there are many ways to smooth it up to create some open discussion area that could be compared to irc. But in a way that it includes features that on irc I had to settle myself. For example for sharing code on irc you typically use some pastebin, jsfiddle, or other service of the same kind. In slack code can be pasted in directly or uploaded as a file. For keeping some kind of permanence I always use weechat in a screen on a remote server. That way I never disconnect form irc and I can backlog when I get back. But this is not for everybody and slack has the same kind of feature. But the most noticeable feature in slack is the mobile integration. It beats irc without a doubt. 
+
+
+Given those benefits, various communities begin to switch from irc to slack. There are even people building up a business creating communities on slack. Check [slacklist][slacklist] or the [chat directory][cdir]. Some of those slack teams are open, some others are accessible after a review process, some others you have to pay a fee to access them. 
+
+
+I would not say that slack replaces irc, to be honest, even if it fulfills some similar goal. It's a totally different beast. Plus, that's a third party that keeps all your logs. If security of your content is an issue, you should rather have an internal irc server or try an open source self-hosted slack alternative. 
+
+
+Currently I got 6 groups on my slack client, including the [Greenruby slack group][greenslack]. You can ask for an invite at [slack@greenruby.org][grnmail] it's totally open.
+
+
+[telegram]: https://telegram.org/
+
+[slacklist]: http://www.slacklist.info/
+
+[cdir]: http://chats.directory/
+
+[greenslack]: https://greenruby.slack.com/
+
+[grnmail]: mailto:news@greenruby.org
 "
 
 topics:
@@ -16,9 +45,9 @@ topics:
     "Examples of UI/UX, graphic performance, web design and flashy things."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "CSS animals"
+    url: "http://www.cssanimals.com/"
+    comment: "Pure CSS animals"
     tags:
       - design
 
@@ -28,11 +57,29 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: "MOTION UI"
+  - title: "Ruby on Rails Link"
+    url: "http://www.rubyonrails.link/"
+    comment: "A slack community for rails developers."
+    tags:
+      - rb
+
+  - title: "Codecrap"
+    url: "http://codecrap.com"
+    comment: "Where developers go to laugh and cry"
+    tags:
+      - tool
+
+  - title: "Motion UI"
     url: "http://zurb.com/playground/motion-ui"
     comment: "A Sass library for creating flexible CSS transitions and animations."
     tags:
       - css3
+
+  - title: "Accelerated Mobile Pages Project"
+    url: "https://www.ampproject.org/"
+    comment: "Open source initiative that makes it easy for publishers to create mobile-friendly content."
+    tags:
+      - mobile
 
 - title: Install
   baseline: "A selection of gems or applications updated during past week."
@@ -46,7 +93,7 @@ topics:
 
   - title: "delayed_action"
     url: "https://github.com/mvcodeclub/delayed_action"
-    comment: "Delay rails controller actions"
+    comment: "Delay rails controller actions with asynchronous queuing."
     tags:
       - rb
 
@@ -58,19 +105,25 @@ topics:
 
   - title: "Backtalk"
     url: "https://github.com/cnorthwood/backtalk"
-    comment: "Turns a directory of .scss files into a Gem which can be deployed into the RubyGems ecosystem"
+    comment: "Turns a directory of Sass files into a Gem."
+    tags:
+      - rb
+
+  - title: "ttnt"
+    url: "https://github.com/Genki-S/ttnt"
+    comment: "Test This, Not That. "
     tags:
       - rb
 
   - title: "jsonapi-resources"
     url: "https://github.com/cerebris/jsonapi-resources"
-    comment: " a framework for developing a server that complies with the JSON API specification."
+    comment: "A framework for developing a server that complies with the JSON API specification."
     tags:
       - rb
 
   - title: "Beep.js"
     url: "http://beepjs.com/"
-    comment: "Beep.js is a JavaScript toolkit for building browser-based synthesizers using the WebAudio API."
+    comment: "JavaScript toolkit for building browser-based synthesizers using the WebAudio API."
     tags:
       - js
 
@@ -87,28 +140,42 @@ topics:
 
   - title: "Speed up with Materialized Views on PostgreSQL and Rails"
     url: "http://www.sitepoint.com/speed-up-with-materialized-views-on-postgresql-and-rails/"
-    comment: "A materialized view is a database object that contains the results of a query."
+    comment: "A database object that contains the results of a query."
+    pubdate: "oct 5"
+    tags:
+      - rb
+
+  - title: "Why I don’t commit generated files to master"
+    url: "https://medium.com/@kentcdodds/why-i-don-t-commit-generated-files-to-master-a4d76382564"
+    comment: "Experience committing generated (built) files to master for libraries."
     pubdate: "oct 5"
     tags:
       - rb
 
   - title: "Cross-Site Request Forgery and Rails"
     url: "https://rorsecurity.info/portfolio/cross-site-request-forgery-and-rails"
-    comment: "How CSRF token works"
+    comment: "How CSRF token works."
+    pubdate: "oct 6"
+    tags:
+      - rb
+
+  - title: "7 Ways to Hack Ruby on Rails and Prevention Tips"
+    url: "https://www.scriptrock.com/articles/top-7-ways-to-hack-rails-how-to-fix"
+    comment: "Learn how to fix these 7 Rails vulnerabilities that commonly lead to web application compromises."
     pubdate: "oct 6"
     tags:
       - rb
 
   - title: "Understanding and Using rem Units in CSS"
     url: "http://www.sitepoint.com/understanding-and-using-rem-units-in-css/"
-    comment: "The main problem with em units is that they are relative to the font size of their own element."
+    comment: "Em units are relative to the font size of their own element."
     pubdate: "oct 6"
     tags:
       - css3
 
   - title: "Browser Trends October 2015: Sustained Safari Slips"
     url: "http://www.sitepoint.com/browser-trends-october-2015-sustained-safari-slips/"
-    comment: "Worldwide Desktop & Tablet Browser Statistics, August to September 2015"
+    comment: "Worldwide Desktop & Tablet Browser Statistics, August to September 2015."
     pubdate: "oct 6"
     tags:
       - web
@@ -120,12 +187,33 @@ topics:
     tags:
       - rb
 
+  - title: "Rebuilding Our Infrastructure with Docker, ECS, and Terraform"
+    url: "https://segment.com/blog/rebuilding-our-infrastructure/"
+    comment: "Detailled experience about moving the Segment infrastructure forward."
+    pubdate: "oct 7"
+    tags:
+      - ops
+
   - title: "Effectively Handle iOS Payments in Rails"
     url: "http://www.sitepoint.com/effectively-handle-ios-payments-in-rails/"
     comment: "Stripe has solved the payments problem very well for web-based applications, but on mobile, it’s a different story."
     pubdate: "oct 8"
     tags:
       - rb
+
+  - title: "Dear package, give git tags to your versions"
+    url: "http://blog.gemnasium.com/post/130767660320/dear-package-give-git-tags-to-your-versions"
+    comment: "Use git tag"
+    pubdate: "oct 8"
+    tags:
+      - tool
+
+  - title: "AMP and Incentives"
+    url: "http://timkadlec.com/2015/10/amp-and-incentives/"
+    comment: "That AMP is a standard for building web pages targeted at mobiles."
+    pubdate: "oct 8"
+    tags:
+      - mobile
 
   - title: "Creating a CSS Sliding Background Effect"
     url: "https://css-tricks.com/creating-a-css-sliding-background-effect/"
@@ -134,14 +222,36 @@ topics:
     tags:
       - css3
 
+  - title: "Prevent Accidental Coupling in Rails - Andy Waite"
+    url: "http://www.andywaite.com/2015/10/11/accidental-rails-coupling/"
+    comment: "How code can be accidentally coupled to the Rails framework."
+    pubdate: "oct 11"
+    tags:
+      - rb
+
+  - title: "Local DNS server and testing email delivery"
+    url: "http://dalibornasevic.com/posts/55-local-dns-server-and-testing-email-delivery"
+    comment: "How to run local DNS server with RubyDNS and test email delivery."
+    pubdate: "oct 11"
+    tags:
+      - rb
+
 - title: Watch
   baseline: "Screencasts and conferences videos, or other video feeds ..."
   links:
 
-  - title: "Watch: Custom Lists with CSS Counters"
+  - title: "Custom Lists with CSS Counters"
     url: "http://www.sitepoint.com/watch-custom-lists-with-css-counters/"
-    comment: "How to use CSS counters for greater flexibility in building custom lists or any other kind of sequence in which you want automatic numbering."
+    comment: "How to use CSS counters for greater flexibility in building custom lists."
     pubdate: sep 8
     duration: 9m
     tags:
       - css3
+
+  - title: "Ruby 2.2.3 Bignum Basics"
+    url: "http://bparanj.blogspot.tw/2015/10/ruby-223-bignum-basics.html
+    comment: "Remainder, fdiv, conversion to differnt base using to_s and bit_length."
+    pubdate: sep 9
+    duration: 6m
+    tags:
+      - rb
