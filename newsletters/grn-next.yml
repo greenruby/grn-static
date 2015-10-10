@@ -40,21 +40,52 @@ topics:
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "ask_awesomely"
+    url: "https://github.com/leemachin/ask_awesomely"
+    comment: "Typeform API integration using ruby."
     tags:
       - rb
 
+  - title: "delayed_action"
+    url: "https://github.com/mvcodeclub/delayed_action"
+    comment: "Delay rails controller actions"
+    tags:
+      - rb
+
+  - title: "statusify"
+    url: "https://github.com/ur0/statusify"
+    comment: "A status app in rails.
+    tags:
+      - rb
+
+  - title: "jsonapi-resources"
+    url: "https://github.com/cerebris/jsonapi-resources"
+    comment: " a framework for developing a server that complies with the JSON API specification."
+    tags:
+      - rb
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
-    pubdate: sep 3
+  - title: "Let's Build a Sinatra"
+    url: "https://robots.thoughtbot.com/lets-build-a-sinatra"
+    comment: "Build a sinatra based on rack."
+    pubdate: "oct 5"
+    tags:
+      - rb
+
+  - title: "Cross-Site Request Forgery and Rails"
+    url: "https://rorsecurity.info/portfolio/cross-site-request-forgery-and-rails"
+    comment: "How CSRF token works"
+    pubdate: "oct 6"
+    tags:
+      - rb
+
+  - title: "Bottomless Ruby Hash"
+    url: "http://firedev.com/posts/2015/bottomless-ruby-hash"
+    comment: "Make a hash without all the trobule assign defaults by proc."
+    pubdate: "oct 7"
     tags:
       - rb
 
