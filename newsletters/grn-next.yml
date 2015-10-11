@@ -6,7 +6,7 @@ participants: "hsatac, ilake"
 rant:
   author: mose
   content:
-    "#### 
+    "####
 "
 
 topics:
@@ -28,13 +28,11 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "MOTION UI"
+    url: "http://zurb.com/playground/motion-ui"
+    comment: "A Sass library for creating flexible CSS transitions and animations."
     tags:
       - css3
-
-
 
 - title: Install
   baseline: "A selection of gems or applications updated during past week."
@@ -54,7 +52,13 @@ topics:
 
   - title: "statusify"
     url: "https://github.com/ur0/statusify"
-    comment: "A status app in rails.
+    comment: "A status app in rails."
+    tags:
+      - rb
+
+  - title: "Backtalk"
+    url: "https://github.com/cnorthwood/backtalk"
+    comment: "Turns a directory of .scss files into a Gem which can be deployed into the RubyGems ecosystem"
     tags:
       - rb
 
@@ -63,6 +67,12 @@ topics:
     comment: " a framework for developing a server that complies with the JSON API specification."
     tags:
       - rb
+
+  - title: "Beep.js"
+    url: "http://beepjs.com/"
+    comment: "Beep.js is a JavaScript toolkit for building browser-based synthesizers using the WebAudio API."
+    tags:
+      - js
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
@@ -75,12 +85,33 @@ topics:
     tags:
       - rb
 
+  - title: "Speed up with Materialized Views on PostgreSQL and Rails"
+    url: "http://www.sitepoint.com/speed-up-with-materialized-views-on-postgresql-and-rails/"
+    comment: "A materialized view is a database object that contains the results of a query."
+    pubdate: "oct 5"
+    tags:
+      - rb
+
   - title: "Cross-Site Request Forgery and Rails"
     url: "https://rorsecurity.info/portfolio/cross-site-request-forgery-and-rails"
     comment: "How CSRF token works"
     pubdate: "oct 6"
     tags:
       - rb
+
+  - title: "Understanding and Using rem Units in CSS"
+    url: "http://www.sitepoint.com/understanding-and-using-rem-units-in-css/"
+    comment: "The main problem with em units is that they are relative to the font size of their own element."
+    pubdate: "oct 6"
+    tags:
+      - css3
+
+  - title: "Browser Trends October 2015: Sustained Safari Slips"
+    url: "http://www.sitepoint.com/browser-trends-october-2015-sustained-safari-slips/"
+    comment: "Worldwide Desktop & Tablet Browser Statistics, August to September 2015"
+    pubdate: "oct 6"
+    tags:
+      - web
 
   - title: "Bottomless Ruby Hash"
     url: "http://firedev.com/posts/2015/bottomless-ruby-hash"
@@ -89,16 +120,28 @@ topics:
     tags:
       - rb
 
+  - title: "Effectively Handle iOS Payments in Rails"
+    url: "http://www.sitepoint.com/effectively-handle-ios-payments-in-rails/"
+    comment: "Stripe has solved the payments problem very well for web-based applications, but on mobile, it’s a different story."
+    pubdate: "oct 8"
+    tags:
+      - rb
 
+  - title: "Creating a CSS Sliding Background Effect"
+    url: "https://css-tricks.com/creating-a-css-sliding-background-effect/"
+    comment: "This technique is different from a CSS slideshow or carousel, where the the content is separated into slides."
+    pubdate: "oct 9"
+    tags:
+      - css3
 
 - title: Watch
   baseline: "Screencasts and conferences videos, or other video feeds ..."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
-    pubdate: sep 3
-    duration: 
+  - title: "Watch: Custom Lists with CSS Counters"
+    url: "http://www.sitepoint.com/watch-custom-lists-with-css-counters/"
+    comment: "How to use CSS counters for greater flexibility in building custom lists or any other kind of sequence in which you want automatic numbering."
+    pubdate: sep 8
+    duration: 9m
     tags:
-      - rb
+      - css3
