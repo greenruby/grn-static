@@ -1,8 +1,8 @@
 ---
 edition: "141"
 pubdate: "oct 18th 2015"
-editors: "xenor, tysliu"
-participants: "hsatac, ilake"
+editors: "tysliu"
+participants: "Nauman Tariq, Hsatac, ilake"
 rant:
   author: mose
   content:
@@ -38,12 +38,11 @@ topics:
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "Sift"
+    url: "https://sift-tool.org/"
+    comment: "A fast and powerful open source alternative to grep."
     tags:
-      - rb
-
+      - tool
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
@@ -104,6 +103,21 @@ topics:
     pubdate: oct 16
     tags:
       - js
+
+  - title: "Data Infrastructure at IFTTT"
+    url: "http://engineering.ifttt.com/data/2015/10/14/data-infrastructure/"
+    comment: "How IFTTT built their infrastructure."
+    pubdate: "oct 14"
+    tags:
+      - ops
+
+  - title: "Rails mountable engines"
+    url: "https://www.amberbit.com/blog/2015/10/15/rails-mountable-engines/"
+    comment: "Quick tutorial on how to make a rails engine."
+    pubdate: "oct 15"
+    tags:
+      - rb
+
 
 - title: Watch
   baseline: "Screencasts and conferences videos, or other video feeds ..."
