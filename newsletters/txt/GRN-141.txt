@@ -1,0 +1,199 @@
+----------------------------------------------------
+Green Ruby News #141 - oct 18th 2015
+----------------------------------------------------
+*|IFNOT:CONTENT=Only Rant|*
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+*Trymore* (design)
+http://www.trymore-inc.jp/
+A japanese agency website with an original layout.
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+*FilePreviews* (tool)
+http://filepreviews.io
+An API to generate image previews and metadata for almost any kind of file
+
+*Dasherize* (tool)
+http://www.dasherize.com/
+A simple and beautiful material-based dashboard for projects.
+
+*Simbla* (css3)
+http://www.simbla.com/
+Drag and drop with Bootstrap 3.
+
+*MadEye* (tool)
+https://madeye.io/
+Collaborative web editor backed by your filesystem.
+
+*asciinema* (tool)
+https://asciinema.org/
+Record and share your terminal sessions, the right way.
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+*Subengine* (rb)
+http://coastdigitalgroup.com/cdg-application-development/subengine-rails-multi-tenancy-accounts-engine/
+Handles all multi-tenancy app functions using Warden or devise authentication gem.
+
+*Ruby-SSLscanner* (rb)
+https://github.com/bararchy/ruby-SSLscanner
+A simple SSL Cipher scanner.
+
+*Gitrob* (rb)
+https://github.com/michenriksen/gitrob
+Reconnaissance tool for GitHub organizations.
+
+*Wopr* (js)
+https://github.com/yaronn/wopr
+A simple markup language for creating rich terminal reports, presentations and infographics.
+
+*Lovefield* (js)
+https://google.github.io/lovefield/
+Relational database for web apps
+
+*Sift* (tool)
+https://sift-tool.org/
+A fast and powerful open source alternative to grep.
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+*Writing Ruby extensions in Go* (rb - oct 12)
+http://dev.mikamai.com/post/130986121064/writing-ruby-extensions-in-go-an-in-depth-review
+With Golang 1.5, it gets so easy to create ruby extensions in go.
+
+*Debugging a Memory Leak on Heroku* (rb - oct 12)
+http://blog.codeship.com/debugging-a-memory-leak-on-heroku/
+A very useful article for Heroku users.
+
+*Functional enumerators in Ruby* (rb - oct 12)
+http://www.grok-interactive.com/blog/functional-enumerators-in-ruby/
+How Ruby uses functional programming for some of the iterators in Enumerable.
+
+*Build a realtime web app with React.rb and Opal* (rb - oct 13)
+http://rethinkdb.com/blog/ruby-opal/
+Opal is that transpiler which converts Ruby code into browser-friendly JavaScript.
+
+*Run your tests faster with parallel cucumber* (rb - oct 12)
+http://tech.just-eat.com/2015/10/12/run-your-tests-faster-with-parallel-cucumber/
+In order for these tests to remain useful, it's important to keep them fast
+
+*Straightforward Rails Authorization with Pundit* (rb - oct 12)
+http://www.sitepoint.com/straightforward-rails-authorization-with-pundit/
+Pundit is a gem for authorization management that uses plain Ruby classes to make auth easy.
+
+*Your Preproduction Checklist for Your Rails App* (rb - oct 13)
+http://blog.codeship.com/preproduction-checklist-for-a-rails-app
+The security points to check before going live.
+
+*How to Install Bootstrap 4 in Rails* (rb - oct 13)
+http://mixandgo.com/blog/how-to-install-bootstrap-4-in-rails
+install the newest version of Bootstrap (4.0.0-alpha) from source into Rails.
+
+*Ruby's ARGF* (rb - oct 13)
+https://robots.thoughtbot.com/rubys-argf
+Great example of Ruby’s way of promoting Unix tradition.
+
+*Introducing GSS: Grid Style Sheets* (css3 - oct 13)
+http://www.sitepoint.com/introducing-gss-grid-style-sheets/
+A new way to lay out and style web pages.
+
+*More concurrency: Improved locking in PostgreSQL* (tool - oct 13)
+http://highscalability.com/blog/2015/10/13/more-concurrency-improved-locking-in-postgresql.html
+A couple of new cool features to reduce locking and to speed up things due to improved concurrency.
+
+*Should you use Celluloid?* (rb - oct 14)
+http://www.mikeperham.com/2015/10/14/should-you-use-celluloid
+Multithreading is extremely hard to get right and the APIs that Ruby exposes for threading are rudimentary at best.
+
+*Bootstrap 4 Alpha new features, changes and capabilites* (css3 - oct 14)
+http://suitedupcode.com/2015/10/bootstrap-4-alpha-new-features-changes-and-capabilites/
+Bootstrap 4 Alpha has new features.
+
+*Data Infrastructure at IFTTT* (ops - oct 14)
+http://engineering.ifttt.com/data/2015/10/14/data-infrastructure/
+How IFTTT built their infrastructure.
+
+*Understanding PhantomJS* (js - oct 15)
+http://www.sitepoint.com/understanding-phantomjs/
+The headless browser that can automate different processes with JavaScript.
+
+*Rails mountable engines* (rb - oct 15)
+https://www.amberbit.com/blog/2015/10/15/rails-mountable-engines/
+Quick tutorial on how to make a rails engine.
+
+*Results of Ruby HTTP Client Library Survey* (rb - oct 16)
+http://devblog.avdi.org/2015/10/16/results-of-ruby-http-client-library-survey/
+At 26.2% of responses, HTTParty is the most popular library, slightly edging out Faraday.
+
+*A Beginner’s Guide to Currying in Functional JavaScript* (js - oct 16)
+http://www.sitepoint.com/currying-in-functional-javascript/
+Currying is a way of constructing functions that allows partial application of a function’s arguments.
+
+Watch
+----------------------------------------------------
+Screencasts and conferences videos, or other video feeds ...
+
+*Loading Images the Lazy Loading Way* (js - oct 15 - 12m)
+http://www.sitepoint.com/watch-loading-images-the-lazy-loading-way/
+How to best lazyload an image to speed up the performance of your site.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+Links curated by by mose (publisher), tysliu (editors), Nauman Tariq, hsatac, ilake (contributors).
+*|END:IF|*
+*|IFNOT:CONTENT=Only Links|*
+
+Rant
+----------------------------------------------------
+The random rant of the week by mose.
+
+#### Xenor release
+
+This weekend Xenor, our dear Green Ruby editor, could not provide his links
+like he does every week. He was busy on another release. Please join me to
+congrat Xenor for his second kid that is in progress of being released at this
+very moment.
+
+It may be a generational thing, I notice that a lot of geeks around me are
+reproducing this year. Maybe it's just a coincidence. But as a result the
+mindset of those new parents may evolve a bit. The priorities get to change a
+bit too. As far as I know, coder have been tricked for a while into working
+over hours just because they like what they do. Well, growing a family
+certainly changes the deal.
+
+But those geeks I know that became new parents are in their thirties. Maybe
+that's how things are done nowadays, people get kids later in life than in
+previous generation? Or is it a factor localized to the technical population?
+Because the expectations of the work environment for a full no-life
+dedication, techies may delay their family building projects? I have to say
+I'm wondering.
+
+*|END:IF|*
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+
