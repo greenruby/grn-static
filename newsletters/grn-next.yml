@@ -6,7 +6,7 @@ participants: "hsatac, ilake"
 rant:
   author: mose
   content:
-    "#### 
+    "####
 "
 
 topics:
@@ -28,13 +28,11 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "Simbla"
+    url: "http://www.simbla.com/"
+    comment: "Drag and drop with Bootstrap 3"
     tags:
       - css3
-
-
 
 - title: Install
   baseline: "A selection of gems or applications updated during past week."
@@ -51,23 +49,70 @@ topics:
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
-    pubdate: sep 3
+  - title: "Writing Ruby extensions in Go - an in depth review"
+    url: "http://dev.mikamai.com/post/130986121064/writing-ruby-extensions-in-go-an-in-depth-review"
+    comment: "For a very long time the only way to extend Ruby with native estensions has been using C."
+    pubdate: oct 12
     tags:
       - rb
 
+  - title: "Debugging a Memory Leak on Heroku"
+    url: "http://blog.codeship.com/debugging-a-memory-leak-on-heroku/"
+    comment: "This is one of the most frequent questions I’m asked by Heroku Ruby customers: “How do I debug a memory leak?”"
+    pubdate: oct 12
+    tags:
+      - rb
 
+  - title: "Full-stack Ruby: build a realtime web app with React.rb and Opal"
+    url: "http://rethinkdb.com/blog/ruby-opal/"
+    comment: "Opal is a transpiler that converts Ruby code into browser-friendly JavaScript, opening the door for developers to build frontend web applications with Ruby."
+    pubdate: oct 13
+    tags:
+      - rb
+
+  - title: "Your Preproduction Checklist for Your Rails App"
+    url: "http://blog.codeship.com/preproduction-checklist-for-a-rails-app"
+    comment: "Aren’t Brakeman and ongoing pull request reviews enough?"
+    pubdate: oct 13
+    tags:
+      - rb
+
+  - title: "Should you use Celluloid?"
+    url: "http://www.mikeperham.com/2015/10/14/should-you-use-celluloid"
+    comment: "Multithreading is extremely hard to get right and the APIs that Ruby exposes for threading are rudimentary at best."
+    pubdate: oct 14
+    tags:
+      - rb
+
+  - title: "Understanding PhantomJS"
+    url: "http://www.sitepoint.com/understanding-phantomjs/"
+    comment: "PhantomJS a headless browser that can automate different processes with JavaScript."
+    pubdate: oct 15
+    tags:
+      - js
+
+  - title: "Results of Ruby HTTP Client Library Survey"
+    url: "http://devblog.avdi.org/2015/10/16/results-of-ruby-http-client-library-survey/"
+    comment: "At 26.2% of responses, HTTParty is the most popular library, slightly edging out Faraday."
+    pubdate: oct 16
+    tags:
+      - rb
+
+  - title: "A Beginner’s Guide to Currying in Functional JavaScript"
+    url: "http://www.sitepoint.com/currying-in-functional-javascript/"
+    comment: "Currying is a way of constructing functions that allows partial application of a function’s arguments."
+    pubdate: oct 16
+    tags:
+      - js
 
 - title: Watch
   baseline: "Screencasts and conferences videos, or other video feeds ..."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
-    pubdate: sep 3
-    duration: 
+  - title: "Watch: Loading Images the Lazy Loading Way"
+    url: "http://www.sitepoint.com/watch-loading-images-the-lazy-loading-way/"
+    comment: "How to best lazyload an image to speed up the performance of your site."
+    pubdate: oct 15
+    duration: 12m
     tags:
-      - rb
+      - js
