@@ -1,0 +1,176 @@
+----------------------------------------------------
+Green Ruby News #142 - oct 25th 2015
+----------------------------------------------------
+*|IFNOT:CONTENT=Only Rant|*
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+*Leaky-gems* (rb)
+https://github.com/ASoftCo/leaky-gems
+A list of Ruby gems that have memory leaks.
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+*Rails_db* (rb)
+https://github.com/igorkasyanchuk/rails_db
+Rails database viewer and SQL query runner.
+
+*Inesita* (rb)
+https://github.com/inesita-rb/inesita
+A small frontend web application framework using opal.
+
+*clearwater-rb/clearwater* (rb)
+https://github.com/clearwater-rb/clearwater
+Another front-end web framework in Ruby using Opal.
+
+*Dynflow* (rb)
+https://github.com/Dynflow/dynflow
+DYNamic workFLOW orchestration engine.
+
+*Quickstrings* (rb)
+https://github.com/C4mz0r/quickstrings
+Helps generate sample data quickly.
+
+*Trix* (js)
+https://github.com/basecamp/trix
+A rich text editor by basecamp.
+
+*Gping* (tool)
+https://github.com/orf/gping
+Ping, but with a graph.
+
+*React-desktop* (js)
+https://github.com/gabrielbull/react-desktop
+React UI Components for OS X El Capitan and Windows 10
+
+*Chart.css* (css3)
+http://theus.github.io/chart.css/
+A Simple CSS Chart System all css based.
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+*The Many Uses Of Ruby Case Statements* (rb - oct 19)
+http://www.blackbytes.info/2015/10/ruby-case/
+Some tricks you can use on Ruby's case statement.
+
+*The not so low cost of calling dynamically defined methods* (rb - oct 20)
+https://pragtob.wordpress.com/2015/10/20/the-not-so-low-cost-of-calling-dynamically-defined-methods/
+Always benchmark your dynamically defined methods.
+
+*Benchmarking Ruby Refinements* (rb - oct 20)
+http://blog.honeybadger.io/benchmarking-ruby-refinements/
+Refinements aren't slow.
+
+*How to Find Ruby Code Smells with Reek* (rb - oct 21)
+http://blog.codeship.com/how-to-find-ruby-code-smells-with-reek/
+Reek is a code smell detector for Ruby.
+
+*Pseudo-comments in CSS* (css3 - oct 21)
+http://www.sitepoint.com/pseudo-comments-in-css-or-how-browsers-parse-styles/
+The CSS spec does not mention it, but you can mimic C-style and/or Unix-style line comments in CSS files (with some caveats).
+
+*Docker Acquires Tutum* (ops - oct 21)
+http://blog.docker.com/2015/10/docker-acquires-tutum/
+They bought fig, now tutum, Docker really feeds in its ecosystem.
+
+*Stop forcing your arbitrary password rules on me* (web - oct 22)
+http://ryanwinchester.ca/post/stop-forcing-your-arbitrary-password-rules-on-me
+Little rant about password percieved security.
+
+*Introduce Safe navigation operator* (rb - oct 23)
+https://bugs.ruby-lang.org/issues/11537
+A simpler safe navigation '.?' operator will be added into Ruby.
+
+*HTTP/2: the Pros, the Cons, and What You Need to Know* (web - oct 23)
+http://www.sitepoint.com/http2-the-pros-the-cons-and-what-you-need-to-know/
+HTTP/1.1 protocol has increasingly come under strain, with a lot of workarounds needed for dealing with performance issues.
+
+*Make a Voice-Controlled Audio Player with the Web Speech API* (js - oct 23)
+http://www.sitepoint.com/voice-controlled-audio-player-web-speech-api/
+The Web Speech API is a JavaScript API that enables web developers to incorporate speech recognition and synthesis into their web pages.
+
+*Self hosted NewRelic alternative with Ruby, Sinatra, Grafana and InfluxDB* (rb - oct 24)
+http://mic-kul.com/2015/10/24/garage-made-self-hosted-newrelic-collector-using-ruby-sinatra-grafana-and-influxdb/
+Simple self hosted stats monitoring app in 200 lines of code.
+
+*Run it in a background job from a service object* (rb - oct 24)
+http://blog.arkency.com/2015/10/run-it-in-background-job-after-commit/
+How to schedule a job after db commit.
+
+Watch
+----------------------------------------------------
+Screencasts and conferences videos, or other video feeds ...
+
+*Designing A Great Ruby API* (rb - oct 20)
+http://www.youtube.com/watch?v=rLinNRMwFYA
+Sean Griffin at RubyConf Portugal.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+Links curated by by mose (publisher), xenor, tysliu (editors), Nauman Tariq, ilake (contributors).
+*|END:IF|*
+*|IFNOT:CONTENT=Only Links|*
+
+Rant
+----------------------------------------------------
+The random rant of the week by mose.
+
+#### DST sucks
+
+This week-end they changed time in France. As I work with those guys to cover
+the watching of servers, then I need to change time too. This is totally lame.
+In the context of largely distributed teams, DST is heresy. It happens in the
+US too, but not even at the same time. Man I hate DST. I'm happy we don't have
+that in Taiwan.
+
+#### Thunderbird sucks too
+
+Despite the respect I have for mozilla products and for their efforts toward
+the community, I have to say that I have been using thunderbird for a while
+and I don't like it. There is some lack of customability in there, it eats a
+whole lot of memory and it's kinda slow sometimes. I have been considering
+getting back to mutt, which is a totally different category of mail client.
+
+But I found [claws][claws], and trying it for a few days on my various
+mailboxes with hundreds of thousands of mails, and it is a very good feeling.
+It's much more transparent and hackable and stays in the same category of the
+clickable mail client as thunderbird. I'm not sure I will stick to claws,
+maybe I will get back to mutt that I have been used so many years before. But
+I sure will give that 'email client that bites' a try for a while.
+
+#### Gmail sucks more
+
+I still can't figure out why people use gmail for reading their mail. I mean,
+you leave management of your mail to google, you know what they do with it.
+You also want to give them information about how you read your mail? I mean,
+using a webmail, first, should be a fallback. But it's mystery for nobody that
+google business is in profiling people. It blasts me how people can trust them
+blindly.
+
+[claws]: http://www.claws-mail.org/ 
+
+*|END:IF|*
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+
