@@ -40,9 +40,21 @@ topics:
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "trix"
+    url: "https://github.com/basecamp/trix"
+    comment: "A rich text editor by basecamp"
+    tags:
+      - js
+
+  - title: "rails_db"
+    url: "https://github.com/igorkasyanchuk/rails_db"
+    comment: "Rails database viewer and SQL query runner."
+    tags:
+      - rb
+
+  - title: "inesita"
+    url: "https://github.com/inesita-rb/inesita"
+    comment: "A small frontend web application framework using opal."
     tags:
       - rb
 
@@ -51,13 +63,40 @@ topics:
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
-    pubdate: sep 3
+  - title: "The not so low cost of calling dynamically defined methods"
+    url: "https://pragtob.wordpress.com/2015/10/20/the-not-so-low-cost-of-calling-dynamically-defined-methods/"
+    comment: "Always benchmark your dynamically defined methods."
+    pubdate: "oct 20"
     tags:
       - rb
 
+  - title: "Benchmarking Ruby Refinements"
+    url: "http://blog.honeybadger.io/benchmarking-ruby-refinements/"
+    comment: "Refinements aren't slow."
+    pubdate: "oct 20"
+    tags:
+      - rb
+
+  - title: "The Many Uses Of Ruby Case Statements"
+    url: "http://www.blackbytes.info/2015/10/ruby-case/"
+    comment: "Some tricks you can use on Ruby's case statement."
+    pubdate: "oct 20"
+    tags:
+      - rb
+
+  - title: "Introduce 'Safe navigation operator'"
+    url: "https://bugs.ruby-lang.org/issues/11537"
+    comment: "A simpler safe navigation '.?' operator will be adding into Ruby."
+    pubdate: "oct 23"
+    tags:
+      - rb
+
+   - title: "Self hosted NewRelic alternative with Ruby, Sinatra, Grafana and InfluxDB"
+    url: "http://mic-kul.com/2015/10/24/garage-made-self-hosted-newrelic-collector-using-ruby-sinatra-grafana-and-influxdb/"
+    comment: "Simple self hosted stats monitoring app in 200 lines of code."
+    pubdate: "oct 24"
+    tags:
+      - rb
 
 
 - title: Watch
