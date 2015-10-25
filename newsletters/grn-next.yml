@@ -6,7 +6,7 @@ participants: "hsatac, ilake"
 rant:
   author: mose
   content:
-    "#### 
+    "####
 "
 
 topics:
@@ -84,12 +84,33 @@ topics:
     tags:
       - rb
 
+  - title: "Pseudo-comments in CSS (Or, How Browsers Parse Styles)"
+    url: "http://www.sitepoint.com/pseudo-comments-in-css-or-how-browsers-parse-styles/"
+    comment: "The CSS spec does not mention it, but you can mimic C-style and/or Unix-style line comments in CSS files (with some caveats)."
+    pubdate: "oct 10"
+    tags:
+      - css3
+
   - title: "Introduce 'Safe navigation operator'"
     url: "https://bugs.ruby-lang.org/issues/11537"
     comment: "A simpler safe navigation '.?' operator will be adding into Ruby."
     pubdate: "oct 23"
     tags:
       - rb
+
+  - title: "HTTP/2: the Pros, the Cons, and What You Need to Know"
+    url: "http://www.sitepoint.com/http2-the-pros-the-cons-and-what-you-need-to-know/"
+    comment: "HTTP/1.1 protocol has increasingly come under strain, with a lot of workarounds needed for dealing with performance issues."
+    pubdate: "oct 23"
+    tags:
+      - web
+
+  - title: "Make a Voice-Controlled Audio Player with the Web Speech API"
+    url: "http://www.sitepoint.com/voice-controlled-audio-player-web-speech-api/"
+    comment: "The Web Speech API is a JavaScript API that enables web developers to incorporate speech recognition and synthesis into their web pages."
+    pubdate: "oct 23"
+    tags:
+      - js
 
    - title: "Self hosted NewRelic alternative with Ruby, Sinatra, Grafana and InfluxDB"
     url: "http://mic-kul.com/2015/10/24/garage-made-self-hosted-newrelic-collector-using-ruby-sinatra-grafana-and-influxdb/"
@@ -107,6 +128,6 @@ topics:
     url: ""
     comment: ""
     pubdate: sep 3
-    duration: 
+    duration:
     tags:
       - rb
