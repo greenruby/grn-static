@@ -1,0 +1,180 @@
+----------------------------------------------------
+Green Ruby News #143 - nov 1st 2015
+----------------------------------------------------
+*|IFNOT:CONTENT=Only Rant|*
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+*Your time 4* (design)
+http://yourtime4.com/
+Interesting reverse scrolldown.
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+*Attack rails* (rb)
+http://phrack.org/papers/attacking_ruby_on_rails.html
+A long review on how to attack rails apps.
+
+*Carina* (ops)
+https://getcarina.com/
+Instant-on Docker containers by Rackspace.
+
+*CSS Shapes* (css3)
+http://webplatform.adobe.com/shapes/
+It's a candidate recommandation and not implemented everywhere, but seems promising.
+
+*Awesome-tw-foss* (tool)
+https://github.com/tjwei/awesome-tw-foss
+A curated list of awesome Taiwan open source projects
+
+*Room* (tool)
+https://room.co/#/
+Another webrtc conferencing platform.
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+*Jekyll 3.0 Released* (rb - oct 26)
+http://jekyllrb.com/news/2015/10/26/jekyll-3-0-released/
+Jekyll 3.0 with less dependencies and better performance.
+
+*Shrine* (rb)
+https://github.com/janko-m/shrine
+File upload toolkit for Ruby.
+
+*i18n-tasks* (rb)
+http://glebm.github.io/i18n-tasks/
+Manage translation and localization with static analysis.
+
+*Polo* (rb)
+https://github.com/IFTTT/polo
+Creates sample data snapshots so you can work with real world data in development.
+
+*Aasm* (rb)
+https://github.com/aasm/aasm
+State machines for Ruby classes (plain Ruby, ActiveRecord, Mongoid, MongoMapper).
+
+*Rapporteur* (rb)
+https://github.com/codeschool/rapporteur
+A Rails Engine which provides a customizable status page on your application.
+
+*semantic-ui-sass* (css3 - )
+https://github.com/doabit/semantic-ui-sass
+Semantic UI, converted to Sass and ready to drop into Rails & Compass.
+
+*Greenplum* (ops)
+http://greenplum.org/
+Yet another RDBS for big data.
+
+*Ruby Raven* (mobile)
+https://itunes.apple.com/app/id991154527
+Information about Ruby Conferences on the App Store.
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+*Using conditionals inside Ruby regular expressions* (rb - oct 26)
+http://blog.honeybadger.io/using-conditionals-inside-ruby-regular-expressions/
+The Onigmo regex engine make possible to use conditionals inside of your regular expressions.
+
+*10 Ruby Tricks to Make Your Code Nearly Perfect* (rb - oct 26)
+http://www.queness.com/post/17464/10-ruby-tricks-to-make-your-code-nearly-perfect
+Some quick tricks, you may know them all already. Or not.
+
+*Lets Write Some Bad Ruby* (rb - oct 26)
+http://hashrocket.com/blog/posts/lets-write-some-bad-ruby
+Some disposable scripts can tolerate really ugly code.
+
+*Six cool features of the Git 2.x series* (tool - oct 26)
+https://developer.atlassian.com/blog/2015/10/cool-features-git-2.x/
+Git continues to evolves. Here are some of the new stuff.
+
+*Deploying Your Docker Rails App* (rb - oct 27)
+http://blog.codeship.com/deploying-docker-rails-app/
+How to deploy a Docker container quickly and simply to Heroku.
+
+*Cool Ruby Regex Tricks* (rb - oct 27)
+http://blog.honeybadger.io/ruby-regex-tricks/
+Neat tricks with regular expressions in ruby.
+
+*Develop a mobile game the easy way* (mobile - oct 27)
+http://techbeacon.com/develop-mobile-game-easy-way-use-framework
+Game frameworks are a great shortcut when it comes to creating mobile games.
+
+*Prevent information leaking in Rails* (rb - oct 28)
+http://greg.molnar.io/tech/2015/10/28/prevent-rails-information-leaking.html
+A simple measure to avoid the back-button cache disclosure.
+
+*Stripe vs Braintree: the Ultimate Guide* (web - oct 28)
+http://www.sitepoint.com/stripe-vs-braintree-the-ultimate-guide/
+Stripe and Braintree in depth comparison by someone that used both in production.
+
+*Please, don’t commit commented out code* (tool - oct 28)
+https://medium.com/@kentcdodds/please-don-t-commit-commented-out-code-53d0b5b26d5f#.6w9yswhrn
+Rant about commented code.
+
+*Solving Design Anti-Patterns in Ruby: Fix the Factory* (rb - oct 29)
+http://www.sitepoint.com/solving-design-anti-patterns-in-ruby-fix-the-factory/
+Ruby can take patterns from other languages to make code concise and expressive.
+
+*Solving Design Anti-Patterns in Ruby: Fix the Factory* (rb - oct 29)
+http://www.sitepoint.com/solving-design-anti-patterns-in-ruby-fix-the-factory/
+Alternatives using of one Ruby’s most used constructs: the Module.
+
+*ActiveSupport’s #try might not be doing what you think it’s doing* (rb - oct 30)
+http://devblog.avdi.org/2015/10/30/activesupports-try-might-not-be-doing-what-you-think-its-doing/
+#try is usually used to paper over nil values. Unfortunately, #try does more than this.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+Links curated by by mose (publisher), xenor, tysliu (editors), Nauman Tariq, hsatac, ilake (contributors).
+*|END:IF|*
+*|IFNOT:CONTENT=Only Links|*
+
+Rant
+----------------------------------------------------
+The random rant of the week by mose.
+
+#### The power of DSL
+
+While I was playing with [react.rb][reactrb] and exploring [opal][opal], I
+felt in a totally different world. The power of the DSL already prove its
+shine on various occasions. I got to experience it in activeadmin, rspec, and
+puppet (but I kind of dislike the one in puppet).
+
+As I'm also writing some python, I can see a real difference in expressibility
+that can be found in ruby. Really, ruby is a maker tool. Like a toolbox for
+making new programming languages, using meta-programming, lambda and other
+goodies. This is what, in my opinion, makes ruby unique. Beyond the elegance
+of its syntax, it empowers developers with the ability to write dedicated
+programming language for any specific use. And this, I didn't find in python.
+
+
+[reactrb]: https://github.com/zetachang/react.rb
+[opal]: http://opalrb.org/ 
+
+*|END:IF|*
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+

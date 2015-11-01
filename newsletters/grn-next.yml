@@ -1,12 +1,12 @@
 ---
-edition: "143"
-pubdate: "nov 1st 2015"
+edition: "144"
+pubdate: "nov 8th 2015"
 editors: "xenor, tysliu"
 participants: "hsatac, ilake"
 rant:
   author: mose
   content:
-    "####
+    "#### 
 "
 
 topics:
@@ -28,26 +28,21 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: "Carina"
-    url: "https://getcarina.com/"
-    comment: "Instant-on Docker containers by Rackspace."
+  - title: ""
+    url: ""
+    comment: ""
     tags:
-      - ops
+      - css3
+
 
 
 - title: Install
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: "shrine"
-    url: "https://github.com/janko-m/shrine"
-    comment: "File upload toolkit for Ruby"
-    tags:
-      - rb
-
-  - title: "i18n-tasks"
-    url: "http://glebm.github.io/i18n-tasks/"
-    comment: "Manage translation and localization with static analysis."
+  - title: ""
+    url: ""
+    comment: ""
     tags:
       - rb
 
@@ -56,54 +51,14 @@ topics:
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: "Jekyll 3.0 Released"
-    url: "http://jekyllrb.com/news/2015/10/26/jekyll-3-0-released/"
-    comment: "Jekyll 3.0 with less dependencies and better performance."
-    pubdate: oct 26
+  - title: ""
+    url: ""
+    comment: ""
+    pubdate: sep 3
     tags:
       - rb
 
-  - title: "Using conditionals inside Ruby regular expressions"
-    url: "http://blog.honeybadger.io/using-conditionals-inside-ruby-regular-expressions/"
-    comment: "The Onigmo regex engine has a few neat tricks up its sleeve including the ability to use conditionals inside of your regular expressions."
-    pubdate: oct 26
-    tags:
-      - rb
 
-  - title: "Deploying Your Docker Rails App"
-    url: "http://blog.codeship.com/deploying-docker-rails-app/"
-    comment: "In this article, we’ll talk about how to deploy our Docker container quickly and simply to Heroku."
-    pubdate: oct 27
-    tags:
-      - rb
-
-  - title: "Cool Ruby Regex Tricks"
-    url: "http://blog.honeybadger.io/ruby-regex-tricks/"
-    comment: "Neat tricks you can do with regular expressions in ruby."
-    pubdate: oct 27
-    tags:
-      - rb
-
-  - title: "Stripe vs Braintree: the Ultimate Guide"
-    url: "http://www.sitepoint.com/stripe-vs-braintree-the-ultimate-guide/"
-    comment: "This article compares Stripe and Braintree in depth, to help developers and businesses make an informed decision. I’ve used both providers in production."
-    pubdate: oct 28
-    tags:
-      - web
-
-  - title: "Solving Design Anti-Patterns in Ruby: Fix the Factory"
-    url: "http://www.sitepoint.com/solving-design-anti-patterns-in-ruby-fix-the-factory/"
-    comment: "Alternatives using of one Ruby’s most used constructs: the Module."
-    pubdate: oct 29
-    tags:
-      - rb
-
-  - title: "ActiveSupport’s #try might not be doing what you think it’s doing"
-    url: "http://devblog.avdi.org/2015/10/30/activesupports-try-might-not-be-doing-what-you-think-its-doing/"
-    comment: "#try is usually used to paper over nil values. Unfortunately, #try does more than this."
-    pubdate: oct 30
-    tags:
-      - rb
 
 - title: Watch
   baseline: "Screencasts and conferences videos, or other video feeds ..."
@@ -113,6 +68,6 @@ topics:
     url: ""
     comment: ""
     pubdate: sep 3
-    duration:
+    duration: 
     tags:
       - rb
