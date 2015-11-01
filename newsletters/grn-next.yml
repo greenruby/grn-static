@@ -6,7 +6,7 @@ participants: "hsatac, ilake"
 rant:
   author: mose
   content:
-    "#### 
+    "####
 "
 
 topics:
@@ -51,14 +51,47 @@ topics:
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
-    pubdate: sep 3
+  - title: "Using conditionals inside Ruby regular expressions"
+    url: "http://blog.honeybadger.io/using-conditionals-inside-ruby-regular-expressions/"
+    comment: "The Onigmo regex engine has a few neat tricks up its sleeve including the ability to use conditionals inside of your regular expressions."
+    pubdate: oct 26
     tags:
       - rb
 
+  - title: "Deploying Your Docker Rails App"
+    url: "http://blog.codeship.com/deploying-docker-rails-app/"
+    comment: "In this article, we’ll talk about how to deploy our Docker container quickly and simply to Heroku."
+    pubdate: oct 27
+    tags:
+      - rb
 
+  - title: "Cool Ruby Regex Tricks"
+    url: "http://blog.honeybadger.io/ruby-regex-tricks/"
+    comment: "Neat tricks you can do with regular expressions in ruby."
+    pubdate: oct 27
+    tags:
+      - rb
+
+  - title: "Stripe vs Braintree: the Ultimate Guide"
+    url: "http://www.sitepoint.com/stripe-vs-braintree-the-ultimate-guide/"
+    comment: "This article compares Stripe and Braintree in depth, to help developers and businesses make an informed decision. I’ve used both providers in production."
+    pubdate: oct 28
+    tags:
+      - web
+
+  - title: "Solving Design Anti-Patterns in Ruby: Fix the Factory"
+    url: "http://www.sitepoint.com/solving-design-anti-patterns-in-ruby-fix-the-factory/"
+    comment: "Alternatives using of one Ruby’s most used constructs: the Module."
+    pubdate: oct 29
+    tags:
+      - rb
+
+  - title: "ActiveSupport’s #try might not be doing what you think it’s doing"
+    url: "http://devblog.avdi.org/2015/10/30/activesupports-try-might-not-be-doing-what-you-think-its-doing/"
+    comment: "#try is usually used to paper over nil values. Unfortunately, #try does more than this."
+    pubdate: oct 30
+    tags:
+      - rb
 
 - title: Watch
   baseline: "Screencasts and conferences videos, or other video feeds ..."
@@ -68,6 +101,6 @@ topics:
     url: ""
     comment: ""
     pubdate: sep 3
-    duration: 
+    duration:
     tags:
       - rb
