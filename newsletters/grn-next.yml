@@ -28,33 +28,64 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "rscss"
+    url: "https://github.com/rstacruz/rscss"
+    comment: "Reasonable system for CSS stylesheet structure."
     tags:
       - css3
 
+  - title: "ruby-tricks"
+    url: "https://github.com/franzejr/ruby-tricks"
+    comment: "Ruby tricks"
+    tags:
+      - rb
+
+  - title: "Brave Clojure"
+    url: "http://www.braveclojure.com/"
+    comment: "Free online E-book for learning Clojure."
+    tags:
+      - tool
 
 
 - title: Install
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "administrate"
+    url: "https://github.com/thoughtbot/administrate"
+    comment: "An admin dashboard as Rails engine, build by thoughtbot."
     tags:
       - rb
+
+  - title: "ircanywhere"
+    url: "https://github.com/ircanywhere/ircanywhere"
+    comment: "Web based multi-user IRC bouncer."
+    tags:
+      - js
 
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
-    pubdate: sep 3
+  - title: "Elixir is not Ruby"
+    url: "http://zeroclarkthirty.com/2015-11-01-elixir-is-not-ruby.html"
+    comment: "Differences on all dimensions about Elixir and Ruby."
+    pubdate: nov 11
+    tags:
+      - rb
+
+  - title: "How Ruby Interprets and Runs Your Programs"
+    url: "http://blog.honeybadger.io/how-ruby-interprets-and-runs-your-programs/"
+    comment: "Using ripper and RubyVM::InstructionSequence to examine and understand how ruby works."
+    pubdate: nov 3
+    tags:
+      - rb
+
+  - title: "How constant lookup and resolution works in Ruby on Rails"
+    url: "http://blog.bigbinary.com/2015/11/05/how-constant-lookup-happens-in-rails.html"
+    comment: "How autoload_paths, require, load, and require_relative works in rails."
+    pubdate: nov 5
     tags:
       - rb
 
