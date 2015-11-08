@@ -1,0 +1,176 @@
+----------------------------------------------------
+Green Ruby News #144 - nov 8th 2015
+----------------------------------------------------
+*|IFNOT:CONTENT=Only Rant|*
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+*Wove* (design)
+http://www.wove.com/
+Pretty neat website for an interesting device.
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+*Rscss* (css3)
+https://github.com/rstacruz/rscss
+Reasonable system for CSS stylesheet structure.
+
+*Ruby-tricks* (rb)
+https://github.com/franzejr/ruby-tricks
+Ruby tricks.
+
+*Brave Clojure* (tool)
+http://www.braveclojure.com/
+(book) Free online E-book for learning Clojure.
+
+*AnyAPI* (tool)
+https://any-api.com/
+Documentation and test consoles for over 150 public APIs.
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+*Administrate* (rb)
+https://github.com/thoughtbot/administrate
+An admin dashboard as Rails engine, build by thoughtbot.
+
+*Rubycritic* (rb)
+https://github.com/whitesmith/rubycritic
+A Ruby code quality reporter.
+
+*Namecase* (rb)
+https://github.com/tenderlove/namecase
+Properly case people's names
+
+*Freakonomics* (rb)
+https://github.com/fteem/freakonomics
+Freakonomics Radio CLI downloader. Nothing exceptional, I just happen to love that podcast.
+
+*Ircanywhere* (js)
+https://github.com/ircanywhere/ircanywhere
+Web based multi-user IRC bouncer.
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+*Elixir is not Ruby* (rb - nov 1)
+http://zeroclarkthirty.com/2015-11-01-elixir-is-not-ruby.html
+Differences on all dimensions about Elixir and Ruby.
+
+*Blog migration: From Jekyll to Middleman* (rb - nov 1)
+http://www.stefanwienert.de/blog/2015/11/01/blog-migration-from-jekyll-to-middleman/
+Experience of a migration.
+
+*Understanding self in Ruby* (rb - nov 2)
+http://blog.honeybadger.io/ruby-self-cheat-sheet/
+Look at self in a variety of every-day situations.
+
+*React Native - How to make Instagram* (js - nov 2)
+http://browniefed.com/blog/2015/11/02/react-native-how-to-make-instagram/
+Full length tutorial on a react native app with gl-react.
+
+*How Ruby Interprets and Runs Your Programs* (rb - nov 3)
+http://blog.honeybadger.io/how-ruby-interprets-and-runs-your-programs/
+Using ripper and RubyVM::InstructionSequence to examine and understand how ruby works.
+
+*Hunting Down the Scoop on ActiveRecord Scopes* (rb - nov 3)
+http://vaidehijoshi.github.io/blog/2015/11/03/hunting-down-the-scoop-on-activerecord-scopes/
+What was going on under the hood when you use scopes.
+
+*Announcing Administrate* (rb - nov 3)
+https://robots.thoughtbot.com/announcing-administrate
+The successor of active-admin.
+
+*Naming Colors* (design - nov 3)
+https://robots.thoughtbot.com/naming-colors
+Someone made a mac app to give sensible names to colors.
+
+*Using Form Objects in Ruby on Rails* (rb - nov 4)
+http://culttt.com/2015/11/04/using-form-objects-in-ruby-on-rails/
+Tutorial on how to use form objects to lighten models.
+
+*Team Collaboration System* (js - nov 4)
+http://blog.fiverr.com/devflow-team-collaboration-system/
+Managing shared resources among developers.
+
+*Advanced Data Structures in Ruby* (rb - nov 5)
+http://www.mikeperham.com/2015/11/05/advanced-data-structures-in-ruby/
+2 examples of advanced data structure.
+
+*How constant lookup and resolution works in Ruby on Rails* (rb - nov 5)
+http://blog.bigbinary.com/2015/11/05/how-constant-lookup-happens-in-rails.html
+How autoload_paths, require, load, and require_relative works in rails.
+
+*Ruby Web Applications Without Rails* (rb - nov 6)
+http://codenoble.com/blog/ruby-web-applications-without-rails/
+Program in ruby for the web with no framework, just rack.
+
+*Reengineer legacy Rails applications* (rb - nov 7)
+http://teotti.com/reengineer-legacy-rails-applications/
+Regain control of big ball of mud Ruby on Rails applications.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+Links curated by by mose (publisher), xenor (editors), Nauman Tariq, ilake (contributors).
+*|END:IF|*
+*|IFNOT:CONTENT=Only Links|*
+
+Rant
+----------------------------------------------------
+The random rant of the week by mose.
+
+#### Packaging a gem for Debian
+
+Recently I had to package a gem for debian as a .deb. As a matter of fact,
+there is a lot of companies that are not in the ruby ecosystem and they rely
+on things they trust rather than rubygems. For a while debian was way behind
+on the inclusion of ruby and versions were outdated there. So a parallel
+distribution ecosystem had to be created. Now we have rvm, rbenv, or chruby
+for ruby and bundler and rubygems for the packages. But where I work, they
+package everything as debian packages. So I had to adapt.
+
+So I went have a look at [the debian ruby team][debianruby] and checked out
+the tools. That gem2deb tool is pretty convenient. I am using debian for a
+while but never really had to package anything. The debian community process
+is a bit complicated and they are not very inclusive. Compared to the ease of
+uploading any gem to rubygems, it's quite a fortress, and people in the
+process are not very welcoming.
+
+Maybe it's generational. Debian started before sourceforge existed, they are
+rooted in a community tradition that are very exclusive and a bit elitist. But
+technology changes faster than people, obviously. Younger communities
+bootstrap in a more fluid environment.
+
+I'm not sure it is related but maybe it is, there was another epic [Linus
+Hit][liushit] recently. Well, all those things put in perspective the niceness
+of the ruby community. Really, cherish it and enjoy it, it's precious.
+
+[debianruby]: https://wiki.debian.org/Teams/Ruby
+[linushit]:
+http://thenextweb.com/dd/2015/11/02/linux-creator-linus-torvalds-had-a-meltdown-over-a-pull-request-and-it-was-awesome/
+
+*|END:IF|*
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+
