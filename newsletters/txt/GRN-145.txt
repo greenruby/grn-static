@@ -1,0 +1,180 @@
+----------------------------------------------------
+Green Ruby News #145 - nov 15th 2015
+----------------------------------------------------
+*|IFNOT:CONTENT=Only Rant|*
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+*Boldking* (design)
+https://www.boldking.com/
+Simple and nice usage of illustrations.
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+*DreamFactory* (tool)
+https://www.dreamfactory.com/
+REST API backend for mobile, web, and IoT applications
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+*Ruby 2.3.0-preview1 Released* (rb - nov 11)
+https://www.ruby-lang.org/en/news/2015/11/11/ruby-2-3-0-preview1-released/
+Many new features and improvements are included.
+
+*Immutable-struct* (rb)
+https://github.com/stitchfix/immutable-struct
+Create struct-like classes that don't have setters, but have an awesome constructor.
+
+*Stitches* (rb)
+https://github.com/stitchfix/stitches
+Rails Engine and supporting classes for easily exposing a RESTful API.
+
+*Rspec_api_documentation* (rb)
+https://github.com/zipmark/rspec_api_documentation
+Automatically generate API documentation from RSpec.
+
+*Apitome* (rb)
+https://github.com/modeset/apitome
+An API documentation reader (as a rails engine) for RSpec API Documentation.
+
+*Descriptive_statistics* (rb)
+https://github.com/thirtysixthspan/descriptive_statistics
+Adds methods to the Enumerable module to allow easy calculation of basic descriptive statistics.
+
+*Facette* (ops)
+https://facette.io/
+Time series data visualization and graphing software.
+
+*Clair* (ops)
+https://github.com/coreos/clair
+Container Vulnerability Analysis Service.
+
+*Helm* (ops)
+https://helm.sh/
+The Kubernetes Package Manager.
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+*Ruby DelegateClass* (rb - nov 8)
+http://jakeyesbeck.com/2015/11/08/ruby-delegate-class/
+Composing objects to achieve flexibility and maintain encapsulation.
+
+*Slicing and Dicing Ruby Enumerables* (rb - nov 10)
+http://blog.honeybadger.io/ruby-enumerable-slicing-before-when-and-after/
+Super-useful methods when you need to group items in an array or other enumerable based on arbitrary criteria.
+
+*Methods to Remember Things by: Ruby Memoization* (rb - nov 10)
+http://vaidehijoshi.github.io/blog/2015/11/10/methods-to-remember-things-by-ruby-memoization/
+Another post describing memoization in details.
+
+*Six years of Go* (go - nov 10)
+http://blog.golang.org/6years
+Happy birthday Go.
+
+*Hash Comparison in Ruby 2.3* (rb - nov 11)
+http://olivierlacan.com/posts/hash-comparison-in-ruby-2-3/
+New hash comparison methods that will be available in Ruby 2.3 when it's released this coming Christmas.
+
+*Snappier Development Mode in Rails 5* (rb - nov 11)
+http://weblog.rubyonrails.org/2015/11/11/snappier-development-mode-in-rails-5/
+For a long time Rails simply reloaded unconditionally in every request, this will be changed in Rails 5.
+
+*The Sprockets 4 Manifest* (rb - nov 11)
+http://eileencodes.com/posts/the-sprockets-4-manifest/
+When Rails 5 is released it will require that you upgrade to Sprockets 4.
+
+*Search by proximity using PostGIS and Rails* (rb - nov 11)
+https://alternatelabs.co/blog/search-by-proximity-using-postgis
+Try out PostGIS, an addon for PostgreSQL.
+
+*The Difference Between Responsive and Adaptive Design* (css3 - nov 11)
+https://css-tricks.com/the-difference-between-responsive-and-adaptive-design/
+This is a question that comes up more regularly than you might expect.
+
+*Using HTML5’s Native Drag and Drop API* (html5 - nov 11)
+http://www.sitepoint.com/html5-native-drag-and-drop-api/
+Hook into native events and attributes to handle drag and drop interactions.
+
+*Simple, Clutter-free Programming with Go* (go - nov 11)
+http://www.sitepoint.com/simple-clutter-free-programming-with-go/
+Many of the reasons Go is chosen for large-scale, distributed and network-heavy applications.
+
+*Ruby 2.3.0 preview 1* (rb - nov 12)
+http://blog.michelada.io/ruby-2-3-0-preview-1
+ Review of did_you_mean.gem, Safe navigation operator and Frozen String Literal Pragma.
+
+*Bulletproof Rails Background Jobs* (rb - nov 12)
+http://chriskottom.com/blog/2015/11/bulletproof-rails-background-jobs/
+Few common-sense patterns to keep the back side as neat and well-ordered as the front.
+
+*Power Failure Testing with SSDs* (ops - nov 12)
+http://blog.nordeus.com/dev-ops/power-failure-testing-with-ssds.htm
+Testing SSD disks and Postgres.
+
+*An Overview of JavaScript Templating Engines* (js - nov 13)
+http://www.sitepoint.com/overview-javascript-templating-engines/
+What benefits JavaScript templates can provide.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+Links curated by by mose (publisher), tysliu (editors), Nauman Tariq, hsatac, xenor (contributors).
+*|END:IF|*
+*|IFNOT:CONTENT=Only Links|*
+
+Rant
+----------------------------------------------------
+The random rant of the week by mose.
+
+#### More about bullies
+
+This week I read the [reaction of Avdi][helcoode] to the rant of Linus last
+week. He proposes a short but insightful angle by just naming it 'bullying'.
+It rejoins the damage that I consider the coder-hero culture brings to our
+industry.
+
+Certainly the creative process of writing software attract creative people.
+They have strong personalities, some have tendencies to mild autism. They move
+mountains and their pride make them work day and night to achieve unbelievable
+things.
+
+This is good and well, but on the long run, now that we are passing 2
+generations of coders, we know that it's not sustainable on the long run.
+Plus, it has a disastrous impact on team building. No pyramid was built by a
+single hero.
+
+Incidentally I also read an interesting article about [Why computer
+programmers need to stop calling themselves engineers already][engineers].
+Even if I can't clearly explain how this is related, I have the feeling it's
+talking about something that is in the same area.
+
+[hellcode]: http://devblog.avdi.org/2015/11/09/software-bullying/
+[engineers]:
+http://www.businessinsider.com/why-computer-programmers-need-to-stop-calling-themselves-engineers-already-2015-11
+
+*|END:IF|*
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+
