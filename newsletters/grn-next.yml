@@ -6,7 +6,7 @@ participants: "Nauman Tariq, hsatac, ilake"
 rant:
   author: mose
   content:
-    "#### 
+    "####
 "
 
 topics:
@@ -51,13 +51,68 @@ topics:
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
-    pubdate: sep 3
+  - title: "Slicing and Dicing Ruby Enumerables"
+    url: "http://blog.honeybadger.io/ruby-enumerable-slicing-before-when-and-after/"
+    comment: "Super-useful methods when you need to group items in an array or other enumerable based on arbitrary criteria."
+    pubdate: nov 10
     tags:
       - rb
 
+  - title: "Hash Comparison in Ruby 2.3"
+    url: "http://olivierlacan.com/posts/hash-comparison-in-ruby-2-3/"
+    comment: "New hash comparison methods that will be available in Ruby 2.3 when it's released this coming Christmas."
+    pubdate: nov 11
+    tags:
+      - rb
+
+  - title: "Snappier Development Mode in Rails 5"
+    url: "http://weblog.rubyonrails.org/2015/11/11/snappier-development-mode-in-rails-5/"
+    comment: "For a long time Rails simply reloaded unconditionally in every request, this will be changed in Rails 5."
+    pubdate: nov 11
+    tags:
+      - rb
+
+  - title: "Ruby 2.3.0-preview1 Released"
+    url: "https://www.ruby-lang.org/en/news/2015/11/11/ruby-2-3-0-preview1-released/"
+    comment: "Many new features and improvements are included."
+    pubdate: nov 11
+    tags:
+      - rb
+
+  - title: "The Difference Between Responsive and Adaptive Design"
+    url: "https://css-tricks.com/the-difference-between-responsive-and-adaptive-design/"
+    comment: "This is a question that comes up more regularly than you might expect."
+    pubdate: nov 11
+    tags:
+      - css3
+
+  - title: "Using HTML5’s Native Drag and Drop API"
+    url: "http://www.sitepoint.com/html5-native-drag-and-drop-api/"
+    comment: "With the advent of the HTML5 Drag and Drop API, developers will be able to hook into native events and attributes to handle these interactions."
+    pubdate: nov 11
+    tags:
+      - web
+
+  - title: "Simple, Clutter-free Programming with Go"
+    url: "http://www.sitepoint.com/simple-clutter-free-programming-with-go/"
+    comment: "Many of the reasons Go is chosen for large-scale, distributed and network-heavy applications are due to its feature set."
+    pubdate: nov 11
+    tags:
+      - go
+
+  - title: "Bulletproof Rails Background Jobs"
+    url: "http://chriskottom.com/blog/2015/11/bulletproof-rails-background-jobs/"
+    comment: " Just by following a few common-sense patterns, you can keep the back side of your code as neat and well-ordered as the front."
+    pubdate: nov 12
+    tags:
+      - rb
+
+  - title: "An Overview of JavaScript Templating Engines"
+    url: "http://www.sitepoint.com/overview-javascript-templating-engines/"
+    comment: "As soon as we find ourselves including HTML inside JavaScript strings we should be starting to think about what benefits JavaScript templates could give us."
+    pubdate: nov 13
+    tags:
+      - js
 
 
 - title: Watch
@@ -68,6 +123,6 @@ topics:
     url: ""
     comment: ""
     pubdate: sep 3
-    duration: 
+    duration:
     tags:
       - rb
