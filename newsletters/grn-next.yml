@@ -6,7 +6,7 @@ participants: "Nauman Tariq, hsatac, ilake"
 rant:
   author: mose
   content:
-    "#### 
+    "####
 "
 
 topics:
@@ -28,11 +28,11 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "Multi-Level Menu : A simple menu with multiple levels"
+    url: "http://designbeep.com/2015/11/18/multi-level-menu-a-simple-menu-with-multiple-levels/"
+    comment: "This is a simple multi-level menu with delayed item animations and an optional breadcrumb navigation and back button."
     tags:
-      - css3
+      - js
 
 
 
@@ -51,13 +51,47 @@ topics:
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
-    pubdate: sep 3
+  - title: "Sidekiq 4.0 is now available!"
+    url: "http://www.mikeperham.com/2015/11/16/sidekiq-4.0/"
+    comment: "Benchmarks show job overhead is reduced six times, garbage creation reduced by eight times and job latency cut in half."
+    pubdate: nov 16
     tags:
       - rb
 
+  - title: "Lexical scoping and Ruby class variables"
+    url: "http://blog.honeybadger.io/lexical-scoping-and-ruby-class-variables/"
+    comment: "Ruby's class variables are confusing. Even expert Ruby users can find them hard to intuit."
+    pubdate: nov 16
+    tags:
+      - rb
+
+  - title: "Spying on running Ruby processes"
+    url: "http://blog.honeybadger.io/spying-on-running-ruby-processes/"
+    comment: "How about injecting code to be executed inside of a running process?"
+    pubdate: nov 17
+    tags:
+      - rb
+
+  - title: "Learn Concurrency by Implementing Futures in Ruby"
+    url: "http://www.sitepoint.com/learn-concurrency-by-implementing-futures-in-ruby/"
+    comment: "Futures are a concurrency abstraction that represents the result of an asynchronous computation."
+    pubdate: nov 19
+    tags:
+      - rb
+
+  - title: "The Many Uses Of Ruby Case Statements"
+    url: "http://www.blackbytes.info/2015/10/ruby-case/"
+    comment: "The case statement is more flexible than it might appear at first sigh."
+    pubdate: nov 19
+    tags:
+      - rb
+
+  - title: "Getting Started with Service Workers"
+    url: "http://www.sitepoint.com/getting-started-with-service-workers/"
+    comment: "There was a time when people only related the use of push notifications to mobile applications. Luckily, that time has passed."
+    pubdate: nov 19
+    tags:
+      - js
 
 
 - title: Watch
@@ -68,6 +102,6 @@ topics:
     url: ""
     comment: ""
     pubdate: sep 3
-    duration: 
+    duration:
     tags:
       - rb
