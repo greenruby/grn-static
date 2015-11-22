@@ -1,0 +1,169 @@
+----------------------------------------------------
+Green Ruby News #146 - nov 22th 2015
+----------------------------------------------------
+*|IFNOT:CONTENT=Only Rant|*
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+*Buca boot* (design)
+http://www.bucaboot.com/
+A simple but good design all on one page.
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+*Empire of code* (web)
+https://empireofcode.com/
+A new game involving coding.
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+*Nprogress-rails* (rb)
+https://github.com/caarlos0/nprogress-rails
+Slim progress bars for Ajax'y applications.
+
+*Godmin* (rb)
+https://github.com/varvet/godmin
+Admin framework for Rails 4+
+
+*Sigma js* (js)
+http://sigmajs.org/
+Publish networks on Web pages.
+
+*Multi-Level Menu* (js)
+http://designbeep.com/2015/11/18/multi-level-menu-a-simple-menu-with-multiple-levels/
+Simple multi-level menu with delayed item animations.
+
+*Notie.js* (js)
+https://jaredreich.com/projects/notie.js/
+A clean and simple notification plugin.
+
+*Kong* (tool)
+https://github.com/Mashape/kong
+Open-source, Microservice and API Management Layer built on top of NGINX.
+
+*Git-fastclone* (tool)
+https://github.com/square/git-fastclone
+git clone --recursive on steroids.
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+*Sidekiq 4.0 is now available* (rb - nov 16)
+http://www.mikeperham.com/2015/11/16/sidekiq-4.0/
+Benchmarks show a lot of effective optimization.
+
+*Lexical scoping and Ruby class variables* (rb - nov 16)
+http://blog.honeybadger.io/lexical-scoping-and-ruby-class-variables/
+Class variables are confusing. Even expert Ruby users can find them hard to intuit.
+
+*Deploying Ruby Apps with Bare Metal: A New Type of VM* (rb - nov 16)
+http://www.sitepoint.com/deploying-ruby-apps-bare-metal-self-sufficient-containers-right-way/
+The Bare Metal container platform is a service from CenturyLink, here is how to set up a simple Ruby app there.
+
+*Update your gems every Monday morning* (rb - nov 16)
+http://adarsh.io/save-money-and-be-happier-by-updating-your-gems-every-monday-morning/
+Frequent updates of your gems saves money.
+
+*Static Website Generators Reviewed* (tool - nov 16)
+http://www.smashingmagazine.com/2015/11/static-website-generators-jekyll-middleman-roots-hugo-review/
+Jekyll, Middleman, Roots, Hugo.
+
+*The Cost of Frameworks* (tool - nov 16)
+https://aerotwist.com/blog/the-cost-of-frameworks/
+Interesting transcription of a talk about how to think about using a framework.
+
+*Open Sourcing Statsgod* (go - nov 16)
+https://dev.acquia.com/blog/open-sourcing-statsgod-a-statsd-implementation-in-go/16/11/2015/8171
+A StatsD Implementation In Go.
+
+*Why It's Time For Go Packages To Start Versioning* (go - nov 16)
+http://engineeredweb.com/blog/2015/go-packages-need-release-versions/
+Please provide semantically versioned releases of your Go packages and libraries.
+
+*Anatomy of a Haskell-based Application* (hk - nov 16)
+http://abailly.github.io/posts/cm-arch-design.html
+A general overview of what an Haskell application looks like.
+
+*Spying on running Ruby processes* (rb - nov 17)
+http://blog.honeybadger.io/spying-on-running-ruby-processes/
+How about injecting code to be executed inside of a running process?
+
+*Peeking Under the Hood of ActionController Parameters, Part 1* (rb - nov 17)
+http://vaidehijoshi.github.io/blog/2015/11/17/peeking-under-the-hood-of-actioncontroller-parameters-part-1/
+All about the permit method filters.
+
+*Instant Loading Web Apps With An Application Shell Architecture* (mobile - nov 17)
+https://medium.com/@addyosmani/instant-loading-web-apps-with-an-application-shell-architecture-7c0c2f10c73#.4qsm1b5yp
+Diving into Progressive Web Apps (PWA).
+
+*Brakeman Pro 1.0* (rb - nov 18)
+https://brakemanpro.com/blog/announcement/2015/11/18/brakeman-pro-is-available/
+Initial release of Brakeman Pro.
+
+*Stretchy Navigation in CSS and jQuery* (css3 - nov 18)
+https://codyhouse.co/gem/stretchy-navigation/
+A rounded navigation trigger that stretches on click/tap to reveal the navigation items
+
+*Learn concurrency by implementing futures in Ruby* (rb - nov 19)
+http://www.sitepoint.com/learn-concurrency-by-implementing-futures-in-ruby/
+Futures are a concurrency abstraction that represents the result of an asynchronous computation.
+
+*The many uses of Ruby case statements* (rb - nov 19)
+http://www.blackbytes.info/2015/10/ruby-case/
+The case statement is more flexible than it might appear at first sigh.
+
+*Representable 2.4* (rb - nov 19)
+http://nicksda.apotomo.de/2015/11/representable-2-4-how-functional-programming-speeds-up-rendering-and-parsing/
+How Functional Programming Speeds Up Rendering And Parsing.
+
+*Getting started with service workers* (js - nov 19)
+http://www.sitepoint.com/getting-started-with-service-workers/
+There was a time when people only related the use of push notifications to mobile applications. Luckily, that time has passed.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+Links curated by by mose (publisher), tysliu (editors), Nauman Tariq, hsatac (contributors).
+*|END:IF|*
+*|IFNOT:CONTENT=Only Links|*
+
+Rant
+----------------------------------------------------
+The random rant of the week by mose.
+
+#### A Hackhaton in Taipei
+
+In 2 weeks Gandi organizes with .taipei registry a [Hackhaton][Hackhaton] with
+pretty wide topic. It will be at at the Hi-tech Promotion Center in Taipei on
+December 5 and 6. I will be there (part of the jury), so if you want to have
+some week-end fun and are in Taipei at that time, feel free to join in. There
+will be prizes, free domains and hosting. I would love to see some ruby
+projects there.
+
+[Hackhaton]: http://hackathon.taipei/ 
+
+*|END:IF|*
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+
