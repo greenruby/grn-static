@@ -6,7 +6,7 @@ participants: "Nauman Tariq, hsatac, ilake"
 rant:
   author: mose
   content:
-    "#### 
+    "####
 "
 
 topics:
@@ -40,9 +40,9 @@ topics:
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "lock_and_cache"
+    url: "https://github.com/seamusabshere/lock_and_cache"
+    comment: "Make sure only one process calculates the cache and gain lock to prevent other processes to calculate the cache again on redis."
     tags:
       - rb
 
@@ -51,13 +51,26 @@ topics:
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
-    pubdate: sep 3
+  - title: "Building a Slackbot with Ruby and Sinatra"
+    url: "http://www.sitepoint.com/building-a-slackbot-with-ruby-and-sinatra/"
+    comment: "Make a Slackbot in few steps with Sinatra."
+    pubdate: "nov 23"
     tags:
       - rb
 
+  - title: "Is it nil?"
+    url: "https://www.leighhalliday.com/is-it-nil"
+    comment: "Everything is not nil except itself."
+    pubdate: "nov 25"
+    tags:
+      - rb
+
+  - title: "Ruby memory analysis over time"
+    url: "https://gist.github.com/wvengen/f1097651c238b2f7f11d"
+    comment: "Time-based approach to debug ruby memory leak."
+    pubdate: "nov 25"
+    tags:
+      - rb
 
 
 - title: Watch
@@ -68,6 +81,6 @@ topics:
     url: ""
     comment: ""
     pubdate: sep 3
-    duration: 
+    duration:
     tags:
       - rb
