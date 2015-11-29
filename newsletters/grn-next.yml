@@ -58,6 +58,13 @@ topics:
     tags:
       - rb
 
+  - title: "Building a Slackbot with Ruby and Sinatra"
+    url: "http://www.sitepoint.com/building-a-slackbot-with-ruby-and-sinatra/"
+    comment: "We’re going to see how to build a custom Slackbot that triggers on a keyword, performs some action, and responds back to Slack."
+    pubdate: "nov 23"
+    tags:
+      - rb
+
   - title: "Is it nil?"
     url: "https://www.leighhalliday.com/is-it-nil"
     comment: "Everything is not nil except itself."
@@ -72,15 +79,29 @@ topics:
     tags:
       - rb
 
+  - title: "Know What Your Users Know with Raygun"
+    url: "http://www.sitepoint.com/know-what-your-users-know-with-raygun/"
+    comment: "How to integrate Raygun into your Rails application and start to track errors in just ten minutes."
+    pubdate: "nov 26"
+    tags:
+      - rb
+
+  - title: "Drag and Drop File Uploading"
+    url: "https://css-tricks.com/drag-and-drop-file-uploading/"
+    comment: "We can't 100% rely on browsers supporting drag and drop. We should provide a fallback solution."
+    pubdate: "nov 27"
+    tags:
+      - css3
+
 
 - title: Watch
   baseline: "Screencasts and conferences videos, or other video feeds ..."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "RubyConf 2015 - Keynote and Q&A: Matz"
+    url: "https://www.youtube.com/watch?v=LE0g2TUsJ4U"
+    comment: "Amongst (many) other things about Ruby 3, Matz announced the ‘Ruby 3x3’ (@ 54:05), a goal for Ruby 3 to be three times faster than Ruby 2."
     pubdate: sep 3
-    duration:
+    duration: 1h 12m 38s
     tags:
       - rb
