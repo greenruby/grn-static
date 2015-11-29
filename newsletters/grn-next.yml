@@ -1,12 +1,12 @@
 ---
-edition: "147"
-pubdate: "nov 29th 2015"
+edition: "148"
+pubdate: "dec 6th 2015"
 editors: "xenor, tysliu"
 participants: "Nauman Tariq, hsatac, ilake"
 rant:
   author: mose
   content:
-    "####
+    "#### 
 "
 
 topics:
@@ -40,9 +40,9 @@ topics:
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: "lock_and_cache"
-    url: "https://github.com/seamusabshere/lock_and_cache"
-    comment: "Make sure only one process calculates the cache and gain lock to prevent other processes to calculate the cache again on redis."
+  - title: ""
+    url: ""
+    comment: ""
     tags:
       - rb
 
@@ -51,57 +51,23 @@ topics:
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: "Building a Slackbot with Ruby and Sinatra"
-    url: "http://www.sitepoint.com/building-a-slackbot-with-ruby-and-sinatra/"
-    comment: "Make a Slackbot in few steps with Sinatra."
-    pubdate: "nov 23"
+  - title: ""
+    url: ""
+    comment: ""
+    pubdate: sep 3
     tags:
       - rb
 
-  - title: "Building a Slackbot with Ruby and Sinatra"
-    url: "http://www.sitepoint.com/building-a-slackbot-with-ruby-and-sinatra/"
-    comment: "We’re going to see how to build a custom Slackbot that triggers on a keyword, performs some action, and responds back to Slack."
-    pubdate: "nov 23"
-    tags:
-      - rb
-
-  - title: "Is it nil?"
-    url: "https://www.leighhalliday.com/is-it-nil"
-    comment: "Everything is not nil except itself."
-    pubdate: "nov 25"
-    tags:
-      - rb
-
-  - title: "Ruby memory analysis over time"
-    url: "https://gist.github.com/wvengen/f1097651c238b2f7f11d"
-    comment: "Time-based approach to debug ruby memory leak."
-    pubdate: "nov 25"
-    tags:
-      - rb
-
-  - title: "Know What Your Users Know with Raygun"
-    url: "http://www.sitepoint.com/know-what-your-users-know-with-raygun/"
-    comment: "How to integrate Raygun into your Rails application and start to track errors in just ten minutes."
-    pubdate: "nov 26"
-    tags:
-      - rb
-
-  - title: "Drag and Drop File Uploading"
-    url: "https://css-tricks.com/drag-and-drop-file-uploading/"
-    comment: "We can't 100% rely on browsers supporting drag and drop. We should provide a fallback solution."
-    pubdate: "nov 27"
-    tags:
-      - css3
 
 
 - title: Watch
   baseline: "Screencasts and conferences videos, or other video feeds ..."
   links:
 
-  - title: "RubyConf 2015 - Keynote and Q&A: Matz"
-    url: "https://www.youtube.com/watch?v=LE0g2TUsJ4U"
-    comment: "Amongst (many) other things about Ruby 3, Matz announced the ‘Ruby 3x3’ (@ 54:05), a goal for Ruby 3 to be three times faster than Ruby 2."
+  - title: ""
+    url: ""
+    comment: ""
     pubdate: sep 3
-    duration: 1h 12m 38s
+    duration: 
     tags:
       - rb

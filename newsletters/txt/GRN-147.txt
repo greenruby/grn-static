@@ -1,0 +1,180 @@
+----------------------------------------------------
+Green Ruby News #147 - nov 29th 2015
+----------------------------------------------------
+*|IFNOT:CONTENT=Only Rant|*
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+*Empty states* (design)
+http://emptystat.es/
+A collection of designs for empty states.
+
+*Sweet Punk* (design)
+https://www.sweetpunk.com
+Creative digital agency based in Paris
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+*DevOps eBooks and Resources* (rb)
+https://www.scriptrock.com/ebooks
+(books) Resources available for free download for developers, operations, QA and security leaders.
+
+*HackerRank* (web)
+https://www.hackerrank.com
+Where hackers hangout to solve interesting Computer Science challenges
+
+*Perl 6 Introduction* (tool)
+http://perl6intro.com/
+Your thought (or hoped) it was dead? It's alive again.
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+*lock_and_cache* (rb)
+https://github.com/seamusabshere/lock_and_cache
+Make sure only one process calculates the cache and gain lock to prevent other processes to calculate the cache again on redis.
+
+*LoopBack* (js)
+http://loopback.io/
+Highly-extensible, open-source Node.js framework.
+
+*Perfect* (tool)
+http://www.perfect.org/
+Server-side Swift.
+
+*Kings hand* (tool)
+https://github.com/bryanwb/kh
+Tool for organizing ad-hoc shell(ish) scripts.
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+*Building a Slackbot with Ruby and Sinatra* (rb - nov 23)
+http://www.sitepoint.com/building-a-slackbot-with-ruby-and-sinatra/
+Make a Slackbot in few steps with Sinatra.
+
+*Physical software made easy with Arduino and Ruby on Rails* (rb - nov 23)
+http://dreamingechoes.github.io/arduino/ruby/rails/physical-software-made-easy-with-arduino-and-ruby-on-rails/
+Combine web development with IoT.
+
+*Creating Node.js Command Line Utilities to Improve Your Workflow* (js - nov 23)
+http://developer.telerik.com/featured/creating-node-js-command-line-utilities-improve-workflow/
+Brian Rinaldi demonstrates how to use the Vorpal module in Node.js.
+
+*Rails Asset Pipeline Simple Guide* (rb - nov 24)
+http://blog.uiready.io/rails-asset-pipeline-simple-guide/
+How asset pipeline work and how you can use it with your rails application.
+
+*JSON API Apps With Lotus* (rb - nov 24)
+http://lucaguidi.com/2015/11/24/json-api-apps-with-lotus.html
+Use Lotus gems to build it a json API server.
+
+*Rails: How to create a custom PDF renderer plugin* (rb - nov 24)
+http://blog.pluralsight.com/rails-tutorial-part-one
+A detailled tutorial to make render spit out PDF files with prawn.
+
+*Peeking Under the Hood of ActionController Parameters, Part 2* (rb - nov 24)
+http://vaidehijoshi.github.io/blog/2015/11/24/peeking-under-the-hood-of-actioncontroller-parameters-part-2/
+The next part of last week article.
+
+*Is it nil?* (rb - nov 25)
+https://www.leighhalliday.com/is-it-nil
+Everything is not nil except itself.
+
+*Ruby memory analysis over time* (rb - nov 25)
+https://gist.github.com/wvengen/f1097651c238b2f7f11d
+Time-based approach to debug ruby memory leak.
+
+*Know What Your Users Know with Raygun* (rb - nov 26)
+http://www.sitepoint.com/know-what-your-users-know-with-raygun/
+How to integrate Raygun into your Rails application and start to track errors in just ten minutes.
+
+*Drag and Drop File Uploading* (css3 - nov 27)
+https://css-tricks.com/drag-and-drop-file-uploading/
+We can't 100% rely on browsers supporting drag and drop. We should provide a fallback solution.
+
+Watch
+----------------------------------------------------
+Screencasts and conferences videos, or other video feeds ...
+
+*RubyConf 2015 - Keynote and Q&A: Matz* (rb - nov 22 - 1h12)
+https://www.youtube.com/watch?v=LE0g2TUsJ4U
+Amongst (many) other things about Ruby 3, Matz announced the Ruby 3x3 (@ 54:05), a goal for Ruby 3 to be three times faster than Ruby 2.
+
+* Messenger: The (Complete) Story of Method Lookup* (rb - nov 24)
+https://www.youtube.com/watch?v=TZWQAvlMru8
+By Jay McGavren at RubyConf 2015.
+
+*Reliable Concurrency Without the Actor Model* (rb - nov 24)
+https://www.youtube.com/watch?v=8OQUH8q4sMM
+This talk was given at Midwest.io 2015.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+Links curated by by mose (publisher), xenor, tysliu (editors), Nauman Tariq, ilake (contributors).
+*|END:IF|*
+*|IFNOT:CONTENT=Only Links|*
+
+Rant
+----------------------------------------------------
+The random rant of the week by mose.
+
+#### Code in the dark
+
+My attention was brought this week to [Code in the dark events][cid]. It seems
+pretty cool. A 15 minutes race in html and css with no preview. But the thing
+that brought my attention to that format is the special editor used for those
+events with a special effect on the cursor. It seems to add a really dramatic
+effect on the competition. We need more ideas like that for pure geek fun.
+
+#### First look at perl 6
+
+For many people, Perl sounds like trauma. Because it didn't move for a while,
+when I hear something is perl code, it sounds like it's legacy code, old and
+dusty. Well, Perl 6 is going to come out for christmas and the situation may
+change. Perl 6 is in the lab for [15 years][perl6released] now, it's more than
+time to get it shipped.
+
+At [first glance][perl6], they seem to have tried to 'modernize' the language,
+make it more idiomatic. It even seems it looks more like ruby, with the
+replacement of arrow by dots, the optional parenthesis, better exception
+handling. Well, overall, it feels cleaner. But it also seem to have some
+potential to mix functional and object-oriented in an interesting way.
+
+So, maybe there is going to be a second life for the old perl. It's a breaking
+version, old perl code will certainly break on the new version. So it's almost
+like a new language. For sure I will still keep ruby as my preferred language,
+but I like multilingualism, so maybe I will give it a try .. again (last perl
+app I wrote was 12 years ago).
+
+[cid]: http://codeinthedark.com/
+[particles]: https://github.com/codeinthedark/editor/pull/1
+[perl6released]:
+http://www.perlfoundation.org/perl6/index.cgi?when_will_perl_6_be_released
+[perl6]: http://doc.perl6.org/language/5to6-nutshell
+
+*|END:IF|*
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+
