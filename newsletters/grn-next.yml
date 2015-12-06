@@ -56,6 +56,12 @@ topics:
     tags:
       - web
 
+  - title: "Stretchy Navigation"
+    url: "https://codyhouse.co/demo/stretchy-navigation/"
+    comment: "Stretchy Navigation is a rounded navigation trigger that stretches on click/tap to reveal the navigation items."
+    tags:
+      - js
+
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
@@ -68,9 +74,44 @@ topics:
     tags:
       - rb
 
+  - title: "Watch Ruby as it parses your code"
+    url: "http://blog.honeybadger.io/watch-ruby-as-it-parses-your-code/"
+    comment: "The ruby parser is a kind of a state machine."
+    pubdate: nov 30
+    tags:
+      - rb
+
+  - title: "SIDEKIQ AS A MICROSERVICE MESSAGE QUEUE"
+    url: "http://brandonhilkert.com/blog/sidekiq-as-a-microservice-message-queue/"
+    comment: "This post will explore opportunities for splitting out unique microservices using Sidekiq, without introducing an enterprise message broker like RabbitMQ or Apache Kafka."
+    pubdate: nov 30
+    tags:
+      - rb
+
   - title: "Immutable Strings in Ruby 2.3"
     url: "https://wyeworks.com/blog/2015/12/1/immutable-strings-in-ruby-2-dot-3/"
     comment: "Better performance and thread safety on immutable strings."
+    pubdate: dec 1
+    tags:
+      - rb
+
+  - title: "The Definitive Guide to Ruby Heap Dumps, Part I"
+    url: "http://blog.codeship.com/the-definitive-guide-to-ruby-heap-dumps-part-i/"
+    comment: "When you can't reproduce memory leak locally, we can take a “heap dump” off of a running production server and analyze it."
+    pubdate: dec 1
+    tags:
+      - rb
+
+  - title: "Introduction to Refactoring"
+    url: "http://www.blackbytes.info/2015/12/ruby-refactoring/"
+    comment: "One of the most common refactorings is the one known as ‘extract method’."
+    pubdate: dec 1
+    tags:
+      - rb
+
+  - title: "Ruby Version Usage in Commercial Projects, 2015 Edition"
+    url: "https://semaphoreci.com/blog/2015/12/01/ruby-version-usage-in-commercial-projects-2015-edition.html"
+    comment: "It appears that once a team has managed to cross the chasm between 1.9.x and Ruby 2, adopting newer versions is relatively easy."
     pubdate: dec 1
     tags:
       - rb
@@ -82,12 +123,26 @@ topics:
     tags:
       - rb
 
+ - title: "Password Strength `meter`"
+    url: "https://css-tricks.com/password-strength-meter/"
+    comment: "With the introduction of HTML5, we now have the ability to use the <meter> element in our markup."
+    pubdate: dec 2
+    tags:
+      - css3
+
   - title: "Why and how to test Rake tasks in your Rails application."
     url: "http://eftimov.net//test-rake-tasks"
     comment: "By integration and unit tests."
     pubdate: dec 3
     tags:
       - rb
+
+  - title: "How to Schedule Background Tasks in JavaScript"
+    url: "http://www.sitepoint.com/how-to-schedule-background-tasks-in-javascript/"
+    comment: "requestIdleCallback is a new API designed to schedule non-essential background tasks during those moments the browser is taking a breather."
+    pubdate: dec 4
+    tags:
+      - js
 
 
 - title: Watch
