@@ -1,0 +1,190 @@
+----------------------------------------------------
+Green Ruby News #148 - dec 6th 2015
+----------------------------------------------------
+*|IFNOT:CONTENT=Only Rant|*
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+*Developing Games With Ruby* (rb)
+https://leanpub.com/developing-games-with-ruby/read
+(book) can also be read online for free.
+
+*Elixir School* (el)
+http://elixirschool.com/
+Lessons in the fundamentals of elixir.
+
+*WorkDifferent* (tool)
+http://workdifferent.com/
+Publication and job board that highlights companies that think and care about their people.
+
+*Apifier* (tool)
+https://www.apifier.com
+Hosted web crawler for developers.
+
+*Is it Pokemon or Big Data* (tool)
+https://pixelastic.github.io/pokemonorbigdata/
+A game to try to recognize if a name belongs to pokemon or to big data. Hilarious.
+
+*Let's Encrypt* (ops)
+https://letsencrypt.org/
+Finaly it's there, entering public beta this december 3th.
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+*Minuteman* (rb)
+https://github.com/elcuervo/minuteman
+Analytics framework using redis.
+
+*Rcon* (rb)
+https://github.com/matsumoto-r/rcon
+A lightweight resource virtualization tool for linux processes.
+
+*Slate* (rb)
+https://github.com/tripit/slate
+Beautiful static documentation for APIs.
+
+*Rnpm* (js)
+https://github.com/rnpm/rnpm
+React Native Package Manager.
+
+*sqlmap* (web)
+https://github.com/sqlmapproject/sqlmap
+Automatic SQL penetration testing tool.
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+*Pascal's Triangle with Ruby's Enumerator* (rb - nov 30)
+https://rossta.net/blog/pascals-triangle-with-rubys-enumerator.html
+Generating Pascal's Triangle as an Enumerable sequence with Ruby's Enumerator.
+
+*Watch Ruby as it parses your code* (rb - nov 30)
+http://blog.honeybadger.io/watch-ruby-as-it-parses-your-code/
+The ruby parser is a kind of a state machine.
+
+*Sidekiq as a micorservice message queue* (rb - nov 30)
+http://brandonhilkert.com/blog/sidekiq-as-a-microservice-message-queue/
+Splitting out unique microservices using Sidekiq, without a message broker.
+
+*Lets Encrypt Everything* (tool - nov 30)
+https://wordtothewise.com/2015/11/lets-encrypt-everything/
+Now that letsencrypt enters in public beta, you should try it out.
+
+*Linux Performance Analysis in 60,000 Milliseconds* (ops - nov 30)
+http://techblog.netflix.com/2015/11/linux-performance-analysis-in-60s.html
+You login to a Linux server with a performance issue: what do you check in the first minute?
+
+*Immutable Strings in Ruby 2.3* (rb - dec 1)
+https://wyeworks.com/blog/2015/12/1/immutable-strings-in-ruby-2-dot-3/
+Better performance and thread safety on immutable strings.
+
+*The Definitive Guide to Ruby Heap Dumps, Part I* (rb - dec 1)
+http://blog.codeship.com/the-definitive-guide-to-ruby-heap-dumps-part-i/
+Usage of heap dumps analyze it memory leaks.
+
+*Introduction to Refactoring* (rb - dec 1)
+http://www.blackbytes.info/2015/12/ruby-refactoring/
+One of the most common refactorings is the one known as ‘extract method’.
+
+*Ruby Version Usage in Commercial Projects, 2015 Edition* (rb - dec 1)
+https://semaphoreci.com/blog/2015/12/01/ruby-version-usage-in-commercial-projects-2015-edition.html
+Once a team has managed to cross the chasm between 1.9.x and Ruby 2, adopting newer versions is relatively easy.
+
+*Become a videogame developer master with Gosu and Ruby* (rb - dec 2)
+http://dreamingechoes.github.io/game/gosu/ruby/become-a-videogame-developer-master-with-gosu-and-ruby/
+Use Gosu to do a 2D shooting game in Ruby.
+
+*Querying with Active Record in Ruby on Rails* (rb - dec 2)
+http://culttt.com/2015/12/02/querying-with-active-record-in-ruby-on-rails/
+Tutortial about various query methods of Active Record.
+
+*Password Strength `meter`* (css3 - dec 2)
+https://css-tricks.com/password-strength-meter/
+With the introduction of HTML5, we now have the ability to use the meter element in our markup.
+
+*The Fall and Rise of SVG* (html5 - dec 2)
+http://blog.siliconpublishing.com/2015/12/the-fall-and-rise-of-svg/
+Historic retrospective on the SVG evolution.
+
+*Why and how to test Rake tasks in your Rails application.* (rb - dec 3)
+http://eftimov.net//test-rake-tasks
+By integration and unit tests.
+
+*Swift is now open source* (mobile - dec 3)
+http://sdtimes.com/swift-is-now-open-source/
+Apple open-sources its Swift programming language.
+
+*How to Schedule Background Tasks in JavaScript* (js - dec 4)
+http://www.sitepoint.com/how-to-schedule-background-tasks-in-javascript/
+Schedule non-essential background tasks during those moments the browser is taking a breather.
+
+*Microsoft Edge JavaScript engine to go open-source* (js - dec 5)
+https://blogs.windows.com/msedgedev/2015/12/05/open-source-chakra-core/
+Open-sourcing the core components of Chakra, on Github.
+
+Watch
+----------------------------------------------------
+Screencasts and conferences videos, or other video feeds ...
+
+*Developing Ruby Applications with Docker* (rb - dec 3 - 40m)
+https://www.youtube.com/watch?v=hiiPMgZbzcA
+Talk by Laura Frank at ArrrrCamp 2015.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+Links curated by by mose (publisher), xenor, tysliu (editors), Nauman Tariq, hsatac, Lincoln, ilake (contributors).
+*|END:IF|*
+*|IFNOT:CONTENT=Only Links|*
+
+Rant
+----------------------------------------------------
+The random rant of the week by mose.
+
+#### Busy hackathon in Taipei
+
+This weekend we had our first [hackathon][hackathon] in Taipei, organized by
+[Gandi][gandi]. That was pretty fun, to be there on the side of the organizers
+without actually being in charge of the organization for once. Such geek
+events are always so great for meeting and sharing, being forbidden to
+participate didn't prevent me to push some ideas around.
+
+During the course of the weekend, I joined mickey to push the creation of a
+[Taiwan group for Elixir][elixirtw], for which we had an idea of a stream
+capture feature to gather slack discussion and index them. I also had an idea
+of event for [FreeBSD portscamp][portscamp] with marcelo, so we made a FreeBSD
+Taiwan group on github as well (with a pretty neat logo). All this was
+actually not that much related to the hackathon but just emerging from natural
+proximity with other geeks.
+
+Check my [photos on flickr][photos].
+
+[hackathon]: http://hackathon.taipei/en.html
+[gandi]: http://gandi.net
+[elixirtw]: https://github.com/elixirtw/elixir_tw
+[portscamp]: https://github.com/FreeBSDTaiwan/portscamp
+[photos]: https://www.flickr.com/photos/43946968@N07/albums/72157661448405060
+
+*|END:IF|*
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+
