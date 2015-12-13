@@ -1,12 +1,20 @@
 ---
 edition: "149"
-pubdate: "dec 13th 2015"
+pubdate: "dec 14th 2015"
 editors: "xenor, tysliu"
-participants: "Nauman Tariq, hsatac, ilake"
+participants: "Nauman Tariq, hsatac"
 rant:
-  author: mose
+  author: xenor
   content:
-    "####
+    "#### Physical Health of Developers
+
+    This is the first time for me to release the newsletter without our dear friend mose, who is currently in fever and need to take some days to recover. Recently I've been noticed that some developers including me suffering from small or big health issues.
+
+    The reason sometimes is obvious, when developer's mode is on, it sticks for hours without leaving our screen and keyboard. Even when taking a break, we are still on smaller screens or keyboards (tablet, mobile...etc). Our mind keeps running and sometimes physical requirements just seems unnecessary. So, after several stays up or absences of meals, it happened.
+
+    Am I going to suggest standing up and doing outdoor activities? Hell no! The desire of gathering and absorbing information is what makes us strong, our body is just the minimum support for our mind.
+
+    So what should we do? Well, eat, drink, rest, and grab a keyboard to type!
 "
 
 topics:
@@ -16,9 +24,9 @@ topics:
     "Examples of UI/UX, graphic performance, web design and flashy things."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "Best Visualizations 2015"
+    url: "http://www.informationisbeautifulawards.com/news/116-2015-the-winners"
+    comment: "The best and brightest of the data viz world in 2015."
     tags:
       - design
 
@@ -32,54 +40,99 @@ topics:
     url: "https://cloudcraft.co/"
     comment: "Visualize your cloud architecture like a pro."
     tags:
-      - tool
+      - ops
+
+  - title: "You-Dont-Need-jQuery"
+    url: "https://github.com/oneuijs/You-Dont-Need-jQuery"
+    comment: "Examples of how to do query, style, dom, ajax, event etc like jQuery with plain javascript."
+    tags:
+      - js
 
 - title: Install
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "grape"
+    url: "https://github.com/ruby-grape/grape"
+    comment: "An opinionated micro-framework for creating REST-like APIs in Ruby."
     tags:
       - rb
 
+  - title: "dry-validation"
+    url: "https://github.com/dryrb/dry-validation"
+    comment: "Data validation library based on predicate logic and rule composition"
+    tags:
+      - rb
+
+- title: "Toshi"
+    url: "https://toshi.io/"
+    comment: "A full bitcoin node for building web applications."
+    tags:
+      - rb
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
   links:
 
+  - title: "Choosing an HTTP Status Code — Stop Making It Hard"
+    url: "http://racksburg.com/choosing-an-http-status-code/"
+    comment: "Use right HTTP status code when design APIs."
+    pubdate: dec 4
+    tags:
+      - web
+
   - title: "What's new in Ruby 2.3?"
     url: "http://nithinbekal.com/posts/ruby-2-3-features/"
-    comment: "First preview release was made available a few weeks ago. I’ve been playing around with it and looking at what new features have been introduced."
+    comment: "Frozen strings, dig for Hash and Array, did_you_mean... and many more others."
     pubdate: dec 7
+    tags:
+      - rb
+
+  - title: "iOS and Android Programming with Go"
+    url: "http://www.sitepoint.com/ios-and-android-programming-with-go/"
+    comment: "Possibilities for native iOS and Android programming with Go."
+    pubdate: dec 8
+    tags:
+      - go
+
+ - title: "Data Migrations in Rails"
+    url: "https://robots.thoughtbot.com/data-migrations-in-rails"
+    comment: "Use temp rake task instead of rails database migration as data migration."
+    pubdate: dec 8
     tags:
       - rb
 
   - title: "Level Up Your Command-Line-Fu With Ruby"
     url: "http://blog.honeybadger.io/ruby-unix-command-line/"
-    comment: "To really master the command line you have to master dozens — if not hundreds — of small utility programs."
+    comment: "Using ruby as a swiss army knife to improve some comand-line tasks."
     pubdate: dec 8
     tags:
       - rb
 
-  - title: "Using Docker for Rails Development"
-    url: "https://blog.codeship.com/using-docker-for-rails-development/"
-    comment: "Getting started with containers may initially seem more complex, but they greatly reduce the amount of time and space needed to run your application."
-    pubdate: dec 8
+  - title: "Ex Pusher Lite - Part 1: Phoenix Channels and Rails apps"
+    url: "http://www.akitaonrails.com/2015/12/09/ex-pusher-lite-part-1-phoenix-channels-and-rails-apps"
+    comment: "Part 1 of a series which moves rails app to phoenix."
+    pubdate: dec 9
     tags:
-      - rb
+      - el
 
   - title: "25,000+ Req/s for Rack JSON API with MRuby"
     url: "http://lucaguidi.com/2015/12/09/25000-requests-per-second-for-rack-json-api-with-mruby.html"
-    comment: "Mruby is a minimal version of Ruby, that can be embedded in any system that supports C."
+    comment: "Performance comparison for a simple rack app between MRI ruby and mruby."
     pubdate: dec 9
     tags:
       - rb
 
   - title: "Speeding Up Bulk Imports in Rails"
     url: "https://blog.codeship.com/speeding-up-bulk-imports-in-rails/"
-    comment: "Imagine we have 50,000 products to import… not an absurd amount, but enough that we can start to notice some pain."
+    comment: "Direct SQL calls is more efficient when dealing with buld imports."
+    pubdate: dec 9
+    tags:
+      - rb
+
+  - title: "Rails Anti-Pattern: Fat Decorator"
+    url: "http://craftingruby.com/posts/2015/12/09/rails-antipattern-fat-decorator.html"
+    comment: "Make single decoretor less envy by separate concerns into small decorators."
     pubdate: dec 9
     tags:
       - rb
@@ -93,19 +146,19 @@ topics:
 
   - title: "How to Spice up Your Slack Channel with Hubot"
     url: "http://www.sitepoint.com/spice-up-your-slack-channel-with-hubot/"
-    comment: "The only limit to Hubot is your own imagination."
+    comment: "Integrate Hubot to Slack in many ways."
     pubdate: dec 11
     tags:
       - js
+
 
 - title: Watch
   baseline: "Screencasts and conferences videos, or other video feeds ..."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
-    pubdate: sep 3
-    duration:
+  - title: "DockerCon EU 2015"
+    url: "http://confreaks.tv/events/dockerconeu2015"
+    comment: "DockerCon EU 2015 all presentations."
+    pubdate: dec 8
     tags:
-      - rb
+      - ops
