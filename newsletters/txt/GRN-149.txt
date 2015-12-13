@@ -1,0 +1,145 @@
+----------------------------------------------------
+Green Ruby News #149 - dec 14th 2015
+----------------------------------------------------
+*|IFNOT:CONTENT=Only Rant|*
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+*Best Visualizations 2015* (design)
+http://www.informationisbeautifulawards.com/news/116-2015-the-winners
+The best and brightest of the data viz world in 2015.
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+*Cloudcraft* (ops)
+https://cloudcraft.co/
+Visualize your cloud architecture like a pro.
+
+*You-Dont-Need-jQuery* (js)
+https://github.com/oneuijs/You-Dont-Need-jQuery
+Examples of how to do query, style, dom, ajax, event etc like jQuery with plain javascript.
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+*grape* (rb)
+https://github.com/ruby-grape/grape
+An opinionated micro-framework for creating REST-like APIs in Ruby.
+
+*dry-validation* (rb)
+https://github.com/dryrb/dry-validation
+Data validation library based on predicate logic and rule composition
+
+*Toshi* (rb)
+https://toshi.io/
+A full bitcoin node for building web applications.
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+*Choosing an HTTP Status Code — Stop Making It Hard* (web - dec 4)
+http://racksburg.com/choosing-an-http-status-code/
+Use right HTTP status code when design APIs.
+
+*What's new in Ruby 2.3?* (rb - dec 7)
+http://nithinbekal.com/posts/ruby-2-3-features/
+Frozen strings, dig for Hash and Array, did_you_mean... and many more others.
+
+*iOS and Android Programming with Go* (go - dec 8)
+http://www.sitepoint.com/ios-and-android-programming-with-go/
+Possibilities for native iOS and Android programming with Go.
+
+*Data Migrations in Rails* (rb - dec 8)
+https://robots.thoughtbot.com/data-migrations-in-rails
+Use temp rake task instead of rails database migration as data migration.
+
+*Level Up Your Command-Line-Fu With Ruby* (rb - dec 8)
+http://blog.honeybadger.io/ruby-unix-command-line/
+Using ruby as a swiss army knife to improve some comand-line tasks.
+
+*Ex Pusher Lite - Part 1: Phoenix Channels and Rails apps* (el - dec 9)
+http://www.akitaonrails.com/2015/12/09/ex-pusher-lite-part-1-phoenix-channels-and-rails-apps
+Part 1 of a series which moves rails app to phoenix.
+
+*25,000+ Req/s for Rack JSON API with MRuby* (rb - dec 9)
+http://lucaguidi.com/2015/12/09/25000-requests-per-second-for-rack-json-api-with-mruby.html
+Performance comparison for a simple rack app between MRI ruby and mruby.
+
+*Speeding Up Bulk Imports in Rails* (rb - dec 9)
+https://blog.codeship.com/speeding-up-bulk-imports-in-rails/
+Direct SQL calls is more efficient when dealing with buld imports.
+
+*Rails Anti-Pattern: Fat Decorator* (rb - dec 9)
+http://craftingruby.com/posts/2015/12/09/rails-antipattern-fat-decorator.html
+Make single decoretor less envy by separate concerns into small decorators.
+
+*Using Multi-Step Animations and Transitions* (css3 - dec 11)
+https://css-tricks.com/using-multi-step-animations-transitions/
+Multi-step animations and transitions are fun little tricks we have at our disposal to create rich, dynamic movement in CSS.
+
+*How to Spice up Your Slack Channel with Hubot* (js - dec 11)
+http://www.sitepoint.com/spice-up-your-slack-channel-with-hubot/
+Integrate Hubot to Slack in many ways.
+
+Watch
+----------------------------------------------------
+Screencasts and conferences videos, or other video feeds ...
+
+*DockerCon EU 2015* (ops - dec 8)
+http://confreaks.tv/events/dockerconeu2015
+DockerCon EU 2015 all presentations.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+Links curated by by mose (publisher), xenor, tysliu (editors), Nauman Tariq, hsatac (contributors).
+*|END:IF|*
+*|IFNOT:CONTENT=Only Links|*
+
+Rant
+----------------------------------------------------
+The random rant of the week by xenor.
+
+#### Physical Health of Developers
+
+This is the first time for me to release the newsletter without our dear
+friend mose, who is currently in fever and need to take some days to recover.
+Recently I've been noticed that some developers including me suffering from
+small or big health issues.
+
+The reason sometimes is obvious, when developer's mode is on, it sticks for
+hours without leaving our screen and keyboard. Even when taking a break, we
+are still on smaller screens or keyboards (tablet, mobile...etc). Our mind
+keeps running and sometimes physical requirements just seems unnecessary. So,
+after several stays up or absences of meals, it happened.
+
+Am I going to suggest standing up and doing outdoor activities? Hell no! The
+desire of gathering and absorbing information is what makes us strong, our
+body is just the minimum support for our mind.
+
+So what should we do? Well, eat, drink, rest, and grab a keyboard to type! 
+
+*|END:IF|*
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+
