@@ -6,7 +6,7 @@ participants: "Nauman Tariq, hsatac, ilake"
 rant:
   author: mose
   content:
-    "#### 
+    "####
 "
 
 topics:
@@ -51,14 +51,54 @@ topics:
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
-    pubdate: sep 3
+  - title: "What's new in Ruby 2.3?"
+    url: "http://nithinbekal.com/posts/ruby-2-3-features/"
+    comment: "First preview release was made available a few weeks ago. I’ve been playing around with it and looking at what new features have been introduced."
+    pubdate: dec 7
     tags:
       - rb
 
+  - title: "Level Up Your Command-Line-Fu With Ruby"
+    url: "http://blog.honeybadger.io/ruby-unix-command-line/"
+    comment: "To really master the command line you have to master dozens — if not hundreds — of small utility programs."
+    pubdate: dec 8
+    tags:
+      - rb
 
+  - title: "Using Docker for Rails Development"
+    url: "https://blog.codeship.com/using-docker-for-rails-development/"
+    comment: "Getting started with containers may initially seem more complex, but they greatly reduce the amount of time and space needed to run your application."
+    pubdate: dec 8
+    tags:
+      - rb
+
+  - title: "25,000+ Req/s for Rack JSON API with MRuby"
+    url: "http://lucaguidi.com/2015/12/09/25000-requests-per-second-for-rack-json-api-with-mruby.html"
+    comment: "Mruby is a minimal version of Ruby, that can be embedded in any system that supports C."
+    pubdate: dec 9
+    tags:
+      - rb
+
+  - title: "Speeding Up Bulk Imports in Rails"
+    url: "https://blog.codeship.com/speeding-up-bulk-imports-in-rails/"
+    comment: "Imagine we have 50,000 products to import… not an absurd amount, but enough that we can start to notice some pain."
+    pubdate: dec 9
+    tags:
+      - rb
+
+  - title: "Using Multi-Step Animations and Transitions"
+    url: "https://css-tricks.com/using-multi-step-animations-transitions/"
+    comment: "Multi-step animations and transitions are fun little tricks we have at our disposal to create rich, dynamic movement in CSS."
+    pubdate: dec 11
+    tags:
+      - css3
+
+  - title: "How to Spice up Your Slack Channel with Hubot"
+    url: "http://www.sitepoint.com/spice-up-your-slack-channel-with-hubot/"
+    comment: "The only limit to Hubot is your own imagination."
+    pubdate: dec 11
+    tags:
+      - js
 
 - title: Watch
   baseline: "Screencasts and conferences videos, or other video feeds ..."
@@ -68,6 +108,6 @@ topics:
     url: ""
     comment: ""
     pubdate: sep 3
-    duration: 
+    duration:
     tags:
       - rb
