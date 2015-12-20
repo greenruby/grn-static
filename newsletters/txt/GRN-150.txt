@@ -1,0 +1,179 @@
+----------------------------------------------------
+Green Ruby News #150 - dec 20th 2015
+----------------------------------------------------
+*|IFNOT:CONTENT=Only Rant|*
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+*Bonne Marque* (design)
+https://bonnemarque.se/
+Very animated and inteactive agency website.
+
+*Domino* (design)
+http://domino.roilipman.com/
+A 3d board, put dominoes, make them fall. Neat tree.js demo.
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+*Fieldbook* (tool)
+https://fieldbook.com/developers
+Online database with a spreadsheet UI and a REST API.
+
+*The Bash Academy* (tool)
+http://www.bash.academy/
+Online learning for bash shell programming.
+
+*GitHub does dotfiles* (tool)
+https://dotfiles.github.io/
+unofficial guide to dotfiles on GitHub.
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+*Ruby 2.2.4* (rb - dec 16)
+https://www.ruby-lang.org/en/news/2015/12/16/ruby-2-2-4-released/
+This is mostly a security release but it also has some bugfixes.
+
+*Rails 5.0.0 beta1* (rb - dec 18)
+http://weblog.rubyonrails.org/2015/12/18/Rails-5-0-beta1/
+The first beta for Rails 5. Feel adventurous? Go try that!
+
+*strong_migrations* (rb)
+https://github.com/ankane/strong_migrations
+Catch unsafe migrations at dev time by raising errors with explicit message.
+
+*Kinto* (js)
+http://kinto.readthedocs.org/en/latest/
+Lightweight JSON storage service with synchronization and sharing abilities (self-hosted).
+
+*PouchDB* (js)
+http://pouchdb.com/
+JavaScript database inspired by CouchDB that is designed to run well within the browser.
+
+*Slush* (js)
+http://slushjs.github.io
+Tool to help generate new project structures.
+
+*Vuvuzela* (go)
+https://github.com/davidlazar/vuvuzela
+Private messaging system that hides metadata.
+
+*Git-appraise* (tool)
+https://github.com/google/git-appraise
+Distributed code review system for Git repos.
+
+*Containerd* (ops)
+https://containerd.tools/
+A daemon to control runC, built for performance and density.
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+*Ruby Refinements* (rb - dec 13)
+http://jakeyesbeck.com/2015/12/13/ruby-refinements/
+Using refinements to avoid monkey patching.
+
+*How to Test Multithreaded Code* (rb - dec 14)
+http://www.mikeperham.com/2015/12/14/how-to-test-multithreaded-code
+By using Mutex and ConditionVariable.
+
+*Getting started with Distributed Ruby (DRb)* (rb - dec 14)
+http://nithinbekal.com/posts/distributed-ruby
+dRuby allows multiple Ruby processes to talk to each other with simple setup.
+
+*How to Test Multithreaded Code* (rb - dec 14)
+http://www.mikeperham.com/2015/12/14/how-to-test-multithreaded-code/
+Multithreaded code is hard to write and even harder to test.
+
+*Rails, Secure Cookies, HSTS and friends* (rb - dec 14)
+http://eftimov.net//rails-tls-hsts-cookies
+How secure cookies and HTTP Strict Transport Security work in Rails by taking a look in its middleware stack.
+
+*SVG icons are easy but the fallbacks aren't* (html5 - dec 14)
+http://maketea.co.uk/2015/12/14/svg-icons-are-easy-but-the-fallbacks-arent.html
+SVG fallbacks for the 4% of browsers that don't support SVG. As it turns out, that's hard.
+
+*Handling Paginated Resources in Ruby* (rb - dec 15)
+https://rossta.net/blog/paginated-resources-in-ruby.html
+Using 'recursive each' and Kernel#to_enum method to enumerate paginated resources
+
+*Refactor Until You Feel Almost Comfortable* (rb - dec 15)
+https://robots.thoughtbot.com/refactor-until-you-feel-almost-comfortable
+How much is too much refactoring?
+
+*Working with Fractions and Rationals in Ruby* (rb - dec 15)
+http://blog.honeybadger.io/ruby-rational-numbers-and-fractions/
+The rationality of Ruby mathematics.
+
+*New features in Express.js 4.0* (js - dec 15)
+http://codecondo.com/expressjs-4-0-high-class-framework-for-node-js/
+List of recently released features in Express.js.
+
+*Why I'm not using your open source project* (web - dec 15)
+https://www.nczonline.net/blog/2015/12/why-im-not-using-your-open-source-project/
+Some good insight on what an open source project needs to enforce trust.
+
+*Iterating in Puppet* (ops - dec 16)
+https://www.devco.net/archives/2015/12/16/iterating-in-puppet.php
+Various ways to iterate in puppet, including the most recent ones from puppet 4.
+
+*Max out Your TDD with Maxitest and Minitest* (rb - dec 17)
+http://www.sitepoint.com/max-tdd-maxitest-minitest/
+Maxitest makes tests a bit more readable and easier to use.
+
+*Email address validation and encodings* (rb - dec 20)
+http://dalibornasevic.com/posts/63-email-address-validation-and-encodings
+Various considerations for when you have to validate email addresses.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+Links curated by by mose (publisher), xenor (editors), Nauman Tariq (contributors).
+*|END:IF|*
+*|IFNOT:CONTENT=Only Links|*
+
+Rant
+----------------------------------------------------
+The random rant of the week by mose.
+
+#### 150 weeks
+
+It's kind of a round number, this 150th edition of the Green Ruby Newsletter
+is an occasion to see where we are. At this day there are 1,610 subscribers to
+the email newsletter. The website has around 250 unique visits per day, which
+mostly are RSS readers. Those are anecdotal numbers. As we have no intention
+to monetize this initiative, it doesn't matter that much. Soon we will enter
+in the red zone in the amount of subscribers and we will need to push some
+people out, those who forgot about the newsletter but also forgot to
+unsubscribe. It will happen when we reach 1,800 (because Mailchimp is still
+free under 2,000 subscribers).
+
+During the whole life of the publication, we never missed one week. Last week,
+thanks to Xenor, I even could have some rest. Now I'm better, flu never last.
+We also have, for a couple of months, much more links contributions (thanks
+Nauman Tariq). All in all, our model seems to have been pretty sustainable.
+
+*|END:IF|*
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+
