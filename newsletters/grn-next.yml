@@ -28,21 +28,32 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "Fieldbook"
+    url: "https://fieldbook.com/developers"
+    comment: "Online database with a spreadsheet UI and a REST API."
     tags:
-      - css3
+      - tool
 
+  - title: "The Bash Academy"
+    url: "http://www.bash.academy/"
+    comment: "Online learning for bash shell programming."
+    tags:
+      - tool
+
+  - title: "GitHub does dotfiles"
+    url: "https://dotfiles.github.io/"
+    comment: "unofficial guide to dotfiles on GitHub."
+    tags:
+      - tool
 
 
 - title: Install
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "strong_migrations"
+    url: "https://github.com/ankane/strong_migrations"
+    comment: "Catch unsafe migrations at dev time by raising errors with explicit message."
     tags:
       - rb
 
@@ -51,10 +62,24 @@ topics:
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
-    pubdate: sep 3
+  - title: "How to Test Multithreaded Code"
+    url: "http://www.mikeperham.com/2015/12/14/how-to-test-multithreaded-code"
+    comment: "By using Mutex and ConditionVariable."
+    pubdate: dec 14
+    tags:
+      - rb
+
+  - title: "Getting started with Distributed Ruby (DRb)"
+    url: "http://nithinbekal.com/posts/distributed-ruby"
+    comment: "dRuby allows multiple Ruby processes to talk to each other with simple setup."
+    pubdate: dec 14
+    tags:
+      - rb
+
+  - title: "Handling Paginated Resources in Ruby"
+    url: "https://rossta.net/blog/paginated-resources-in-ruby.html"
+    comment: "Using 'recursive each' and Kernel#to_enum method to enumerate paginated resources"
+    pubdate: dec 15
     tags:
       - rb
 
