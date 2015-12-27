@@ -1,0 +1,190 @@
+----------------------------------------------------
+Green Ruby News #151 - dec 27th 2015
+----------------------------------------------------
+*|IFNOT:CONTENT=Only Rant|*
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+*Benjamin Guedj portfolio* (design)
+http://www.oursroux.com/
+A french designer fullpage portfolio, very graphic.
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+*Expressive CSS* (css3)
+http://johnpolacek.github.io/expressive-css/
+An approach to writing lightweight, scalable CSS.
+
+*CSS Cursor* (css3)
+https://css-cursor.techstream.org/
+This small web app helps you to choose cursor type from the showcase for use in your application.
+
+*SlackArchive.io* (tool)
+http://slackarchive.io/
+Public chat archive for Slack.
+
+*dbHero* (tool)
+https://dbheroapp.com/gui-database-client-for-mysql-postgresql-mac-osx
+GUI for PostgreSQL & MySQL.
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+*Ruby 2.3.0 Released* (rb - dec 25)
+https://www.ruby-lang.org/en/news/2015/12/25/ruby-2-3-0-released/
+Bunch of new features in that new release. Happy Christmas.
+
+*Terminal-table* (rb)
+https://github.com/tj/terminal-table
+Ruby ASCII Table Generator, simple and feature rich.
+
+*Diffy* (rb)
+https://github.com/samg/diffy
+Easy Diffing in Ruby.
+
+*Pester* (rb)
+https://github.com/thoughtbot/pester
+Automatically ask for a PR review on slack.
+
+*Services* (rb)
+https://github.com/krautcomputing/services
+A nifty service layer for your Rails app.
+
+*Debt_ceiling* (rb)
+https://github.com/bglusman/debt_ceiling
+Get a grip on your technical debt.
+
+*Fastgem* (rb)
+https://github.com/Nguyenanh/fastgem
+Command line color tool for search Ruby Gem faster
+
+*Homebrew-cask* (tool)
+https://github.com/caskroom/homebrew-cask
+A CLI for the administration of Mac applications. Not new, but now it is included in Homebrew. Update yours.
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+*The long, incredibly tortuous, and fascinating process of creating a Chinese font* (design - dec 18)
+http://qz.com/522079/the-long-incredibly-tortuous-and-fascinating-process-of-creating-a-chinese-font/
+Just you try designing 13,000-plus intricate character shapes that all have to balance one another.
+
+*How does ARGV get set in Ruby?* (rb - dec 21)
+http://blog.honeybadger.io/what-does-argv-mean-in-ruby/
+Understand how ARGV works by jumping into MRI code.
+
+*Composing Microscopic Rails Views With Cells* (rb - dec 22)
+http://vaidehijoshi.github.io/blog/2015/12/22/composing-microscopic-rails-views-with-cells/
+How to use the Cells gem for powerful encapsulation.
+
+*Multiline strings in Ruby 2.3.0* (rb - dec 22)
+https://infinum.co/the-capsized-eight/articles/multiline-strings-ruby-2-3-0-the-squiggly-heredoc
+Space indent when using heredoc can be used without breaking code's indentation in Ruby 2.3.0.
+
+*When to choose Elixir over Ruby for 2016 projects?* (el - dec 22)
+https://www.amberbit.com/blog/2015/12/22/when-choose-elixir-over-ruby-for-2016-projects/
+What are the criteria that may push you to use Elixir.
+
+*DHH - Building Basecamp 3 like a Porsche 911* (rb - dec 22)
+http://www.fullstackradio.com/32
+(podcast) in-depth talk about basecamp 3.
+
+*The joy of a collaborative writing process* (rb - dec 22)
+http://practicingdeveloper.com/2015/12/22/the-joy-of-a-collaborative-writing-process-practicing-ruby/
+There is so much value in active collaboration and the internet needs more of that.
+
+*Email confirmation with Clearance* (rb - dec 23)
+https://robots.thoughtbot.com/email-confirmation-with-clearance
+How to use clearance gem for email confirmations.
+
+*Upgrading to Ruby on Rails 5.0 from Rails 4.2* (rb - dec 24)
+http://dev.mensfeld.pl/2015/12/upgrading-to-ruby-on-rails-5-0-from-rails-4-2-application-use-case/
+If you have a decent code coverage level and you know what you’re doing, upgrade should not be a big problem.
+
+*How Ruby 2.2 can cause an out-of-memory server crash* (rb - dec 24)
+https://evilmartians.com/chronicles/ruby-2_2-oom
+Some examples and patch for ruby 2.2's memory manage issue.
+
+*Ruby 2.0 keyword arguments and hook messages* (rb - dec 26)
+https://medium.com/@heidar/ruby-2-0-keyword-arguments-and-hook-messages-3f006f5c8f65#.fz13agyrf
+A pretty neat pattern called hook messages.
+
+*flex-grow is weird. Or is it?* (css3 - dec 26)
+https://css-tricks.com/flex-grow-is-weird/
+How flex-grow works, weird quirks and all.
+
+*Switching from rbenv to postmodern’s ruby-install and chruby* (rb - dec 27)
+https://medium.com/@heidar/switching-from-rbenv-to-postmodern-s-ruby-install-and-chruby-f0daa24b36e6#.82v4sxt3q
+Switch over from rvm and rbenv to ruby-install and chruby.
+
+*ApplicationRecord in Rails 5* (rb - dec 28)
+http://blog.bigbinary.com/2015/12/28/application-record-in-rails-5.html
+Rails 5 beta-1 was recently released and one of the notable change was introduction of ApplicationRecord.
+
+Watch
+----------------------------------------------------
+Screencasts and conferences videos, or other video feeds ...
+
+*Controller Testing with Ruby* (rb - dec 22 - 12m)
+http://www.sitepoint.com/watch-controller-testing-with-ruby/
+How to write controller specs and isolate them from other parts of your application with the help of mocks and stubs.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+Links curated by by mose (publisher), xenor (editors), Nauman Tariq, hsatac (contributors).
+*|END:IF|*
+*|IFNOT:CONTENT=Only Links|*
+
+Rant
+----------------------------------------------------
+The random rant of the week by mose.
+
+#### Happy end of 2015
+
+Take good time, use the calendar rotation as a pretext to have good
+resolutions, get wasted like if you were a teenager (wait, what? we all are
+teenagers here?), or do whatever makes you happy if like me you prefer to
+remain sober. See you in 2016.
+
+#### SlackCast 2016
+
+We had a lot of discussion with Nauman Tariq about how to make slack usage
+more lively, more useful, and such things. We worked together on a concept of
+event that we want to try next weekend. It will happen next Saturday (Jan 2nd)
+around 23:00 UTC (more or less 4 hours). If you want to participate, please
+shoot me an [email][mail], and we'll give you the precise time when we know
+it, plus the how-to-join-in. It will be a first time, it won't be perfect, but
+it will be a lot of fun.
+
+Read more about it on the [SlackCast manifesto][manifesto]. You also can join
+[rubyonrails.link][link], that's where it will happen.
+
+[mail]: mailto:mose@greenruby.org
+[manifesto]: https://slack-files.com/T05052K3Q-F0FSX2GHG-3330dc8ef1
+[link]: http://www.rubyonrails.link/
+
+*|END:IF|*
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+

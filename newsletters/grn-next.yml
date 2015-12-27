@@ -1,6 +1,6 @@
 ---
-edition: "151"
-pubdate: "dec 27th 2015"
+edition: "152"
+pubdate: "jan 3rd 2016"
 editors: "xenor, tysliu"
 participants: "Nauman Tariq, hsatac, ilake"
 rant:
@@ -28,17 +28,11 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: "SlackArchive.io"
-    url: "http://slackarchive.io/"
-    comment: "Public chat archive for Slack."
+  - title: ""
+    url: ""
+    comment: ""
     tags:
-      - tool
-
-  - title: "dbHero"
-    url: "https://dbheroapp.com/gui-database-client-for-mysql-postgresql-mac-osx"
-    comment: "GUI for PostgreSQL & MySQL."
-    tags:
-      - tool
+      - css3
 
 
 
@@ -57,24 +51,10 @@ topics:
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: "How does ARGV get set in Ruby?"
-    url: "http://blog.honeybadger.io/what-does-argv-mean-in-ruby/"
-    comment: "Understand how ARGV works by jumping into MRI code."
-    pubdate: dec 21
-    tags:
-      - rb
-
-  - title: "Multiline strings in Ruby 2.3 - the squiggly heredoc"
-    url: "https://infinum.co/the-capsized-eight/articles/multiline-strings-ruby-2-3-0-the-squiggly-heredoc"
-    comment: "Space indent when using heredoc can be used without breaking code's indentation in Ruby 2.3"
-    pubdate: dec 22
-    tags:
-      - rb
-
-  - title: "How Ruby 2.2 can cause an out-of-memory server crash"
-    url: "https://evilmartians.com/chronicles/ruby-2_2-oom"
-    comment: "Some examples and patch for ruby 2.2's memory manage issue."
-    pubdate: dec 24
+  - title: ""
+    url: ""
+    comment: ""
+    pubdate: sep 3
     tags:
       - rb
 
