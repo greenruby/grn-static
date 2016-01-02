@@ -34,15 +34,13 @@ topics:
     tags:
       - css3
 
-
-
 - title: Install
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "TTY::Prompt"
+    url: "https://github.com/peter-murach/tty-prompt"
+    comment: "Provides a number of prompt types for gathering user input and robust API for getting and validating complex inputs."
     tags:
       - rb
 
@@ -51,14 +49,33 @@ topics:
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
-    pubdate: sep 3
+  - title: "ApplicationRecord in Rails 5"
+    url: "http://blog.bigbinary.com/2015/12/28/application-record-in-rails-5.html"
+    comment: "Rails 5 beta-1 was recently released and one of the notable change was introduction of ApplicationRecord."
+    pubdate: dec 28
     tags:
       - rb
 
+  - title: "A Retrospective on Ruby in 2015"
+    url: "http://www.sitepoint.com/a-retrospective-on-ruby-in-2015/"
+    comment: "2015 is a big year for Ruby, let's look at some major changes."
+    pubdate: dec 28
+    tags:
+      - rb
 
+  - title: "How HTTP headers get passed from nginx to your Ruby app"
+    url: "http://blog.honeybadger.io/how-cookies-and-other-http-headers-get-passed-from-nginx-to-rack-and-into-rails/"
+    comment: "HTTP headers contain cookies, information about the user agent, caching info — a whole lot of really useful stuff."
+    pubdate: dec 28
+    tags:
+      - rb
+
+  - title: "What’s in a State and How to Persist It"
+    url: "http://www.sitepoint.com/whats-in-a-state/"
+    comment: "If you want to build one of those fancy offline-first apps, you need to start thinking of keeping all state in the webapp and you can’t depend on the server always being available."
+    pubdate: dec 29
+    tags:
+      - js
 
 - title: Watch
   baseline: "Screencasts and conferences videos, or other video feeds ..."
