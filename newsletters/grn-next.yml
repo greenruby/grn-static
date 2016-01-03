@@ -28,11 +28,17 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "SQL Tabs"
+    url: "http://www.sqltabs.com/"
+    comment: "An open source SQL console for Postgresql"
     tags:
-      - css3
+      - tool
+
+  - title: "GitHub Hovercard"
+    url: "https://justineo.github.io/github-hovercard/"
+    comment: "Hover popup for github issues, users, and repos."
+    tags:
+      - tool
 
 - title: Install
   baseline: "A selection of gems or applications updated during past week."
@@ -43,6 +49,12 @@ topics:
     comment: "Provides a number of prompt types for gathering user input and robust API for getting and validating complex inputs."
     tags:
       - rb
+
+  - title: "react-boilerplate"
+    url: "https://github.com/mxstbr/react-boilerplate"
+    comment: "Quick setup for Redux, hot–reloading, PostCSS, react-router, ServiceWorker, AppCache, FontFaceObserver and Mocha."
+    tags:
+      - js
 
 
 - title: Read
@@ -67,6 +79,13 @@ topics:
     url: "http://blog.honeybadger.io/how-cookies-and-other-http-headers-get-passed-from-nginx-to-rack-and-into-rails/"
     comment: "HTTP headers contain cookies, information about the user agent, caching info — a whole lot of really useful stuff."
     pubdate: dec 28
+    tags:
+      - rb
+
+  - title: "Using RSpec Metadata"
+    url: "https://rossta.net/blog/using-rspec-metadata.html"
+    comment: "Use rspec's metadata tag to separate the boilerplate of test setup."
+    pubdate: dec 29
     tags:
       - rb
 
