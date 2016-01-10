@@ -1,0 +1,196 @@
+----------------------------------------------------
+Green Ruby News #153 - jan 10th 2016
+----------------------------------------------------
+*|IFNOT:CONTENT=Only Rant|*
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+*SFCD* (design)
+http://sfcd.com/
+One-page website of a design agency.
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+*Jstips* (js)
+https://github.com/loverajoel/jstips
+This is about one JS tip every day.
+
+*Unique gradient generator* (css3)
+http://gradient.quasi.ink/
+This tool helps you to generate beautiful blurry background images. It uses extremely light images instead off CSS3 gradients.
+
+*CSS3 Animation Cheat Sheet* (css3)
+http://www.justinaguilar.com/animations/
+The CSS3 Animation Cheat Sheet is a set of preset, plug-and-play animations for your web projects.
+
+*How to C (as of 2016)* (tool)
+https://matt.sh/howto-c
+If you must write in C, you should follow modern rules.
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+*Rounding* (rb)
+https://github.com/brianhempel/rounding
+Round by any arbitrary step in Ruby.
+
+*Pstore_pp* (rb)
+https://github.com/nerab/pstore_pp
+Pretty-prints the contents of PStore files as JSON.
+
+*OS.js* (js)
+http://os.js.org/
+JavaScript Cloud/Web Desktop Platform
+
+*Nodal* (js)
+http://www.nodaljs.com/
+Framework that adds a lot of tools to node.js.
+
+*Elixirscript* (el)
+https://github.com/bryanjos/elixirscript
+Converts Elixir to JavaScript
+
+*Milligram* (css3)
+http://milligram.github.io/
+A minimalist CSS framework 
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+*Test runner in Rails 5* (rb - jan 3)
+http://blog.bigbinary.com/2016/01/03/test-runner-in-rails-5.html
+New command for running tests
+
+*Lessons Learned from Building a Ruby Gem API* (rb - jan 4)
+http://brandonhilkert.com/blog/lessons-learned-from-building-a-ruby-gem-api/
+Using the adapter pattern can help create a layer between your code and the dependency API.
+
+*Refactoring in Ruby: Smelly Parameters Lists* (rb - jan 4)
+http://eftimov.net//refactoring-smelly-parameters-lists
+Why and ho to avoid long parameters lists in your method signatures.
+
+*Building a Phoenix API* (el - jan 4)
+https://medium.com/@luizvarela1/building-a-phoenix-api-d27902a1450a#.ox1b1msqv
+How to build a JSON API using Elixir + Phoenix from scratch
+
+*Writing command-line apps in Ruby* (rb - jan 5)
+http://blog.honeybadger.io/writing-command-line-apps-in-ruby/
+Ruby provides all the building blocks to command-line applications fairly easily.
+
+*How swappable storage and fakes lead to cleaner, more reliable tests* (rb - jan 5)
+http://engineering.avvo.com/articles/how-swappable-storage-and-fakes-lead-to-cleaner-more-reliable-tests.html#disqus_thread
+Bringing fakeredis to resque_unit
+
+*Statefulness in a Stateless Language: Elixir* (el - jan 5)
+http://blog.codeship.com/statefulness-in-elixir/
+When it's necessary to keep track of state, Elixir (functional, stateless) has got your back by using recursion and processes.
+
+*Neat new features in Git 2.7* (tool - jan 5)
+https://developer.atlassian.com/blog/2016/01/git-2.7-release/
+Some of the new stuff in last Git version.
+
+*Jedi Principles of UI Animation* (design - jan 5)
+https://medium.com/@adaptivepath/jedi-principles-of-ui-animation-2b88423b1dac#.e2y6nn67f
+Why, when, and how to use animation in your UI.
+
+*Hidden Complexity in Ruby Land* (rb - jan 6)
+https://blog.blockscore.com/hidden-complexity-in-ruby-land/
+Concise code can have a dark side.
+
+*ActiveRecord stole my data and now I want it back* (rb - jan 7)
+https://medium.com/@yammereng/activerecord-stole-my-data-and-now-i-want-it-back-3041ac4eb163#.xz4nzioqg
+Case study from Yammer, in which they gradually moved from a monolith to microservices.
+
+*Running a Rails Application on Deis* (rb - jan 7)
+http://blog.codeship.com/running-a-rails-application-on-deis/
+This tutorial is about running a Rails application on Deis.
+
+*unless X is processed differently then if !X* (rb - jan 7)
+http://rorbservations.com/post/136816741674/rubys-unless-x-is-processed-differently
+Actual instructions generated behind the scenes are not the same.
+
+*Authenticate All the Things with oPRO, the Basics* (rb - jan 7)
+http://www.sitepoint.com/authenticate-all-the-things-with-opro-the-basics/
+Rails engine to build custom authentication provider quickly and easily.
+
+*Rendering views outside of controllers in Rails 5* (rb - jan 8)
+http://blog.bigbinary.com/2016/01/08/rendering-views-outside-of-controllers-in-rails-5.html
+Render HTML or JSON response outside of the request-response cycle.
+
+*What’s your favorite blogging platform?* (web - jan 8)
+https://scotch.io/bar-talk/poll-whats-your-favorite-bloggingwriting-platform
+A poll for different blogging platforms.
+
+*Analysis of Software Architectures* (tool - jan 9)
+http://www.firatatagun.com/blog/2016/01/09/analysis-of-software-architectures/
+Review of all different software architectures.
+
+Watch
+----------------------------------------------------
+Screencasts and conferences videos, or other video feeds ...
+
+*Atom* (tool - jan 10 - 23m)
+http://build-podcast.com/atom/
+Various settings, packages, themes and also create a super simple package for Atom.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+Links curated by by mose (publisher), tysliu (editors), Nauman Tariq, xenor (contributors).
+*|END:IF|*
+*|IFNOT:CONTENT=Only Links|*
+
+Rant
+----------------------------------------------------
+The random rant of the week by mose.
+
+#### That micro-service thing
+
+For a while now, and more even since the rise of docker, it becomes a trend to
+split applications in parts and approach them as a collection of
+micro-services. This is not exactly new, I remember in 2002 having seen
+various applications based on this concept. But they had shortcomings.
+Development was harder and it imported a whole bunch of increased complexity
+because there was a lot of moving parts.
+
+In a projects that I have the occasion of following, I can watch the migration
+from monolith to micro-service and I can tell you, the architecture change is
+not simple technical decision. By splitting application there is a whole lot
+of application aspects that move out of the area of the developers team and
+are now the responsibility of the infrastructure team. The shift cannot be
+taken lightly.
+
+From what I observed, the switch to micro-services can only be efficient if
+there was already a shift to a real devops organization. It means that the
+development and the infrastructure are more tightly coupled. Otherwise, it's
+just a mess. The QA also can get crazy, and the networking layer gets
+increased complexity (or even dramatic latencies). Errors and services
+resilience also need an extra layer of attention.
+
+Don't move to micro-services if you are not ready for it, seriously, it can
+end up by shooting yourself in the foot.
+
+*|END:IF|*
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+
