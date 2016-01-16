@@ -33,6 +33,7 @@ Those links and resources are used in the weekly collection of information for G
 * <http://thenewstack.io> (general IT)
 * <http://codegeekz.com> (web)
 * <http://scotch.io> (webdev)
+* <https://codyhouse.co/> (webdev)
 
 ### Email newsletters
 
