@@ -51,23 +51,56 @@ topics:
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
-    pubdate: sep 3
+  - title: "101 Ruby Code Factoids"
+    url: "http://6ftdan.com/allyourdev/2016/01/13/101-ruby-code-factoids/"
+    comment: "A collection of Ruby tricks."
+    pubdate: jan 13
     tags:
       - rb
 
+  - title: "Dockerizing a Ruby on Rails Application"
+    url: "https://semaphoreci.com/community/tutorials/dockerizing-a-ruby-on-rails-application"
+    comment: "Why and when should we use docker?"
+    pubdate: jan 13
+    tags:
+      - rb
 
+  - title: "Parallel JavaScript with ParallelJS"
+    url: "http://www.sitepoint.com/parallel-javascript-with-paralleljs/"
+    comment: "One of the coolest new possibilities arriving along with HTML5 was the Worker interface of the Web Workers API."
+    pubdate: jan 13
+    tags:
+      - js
+
+  - title: "Influencing Web Layouts with Print Layouts"
+    url: "https://css-tricks.com/print-magazine-layouts-converted-to-web-layouts/"
+    comment: "Examples on playing with fonts and shapes."
+    pubdate: jan 13
+    tags:
+      - css3
+
+  - title: "Designing A Product Page Layout with Flexbox"
+    url: "https://css-tricks.com/designing-a-product-page-layout-with-flexbox/"
+    comment: "Flexbox can help us create flexible layouts that are optimized for the web and mobile devices."
+    pubdate: jan 15
+    tags:
+      - css3
+
+  - title: ""
+    url: ""
+    comment: ""
+    pubdate: jan 13
+    tags:
+      - rb
 
 - title: Watch
   baseline: "Screencasts and conferences videos, or other video feeds ..."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
-    pubdate: sep 3
+  - title: "The Axis of Flexbox"
+    url: "http://www.sitepoint.com/watch-the-axis-of-flexbox/"
+    comment: "Learn about the axes of Flexbox, which are different than the traditional top to bottom, left to right axes."
+    pubdate: jan 13
     duration:
     tags:
-      - rb
+      - css3
