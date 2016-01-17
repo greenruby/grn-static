@@ -28,11 +28,11 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "RubyFu"
+    url: "http://rubyfu.net/"
+    comment: "A book with ruby hach and tricks."
     tags:
-      - css3
+      - rb
 
 
 
@@ -40,9 +40,15 @@ topics:
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "imba"
+    url: "https://github.com/somebee/imba"
+    comment: "A new programming language for the web that compiles to performant and readable JavaScript."
+    tags:
+      - js
+
+  - title: "scenic"
+    url: "https://github.com/thoughtbot/scenic"
+    comment: "Versioned database views for Rails."
     tags:
       - rb
 
@@ -79,12 +85,26 @@ topics:
     tags:
       - css3
 
+  - title: "Refactoring in Ruby: The right place for a Builder?"
+    url: "http://eftimov.net/refactoring-builder-pattern/"
+    comment: "Use builder for validating dependent relation objects."
+    pubdate: jan 13
+    tags:
+      - rb
+
   - title: "Designing A Product Page Layout with Flexbox"
     url: "https://css-tricks.com/designing-a-product-page-layout-with-flexbox/"
     comment: "Flexbox can help us create flexible layouts that are optimized for the web and mobile devices."
     pubdate: jan 15
     tags:
       - css3
+
+  - title: "Dear Github"
+    url: "https://github.com/dear-github/dear-github"
+    comment: "An open letter to GitHub from the maintainers of open source projects."
+    pubdate: jan 15
+    tags:
+      - tool
 
   - title: ""
     url: ""
