@@ -1,8 +1,8 @@
 ---
-edition: "154"
-pubdate: "jan 17th 2016"
+edition: "155"
+pubdate: "jan 24th 2016"
 editors: "xenor, tysliu"
-participants: "Nauman Tariq, hsatac, ilake"
+participants: "Nauman Tariq, hsatac"
 rant:
   author: mose
   content:
@@ -28,11 +28,11 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: "RubyFu"
-    url: "http://rubyfu.net/"
-    comment: "A book with ruby hach and tricks."
+  - title: ""
+    url: ""
+    comment: ""
     tags:
-      - rb
+      - css3
 
 
 
@@ -40,15 +40,9 @@ topics:
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: "imba"
-    url: "https://github.com/somebee/imba"
-    comment: "A new programming language for the web that compiles to performant and readable JavaScript."
-    tags:
-      - js
-
-  - title: "scenic"
-    url: "https://github.com/thoughtbot/scenic"
-    comment: "Versioned database views for Rails."
+  - title: ""
+    url: ""
+    comment: ""
     tags:
       - rb
 
@@ -57,70 +51,23 @@ topics:
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: "101 Ruby Code Factoids"
-    url: "http://6ftdan.com/allyourdev/2016/01/13/101-ruby-code-factoids/"
-    comment: "A collection of Ruby tricks."
-    pubdate: jan 13
-    tags:
-      - rb
-
-  - title: "Dockerizing a Ruby on Rails Application"
-    url: "https://semaphoreci.com/community/tutorials/dockerizing-a-ruby-on-rails-application"
-    comment: "Why and when should we use docker?"
-    pubdate: jan 13
-    tags:
-      - rb
-
-  - title: "Parallel JavaScript with ParallelJS"
-    url: "http://www.sitepoint.com/parallel-javascript-with-paralleljs/"
-    comment: "One of the coolest new possibilities arriving along with HTML5 was the Worker interface of the Web Workers API."
-    pubdate: jan 13
-    tags:
-      - js
-
-  - title: "Influencing Web Layouts with Print Layouts"
-    url: "https://css-tricks.com/print-magazine-layouts-converted-to-web-layouts/"
-    comment: "Examples on playing with fonts and shapes."
-    pubdate: jan 13
-    tags:
-      - css3
-
-  - title: "Refactoring in Ruby: The right place for a Builder?"
-    url: "http://eftimov.net/refactoring-builder-pattern/"
-    comment: "Use builder for validating dependent relation objects."
-    pubdate: jan 13
-    tags:
-      - rb
-
-  - title: "Designing A Product Page Layout with Flexbox"
-    url: "https://css-tricks.com/designing-a-product-page-layout-with-flexbox/"
-    comment: "Flexbox can help us create flexible layouts that are optimized for the web and mobile devices."
-    pubdate: jan 15
-    tags:
-      - css3
-
-  - title: "Dear Github"
-    url: "https://github.com/dear-github/dear-github"
-    comment: "An open letter to GitHub from the maintainers of open source projects."
-    pubdate: jan 15
-    tags:
-      - tool
-
   - title: ""
     url: ""
     comment: ""
-    pubdate: jan 13
+    pubdate: sep 3
     tags:
       - rb
+
+
 
 - title: Watch
   baseline: "Screencasts and conferences videos, or other video feeds ..."
   links:
 
-  - title: "The Axis of Flexbox"
-    url: "http://www.sitepoint.com/watch-the-axis-of-flexbox/"
-    comment: "Learn about the axes of Flexbox, which are different than the traditional top to bottom, left to right axes."
-    pubdate: jan 13
+  - title: ""
+    url: ""
+    comment: ""
+    pubdate: sep 3
     duration:
     tags:
-      - css3
+      - rb

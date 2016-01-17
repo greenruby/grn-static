@@ -1,0 +1,154 @@
+----------------------------------------------------
+Green Ruby News #154 - jan 17th 2016
+----------------------------------------------------
+*|IFNOT:CONTENT=Only Rant|*
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+*The grey tailes* (design)
+http://thegreytales.net/en/
+Very interactive and graphical layout.
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+*RubyFu* (rb)
+http://rubyfu.net/
+(book) A book with ruby hacks and tricks.
+
+*Remotespace.io* (web)
+http://remotespace.io
+Handpicked content about remote work.
+
+*ShellCheck* (tool)
+http://www.shellcheck.net/
+Shell script static analyzer.
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+*Hash_police* (rb)
+https://github.com/mz026/hash_police
+To check whether given two hashes are of the same format.
+
+*Scenic* (rb)
+https://github.com/thoughtbot/scenic
+Versioned database views for Rails.
+
+*Imba* (js)
+https://github.com/somebee/imba
+A new programming language for the web that compiles to performant and readable JavaScript.
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+*How To Parallelize Ruby HTTP Requests* (rb - jan 10)
+http://jakeyesbeck.com/2016/01/10/how-to-parallelize-ruby-http-requests/
+Of a good usage of em-synchrony.
+
+*Enumerators and Enumerable Methods in Ruby* (rb - jan 11)
+https://medium.com/@vincedevendra/enumerators-and-enumerable-in-ruby-d351dd9da875#.fswfuk2nu
+One of the coolest features of Ruby is the Enumerable methods.
+
+*Capistrano Server Configs in YAML* (rb - jan 11)
+http://rorbservations.com/post/137089961739/recipe-to-store-capistranos-server-configs-in-yaml
+Extract server-specific information from your Capistrano deployment files.
+
+*Create dependency structures with local Ruby Gems* (rb - jan 11)
+http://teotti.com/create-dependency-structures-with-local-ruby-gems/
+Using a local gems dependency structure is complementary to good object oriented practices
+
+*Debugging gems with git bisect.* (tool - jan 12)
+http://blog.testdouble.com/posts/2016-01-12-debugging-dependencies-with-git-bisect.html
+Bisecting is an oft-overlooked tool that's good to have in your arsenal
+
+*The Sass Ampersand* (css3 - jan 12)
+https://css-tricks.com/the-sass-ampersand/
+A nice time-saver when you know how to use it, or a bit of a time-waster when you're struggling.
+
+*The Evolution of Rails with David Heinemeier Hansson* (rb - jan 13)
+http://softwareengineeringdaily.com/2016/01/13/the-evolution-of-rails-with-david-heinemeier-hansson/
+A 1-houyr long audio interview with DHH.
+
+*101 Ruby Code Factoids* (rb - jan 13)
+http://6ftdan.com/allyourdev/2016/01/13/101-ruby-code-factoids/
+A collection of Ruby tricks.
+
+*Dockerizing a Ruby on Rails Application* (rb - jan 13)
+https://semaphoreci.com/community/tutorials/dockerizing-a-ruby-on-rails-application
+Why and when should we use docker?
+
+*Parallel JavaScript with ParallelJS* (js - jan 13)
+http://www.sitepoint.com/parallel-javascript-with-paralleljs/
+One of the coolest new possibilities arriving along with HTML5 was the Worker interface of the Web Workers API.
+
+*Influencing Web Layouts with Print Layouts* (css3 - jan 13)
+https://css-tricks.com/print-magazine-layouts-converted-to-web-layouts/
+Examples on playing with fonts and shapes.
+
+*Refactoring in Ruby: The right place for a Builder?* (rb - jan 13)
+http://eftimov.net/refactoring-builder-pattern/
+Use builder for validating dependent relation objects.
+
+*Why Kubernetes doesn’t use libnetwork* (ops - jan 14)
+http://blog.kubernetes.io/2016/01/why-Kubernetes-doesnt-use-libnetwork.html?m=1
+The deep reasons why kubernetes and docker actually don't mix that well.
+
+*Terraform Design Patterns: the Terrafile* (rb - jan 14)
+http://bensnape.com/2016/01/14/terraform-design-patterns-the-terrafile/
+Design pattern to use Terraform even more productively.
+
+*Designing A Product Page Layout with Flexbox* (css3 - jan 15)
+https://css-tricks.com/designing-a-product-page-layout-with-flexbox/
+Flexbox can help us create flexible layouts that are optimized for the web and mobile devices.
+
+*Dear Github* (tool - jan 15)
+https://github.com/dear-github/dear-github
+An open letter to GitHub from the maintainers of open source projects.
+
+Watch
+----------------------------------------------------
+Screencasts and conferences videos, or other video feeds ...
+
+*The Axis of Flexbox* (css3 - jan 13 - 7m)
+http://www.sitepoint.com/watch-the-axis-of-flexbox/
+Learn about the axes of Flexbox, which are different than the traditional top to bottom, left to right axes.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+Links curated by by mose (publisher), xenor, tysliu (editors), Nauman Tariq, hsatac (contributors).
+*|END:IF|*
+*|IFNOT:CONTENT=Only Links|*
+
+Rant
+----------------------------------------------------
+The random rant of the week by mose.
+
+#### Nah
+
+Got busy and I have no time to rant this week, sorry about this. 
+
+*|END:IF|*
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+
