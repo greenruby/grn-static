@@ -1,6 +1,6 @@
 ---
-edition: "155"
-pubdate: "jan 24th 2016"
+edition: "156"
+pubdate: "jan 31th 2016"
 editors: "xenor, tysliu"
 participants: "Nauman Tariq, hsatac"
 rant:
@@ -51,75 +51,14 @@ topics:
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: "What's new in Ruby 2.3 Enumerable"
-    url: "https://rossta.net/blog/whats-new-in-ruby-2-3-enumerable.html"
-    comment: "Two new Enumerable instance methods were added, grep_v and chunk_while, both of which are variations on other Enumerable methods."
-    pubdate: jan 18
-    tags:
-      - rb
-
-  - title: "11 Ruby Tricks You Haven’t Seen Before"
-    url: "http://www.blackbytes.info/2016/01/ruby-tricks/"
-    comment: "The title says everything."
-    pubdate: jan 18
-    tags:
-      - rb
-
-  - title: "Pointy Slider"
-    url: "https://codyhouse.co/gem/pointy-slider/"
-    comment: "Creating a slideshow with sliding-in panels that unveil new, fixed background images."
-    pubdate: jan 18
-    tags:
-      - web
-
-  - title: "Skinny controllers through refactoring"
-    url: "https://www.leighhalliday.com/skinny-controllers-through-refactoring"
-    comment: "Controllers can get out of control. Their job should generally be quite simple."
-    pubdate: jan 19
-    tags:
-      - rb
-
-  - title: "New Rails identity"
-    url: "http://weblog.rubyonrails.org/2016/1/19/new-rails-identity/"
-    comment: "With Rails 5 just around the corner, we thought it was finally time for a fresh look for a new day."
-    pubdate: jan 19
-    tags:
-      - rb
-
-  - title: "The Easiest Way to Add Authentication to Any App"
-    url: "https://scotch.io/tutorials/%E2%80%8Bthe-easiest-way-to-add-authentication-to-any-app"
-    comment: "Don't feel like implementing authentication yourself? Try Auth0."
-    pubdate: jan 19
-    tags:
-      - tools
-
-  - title: "Trends in Ruby - analyzing rubygems stats for 2015"
-    url: "https://infinum.co/the-capsized-eight/articles/analyzing-rubygems-stats-v2015"
-    comment: "Rubygems is the official package manager for Ruby and we decided to crunch up some stats for 2015 and see what's what."
-    pubdate: jan 20
-    tags:
-      - rb
-
-  - title: "OAuth 2 All the Things with oPRO: Customization"
-    url: "http://www.sitepoint.com/oauth-2-all-the-things-with-opro-customization/"
-    comment: "This is the third and the last part of this series of working with oPRO."
-    pubdate: jan 21
-    tags:
-      - rb
-
-  - title: "TrumpScript Wants to Make Python Great Again"
-    url: "http://thenewstack.io/trumpscript-satirical-programming-language-will-make-python-great/"
-    comment: "A new programming language that mocks real estate entrepreneur and U.S. presidential candidate Donald Trump."
-    pubdate: jan 19
-    tags:
-      - web
-
   - title: ""
     url: ""
     comment: ""
-    pubdate: jan 19
+    pubdate: sep 3
     tags:
       - rb
+
+
 
 - title: Watch
   baseline: "Screencasts and conferences videos, or other video feeds ..."
