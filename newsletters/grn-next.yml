@@ -51,14 +51,75 @@ topics:
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
-    pubdate: sep 3
+  - title: "Rails 5.0.0.beta1.1, 4.2.5.1, 4.1.14.1, and 3.2.22.1 have been released!"
+    url: "http://weblog.rubyonrails.org/2016/1/25/Rails-5-0-0-beta1-1-4-2-5-1-4-1-14-1-3-2-22-1-and-rails-html-sanitizer-1-0-3-have-been-released/"
+    comment: "Many important security fixes, and it is recommended that users upgrade as soon as possible:"
+    pubdate: jan 25
     tags:
       - rb
 
+  - title: "Building a chess server in Rails 5 with Action Cable-powered WebSockets"
+    url: "http://jargon.io/joeyschoblaska/rails-5-chess-with-action-cable-websockets"
+    comment: "The biggest new feature in Rails 5 is Action Cable, which provides support for implementing WebSockets."
+    pubdate: jan 25
+    tags:
+      - rb
 
+  - title: "UPGRADING TO RUBY ON RAILS 5.0"
+    url: "https://wyeworks.com/blog/2016/1/26/upgrading-to-ruby-on-rails-5-0/"
+    comment: "In this post, we’re going to upgrade a Rails 4.2.5 application to Rails 5.0.0.beta1.1."
+    pubdate: jan 26
+    tags:
+      - rb
+
+  - title: "Two Factor Authentication in Rails 4 with Devise, Authy and Puppies"
+    url: "https://www.twilio.com/blog/2016/01/two-factor-authentication-in-rails-4-with-devise-authy-and-puppies.html?"
+    comment: "Two Factor Authentication in just a few lines of code"
+    pubdate: jan 26
+    tags:
+      - rb
+
+  - title: "Learning JavaScript native Functions"
+    url: "https://scotch.io/tutorials/learning-javascript-native-functions-and-how-to-use-them"
+    comment: "Call, apply, and bind are tricky to grasp though it becomes more fluid with practice."
+    pubdate: jan 28
+    tags:
+      - js
+
+  - title: "Unit Test Your JavaScript Using Mocha and Chai"
+    url: "http://www.sitepoint.com/unit-test-javascript-mocha-chai/"
+    comment: "The examples and techniques shown in this article can be applied to both browser-based code and Node.js code."
+    pubdate: jan 26
+    tags:
+      - rb
+
+  - title: "Building a CLI in Ruby with GLI"
+    url: "https://www.leighhalliday.com/building-cli-ruby-with-gli"
+    comment: "Build better CLI tools with the GLI gem."
+    pubdate: jan 28
+    tags:
+      - rb
+
+  - title: "Hackable PDF Typesetting in Ruby with Prawn"
+    url: "http://www.sitepoint.com/hackable-pdf-typesetting-in-ruby-with-prawn/"
+    comment: "Prawn is the spiritual successor to PDF::Writer."
+    pubdate: jan 28
+    tags:
+      - rb
+
+  - title: "Hookbin – Capture and Inspect HTTP Requests"
+    url: "https://css-tricks.com/hookbin-capture-inspect-http-requests/"
+    comment: "Hookbin is a free service which allows you to intercept, parse, and debug HTTP requests of any kind."
+    pubdate: jan 29
+    tags:
+      - web
+
+  - title: ""
+    url: ""
+    comment: ""
+    pubdate: jan 28
+    tags:
+      - rb
 
 - title: Watch
   baseline: "Screencasts and conferences videos, or other video feeds ..."
