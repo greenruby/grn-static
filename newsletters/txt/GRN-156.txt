@@ -1,0 +1,212 @@
+----------------------------------------------------
+Green Ruby News #156 - jan 31th 2016
+----------------------------------------------------
+*|IFNOT:CONTENT=Only Rant|*
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+*Bird* (design)
+http//www.muvinteractive.com
+An innovative pointer device and a neat website.
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+*buddybuild* (tool)
+http://www.buddybuild.com
+A continuous integration, continuous delivery and an iterative feedback service.
+
+*Siphon* (mobile)
+https://getsiphon.com/
+Build and publish React Native apps without installing Xcode
+
+*The OpenTracing Project* (ops)
+http://opentracing.io/
+Consistent, expressive, vendor-neutral APIs for distributed tracing and context propagation.
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+*Rails 5.0.0.beta1.1, 4.2.5.1, 4.1.14.1, and 3.2.22.1* (rb - jan 25)
+http://weblog.rubyonrails.org/2016/1/25/Rails-5-0-0-beta1-1-4-2-5-1-4-1-14-1-3-2-22-1-and-rails-html-sanitizer-1-0-3-have-been-released/
+Many important security fixes, and it is recommended that users upgrade as soon as possible.
+
+*Flammarion* (rb)
+https://github.com/zach-capalbo/flammarion
+Turns ruby script to gui.
+
+*Wheretz* (rb)
+https://github.com/zverok/wheretz
+Time zone by geo coordinates lookup.
+
+*Standup-bot* (rb)
+https://github.com/kiote/standup-bot
+StandUp Bot for Slack.
+
+*Maquette* (js)
+https://github.com/AFASSoftware/maquette
+Minimalistic Virtual DOM implementation with support for animated transitions.
+
+*Umbrella JS* (js)
+https://github.com/umbrellajs/umbrella
+Lightweight intuitive javascript library.
+
+*goa* (go)
+http://goa.design/index.html
+Design-based HTTP microservice dev in Go.
+
+*Env_bang* (tool)
+https://github.com/jcamenisch/ENV_BANG
+Do a bang-up job managing your environment variables.
+
+*PEV* (tool)
+http://tatiyants.com/postgres-query-plan-visualization/
+Postgres EXPLAIN Visualizer.
+
+*Dlite* (tool)
+https://github.com/nlf/dlite
+A simple way to use Docker on OS X.
+
+*Github-canned-responses* (tool)
+https://github.com/notwaldorf/github-canned-responses
+Because copy pasting isn't that great.
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+*Engine-based Rails Apps: Pros & Cons* (rb - jan 25)
+https://www.benroesch.com/2016/01/25/engine-based-rails-apps-pros-and-cons
+What splitting Rails application to multiple engines will lead to.
+
+*Ruby Debugging Magic Cheat Sheet* (rb - jan 25)
+http://www.schneems.com/2016/01/25/ruby-debugging-magic-cheat-sheet.html
+All about deciphering behavior of complicated Ruby code
+
+*Building a chess server in Rails 5 with Action Cable-powered WebSockets* (rb - jan 25)
+http://jargon.io/joeyschoblaska/rails-5-chess-with-action-cable-websockets
+The biggest new feature in Rails 5 is Action Cable, which provides support for implementing WebSockets.
+
+*Integrate Jasmine into Rails for Solid JavaScript Testing* (js - jan 25)
+http://www.sitepoint.com/integrate-jasmine-into-rails-for-solid-javascript-testing/
+Allows testing of JavaScript functionality continuously.
+
+*Ruby Marshalling from A to Z* (rb - jan 26)
+http://ilyabylich.svbtle.com/ruby-marshalling-from-a-to-z
+Deep dive into the marshall native feature in Ruby.
+
+*Upgrading to ruby on rails 5.0* (rb - jan 26)
+https://wyeworks.com/blog/2016/1/26/upgrading-to-ruby-on-rails-5-0/
+From Rails 4.2.5 application to Rails 5.0.0.beta1.1, the pitfalls.
+
+*Two Factor Authentication in Rails 4 with Devise, Authy and Puppies* (rb - jan 26)
+https://www.twilio.com/blog/2016/01/two-factor-authentication-in-rails-4-with-devise-authy-and-puppies.html
+Two Factor Authentication in just a few lines of code.
+
+*Rails Dynamic Render to RCE (CVE-2016-0752)* (rb - jan 26)
+https://nvisium.com/blog/2016/01/26/rails-dynamic-render-to-rce-cve-2016-0752/
+Details about the recent remote-code execution via local file inclusion in Rails.
+
+*Learning JavaScript native Functions* (js - jan 28)
+https://scotch.io/tutorials/learning-javascript-native-functions-and-how-to-use-them
+Call, apply, and bind are tricky to grasp though it becomes more fluid with practice.
+
+*Unit Test Your JavaScript Using Mocha and Chai* (rb - jan 26)
+http://www.sitepoint.com/unit-test-javascript-mocha-chai/
+The examples and techniques shown in this article can be applied to both browser-based code and Node.js code.
+
+*Solving backwards compatibility in Ruby with a proxy object* (rb - jan 26)
+http://brandonhilkert.com/blog/solving-backwards-compatibility-in-ruby-with-a-proxy-object/
+Simple and elegant solution for handling otherwise breaking changes.
+
+*How to write a simple web crawler in Ruby* (rb - jan 27)
+https://rossta.net/blog/how-to-write-a-simple-web-crawler-in-ruby-revisited.html
+Use Ruby's Enumerator to write a simple web crawler.
+
+*A Serverless REST API in Minutes with Serverless Framework* (js - jan 27)
+http://blog.codeship.com/a-serverless-rest-api-in-minutes/
+A REST API up and running quickly with the Serverless Framework (which relies on AWS Lambda).
+
+*Building a CLI in Ruby with GLI* (rb - jan 28)
+https://www.leighhalliday.com/building-cli-ruby-with-gli
+Build better CLI tools with the GLI gem.
+
+*Hackable PDF Typesetting in Ruby with Prawn* (rb - jan 28)
+http://www.sitepoint.com/hackable-pdf-typesetting-in-ruby-with-prawn/
+Prawn is the spiritual successor to PDF::Writer.
+
+*The Basics of Web Application Security* (web - jan 28)
+http://martinfowler.com/articles/web-security-basics.html
+Security is both very important and often under-emphasized.
+
+*Hookbin – Capture and Inspect HTTP Requests* (web - jan 29)
+https://css-tricks.com/hookbin-capture-inspect-http-requests/
+Hookbin is a free service which allows you to intercept, parse, and debug HTTP requests of any kind.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+Links curated by by mose (publisher), xenor, tysliu (editors), Nauman Tariq, hsatac, Lincoln (contributors).
+*|END:IF|*
+*|IFNOT:CONTENT=Only Links|*
+
+Rant
+----------------------------------------------------
+The random rant of the week by mose.
+
+#### 3 years of Green Ruby
+
+Well, almost 3 years. [Green Ruby #1][grn1] was sent on feb 12th, 2013. Since
+then, we sent 156 editions, one per week without discontinuation, including a
+total of 5556 links. There is now 1691 subscribers to the newsletter. That's
+quite something, for a mail that was just sent to some friends at the
+beginning.
+
+During all this time, things didn't change that much. In july 2013 the code
+was put on github and the process didn't change much since then. I got a
+Rakefile to build the letter from yaml files and there is no need to change
+it. For the first 2 years Xenor was sending me some links by mail every weeks,
+then in 2015 Tysliu got back in and we used git to get both of their
+contributions. Later on, we got the slack channel where we throw between 10 to
+30 links per weeks that I do my selection from. Nauman recently proved to be
+the most prolific contributor on slack. (btw if you want to join our slack
+group, it's pretty open, just fire me an email).
+
+We still don't have any business project behind this publication. We are just
+a group of friends that like to keep in touch with the current trends, and
+that like to share the result of our weekly workout with our fellow coder
+brothers and sisters. Soon we will reach the limit of the free mailchimp usage
+(at 2000 subscribers), and that will be an interesting time. We will then ask
+people to unsubscribe if they don't read the letter. Maybe registration will
+be closed if we reach the hard limit. But there is no plan to become a
+sustainable money-based adventure. So we'll keep the cost to the minimum.
+
+If you feel any gratefulness at all, pay it forward. Share your knowledge
+around you. Publish more open source code. Hug a friend or a stranger. Be nice
+and tolerant. Send some thank-you email to someone that published some open
+source code that saved your day. Love is wealth.
+
+[grn1]: http://greenruby.org/grn-001.html 
+
+*|END:IF|*
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+
