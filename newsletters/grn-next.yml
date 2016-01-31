@@ -28,11 +28,11 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "buddybuild"
+    url: "http://www.buddybuild.com"
+    comment: "A continuous integration, continuous delivery and an iterative feedback service"
     tags:
-      - css3
+      - tool
 
 
 
@@ -40,9 +40,27 @@ topics:
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "maquette"
+    url: "https://github.com/AFASSoftware/maquette"
+    comment: "Minimalistic Virtual DOM implementation with support for animated transitions."
+    tags:
+      - js
+
+  - title: "Umbrella JS"
+    url: "https://github.com/umbrellajs/umbrella"
+    comment: "Lightweight intuitive javascript library"
+    tags:
+      - js
+
+  - title: "flammarion"
+    url: "https://github.com/zach-capalbo/flammarion"
+    comment: "Turns ruby script to gui"
+    tags:
+      - rb
+
+  - title: "wheretz"
+    url: "https://github.com/zverok/wheretz"
+    comment: "Time zone by geo coordinates lookup"
     tags:
       - rb
 
@@ -50,6 +68,13 @@ topics:
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
   links:
+
+  - title: "Engine-based Rails Apps: Pros & Cons"
+    url: "https://www.benroesch.com/2016/01/25/engine-based-rails-apps-pros-and-cons"
+    comment: "What splitting Rails application to multiple engines will lead to."
+    pubdate: jan 25
+    tags:
+      - rb
 
   - title: "Rails 5.0.0.beta1.1, 4.2.5.1, 4.1.14.1, and 3.2.22.1 have been released!"
     url: "http://weblog.rubyonrails.org/2016/1/25/Rails-5-0-0-beta1-1-4-2-5-1-4-1-14-1-3-2-22-1-and-rails-html-sanitizer-1-0-3-have-been-released/"
@@ -93,6 +118,13 @@ topics:
     tags:
       - rb
 
+  - title: "How to write a simple web crawler in Ruby"
+    url: "https://rossta.net/blog/how-to-write-a-simple-web-crawler-in-ruby-revisited.html"
+    comment: "Use Ruby's Enumerator to write a simple web crawler"
+    pubdate: jan 27
+    tags:
+      - rb
+
   - title: "Building a CLI in Ruby with GLI"
     url: "https://www.leighhalliday.com/building-cli-ruby-with-gli"
     comment: "Build better CLI tools with the GLI gem."
@@ -114,12 +146,6 @@ topics:
     tags:
       - web
 
-  - title: ""
-    url: ""
-    comment: ""
-    pubdate: jan 28
-    tags:
-      - rb
 
 - title: Watch
   baseline: "Screencasts and conferences videos, or other video feeds ..."
