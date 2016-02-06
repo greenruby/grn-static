@@ -28,12 +28,11 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "Typeplate"
+    url: "http://typeplate.com/"
+    comment: "A typographic starter kit."
     tags:
       - css3
-
 
 
 - title: Install
@@ -46,6 +45,30 @@ topics:
     tags:
       - rb
 
+  - title: "connection_pool"
+    url: "https://github.com/mperham/connection_pool"
+    comment: "Generic connection pooling for Ruby."
+    tags:
+      - rb
+
+  - title: "ruby-kafka"
+    url: "https://github.com/zendesk/ruby-kafka"
+    comment: "A Ruby client library for the Kafka distributed log system."
+    tags:
+      - rb
+
+  - title: "ngx_pagespeed"
+    url: "http://ngxpagespeed.com/"
+    comment: "Nginx module for rewriting web pages to reduce latency and bandwidth."
+    tags:
+      - ops
+
+  - title: "Bootstrap Studio"
+    url: "http://bootstrapstudio.io/"
+    comment: "A desktop application builds web page using bootstrap framework."
+    tags:
+      - css3
+
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
   links:
@@ -57,12 +80,26 @@ topics:
     tags:
       - rb
 
+  - title: "Caching result sets and collection in Rails 5"
+    url: "http://blog.bigbinary.com/2016/02/02/activerecord-relation-cache-key.html"
+    comment: "Introduce collection caching in Rails 5."
+    pubdate: feb 2
+    tags:
+      - rb
+
   - title: "Recurring events in Ruby"
     url: "https://rossta.net/blog/recurring-events-in-ruby.html"
     comment: "Montrose gem allows you to easily create “recurrence” objects through chaining."
     pubdate: feb 3
     tags:
       - rb
+
+  - title: "Using D3 JS with React JS"
+    url: "http://blog.bigbinary.com/2016/02/04/using-d3-js-with-react-js.html"
+    comment: "Example to make react and d3 together."
+    pubdate: feb 4
+    tags:
+      - js
 
   - title: "Scientist: Measure Twice, Cut Over Once"
     url: "http://githubengineering.com/scientist/"
