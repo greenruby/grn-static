@@ -1,6 +1,6 @@
 ---
-edition: "157"
-pubdate: "feb 7th 2016"
+edition: "158"
+pubdate: "feb 14th 2016"
 editors: "xenor, tysliu"
 participants: "Nauman Tariq, hsatac"
 rant:
@@ -28,127 +28,37 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: "Typeplate"
-    url: "http://typeplate.com/"
-    comment: "A typographic starter kit."
+  - title: ""
+    url: ""
+    comment: ""
     tags:
       - css3
+
 
 
 - title: Install
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: "Scientist!"
-    url: "https://github.com/github/scientist"
-    comment: "A Ruby library for carefully refactoring critical paths."
+  - title: ""
+    url: ""
+    comment: ""
     tags:
       - rb
 
-  - title: "connection_pool"
-    url: "https://github.com/mperham/connection_pool"
-    comment: "Generic connection pooling for Ruby."
-    tags:
-      - rb
-
-  - title: "ruby-kafka"
-    url: "https://github.com/zendesk/ruby-kafka"
-    comment: "A Ruby client library for the Kafka distributed log system."
-    tags:
-      - rb
-
-  - title: "ngx_pagespeed"
-    url: "http://ngxpagespeed.com/"
-    comment: "Nginx module for rewriting web pages to reduce latency and bandwidth."
-    tags:
-      - ops
-
-  - title: "Bootstrap Studio"
-    url: "http://bootstrapstudio.io/"
-    comment: "A desktop application builds web page using bootstrap framework."
-    tags:
-      - css3
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: "Running concurrent workflows in Ruby"
-    url: "http://blog.chaps.io/2016/02/01/running-concurrent-workflows-in-ruby.html"
-    comment: "Have you ever struggled with a chain of rake tasks that needed to be run periodically and their runtime was giving you a headache? "
-    pubdate: feb 1
-    tags:
-      - rb
-
-  - title: "Caching result sets and collection in Rails 5"
-    url: "http://blog.bigbinary.com/2016/02/02/activerecord-relation-cache-key.html"
-    comment: "Introduce collection caching in Rails 5."
-    pubdate: feb 2
-    tags:
-      - rb
-
-  - title: "Recurring events in Ruby"
-    url: "https://rossta.net/blog/recurring-events-in-ruby.html"
-    comment: "Montrose gem allows you to easily create “recurrence” objects through chaining."
-    pubdate: feb 3
-    tags:
-      - rb
-
-  - title: "Using D3 JS with React JS"
-    url: "http://blog.bigbinary.com/2016/02/04/using-d3-js-with-react-js.html"
-    comment: "Example to make react and d3 together."
-    pubdate: feb 4
-    tags:
-      - js
-
-  - title: "Scientist: Measure Twice, Cut Over Once"
-    url: "http://githubengineering.com/scientist/"
-    comment: "Scientist is a tool by Github for refactoring your code."
-    pubdate: feb 4
-    tags:
-      - tools
-
-  - title: "Browser Trends February 2016: Mobile Market Decline?"
-    url: "http://www.sitepoint.com/browser-trends-february-2016-mobile-market-decline/"
-    comment: "The predicted 50:50 desktop/mobile ratio is approaching."
-    pubdate: feb 4
-    tags:
-      - web
-
-  - title: "Action Cable and WebSockets: An in-Depth Tutorial"
-    url: "http://www.sitepoint.com/action-cable-and-websockets-an-in-depth-tutorial/"
-    comment: "Hopefully, this articles has given you the tools you need to decide if Action Cable and WebSockets are worth trying and researching further."
-    pubdate: feb 4
-    tags:
-      - rb
-
-  - title: "Foundation 6: The New Flex Grid"
-    url: "http://www.sitepoint.com/foundation-6-the-new-flex-grid/"
-    comment: "In Foundation 6, Zurb has introduced the Flex Grid, an optional replacement for the standard grid."
-    pubdate: feb 4
-    tags:
-      - css3
-
-  - title: "Advanced Search Form"
-    url: "https://codyhouse.co/gem/advanced-search-form/"
-    comment: "Build a search form with advanced filtering options and quick link suggestions."
-    pubdate: feb 4
-    tags:
-      - web
-
-  - title: "FROM MONOLITHS TO MICROSERVICES: AN ARCHITECTURAL STRATEGY"
-    url: "http://thenewstack.io/from-monolith-to-microservices/"
-    comment: "The most challenging aspects of moving from monolithic systems to microservices are the organizational changes required, such as building services teams that own all aspects of their microservices."
-    pubdate: feb 5
-    tags:
-      - tools
-
   - title: ""
     url: ""
     comment: ""
-    pubdate: feb 4
+    pubdate: sep 3
     tags:
       - rb
+
+
 
 - title: Watch
   baseline: "Screencasts and conferences videos, or other video feeds ..."

@@ -1,0 +1,189 @@
+----------------------------------------------------
+Green Ruby News #157 - feb 7th 2016
+----------------------------------------------------
+*|IFNOT:CONTENT=Only Rant|*
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+*GitLogs Search* (tool)
+http://www.gitlogs.com/search
+A better interface for Github's search API.
+
+*Remote Jobseeker’s Handbook* (tool)
+http://cobyism.com/remotejobseeker/
+(book) The tricks of the trade of being a remote techie.
+
+*Learn Enough Git to Be Dangerous* (tool)
+https://www.softcover.io/books/28fdb94f/learn_enough_git
+(book) An Introduction to Version Control with Git
+
+*OpenBenchmarking* (tool)
+http://openbenchmarking.org/
+An Open, Collaborative Testing Platform For Benchmarking and Performance Analysis.
+
+*SQLdep* (tool)
+https://sqldep.com/
+SQLdep generates complete documentation for your database system.
+
+*Unirest* (tool)
+http://unirest.io/
+Simplified, lightweight HTTP request client libraries in multiple languages.
+
+*Nativefier* (tool)
+https://github.com/jiahaog/nativefier
+Wrap any web page natively without even thinking, across Windows, OSX and Linux
+
+*Typeplate* (css3)
+http://typeplate.com/
+A typographic starter kit.
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+*Scientist* (rb)
+https://github.com/github/scientist
+A Ruby library for carefully refactoring critical paths.
+
+*Connection_pool* (rb)
+https://github.com/mperham/connection_pool
+Generic connection pooling for Ruby.
+
+*Ruby-kafka* (rb)
+https://github.com/zendesk/ruby-kafka
+A Ruby client library for the Kafka distributed log system.
+
+*Rails_emoji_pickerp* (rb)
+https://github.com/ID25/rails_emoji_picker
+Add emoji to your app :smiley_cat:
+
+*Pt* (js)
+https://williamngan.github.io/pt/index.html
+A code experiment on point, form, and space.
+
+*Bulma* (css3)
+http://bulma.io/
+A modern CSS framework based on Flexbox.
+
+*Bootstrap Studio* (css3)
+http://bootstrapstudio.io/
+A desktop application builds web page using bootstrap framework (nonfree).
+
+*Gophish* (tool)
+https://getgophish.com/
+Open Source Phishing Framework
+
+*ngx_pagespeed* (ops)
+http://ngxpagespeed.com/
+Nginx module for rewriting web pages to reduce latency and bandwidth.
+
+*Uphold* (ops)
+https://github.com/forward3d/uphold
+A tool for programmatically verifying database backups.
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+*Defensive programming in Ruby* (rb - feb 1)
+https://blog.lelonek.me/defensive-programming-in-ruby-477f3505742a#.ccaafxhyd
+Is your code rather imperative or declarative? What OOP patterns do you use? Do you extract abstractions?
+
+*Running concurrent workflows in Ruby* (rb - feb 1)
+http://blog.chaps.io/2016/02/01/running-concurrent-workflows-in-ruby.html
+Have you ever struggled with a chain of rake tasks that needed to be run periodically and their runtime was giving you a headache?
+
+*Making A Service Worker: A Case Study* (js - feb 1)
+https://www.smashingmagazine.com/2016/02/making-a-service-worker/
+We can use service workers today to make the website work offline, improve performance by reducing network requests and cache in a better, smarter way.
+
+*Caching result sets and collection in Rails 5* (rb - feb 2)
+http://blog.bigbinary.com/2016/02/02/activerecord-relation-cache-key.html
+Introduce collection caching in Rails 5.
+
+*The Art of the Commit* (tool - feb 2)
+http://alistapart.com/article/the-art-of-the-commit
+Some best practices for crafting effective commit messages.
+
+*Recurring events in Ruby* (rb - feb 3)
+https://rossta.net/blog/recurring-events-in-ruby.html
+Montrose gem allows you to easily create recurrence objects through chaining.
+
+*Action Cable and WebSockets: An in-Depth Tutorial* (rb - feb 4)
+http://www.sitepoint.com/action-cable-and-websockets-an-in-depth-tutorial/
+Rails5 official solution for integrating web socket communication with Rails, dubbed Action Cable.
+
+*Using D3 JS with React JS* (js - feb 4)
+http://blog.bigbinary.com/2016/02/04/using-d3-js-with-react-js.html
+Example to make react and d3 together.
+
+*Scientist: Measure Twice, Cut Over Once* (tools - feb 4)
+http://githubengineering.com/scientist/
+Scientist is a tool by Github for refactoring your code.
+
+*Browser Trends February 2016: Mobile Market Decline?* (web - feb 4)
+http://www.sitepoint.com/browser-trends-february-2016-mobile-market-decline/
+The predicted 50:50 desktop/mobile ratio is approaching.
+
+*InfluxDB v0.10 GA* (js - feb 4)
+https://influxdata.com/blog/announcing-influxdb-v0-10-100000s-writes-per-second-better-compression/
+Support for Hundreds of Thousands of Writes Per Second and 98% Better Compression.
+
+*jQuery Select Box Components - Chosen vs Select2* (js - feb 4)
+http://www.sitepoint.com/jquery-select-box-components-chosen-vs-select2/
+Chosen and Select2 compared head-to-head.
+
+*Foundation 6: The New Flex Grid* (css3 - feb 4)
+http://www.sitepoint.com/foundation-6-the-new-flex-grid/
+In Foundation 6, Zurb has introduced the Flex Grid, an optional replacement for the standard grid.
+
+*Advanced Search Form* (web - feb 4)
+https://codyhouse.co/gem/advanced-search-form/
+Build a search form with advanced filtering options and quick link suggestions.
+
+*Docker 1.10: New Compose file, improved security, networking* (ops - feb 4)
+https://blog.docker.com/2016/02/docker-1-10/
+Docker 1.10, jam-packed with stuff.
+
+*From monoliths to microservices: an architectural strategy* (tools - feb 5)
+http://thenewstack.io/from-monolith-to-microservices/
+The required organizational changes required, such as building services teams that own all aspects of their microservices.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+Links curated by by mose (publisher), xenor, tysliu (editors), Nauman Tariq, hsatac (contributors).
+*|END:IF|*
+*|IFNOT:CONTENT=Only Links|*
+
+Rant
+----------------------------------------------------
+The random rant of the week by mose.
+
+#### Happy year of the Monkey
+
+This week is the Lunar New Year here in Taipei. Everybody is in holidays.
+Except people that manage the things that can't stop working, like
+electricity, water, telephone, and internet. Bah, I never liked holidays
+anyways.
+
+*|END:IF|*
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+
