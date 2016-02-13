@@ -40,25 +40,41 @@ topics:
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "good-migrations"
+    url: "https://github.com/testdouble/good-migrations"
+    comment: "Prevent Rails from auto-loading app/ code when running database migrations."
     tags:
       - rb
 
+  - title: "log_spy"
+    url: "https://github.com/mz026/log_spy"
+    comment: "A rack middleware sending request log to Amazon SQS."
+    tags:
+      - rb
+
+  - title: "git-blame-someone-else"
+    url: "https://github.com/jayphelps/git-blame-someone-else"
+    comment: "Blame someone else for your bad code (joke)."
+    tags:
+      - rb
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
-    pubdate: sep 3
+  - title: "Kill Your Dependencies"
+    url: "http://www.mikeperham.com/2016/02/09/kill-your-dependencies"
+    comment: "Some notes to app and gem developers on how not to add unneeded dependencies."
+    pubdate: feb 9
     tags:
       - rb
 
-
+  - title: "Do You Believe in Programming Magic?"
+    url: "http://blog.codeship.com/programming-magic/"
+    comment: "Too magical makes more complex."
+    pubdate: "feb 10"
+    tags:
+      - rb
 
 - title: Watch
   baseline: "Screencasts and conferences videos, or other video feeds ..."
