@@ -58,6 +58,18 @@ topics:
     tags:
       - rb
 
+  - title: "HTTP::Accept"
+    url: "https://github.com/ioquatix/http-accept"
+    comment: "Provides a robust set of parsers for dealing with Accept and Accept-Language HTTP headers."
+    tags:
+      - rb
+
+  - title: "himawari.js"
+    url: "https://github.com/jakiestfu/himawari.js"
+    comment: "Download real-time images of Earth from the Himawari-8 satellite"
+    tags:
+      - js
+
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
   links:
@@ -69,12 +81,54 @@ topics:
     tags:
       - rb
 
+  - title: "Build Your Next Web App 10x Faster with RapidAPI"
+    url: "https://scotch.io/tutorials/build-your-next-web-app-10x-faster-with-rapidapi"
+    comment: "RapidAPI is an online platform that lets you create a back end for your web or mobile app without writing a single line of code."
+    pubdate: feb 9
+    tags:
+      - tool
+
   - title: "Do You Believe in Programming Magic?"
     url: "http://blog.codeship.com/programming-magic/"
     comment: "Too magical makes more complex."
     pubdate: "feb 10"
     tags:
       - rb
+
+  - title: "Making Error Alerts Less Noisy and More Useful"
+    url: "http://blog.honeybadger.io/how-to-make-your-error-alerts-less-noisy-and-more-useful/"
+    comment: "The only thing that's worse is a real alarm sent to the wrong person."
+    pubdate: feb 10
+    tags:
+      - rb
+
+  - title: "Quick Tip: Master Closures by Reimplementing Them from Scratch"
+    url: "http://www.sitepoint.com/quick-tip-master-closures-by-reimplementing-them-from-scratch/"
+    comment: "In JavaScript, a function doesn’t create a closure; the function is the closure."
+    pubdate: feb 10
+    tags:
+      - js
+
+  - title: "How to Build an SMS Appointment Reminder App with Twilio"
+    url: "http://www.sitepoint.com/build-sms-appointment-reminder-app-with-twilio/"
+    comment: "We’re going to use the user’s Google Calendar to get appointments and then send the text message with Twilio."
+    pubdate: feb 11
+    tags:
+      - js
+
+  - title: "How to Use ARIA Effectively with HTML5"
+    url: "http://www.sitepoint.com/how-to-use-aria-effectively-with-html5/"
+    comment: "ARIA stands for ‘Accessible Rich Internet Applications’ and can help make your website more accessible to people with disabilities such as hearing or visual impairment."
+    pubdate: feb 11
+    tags:
+      - web
+
+  - title: "Google Challenges AWS Lambda with Cloud Functions"
+    url: "http://thenewstack.io/google-cloud-functions-arrives-challenge-aws-lambda/"
+    comment: "Google Cloud Functions also offers developers the ability to create hooks between functions to trigger in Gmail and other Google offerings."
+    pubdate: feb 11
+    tags:
+      - tool
 
 - title: Watch
   baseline: "Screencasts and conferences videos, or other video feeds ..."
