@@ -1,0 +1,210 @@
+----------------------------------------------------
+Green Ruby News #158 - feb 14th 2016
+----------------------------------------------------
+*|IFNOT:CONTENT=Only Rant|*
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+*Love Notes* (design)
+https://spotify-valentines.com/
+Send your Valentine a playlist with a secret message.
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+*Beginner's Resources to Learn Programming Languages* (tool)
+https://www.vodien.com/singapore-community/education/beginners-resources-to-learn-programming-languages.php
+A good collection of links for web developers.
+
+*JsTips* (js)
+http://getjs.tips
+Mobile app that gives a JavaScript tip a day.
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+*good-migrations* (rb)
+https://github.com/testdouble/good-migrations
+Prevent Rails from auto-loading app/ code when running database migrations.
+
+*log_spy* (rb)
+https://github.com/mz026/log_spy
+A rack middleware sending request log to Amazon SQS.
+
+*git-blame-someone-else* (rb)
+https://github.com/jayphelps/git-blame-someone-else
+Blame someone else for your bad code (joke).
+
+*HTTP::Accept* (rb)
+https://github.com/ioquatix/http-accept
+Provides a robust set of parsers for dealing with Accept and Accept-Language HTTP headers.
+
+*Services* (rb)
+https://github.com/krautcomputing/services
+A nifty service layer for your Rails app.
+
+*himawari.js* (js)
+https://github.com/jakiestfu/himawari.js
+Download real-time images of Earth from the Himawari-8 satellite
+
+*GrapesJS* (html5)
+http://grapesjs.com
+Next generation tool for building HTML templates without coding.
+
+*Browsersync* (tool)
+https://browsersync.io/
+Time-saving synchronised browser testing.
+
+*diff-so-fancy* (tool)
+https://github.com/so-fancy/diff-so-fancy
+Good-lookin' diffs with diff-highlight and more.
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+*Kill Your Dependencies* (rb - feb 9)
+http://www.mikeperham.com/2016/02/09/kill-your-dependencies
+Some notes to app and gem developers on how not to add unneeded dependencies.
+
+*Build Your Next Web App 10x Faster with RapidAPI* (tool - feb 9)
+https://scotch.io/tutorials/build-your-next-web-app-10x-faster-with-rapidapi
+RapidAPI is an online platform that lets you create a back end for your web or mobile app without writing a single line of code.
+
+*Language and Locale Matching in Go* (go - feb 9)
+http://blog.golang.org/matchlang
+How Go handles multilinguism.
+
+*Introducing Dynamic Modules in NGINX 1.9.11* (ops - feb 9)
+https://www.nginx.com/blog/dynamic-modules-nginx-1-9-11/
+NGINX version 1.9.11 introduces dynamic modules, separate shared object files that can optionally be loaded at runtime.
+
+*Do You Believe in Programming Magic?* (rb - feb 10)
+http://blog.codeship.com/programming-magic/
+Too magical makes more complex.
+
+*Making Error Alerts Less Noisy and More Useful* (rb - feb 10)
+http://blog.honeybadger.io/how-to-make-your-error-alerts-less-noisy-and-more-useful/
+The only thing that's worse is a real alarm sent to the wrong person.
+
+*Quick Tip: Master Closures by Reimplementing Them from Scratch* (js - feb 10)
+http://www.sitepoint.com/quick-tip-master-closures-by-reimplementing-them-from-scratch/
+In JavaScript, a function doesn’t create a closure; the function is the closure.
+
+*How to Build an SMS Appointment Reminder App with Twilio* (js - feb 11)
+http://www.sitepoint.com/build-sms-appointment-reminder-app-with-twilio/
+WUse Google Calendar to get appointments and then send the text message with Twilio.
+
+*The future of loading CSS* (css3 - feb 11)
+https://jakearchibald.com/2016/link-in-body
+Chrome is intending to change the behaviour of _link_ in _body_, which allows for better ways to load CSS.
+
+*How to Use ARIA Effectively with HTML5* (web - feb 11)
+http://www.sitepoint.com/how-to-use-aria-effectively-with-html5/
+Accessible Rich Internet Applications. Don't forget about it.
+
+*Google Challenges AWS Lambda with Cloud Functions* (tool - feb 11)
+http://thenewstack.io/google-cloud-functions-arrives-challenge-aws-lambda/
+Create hooks between functions to trigger in Gmail and other Google offerings.
+
+*So you want to write a package manager* (go - feb 12)
+https://medium.com/@sdboyer/so-you-want-to-write-a-package-manager-4ae9c17d9527
+Very long article splitting in part the hard work of writing a package management system.
+
+*Open-sourcing Teletraan, a code deployment system* (ops - feb 12)
+https://engineering.pinterest.com/blog/open-sourcing-teletraan-code-deployment-system
+Code deployment system built to deploy hundreds of services on thousands hosts.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+Links curated by by mose (publisher), xenor, tysliu (editors), Nauman Tariq, hsatac (contributors).
+*|END:IF|*
+*|IFNOT:CONTENT=Only Links|*
+
+Rant
+----------------------------------------------------
+The random rant of the week by mose.
+
+#### The thin line between chaos and harmony
+
+In the long road of my developer life I had the chance to experience a very
+wide variety of organizational models. The most pleasant was in the context of
+very large open source projects, where actions are not planned but still
+organized, and things fall in their place seemingly naturally. Of course there
+is nothing natural in that. There is a category of people, that can be called
+catalysts, working as gardeners and building the pathways to collaboration.
+But because there is no predefined hierarchy, I thought chaos had some
+virtues.
+
+In other hierarchical models, there is so much waste following the rule rather
+than its essence. It's like there was an abstraction layer for efficiency and
+the staff follows the abstraction, paying no respect to the efficiency.
+Because after a time the set of rules is not making sense anymore. The
+environment moves fast and habits are hard to change. It's taking long time
+for an organization to change its own internal rules.
+
+But I also have seen non-hierarchical model totally fail. When you try to
+apply an open-source kind of organization inside a company, it cannot be done
+half-way, but it cannot be done fully.
+
+For example the volatility of contributors is an essential part of the
+open-source organization model. Things are working the way they do because
+people are free to leave and join at will, or stop working when they decide.
+This is totally different in a company, even if you can get some
+approximation, leaving and joining is a more complicated process, and has a
+different set of motivations. And let's not talk about the freedom to stop
+working at will.
+
+This single factor leads the free-formed communities to get various incentives
+for contributors to feel good about their interaction in the community. The
+ones that don't play well along other people just end up either in a
+leadership position because they are geniuses, or just leave because they
+don't fit in. Or they stay and kill the project because everybody else leaves.
+But most likely they are the reason why forks exist.
+
+But in a non-hierarchic company, those cowboys may end up hurting the whole
+process of collaboration by capturing some processes, getting very good at
+them, and give hell to everybody else for a time, under the privilege of the
+Power of the Bottleneck. It's very hard to get those people to share knowledge
+because their position depends on it. If nothing is done, the situation will
+become uneasy and awkward at best.
+
+Certainly in that type of situation, if there is some power in place to
+mitigate this danger, all can be good and well. But from my experience such
+power is hard to come by. Especially if the non-hierarchic aspect of the
+organization depends on him/her/it. Maybe there is some way to have some kind
+of catalyst role, but where I have seen such role in a company, it was
+informal and not an official position.
+
+That's too bad because I would love to experience again some real collective
+intelligence in the workplace the same way I have experienced it in some open
+source communities. I think maybe there are some companies out there that are
+doing that well, but most of the time it's not going to be structural. Most
+likely it will come from a specific set of people that do real good in
+collaboration. I still wait to see a company that includes in its genetic
+code, in its fundamental principle, the seeds that make it possible to be
+efficient and still instinctive.
+
+*|END:IF|*
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+

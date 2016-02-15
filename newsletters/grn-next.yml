@@ -1,6 +1,6 @@
 ---
-edition: "158"
-pubdate: "feb 14th 2016"
+edition: "159"
+pubdate: "feb 21th 2016"
 editors: "xenor, tysliu"
 participants: "Nauman Tariq, hsatac"
 rant:
@@ -40,95 +40,25 @@ topics:
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: "good-migrations"
-    url: "https://github.com/testdouble/good-migrations"
-    comment: "Prevent Rails from auto-loading app/ code when running database migrations."
+  - title: ""
+    url: ""
+    comment: ""
     tags:
       - rb
 
-  - title: "log_spy"
-    url: "https://github.com/mz026/log_spy"
-    comment: "A rack middleware sending request log to Amazon SQS."
-    tags:
-      - rb
-
-  - title: "git-blame-someone-else"
-    url: "https://github.com/jayphelps/git-blame-someone-else"
-    comment: "Blame someone else for your bad code (joke)."
-    tags:
-      - rb
-
-  - title: "HTTP::Accept"
-    url: "https://github.com/ioquatix/http-accept"
-    comment: "Provides a robust set of parsers for dealing with Accept and Accept-Language HTTP headers."
-    tags:
-      - rb
-
-  - title: "himawari.js"
-    url: "https://github.com/jakiestfu/himawari.js"
-    comment: "Download real-time images of Earth from the Himawari-8 satellite"
-    tags:
-      - js
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: "Kill Your Dependencies"
-    url: "http://www.mikeperham.com/2016/02/09/kill-your-dependencies"
-    comment: "Some notes to app and gem developers on how not to add unneeded dependencies."
-    pubdate: feb 9
+  - title: ""
+    url: ""
+    comment: ""
+    pubdate: sep 3
     tags:
       - rb
 
-  - title: "Build Your Next Web App 10x Faster with RapidAPI"
-    url: "https://scotch.io/tutorials/build-your-next-web-app-10x-faster-with-rapidapi"
-    comment: "RapidAPI is an online platform that lets you create a back end for your web or mobile app without writing a single line of code."
-    pubdate: feb 9
-    tags:
-      - tool
 
-  - title: "Do You Believe in Programming Magic?"
-    url: "http://blog.codeship.com/programming-magic/"
-    comment: "Too magical makes more complex."
-    pubdate: "feb 10"
-    tags:
-      - rb
-
-  - title: "Making Error Alerts Less Noisy and More Useful"
-    url: "http://blog.honeybadger.io/how-to-make-your-error-alerts-less-noisy-and-more-useful/"
-    comment: "The only thing that's worse is a real alarm sent to the wrong person."
-    pubdate: feb 10
-    tags:
-      - rb
-
-  - title: "Quick Tip: Master Closures by Reimplementing Them from Scratch"
-    url: "http://www.sitepoint.com/quick-tip-master-closures-by-reimplementing-them-from-scratch/"
-    comment: "In JavaScript, a function doesn’t create a closure; the function is the closure."
-    pubdate: feb 10
-    tags:
-      - js
-
-  - title: "How to Build an SMS Appointment Reminder App with Twilio"
-    url: "http://www.sitepoint.com/build-sms-appointment-reminder-app-with-twilio/"
-    comment: "We’re going to use the user’s Google Calendar to get appointments and then send the text message with Twilio."
-    pubdate: feb 11
-    tags:
-      - js
-
-  - title: "How to Use ARIA Effectively with HTML5"
-    url: "http://www.sitepoint.com/how-to-use-aria-effectively-with-html5/"
-    comment: "ARIA stands for ‘Accessible Rich Internet Applications’ and can help make your website more accessible to people with disabilities such as hearing or visual impairment."
-    pubdate: feb 11
-    tags:
-      - web
-
-  - title: "Google Challenges AWS Lambda with Cloud Functions"
-    url: "http://thenewstack.io/google-cloud-functions-arrives-challenge-aws-lambda/"
-    comment: "Google Cloud Functions also offers developers the ability to create hooks between functions to trigger in Gmail and other Google offerings."
-    pubdate: feb 11
-    tags:
-      - tool
 
 - title: Watch
   baseline: "Screencasts and conferences videos, or other video feeds ..."
