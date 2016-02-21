@@ -43,6 +43,18 @@ topics:
     tags:
       - tool
 
+  - title: "sucker_punch"
+    url: "https://github.com/brandonhilkert/sucker_punch"
+    comment: "Yet another ruby backgorund job processing library with concurrent-ruby."
+    tags:
+      - rb
+
+  - title: "yagni_json_encoder"
+    url: "https://github.com/ianks/yagni_json_encoder"
+    comment: "Faster JSON encoding for Rails"
+    tags:
+      - rb
+
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
@@ -52,6 +64,13 @@ topics:
     url: "http://www.blackbytes.info/2016/02/exploring-mri/"
     comment: "One way to dig deep into Ruby internals is by reading the source code that makes it work."
     pubdate: feb 16
+    tags:
+      - rb
+
+  - title: "Active Support Improvements in Rails 5"
+    url: "http://blog.bigbinary.com/2016/02/17/active-support-improvements-in-Rails-5.html"
+    comment: "More datetime helpers, ArrayInquirer, and many more."
+    pubdate: feb 17
     tags:
       - rb
 
@@ -76,6 +95,13 @@ topics:
     tags:
       - web
 
+  - title: "Is Ruby 2.3 Faster? Immutable (Frozen) String Literals Performance"
+    url: "http://ruby-performance-book.com/blog/2016/02/is-ruby-2-3-faster-frozen-string-literals-performance.html"
+    comment: "Explain why immutable string does not improve performance in Ruby."
+    pubdate: feb 18
+    tags:
+      - rb
+
   - title: "A Quick Overview of `object-fit` and `object-position`"
     url: "https://css-tricks.com/on-object-fit-and-object-position/"
     comment: "`object-fit` and `object-position` provide control over the content inside an img or a video."
@@ -83,10 +109,10 @@ topics:
     tags:
       - css3
 
-  - title: ""
-    url: ""
-    comment: ""
-    pubdate: feb 17
+  - title: "Private classes in Ruby"
+    url: "https://blog.arkency.com/2016/02/private-classes-in-ruby/"
+    comment: "Use private_constant to make your class private."
+    pubdate: feb 22
     tags:
       - rb
 
