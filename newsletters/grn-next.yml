@@ -1,6 +1,6 @@
 ---
-edition: "159"
-pubdate: "feb 21th 2016"
+edition: "160"
+pubdate: "feb 28th 2016"
 editors: "xenor, tysliu"
 participants: "Nauman Tariq, hsatac"
 rant:
@@ -22,36 +22,27 @@ topics:
     tags:
       - design
 
+
 - title: Use
   baseline:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: "Sliding Panels Template"
-    url: "https://codyhouse.co/gem/sliding-panels-template/"
-    comment: "A simple portfolio template, with project preview images that slide out to reveal the selected project."
+  - title: ""
+    url: ""
+    comment: ""
     tags:
       - css3
+
+
 
 - title: Install
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: "A REPL for Postgres"
-    url: "https://github.com/dbcli/pgcli"
-    comment: "This is a postgres client that does auto-completion and syntax highlighting."
-    tags:
-      - tool
-
-  - title: "sucker_punch"
-    url: "https://github.com/brandonhilkert/sucker_punch"
-    comment: "Yet another ruby backgorund job processing library with concurrent-ruby."
-    tags:
-      - rb
-
-  - title: "yagni_json_encoder"
-    url: "https://github.com/ianks/yagni_json_encoder"
-    comment: "Faster JSON encoding for Rails"
+  - title: ""
+    url: ""
+    comment: ""
     tags:
       - rb
 
@@ -60,61 +51,14 @@ topics:
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: "Exploring MRI Source Code"
-    url: "http://www.blackbytes.info/2016/02/exploring-mri/"
-    comment: "One way to dig deep into Ruby internals is by reading the source code that makes it work."
-    pubdate: feb 16
+  - title: ""
+    url: ""
+    comment: ""
+    pubdate: sep 3
     tags:
       - rb
 
-  - title: "Active Support Improvements in Rails 5"
-    url: "http://blog.bigbinary.com/2016/02/17/active-support-improvements-in-Rails-5.html"
-    comment: "More datetime helpers, ArrayInquirer, and many more."
-    pubdate: feb 17
-    tags:
-      - rb
 
-  - title: "An Introduction to Reasonably Pure Functional Programming"
-    url: "http://www.sitepoint.com/an-introduction-to-reasonably-pure-functional-programming/"
-    comment: "Because the results of pure functions are cacheable we can memoize them so expensive operations are only performed the first time the functions are called."
-    pubdate: feb 17
-    tags:
-      - web
-
-  - title: "Making a Simple Image Resizing/Optimizing Service in Automator"
-    url: "https://css-tricks.com/making-simple-image-resizingoptimizing-service-automator/"
-    comment: "OS X's Automator turns out it's a pretty easy thing to do, at least in a limited way."
-    pubdate: feb 17
-    tags:
-      - tool
-
-  - title: "Cleaning House after Internet Explorer"
-    url: "http://www.sitepoint.com/cleaning-house-after-internet-explorer/"
-    comment: "The new year started great for front-end development. On January 12th, Microsoft ended support for old versions of Internet Explorer."
-    pubdate: feb 18
-    tags:
-      - web
-
-  - title: "Is Ruby 2.3 Faster? Immutable (Frozen) String Literals Performance"
-    url: "http://ruby-performance-book.com/blog/2016/02/is-ruby-2-3-faster-frozen-string-literals-performance.html"
-    comment: "Explain why immutable string does not improve performance in Ruby."
-    pubdate: feb 18
-    tags:
-      - rb
-
-  - title: "A Quick Overview of `object-fit` and `object-position`"
-    url: "https://css-tricks.com/on-object-fit-and-object-position/"
-    comment: "`object-fit` and `object-position` provide control over the content inside an img or a video."
-    pubdate: feb 19
-    tags:
-      - css3
-
-  - title: "Private classes in Ruby"
-    url: "https://blog.arkency.com/2016/02/private-classes-in-ruby/"
-    comment: "Use private_constant to make your class private."
-    pubdate: feb 22
-    tags:
-      - rb
 
 - title: Watch
   baseline: "Screencasts and conferences videos, or other video feeds ..."

@@ -1,0 +1,187 @@
+----------------------------------------------------
+Green Ruby News #159 - feb 21th 2016
+----------------------------------------------------
+*|IFNOT:CONTENT=Only Rant|*
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+*Collect UI* (design)
+http://collectui.com
+Daily inspiration collected from daily UI archive and beyond. Based on Dribbble shots, hand picked, updating daily.
+
+*Codeology* (design)
+http://codeology.braintreepayments.com/
+Create webgl ascii art from code repos from github.
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+*Github Issue and PR templates* (tool)
+https://github.com/samccone/issue-and-pr-templates
+Github now supports issue templates via a markdown file called issue_template.md in the root or .github/ folder of your repo.
+
+*Hoist* (tool)
+http://hoist.io/
+Microservices platform that talks to APIs, in the same area as IFTTT.
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+*Hanami* (rb)
+http://hanamirb.org/
+Modern web framework for Ruby.
+
+*The Xing Framework* (rb)
+https://xingframework.com/home
+Rails API & Angular. Simplified.
+
+*sucker_punch* (rb)
+https://github.com/brandonhilkert/sucker_punch
+Yet another ruby backgorund job processing library with concurrent-ruby.
+
+*yagni_json_encoder* (rb)
+https://github.com/ianks/yagni_json_encoder
+Faster JSON encoding for Rails
+
+*Owners* (rb)
+https://github.com/shuber/owners
+States ownership of your codebase.
+
+*lazy_global_record* (rb)
+https://github.com/friendsoftheweb/lazy_global_record
+Lazy loading of 'interesting' ActiveRecord model id's, thread-safely and with easy cache reset in testing.
+
+*SmarfDoc* (rb)
+https://github.com/RickCarlino/smarf_doc
+Turn controller tests into API docs.
+
+*RDBL* (js)
+https://github.com/kezzbracey/RDBL
+A simple script to help design Readable-First responsive layouts.
+
+*Go 1.6* (go)
+https://blog.golang.org/go1.6
+Another major version for Golang, especially introducing http2 support and some improvement in templates parsing.
+
+*mitmproxy* (tool)
+https://mitmproxy.org/
+Version 0.16 now with HTTP2 support.
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+*Ruby Threads and ActiveRecord Connections* (rb - feb 14)
+http://jakeyesbeck.com/2016/02/14/ruby-threads-and-active-record-connections/
+Divide the work amongst threads for fast processing of massive amount of queries.
+
+*Chaos Engineering 101* (ops - feb 14)
+https://medium.com/production-ready/chaos-engineering-101-1103059fae44#.99m5j92av
+Improving resilience by injecting failures in the engineering blueprint.
+
+*Exploring MRI Source Code* (rb - feb 16)
+http://www.blackbytes.info/2016/02/exploring-mri/
+One way to dig deep into Ruby internals is by reading the source code that makes it work.
+
+*Active Support Improvements in Rails 5* (rb - feb 17)
+http://blog.bigbinary.com/2016/02/17/active-support-improvements-in-Rails-5.html
+More datetime helpers, ArrayInquirer, and many more.
+
+*An Introduction to Reasonably Pure Functional Programming* (js - feb 17)
+http://www.sitepoint.com/an-introduction-to-reasonably-pure-functional-programming/
+Because the results of pure functions are cacheable we can memoize them so expensive operations are only performed the first time the functions are called.
+
+*Sliding Panels Template* (css3 - feb 17)
+https://codyhouse.co/gem/sliding-panels-template/
+A simple portfolio template, with project preview images that slide out to reveal the selected project.
+
+*Making a Simple Image Resizing/Optimizing Service in Automator* (tool - feb 17)
+https://css-tricks.com/making-simple-image-resizingoptimizing-service-automator/
+OS X's Automator turns out it's a pretty easy thing to do, at least in a limited way.
+
+*Stack Overflow: The Architecture - 2016 Edition* (ops - feb 17)
+http://nickcraver.com/blog/2016/02/17/stack-overflow-the-architecture-2016-edition/
+Every few years Stackoverflow retrospects on its architecture. Here is the most recent report.
+
+*Is Ruby 2.3 Faster? Immutable (Frozen) String Literals Performance* (rb - feb 18)
+http://ruby-performance-book.com/blog/2016/02/is-ruby-2-3-faster-frozen-string-literals-performance.html
+Explain why immutable string does not improve performance in Ruby.
+
+*A brief tour of Nokogiri decorators* (rb - feb 18)
+https://blog.jbr.me/a-brief-tour-of-nokogiri-decorators/
+Conditionally add methods to Nokogiri nodes attached to a particular document tree.
+
+*Cleaning House after Internet Explorer* (web - feb 18)
+http://www.sitepoint.com/cleaning-house-after-internet-explorer/
+The new year started great for front-end development. On January 12th, Microsoft ended support for old versions of Internet Explorer.
+
+*An Introduction to APIs with Phoenix* (el - feb 18)
+http://blog.codeship.com/an-introduction-to-apis-with-phoenix/
+Build a restful API with Phoenix and compare it to a Ruby on Rails API.
+
+*A Quick Overview of object-fit and object-position* (css3 - feb 19)
+https://css-tricks.com/on-object-fit-and-object-position/
+object-fit and object-position provide control over the content inside an img or a video.
+
+*A Skeleton Key of Unknown Strength* (ops - feb 20)
+http://dankaminsky.com/2016/02/20/skeleton/
+The glibc DNS bug (CVE-2015-7547) is unusually bad.
+
+*Containers: Everyone Else is Doing Them Wrong* (ops - feb 21)
+https://www.hastexo.com/blogs/florian/2016/02/21/containers-just-because-everyone-else/
+The recent CVE-2015-7547 vulnerability in glibc exposed a common antipattern in container management. Here's what you can do to avoid it.
+
+*Private classes in Ruby* (rb - feb 22)
+https://blog.arkency.com/2016/02/private-classes-in-ruby/
+Use private_constant to make your class private.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+Links curated by by mose (publisher), xenor, tysliu (editors), Nauman Tariq, hsatac, Michael Weigle (contributors).
+*|END:IF|*
+*|IFNOT:CONTENT=Only Links|*
+
+Rant
+----------------------------------------------------
+The random rant of the week by mose.
+
+#### Timezones are outdated
+
+This week I checked out [The radical plan to destroy time
+zones][timesoneplan], which proposes to adopt UTC worldwide. It goes even
+further in proposing a change in our calendar for adopting the [Hanke-Henry
+Permanent Calendar][hankehenry]. It's not the first time people propose change
+in our western gregorian calendar system (which is almost 500 yearsold), but
+it's quite not easy to get anything adopted.
+Still, we developers consider Timezones as one of our nightmares. When we get
+to our senses we put everything we can in UTC, but there is always the need to
+get time 'local' at some point. I have honestly little hope that UTC become
+the worldwide standard, but, hey, we always can dream, right?
+
+[timezoneplan]:
+https://www.washingtonpost.com/news/worldviews/wp/2016/02/12/the-radical-plan-to-destroy-time-zones-2/
+[hankehenry]: https://en.wikipedia.org/wiki/Hanke-Henry_Permanent_Calendar
+
+*|END:IF|*
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+
