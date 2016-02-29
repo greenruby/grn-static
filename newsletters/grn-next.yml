@@ -1,6 +1,6 @@
 ---
-edition: "160"
-pubdate: "feb 28th 2016"
+edition: "161"
+pubdate: "mar 6th 2016"
 editors: "xenor, tysliu"
 participants: "Nauman Tariq, hsatac"
 rant:
@@ -51,68 +51,14 @@ topics:
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: "Speeding up Sprockets"
-    url: "http://www.schneems.com/blogs/2016-02-18-speeding-up-sprockets/"
-    comment: "How we were able to get a 12x performance improvement on some apps with Sprockets version 3.3+."
-    pubdate: feb 22
-    tags:
-      - rb
-
-  - title: "Support plans for Ruby 2.0.0 and Ruby 2.1"
-    url: "https://www.ruby-lang.org/en/news/2016/02/24/support-plan-of-ruby-2-0-0-and-2-1/"
-    comment: "We recommend that you start planning to upgrade to Ruby 2.3 or 2.2."
-    pubdate: feb 24
-    tags:
-      - rb
-
-  - title: "Quick Tip: How to Create and Manipulate Arrays in JavaScript"
-    url: "http://www.sitepoint.com/quick-tip-create-manipulate-arrays-in-javascript/"
-    comment: "The length property of Array objects is one that many who are relatively new to JavaScript do not understand."
-    pubdate: feb 24
-    tags:
-      - js
-
-  - title: "How to Use Code Snippets in Atom"
-    url: "http://www.sitepoint.com/use-code-snippets-atom/"
-    comment: "Atom packages and language grammars are often supplied with pre-defined snippets."
-    pubdate: feb 24
-    tags:
-      - tool
-
-  - title: "Easily Allow File Uploads with Rails and Refile"
-    url: "http://www.sitepoint.com/easily-allow-file-upload-rails-refile/"
-    comment: "Refile is a modern file upload library for Ruby applications."
-    pubdate: feb 25
-    tags:
-      - rb
-
-  - title: "Introduction to Functional Reactive Programming with RxJS"
-    url: "http://www.sitepoint.com/functional-reactive-programming-rxjs/"
-    comment: "RxJS makes reactive programming in JavaScript a joyful reality."
-    pubdate: feb 25
-    tags:
-      - js
-
-  - title: "Should you have defaults styles for `table`?"
-    url: "https://css-tricks.com/should-you-have-defaults-styles-for-table/"
-    comment: "Default style vs. requiring a class."
-    pubdate: feb 25
-    tags:
-      - css3
-
-  - title: "API Building and Testing Made Easier with Postman"
-    url: "http://www.sitepoint.com/api-building-and-testing-made-easier-with-postman/"
-    comment: "Postman, a Chrome app, is an API development suite with powerful features that make the process of API development quick and painless."
-    pubdate: feb 26
-    tags:
-      - tool
-
   - title: ""
     url: ""
     comment: ""
-    pubdate: feb 25
+    pubdate: sep 3
     tags:
       - rb
+
+
 
 - title: Watch
   baseline: "Screencasts and conferences videos, or other video feeds ..."

@@ -1,0 +1,239 @@
+----------------------------------------------------
+Green Ruby News #160 - feb 28th 2016
+----------------------------------------------------
+*|IFNOT:CONTENT=Only Rant|*
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+*Animal* (design)
+http://www.animalmade.com
+Funny little website for a design company.
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+*hack.guides()* (tool)
+http://tutorials.pluralsight.com/
+Promising community-maintained collection of guides.
+
+*Kestrels, Quirky Birds, and Hopeless Egocentricity* (rb)
+http://combinators.info/
+(free book) applications of Combinatory Logic to my Ruby programming.
+
+*overv.io* (tool)
+https://overv.io/
+An alternative to trello, coupled to github.
+
+*Resin* (tool)
+https://resin.io/
+Modern development and deployment workflow for the Internet of Things.
+
+*Docker Datacenter* (ops)
+http://www.docker.com/products/docker-datacenter
+Docker launches its hosting service.
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+*Lazy_static* (rb)
+https://github.com/baweaver/lazy_static
+Lazy static type checking for ruby.
+
+*Benchmark-ips* (rb)
+https://github.com/evanphx/benchmark-ips
+Provides iteration per second benchmarking for Ruby.
+
+*dentaku* (rb)
+https://github.com/rubysolo/dentaku
+Math and logic formula parser and evaluator.
+
+*Draft-js* (js)
+https://github.com/facebook/draft-js
+A React framework for building text editors.
+
+*Mojs* (js)
+http://mojs.io/
+Motion graphics library for the web.
+
+*QuickMockup* (design)
+https://github.com/jdittrich/quickMockup
+HTML based interface mockups
+
+*How2* (tool)
+https://github.com/santinic/how2
+stackoverflow from the terminal
+
+*Swifton* (tool)
+https://github.com/necolt/Swifton
+A Ruby on Rails inspired Web Framework for Swift that runs on Linux and OS X.
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+*Server-side APIs for Client-Side Rendering and XSS* (rb - feb 22)
+http://www.akitaonrails.com/2016/02/22/beware-server-side-apis-for-client-side-rendering-and-cross-site-scripting-xss
+Rails is pretty safe, but here is an example of why you still need to pay some attention.
+
+*Speeding up Sprockets* (rb - feb 22)
+http://www.schneems.com/blogs/2016-02-18-speeding-up-sprockets/
+How to get a 12x performance improvement on some apps with Sprockets version 3.3+.
+
+*Quickly create a self Referential Versioning System for Rails* (rb - feb 22)
+http://blog.nrowegt.com/quickly-create-a-self-referential-versioning-system-for-ruby-on-rails/
+The Need: Less Tables, More Functionality.
+
+*The New Web Typography* (design - feb 22)
+https://www.robinrendle.com/essays/new-web-typography
+How should we go about making typographic laws, rules and guidelines for the web?
+
+*How and why should you use JSON API in your Rails API* (rb - feb 23)
+http://blog.arkency.com/2016/02/how-and-why-should-you-use-json-api-in-your-rails-api/
+JSON API is a great solution to not waste hours on reinventing the wheel.
+
+*Prepare for Frozen String Literals and not lose performance* (rb - feb 23)
+http://ruby-performance-book.com/blog/2016/02/is-ruby-2-3-faster-how-to-prepare-yourself-for-frozen-string-literals-and-not-lose-performance.html
+It's easy to lose performance when making your code work with frozen string literals feature.
+
+*Brace Yourselves, Rails Upgrade is Coming* (rb - feb 23)
+https://robots.thoughtbot.com/brace-yourselves-rails-upgrade-is-coming
+it’s a good time to start preparing your Rails applications for an upgrade.
+
+*Good Ruby Idiom: and/or operators* (rb - feb 23)
+http://zverok.github.io/blog/2016-02-23-control-flow.html
+Give a second chance to the and/or operators by knowing precisely what they can be useful for.
+
+*Support plans for Ruby 2.0.0 and Ruby 2.1* (rb - feb 24)
+https://www.ruby-lang.org/en/news/2016/02/24/support-plan-of-ruby-2-0-0-and-2-1/
+Better start planning to upgrade to Ruby 2.3 or 2.2.
+
+*How to Create and Manipulate Arrays in JavaScript* (js - feb 24)
+http://www.sitepoint.com/quick-tip-create-manipulate-arrays-in-javascript/
+The length property of Array objects is one that many who are relatively new to JavaScript do not understand.
+
+*Highest Query per Second Service Using Go* (go - feb 24)
+https://eng.uber.com/go-geofence/
+How the Go programming language helped Uber Engineering build and scale our highest queries per second microservice, for geofence lookups.
+
+*How Elixir’s Ecto differs from Ruby’s ActiveRecord* (el - feb 24)
+https://www.amberbit.com/blog/2016/2/24/how-elixirs-ecto-differs-from-rubys-activerecord/
+Ecto from a rails point of view.
+
+*How to Use Code Snippets in Atom* (tool - feb 24)
+http://www.sitepoint.com/use-code-snippets-atom/
+Atom packages and language grammars are often supplied with pre-defined snippets.
+
+*Easily Allow File Uploads with Rails and Refile* (rb - feb 25)
+http://www.sitepoint.com/easily-allow-file-upload-rails-refile/
+Refile is a modern file upload library for Ruby applications.
+
+*Making GitLab Faster* (rb - feb 25)
+https://about.gitlab.com/2016/02/25/making-gitlab-faster/
+In GitLab 8.5 is shipped with numerous performance improvements. Here was the process.
+
+*Introduction to Functional Reactive Programming with RxJS* (js - feb 25)
+http://www.sitepoint.com/functional-reactive-programming-rxjs/
+RxJS makes reactive programming in JavaScript a joyful reality.
+
+*Introduction to Functional Reactive Programming with RxJS* (js - feb 25)
+http://www.sitepoint.com/functional-reactive-programming-rxjs/
+Working through several examples using the RxJS library.
+
+*Should you have defaults styles for table?* (css3 - feb 25)
+https://css-tricks.com/should-you-have-defaults-styles-for-table/
+Default style vs. requiring a class.
+
+*API Building and Testing Made Easier with Postman* (tool - feb 26)
+http://www.sitepoint.com/api-building-and-testing-made-easier-with-postman/
+Postman, a Chrome app, is an API development suite with powerful features that make the process of API development quick and painless.
+
+Watch
+----------------------------------------------------
+Screencasts and conferences videos, or other video feeds ...
+
+*David Heinemeier Hansson on hack.summit()* (rb - feb 24 - 1h)
+https://www.youtube.com/watch?v=99LBwJnFDE8
+Among plenty of other videos-presentations recorded during the hack.summit last week.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+Links curated by by mose (publisher), tysliu (editors), Nauman Tariq, hsatac (contributors).
+*|END:IF|*
+*|IFNOT:CONTENT=Only Links|*
+
+Rant
+----------------------------------------------------
+The random rant of the week by mose.
+
+#### About tests and documentation
+
+This aspect of development, called Documentation, is the source of various
+frustrations. It's hard to get do it, but why? My feeling is that it's like
+testing. When you begin your craft as a coder, all what matters is the code.
+It's only after some iterations that some non-code aspects come back bite you
+in the neck. Like, huho, now that I need to refactor, I really should use
+something that tells me if all still works. Tests become an early necessity to
+anyone who knows that kind of truth. If you wait until the end of a coding
+cycle to write those, the task is huge and it cuts you from your productivity
+cycle. Write them early, along the flow, is way easier.
+
+So I think documentation follows the same pattern. So many software projects
+are badly documented because this aspect is postponed until it's needed. Means
+at release stage. In early stages, you work on a prototype and you don't need
+to explain how things work or are supposed to work. And when it's released,
+there is usually some other task waiting and it's hard to stop everything to
+get back and document things properly. It may be a flaw in the agile process,
+but it may also be a feature: if you don't document along the way, you won't
+document much.
+
+Personally I try to consider the documentation of any of the source code I
+write as one of the first tasks. There are various tricks that can help in
+that perspective, like [readme-driven development][rdd], or including the doc
+inside the code with [yarddoc][yarddoc] or [apipie][apipie], or coupling
+documentation with tests with [rspec][rspec] or [RSpec API Doc
+Generator][rsadp]. But honestly I prefer edited documentation that can follow
+a structure that is thought as documentation rather than merely an automated
+output of some code.
+
+There are various tools to organize edited documentation, like
+[ReadTheDoc][rtd] which is in python. Another project appeared last week from
+the guys at Pluralsight named [hack.guide()][hg]. That's a community project
+but actually being totally open sourced, I was thinking the [documentation
+building CMS][guidescms] they made could pretty much fill the gap of a
+light-weight RTD, with the benefits of having a UI for editors. Too bad we
+don't have anything like this in ruby (or do we?).
+
+[rdd]: http://tom.preston-werner.com/2010/08/23/readme-driven-development.html
+[yarddoc]: http://yardoc.org/
+[apipie]:
+http://ilyabylich.svbtle.com/apipie-amazing-tool-for-documenting-your-rails-api
+[rspec]:
+https://www.relishapp.com/zipmark/rspec-api-documentation/docs/generate-html-documentation-from-test-examples
+[rsadp]: https://github.com/zipmark/rspec_api_documentation
+[rtd]: https://readthedocs.org/
+[hg]: http://tutorials.pluralsight.com/faq/
+[guidescms]: https://github.com/pluralsight/guides-cms
+
+*|END:IF|*
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+
