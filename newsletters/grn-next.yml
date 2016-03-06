@@ -1,6 +1,6 @@
 ---
-edition: "161"
-pubdate: "mar 6th 2016"
+edition: "162"
+pubdate: "mar 13th 2016"
 editors: "xenor, tysliu"
 participants: "Nauman Tariq, hsatac"
 rant:
@@ -16,199 +16,49 @@ topics:
     "Examples of UI/UX, graphic performance, web design and flashy things."
   links:
 
-  - title: "UnWanted"
-    url: "https://unwanted.acrf.com.au/"
-    comment: "A creative campaign by the Australian Cancer Research Foundation."
+  - title: ""
+    url: ""
+    comment: ""
     tags:
       - design
+
 
 - title: Use
   baseline:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: "Hamburgers"
-    url: "https://jonsuh.com/hamburgers/"
-    comment: "Tasty CSS-animated hamburgers"
+  - title: ""
+    url: ""
+    comment: ""
     tags:
       - css3
 
-  - title: "remote-jobs"
-    url: "https://github.com/jessicard/remote-jobs"
-    comment: "A list of semi to fully remote-friendly companies in tech"
-    tags:
-      - web
 
-  - title: "Super Markup World"
-    url: "http://supermarkupworld.com"
-    comment: "A platformer where you solve puzzles using HTML and CSS."
-    tags:
-      - web
 
 - title: Install
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: "Rails 4.2.5.2, 4.1.14.2 and 3.2.22.2"
-    url: "http://weblog.rubyonrails.org/2016/2/29/Rails-4-2-5-2-4-1-14-2-3-2-22-2-have-been-released/"
-    comment: "Another security release, don't miss this one."
-    pubdate: feb 19
+  - title: ""
+    url: ""
+    comment: ""
     tags:
       - rb
 
-  - title: "Acorn-cache"
-    url: "https://github.com/acorncache/acorn-cache"
-    comment: "A lightweight Ruby HTTP proxy caching library."
-    tags:
-      - rb
-
-  - title: "Date_validator"
-    url: "https://github.com/codegram/date_validator"
-    comment: "A simple, ORM agnostic, Ruby 1.9+ compatible date validator for Rails, based on ActiveModel."
-    tags:
-      - rb
-
-  - title: "Origami.js"
-    url: "https://github.com/raphamorim/origami.js"
-    comment: "HTML5 Canvas for Humans."
-    tags:
-      - js
-
-  - title: "Trunc-html"
-    url: "https://github.com/bevacqua/trunc-html"
-    comment: "Truncate html by text length"
-    tags:
-      - js
-
-  - title: "Intro.js"
-    url: "https://github.com/usablica/intro.js"
-    comment: "For new feature introduction and step-by-step users guide for your website and project."
-    tags:
-      - js
-
-  - title: "Electronic-wechat"
-    url: "https://github.com/geeeeeeeeek/electronic-wechat"
-    comment: "WeChat client on Mac OS X and Linux."
-    tags:
-      - js
-
-  - title: "Reality"
-    url: "https://github.com/molybdenum-99/reality"
-    comment: "Comprehensive data proxy to knowledge about real world"
-    tags:
-      - tool
-
-  - title: "Electron"
-    url: "https://github.com/atom/electron"
-    comment: "Build cross platform desktop apps with web technologies"
-    tags:
-      - tool
-
-  - title: "System-bus-radio"
-    url: "https://github.com/fulldecent/system-bus-radio"
-    comment: "This program transmits radio on computers without radio transmitting hardware."
-    tags:
-      - tool
-
-  - title: "GitKraken"
-    url: "http://www.gitkraken.com/"
-    comment: "The downright luxurious Git client for Windows, Mac and Linux."
-    tags:
-      - tool
-
-  - title: "Kramdown"
-    url: "https://github.com/gettalong/kramdown"
-    comment: "A Ruby Markdown converter, using a strict syntax definition and supporting several common extensions."
-    tags:
-      - rb
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: "Ruby Spaceship <=> Operator"
-    url: "http://jakeyesbeck.com/2016/02/28/ruby-spaceship-operator/"
-    comment: "Some details about the weird comparison operator."
-    pubdate: feb 28
-    tags:
-      - rb
-
-  - title: "How DHH organizes his Rails controllers - Jerome's Adventures in Software"
-    url: "http://jeromedalbert.com/how-dhh-organizes-his-rails-controllers/"
-    comment: "Splitting controllers when app grows, makes things easier."
-    pubdate: feb 28
-    tags:
-      - rb
-
-  - title: "Turbolinks vs the Virtual DOM"
-    url: "http://jgaskins.org/blog/2016/02/28/turbolinks-vs-the-virtual-dom"
-    comment: "Some benchmarks to the help."
-    pubdate: feb 28
-    tags:
-      - rb
-
-  - title: "The Majestic Monolith"
-    url: "https://m.signalvnoise.com/the-majestic-monolith-29166d022228#.iemxd515l"
-    comment: "A rant of DHH against monoliths."
-    pubdate: "feb 29"
-    tags:
-      - rb
-
-  - title: "How to Deploy Software"
-    url: "https://zachholman.com/posts/deploying-software"
-    comment: "High-level aspects of deployment: collaboration, safety, and pace, the long version."
-    pubdate: mar 1
-    tags:
-      - ops
-
-  - title: "DROWN Attack"
-    url: "http://thehackernews.com/2016/03/drown-attack-openssl-vulnerability.html"
-    comment: "What is DROWN Attack? More than 11 million HTTPS websites vulnerable to OpenSSL vulnerability."
-    pubdate: mar 1
-    tags:
-      - ops
-
-  - title: "HTTP vs IPFS: is Peer-to-Peer Sharing the Future of the Web?"
-    url: "http://www.sitepoint.com/http-vs-ipfs-is-peer-to-peer-sharing-the-future-of-the-web/"
-    comment: "IPFS is an attempt to solve some of the problems with our current internet architecture."
-    pubdate: mar 1
-    tags:
-      - web
-
-  - title: "Thread Pool - A Ruby Antihero"
-    url: "https://rossta.net/blog/a-ruby-antihero-thread-pool.html"
-    comment: "Understanding a fundamental Ruby abstraction for concurrency"
-    pubdate: mar 2
-    tags:
-      - rb
-
-  - title: "Surrogate WebSockets Alongside Rails"
-    url: "http://blog.codeship.com/surrogate-websockets/"
-    comment: "Elixir's productive tooling to build out a WebSocket microservice."
-    pubdate: "mar 2"
-    tags:
-      - el
-
-  - title: "Improve the Smell of Your Code with Microrefactorings"
-    url: "http://www.sitepoint.com/improve-the-smell-of-your-code-with-microrefactorings/"
-    comment: "If you want to get better at refactoring, applying the process at the micro level can make it easier to start dealing with it in larger, more chaotic systems."
-    pubdate: mar 3
-    tags:
-      - rb
-
-  - title: "Off-The-Shelf Hacker: A First Look at the Raspberry Pi 3"
-    url: "http://thenewstack.io/off-shelf-hacker-first-look-raspberry-pi-3/"
-    comment: "Inexpensive, 64-bit capable hardware has come to the physical computing stack."
-    pubdate: mar 5
-    tags:
-      - web
-
   - title: ""
     url: ""
     comment: ""
-    pubdate: mar 1
+    pubdate: sep 3
     tags:
       - rb
+
+
 
 - title: Watch
   baseline: "Screencasts and conferences videos, or other video feeds ..."
