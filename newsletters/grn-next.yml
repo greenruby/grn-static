@@ -28,13 +28,11 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "Hamburgers"
+    url: "https://jonsuh.com/hamburgers/"
+    comment: "Tasty CSS-animated hamburgers"
     tags:
       - css3
-
-
 
 - title: Install
   baseline: "A selection of gems or applications updated during past week."
@@ -51,14 +49,47 @@ topics:
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
-    pubdate: sep 3
+  - title: "Rails 4.2.5.2, 4.1.14.2 and 3.2.22.2 have been released!"
+    url: "http://weblog.rubyonrails.org/2016/2/29/Rails-4-2-5-2-4-1-14-2-3-2-22-2-have-been-released/"
+    comment: "These contain important security fixes, and it is recommended that users upgrade as soon as possible."
+    pubdate: feb 29
     tags:
       - rb
 
+  - title: "HTTP vs IPFS: is Peer-to-Peer Sharing the Future of the Web?"
+    url: "http://www.sitepoint.com/http-vs-ipfs-is-peer-to-peer-sharing-the-future-of-the-web/"
+    comment: "IPFS is an attempt to solve some of the problems with our current internet architecture."
+    pubdate: mar 1
+    tags:
+      - web
 
+  - title: "Thread Pool - A Ruby Antihero"
+    url: "https://rossta.net/blog/a-ruby-antihero-thread-pool.html"
+    comment: "Understanding a fundamental Ruby abstraction for concurrency"
+    pubdate: mar 2
+    tags:
+      - rb
+
+  - title: "Improve the Smell of Your Code with Microrefactorings"
+    url: "http://www.sitepoint.com/improve-the-smell-of-your-code-with-microrefactorings/"
+    comment: "If you want to get better at refactoring, applying the process at the micro level can make it easier to start dealing with it in larger, more chaotic systems."
+    pubdate: mar 3
+    tags:
+      - rb
+
+  - title: "Off-The-Shelf Hacker: A First Look at the Raspberry Pi 3"
+    url: "http://thenewstack.io/off-shelf-hacker-first-look-raspberry-pi-3/"
+    comment: "Inexpensive, 64-bit capable hardware has come to the physical computing stack."
+    pubdate: mar 5
+    tags:
+      - web
+
+  - title: ""
+    url: ""
+    comment: ""
+    pubdate: mar 1
+    tags:
+      - rb
 
 - title: Watch
   baseline: "Screencasts and conferences videos, or other video feeds ..."
