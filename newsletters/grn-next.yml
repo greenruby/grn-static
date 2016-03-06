@@ -56,6 +56,12 @@ topics:
     tags:
       - rb
 
+  - title: "Acorn-cache"
+    url: "https://github.com/acorncache/acorn-cache"
+    comment: "A lightweight Ruby HTTP proxy caching library."
+    tags:
+      - rb
+
   - title: "Date_validator"
     url: "https://github.com/codegram/date_validator"
     comment: "A simple, ORM agnostic, Ruby 1.9+ compatible date validator for Rails, based on ActiveModel."
@@ -103,6 +109,18 @@ topics:
     comment: "This program transmits radio on computers without radio transmitting hardware."
     tags:
       - tool
+
+  - title: "GitKraken"
+    url: "http://www.gitkraken.com/"
+    comment: "The downright luxurious Git client for Windows, Mac and Linux."
+    tags:
+      - tool
+
+  - title: "Kramdown"
+    url: "https://github.com/gettalong/kramdown"
+    comment: "A Ruby Markdown converter, using a strict syntax definition and supporting several common extensions."
+    tags:
+      - rb
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
