@@ -27,11 +27,11 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "Standup Jack"
+    url: "https://standupjack.com"
+    comment: "A Slack Bot for weekday standups."
     tags:
-      - css3
+      - tool
 
 - title: Install
   baseline: "A selection of gems or applications updated during past week."
@@ -61,9 +61,16 @@ topics:
     tags:
       - css3
 
+  - title: "uBlock Origin"
+    url: "https://github.com/gorhill/uBlock"
+    comment: "An efficient blocker for Chrome and Firefox"
+    tags:
+      - js
+
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
   links:
+
 
   - title: "Improve Your Ruby with the Adapter Design Pattern"
     url: "http://www.sitepoint.com/using-and-testing-the-adapter-design-pattern/"
@@ -79,12 +86,26 @@ topics:
     tags:
       - rb
 
+  - title: "Writing a microservice in Ruby"
+    url: "http://coderascal.com/ruby/writing-a-microservice-in-ruby/"
+    comment: "An example of separate mailer service into an isolated microservice."
+    pubdate: mar 8
+    tags:
+      - rb
+
   - title: "A CSS Multi-column Layout Tutorial for Beginners"
     url: "http://www.sitepoint.com/css-multi-column-layout-tutorial-for-beginners/"
     comment: "Getting to know the CSS’s multi-column layout module."
     pubdate: mar 8
     tags:
       - css3
+
+  - title: "Vue.js and Rails"
+    url: "https://rlafranchi.github.io/2016/03/09/vuejs-and-rails/"
+    comment: "Bring Vue.js, which is widely used in Laravel as frontend integration lib, to Rails."
+    pubdate: mar 9
+    tags:
+      - js
 
   - title: "Cleaning Up a CSS Codebase"
     url: "http://www.sitepoint.com/cleaning-up-a-css-codebase/"
@@ -104,6 +125,13 @@ topics:
     url: "http://www.sitepoint.com/onwards-to-rails-5-additions-changes-and-deprecations/"
     comment: "Things to consider for upgrading to Rails 5."
     pubdate: mar 10
+    tags:
+      - rb
+
+  - title: "Rails 4.2.6 and 4.1.15 have been released"
+    url: "http://weblog.rubyonrails.org/2016/3/11/Rails-4-2-6-and-4-1-15-have-been-released/"
+    comment: "Several code fixes related to ActionView and ActiveRecord."
+    pubdate: mar 11
     tags:
       - rb
 
