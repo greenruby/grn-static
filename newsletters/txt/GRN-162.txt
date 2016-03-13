@@ -1,0 +1,182 @@
+----------------------------------------------------
+Green Ruby News #162 - mar 13th 2016
+----------------------------------------------------
+*|IFNOT:CONTENT=Only Rant|*
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+*56 digital* (design)
+http://56.digital/
+Design studio in Toronta, with a great website.
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+*Standup Jack* (tool)
+https://standupjack.com
+A Slack Bot for weekday standups.
+
+*Instant Logo Search* (design)
+http://instantlogosearch.com
+Search & download thousands of companies logos.
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+*Functional Ruby* (rb)
+https://github.com/jdantonio/functional-ruby
+A gem for adding functional programming tools to Ruby.
+
+*Selecta* (rb)
+https://github.com/garybernhardt/selecta
+A fuzzy text selector for files and anything else you need to select.
+
+*Concurrent-ruby* (rb)
+https://github.com/ruby-concurrency/concurrent-ruby
+Modern concurrency tools including agents, futures, promises, thread pools, supervisors, and more.
+
+*Juttle dataflow programming language* (js)
+https://github.com/juttle/juttle
+ataflow programming language.
+
+*Neural Doodle* (web)
+https://github.com/alexjc/neural-doodle
+Use a deep neural network to borrow the skills of real artists and turn your two-bit doodles into masterpieces!
+
+*balloon.css* (css3)
+https://github.com/kazzkiq/balloon.css
+Balloon.css lets you add tooltips to elements without JavaScript and in just a few lines of CSS.
+
+*uBlock Origin* (tool)
+https://github.com/gorhill/uBlock
+An efficient blocker for Chrome and Firefox.
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+*Improve Your Ruby with the Adapter Design Pattern* (rb - mar 7)
+http://www.sitepoint.com/using-and-testing-the-adapter-design-pattern/
+
+
+*My New Favorite Enumerable Method* (rb - mar 7)
+http://www.blackbytes.info/2016/03/enumerable-methods/
+Enumerable is a module that is worth mastering.
+
+*Writing a microservice in Ruby* (rb - mar 8)
+http://coderascal.com/ruby/writing-a-microservice-in-ruby/
+An example of separate mailer service into an isolated microservice.
+
+*Refactoring in Ruby: Primitive Obsession* (rb - mar 8)
+http://eftimov.net/primitive-obsession-ruby/
+Why and how refactor Constants in classes.
+
+*Rails 5 switches from strong etags to weak etags* (rb - mar 8)
+http://blog.bigbinary.com/2016/03/08/rails-5-switches-from-strong-etags-to-weak-tags.html
+How rails5 adjust it etags settings.
+
+*Essential Bash commands* (ops - mar 8)
+https://www.zmwolski.com/Ruby-developer-essential-bash-commands
+Learn the essential bash command that will increase your productivity and help debug production servers.
+
+*A CSS Multi-column Layout Tutorial for Beginners* (css3 - mar 8)
+http://www.sitepoint.com/css-multi-column-layout-tutorial-for-beginners/
+Getting to know the CSS’s multi-column layout module.
+
+*Vue.js and Rails* (js - mar 9)
+https://rlafranchi.github.io/2016/03/09/vuejs-and-rails/
+Bring Vue.js, which is widely used in Laravel as frontend integration lib, to Rails.
+
+*Cleaning Up a CSS Codebase* (css3 - mar 9)
+http://www.sitepoint.com/cleaning-up-a-css-codebase/
+Cleaning a CSS/Sass project is difficult because it is hard to evaluate the impact of the update or removal of a line of CSS.
+
+*Parallax Burns: Converting Photographs from 2D to 3D with SVG* (css3 - mar 9)
+http://www.sitepoint.com/parallax-burns-converting-photographs-2d-3d-svg/
+Neat css trick.
+
+*How We Build Code at Netflix* (ops - mar 9)
+http://techblog.netflix.com/2016/03/how-we-build-code-at-netflix.html
+It's always good to see how big players do it behind the scene.
+
+*Docker Swarm Exceeds Kubernetes Performance at Scale* (ops - mar 9)
+https://blog.docker.com/2016/03/swarmweek-docker-swarm-exceeds-kubernetes-scale/
+It's clearly some self-promotion, but there are some possibly interesting points.
+
+*Onwards to Rails 5: Additions, Changes, and Deprecations* (rb - mar 10)
+http://www.sitepoint.com/onwards-to-rails-5-additions-changes-and-deprecations/
+Things to consider for upgrading to Rails 5.
+
+*Rails 4.2.6 and 4.1.15 have been released* (rb - mar 11)
+http://weblog.rubyonrails.org/2016/3/11/Rails-4-2-6-and-4-1-15-have-been-released/
+Several code fixes related to ActionView and ActiveRecord.
+
+*Use `rem` for Global Sizing; Use `em` for Local Sizing* (css3 - mar 12)
+https://css-tricks.com/rem-global-em-local/
+Our work can become a bit more maintainable and flexible, by using these css properties correctly.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+Links curated by by mose (publisher), xenor, tysliu (editors), Nauman Tariq, hsatac, Lincoln (contributors).
+*|END:IF|*
+*|IFNOT:CONTENT=Only Links|*
+
+Rant
+----------------------------------------------------
+The random rant of the week by mose.
+
+#### the Adwar
+
+This week I got 2 links that explore both sides of the adwar. The war on
+advertisement exists on the web since it became popular enough to attract
+advertisers. [There are no acceptable ads][noads] takes the side of the
+visitors, while [A Never-Ending Story On Ad-Blockers][adblockers] seems to
+defend and advise the publishers.
+
+Some media already have blocked the blockers. It's forbidden to escape ads?
+This position may appear not to be sustainable. And pushing towards content
+sponsoring could have really bad ill effects on the long term. Is there any
+escape? Honestly I have to say that I'm partial in that debate. I don't like
+ads on what I read, and I don't like ads on what I publish. I even go edit my
+/etc/hosts with some custom domains to resolve to 127.0.0.1 sometimes.
+
+So it there was to take sides, I would say advertiser, go to hell. But I'm a
+realist. They won't go away. We live in a society where shit has to be bought.
+Yes even if you don't need it. Otherwise the system will collapse. That's how
+things are. I get some crazy dreams about some [basic income][basicincome]
+system, currently [in experiment][basicworld] in various places over the
+globe. Such setup would defeat part of this situation, even if it would have
+border effects that are unpredictable. But that would not change much for the
+big corpo, it would only save the small people. Hmm. Sounds good enough to me,
+I won't lie.
+
+[noads]:
+https://github.com/fivefilters/block-ads/wiki/There-are-no-acceptable-ads
+[adblockers]:
+https://www.smashingmagazine.com/2016/03/never-ending-story-ad-blockers
+[basicincome]: https://en.wikipedia.org/wiki/Basic_income
+[basicworld]: https://en.wikipedia.org/wiki/Basic_income_around_the_world
+
+*|END:IF|*
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+

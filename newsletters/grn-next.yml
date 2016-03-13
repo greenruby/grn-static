@@ -1,6 +1,6 @@
 ---
-edition: "162"
-pubdate: "mar 13th 2016"
+edition: "163"
+pubdate: "mar 20th 2016"
 editors: "xenor, tysliu"
 participants: "Nauman Tariq, hsatac"
 rant:
@@ -22,132 +22,43 @@ topics:
     tags:
       - design
 
+
 - title: Use
   baseline:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: "Standup Jack"
-    url: "https://standupjack.com"
-    comment: "A Slack Bot for weekday standups."
+  - title: ""
+    url: ""
+    comment: ""
     tags:
-      - tool
+      - css3
+
+
 
 - title: Install
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: "Functional Ruby"
-    url: "https://github.com/jdantonio/functional-ruby"
-    comment: "A gem for adding functional programming tools to Ruby."
+  - title: ""
+    url: ""
+    comment: ""
     tags:
       - rb
 
-  - title: "Statuspage"
-    url: "https://github.com/pyupio/statuspage"
-    comment: "A statuspage generator that lets you host your statuspage for free by Github. Uses issues to display incidents and labels for severity."
-    tags:
-      - tool
-
-  - title: "Neural Doodle"
-    url: "https://github.com/alexjc/neural-doodle"
-    comment: "Use a deep neural network to borrow the skills of real artists and turn your two-bit doodles into masterpieces!"
-    tags:
-      - web
-
-  - title: "balloon.css"
-    url: "https://github.com/kazzkiq/balloon.css"
-    comment: "Balloon.css lets you add tooltips to elements without JavaScript and in just a few lines of CSS."
-    tags:
-      - css3
-
-  - title: "uBlock Origin"
-    url: "https://github.com/gorhill/uBlock"
-    comment: "An efficient blocker for Chrome and Firefox"
-    tags:
-      - js
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-
-  - title: "Improve Your Ruby with the Adapter Design Pattern"
-    url: "http://www.sitepoint.com/using-and-testing-the-adapter-design-pattern/"
-    comment: ""
-    pubdate: mar 7
-    tags:
-      - rb
-
-  - title: "My New Favorite Enumerable Method"
-    url: "http://www.blackbytes.info/2016/03/enumerable-methods/"
-    comment: "Enumerable is a module that is worth mastering."
-    pubdate: mar 7
-    tags:
-      - rb
-
-  - title: "Writing a microservice in Ruby"
-    url: "http://coderascal.com/ruby/writing-a-microservice-in-ruby/"
-    comment: "An example of separate mailer service into an isolated microservice."
-    pubdate: mar 8
-    tags:
-      - rb
-
-  - title: "A CSS Multi-column Layout Tutorial for Beginners"
-    url: "http://www.sitepoint.com/css-multi-column-layout-tutorial-for-beginners/"
-    comment: "Getting to know the CSS’s multi-column layout module."
-    pubdate: mar 8
-    tags:
-      - css3
-
-  - title: "Vue.js and Rails"
-    url: "https://rlafranchi.github.io/2016/03/09/vuejs-and-rails/"
-    comment: "Bring Vue.js, which is widely used in Laravel as frontend integration lib, to Rails."
-    pubdate: mar 9
-    tags:
-      - js
-
-  - title: "Cleaning Up a CSS Codebase"
-    url: "http://www.sitepoint.com/cleaning-up-a-css-codebase/"
-    comment: "Cleaning a CSS/Sass project is difficult because it is hard to evaluate the impact of the update or removal of a line of CSS."
-    pubdate: mar 9
-    tags:
-      - css3
-
-  - title: "Parallax Burns: Converting Photographs from 2D to 3D with SVG"
-    url: "http://www.sitepoint.com/parallax-burns-converting-photographs-2d-3d-svg/"
-    comment: "Neat css trick."
-    pubdate: mar 9
-    tags:
-      - css3
-
-  - title: "Onwards to Rails 5: Additions, Changes, and Deprecations"
-    url: "http://www.sitepoint.com/onwards-to-rails-5-additions-changes-and-deprecations/"
-    comment: "Things to consider for upgrading to Rails 5."
-    pubdate: mar 10
-    tags:
-      - rb
-
-  - title: "Rails 4.2.6 and 4.1.15 have been released"
-    url: "http://weblog.rubyonrails.org/2016/3/11/Rails-4-2-6-and-4-1-15-have-been-released/"
-    comment: "Several code fixes related to ActionView and ActiveRecord."
-    pubdate: mar 11
-    tags:
-      - rb
-
-  - title: "Use `rem` for Global Sizing; Use `em` for Local Sizing"
-    url: "https://css-tricks.com/rem-global-em-local/"
-    comment: "Our work can become a bit more maintainable and flexible, by using these css properties correctly."
-    pubdate: mar 12
-    tags:
-      - css3
-
   - title: ""
     url: ""
     comment: ""
-    pubdate: mar 9
+    pubdate: sep 3
     tags:
       - rb
+
+
 
 - title: Watch
   baseline: "Screencasts and conferences videos, or other video feeds ..."
