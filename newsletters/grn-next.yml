@@ -28,11 +28,17 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "Runnable"
+    url: "https://runnable.io/"
+    comment: "A sandbox service that creates full-stack environments for GitHub branches."
     tags:
-      - css3
+      - tool
+
+  - title: "Zube"
+    url: "https://zube.io"
+    comment: "Project management for GitHub issues."
+    tags:
+      - tool
 
 
 
@@ -40,9 +46,21 @@ topics:
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "duckrails"
+    url: "https://github.com/iridakos/duckrails"
+    comment: "A development tool to quickly & dynamically mock API endpoints."
+    tags:
+      - rb
+
+  - title: "InfraRuby"
+    url: "http://infraruby.com/"
+    comment: "A statically typed Ruby on the JVM."
+    tags:
+      - rb
+
+  - title: "dry-rb"
+    url: "https://github.com/dry-rb"
+    comment: "A collection of Ruby libraries, each intended to encapsulate a common task."
     tags:
       - rb
 
@@ -51,10 +69,10 @@ topics:
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
-    pubdate: sep 3
+  - title: "Ruby Design Patterns: Observer"
+    url: "http://www.betterruby.com/gangs-in-ruby-observer/"
+    comment: "Separate code concerns and make it adaptable by observer pattern."
+    pubdate: "mar 14"
     tags:
       - rb
 
