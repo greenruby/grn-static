@@ -28,11 +28,17 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "Runnable"
+    url: "https://runnable.io/"
+    comment: "A sandbox service that creates full-stack environments for GitHub branches."
     tags:
-      - css3
+      - tool
+
+  - title: "Zube"
+    url: "https://zube.io"
+    comment: "Project management for GitHub issues."
+    tags:
+      - tool
 
 
 
@@ -40,9 +46,21 @@ topics:
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "duckrails"
+    url: "https://github.com/iridakos/duckrails"
+    comment: "A development tool to quickly & dynamically mock API endpoints."
+    tags:
+      - rb
+
+  - title: "InfraRuby"
+    url: "http://infraruby.com/"
+    comment: "A statically typed Ruby on the JVM."
+    tags:
+      - rb
+
+  - title: "dry-rb"
+    url: "https://github.com/dry-rb"
+    comment: "A collection of Ruby libraries, each intended to encapsulate a common task."
     tags:
       - rb
 
@@ -51,14 +69,54 @@ topics:
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
-    pubdate: sep 3
+  - title: "Ruby Design Patterns: Observer"
+    url: "http://www.betterruby.com/gangs-in-ruby-observer/"
+    comment: "Separate code concerns and make it adaptable by observer pattern."
+    pubdate: "mar 14"
     tags:
       - rb
 
+  - title: "Modify Your Ruby App's DNS Lookup"
+    url: "http://blog.mccartie.com/2016/03/14/modify-your-ruby-app%27s-dns-lookup.html"
+    comment: "Custom DNS information within our app, instead of needing to modify your system’s /etc/hosts file."
+    pubdate: "mar 14"
+    tags:
+      - rb
 
+  - title: "An Introduction to jQuery’s Deferred Objects"
+    url: "http://www.sitepoint.com/introduction-jquery-deferred-objects/"
+    comment: "For a long time, JavaScript developers have used callback functions to perform several tasks."
+    pubdate: "mar 16"
+    tags:
+      - rb
+
+  - title: "The Results of The Ultimate CSS Survey"
+    url: "http://www.sitepoint.com/results-ultimate-css-survey/"
+    comment: "3-part survey aimed at gathering info on the habits and preferences of CSS developers in the industry."
+    pubdate: "mar 17"
+    tags:
+      - css3
+
+  - title: "Quickly Create a Telegram Bot in Ruby"
+    url: "http://www.sitepoint.com/quickly-create-a-telegram-bot-in-ruby/"
+    comment: "Telegram might be a new name to you, but it’s gaining popularity the in the last few years."
+    pubdate: "mar 17"
+    tags:
+      - rb
+
+  - title: "How You Can Use Responsive Web Components Today"
+    url: "http://www.sitepoint.com/responsive-web-components/"
+    comment: "Web Components are a W3 specification that enables you to build your own HTML elements."
+    pubdate: "mar 17"
+    tags:
+      - web
+
+  - title: "Ligature Icons via Pseudo Elements and Icon Fonts"
+    url: "https://css-tricks.com/ligature-icons/"
+    comment: "Rather than use text in the HTML though, you can use a pseudo element."
+    pubdate: "mar 18"
+    tags:
+      - css3
 
 - title: Watch
   baseline: "Screencasts and conferences videos, or other video feeds ..."

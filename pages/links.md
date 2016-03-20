@@ -34,6 +34,7 @@ Those links and resources are used in the weekly collection of information for G
 * <http://codegeekz.com> (web)
 * <http://scotch.io> (webdev)
 * <https://codyhouse.co/> (webdev)
+* <http://www.betterruby.com/> (ruby)
 
 ### Email newsletters
 
