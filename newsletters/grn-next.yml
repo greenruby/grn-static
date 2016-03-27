@@ -40,9 +40,15 @@ topics:
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "passive_record"
+    url: "https://github.com/deepcerulean/passive_record"
+    comment: "no-persistence pure ruby relational algebra"
+    tags:
+      - rb
+
+  - title: "haikunator"
+    url: "https://github.com/usmanbashir/haikunator"
+    comment: "Heroku-like random name generator."
     tags:
       - rb
 
@@ -51,10 +57,24 @@ topics:
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
-    pubdate: sep 3
+  - title: "How to Build a Ruby on Rails Engine"
+    url: "http://jakeyesbeck.com/2016/03/20/how-to-build-a-ruby-on-rails-engine/"
+    comment: "Build a Rails engine from scratch"
+    pubdate: mar 20
+    tags:
+      - rb
+
+  - title: "TimedSemaphore implementation in Ruby"
+    url: "https://crondev.com/ruby-timedsemaphore/"
+    comment: "Limited calles in a timeframe with threads."
+    pubdate: mar 21
+    tags:
+      - rb
+
+  - title: "Building a Debug Log Filter with Ruby"
+    url: "http://thiagoa.github.io/building-a-debug-log-filter-with-ruby/"
+    comment: "An interesting take on filtering logs using ruby script."
+    pubdate: mar 25
     tags:
       - rb
 
