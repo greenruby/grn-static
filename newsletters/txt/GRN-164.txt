@@ -1,0 +1,165 @@
+----------------------------------------------------
+Green Ruby News #164 - mar 27th 2016
+----------------------------------------------------
+*|IFNOT:CONTENT=Only Rant|*
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+*Behind The Hashtag: TheDress* (design)
+http://series.hashtagsunplugged.com/thedress
+The story behind the meme of the multi-colored dress from last year.
+
+*Flag Stories* (design)
+http://flagstories.co/?og=1
+Here is a website for SHeldon Cooper.
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+*Ruby Hero Awards* (rb)
+http://rubyheroes.com/
+Nominate your Ruby Heroes today and recognize everyday heroes of the Ruby community.
+
+*what-do-you-call-this-in-ruby* (rb)
+https://github.com/JuanitoFatas/what-do-you-call-this-in-ruby
+Small glossary of terms for all the symbols used in ruby.
+
+*Let's Encrypt* (tool)
+https://letsencrypt.org/
+Free SSL/TLS Certificates
+
+*GitHub Community Cast* (tool)
+https://soundcloud.com/githubcommunitycast
+New GitHub Community Podcasts.
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+*passive_record* (rb)
+https://github.com/deepcerulean/passive_record
+no-persistence pure ruby relational algebra
+
+*haikunator* (rb)
+https://github.com/usmanbashir/haikunator
+Heroku-like random name generator.
+
+*Addressable* (rb)
+https://github.com/sporkmonger/addressable
+Replacement for the URI implementation that is part of Ruby standard library.
+
+*Left_pad* (rb)
+https://github.com/atipugin/left_pad
+Ruby implementation of famous npm package
+
+*Onotole* (rb)
+https://github.com/kvokka/onotole
+New flexible Rails project generator
+
+*Hotel* (tool)
+https://github.com/typicode/hotel
+local .dev domains for everyone and more!
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+*How to Build a Ruby on Rails Engine* (rb - mar 20)
+http://jakeyesbeck.com/2016/03/20/how-to-build-a-ruby-on-rails-engine/
+Step by step tutorial to create a rails engine.
+
+*TimedSemaphore implementation in Ruby* (rb - mar 21)
+https://crondev.com/ruby-timedsemaphore/
+Limited calles in a timeframe with threads.
+
+*Is your Rails app ready for Production?* (rb - mar 22)
+http://www.akitaonrails.com/2016/03/22/is-your-rails-app-ready-for-production
+A (subjective) checklist for making sure you have it all covered.
+
+*Understanding the Docker Ecosystem* (ops - mar 22)
+http://blog.codeship.com/understanding-the-docker-ecosystem/
+What's currently available as part of the Docker ecosystem, how it can help you, and how the pieces fit together.
+
+*Ruby Design Patterns: Memento* (rb - mar 23)
+http://www.betterruby.com/gangs-in-ruby-remember-me/
+Look at the Memento design pattern. Firstly,
+
+*Sinon Tutorial: JavaScript Testing with Mocks, Spies &amp; Stubs* (js - mar 23)
+http://www.sitepoint.com/sinon-tutorial-javascript-testing-mocks-spies-stubs/
+How to make unit testing non-trival JavaScript code trivial with the help of spies, stubs and mocks.
+
+*Building a Debug Log Filter with Ruby* (rb - mar 25)
+http://thiagoa.github.io/building-a-debug-log-filter-with-ruby/
+An interesting take on filtering logs using ruby script.
+
+Watch
+----------------------------------------------------
+Screencasts and conferences videos, or other video feeds ...
+
+*better_errors is better than web-console* (rb - mar 23 - 5m)
+https://vimeo.com/159912140
+So why aren't you using it?Go! https://github.com/charliesome/better_errors
+
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+Links curated by by mose (publisher), xenor (editors), Nauman Tariq (contributors).
+*|END:IF|*
+*|IFNOT:CONTENT=Only Links|*
+
+Rant
+----------------------------------------------------
+The random rant of the week by mose.
+
+#### kik the fuss
+
+There have been some noise last week about npm, coming from [that
+article][liberated_modules]. It merely revealed that various open source
+organization are privately held by some individuals and they can either be
+pressured or take weird decisions. Honestly I consider this incident
+anecdotal. It's not the first time such thing happens. One guy just happened
+to be very vocal and pissed off about it.
+
+And it carried various threads of discussion on Twitter and elsewhere, in a
+huge controversy. There were many points raised. NPM has thousands and
+thousands of packages, and many of them are just a few lines of utility
+library, so it was a good occasion for some to point out that you should
+reduce your number of dependencies. Others pointed out that namespacing could
+help prevent such situation, like it's done in docker or in go (having
+username/somelib instead of somelib) following the github convention.
+
+All in all, it appears that open source is gaining its traction from being
+free of any legal duty. Or at least there is no formal contracting, no
+by-laws, on committees or advisors. People do how they feel in the limits of
+some very simple basic licensing rules. Some organization provide a more
+structured legal asset but they usually are on the side and purposed for
+channeling money management, not necessarily patents and intellectual
+property.
+
+My opinion is that this kind of friction between businesses and open source is
+going to happen more and more. But I wonder how it's going to turn out.
+
+[liberated_modules]:
+https://medium.com/@azerbike/i-ve-just-liberated-my-modules-9045c06be67c#.evxywifiu
+
+*|END:IF|*
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+

@@ -1,20 +1,12 @@
 ---
-edition: "164"
-pubdate: "mar 27th 2016"
-editors: "xenor"
-participants: "Nauman Tariq"
+edition: "165"
+pubdate: "apr 3rd 2016"
+editors: "xenor, tysliu"
+participants: "Nauman Tariq, hsatac"
 rant:
   author: mose
   content:
-    "#### 
-
-
-There have been some noise last week about npm, coming from [that article][liberated_modules]. It merely revealed that various open source organization are privately held by soem individuals and they can either be pressured or take weird decisions. Honestly I consider this incident anecdotal. I would bet it's not the first time such thing happens. One guy just happened to be very vocal and pissed off about it.
-
-There are some other organizations, backed by some fundation, where such process is more complicated. Some have lawyers, IP consultants. But most open source organizations are operating in a legal void. Honestly, I really like it that way. 
-
-
-[liberated_modules]: https://medium.com/@azerbike/i-ve-just-liberated-my-modules-9045c06be67c#.evxywifiu
+    "####
 "
 
 topics:
@@ -36,17 +28,11 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: "Ruby Hero Awards"
-    url: "http://rubyheroes.com/"
-    comment: "Nominate your Ruby Heroes today and recognize everyday heroes of the Ruby community."
+  - title: ""
+    url: ""
+    comment: ""
     tags:
-      - rb
-
-  - title: "Let's Encrypt"
-    url: "https://letsencrypt.org/"
-    comment: "Free SSL/TLS Certificates"
-    tags:
-      - tool
+      - css3
 
 
 
@@ -54,86 +40,34 @@ topics:
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: "passive_record"
-    url: "https://github.com/deepcerulean/passive_record"
-    comment: "no-persistence pure ruby relational algebra"
+  - title: ""
+    url: ""
+    comment: ""
     tags:
       - rb
-
-  - title: "haikunator"
-    url: "https://github.com/usmanbashir/haikunator"
-    comment: "Heroku-like random name generator."
-    tags:
-      - rb
-
-  - title: "Addressable"
-    url: "https://github.com/sporkmonger/addressable"
-    comment: "Replacement for the URI implementation that is part of Ruby standard library."
-    tags:
-      - rb
-
-  - title: "Hotel"
-    url: "https://github.com/typicode/hotel"
-    comment: "local .dev domains for everyone and more!"
-    tags:
-      - tool
 
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: "How to Build a Ruby on Rails Engine"
-    url: "http://jakeyesbeck.com/2016/03/20/how-to-build-a-ruby-on-rails-engine/"
-    comment: "Step by step tutorial to create a rails engine."
-    pubdate: mar 20
-    tags:
-      - rb
-
-  - title: "TimedSemaphore implementation in Ruby"
-    url: "https://crondev.com/ruby-timedsemaphore/"
-    comment: "Limited calles in a timeframe with threads."
-    pubdate: mar 21
+  - title: ""
+    url: ""
+    comment: ""
+    pubdate: sep 3
     tags:
       - rb
 
 
-  - title: "Is your Rails app ready for Production?"
-    url: "http://www.akitaonrails.com/2016/03/22/is-your-rails-app-ready-for-production"
-    comment: "A (subjective) checklist for making sure you have it all covered."
-    pubdate: mar 22
-    tags:
-      - rb
-
-  - title: "Understanding the Docker Ecosystem"
-    url: "http://blog.codeship.com/understanding-the-docker-ecosystem/"
-    comment: "What's currently available as part of the Docker ecosystem, how it can help you, and how the pieces fit together."
-    pubdate: "mar 22"
-    tags:
-      - ops
-
-  - title: "Building a Debug Log Filter with Ruby"
-    url: "http://thiagoa.github.io/building-a-debug-log-filter-with-ruby/"
-    comment: "An interesting take on filtering logs using ruby script."
-    pubdate: mar 25
-    tags:
-      - rb
-
-  - title: "Auto Backup Database in Rails Application"
-    url: "http://luanotes.com/posts/auto-backup-database-in-rails-application"
-    comment: "5 basic steps to auto backup database in Rails app by using 'backup' and 'whenever' gems."
-    pubdate: mar 27
-    tags:
-      - rb
 
 - title: Watch
   baseline: "Screencasts and conferences videos, or other video feeds ..."
   links:
 
-  - title: "better_errors is better than web-console"
-    url: "https://vimeo.com/159912140"
-    comment: "So why aren't you using it?Go! https://github.com/charliesome/better_errors"
-    duration: 5m
-    pubdate: mar 23
+  - title: ""
+    url: ""
+    comment: ""
+    pubdate: sep 3
+    duration:
     tags:
       - rb
