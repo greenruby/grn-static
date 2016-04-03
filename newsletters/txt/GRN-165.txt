@@ -1,0 +1,170 @@
+----------------------------------------------------
+Green Ruby News #165 - apr 3rd 2016
+----------------------------------------------------
+*|IFNOT:CONTENT=Only Rant|*
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+*Founder Mantras* (design)
+http://foundermantras.com
+Daily mantras and quotes with a nice css.
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+*Ruby Plus Podcast* (rb)
+https://soundcloud.com/bala-paranj
+A new podcast. Formatted like Ruby5, a collection of small news.
+
+*Rails Pacific* (rb)
+http://www.railspacific.com/
+Second edition of the Taiwan rails conf, will happen on may 20 and 21.
+
+*PXtoEM* (css3)
+http://pxtoem.com/
+PX to EM conversion made simple.
+
+*Build web application with golang* (go)
+https://astaxie.gitbooks.io/build-web-application-with-golang/content/en/preface.html
+Online book for building web application on go.
+
+*MapHub* (tool)
+https://maphub.net/
+Create, share and collaborate interactive maps online.
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+*Ruby 2.1.9 Released* (rb - mar 30)
+https://www.ruby-lang.org/en/news/2016/04/01/ruby-2-1-10-released/
+Ruby 2.1.9 released with many bug fixes and then the 2.1.10 just for version number compat test (means, .9 and .10 are the same).
+
+*Sycamore* (rb)
+https://github.com/marcelotto/sycamore
+An unordered tree data structure for Ruby
+
+*Query-composer* (rb)
+https://github.com/jamis/query-composer
+Composing complex SQL queries by defining subcomponents and the dependencies between them.
+
+*Versionaire* (rb)
+https://github.com/bkuhlmann/versionaire
+Provides immutable, thread-safe, semantic versioning.
+
+*Gemsmith* (rb)
+https://github.com/bkuhlmann/gemsmith
+A command line interface for smithing new Ruby gems.
+
+*Translateable* (rb)
+https://github.com/olegantonyan/translateable
+Store text data in different languages.
+
+*Dossier* (rb)
+https://github.com/tma1/dossier
+Ruby-based report generation/presentation Rails engine.
+
+*Db_text_search* (rb)
+https://github.com/thredded/db_text_search
+A unified interface on top of ActiveRecord for case-insensitive string-in-set querying and full-text search on SQLite, MySQL, and PostgreSQL.
+
+*Secret_garden* (rb)
+https://github.com/dkastner/secret_garden
+Access secrets via ENV or some backend service like vault.
+
+*Include-media* (css3)
+http://include-media.com/
+Sass library for writing CSS media queries in an easy and maintainable way, using a natural and simplistic syntax.
+
+*Eeact-storybook* (js)
+https://github.com/kadirahq/react-storybook
+Isolate your React UI Component development from the main app
+
+*Netdata* (ops)
+https://github.com/firehol/netdata
+Real-time performance monitoring.
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+*Rails 5 changed Active Job default adapter from Inline to Async* (rb - mar 29)
+http://blog.bigbinary.com/2016/03/29/rails-5-changed-default-active-job-adapter-to-async.html
+Quick review of 2 new adapters for ActiveJob.
+
+*A Simple Pattern to Generate Reports in Rails* (rb - mar 29)
+http://blog.nrowegt.com/pure-ruby-on-rails-reporting/
+How to use a pure ruby on rails approach to build reporting for your app and store historical reports.
+
+*Processing large CSV files with Ruby* (rb - mar 29)
+http://dalibornasevic.com/posts/68-processing-large-csv-files-with-ruby
+Few ways to process CSV files with Ruby and measure of the memory consumption and speed performance.
+
+*Git 2.8 has been released* (tool - mar 29)
+https://github.com/blog/2131-git-2-8-has-been-released
+Parallel fetches of submodules, commit identity based only by config, and some security fixes.
+
+*Database driven scheduling with Clockwork and ActiveJob* (rb - mar 31)
+https://lorefnon.me/2016/03/31/database-driven-scheduling-with-clockwork-and-activejob.html
+An introductory tutorial on making event scheduling management more accessible and configurable to administrators through database driven admin interfaces in Rails.
+
+*War is Over, or is it? A New Dawn for Microsoft* (tool - mar 31)
+http://www.akitaonrails.com/2016/03/31/war-is-over-or-is-it-a-new-dawn-for-microsoft
+Wednesday was a pretty remarkable and historical day for Microsoft.
+
+*Implementing Ruby 2.3.0: Enumerable's chunk_while* (rb - apr 3)
+http://til.seansellek.com/chunk_while/
+Implementing chunk_while in Ruby, a pretty convenient Enumerable method.
+
+Watch
+----------------------------------------------------
+Screencasts and conferences videos, or other video feeds ...
+
+*Memoization* (rb - mar 30 - 17m)
+https://gorails.com/episodes/memoization
+Use memoization to your advantage to cache results in memory to improve speed
+
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+Links curated by by mose (publisher), xenor (editors), Nauman Tariq, hsatac, Jan-willem (contributors).
+*|END:IF|*
+*|IFNOT:CONTENT=Only Links|*
+
+Rant
+----------------------------------------------------
+The random rant of the week by mose.
+
+#### Aprils lame fools
+
+I think there is nothing I hate more than pranks. It's just another way to
+bully someone else. Even innocent pranks are having victims. Single out the
+one that fall for it to make laugh the ones that don't. Well, I may very well
+be a boring fellow. Or it's just that, working so much with information
+management, any perversion of it seems off.
+
+And then on april fools day, so much goes wrong. The net becomes unreliable.
+So lame. But I'm not sure if it's the reason there are not that many news
+articles this week.
+
+*|END:IF|*
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+

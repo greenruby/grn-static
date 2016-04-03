@@ -1,6 +1,6 @@
 ---
-edition: "165"
-pubdate: "apr 3rd 2016"
+edition: "166"
+pubdate: "apr 10th 2016"
 editors: "xenor, tysliu"
 participants: "Nauman Tariq, hsatac"
 rant:
@@ -28,11 +28,11 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: "Build web application with golang"
-    url: "https://astaxie.gitbooks.io/build-web-application-with-golang/content/en/preface.html"
-    comment: "Online book for building web application on go"
+  - title: ""
+    url: ""
+    comment: ""
     tags:
-      - go
+      - css3
 
 
 
@@ -40,27 +40,9 @@ topics:
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: "sycamore"
-    url: "https://github.com/marcelotto/sycamore"
-    comment: "An unordered tree data structure for Ruby"
-    tags:
-      - rb
-
-  - title: "query-composer"
-    url: "https://github.com/jamis/query-composer"
-    comment: "Composing complex SQL queries by defining subcomponents and the dependencies between them."
-    tags:
-      - rb
-
-  - title: "versionaire"
-    url: "https://github.com/bkuhlmann/versionaire"
-    comment: "Provides immutable, thread-safe, semantic versioning."
-    tags:
-      - rb
-
-  - title: "translateable"
-    url: "https://github.com/olegantonyan/translateable"
-    comment: "Store text data in different languages."
+  - title: ""
+    url: ""
+    comment: ""
     tags:
       - rb
 
@@ -69,17 +51,10 @@ topics:
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: "Git 2.8 has been released"
-    url: "https://github.com/blog/2131-git-2-8-has-been-released"
-    comment: "Parallel fetches of submodules, commit identity based only by config, and some security fixes."
-    pubdate: mar 29
-    tags:
-      - tool
-
-  - title: "Ruby 2.1.9 Released"
-    url: "https://www.ruby-lang.org/en/news/2016/03/30/ruby-2-1-9-released/"
-    comment: "Ruby 2.1.9 released with many bug fixes."
-    pubdate: mar 30
+  - title: ""
+    url: ""
+    comment: ""
+    pubdate: sep 3
     tags:
       - rb
 
@@ -89,10 +64,10 @@ topics:
   baseline: "Screencasts and conferences videos, or other video feeds ..."
   links:
 
-  - title: "Memoization"
-    url: "https://gorails.com/episodes/memoization"
-    comment: "Use memoization to your advantage to cache results in memory to improve speed"
-    pubdate: mar 30
-    duration: 17m
+  - title: ""
+    url: ""
+    comment: ""
+    pubdate: sep 3
+    duration:
     tags:
       - rb
