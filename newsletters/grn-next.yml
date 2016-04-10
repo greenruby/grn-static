@@ -40,9 +40,21 @@ topics:
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "optcarrot"
+    url: "https://github.com/mame/optcarrot"
+    comment: "A NES emulator written in Ruby"
+    tags:
+      - rb
+
+  - title: "zxcvbn-ruby"
+    url: "https://github.com/envato/zxcvbn-ruby"
+    comment: "Ruby port of Dropbox's zxcvbn javascript lib"
+    tags:
+      - rb
+
+  - title: "notifyor"
+    url: "https://github.com/ndea/notifyor"
+    comment: "Get realtime notifications on desktop (except windows)."
     tags:
       - rb
 
@@ -85,6 +97,13 @@ topics:
     pubdate: apr 6
     tags:
       - tool
+
+  - title: "RubyGems.org gem replacement vulnerability and mitigation"
+    url: "http://blog.rubygems.org/2016/04/06/gem-replacement-vulnerability-and-mitigation.html"
+    comment: "Gem replacement vulnerability on RubyGems.org, gems with hypen in their name are affected."
+    pubdate: apr 6
+    tags:
+      - rb
 
   - title: "Generate Excel Spreadsheets with Rails and the Axlsx Gem"
     url: "http://www.sitepoint.com/generate-excel-spreadsheets-rails-axlsx-gem/"
