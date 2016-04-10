@@ -1,6 +1,6 @@
 ---
-edition: "166"
-pubdate: "apr 10th 2016"
+edition: "167"
+pubdate: "apr 17th 2016"
 editors: "xenor, tysliu"
 participants: "Nauman Tariq, hsatac"
 rant:
@@ -40,21 +40,9 @@ topics:
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: "optcarrot"
-    url: "https://github.com/mame/optcarrot"
-    comment: "A NES emulator written in Ruby"
-    tags:
-      - rb
-
-  - title: "zxcvbn-ruby"
-    url: "https://github.com/envato/zxcvbn-ruby"
-    comment: "Ruby port of Dropbox's zxcvbn javascript lib"
-    tags:
-      - rb
-
-  - title: "notifyor"
-    url: "https://github.com/ndea/notifyor"
-    comment: "Get realtime notifications on desktop (except windows)."
+  - title: ""
+    url: ""
+    comment: ""
     tags:
       - rb
 
@@ -63,61 +51,14 @@ topics:
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: "Producing Documentation for Your Rails API"
-    url: "https://blog.codeship.com/producing-documentation-for-your-rails-api/"
-    comment: "The quicker a developer can understand and finish up the integration with your API, the fewer headaches your team will have when providing support."
-    pubdate: apr 5
-    tags:
-      - rb
-
-  - title: "RubyGems.org gem replacement vulnerability and mitigation"
-    url: "http://blog.rubygems.org/2016/04/06/gem-replacement-vulnerability-and-mitigation.html"
-    comment: "RubyGems.org contained a bug that could allow an attacker to replace some .gem files on our servers with a different file that they supplied."
-    pubdate: apr 6
-    tags:
-      - rb
-
-  - title: "Getting Started with Browserify"
-    url: "https://scotch.io/tutorials/getting-started-with-browserify"
-    comment: "Browserify lets you use require in the browser, the same way you'd use it in Node."
-    pubdate: apr 6
-    tags:
-      - js
-
-  - title: "Debouncing and Throttling Explained Through Examples"
-    url: "https://css-tricks.com/debouncing-throttling-explained-examples/"
-    comment: "Use debounce, throttle and requestAnimationFrame to optimize your event handlers."
-    pubdate: apr 6
-    tags:
-      - web
-
-  - title: "Managing Data Storage with Blockchain and BigchainDB"
-    url: "http://www.sitepoint.com/managing-data-storage-with-blockchain-and-bigchaindb/"
-    comment: "BigChainDB offers to supply a lot of functionality missing from current NoSQL and distributed databases."
-    pubdate: apr 6
-    tags:
-      - tool
-
-  - title: "RubyGems.org gem replacement vulnerability and mitigation"
-    url: "http://blog.rubygems.org/2016/04/06/gem-replacement-vulnerability-and-mitigation.html"
-    comment: "Gem replacement vulnerability on RubyGems.org, gems with hypen in their name are affected."
-    pubdate: apr 6
-    tags:
-      - rb
-
-  - title: "Generate Excel Spreadsheets with Rails and the Axlsx Gem"
-    url: "http://www.sitepoint.com/generate-excel-spreadsheets-rails-axlsx-gem/"
-    comment: "Axlsx excels at helping you generate beautiful Office Open XML Spreadsheet documents without having to understand the entire ECMA specification."
-    pubdate: apr 7
-    tags:
-      - rb
-
   - title: ""
     url: ""
     comment: ""
-    pubdate: apr 7
+    pubdate: sep 3
     tags:
       - rb
+
+
 
 - title: Watch
   baseline: "Screencasts and conferences videos, or other video feeds ..."

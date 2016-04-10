@@ -1,0 +1,167 @@
+----------------------------------------------------
+Green Ruby News #166 - apr 10th 2016
+----------------------------------------------------
+*|IFNOT:CONTENT=Only Rant|*
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+*Panoply* (design)
+http://panoply.cc
+A Creative Company using nice full screen images and videos.
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+*We Work With Ruby* (rb)
+http://weworkwithruby.com/
+A job marketplace for rubyists.
+
+*Colorion* (design)
+http://www.colorion.co
+Curated Color Palettes with Search and Tags Support.
+
+*Coders Log* (tool)
+https://coders-log.com/
+A collection of community link-log about different code topics.
+
+*OpenPGP Best Practices* (tool)
+https://help.riseup.net/en/security/message-security/openpgp/best-practices
+In these troubled times, it's good to refresh our personal cryptography habits.
+
+*GitLab Pages* (tool)
+http://pages.gitlab.io/
+Websites for your GitLab projects, user account or group, like on Github. But not sure it's in the community edition.
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+*optcarrot* (rb)
+https://github.com/mame/optcarrot
+A NES emulator written in Ruby
+
+*zxcvbn-ruby* (rb)
+https://github.com/envato/zxcvbn-ruby
+Ruby port of Dropbox's zxcvbn javascript lib
+
+*notifyor* (rb)
+https://github.com/ndea/notifyor
+Get realtime notifications on desktop (except windows).
+
+*Grunt 1.0.0 released* (js - apr 4)
+http://gruntjs.com/blog/2016-04-04-grunt-1.0.0-released
+A big milestone for that well-known javascript processor.
+
+*Node-RED* (js)
+http://nodered.org/
+A visual tool for wiring the Internet of Things.
+
+*CFSSL* (go)
+https://github.com/cloudflare/cfssl
+CloudFlare's PKI and TLS toolkit
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+*How to Deal with Timezones the Active Support Way* (rb - apr 3)
+http://jakeyesbeck.com/2016/04/03/how-to-deal-with-timezones-the-active-support-way/
+ActiveSupport in Ruby on Rails 4.0+ has a built in list of all supported timezones on the TimeZone class.
+
+*Producing Documentation for Your Rails API* (rb - apr 5)
+https://blog.codeship.com/producing-documentation-for-your-rails-api/
+The quicker a developer can understand and finish up the integration with your API, the fewer headaches your team will have when providing support.
+
+*CSS containment* (css3 - apr 5)
+https://justmarkup.com/log/2016/04/css-containment/
+Some words about the contains property.
+
+*Introducing DGit* (ops - apr 5)
+http://githubengineering.com/introducing-dgit/
+A new distributed storage system that dramatically improves the availability, reliability, and performance of serving and storing Git content.
+
+*RubyGems.org gem replacement vulnerability and mitigation* (rb - apr 6)
+http://blog.rubygems.org/2016/04/06/gem-replacement-vulnerability-and-mitigation.html
+Gem replacement vulnerability on RubyGems.org, gems with hypen in their name are affected.
+
+*Some facts about the Ruby Hero awards* (rb - apr 6)
+https://practicingdeveloper.com/2016/04/06/some-facts-about-the-ruby-hero-awards/
+An interesting rant about the Ruby Heroes initiative and how it's organized.
+
+*Getting Started with Browserify* (js - apr 6)
+https://scotch.io/tutorials/getting-started-with-browserify
+Browserify lets you use require in the browser, the same way you'd use it in Node.
+
+*Debouncing and Throttling Explained Through Examples* (web - apr 6)
+https://css-tricks.com/debouncing-throttling-explained-examples/
+Use debounce, throttle and requestAnimationFrame to optimize your event handlers.
+
+*Managing Data Storage with Blockchain and BigchainDB* (tool - apr 6)
+http://www.sitepoint.com/managing-data-storage-with-blockchain-and-bigchaindb/
+BigChainDB offers to supply a lot of functionality missing from current NoSQL and distributed databases.
+
+*GPG signature verification* (tool - apr 6)
+https://github.com/blog/2144-gpg-signature-verification
+A new feature for Github."
+
+*Generate Excel Spreadsheets with Rails and the Axlsx Gem* (rb - apr 7)
+http://www.sitepoint.com/generate-excel-spreadsheets-rails-axlsx-gem/
+Axlsx excels at helping you generate beautiful Office Open XML Spreadsheet documents without having to understand the entire ECMA specification.
+
+*Debugging techniques in Elixir* (el - apr 7)
+http://blog.plataformatec.com.br/2016/04/debugging-techniques-in-elixir-lang/
+Other approaches to debugging Elixir code, beyond IO.inspect.
+
+*LogZoom, a fast and lightweight substitute for Logstas* (go - apr 8)
+https://packetzoom.com/blog/logzoom-a-fast-and-lightweight-substitute-for-logstash.html
+Log data indexer written in Go, competitor of Logstash or Fluentd.
+
+*One Rails App With Many Databases* (rb - apr 9)
+http://www.blrice.net/blog/2016/04/09/one-rails-app-with-many-databases/
+It may be useful to connect to different databases for a variety of reasons
+
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+Links curated by by mose (publisher), xenor, tysliu (editors), Nauman Tariq, hsatac (contributors).
+*|END:IF|*
+*|IFNOT:CONTENT=Only Links|*
+
+Rant
+----------------------------------------------------
+The random rant of the week by mose.
+
+#### Go again
+
+That's years that I'm trying to do something real with go. I mean, it is a
+very attractive language with quite a special workflow and toolbox. From time
+to time I write some small script for keeping contact with that language. Last
+week I made [this one][slackpin] to list links pinned in our Greenruby
+slackroom to prepare the letter, So I can open them all at once to check them
+in my browser. With time passing, seems that Go now has a really complete
+collection of libraries for a lot of usages. I think I will have push a little
+the slack api soon, and maybe do some real go coding.
+
+[slackpin]: https://github.com/greenruby/slackpin/blob/master/pins.go 
+
+*|END:IF|*
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+
