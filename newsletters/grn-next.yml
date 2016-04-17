@@ -34,8 +34,6 @@ topics:
     tags:
       - rb
 
-
-
 - title: Install
   baseline: "A selection of gems or applications updated during past week."
   links:
@@ -62,6 +60,20 @@ topics:
   baseline: "From the blogosphere or news feeds ..."
   links:
 
+  - title: "The Optimist’s Guide to Pessimistic Library Versioning"
+    url: "https://blog.codeship.com/optimists-guide-pessimistic-library-versioning/"
+    comment: "If you’re a gem maintainer, you should switch to the pessimistic version operator for your gemspec dependencies using the “x” syntax like ~> 1.x."
+    pubdate: apr 12
+    tags:
+      - rb
+
+  - title: "Understanding JavaScript Modules: Bundling & Transpiling"
+    url: "http://www.sitepoint.com/javascript-modules-bundling-transpiling/"
+    comment: "Modules are used extensively in Node but our focus here will be on how we can use modules inside of the browser."
+    pubdate: apr 12
+    tags:
+      - js
+
   - title: "Don’t you Struct.new(...).new(...)"
     url: "https://pragtob.wordpress.com/2016/04/12/dont-you-struct-new-new/"
     comment: "Explain why initialize directclt from Struct.new(...) is a bad idea."
@@ -69,7 +81,61 @@ topics:
     tags:
       - rb
 
+  - title: "Rails 5 adds warning when fetching big result set with Active Record"
+    url: "http://blog.bigbinary.com/2016/04/13/rails-5-adds-option-to-log-warning-when-fetching-big-result-sets.html"
+    comment: "With large data set we can run into memory issue."
+    pubdate: apr 13
+    tags:
+      - rb
 
+  - title: "A Guide to Proper Error Handling in JavaScript"
+    url: "http://www.sitepoint.com/proper-error-handling-javascript/"
+    comment: "Errors are inevitable, it’s what you do about them that counts."
+    pubdate: apr 13
+    tags:
+      - js
+
+  - title: "360 Degrees Product Viewer"
+    url: "https://codyhouse.co/gem/360-degrees-product-viewer/"
+    comment: "A simple, interactive resource that can be used to provide a virtual tour of your product."
+    pubdate: apr 13
+    tags:
+      - web
+
+  - title: "Authentication in React Native with Firebase"
+    url: "http://www.sitepoint.com/authentication-in-react-native-with-firebase/"
+    comment: "React Native is one of the most popular choices for creating cross-platform mobile apps with JavaScript and React."
+    pubdate: apr 13
+    tags:
+      - web
+
+  - title: "Technical Debt: Rescuing Legacy Code through Refactoring"
+    url: "http://www.sitepoint.com/technical-debt-rescuing-legacy-code-through-refactoring/"
+    comment: ""
+    pubdate: apr 13
+    tags:
+      - web
+
+  - title: "Introduction to Cells: A Better View Layer for Rails"
+    url: "http://www.sitepoint.com/introduction-to-cells-a-better-view-layer-for-rails/"
+    comment: "It is possible to have fully stand-alone view components that can be reused without any pain."
+    pubdate: apr 14
+    tags:
+      - rb
+
+  - title: "Getting Started with React and JSX"
+    url: "http://www.sitepoint.com/getting-started-react-jsx/"
+    comment: "An introduction to using React."
+    pubdate: apr 14
+    tags:
+      - js
+
+  - title: ""
+    url: ""
+    comment: ""
+    pubdate: apr 13
+    tags:
+      - rb
 
 - title: Watch
   baseline: "Screencasts and conferences videos, or other video feeds ..."
