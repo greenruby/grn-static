@@ -1,6 +1,6 @@
 ---
-edition: "167"
-pubdate: "apr 17th 2016"
+edition: "168"
+pubdate: "apr 25th 2016"
 editors: "xenor, tysliu"
 participants: "Nauman Tariq, hsatac"
 rant:
@@ -28,122 +28,46 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: "Awesome Ruby"
-    url: "http://ruby.libhunt.com/"
-    comment: "A collection of Ruby libraries, tools, frameworks and software."
+  - title: ""
+    url: ""
+    comment: ""
     tags:
-      - rb
+      - css3
+
+
 
 - title: Install
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: "powercore"
-    url: "https://github.com/arturoherrero/powercore"
-    comment: "Extend Ruby core with useful extensions."
+  - title: ""
+    url: ""
+    comment: ""
     tags:
       - rb
 
-  - title: "action_cable_client"
-    url: "https://github.com/NullVoxPopuli/action_cable_client"
-    comment: "A ruby client for interacting with Rails' ActionCable"
-    tags:
-      - rb
-
-  - title: "dogweather"
-    url: "https://github.com/dogweather/validated_object"
-    comment: "Self-validating Ruby objects."
-    tags:
-      - rb
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: "The Optimist’s Guide to Pessimistic Library Versioning"
-    url: "https://blog.codeship.com/optimists-guide-pessimistic-library-versioning/"
-    comment: "If you’re a gem maintainer, you should switch to the pessimistic version operator for your gemspec dependencies using the “x” syntax like ~> 1.x."
-    pubdate: apr 12
-    tags:
-      - rb
-
-  - title: "Understanding JavaScript Modules: Bundling & Transpiling"
-    url: "http://www.sitepoint.com/javascript-modules-bundling-transpiling/"
-    comment: "Modules are used extensively in Node but our focus here will be on how we can use modules inside of the browser."
-    pubdate: apr 12
-    tags:
-      - js
-
-  - title: "Don’t you Struct.new(...).new(...)"
-    url: "https://pragtob.wordpress.com/2016/04/12/dont-you-struct-new-new/"
-    comment: "Explain why initialize directclt from Struct.new(...) is a bad idea."
-    pubdate: apr 13
-    tags:
-      - rb
-
-  - title: "Rails 5 adds warning when fetching big result set with Active Record"
-    url: "http://blog.bigbinary.com/2016/04/13/rails-5-adds-option-to-log-warning-when-fetching-big-result-sets.html"
-    comment: "With large data set we can run into memory issue."
-    pubdate: apr 13
-    tags:
-      - rb
-
-  - title: "A Guide to Proper Error Handling in JavaScript"
-    url: "http://www.sitepoint.com/proper-error-handling-javascript/"
-    comment: "Errors are inevitable, it’s what you do about them that counts."
-    pubdate: apr 13
-    tags:
-      - js
-
-  - title: "360 Degrees Product Viewer"
-    url: "https://codyhouse.co/gem/360-degrees-product-viewer/"
-    comment: "A simple, interactive resource that can be used to provide a virtual tour of your product."
-    pubdate: apr 13
-    tags:
-      - web
-
-  - title: "Authentication in React Native with Firebase"
-    url: "http://www.sitepoint.com/authentication-in-react-native-with-firebase/"
-    comment: "React Native is one of the most popular choices for creating cross-platform mobile apps with JavaScript and React."
-    pubdate: apr 13
-    tags:
-      - web
-
-  - title: "Technical Debt: Rescuing Legacy Code through Refactoring"
-    url: "http://www.sitepoint.com/technical-debt-rescuing-legacy-code-through-refactoring/"
-    comment: ""
-    pubdate: apr 13
-    tags:
-      - web
-
-  - title: "Introduction to Cells: A Better View Layer for Rails"
-    url: "http://www.sitepoint.com/introduction-to-cells-a-better-view-layer-for-rails/"
-    comment: "It is possible to have fully stand-alone view components that can be reused without any pain."
-    pubdate: apr 14
-    tags:
-      - rb
-
-  - title: "Getting Started with React and JSX"
-    url: "http://www.sitepoint.com/getting-started-react-jsx/"
-    comment: "An introduction to using React."
-    pubdate: apr 14
-    tags:
-      - js
-
   - title: ""
     url: ""
     comment: ""
-    pubdate: apr 13
+    pubdate: sep 3
     tags:
       - rb
+
+
 
 - title: Watch
   baseline: "Screencasts and conferences videos, or other video feeds ..."
   links:
 
-  - title: "Mountain West Ruby 2016"
-    url: "https://www.youtube.com/playlist?list=PLE7tQUdRKcybjaXiRW_mjOuw1JGrWsCdt#mountainwest2016"
-    comment: "Talks from Mountain West Ruby 2016"
-    pubdate: apr 14
+  - title: ""
+    url: ""
+    comment: ""
+    pubdate: sep 3
+    duration:
     tags:
       - rb
