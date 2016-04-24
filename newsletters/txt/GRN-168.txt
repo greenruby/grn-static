@@ -1,0 +1,212 @@
+----------------------------------------------------
+Green Ruby News #168 - apr 25th 2016
+----------------------------------------------------
+*|IFNOT:CONTENT=Only Rant|*
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+*Quechua* (design)
+http://lookbook.quechua.com/spring-summer-2016/
+Quite good typography and scrolling pace.
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+*Rails Pacific 2016* (rb)
+http://www.railspacific.com/
+Will take place on May 20 and 21, in Taipei.
+
+*Microjs* (js)
+http://microjs.com/
+List of JS Micro-Frameworks and Micro-Libraries.
+
+*SHOUTCLOUD* (tool)
+http://shoutcloud.io/
+OK, it's a joke. Or, is it, really?
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+*Helpy* (rb)
+https://github.com/helpyio/helpy
+A modern, mobile-first helpdesk application built in Ruby.
+
+*Thredded* (rb)
+https://github.com/thredded/thredded
+A Rails forums engine.
+
+*Grub* (rb)
+https://github.com/ivantsepp/grub
+Add comments to your Gemfile with each dependency's description.
+
+*Hashie* (rb)
+https://github.com/intridea/hashie
+Collection of classes and mixins that make hashes more powerful.
+
+*Popper.js* (js)
+https://popper.js.org/
+Easily position tooltips, popovers and so on with just a line of code.
+
+*Koel* (js)
+https://github.com/phanan/koel
+A personal music streaming server.
+
+*Modaal* (js)
+https://github.com/humaan/Modaal
+Modaal is a WCAG 2.0 Level AA accessible modal window plugin.
+
+*Strman* (js)
+https://github.com/dleitee/strman
+Javascript string manipulation library without npm dependences.
+
+*Consolex* (el)
+https://github.com/sivsushruth/consolex
+Tool that allows you to attach a web based console to any mix project
+
+*Min* (tool)
+https://github.com/PalmerAL/min
+A small and fast web browser.
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+*The Road to Sinatra 2.0* (rb - apr 18)
+http://zzak.io/log/2016-04-18-the-road-to-sinatra-2.0.html
+The big (ok not so big) plans for the next major release of Sinatra.
+
+*How I hunted the most odd ruby bug* (rb - apr 18)
+http://blog.arkency.com/2016/04/how-i-hunted-the-most-odd-ruby-bug/
+Detailed log of a deep dive bug hunting.
+
+*New Reality release: comprehensive docs and other cool things* (rb - apr 18)
+http://zverok.github.io/blog/2016-04-18-reality-new-release.html
+Some news from the Reality Gem.
+
+*dokku on Ubuntu VM - complete with Rails* (ops - apr 18)
+http://fwolfst.github.io/docker/dokku/dokku-alt/virtualization/2016/04/18/dokku-on-ubuntu-vm-complete-rails.html
+Full setup for in-house heroku-like rails server.
+
+*When to avoid the DRY principle* (rb - apr 19)
+https://www.madetech.com/blog/when-to-avoid-the-dry-principle
+DRY is a principle, not a dogma, right?
+
+*Build A JSON API with rails and jsonapi resources* (rb - apr 19)
+http://tutorialsfordevs.com/tutorials/build-json-api-rails-jsonapi-resources/
+Step by step build of a rails json api app.
+
+*Changes to test controllers in Rails 5Blog* (rb - APR 19)
+http://blog.bigbinary.com/2016/04/19/changes-to-test-controllers-in-rails-5.html
+Some major changes in Controller tests in Rails 5.
+
+*Creating Wavescroll* (css3 - apr 20)
+https://css-tricks.com/creating-wavescroll/
+Demo of scroll through panels with classic jQuery, SCSS, and HTML.
+
+*How Etsy Formats Currency* (web - apr 19)
+https://codeascraft.com/2016/04/19/how-etsy-formats-currency/
+How Etsy uses CLDR for currency formatting.
+
+*A Comprehensive Look at Events in jQuery* (js - apr 20)
+http://www.sitepoint.com/comprehensive-events-jquery/
+Almost all user interactions within a webpage can be captured in jQuery as events.
+
+*Lint your CSS with stylelint* (css3 - apr 20)
+https://css-tricks.com/stylelint/
+CSS authors need linters just like everyone else.
+
+*Patterns for testing command line scripts* (tool - apr 20)
+http://t-a-w.blogspot.com/2016/04/patterns-for-testing-command-line.html
+Shell scripts also deserve some testing love.
+
+*Exorcise Your Newbie Demons by Contributing to Exercism* (rb - apr 21)
+http://www.sitepoint.com/exorcise-your-newbie-demons-by-contributing-to-exercism/
+Want to contribute to open source but don't know where to start?
+
+*How to Create a Static Site with Metalsmith* (js - apr 21)
+http://www.sitepoint.com/create-static-site-metalsmith/
+Static Site generators offers some of the benefits of a CMS without the hosting, performance and security overheads.
+
+*How I Hacked Facebook, and Found Someone's Backdoor Script* (ops - apr 21)
+http://devco.re/blog/2016/04/21/how-I-hacked-facebook-and-found-someones-backdoor-script-eng-ver/
+The interesting story of a security research adventure.
+
+*Opera VPN: the Future of Private Browsing?* (tool - apr 22)
+http://www.sitepoint.com/opera-vpn-future-private-browsing/
+Opera 38 is the first browser to offer a free, unlimited, native VPN client.
+
+Watch
+----------------------------------------------------
+Screencasts and conferences videos, or other video feeds ...
+
+*DHH on Rails performance and speed* (rb - apr 20 - 63m)
+https://www.youtube.com/watch?v=ktZLpjCanvg
+DHH explains caching, user experience and statistics about Rails' performance doubts.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+Links curated by by mose (publisher), xenor, tysliu (editors), Nauman Tariq, hsatac, James (contributors).
+*|END:IF|*
+*|IFNOT:CONTENT=Only Links|*
+
+Rant
+----------------------------------------------------
+The random rant of the week by mose.
+
+#### Nanoservices
+
+That link to [Shoutcloud][shoutcloud] made me laugh and then made me think.
+It's not the first time I see some micro-service publicly available. 2 years
+ago there was some talk about [nano-services as an antipattern][nanoservice].
+But when you push the logic a little further, and at a very large scale, maybe
+it's a projection of what the future will be.
+
+Imagine our software totally destructured, calling functions taht are stored
+on the net, using some load balanced worldwide environment. We already do that
+with CDNs. Javascript next Modules proposals will go in that direction as
+well. But what is a method call in a program that we know today could become a
+service call of an external globally available function.
+
+After all we always write the same code. How many time did you write a regexp
+for [email pattern validation][emailregexp]? The RFC 822 and 5322 are nasties,
+yeah. If we had no latency consideration, I would gladly delegate various
+pieces of code to a specialized service. But latency, is it really an issue
+now? We work more and more with async code, with queues and messages. What
+seems heretic for our current legacy standards would not seem that foolish in
+a slightly different context.
+
+So technically, I suppose nanoservices are a possible future. I even think
+it's a requirement for scaling any kind of agent-based architecture. Machine
+learning will be much better off by just registering maps to knowledge than
+knowledge itself. But I wonder about the economical side of things. The old
+capitalist market economy is already stretching its reach far beyond its
+original statement with immaterial economy. The totally destructured
+immaterial one will certainly propose an interesting challenge.
+
+[shoutcloud]: http://shoutcloud.io
+[nanoservice]: http://www.infoq.com/news/2014/05/nano-services
+[emailregexp]: http://emailregex.com/
+
+*|END:IF|*
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+

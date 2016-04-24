@@ -1,6 +1,6 @@
 ---
-edition: "168"
-pubdate: "apr 25th 2016"
+edition: "169"
+pubdate: "may 1st 2016"
 editors: "xenor, tysliu"
 participants: "Nauman Tariq, hsatac"
 rant:
@@ -22,6 +22,7 @@ topics:
     tags:
       - design
 
+
 - title: Use
   baseline:
     "Web applications, resources and tools, available for making our life easier or funnier."
@@ -33,138 +34,35 @@ topics:
     tags:
       - css3
 
+
+
 - title: Install
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: "Popper.js"
-    url: "https://popper.js.org/"
-    comment: "Easily position tooltips, popovers and so on with just a line of code!"
-    tags:
-      - js
-
-  - title: "Modaal"
-    url: "https://github.com/humaan/Modaal"
-    comment: "Modaal is a WCAG 2.0 Level AA accessible modal window plugin."
-    tags:
-      - web
-
-  - title: "helpy"
-    url: "https://github.com/helpyio/helpy"
-    comment: "A modern, 'mobile-first' helpdesk application built in Ruby."
+  - title: ""
+    url: ""
+    comment: ""
     tags:
       - rb
 
-   - title: "min"
-    url: "https://github.com/PalmerAL/min"
-    comment: "A small and fast web browser"
-    tags:
-      - web
-
-  - title: "thredded/thredded"
-    url: "https://github.com/thredded/thredded"
-    comment: "A Rails forums engine."
-    tags:
-      - rb
-
-  - title: "grub"
-    url: "https://github.com/ivantsepp/grub"
-    comment: "Add comments to your Gemfile with each dependency's description"
-    tags:
-      - rb
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: "The Road to Sinatra 2.0"
-    url: "http://zzak.io/log/2016-04-18-the-road-to-sinatra-2.0.html"
-    comment: "Let's talk about the current state of our beloved Sinatra library, and our big (ok not so big) plans for the next major release."
-    pubdate: apr 18
-    tags:
-      - rb
-
-  - title: "How I hunted the most odd ruby bug"
-    url: "http://blog.arkency.com/2016/04/how-i-hunted-the-most-odd-ruby-bug/"
-    comment: "Last week I was hunting an entirely different beast..."
-    pubdate: apr 18
-    tags:
-      - rb
-
-  - title: "When to avoid the DRY principle"
-    url: "https://www.madetech.com/blog/when-to-avoid-the-dry-principle"
-    comment: ""
-    pubdate: apr 19
-    tags:
-      - rb
-
-  - title: "Build A JSON API with rails and jsonapi resources"
-    url: "http://tutorialsfordevs.com/tutorials/build-json-api-rails-jsonapi-resources/"
-    comment: "In this tutorial, we will discuss how to quickly build a JSON API that is JSONAPI spec compliant using Ruby on Rails and jsonapi-resources."
-    pubdate: apr 19
-    tags:
-      - rb
-
-  - title: "How Etsy Formats Currency"
-    url: "https://codeascraft.com/2016/04/19/how-etsy-formats-currency/"
-    comment: "Currency formatting depends on three attributes: the currency, the member’s location, and the member’s language."
-    pubdate: apr 19
-    tags:
-      - web
-
-  - title: "A Comprehensive Look at Events in jQuery"
-    url: "http://www.sitepoint.com/comprehensive-events-jquery/"
-    comment: "Almost all user interactions within a webpage can be captured in jQuery as events."
-    pubdate: apr 20
-    tags:
-      - js
-
-  - title: "Lint your CSS with stylelint"
-    url: "https://css-tricks.com/stylelint/"
-    comment: "CSS authors need linters just like everyone else."
-    pubdate: apr 20
-    tags:
-      - css3
-
-  - title: "Exorcise Your Newbie Demons by Contributing to Exercism"
-    url: "http://www.sitepoint.com/exorcise-your-newbie-demons-by-contributing-to-exercism/"
-    comment: "Want to contribute to open source but don't know where to start?"
-    pubdate: apr 21
-    tags:
-      - rb
-
-  - title: "How to Create a Static Site with Metalsmith"
-    url: "http://www.sitepoint.com/create-static-site-metalsmith/"
-    comment: "Static Site generators offers some of the benefits of a CMS without the hosting, performance and security overheads."
-    pubdate: apr 21
-    tags:
-      - web
-
-  - title: "Opera VPN: the Future of Private Browsing?"
-    url: "http://www.sitepoint.com/opera-vpn-future-private-browsing/"
-    comment: "Opera 38 is the first browser to offer a free, unlimited, native VPN client."
-    pubdate: apr 22
-    tags:
-      - tool
-
   - title: ""
     url: ""
     comment: ""
-    pubdate: apr 19
+    pubdate: sep 3
     tags:
       - rb
+
+
 
 - title: Watch
   baseline: "Screencasts and conferences videos, or other video feeds ..."
   links:
-
-  - title: "Interview: David Heinemeier Hansson (DHH) on Rails performance and speed"
-    url: "https://www.youtube.com/watch?v=ktZLpjCanvg"
-    comment: "DHH explains caching, user experience and statistics about Rails' performance doubts."
-    pubdate: apr 20
-    duration: 63m
-    tags:
-      - rb
 
   - title: ""
     url: ""
