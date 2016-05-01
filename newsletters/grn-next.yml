@@ -28,11 +28,11 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "Ruby Web Dev The Other Way"
+    url: "http://rwdtow.stdout.in/"
+    comment: "Personal ruby web development best practices guide by Ievgen Kuzminov."
     tags:
-      - css3
+      - rb
 
 
 
@@ -40,9 +40,21 @@ topics:
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "Bumbler"
+    url: "https://github.com/nevir/Bumbler"
+    comment: "Track the load progress of your Bundler-based projects"
+    tags:
+      - rb
+
+  - title: "Apnotic"
+    url: "https://github.com/ostinelli/apnotic"
+    comment: "An Apple Push Notification gem able to provide instant feedback."
+    tags:
+      - rb
+
+  - title: "Memdump"
+    url: "https://github.com/doudou/memdump"
+    comment: "Command line manipulation and analysis tool for Ruby 2.1+ memory dumps"
     tags:
       - rb
 
@@ -51,10 +63,10 @@ topics:
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
-    pubdate: sep 3
+  - title: "Ruby 2.3.1 and Released"
+    url: "https://www.ruby-lang.org/en/news/2016/04/26/ruby-2-3-1-released/"
+    comment: "With many bugfixes."
+    pubdate: apr 26
     tags:
       - rb
 
