@@ -40,25 +40,78 @@ topics:
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "Thredded"
+    url: "https://github.com/thredded/thredded"
+    comment: "Thredded is a Rails 4.2+ forum/messageboard engine. Its goal is to be as simple and feature rich as possible."
     tags:
       - rb
-
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
-    pubdate: sep 3
+  - title: "A Basic HTML5 Template For Any Project"
+    url: "http://www.sitepoint.com/a-basic-html5-template/"
+    comment: "As you learn HTML5 and add new techniques to your toolbox, you’re likely going to want to build yourself boilerplate."
+    pubdate: apr 25
+    tags:
+      - web
+
+  - title: "Ruby 2.3.1 Released"
+    url: "https://www.ruby-lang.org/en/news/2016/04/26/ruby-2-3-1-released/"
+    comment: "This is the first TEENY version release of the stable 2.3 series, there are many bugfixes."
+    pubdate: apr 26
     tags:
       - rb
 
+  - title: "Unobtrusive JavaScript via AJAX in Rails"
+    url: "https://blog.codeship.com/unobtrusive-javascript-via-ajax-rails/"
+    comment: "Unobtrusive JavaScript is generally known as writing your JavaScript outside of your HTML’s page structure so as to not pollute your HTML structure."
+    pubdate: apr 26
+    tags:
+      - rb
 
+  - title: "Improving the Quality of Your CSS with PostCSS"
+    url: "http://www.sitepoint.com/improving-the-quality-of-your-css-with-postcss/"
+    comment: "In this article, we will explore how we can utilise PostCSS to help us maintain a higher quality in our CSS code."
+    pubdate: apr 26
+    tags:
+      - css3
+
+  - title: "5 Career-Ending Mistakes Web Developers Make"
+    url: "http://www.sitepoint.com/5-career-ending-mistakes-web-developers-make/"
+    comment: "You did everything you were supposed to do, how could this happen? What went wrong?"
+    pubdate: apr 26
+    tags:
+      - web
+
+  - title: "Creating Animated Google Map Markers with CSS and JavaScript"
+    url: "http://www.sitepoint.com/animated-google-map-markers-css-javascript/"
+    comment: "The Google Maps API lacks flexibility and creativity with map markers."
+    pubdate: apr 26
+    tags:
+      - web
+
+  - title: "Build a Music Player with React & Electron II: Making the UI"
+    url: "https://scotch.io/tutorials/build-a-music-player-with-react-electron-ii-making-the-ui"
+    comment: "Building a music player from scrach with React and Electron II."
+    pubdate: apr 27
+    tags:
+      - web
+
+  - title: "An Introduction to Using JWT Authentication in Rails"
+    url: "http://www.sitepoint.com/introduction-to-using-jwt-in-rails/"
+    comment: "JWT is a standard and has been implemented in almost all popular programming languages."
+    pubdate: apr 28
+    tags:
+      - rb
+
+  - title: "How to Use JSON Data Fields in MySQL Databases"
+    url: "http://www.sitepoint.com/use-json-data-fields-mysql-databases/"
+    comment: "The line between SQL and NoSQL databases has become increasingly blurred."
+    pubdate: apr 29
+    tags:
+      - tool
 
 - title: Watch
   baseline: "Screencasts and conferences videos, or other video feeds ..."
