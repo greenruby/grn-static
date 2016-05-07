@@ -28,21 +28,44 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "Resources for machine learning in Ruby"
+    url: "https://gist.github.com/gbuesing/865b814d312f46775cda"
+    comment: "A collection of gems and other sources about machine learning in Ruby."
     tags:
-      - css3
+      - rb
 
+  - title: "No more errors"
+    url: "http://idiosyncratic-ruby.com/32-no-more-errors.html"
+    comment: "A handy list of Ruby's error."
+    tags:
+      - rb
 
 
 - title: Install
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "serviceworker-rails"
+    url: "https://github.com/rossta/serviceworker-rails"
+    comment: "Use Service Workers with the Rails asset pipeline"
+    tags:
+      - rb
+
+  - title: "rails-auth"
+    url: "https://github.com/square/rails-auth"
+    comment: "Modular resource-based authentication and authorization for Rails/Rack"
+    tags:
+      - rb
+
+  - title: "seed_dump"
+    url: "https://github.com/rroblak/seed_dump"
+    comment: "Rails 4/5 task to dump real database data to db/seeds.rb"
+    tags:
+      - rb
+
+  - title: "net-http2"
+    url: "https://github.com/ostinelli/net-http2"
+    comment: "A HTTP/2 client for Ruby."
     tags:
       - rb
 
@@ -51,13 +74,19 @@ topics:
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
-    pubdate: sep 3
+  - title: "Lug-Nut Driven Development (LuDDite)"
+    url: "https://medium.com/@belisarius222/how-to-start-a-software-project-ad51373c1510#.9shd92icw"
+    comment: "How to build/start a self interested project."
+    pubdate: May 2
     tags:
       - rb
 
+  - title: "Exploring the Structure of Ruby Gems"
+    url: "https://blog.codeship.com/exploring-structure-ruby-gems/"
+    comment: "Explain how gems loaded to your project."
+    pubdate: May 4
+    tags:
+      - rb
 
 
 - title: Watch
