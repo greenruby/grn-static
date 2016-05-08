@@ -1,15 +1,19 @@
 ---
-edition: "169"
-pubdate: "may 1st 2016"
+edition: "170"
+pubdate: "may 8th 2016"
 editors: "xenor, tysliu"
-participants: "Nauman Tariq, hsatac, James, Lincoln"
+participants: "Nauman Tariq, hsatac, Mickey"
 rant:
   author: mose
   content:
-    "#### Nothing to rant about
+    "#### It's the fault of the bike
 
 
-Except that Labor Day should be celebrated by a 24h day work, not a holiday. Doesn't make sense. Where is gone the respect for slavery? Muhahaha
+Well, in the last two weeks I get short in links gathered on our slack pinned list. Usually I'm reading various RSS feeds while commuting, and I post them on slack, for later one pinning them. Then I have a script in go that will grab all the pinned url, and remove the pins at the moment I use and check them for inclusion in the publication.
+
+
+But 2 weeks ago, I decided to change my habits and go to the office by bike. It's a 30 minutes ride, and it's very good. But then hare we are: no no way to check RSS on the phone. I'm going to need to find another trick. Because I won't quit the biking.
+
 "
 
 topics:
@@ -19,181 +23,159 @@ topics:
     "Examples of UI/UX, graphic performance, web design and flashy things."
   links:
 
-  - title: "The End of the Internet"
-    url: "http://www.endoftheinternet.com/"
-    comment: "At the end there was just a map."
+  - title: "Pixels by Tomer Lerner"
+    url: "http://tomerlerner.com/"
+    comment: "A Designer website, showcasing various projects."
     tags:
       - design
+
 
 - title: Use
   baseline:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: "Ruby Web Dev The Other Way"
-    url: "http://rwdtow.stdout.in/"
-    comment: "Personal ruby web development best practices guide by Ievgen Kuzminov."
+  - title: "Resources for machine learning in Ruby"
+    url: "https://gist.github.com/gbuesing/865b814d312f46775cda"
+    comment: "A collection of gems and other sources about machine learning in Ruby."
     tags:
       - rb
 
-  - title: "CSS Hexagon Generator"
-    url: "http://csshexagon.com"
-    comment: "Generate your own pure CSS hexagons with box-shadow, border, and background image."
+  - title: "No more errors"
+    url: "http://idiosyncratic-ruby.com/32-no-more-errors.html"
+    comment: "A handy list of Ruby's error."
     tags:
-      - css3
+      - rb
 
-  - title: "Glot.io"
-    url: "https://glot.io/"
-    comment: "An open source pastebin with runnable snippets and API."
+  - title: "Losant"
+    url: "https://www.losant.com"
+    comment: "Internet of Things developer platform."
     tags:
       - tool
 
-  - title: "Typatone"
-    url: "http://typatone.com/"
-    comment: "The act of writing has always been an art. Now, it can also be an act of music."
+  - title: "DevopsWiki"
+    url: "https://github.com/Leo-G/DevopsWiki"
+    comment: "A wiki of Devops Tools, Tutorials and Scripts"
     tags:
-      - tool
+      - ops
+
+  - title: "SeaLion"
+    url: "https://sealion.com/"
+    comment: "View raw output for critical events across servers"
+    tags:
+      - ops
 
 - title: Install
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: "Ruby 2.3.1 Released"
-    url: "https://www.ruby-lang.org/en/news/2016/04/26/ruby-2-3-1-released/"
-    comment: "This is the first TEENY version release of the stable 2.3 series, there are many bugfixes."
-    pubdate: apr 26
+  - title: "serviceworker-rails"
+    url: "https://github.com/rossta/serviceworker-rails"
+    comment: "Use Service Workers with the Rails asset pipeline."
     tags:
       - rb
 
-  - title: "Thredded"
-    url: "https://github.com/thredded/thredded"
-    comment: "A Rails 4.2+ forum engine."
+  - title: "rails-auth"
+    url: "https://github.com/square/rails-auth"
+    comment: "Modular resource-based authentication and authorization for Rails/Rack."
     tags:
       - rb
 
-  - title: "Bumbler"
-    url: "https://github.com/nevir/Bumbler"
-    comment: "Track the load progress of your Bundler-based projects."
+  - title: "seed_dump"
+    url: "https://github.com/rroblak/seed_dump"
+    comment: "Rails 4/5 task to dump real database data to db/seeds.rb"
     tags:
       - rb
 
-  - title: "Apnotic"
-    url: "https://github.com/ostinelli/apnotic"
-    comment: "An Apple Push Notification gem able to provide instant feedback."
+  - title: "net-http2"
+    url: "https://github.com/ostinelli/net-http2"
+    comment: "A HTTP/2 client for Ruby."
     tags:
       - rb
 
-  - title: "Memdump"
-    url: "https://github.com/doudou/memdump"
-    comment: "Command line manipulation and analysis tool for Ruby 2.1+ memory dumps."
+  - title: "Redis 3.2.0 is out"
+    url: "http://antirez.com/news/104"
+    comment: "This is a big upgrade with various new features for Redis."
     tags:
-      - rb
+      - ops
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: "Blocks, Procs, and Enumerable"
-    url: "https://robots.thoughtbot.com/blocks-procs-and-enumerable"
-    comment: "Some basics of ruby, exposed."
-    pubdate: apr 25
+  - title: "Lug-Nut Driven Development (LuDDite)"
+    url: "https://medium.com/@belisarius222/how-to-start-a-software-project-ad51373c1510#.9shd92icw"
+    comment: "Some basic principles used for growing a codebase."
+    pubdate: May 2
     tags:
       - rb
 
-  - title: "A basic HTML5 Template for any project"
-    url: "http://www.sitepoint.com/a-basic-html5-template/"
-    comment: "As you learn HTML5 and add new techniques to your toolbox, you’re likely going to want to build yourself boilerplate."
-    pubdate: apr 25
-    tags:
-      - web
-
-  - title: "Unobtrusive JavaScript via AJAX in Rails"
-    url: "https://blog.codeship.com/unobtrusive-javascript-via-ajax-rails/"
-    comment: "JavaScript outside of HTML’s page structure not to pollute it."
-    pubdate: apr 26
+  - title: "Container-Ready Rails 5"
+    url: "https://blog.heroku.com/archives/2016/5/2/container_ready_rails_5"
+    comment: "Rails 5 will be the easiest release ever to get running on Heroku."
+    pubdate: May 2
     tags:
       - rb
 
-  - title: "Improving the Quality of Your CSS with PostCSS"
-    url: "http://www.sitepoint.com/improving-the-quality-of-your-css-with-postcss/"
-    comment: "A way to raise quality in CSS code."
-    pubdate: apr 26
+  - title: "How to Generate Weighted Random Numbers"
+    url: "http://www.blackbytes.info/2016/05/weighted-random-numbers/"
+    comment: "Two ways to generate weighted random numbers."
+    pubdate: May 3
+    tags:
+      - rb
+
+  - title: "Introducing the CSS Grid Layout"
+    url: "http://www.sitepoint.com/introducing-the-css-grid-layout/"
+    comment: "The importance of grids in modern web design is clear from the number of frameworks that implement the grid system to speed up development."
+    pubdate: May 3
     tags:
       - css3
 
-  - title: "Creating Animated Google Map Markers with CSS and JavaScript"
-    url: "http://www.sitepoint.com/animated-google-map-markers-css-javascript/"
-    comment: "The Google Maps API lacks flexibility and creativity with map markers."
-    pubdate: apr 26
+  - title: "The biggest Rails code smell you should avoid to keep your app healthy"
+    url: "https://medium.com/planet-arkency/the-biggest-rails-code-smell-you-should-avoid-to-keep-your-app-healthy-a61fd75ab2d3"
+    comment: "Quick prototyping benefit comes with a cost."
+    pubdate: May 4
     tags:
-      - css3
+      - rb
 
-  - title: "3 Lightweight React Alternatives: Preact, VirtualDom &amp; Deku"
-    url: "http://www.sitepoint.com/react-alternatives-preact-virtualdom-deku/"
-    comment: "Why those alternatives might be right for your next project."
-    pubdate: "apr 26"
+  - title: "Exploring the Structure of Ruby Gems"
+    url: "https://blog.codeship.com/exploring-structure-ruby-gems/"
+    comment: "Explain how gems loaded to your project."
+    pubdate: May 4
+    tags:
+      - rb
+
+  - title: "Saving Bandwidth with Chrome’s Data Saver"
+    url: "http://www.sitepoint.com/saving-bandwidth-with-chromes-data-saver/"
+    comment: "Data Saver is a new feature for Chrome that works to reduce mobile data usage significantly."
+    pubdate: May 4
+    tags:
+      - tool
+
+  - title: "How to Implement Smooth Scrolling in Vanilla JavaScript"
+    url: "http://www.sitepoint.com/smooth-scrolling-vanilla-javascript/"
+    comment: "Discover advantages of using CSS solution in this article."
+    pubdate: May 5
     tags:
       - js
 
-  - title: "5 Career-Ending Mistakes Web Developers Make"
-    url: "http://www.sitepoint.com/5-career-ending-mistakes-web-developers-make/"
-    comment: "Well, here is a stupid title for a list of common sense points on how to keep a healthy relationship with customers."
-    pubdate: apr 26
+  - title: "How to Implement Java’s equals Method Correctly"
+    url: "http://www.sitepoint.com/implement-javas-equals-method-correctly/"
+    comment: "Any implementation of equals must adhere to a specific contract or the class’s equality is ill-defined and all kinds of unexpected things happen."
+    pubdate: May 5
     tags:
-      - web
+      - js
 
-  - title: "Being A Developer After 40"
-    url: "https://medium.freecodecamp.com/being-a-developer-after-40-3c5dd112210c#.jl4ajlm93"
-    comment: "Story and insights from a 42 years-old developer."
-    pubdate: "apr 26"
-    tags:
-      - web
-
-  - title: "Have Software Developers Given Up?"
-    url: "http://blog.dantup.com/2016/04/have-software-developers-given-up/"
-    comment: "Collection of screenshots from last month demonstrating that the web is full of bugz."
-    pubdate: apr 26
-    tags:
-      - web
-
-  - title: "Don’t just check errors, handle them gracefully"
-    url: "http://dave.cheney.net/2016/04/27/dont-just-check-errors-handle-them-gracefully"
-    comment: "Presentation at the recent GoCon spring conference in Tokyo, Japan."
-    pubdate: apr 27
-    tags:
-      - go
-
-  - title: "Switch Git Branches by partial name"
-    url: "http://chrisholtz.com/blog/switch-git-branch-by-partial-name/"
-    comment: "Pretty useful in large projects."
-    pubdate: apr 27
-    tags:
-      - tool
-
-  - title: "Build a Music Player with React & Electron II: Making the UI"
-    url: "https://scotch.io/tutorials/build-a-music-player-with-react-electron-ii-making-the-ui"
-    comment: "From mockup to full code."
-    pubdate: apr 27
-    tags:
-      - web
-
-  - title: "An Introduction to Using JWT Authentication in Rails"
-    url: "http://www.sitepoint.com/introduction-to-using-jwt-in-rails/"
-    comment: "All you need to know abotu JSON Web Tokens."
-    pubdate: apr 28
+  - title: "Use React Today in Ruby by Heading to Cuba"
+    url: "http://www.sitepoint.com/use-react-today-in-ruby-by-heading-to-cuba/"
+    comment: "You’ve all heard of React. It’s no longer the new kid on the block."
+    pubdate: May 5
     tags:
       - rb
 
-  - title: "Slack bot token leakage exposing business critical information"
-    url: "https://labs.detectify.com/2016/04/28/slack-bot-token-leakage-exposing-business-critical-information/"
-    comment: "Developers are leaking access tokens for Slack widely on GitHub, in public repositories."
-    pubdate: apr 28
+  - title: "ImageMagick Is On Fire — CVE-2016–3714"
+    url: "https://imagetragick.com/"
+    comment: "This vulnerability is tragically easy to exploit."
+    pubdate: May 5
     tags:
-      - ops
-
-  - title: "How to Use JSON Data Fields in MySQL Databases"
-    url: "http://www.sitepoint.com/use-json-data-fields-mysql-databases/"
-    comment: "The line between SQL and NoSQL databases has become increasingly blurred."
-    pubdate: apr 29
-    tags:
-      - tool
+      - web

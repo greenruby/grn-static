@@ -1,6 +1,6 @@
 ---
-edition: "170"
-pubdate: "may 8th 2016"
+edition: "171"
+pubdate: "may 15th 2016"
 editors: "xenor, tysliu"
 participants: "Nauman Tariq, hsatac"
 rant:
@@ -28,44 +28,21 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: "Resources for machine learning in Ruby"
-    url: "https://gist.github.com/gbuesing/865b814d312f46775cda"
-    comment: "A collection of gems and other sources about machine learning in Ruby."
+  - title: ""
+    url: ""
+    comment: ""
     tags:
-      - rb
+      - css3
 
-  - title: "No more errors"
-    url: "http://idiosyncratic-ruby.com/32-no-more-errors.html"
-    comment: "A handy list of Ruby's error."
-    tags:
-      - rb
 
 
 - title: Install
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: "serviceworker-rails"
-    url: "https://github.com/rossta/serviceworker-rails"
-    comment: "Use Service Workers with the Rails asset pipeline"
-    tags:
-      - rb
-
-  - title: "rails-auth"
-    url: "https://github.com/square/rails-auth"
-    comment: "Modular resource-based authentication and authorization for Rails/Rack"
-    tags:
-      - rb
-
-  - title: "seed_dump"
-    url: "https://github.com/rroblak/seed_dump"
-    comment: "Rails 4/5 task to dump real database data to db/seeds.rb"
-    tags:
-      - rb
-
-  - title: "net-http2"
-    url: "https://github.com/ostinelli/net-http2"
-    comment: "A HTTP/2 client for Ruby."
+  - title: ""
+    url: ""
+    comment: ""
     tags:
       - rb
 
@@ -74,82 +51,14 @@ topics:
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: "Lug-Nut Driven Development (LuDDite)"
-    url: "https://medium.com/@belisarius222/how-to-start-a-software-project-ad51373c1510#.9shd92icw"
-    comment: "How to build/start a self interested project."
-    pubdate: May 2
+  - title: ""
+    url: ""
+    comment: ""
+    pubdate: sep 3
     tags:
       - rb
 
-  - title: "Container-Ready Rails 5"
-    url: "https://blog.heroku.com/archives/2016/5/2/container_ready_rails_5"
-    comment: "Rails 5 will be the easiest release ever to get running on Heroku."
-    pubdate: May 2
-    tags:
-      - rb
 
-  - title: "How to Generate Weighted Random Numbers"
-    url: "http://www.blackbytes.info/2016/05/weighted-random-numbers/"
-    comment: "Two ways to generate weighted random numbers."
-    pubdate: May 3
-    tags:
-      - rb
-
-  - title: "Introducing the CSS Grid Layout"
-    url: "http://www.sitepoint.com/introducing-the-css-grid-layout/"
-    comment: "The importance of grids in modern web design is clear from the number of frameworks that implement the grid system to speed up development."
-    pubdate: May 3
-    tags:
-      - css3
-
-  - title: "The biggest Rails code smell you should avoid to keep your app healthy"
-    url: "https://medium.com/planet-arkency/the-biggest-rails-code-smell-you-should-avoid-to-keep-your-app-healthy-a61fd75ab2d3"
-    comment: "Quick prototyping benefit comes with a cost"
-    pubdate: May 4
-    tags:
-      - rb
-
-  - title: "Exploring the Structure of Ruby Gems"
-    url: "https://blog.codeship.com/exploring-structure-ruby-gems/"
-    comment: "Explain how gems loaded to your project."
-    pubdate: May 4
-    tags:
-      - rb
-
-  - title: "Saving Bandwidth with Chrome’s Data Saver"
-    url: "http://www.sitepoint.com/saving-bandwidth-with-chromes-data-saver/"
-    comment: "Data Saver is a new feature for Chrome that works to reduce mobile data usage significantly."
-    pubdate: May 4
-    tags:
-      - tool
-
-  - title: "How to Implement Smooth Scrolling in Vanilla JavaScript"
-    url: "http://www.sitepoint.com/smooth-scrolling-vanilla-javascript/"
-    comment: "Discover advantages of using CSS solution in this article."
-    pubdate: May 5
-    tags:
-      - js
-
-  - title: "How to Implement Java’s equals Method Correctly"
-    url: "http://www.sitepoint.com/implement-javas-equals-method-correctly/"
-    comment: "Any implementation of equals must adhere to a specific contract or the class’s equality is ill-defined and all kinds of unexpected things happen."
-    pubdate: May 5
-    tags:
-      - js
-
-  - title: "Use React Today in Ruby by Heading to Cuba"
-    url: "http://www.sitepoint.com/use-react-today-in-ruby-by-heading-to-cuba/"
-    comment: "You’ve all heard of React. It’s no longer the new kid on the block."
-    pubdate: May 5
-    tags:
-      - rb
-
-  - title: "ImageMagick Is On Fire — CVE-2016–3714"
-    url: "https://imagetragick.com/"
-    comment: "The exploit for this vulnerability is being used in the wild."
-    pubdate: May 5
-    tags:
-      - web
 
 - title: Watch
   baseline: "Screencasts and conferences videos, or other video feeds ..."
