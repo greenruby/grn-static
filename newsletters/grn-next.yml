@@ -81,6 +81,34 @@ topics:
     tags:
       - rb
 
+  - title: "Container-Ready Rails 5"
+    url: "https://blog.heroku.com/archives/2016/5/2/container_ready_rails_5"
+    comment: "Rails 5 will be the easiest release ever to get running on Heroku."
+    pubdate: May 2
+    tags:
+      - rb
+
+  - title: "How to Generate Weighted Random Numbers"
+    url: "http://www.blackbytes.info/2016/05/weighted-random-numbers/"
+    comment: "Two ways to generate weighted random numbers."
+    pubdate: May 3
+    tags:
+      - rb
+
+  - title: "Introducing the CSS Grid Layout"
+    url: "http://www.sitepoint.com/introducing-the-css-grid-layout/"
+    comment: "The importance of grids in modern web design is clear from the number of frameworks that implement the grid system to speed up development."
+    pubdate: May 3
+    tags:
+      - css3
+
+  - title: "The biggest Rails code smell you should avoid to keep your app healthy"
+    url: "https://medium.com/planet-arkency/the-biggest-rails-code-smell-you-should-avoid-to-keep-your-app-healthy-a61fd75ab2d3"
+    comment: "Quick prototyping benefit comes with a cost"
+    pubdate: May 4
+    tags:
+      - rb
+
   - title: "Exploring the Structure of Ruby Gems"
     url: "https://blog.codeship.com/exploring-structure-ruby-gems/"
     comment: "Explain how gems loaded to your project."
@@ -88,6 +116,40 @@ topics:
     tags:
       - rb
 
+  - title: "Saving Bandwidth with Chrome’s Data Saver"
+    url: "http://www.sitepoint.com/saving-bandwidth-with-chromes-data-saver/"
+    comment: "Data Saver is a new feature for Chrome that works to reduce mobile data usage significantly."
+    pubdate: May 4
+    tags:
+      - tool
+
+  - title: "How to Implement Smooth Scrolling in Vanilla JavaScript"
+    url: "http://www.sitepoint.com/smooth-scrolling-vanilla-javascript/"
+    comment: "Discover advantages of using CSS solution in this article."
+    pubdate: May 5
+    tags:
+      - js
+
+  - title: "How to Implement Java’s equals Method Correctly"
+    url: "http://www.sitepoint.com/implement-javas-equals-method-correctly/"
+    comment: "Any implementation of equals must adhere to a specific contract or the class’s equality is ill-defined and all kinds of unexpected things happen."
+    pubdate: May 5
+    tags:
+      - js
+
+  - title: "Use React Today in Ruby by Heading to Cuba"
+    url: "http://www.sitepoint.com/use-react-today-in-ruby-by-heading-to-cuba/"
+    comment: "You’ve all heard of React. It’s no longer the new kid on the block."
+    pubdate: May 5
+    tags:
+      - rb
+
+  - title: "ImageMagick Is On Fire — CVE-2016–3714"
+    url: "https://imagetragick.com/"
+    comment: "The exploit for this vulnerability is being used in the wild."
+    pubdate: May 5
+    tags:
+      - web
 
 - title: Watch
   baseline: "Screencasts and conferences videos, or other video feeds ..."
