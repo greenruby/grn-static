@@ -1,0 +1,151 @@
+----------------------------------------------------
+Green Ruby News #170 - may 8th 2016
+----------------------------------------------------
+*|IFNOT:CONTENT=Only Rant|*
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+*Pixels by Tomer Lerner* (design)
+http://tomerlerner.com/
+A Designer website, showcasing various projects.
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+*Resources for machine learning in Ruby* (rb)
+https://gist.github.com/gbuesing/865b814d312f46775cda
+A collection of gems and other sources about machine learning in Ruby.
+
+*No more errors* (rb)
+http://idiosyncratic-ruby.com/32-no-more-errors.html
+A handy list of Ruby's error.
+
+*Losant* (tool)
+https://www.losant.com
+Internet of Things developer platform.
+
+*DevopsWiki* (ops)
+https://github.com/Leo-G/DevopsWiki
+A wiki of Devops Tools, Tutorials and Scripts
+
+*SeaLion* (ops)
+https://sealion.com/
+View raw output for critical events across servers
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+*serviceworker-rails* (rb)
+https://github.com/rossta/serviceworker-rails
+Use Service Workers with the Rails asset pipeline.
+
+*rails-auth* (rb)
+https://github.com/square/rails-auth
+Modular resource-based authentication and authorization for Rails/Rack.
+
+*seed_dump* (rb)
+https://github.com/rroblak/seed_dump
+Rails 4/5 task to dump real database data to db/seeds.rb
+
+*net-http2* (rb)
+https://github.com/ostinelli/net-http2
+A HTTP/2 client for Ruby.
+
+*Redis 3.2.0 is out* (ops)
+http://antirez.com/news/104
+This is a big upgrade with various new features for Redis.
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+*Lug-Nut Driven Development (LuDDite)* (rb - May 2)
+https://medium.com/@belisarius222/how-to-start-a-software-project-ad51373c1510#.9shd92icw
+Some basic principles used for growing a codebase.
+
+*Container-Ready Rails 5* (rb - May 2)
+https://blog.heroku.com/archives/2016/5/2/container_ready_rails_5
+Rails 5 will be the easiest release ever to get running on Heroku.
+
+*How to Generate Weighted Random Numbers* (rb - May 3)
+http://www.blackbytes.info/2016/05/weighted-random-numbers/
+Two ways to generate weighted random numbers.
+
+*Introducing the CSS Grid Layout* (css3 - May 3)
+http://www.sitepoint.com/introducing-the-css-grid-layout/
+The importance of grids in modern web design is clear from the number of frameworks that implement the grid system to speed up development.
+
+*The biggest Rails code smell you should avoid to keep your app healthy* (rb - May 4)
+https://medium.com/planet-arkency/the-biggest-rails-code-smell-you-should-avoid-to-keep-your-app-healthy-a61fd75ab2d3
+Quick prototyping benefit comes with a cost.
+
+*Exploring the Structure of Ruby Gems* (rb - May 4)
+https://blog.codeship.com/exploring-structure-ruby-gems/
+Explain how gems loaded to your project.
+
+*Saving Bandwidth with Chrome’s Data Saver* (tool - May 4)
+http://www.sitepoint.com/saving-bandwidth-with-chromes-data-saver/
+Data Saver is a new feature for Chrome that works to reduce mobile data usage significantly.
+
+*How to Implement Smooth Scrolling in Vanilla JavaScript* (js - May 5)
+http://www.sitepoint.com/smooth-scrolling-vanilla-javascript/
+Discover advantages of using CSS solution in this article.
+
+*How to Implement Java’s equals Method Correctly* (js - May 5)
+http://www.sitepoint.com/implement-javas-equals-method-correctly/
+Any implementation of equals must adhere to a specific contract or the class’s equality is ill-defined and all kinds of unexpected things happen.
+
+*Use React Today in Ruby by Heading to Cuba* (rb - May 5)
+http://www.sitepoint.com/use-react-today-in-ruby-by-heading-to-cuba/
+You’ve all heard of React. It’s no longer the new kid on the block.
+
+*ImageMagick Is On Fire — CVE-2016–3714* (web - May 5)
+https://imagetragick.com/
+This vulnerability is tragically easy to exploit.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+Links curated by by mose (publisher), xenor, tysliu (editors), Nauman Tariq, hsatac, Mickey (contributors).
+*|END:IF|*
+*|IFNOT:CONTENT=Only Links|*
+
+Rant
+----------------------------------------------------
+The random rant of the week by mose.
+
+#### It's the fault of the bike
+
+Well, in the last two weeks I get short in links gathered on our slack pinned
+list. Usually I'm reading various RSS feeds while commuting, and I post them
+on slack, for later one pinning them. Then I have a script in go that will
+grab all the pinned url, and remove the pins at the moment I use and check
+them for inclusion in the publication.
+
+But 2 weeks ago, I decided to change my habits and go to the office by bike.
+It's a 30 minutes ride, and it's very good. But then hare we are: no no way to
+check RSS on the phone. I'm going to need to find another trick. Because I
+won't quit the biking.
+
+*|END:IF|*
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+

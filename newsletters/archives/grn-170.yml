@@ -1,0 +1,181 @@
+---
+edition: "170"
+pubdate: "may 8th 2016"
+editors: "xenor, tysliu"
+participants: "Nauman Tariq, hsatac, Mickey"
+rant:
+  author: mose
+  content:
+    "#### It's the fault of the bike
+
+
+Well, in the last two weeks I get short in links gathered on our slack pinned list. Usually I'm reading various RSS feeds while commuting, and I post them on slack, for later one pinning them. Then I have a script in go that will grab all the pinned url, and remove the pins at the moment I use and check them for inclusion in the publication.
+
+
+But 2 weeks ago, I decided to change my habits and go to the office by bike. It's a 30 minutes ride, and it's very good. But then hare we are: no no way to check RSS on the phone. I'm going to need to find another trick. Because I won't quit the biking.
+
+"
+
+topics:
+
+- title: Look
+  baseline:
+    "Examples of UI/UX, graphic performance, web design and flashy things."
+  links:
+
+  - title: "Pixels by Tomer Lerner"
+    url: "http://tomerlerner.com/"
+    comment: "A Designer website, showcasing various projects."
+    tags:
+      - design
+
+
+- title: Use
+  baseline:
+    "Web applications, resources and tools, available for making our life easier or funnier."
+  links:
+
+  - title: "Resources for machine learning in Ruby"
+    url: "https://gist.github.com/gbuesing/865b814d312f46775cda"
+    comment: "A collection of gems and other sources about machine learning in Ruby."
+    tags:
+      - rb
+
+  - title: "No more errors"
+    url: "http://idiosyncratic-ruby.com/32-no-more-errors.html"
+    comment: "A handy list of Ruby's error."
+    tags:
+      - rb
+
+  - title: "Losant"
+    url: "https://www.losant.com"
+    comment: "Internet of Things developer platform."
+    tags:
+      - tool
+
+  - title: "DevopsWiki"
+    url: "https://github.com/Leo-G/DevopsWiki"
+    comment: "A wiki of Devops Tools, Tutorials and Scripts"
+    tags:
+      - ops
+
+  - title: "SeaLion"
+    url: "https://sealion.com/"
+    comment: "View raw output for critical events across servers"
+    tags:
+      - ops
+
+- title: Install
+  baseline: "A selection of gems or applications updated during past week."
+  links:
+
+  - title: "serviceworker-rails"
+    url: "https://github.com/rossta/serviceworker-rails"
+    comment: "Use Service Workers with the Rails asset pipeline."
+    tags:
+      - rb
+
+  - title: "rails-auth"
+    url: "https://github.com/square/rails-auth"
+    comment: "Modular resource-based authentication and authorization for Rails/Rack."
+    tags:
+      - rb
+
+  - title: "seed_dump"
+    url: "https://github.com/rroblak/seed_dump"
+    comment: "Rails 4/5 task to dump real database data to db/seeds.rb"
+    tags:
+      - rb
+
+  - title: "net-http2"
+    url: "https://github.com/ostinelli/net-http2"
+    comment: "A HTTP/2 client for Ruby."
+    tags:
+      - rb
+
+  - title: "Redis 3.2.0 is out"
+    url: "http://antirez.com/news/104"
+    comment: "This is a big upgrade with various new features for Redis."
+    tags:
+      - ops
+
+- title: Read
+  baseline: "From the blogosphere or news feeds ..."
+  links:
+
+  - title: "Lug-Nut Driven Development (LuDDite)"
+    url: "https://medium.com/@belisarius222/how-to-start-a-software-project-ad51373c1510#.9shd92icw"
+    comment: "Some basic principles used for growing a codebase."
+    pubdate: May 2
+    tags:
+      - rb
+
+  - title: "Container-Ready Rails 5"
+    url: "https://blog.heroku.com/archives/2016/5/2/container_ready_rails_5"
+    comment: "Rails 5 will be the easiest release ever to get running on Heroku."
+    pubdate: May 2
+    tags:
+      - rb
+
+  - title: "How to Generate Weighted Random Numbers"
+    url: "http://www.blackbytes.info/2016/05/weighted-random-numbers/"
+    comment: "Two ways to generate weighted random numbers."
+    pubdate: May 3
+    tags:
+      - rb
+
+  - title: "Introducing the CSS Grid Layout"
+    url: "http://www.sitepoint.com/introducing-the-css-grid-layout/"
+    comment: "The importance of grids in modern web design is clear from the number of frameworks that implement the grid system to speed up development."
+    pubdate: May 3
+    tags:
+      - css3
+
+  - title: "The biggest Rails code smell you should avoid to keep your app healthy"
+    url: "https://medium.com/planet-arkency/the-biggest-rails-code-smell-you-should-avoid-to-keep-your-app-healthy-a61fd75ab2d3"
+    comment: "Quick prototyping benefit comes with a cost."
+    pubdate: May 4
+    tags:
+      - rb
+
+  - title: "Exploring the Structure of Ruby Gems"
+    url: "https://blog.codeship.com/exploring-structure-ruby-gems/"
+    comment: "Explain how gems loaded to your project."
+    pubdate: May 4
+    tags:
+      - rb
+
+  - title: "Saving Bandwidth with Chrome’s Data Saver"
+    url: "http://www.sitepoint.com/saving-bandwidth-with-chromes-data-saver/"
+    comment: "Data Saver is a new feature for Chrome that works to reduce mobile data usage significantly."
+    pubdate: May 4
+    tags:
+      - tool
+
+  - title: "How to Implement Smooth Scrolling in Vanilla JavaScript"
+    url: "http://www.sitepoint.com/smooth-scrolling-vanilla-javascript/"
+    comment: "Discover advantages of using CSS solution in this article."
+    pubdate: May 5
+    tags:
+      - js
+
+  - title: "How to Implement Java’s equals Method Correctly"
+    url: "http://www.sitepoint.com/implement-javas-equals-method-correctly/"
+    comment: "Any implementation of equals must adhere to a specific contract or the class’s equality is ill-defined and all kinds of unexpected things happen."
+    pubdate: May 5
+    tags:
+      - js
+
+  - title: "Use React Today in Ruby by Heading to Cuba"
+    url: "http://www.sitepoint.com/use-react-today-in-ruby-by-heading-to-cuba/"
+    comment: "You’ve all heard of React. It’s no longer the new kid on the block."
+    pubdate: May 5
+    tags:
+      - rb
+
+  - title: "ImageMagick Is On Fire — CVE-2016–3714"
+    url: "https://imagetragick.com/"
+    comment: "This vulnerability is tragically easy to exploit."
+    pubdate: May 5
+    tags:
+      - web
