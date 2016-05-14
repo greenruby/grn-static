@@ -40,21 +40,48 @@ topics:
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "active_record_doctor"
+    url: "https://github.com/gregnavis/active_record_doctor"
+    comment: "Detect missing/extraneous indexes in your rails project."
     tags:
       - rb
+
+  - title: "gitsome"
+    url: "https://github.com/donnemartin/gitsome"
+    comment: "A Git/shell autocompleter with GitHub integration."
+    tags:
+      - tool
 
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
-    pubdate: sep 3
+  - title: "Store your private data inside a git repository"
+    url: "https://coderwall.com/p/e-azzg/store-your-private-data-inside-a-git-repository"
+    comment: "By git-secret."
+    pubdate: "may 8"
+    tags:
+      - tool
+
+  - title: "Rails Performance and the root of all evil"
+    url: "http://blog.scoutapp.com/articles/2016/05/09/rails-performance-and-the-root-of-all-evil/"
+    comment: "Make sure the difference is significant before performance refactoring."
+    pubdate: "may 9"
+    tags:
+      - rb
+
+  - title: "How to Build a Math Evaluation Engine"
+    url: "https://blog.codeship.com/build-math-evaluation-engine/"
+    comment: "Use tokenization to parse string and build an evaluator."
+    pubdate: "may 11"
+    tags:
+      - rb
+
+  - title: "Don't Forget About Infinite Enumerators"
+    url: "http://aaronlasseigne.com/2016/05/11/dont-forget-about-infinite-enumerators/"
+    comment: "Ways to create a enumerator contains infinity loop."
+    pubdate: "may 11"
     tags:
       - rb
 
@@ -64,10 +91,10 @@ topics:
   baseline: "Screencasts and conferences videos, or other video feeds ..."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
-    pubdate: sep 3
-    duration:
+  - title: "Make Ruby Great Again on Vimeo"
+    url: "https://vimeo.com/165527044"
+    comment: "Talk about RSpec and Rails 5."
+    pubdate: "may 9"
+    duration: 39m
     tags:
       - rb
