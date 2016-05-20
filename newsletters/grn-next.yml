@@ -4,9 +4,27 @@ pubdate: "may 22th 2016"
 editors: "xenor, tysliu"
 participants: "Nauman Tariq, hsatac"
 rant:
-  author: mose
+  author: xenor
   content:
-    "####
+    "#### Chrome non-published extensions
+
+I've made a small chrome extension to help myself abstract information for articles a year ago: [Squeezer][squeezer]
+
+But recently after upgrade to version 50, chrome puts more restriction on local unpacked extenstion which makes install and enable it like hell: [Chrome 50 disabled non-published extensions, and they cannot be re-enabled!][chromeforum]
+
+This actually upsets me, especially because of the reason: \"For obvious reasons though, it's not good to encourage users to load unpacked extensions, as I'm sure you'll understand.\". No, I don't understand!
+
+For companies (or even countries), there is always a reason to restricts something and claims they are protecting their users/citizens from danger, which to me is totally bullshit. If you are using or doing something, you should be responsible to know what you get yourself into, it's never others fault to put you into such situation like having malicious malware in your laptop. It's all about choices.
+
+And by choices we made freely, it's not fair for a super power (or anyone) to just cut choices out because of someone did something that hurts themselves. It should just be like open sourced software, shouldn't it? If we choose to use an open-source software, and it bites us back because of whatever reason, does the owner just close the project or we file an issue/PR to fix it? I am pretty sure the answer is the later.
+
+
+Stop using protection as the excuse to make people having less freedom or put freedom to a price ($5 to put your chrome extension to Web Store so that you can enable your small self-made nobody wants to use extension).
+
+
+[squeezer]: https://github.com/tubaxenor/squeezer
+
+[chromeforum]: https://productforums.google.com/forum/#!topic/chrome/pofNSng1V6A;context-place=forum/chrome
 "
 
 topics:
@@ -28,11 +46,17 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "RbConfig"
+    url: "http://idiosyncratic-ruby.com/42-ruby-config.html"
+    comment: "List of configuration in RbConfig"
     tags:
-      - css3
+      - rb
+
+  - title: "Cronally"
+    url: "https://cronally.com/"
+    comment: "Schedule cron jobs on AWS instances."
+    tags:
+      - tool
 
 
 
@@ -40,9 +64,15 @@ topics:
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "Gush"
+    url: "https://github.com/chaps-io/gush"
+    comment: "Workflow runner using Sidekiq and Redis"
+    tags:
+      - rb
+
+  - title: "mock_server"
+    url: "https://github.com/mvemjsun/mock_server"
+    comment: "A lightweight Sinatra application for mock HTTP responses"
     tags:
       - rb
 
@@ -51,12 +81,19 @@ topics:
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
-    pubdate: sep 3
+  - title: "Procs and Lambdas: Closures in Ruby"
+    url: "http://www.zenruby.info/2016/05/procs-and-lambdas-closures-in-ruby.html"
+    comment: "An in-depth look into Ruby's proc and lambda"
+    pubdate: "may 16"
     tags:
       - rb
+
+  - title: "How to Get Started with a Content Security Policy"
+    url: "https://blog.codeship.com/how-to-get-started-with-a-content-security-policy/"
+    comment: "A Content Security Policy (CSP) is a great way to reduce or completely remove Cross-Site Scripting (XSS) vulnerabilities."
+    pubdate: "may 17"
+    tags:
+      - web
 
 
 
