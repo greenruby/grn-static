@@ -1,0 +1,206 @@
+----------------------------------------------------
+Green Ruby News #172 - may 22th 2016
+----------------------------------------------------
+*|IFNOT:CONTENT=Only Rant|*
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+*Studio Rotate* (design)
+https://studiorotate.com/
+Simple and classy brand design.
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+*Ruby Remote Meetups* (rb)
+https://github.com/remotemeetup/ruby
+Why meetups should always be physical!? Remote it up!
+
+*RbConfig* (rb)
+http://idiosyncratic-ruby.com/42-ruby-config.html
+List of all configuration variables in RbConfig.
+
+*Cronally* (tool)
+https://cronally.com/
+Schedule cron jobs on AWS instances.
+
+*Segment* (tool)
+https://segment.com/
+Analytics API and customer data hub.
+
+*Certbot* (ops)
+https://certbot.eff.org/
+Lets encrypt client becomes Certbot.
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+*Gush* (rb)
+https://github.com/chaps-io/gush
+Workflow runner using Sidekiq and Redis.
+
+*mock_server* (rb)
+https://github.com/mvemjsun/mock_server
+A lightweight Sinatra application for mock HTTP responses.
+
+*typhoeus* (rb)
+https://github.com/typhoeus/typhoeus
+Wraps libcurl for making fast and reliable requests.
+
+*MiniRacer* (rb)
+https://github.com/discourse/mini_racer
+Minimal, modern embedded V8 for Ruby.
+
+*Paranoia* (rb)
+https://github.com/rubysherpas/paranoia
+acts_as_paranoid for Rails 3 and 4.
+
+*Brainruby* (rb)
+https://github.com/amcaplan/brainruby
+Ruby... Optimized for Developer Sadness.
+
+*Cutestrap* (css3)
+https://www.cutestrap.com/
+A sassy, opinionated CSS Framework. A tiny alternative to Bootstrap.
+
+*Dracula Theme* (web)
+https://draculatheme.com/
+Dracula is a dark theme for Sublime, Atom, Alfred, Emacs, iTerm, JetBrains, Slack, Sublime Text, Textmate...
+
+*Dstat* (ops)
+http://dag.wiee.rs/home-made/dstat/
+Versatile resource statistics tool.
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+*Procs and Lambdas: Closures in Ruby* (rb - may 16)
+http://www.zenruby.info/2016/05/procs-and-lambdas-closures-in-ruby.html
+An in-depth look into Ruby's proc and lambda.
+
+*5 useful examples from the Ruby Standard Library* (rb - may 16)
+http://www.blackbytes.info/2016/05/ruby-standard-library/
+The Ruby Standard Library is a series of modules & classes that come with Ruby but are not part of the language itself.
+
+*How to get started with a Content Security Policy* (web - may 17)
+https://blog.codeship.com/how-to-get-started-with-a-content-security-policy/
+A Content Security Policy (CSP) is a great way to reduce or completely remove Cross-Site Scripting (XSS) vulnerabilities.
+
+*Running concurrent workflows in Ruby* (rb - may 18)
+https://blog.codeship.com/running-concurrent-workflows-in-ruby/
+Have you ever struggled with a chain of rake tasks that needed to be run periodically and their runtime was giving you a headache?
+
+*Untangling Spaghetti Code: How to Write Maintainable JavaScript* (js - may 18)
+https://www.sitepoint.com/write-maintainable-javascript/
+With proper planning, analysis, and a good workflow, it is possible to turn a spaghetti codebase into a clean, organised, and scalable one.
+
+*All or Nothing* (css3 - may 18)
+http://snook.ca/archives/html_and_css/all-or-nothing
+The all property is a shortcut for resetting all of the properties on a given element.
+
+*CSS coding techniques* (css3 - may 18)
+https://hacks.mozilla.org/2016/05/css-coding-techniques/
+Some tips and recommendation to write better, easier-to-maintain CSS code.
+
+*Get the Lowdown on Ruby Modules* (rb - may 19)
+https://www.sitepoint.com/get-the-low-down-on-ruby-modules/
+Some developers are still confused about how modules work and how they interact with their own code.
+
+*Web Image Effects Performance Showdown* (web - may 19)
+https://www.smashingmagazine.com/2016/05/web-image-effects-performance-showdown/
+tl;dr: Just don't use canvas for filters.
+
+*A bit about decorators and presenters* (rb - may 20)
+http://eftimov.net/decorators-and-presenters/
+Dive in to the decorator and presenter pattern and see what makes them simillar, but unique.
+
+Watch
+----------------------------------------------------
+Screencasts and conferences videos, or other video feeds ...
+
+*Building Fast &amp; Resilient Web Applications* (tool - may 20 - 40m)
+https://www.igvita.com/2016/05/20/building-fast-and-resilient-web-applications/
+Carving out the fast path is not enough. We need to make our applications resilient.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+Links curated by by mose (publisher), xenor, tysliu (editors), michaelweigle, james, hsatac (contributors).
+*|END:IF|*
+*|IFNOT:CONTENT=Only Links|*
+
+Rant
+----------------------------------------------------
+The random rant of the week by xenor and mose.
+
+#### Chrome non-published extensions
+
+I've made a small chrome extension to help myself abstract information for
+articles a year ago: [Squeezer][squeezer]
+
+But recently after upgrade to version 50, chrome puts more restriction on
+local unpacked extension which makes install and enable it like hell: [Chrome
+50 disabled non-published extensions, and they cannot be
+re-enabled!][chromeforum]
+
+This actually upsets me, especially because of the reason: "For obvious
+reasons though, it's not good to encourage users to load unpacked extensions,
+as I'm sure you'll understand.". No, I don't understand!
+
+For companies (or even countries), there is always a reason to restricts
+something and claims they are protecting their users/citizens from danger,
+which to me is totally bullshit. If you are using or doing something, you
+should be responsible to know what you get yourself into, it's never others
+fault to put you into such situation like having malicious malware in your
+laptop. It's all about choices.
+
+And by choices we made freely, it's not fair for a super power (or anyone) to
+just cut choices out because of someone did something that hurts themselves.
+It should just be like open sourced software, shouldn't it? If we choose to
+use an open-source software, and it bites us back because of whatever reason,
+does the owner just close the project or we file an issue/PR to fix it? I am
+pretty sure the answer is the later.
+
+Stop using protection as the excuse to make people having less freedom or put
+freedom to a price ($5 to put your chrome extension to Web Store so that you
+can enable your small self-made nobody wants to use extension).
+
+**xenor**
+
+#### First GreenRuby Meetup
+
+Recently Gandi moved to a much bigger office in Neihu, Taipei. And I got
+permission to use the space to organize events. We got a great space, sound
+system with wireless mikes, a beamer for presentations. So, if you are in
+Taipei, feel free to [join us on wednesday next week][grg001].  I will try to
+make it a remote meetup, and give more details next week.
+
+**mose**
+[squeezer]: https://github.com/tubaxenor/squeezer
+[chromeforum]:
+https://productforums.google.com/forum/#!topic/chrome/pofNSng1V6A;context-place=forum/chrome
+[grg001]: http://greenruby.kktix.cc/events/grg-001
+
+*|END:IF|*
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+

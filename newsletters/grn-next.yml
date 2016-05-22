@@ -1,30 +1,12 @@
 ---
-edition: "172"
-pubdate: "may 22th 2016"
+edition: "173"
+pubdate: "may 29th 2016"
 editors: "xenor, tysliu"
 participants: "Nauman Tariq, hsatac"
 rant:
-  author: xenor
+  author: mose
   content:
-    "#### Chrome non-published extensions
-
-I've made a small chrome extension to help myself abstract information for articles a year ago: [Squeezer][squeezer]
-
-But recently after upgrade to version 50, chrome puts more restriction on local unpacked extenstion which makes install and enable it like hell: [Chrome 50 disabled non-published extensions, and they cannot be re-enabled!][chromeforum]
-
-This actually upsets me, especially because of the reason: \"For obvious reasons though, it's not good to encourage users to load unpacked extensions, as I'm sure you'll understand.\". No, I don't understand!
-
-For companies (or even countries), there is always a reason to restricts something and claims they are protecting their users/citizens from danger, which to me is totally bullshit. If you are using or doing something, you should be responsible to know what you get yourself into, it's never others fault to put you into such situation like having malicious malware in your laptop. It's all about choices.
-
-And by choices we made freely, it's not fair for a super power (or anyone) to just cut choices out because of someone did something that hurts themselves. It should just be like open sourced software, shouldn't it? If we choose to use an open-source software, and it bites us back because of whatever reason, does the owner just close the project or we file an issue/PR to fix it? I am pretty sure the answer is the later.
-
-
-Stop using protection as the excuse to make people having less freedom or put freedom to a price ($5 to put your chrome extension to Web Store so that you can enable your small self-made nobody wants to use extension).
-
-
-[squeezer]: https://github.com/tubaxenor/squeezer
-
-[chromeforum]: https://productforums.google.com/forum/#!topic/chrome/pofNSng1V6A;context-place=forum/chrome
+    "####
 "
 
 topics:
@@ -46,17 +28,11 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: "RbConfig"
-    url: "http://idiosyncratic-ruby.com/42-ruby-config.html"
-    comment: "List of configuration in RbConfig"
+  - title: ""
+    url: ""
+    comment: ""
     tags:
-      - rb
-
-  - title: "Cronally"
-    url: "https://cronally.com/"
-    comment: "Schedule cron jobs on AWS instances."
-    tags:
-      - tool
+      - css3
 
 
 
@@ -64,88 +40,25 @@ topics:
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: "Gush"
-    url: "https://github.com/chaps-io/gush"
-    comment: "Workflow runner using Sidekiq and Redis"
+  - title: ""
+    url: ""
+    comment: ""
     tags:
       - rb
 
-  - title: "mock_server"
-    url: "https://github.com/mvemjsun/mock_server"
-    comment: "A lightweight Sinatra application for mock HTTP responses"
-    tags:
-      - rb
-
-  - title: "typhoeus"
-    url: "https://github.com/typhoeus/typhoeus"
-    comment: "Wraps libcurl for making fast and reliable requests."
-    tags:
-      - rb
-
-  - title: "MiniRacer"
-    url: "https://github.com/discourse/mini_racer"
-    comment: "Minimal, modern embedded V8 for Ruby."
-    tags:
-      - rb
-
-  - title: "Dracula Theme"
-    url: "https://draculatheme.com/"
-    comment: "Dracula is a dark theme for Sublime, Atom, Alfred, Emacs, iTerm, JetBrains, Slack, Sublime Text, Textmate..."
-    tags:
-      - web
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: "Procs and Lambdas: Closures in Ruby"
-    url: "http://www.zenruby.info/2016/05/procs-and-lambdas-closures-in-ruby.html"
-    comment: "An in-depth look into Ruby's proc and lambda"
-    pubdate: "may 16"
+  - title: ""
+    url: ""
+    comment: ""
+    pubdate: sep 3
     tags:
       - rb
 
-  - title: "5 Useful Examples From The Ruby Standard Library"
-    url: "http://www.blackbytes.info/2016/05/ruby-standard-library/"
-    comment: "The Ruby Standard Library is a series of modules & classes that come with Ruby but are not part of the language itself."
-    pubdate: "may 16"
-    tags:
-      - rb
 
-  - title: "How to Get Started with a Content Security Policy"
-    url: "https://blog.codeship.com/how-to-get-started-with-a-content-security-policy/"
-    comment: "A Content Security Policy (CSP) is a great way to reduce or completely remove Cross-Site Scripting (XSS) vulnerabilities."
-    pubdate: "may 17"
-    tags:
-      - web
-
-  - title: "Running concurrent workflows in Ruby"
-    url: "https://blog.codeship.com/running-concurrent-workflows-in-ruby/"
-    comment: "Have you ever struggled with a chain of rake tasks that needed to be run periodically and their runtime was giving you a headache?"
-    pubdate: "may 18"
-    tags:
-      - rb
-
-  - title: "Untangling Spaghetti Code: How to Write Maintainable JavaScript"
-    url: "https://www.sitepoint.com/write-maintainable-javascript/"
-    comment: "With proper planning, analysis, and a good workflow, it is possible to turn a spaghetti codebase into a clean, organised, and scalable one."
-    pubdate: "may 18"
-    tags:
-      - js
-
-  - title: "All or Nothing"
-    url: "http://snook.ca/archives/html_and_css/all-or-nothing"
-    comment: "The all property is a shortcut for resetting all of the properties on a given element."
-    pubdate: "may 18"
-    tags:
-      - css3
-
-  - title: "Get the Lowdown on Ruby Modules"
-    url: "https://www.sitepoint.com/get-the-low-down-on-ruby-modules/"
-    comment: "Some developers are still confused about how modules work and how they interact with their own code."
-    pubdate: "may 19"
-    tags:
-      - rb
 
 - title: Watch
   baseline: "Screencasts and conferences videos, or other video feeds ..."
