@@ -82,6 +82,17 @@ topics:
     tags:
       - rb
 
+  - title: "MiniRacer"
+    url: "https://github.com/discourse/mini_racer"
+    comment: "Minimal, modern embedded V8 for Ruby."
+    tags:
+      - rb
+
+  - title: "Dracula Theme"
+    url: "https://draculatheme.com/"
+    comment: "Dracula is a dark theme for Sublime, Atom, Alfred, Emacs, iTerm, JetBrains, Slack, Sublime Text, Textmate..."
+    tags:
+      - web
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
@@ -94,6 +105,13 @@ topics:
     tags:
       - rb
 
+  - title: "5 Useful Examples From The Ruby Standard Library"
+    url: "http://www.blackbytes.info/2016/05/ruby-standard-library/"
+    comment: "The Ruby Standard Library is a series of modules & classes that come with Ruby but are not part of the language itself."
+    pubdate: "may 16"
+    tags:
+      - rb
+
   - title: "How to Get Started with a Content Security Policy"
     url: "https://blog.codeship.com/how-to-get-started-with-a-content-security-policy/"
     comment: "A Content Security Policy (CSP) is a great way to reduce or completely remove Cross-Site Scripting (XSS) vulnerabilities."
@@ -101,7 +119,33 @@ topics:
     tags:
       - web
 
+  - title: "Running concurrent workflows in Ruby"
+    url: "https://blog.codeship.com/running-concurrent-workflows-in-ruby/"
+    comment: "Have you ever struggled with a chain of rake tasks that needed to be run periodically and their runtime was giving you a headache?"
+    pubdate: "may 18"
+    tags:
+      - rb
 
+  - title: "Untangling Spaghetti Code: How to Write Maintainable JavaScript"
+    url: "https://www.sitepoint.com/write-maintainable-javascript/"
+    comment: "With proper planning, analysis, and a good workflow, it is possible to turn a spaghetti codebase into a clean, organised, and scalable one."
+    pubdate: "may 18"
+    tags:
+      - js
+
+  - title: "All or Nothing"
+    url: "http://snook.ca/archives/html_and_css/all-or-nothing"
+    comment: "The all property is a shortcut for resetting all of the properties on a given element."
+    pubdate: "may 18"
+    tags:
+      - css3
+
+  - title: "Get the Lowdown on Ruby Modules"
+    url: "https://www.sitepoint.com/get-the-low-down-on-ruby-modules/"
+    comment: "Some developers are still confused about how modules work and how they interact with their own code."
+    pubdate: "may 19"
+    tags:
+      - rb
 
 - title: Watch
   baseline: "Screencasts and conferences videos, or other video feeds ..."
