@@ -1,0 +1,190 @@
+----------------------------------------------------
+Green Ruby News #173 - may 29th 2016
+----------------------------------------------------
+*|IFNOT:CONTENT=Only Rant|*
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+*Sagmeister &amp; Walsh* (design)
+http://sagmeisterwalsh.com//
+NYC based design firm with an excellent website.
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+*HEAD* (html5)
+https://github.com/joshbuchea/HEAD
+A list of everything that could go in the head of your html page.
+
+*Nix* (tool)
+https://nixos.org/nix/
+Package manager for Unix and Linux systems.
+
+*what-happens-when* (tool)
+https://github.com/alex/what-happens-when
+What happens when you type google.com into your browser's address box and press enter? With all the details.
+
+*Wirify* (tool)
+https://www.wirify.com/
+Turn any web page into a wireframe in one click.
+
+*Algorithm Visualizer* (tool)
+http://jasonpark.me/AlgorithmVisualizer/#path=graph_search/dfs/tree
+Tool for visualizing algorithms.
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+*vimrunner* (rb)
+https://github.com/AndrewRadev/vimrunner
+Control a vim instance through ruby code.
+
+*fake_stripe* (rb)
+https://github.com/thoughtbot/fake_stripe
+Mock stripe connections and return proper JSON responses for test.
+
+*Password_strength* (rb)
+https://github.com/fnando/password_strength
+Check password strength against several rules. Includes ActiveRecord/ActiveModel support.
+
+*Sanitize* (rb)
+https://github.com/rgrove/sanitize
+Whitelist-based Ruby HTML and CSS sanitizer.
+
+*Massive-js* (js)
+https://github.com/robconery/massive-js
+A Postgres-centric Data Access Tool for NodeJS.
+
+*Bideo.js* (js)
+https://rishabhp.github.io/bideo.js/
+Easy Fullscreen HTML5 Background Video
+
+*Push.js* (js)
+http://nickersoft.github.io/push.js/
+A compact, cross-browser solution for using the JavaScript Notifications API.
+
+*Spectre.css* (css3)
+https://picturepan2.github.io/spectre/
+A lightweight, responsive CSS framework.
+
+*Nitlanguage.org* (tool)
+https://nitlanguage.org/
+A fun language for serious programming.
+
+*Atom and Pinegrow* (tool)
+http://pinegrow.com/pinegrow-atom.html
+A full IDE for the web.
+
+*Docker-lambda* (ops)
+https://github.com/lambci/docker-lambda
+Docker images and test runners that replicate the live AWS Lambda environment
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+*My time with Rails is up* (rb - may 22)
+http://solnic.eu/2016/05/22/my-time-with-rails-is-up.html
+A rant about ruby, with a uselessly dramatic title.
+
+*Rails has won: The Elephant in the Room* (rb - may 23)
+http://www.akitaonrails.com/2016/05/23/rails-has-won-the-elephant-in-the-room
+Reflection on the previously cited controversy letter by solnic.eu.
+
+*Please help me to not go broke * (rb - may 23)
+http://devblog.avdi.org/2016/05/23/please-help-me-to-not-go-broke/
+Avdi Grimm get desperate, because he's supposedly bad at marketing. Still, he's a cool ruby activist.
+
+*Know Ruby: with_index* (rb - may 24)
+http://aaronlasseigne.com/2016/05/24/know-ruby-with_index/
+each_with_index is a combination of each.with_index, the article explains what's different between them.
+
+*Contributing to Open Source Software with Git* (web - may 25)
+https://scotch.io/tutorials/contributing-to-open-source-software-with-git
+Learn what is open source software and how you can make your contributions to a open source project using Git.
+
+*Open Sourcing Twitter Heron* (ops - may 25)
+https://blog.twitter.com/2016/open-sourcing-twitter-heron
+Heron is a proven, production-ready, real-time stream processing engine, now open sourced.
+
+*What the Format?* (rb - may 26)
+http://idiosyncratic-ruby.com/49-what-the-format.html
+Ruby comes with a structured alternative to classic string interpolation.
+
+*Make a Simple JavaScript Slideshow without jQuery* (js - may 26)
+https://www.sitepoint.com/make-a-simple-javascript-slideshow-without-jquery/
+The main benefits of not using a library for your slideshow are that your page performs better.
+
+*Quick Tip: 4 Really Useful, Re-Useable Code Snippets from Codepen* (css3 - may 28)
+https://www.sitepoint.com/quick-tip-4-really-useful-re-useable-code-snippets-from-codepen/
+The world’s best front-end people deliver their ideas to us in pretty windows.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+Links curated by by mose (publisher), xenor, tysliu (editors), xenor, nauman, hsatac (contributors).
+*|END:IF|*
+*|IFNOT:CONTENT=Only Links|*
+
+Rant
+----------------------------------------------------
+The random rant of the week by mose.
+
+#### GreenRuby IRL and Remote meetup
+
+Last week I posted a link about [Remote Meetups][rm], but, as it sometimes
+happens, it didn't stop there. The basic principle was appealing to me. It's
+true that we don't all live in the Bay area or in New York. Having high
+quality speakers in meetups is hard when you live in a small city or a remote
+country. And this is exactly what that initiative tries to address.
+
+So I jumped in and had some talk with Franze. The result is that the GreenRuby
+meetup we will have this friday will also be remote. Some people will [attend
+physically][grg001], some people will [come virtually][grm001] using the
+[Bigmarker][bm] platform on the RemoteMeetup account.
+
+Those events usually are based on a format including a presentation followed
+by interactions. My plan is to go nuts and try a full-social format, with no
+presentation at all, jumping directly to the interactions. It's going to be
+highly experimental and may lead to failure, but it certainly won't kill any
+kitten in the process so I think we are safe.
+
+The mix between physical and remote event is the challenging part. We may try
+the [usage of mobile phones][mobile] to make local people become remote
+participants (but it seems to be IOs only for now). I will get an iPad ready
+for easier floating access, that can be fun.
+
+You are welcome to join, either online or irl. I heard [Gandi][gn], the
+physical host and my employer, is going to fill up the fridge with hundred of
+various beverages and won't mind us to help reduce that quantity.
+
+[rm]: http://remotemeetup.com/
+[grg001]: http://greenruby.kktix.cc/events/grg-001
+[grm001]: https://www.bigmarker.com/remote-meetup/Green-Ruby-Meetup-001
+[bm]: https://www.bigmarker.com/communities/remote-meetup
+[mobile]:
+https://bigmarker.zendesk.com/hc/en-us/articles/203332009-Attending-and-Hosting-Webinars
+[gn]: https://gandi.net
+
+*|END:IF|*
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+

@@ -23,6 +23,7 @@ module Greeby
       @pages_path = File.join(@root, 'pages')
       @static_path = File.join(@root, 'site')
       @json_path = File.join(@root, 'json')
+      @config = to_ostruct(YAML::load_file(File.join(@root, 'config.yml')))
     end
 
     def make_letter(source)
@@ -77,6 +78,7 @@ module Greeby
       page.name = @c.edition
       page.content = File.read(File.join(@news_path, 'partials', "GRN-#{@c.edition}.html"))
       page.letters = Hash[letters.sort_by { |edition,data| -edition.to_i }]
+      page.config = @config
       html = haml_engine.render(page)
       File.open(File.join(@static_path, "grn-#{page.name}.html"),'w') do |f|
         f.puts html
@@ -103,6 +105,7 @@ module Greeby
         page.content = RDiscount.new(File.read(p)).to_html
         letters = JSON.parse(File.read(File.join(@static_path, 'editions.json')))
         page.letters = Hash[letters.sort_by { |edition,data| -(edition.to_i) }]
+        page.config = @config
         html = haml_engine.render(page)
         File.open(File.join(@static_path, "#{page.name}.html"),'w') do |f|
           f.puts html

@@ -1,6 +1,6 @@
 ---
-edition: "173"
-pubdate: "may 29th 2016"
+edition: "174"
+pubdate: "jun 5th 2016"
 editors: "xenor, tysliu"
 participants: "Nauman Tariq, hsatac"
 rant:
@@ -28,100 +28,37 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: "Nix"
-    url: "https://nixos.org/nix/"
-    comment: "Package manager for Unix and Linux systems."
+  - title: ""
+    url: ""
+    comment: ""
     tags:
-      - tool
+      - css3
 
-  - title: "what-happens-when"
-    url: "https://github.com/alex/what-happens-when"
-    comment: "An attempt to answer the age old interview question 'What happens when...'"
-    tags:
-      - tool
 
 
 - title: Install
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: "vimrunner"
-    url: "https://github.com/AndrewRadev/vimrunner"
-    comment: "Control a vim instance through ruby code."
+  - title: ""
+    url: ""
+    comment: ""
     tags:
       - rb
-
-  - title: "fake_stripe"
-    url: "https://github.com/thoughtbot/fake_stripe"
-    comment: "Mock stripe connections and return proper JSON responses for test."
-    tags:
-      - rb
-
-  - title: "Spectre.css"
-    url: "https://picturepan2.github.io/spectre/"
-    comment: "A lightweight, responsive CSS framework."
-    tags:
-      - css3
-
-  - title: "Nitlanguage.org"
-    url: "https://nitlanguage.org/"
-    comment: "A fun language for serious programming"
-    tags:
-      - tool
 
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: "Rails has won: The Elephant in the Room"
-    url: "http://www.akitaonrails.com/2016/05/23/rails-has-won-the-elephant-in-the-room"
-    comment: "Reflection on a recently controversy letter by solnic.eu."
-    pubdate: may 23
+  - title: ""
+    url: ""
+    comment: ""
+    pubdate: sep 3
     tags:
       - rb
 
-  - title: "Please help me to not go broke "
-    url: "http://devblog.avdi.org/2016/05/23/please-help-me-to-not-go-broke/"
-    comment: "Avdi Grimm calls for some help which reveals ruby progamming language's trend and US health care issues."
-    pubdate: "may 23"
-    tags:
-      - rb
 
-  - title: "Know Ruby: with_index"
-    url: "http://aaronlasseigne.com/2016/05/24/know-ruby-with_index/"
-    comment: "each_with_index is a combination of each.with_index, the article explains what's different between them."
-    pubdate: may 24
-    tags:
-      - rb
-
-  - title: "Contributing to Open Source Software with Git"
-    url: "https://scotch.io/tutorials/contributing-to-open-source-software-with-git"
-    comment: "Learn what is open source software and how you can make your contributions to a open source project using Git."
-    pubdate: may 25
-    tags:
-      - web
-
-  - title: "What the Format?"
-    url: "http://idiosyncratic-ruby.com/49-what-the-format.html"
-    comment: "Ruby comes with a structured alternative to classic string interpolation."
-    pubdate: may 26
-    tags:
-      - rb
-
-  - title: "Make a Simple JavaScript Slideshow without jQuery"
-    url: "https://www.sitepoint.com/make-a-simple-javascript-slideshow-without-jquery/"
-    comment: "The main benefits of not using a library for your slideshow are that your page performs better."
-    pubdate: may 26
-    tags:
-      - js
-
-  - title: "Quick Tip: 4 Really Useful, Re-Useable Code Snippets from Codepen"
-    url: "https://www.sitepoint.com/quick-tip-4-really-useful-re-useable-code-snippets-from-codepen/"
-    comment: "The world’s best front-end people deliver their ideas to us in pretty windows."
-    pubdate: may 28
-    tags:
-      - css3
 
 - title: Watch
   baseline: "Screencasts and conferences videos, or other video feeds ..."
