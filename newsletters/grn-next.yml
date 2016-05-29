@@ -28,33 +28,57 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "Nix"
+    url: "https://nixos.org/nix/"
+    comment: "Package manager for Unix and Linux systems."
     tags:
-      - css3
+      - tool
 
+  - title: "what-happens-when"
+    url: "https://github.com/alex/what-happens-when"
+    comment: "An attempt to answer the age old interview question 'What happens when...'"
+    tags:
+      - tool
 
 
 - title: Install
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "vimrunner"
+    url: "https://github.com/AndrewRadev/vimrunner"
+    comment: "Control a vim instance through ruby code."
     tags:
       - rb
+
+  - title: "fake_stripe"
+    url: "https://github.com/thoughtbot/fake_stripe"
+    comment: "Mock stripe connections and return proper JSON responses for test."
+    tags:
+      - rb
+
+  - title: "Spectre.css"
+    url: "https://picturepan2.github.io/spectre/"
+    comment: "A lightweight, responsive CSS framework."
+    tags:
+      - css3
 
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
-    pubdate: sep 3
+  - title: "Please help me to not go broke "
+    url: "http://devblog.avdi.org/2016/05/23/please-help-me-to-not-go-broke/"
+    comment: "Avdi Grimm calls for some help which reveals ruby progamming language's trend and US health care issues."
+    pubdate: "may 23"
+    tags:
+      - rb
+
+  - title: "Know Ruby: with_index"
+    url: "http://aaronlasseigne.com/2016/05/24/know-ruby-with_index/"
+    comment: "each_with_index is a combination of each.with_index, the article explains what's different between them."
+    pubdate: may 24
     tags:
       - rb
 
