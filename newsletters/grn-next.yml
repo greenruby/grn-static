@@ -74,6 +74,13 @@ topics:
   baseline: "From the blogosphere or news feeds ..."
   links:
 
+  - title: "Rails has won: The Elephant in the Room"
+    url: "http://www.akitaonrails.com/2016/05/23/rails-has-won-the-elephant-in-the-room"
+    comment: "Reflection on a recently controversy letter by solnic.eu."
+    pubdate: may 23
+    tags:
+      - rb
+
   - title: "Please help me to not go broke "
     url: "http://devblog.avdi.org/2016/05/23/please-help-me-to-not-go-broke/"
     comment: "Avdi Grimm calls for some help which reveals ruby progamming language's trend and US health care issues."
@@ -88,7 +95,33 @@ topics:
     tags:
       - rb
 
+  - title: "Contributing to Open Source Software with Git"
+    url: "https://scotch.io/tutorials/contributing-to-open-source-software-with-git"
+    comment: "Learn what is open source software and how you can make your contributions to a open source project using Git."
+    pubdate: may 25
+    tags:
+      - web
 
+  - title: "What the Format?"
+    url: "http://idiosyncratic-ruby.com/49-what-the-format.html"
+    comment: "Ruby comes with a structured alternative to classic string interpolation."
+    pubdate: may 26
+    tags:
+      - rb
+
+  - title: "Make a Simple JavaScript Slideshow without jQuery"
+    url: "https://www.sitepoint.com/make-a-simple-javascript-slideshow-without-jquery/"
+    comment: "The main benefits of not using a library for your slideshow are that your page performs better."
+    pubdate: may 26
+    tags:
+      - js
+
+  - title: "Quick Tip: 4 Really Useful, Re-Useable Code Snippets from Codepen"
+    url: "https://www.sitepoint.com/quick-tip-4-really-useful-re-useable-code-snippets-from-codepen/"
+    comment: "The world’s best front-end people deliver their ideas to us in pretty windows."
+    pubdate: may 28
+    tags:
+      - css3
 
 - title: Watch
   baseline: "Screencasts and conferences videos, or other video feeds ..."
