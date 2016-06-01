@@ -2,9 +2,9 @@
 
 ## Genesis
 
-The Newsletter began in june 2012 from the habit I had to
+The Newsletter began in June 2012 from the habit I had to
 send weekly newsletter in [Codegreen][1] for our team to know what is
-happenning in our company. That was purely a teamwork tool for general
+happening in our company. That was purely a teamwork tool for general
 transparency. But with time passing I also included there some links to
 what I was finding around that would be of interest for my geek colleagues.
 
@@ -15,15 +15,15 @@ the scope of our team.
 
 At that time I had to test [Mailchimp][2] service for one of our projects,
 so because they offer a free package when volume is not too big, I thought
-I should just create that newsletter as a public freeely available publication.
+I should just create that newsletter as a public freely available publication.
 
-So in february 2013 I sent the first Green Ruby Newsletter to 3 subscribers. Well,
+So in February 2013 I sent the first Green Ruby Newsletter to 3 subscribers. Well,
 mostly our team :) Then it became a weekly habit, so I got a domain name for it,
-and organicaly it's growing slowly.
+and organically it's growing slowly.
 
 ## The publication process
 
-Now that it became a well rounded habit, the process stabilised in an efficient routine.
+Now that it became a well rounded habit, the process stabilized in an efficient routine.
 
 At first I have been using a lot of rss readers, first Google reader, then they closed,
 I used [Newsblur][3] and then [Feedspot][4], [Prismatic][10] and [Reddit][12].
@@ -34,7 +34,7 @@ So each week, I listen to various podcasts during my 50 min commute twice a day,
 something in my daily work I got tweet it on [@greenrubist][16] using a [Buffer][11] free account
 (but really those people rock, one day I will pay for it).
 
-And on sunday, [William][14] (aka xenor) also sends me a list of links. Simon began to send links 
+And on Sunday, [William][14] (aka xenor) also sends me a list of links. Simon began to send links 
 as well, starting in autumn 2014. In the evening I begin to
 build the yaml file that I use for generating the letter and the website. I spend between 4 and 6 hours,
 reading around, checking what's up, and so on. Very often it's 3am when I'm done and then I send the
@@ -42,8 +42,8 @@ letter manually from Mailchimp.
 
 ## After 2 years
 
-Two years passed. Not one week came without its pubication. It became a sunday routine for me,
-with various benifits for myself and my friends. Few people subscribed each week from the website.
+Two years passed. Not one week came without its publication. It became a Sunday routine for me,
+with various benefits for myself and my friends. Few people subscribed each week from the website.
 
 There have been various attempts to automate the publication tool, using ember, or other toys.
 But the most reliable toolset ended up being a couple of rake tasks for producing the mailchimp
