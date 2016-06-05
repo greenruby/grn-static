@@ -26,6 +26,7 @@ Those links and resources are used in the weekly collection of information for G
 * <https://codeascraft.com> (webdev)
 * <http://devblog.avdi.org> (ruby)
 * <http://iridakos.com/> (ruby)
+* <http://schneems.com/> (ruby)
 
 ### Email newsletters
 
