@@ -28,11 +28,11 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "HyperDev"
+    url: "https://hyperdev.com/"
+    comment: "Developer playground for building web app fast."
     tags:
-      - css3
+      - web
 
 
 
@@ -46,15 +46,29 @@ topics:
     tags:
       - rb
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "sysrandom"
+    url: "https://github.com/cryptosphere/sysrandom"
+    comment: "Secure random number generation for Ruby using system RNG facilities"
     tags:
       - rb
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
   links:
+
+  - title: "A Comprehensive Guide to Interacting With IMAP Using Ruby"
+    url: "http://www.ombulabs.com/ruby/imap/a-comprehensive-guide-to-interacting-with-imap-using-ruby.html"
+    comment: "Integrate IMAP API using ruby"
+    pubdate: "may 30"
+    tags:
+      - rb
+
+  - title: "Beyond YML Files"
+    url: "http://collectiveidea.com/blog/archives/2016/05/31/beyond-yml-files-dynamic-translations/"
+    comment: "Save translation into database and make users available to edit it from app."
+    pubdate: "may 31"
+    tags:
+      - rb
 
   - title: "Harnessing the Google Maps JavaScript API the Right Way"
     url: "https://www.sitepoint.com/google-maps-javascript-api-the-right-way/"
