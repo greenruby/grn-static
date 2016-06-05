@@ -1,6 +1,6 @@
 ---
-edition: "174"
-pubdate: "jun 5th 2016"
+edition: "175"
+pubdate: "jun 12th 2016"
 editors: "xenor, tysliu"
 participants: "Nauman Tariq, hsatac"
 rant:
@@ -28,11 +28,11 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: "HyperDev"
-    url: "https://hyperdev.com/"
-    comment: "Developer playground for building web app fast."
+  - title: ""
+    url: ""
+    comment: ""
     tags:
-      - web
+      - css3
 
 
 
@@ -40,84 +40,25 @@ topics:
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: "Time Math"
-    url: "https://github.com/zverok/time_math2"
-    comment: "TimeMath2 is a small, no-dependencies library attempting to make time arithmetics easier."
+  - title: ""
+    url: ""
+    comment: ""
     tags:
       - rb
 
-  - title: "sysrandom"
-    url: "https://github.com/cryptosphere/sysrandom"
-    comment: "Secure random number generation for Ruby using system RNG facilities"
-    tags:
-      - rb
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: "A Comprehensive Guide to Interacting With IMAP Using Ruby"
-    url: "http://www.ombulabs.com/ruby/imap/a-comprehensive-guide-to-interacting-with-imap-using-ruby.html"
-    comment: "Integrate IMAP API using ruby"
-    pubdate: "may 30"
-    tags:
-      - rb
-
-  - title: "Beyond YML Files"
-    url: "http://collectiveidea.com/blog/archives/2016/05/31/beyond-yml-files-dynamic-translations/"
-    comment: "Save translation into database and make users available to edit it from app."
-    pubdate: "may 31"
-    tags:
-      - rb
-
-  - title: "Harnessing the Google Maps JavaScript API the Right Way"
-    url: "https://www.sitepoint.com/google-maps-javascript-api-the-right-way/"
-    comment: "There are lots of tutorials and examples already out there for this, but too often without a focus on the best way of achieving the desired result."
-    pubdate: june 1
-    tags:
-      - js
-
-  - title: "Learn Concurrency by Making a Countdown Latch in Ruby"
-    url: "https://www.sitepoint.com/learn-concurrency-by-making-a-countdown-latch-in-ruby/"
-    comment: "A Countdown Latch is a concurrency abstraction that allows one or more threads to wait until all other threads are done with what they are doing."
-    pubdate: june 2
-    tags:
-      - rb
-
-  - title: "Regular Expressions in JavaScript"
-    url: "https://www.sitepoint.com/expressions-javascript/"
-    comment: "How regular expressions are used in JavaScript."
-    pubdate: june 2
-    tags:
-      - js
-
-  - title: "Introducing the CSS clip-path Property"
-    url: "https://www.sitepoint.com/introducing-css-clip-path-property/"
-    comment: "clip-path is css3 a property which allows you to prevent a portion of an element from being displayed."
-    pubdate: june 2
-    tags:
-      - css3
-
-  - title: "3 PLEASANTLY SURPRISING POSTGRESQL INDEXING TRICKS"
-    url: "http://blog.scoutapp.com/articles/2016/05/31/3-postgresql-indexing-tricks-that-surprise-everyone"
-    comment: "Everyone is surprised when I show them a few more advanced indexing techniques."
-    pubdate: may 31
-    tags:
-      - rb
-
-  - title: "Saving Sprockets"
-    url: "http://schneems.com/2016/05/31/saving-sprockets.html"
-    comment: "What do you do when a maintainer leaves a project with over 51 million downloads?"
-    pubdate: may 31
-    tags:
-      - rb
-
   - title: ""
     url: ""
     comment: ""
-    pubdate: may 31
+    pubdate: sep 3
     tags:
       - rb
+
+
 
 - title: Watch
   baseline: "Screencasts and conferences videos, or other video feeds ..."

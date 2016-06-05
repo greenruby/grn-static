@@ -1,0 +1,241 @@
+----------------------------------------------------
+Green Ruby News #174 - jun 5th 2016
+----------------------------------------------------
+*|IFNOT:CONTENT=Only Rant|*
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+*Waaark* (design)
+http://waaark.com/
+French Creative Web Studio.
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+*The Vanilla Javascript Repository* (js)
+http://www.vanillalist.com/
+Coz' sometimes you feel guilty for using jQuery.
+
+*HyperDev* (tool)
+https://hyperdev.com/
+Developer playground for building web app fast.
+
+*Project Soli* (tool)
+https://atap.google.com/soli/
+New interaction sensor using radar technology.
+
+*Rove* (ops)
+http://rove.io/
+Service that allows you to pregenerate typical Vagrant builds
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+*Time Math* (rb)
+https://github.com/zverok/time_math2
+TimeMath2 is a small, no-dependencies library attempting to make time arithmetics easier.
+
+*sysrandom* (rb)
+https://github.com/cryptosphere/sysrandom
+Secure random number generation for Ruby using system RNG facilities
+
+*Related* (rb)
+https://github.com/seansellek/Related
+Pure Ruby relational algebra.
+
+*Janky* (rb)
+https://github.com/github/janky
+Continuous integration server built on top of Jenkins and Hubot
+
+*Temple* (rb)
+https://github.com/judofyr/temple
+Template compilation framework in Ruby
+
+*Oasis.js* (js)
+https://github.com/tildeio/oasis.js
+A lightweight library for embedding untrusted content and exposing capabilities.
+
+*Xeon* (js)
+https://github.com/hzlmn/xeon
+Module loader for shell scripts with 'require' style.
+
+*Bluebird* (js)
+https://github.com/petkaantonov/bluebird
+Full featured promise library with unmatched performance.
+
+*Family.scss* (css3)
+http://lukyvj.github.io/family.scss/
+Set of 24 smart Sass mixins to manage the style of :nth-child’ified elements.
+
+*Flex Layout Attribute* (html5)
+http://progressivered.com/fla/
+Custom HTML layout attribute designed to serve you as quick flexbox shorthand.
+
+*Texttop* (tool)
+https://github.com/tombh/texttop
+A fully interactive X Linux desktop rendered in TTY and streamable over SSH
+
+*Black-screen* (tool)
+https://github.com/shockone/black-screen
+A terminal emulator for the 21st century (made with electron).
+
+*Lantern* (tool)
+https://getlantern.org/
+Internet proxy tool that lets you access blocked sites
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+*A Comprehensive Guide to Interacting With IMAP Using Ruby* (rb - may 30)
+http://www.ombulabs.com/blog/ruby/imap/a-comprehensive-guide-to-interacting-with-imap-using-ruby.html
+All the steps to make your ruby app become a mail client.
+
+*Abstractions and the role of a framework* (rb - may 30)
+http://solnic.eu/2016/05/30/abstractions-and-the-role-of-a-framework.html
+This is a follow-up to the discussion that was started last week 'My time with Rails is up'.
+
+*Beyond YML Files* (rb - may 31)
+http://collectiveidea.com/blog/archives/2016/05/31/beyond-yml-files-dynamic-translations/
+Save translation into database and users can edit it from the Rails app.
+
+*3 pleasantly surprising postgreSQL indexing tricks* (rb - may 31)
+http://blog.scoutapp.com/articles/2016/05/31/3-postgresql-indexing-tricks-that-surprise-everyone
+A few quite advanced indexing techniques.
+
+*Saving Sprockets* (rb - may 31)
+http://schneems.com/2016/05/31/saving-sprockets.html
+What do you do when a maintainer leaves a project with over 51 million downloads?
+
+*Harnessing the Google Maps JavaScript API the Right Way* (js - jun 1)
+https://www.sitepoint.com/google-maps-javascript-api-the-right-way/
+There are lots of tutorials and examples already out there for this, but too often without a focus on the best way of achieving the desired result.
+
+*IFacebook's text understanding engine* (web - jun 1)
+https://code.facebook.com/posts/181565595577955/introducing-deeptext-facebook-s-text-understanding-engine/
+DeepText can understand with near-human accuracy the textual content of several thousand posts per second, spanning more than 20 languages.
+
+*Learn Concurrency by Making a Countdown Latch in Ruby* (rb - jun 2)
+https://www.sitepoint.com/learn-concurrency-by-making-a-countdown-latch-in-ruby/
+A Countdown Latch is a concurrency abstraction that allows one or more threads to wait until all other threads are done with what they are doing.
+
+*Regular Expressions in JavaScript* (js - june 2)
+https://www.sitepoint.com/expressions-javascript/
+What, exactly, regular expressions are and what they can do for you.
+
+*Introducing the CSS clip-path Property* (css3 - jun 2)
+https://www.sitepoint.com/introducing-css-clip-path-property/
+clip-path is css3 a property which allows you to prevent a portion of an element from being displayed.
+
+Watch
+----------------------------------------------------
+Screencasts and conferences videos, or other video feeds ...
+
+*Get a Whiff of This by Sandi Metz* (rb - may 28 - 38m)
+https://www.youtube.com/watch?v=PJjHfa5yxlU
+Most new requirements change existing code. Ergo, much our work involves altering imperfect code.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+Links curated by by mose (publisher), xenor, tysliu (editors), nauman, kraytruthg, xenor, mose, james (contributors).
+*|END:IF|*
+*|IFNOT:CONTENT=Only Links|*
+
+Rant
+----------------------------------------------------
+The random rant of the week by mose.
+
+#### Scarcity and abundance
+
+As you may remember, this newsletter is using the generous free plan from
+Mailchimp. But it has limits. Only 2000 emails ca subscribe to that
+newsletter. It's already a great gift, and I'm pretty sure it's a good
+business calculation for them. Now GreenRuby reaches 1915 subscriptions. Which
+means we need to address that so pervasive concept of scarcity.
+
+I can remember when it shifted. With the first web pages in 96. When tables
+were introduced in HTML, then it became less obvious how to recreate something
+you saw, and having the possibility to browse the source of a page gives you
+the exact recipe on how it's made. So you can copy from it. I think open
+source would not have had such a large adoption if there was not that idea
+with the HTML, that you need to have access to the source to learn, reproduce
+and improve.
+
+Also, it made even more obvious one of the key aspects of the internet age: by
+dematerializing market goods (ie. with introduction of softwares), they became
+reproducible at a cost that is marginal enough to be forgotten (yeah,
+bandwidth and storage are not free, for sure). When you give it to someone,
+you still have it. Not like that glass of beer. It placed us in an awkward
+paradigm, the world of abundance.
+
+There have been so many efforts to artificially bend the internet to a world
+of scarcity again. See, without scarcity, there is no economy as we know it.
+There is another kind of economy, though, but the big guys that lead the old
+one are not ready to let it go. For the old economy to work, things have to be
+scarce. Otherwise there is no competition to obtain commodities, no motivation
+to work like crazy to push forward the progress of production. In abundance
+economy, also known as [gift economy][gifteco], people get less likely to be
+controlled and they don't want to work hard, they want pleasure and
+satisfaction.
+
+Honestly, I see the efforts made to control a resource that is naturally
+abundant, by using the tools of law, copyright laws, patents, and all that
+kind. I can't help thinking about the abundance of material goods.
+Technological progress, after war, promised some kind of abundant society.
+Work would be automated so we would have less and less to work and just enjoy
+the benefit of the global growth of humanity in taming the material world.
+Well, we are far from it, and I'm instinctively convinced that it's by design.
+And it makes me sad. People still need jobs, society won't provide for them.
+There is nothing like common goods in that humanity. And now human compete
+with machine for jobs, whereas they should have been allies. Sad, really.
+
+But this led me quite far away from my initial topic: we got limited seats for
+this newsletter, so we'll do it 2 ways. First, I will send a mail to all
+people that never click on any links, ask them if they want to stay there.
+Then after a time I will unsubscribe the ones that stay silent and inactive.
+That could skim some 300 people maybe. At the rate it goes, that can buy us
+some 6 months, at the current rate of newcomers each week.
+
+Then, the subscription will be closed, unless I setup another publication
+system, self-hosted. We don't really need a fully-blown solution like
+mailchimp to be totally honest. They do bit efforts to have mail servers that
+are compliant with various anti-spam techniques, and this is a great thing.
+But I bet I should be able to match it on a self-hosted server that would cost
+me less than $10 a month. It would have no limit, at least. Maybe at that time
+I will open some kind of donation program. Actually I already pay for the
+hosting but I use my servers for other usages so it's only a small fraction.
+And honestly I could even host GreenRuby web pages on github pages for free.
+But I would not have access to the logs for analytics and would need to setup
+some piwik because I can't cope with the idea of using GA. Or, I just don't
+care about traffic metrics. That's tempting. But I got lost in my train of
+thoughts here.
+
+Bottom line is: we won't get trapped by scarcity. Muahahaha. But feel free to
+send me feedbacks on this topic if you have any thoughts.
+
+[gifteco]: https://en.wikipedia.org/wiki/Gift_economy
+[pse]: https://en.wikipedia.org/wiki/Post-scarcity_economy
+
+*|END:IF|*
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+
