@@ -1,6 +1,6 @@
 ---
-edition: "175"
-pubdate: "jun 12th 2016"
+edition: "176"
+pubdate: "jun 19th 2016"
 editors: "xenor, tysliu"
 participants: "Nauman Tariq, hsatac"
 rant:
@@ -28,94 +28,37 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: "curl-to-ruby"
-    url: "https://jhawthorn.github.io/curl-to-ruby/?utm_source=rubyweekly&utm_medium=email"
-    comment: "Convert curl commands to ruby's net/http"
+  - title: ""
+    url: ""
+    comment: ""
     tags:
-      - rb
+      - css3
+
+
 
 - title: Install
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: "Databound"
-    url: "https://github.com/Nedomas/databound-rails"
-    comment: "Provides Javascript a simple CRUD API to the Ruby on Rails backend."
+  - title: ""
+    url: ""
+    comment: ""
     tags:
       - rb
-
-  - title: "mjml"
-    url: "https://github.com/mjmlio/mjml"
-    comment: "A responsive email framework."
-    tags:
-      - js
-
-  - title: "jekyll-octopod"
-    url: "http://jekyll-octopod.github.io/"
-    comment: "A podcast publishing extension for the static site generator Jekyll."
-    tags:
-      - tool
 
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: "Exploring Cryptography Fundamentals in Ruby"
-    url: "https://www.sitepoint.com/exploring-cryptography-fundamentals-in-ruby/"
-    comment: "Basic walkthrough of cryptography in Ruby."
-    pubdate: "jun 6"
+  - title: ""
+    url: ""
+    comment: ""
+    pubdate: sep 3
     tags:
       - rb
 
-  - title: "Using Ruby with ActiveRecord in AWS Lambda"
-    url: "http://www.adomokos.com/2016/06/using-ruby-with-activerecord-in-aws.html"
-    comment: "It's much easier to launch a 1000 AWS Lambdas at the same time than running Ruby processes with resque or sidekiq on worker boxes."
-    pubdate: "jun 6"
-    tags:
-      - rb
 
-  - title: "Building a WebRTC Video Chat Application with PeerJS"
-    url: "https://www.sitepoint.com/webrtc-video-chat-application-peerjs/"
-    comment: "PeerJS is a JavaScript library that simplifies WebRTC peer-to-peer data, video, and audio calls."
-    pubdate: "jun 7"
-    tags:
-      - js
-
-  - title: "Interactive Data Visualization: Animating the viewBox"
-    url: "https://css-tricks.com/interactive-data-visualization-animating-viewbox/"
-    comment: "The viewBox acts as a window in which you see in to your SVG."
-    pubdate: "jun 8"
-    tags:
-      - css3
-
-  - title: "Expose Your Rails CRUD to the Browser with Databound"
-    url: "https://www.sitepoint.com/expose-your-crud-to-the-browser-with-databound/"
-    comment: "Databound provides Javascript a simple CRUD API to the Ruby on Rails backend."
-    pubdate: "jun 9"
-    tags:
-      - rb
-
-  - title: "JavaScript Object Creation: Patterns and Best Practices"
-    url: "https://www.sitepoint.com/javascript-object-creation-patterns-best-practises/"
-    comment: "Various styles of object creation and how each builds on the others in incremental steps."
-    pubdate: "jun 9"
-    tags:
-      - js
-
-  - title: "Quick Tip: How z-index and Auto Margins Work in Flexbox"
-    url: "https://www.sitepoint.com/quick-tip-how-z-index-and-auto-margins-work-in-flexbox/"
-    comment: "Explore some flexbox tricks."
-    pubdate: "jun 9"
-    tags:
-      - css3
-
-  - title: "The Importance of Code Reviews"
-    url: "https://www.sitepoint.com/the-importance-of-code-reviews/"
-    comment: "If you don’t do code reviews, or if you feel like you could do better, I hope this write-up will help!"
-    pubdate: "jun 10"
-    tags:
-      - web
 
 - title: Watch
   baseline: "Screencasts and conferences videos, or other video feeds ..."
