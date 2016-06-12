@@ -28,11 +28,11 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "curl-to-ruby"
+    url: "https://jhawthorn.github.io/curl-to-ruby/?utm_source=rubyweekly&utm_medium=email"
+    comment: "Convert curl commands to ruby's net/http"
     tags:
-      - css3
+      - rb
 
 
 
@@ -40,21 +40,27 @@ topics:
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "mjml"
+    url: "https://github.com/mjmlio/mjml"
+    comment: "A responsive email framework."
     tags:
-      - rb
+      - js
+
+  - title: "jekyll-octopod"
+    url: "http://jekyll-octopod.github.io/"
+    comment: "A podcast publishing extension for the static site generator Jekyll."
+    tags:
+      - tool
 
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
-    pubdate: sep 3
+  - title: "Exploring Cryptography Fundamentals in Ruby"
+    url: "https://www.sitepoint.com/exploring-cryptography-fundamentals-in-ruby/"
+    comment: "Basic walkthrough of cryptography in Ruby."
+    pubdate: "jun 6"
     tags:
       - rb
 
