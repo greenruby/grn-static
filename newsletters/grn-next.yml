@@ -34,31 +34,81 @@ topics:
     tags:
       - css3
 
-
-
 - title: Install
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "FasterPath"
+    url: "https://github.com/danielpclark/faster_path"
+    comment: "This gem shaves off more than 30% of my Rails application page load time."
     tags:
       - rb
 
+  - title: "Mechanize"
+    url: "https://github.com/sparklemotion/mechanize"
+    comment: "The Mechanize library is used for automating interaction with websites."
+    tags:
+      - rb
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
-    pubdate: sep 3
+  - title: "Ruby Ranges: How Do They Work?"
+    url: "http://www.blackbytes.info/2016/06/ruby-ranges-how-do-they-work/"
+    comment: "Discover how Ruby ranges work under the hood."
+    pubdate: june 14
     tags:
       - rb
 
+  - title: "Metaprogramming in Ruby"
+    url: "https://blog.codeship.com/metaprogramming-in-ruby/"
+    comment: "Metaprogramming is fantastic but only when it is used sparingly."
+    pubdate: june 15
+    tags:
+      - rb
 
+  - title: "Hands-on Functional Programming with Ramda.js"
+    url: "https://www.sitepoint.com/functional-programming-with-ramda/"
+    comment: "Ramda.js is a library that we can use to help us getting started with functional programming using JavaScript."
+    pubdate: june 15
+    tags:
+      - js
+
+  - title: "An Introduction to Elixir’s Ecto Library"
+    url: "https://www.sitepoint.com/introduction-to-elixirs-ecto-library/"
+    comment: "Ecto is its main library for working with databases."
+    pubdate: june 15
+    tags:
+      - el
+
+  - title: "Accessing the User’s Camera with JpegCamera and Canvas"
+    url: "https://www.sitepoint.com/jpegcamera-and-canvas/"
+    comment: "JpegCamera takes the pain out of using the user’s camera in your application without needing to worry about cross-browser compatibility."
+    pubdate: june 16
+    tags:
+      - js
+
+  - title: "How to Find Cool, Quirky, Copyright Free Photos on Flickr"
+    url: "https://www.sitepoint.com/how-to-find-cool-quirky-copyright-free-photos-on-flickr/"
+    comment: "Find images that are in the public domain and copyright free."
+    pubdate: june 16
+    tags:
+      - web
+
+  - title: "Quick Tip: Add Favicons Quickly and Easily to Your HTML"
+    url: "https://www.sitepoint.com/quick-tip-add-favicons-quickly-and-easily-to-your-html/"
+    comment: "Favicons generally aren’t easy to manage. Because of the fragmentation of both mobile and desktop operating systems and browsers."
+    pubdate: june 16
+    tags:
+      - web
+
+  - title: "Preserving session with Mechanize"
+    url: "http://devblog.avdi.org/2016/06/17/preserving-session-with-mechanize/"
+    comment: "The Mechanize library is used for automating interaction with websites."
+    pubdate: june 17
+    tags:
+      - rb
 
 - title: Watch
   baseline: "Screencasts and conferences videos, or other video feeds ..."
