@@ -272,7 +272,11 @@ module Greeby
 
     def wrap(s, width=78)
       s.split("\n\n").collect! do |l|
-        l.length > width ? l.gsub(/(.{1,#{width}})(\s+|$)/, "\\1\n").strip : l
+        if /\[[-_0-9a-zA-Z]*\]:/.match l
+          l
+        else
+          l.length > width ? l.gsub(/(.{1,#{width}})(\s+|$)/, "\\1\n").strip : l
+        end
       end * "\n\n"
     end
 

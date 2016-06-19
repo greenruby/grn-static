@@ -1,0 +1,203 @@
+----------------------------------------------------
+Green Ruby News #176 - jun 19th 2016
+----------------------------------------------------
+*|IFNOT:CONTENT=Only Rant|*
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+*Timelike* (design)
+https://timelikes-infonity.fr/
+A visual experiment showing your likes from the face book.
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+*An interview with Mike Perham* (rb - jun 22)
+https://www.bigmarker.com/remote-meetup/An-interview-with-Mike-Perham-Sidekiq-creator
+Sidekiq creator interview on Remote Meetup. Join in!
+
+*Best-ruby* (rb)
+https://github.com/franzejr/best-ruby
+Ruby Tricks, Idiomatic Ruby, Refactorings and Best Practices
+
+*Javascript WYSIWYG editors* (js)
+https://github.com/cheeaun/mooeditable
+A list of web-based WYSIWYG editor.
+
+*Pixel Art to CSS* (design)
+http://pixelart.jvrpath.com/
+An online editor for pixel art animations.
+
+*Berkeley AI Materials* (tool)
+http://ai.berkeley.edu/lecture_videos.html
+UC Berkeley CS188 Intro to AI -- Course Materials
+
+*WebTorrent* (tool)
+https://webtorrent.io/
+WebTorrent, the streaming torrent client for the browser, OS X, Windows, and Linux
+
+*CodeComet* (tool)
+https://codecomet.io/
+Version Control, Collaboration & Coding for Front-end Developers (in beta).
+
+*2016 Guide to User Data Security* (ops)
+https://www.inversoft.com/guides/2016-guide-to-user-data-security
+A quite complete guide for strengthening your servers security.
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+*FasterPath* (rb)
+https://github.com/danielpclark/faster_path
+This gem shaves off more than 30% of my Rails application page load time.
+
+*Mechanize* (rb)
+https://github.com/sparklemotion/mechanize
+The Mechanize library is used for automating interaction with websites.
+
+*CASino* (rb)
+http://casino.rbcas.com/
+Single Sign On (SSO) web application written in Ruby
+
+*Rack-cas* (rb)
+https://github.com/biola/rack-cas
+Simple Rack middleware to perform CAS client authentication.
+
+*Clearance* (rb)
+https://github.com/thoughtbot/clearance
+Rails authentication with email & password.
+
+*Sharedb* (js)
+https://github.com/share/sharedb
+A database frontend for concurrent editing systems
+
+*Habitat* (ops)
+https://www.habitat.sh/
+Automation that travels with the app.
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+*50 Most Common Ruby on Rails Mistakes Beginner Developers Make* (rb - jun 13)
+http://jetruby.com/expertise/common-ruby-rails-mistakes-beginners-make-model-database/
+The list of common Ruby on Rails mistakes that beginner developers are unaware of/do wrong or don’t do at all. And how to avoid them.
+
+*Ruby Ranges: How Do They Work?* (rb - jun 14)
+http://www.blackbytes.info/2016/06/ruby-ranges-how-do-they-work/
+Discover how Ruby ranges work under the hood.
+
+*Metaprogramming in Ruby* (rb - jun 15)
+https://blog.codeship.com/metaprogramming-in-ruby/
+Metaprogramming is fantastic but only when it is used sparingly.
+
+*Hands-on Functional Programming with Ramda.js* (js - jun 15)
+https://www.sitepoint.com/functional-programming-with-ramda/
+Ramda.js is a library that we can use to help us getting started with functional programming using JavaScript.
+
+*An Introduction to Elixir’s Ecto Library* (el - jun 15)
+https://www.sitepoint.com/introduction-to-elixirs-ecto-library/
+Ecto is the main library for working with databases in Elixir.
+
+*Samsung acquires Joyent: A CTO’s perspective* (js - jun 15)
+https://www.joyent.com/blog/samsung-acquires-joyent-a-ctos-perspective
+Quite a big news this week. Here is an insider insight.
+
+*Accessing the User’s Camera with JpegCamera and Canvas* (js - jun 16)
+https://www.sitepoint.com/jpegcamera-and-canvas/
+JpegCamera takes the pain out of using the user’s camera in your application without needing to worry about cross-browser compatibility.
+
+*How to Find Cool, Quirky, Copyright Free Photos on Flickr* (design - jun 16)
+https://www.sitepoint.com/how-to-find-cool-quirky-copyright-free-photos-on-flickr/
+Find images that are in the public domain and copyright free.
+
+*Quick Tip: Add Favicons Quickly and Easily to Your HTML* (web - jun 16)
+https://www.sitepoint.com/quick-tip-add-favicons-quickly-and-easily-to-your-html/
+Favicons generally aren’t easy to manage. Because of the fragmentation of both mobile and desktop operating systems and browsers.
+
+*Preserving session with Mechanize* (rb - jun 17)
+http://devblog.avdi.org/2016/06/17/preserving-session-with-mechanize/
+The Mechanize library is used for automating interaction with websites.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+Links curated by by mose (publisher), tysliu (editors), franzejr, nauman, mose (contributors).
+*|END:IF|*
+*|IFNOT:CONTENT=Only Links|*
+
+Rant
+----------------------------------------------------
+The random rant of the week by mose.
+
+#### The virtues of duplication
+
+Few weeks ago I began to prepare a copy of the Green Ruby Template system for
+the usage of the Remote Meetup team. It's kind of ironic because, from some
+point of view, this code is a sin and was not written in the perspective to be
+generic. It's deliberately not constrained to code best practices, it's
+joyfully messy and blatantly suboptimal. It was a quick and dirty scripting
+solution, it could have been a set of shell scripts, well it happens to be
+using ruby. [Check it out][grncode] if you don't believe me.
+
+But it's doing the job for years now. It's a builder code, so it's run as a
+convenience only a few times a week, it doesn't really need to be fast. It
+just needs to do the job. Trust me I like good code, with clean design and
+full test coverage. But this one was just an intimate assistant of mine which
+was not really a software. Just some automation scripts.
+
+And now here it is, I get to face a situation where some friends need the same
+setup and I can't just give them the code, it's so custom. But there have been
+only a few changes to make and it was ready. But the interesting part is in
+the process. While duplicating the code for the Remote Meetup newsletter,
+well, I extracted some stuff, made a config file to remove various hardcoded
+things.
+
+Well it is still a big ball of dirty code, but in the duplication, it got more
+generic. I love that feeling which brings the software development world
+closer from the biological world. There is some kind of evolutionary process
+going on in the life of a software. It takes many forms and I like it when I
+get reminded of those similarities. I could go on and on about the topics that
+an open source ecosystem is necessary for the diversity of code to flourish
+and make evolution possible in a totally Darwinian way.
+
+So this simple operation was just illustrating one principle: when you share
+your code you shape it and make it more generic in the process. It can have
+various beneficial side effects beyond the single act of duplication and
+adaptation. I find it's also true when you publish your code as an open source
+project. If it gets some traction and people start to use it, they will import
+their context in your initial ecosystem and bring the same kind of
+adjustments. Making it stronger, in some way.
+
+Anyways, the [Remote Meetup News][rmn] website and newsletter generator is now
+ready, and you may find that the design is kind of familiar. Well, the rule of
+the path of least resistance also apply here for sure. I begin to apply back
+on Green Ruby the changes I made over there. I suspect the third duplication,
+of any, will be the extraction of the common parts in a separate codebase,
+like a gem with a lib.
+
+[grncode]: https://github.com/greenruby/grn-static/blob/master/lib/builder.rb
+[rmn]: http://remotemeetup.com/news/index.html 
+
+*|END:IF|*
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+
