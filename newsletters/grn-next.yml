@@ -2,7 +2,7 @@
 edition: "178"
 pubdate: "jul 3rd 2016"
 editors: "xenor, tysliu"
-participants: "Nauman Tariq, hsatac"
+participants: "xenor, nauman, mose, hsatac, james"
 rant:
   author: mose
   content:
@@ -28,11 +28,11 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "HumanOps"
+    url: "http://www.humanops.com/"
+    comment: "HumanOps is a set of principles which focus on the human aspects of running infrastructure."
     tags:
-      - css3
+      - ops
 
 
 
@@ -65,6 +65,13 @@ topics:
     tags:
       - rb
 
+  - title: "Automatically fetch your project’s dependencies with gb"
+    url: "http://dave.cheney.net/2016/06/26/automatically-fetch-your-projects-dependencies-with-gb"
+    comment: "Dependencies management is still a work in progress in Go."
+    pubdate: jun 26
+    tags:
+      - go
+
   - title: "A History of CSS Image Replacement"
     url: "https://www.sitepoint.com/css-image-replacement-text-indent-negative-margins-and-more/"
     comment: "Explore various image replacement techniques."
@@ -78,6 +85,20 @@ topics:
     pubdate: jun 27
     tags:
       - web
+
+  - title: "Add to Cart Interaction in CSS and jQuery"
+    url: "https://codyhouse.co/gem/add-to-cart-interaction/"
+    comment: "A floating cart that slides in when the user decides to buy an item."
+    pubdate: jun 28
+    tags:
+      - css3
+
+  - title: "VersionEye goes open source"
+    url: "https://blog.versioneye.com/2016/06/28/versioneye-goes-open-source/"
+    comment: "VersionEye is a popular platform for software developers, which notifies you about out-dated dependencies."
+    pubdate: "jun 28"
+    tags:
+      - ops
 
   - title: "Introducing the CSS text-align-last Property"
     url: "https://www.sitepoint.com/introducing-the-css-text-align-last-property/"
