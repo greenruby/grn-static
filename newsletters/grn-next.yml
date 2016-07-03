@@ -47,9 +47,33 @@ topics:
     tags:
       - rb
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "cells"
+    url: "https://github.com/apotonick/cells"
+    comment: "View components for Ruby and Rails."
+    tags:
+      - rb
+
+  - title: "resugan"
+    url: "https://github.com/jedld/resugan"
+    comment: "Simple event driven architecture framework."
+    tags:
+      - rb
+
+  - title: "income-tax"
+    url: "https://github.com/rkh/income-tax"
+    comment: "Ruby library to calculate the income tax for any country."
+    tags:
+      - rb
+
+  - title: "active_params"
+    url: "https://github.com/choonkeat/active_params"
+    comment: "Automatic strong parameters by JSON config."
+    tags:
+      - rb
+
+   - title: "vsafe-ruby"
+    url: "https://github.com/listia/vsafe-ruby"
+    comment: "Ruby API Library for Vesta's vSafe Payment Gateway."
     tags:
       - rb
 
@@ -113,6 +137,13 @@ topics:
     pubdate: jun 29
     tags:
       - el
+
+  - title: "RSpec be_within matcher"
+    url: "http://www.eq8.eu/blogs/27-rspec-be_within-matcher"
+    comment: "Explaination of less used be_within matcher in RSpec."
+    pubdate: "jun 29"
+    tags:
+      - rb
 
   - title: "JavaScript Design Patterns: The Singleton"
     url: "https://www.sitepoint.com/javascript-design-patterns-singleton/"
