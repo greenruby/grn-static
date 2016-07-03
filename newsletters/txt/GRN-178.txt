@@ -1,0 +1,186 @@
+----------------------------------------------------
+Green Ruby News #178 - jul 3rd 2016
+----------------------------------------------------
+*|IFNOT:CONTENT=Only Rant|*
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+*Love filia* (design)
+http://www.lovefila.com/
+Good demonstration of fast graphical animation with sound.
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+*HumanOps* (ops)
+http://www.humanops.com/
+HumanOps is a set of principles which focus on the human aspects of running infrastructure.
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+*Rails 5.0* (rb - jun 30)
+http://weblog.rubyonrails.org/2016/6/30/Rails-5-0-final/
+Action Cable, API mode, and so much more. After six months of polish, four betas, and two release candidates, Rails 5.0 is finally done!
+
+*cells* (rb)
+https://github.com/apotonick/cells
+View components for Ruby and Rails.
+
+*resugan* (rb)
+https://github.com/jedld/resugan
+Simple event driven architecture framework.
+
+*income-tax* (rb)
+https://github.com/rkh/income-tax
+Ruby library to calculate the income tax for any country.
+
+*active_params* (rb)
+https://github.com/choonkeat/active_params
+Automatic strong parameters by JSON config.
+
+*vsafe-ruby* (rb)
+https://github.com/listia/vsafe-ruby
+Ruby API Library for Vesta's vSafe Payment Gateway.
+
+*Go kit* (go)
+http://gokit.io/
+A toolkit for microservices
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+*Why is a BasicObject a Range?* (rb - jun 26)
+http://thomasleecopeland.com/2016/06/26/basicobject-is-a-range.html
+Fun with a ruby bug.
+
+*Automatically fetch your project’s dependencies with gb* (go - jun 26)
+http://dave.cheney.net/2016/06/26/automatically-fetch-your-projects-dependencies-with-gb
+Dependencies management is still a work in progress in Go.
+
+*A History of CSS Image Replacement* (css3 - jun 27)
+https://www.sitepoint.com/css-image-replacement-text-indent-negative-margins-and-more/
+Explore various image replacement techniques.
+
+*Blockchain’s Future after Bitcoin* (web - jun 27)
+https://www.sitepoint.com/quick-read-blockchains-future-after-bitcoin/
+Blockchain can be used for far more things than cash.
+
+*Add to Cart Interaction in CSS and jQuery* (css3 - jun 28)
+https://codyhouse.co/gem/add-to-cart-interaction/
+A floating cart that slides in when the user decides to buy an item.
+
+*VersionEye goes open source* (ops - jun 28)
+https://blog.versioneye.com/2016/06/28/versioneye-goes-open-source/
+VersionEye is a popular platform for software developers, which notifies you about out-dated dependencies.
+
+*Introducing the CSS text-align-last Property* (css3 - jun 29)
+https://www.sitepoint.com/introducing-the-css-text-align-last-property/
+The text-align-last property specifies how either the last line of a block or the line right before a forced line break will be aligned.
+
+*Elixir’s Ecto Querying DSL: Beyond the Basics* (el - jun 29)
+https://www.sitepoint.com/elixirs-ecto-querying-dsl-beyond-the-basics/
+Query composition, joins and associations, SQL fragment injection, explicit casting, and dynamic field access.
+
+*RSpec be_within matcher* (rb - jun 29)
+http://www.eq8.eu/blogs/27-rspec-be_within-matcher
+Explaination of less used be_within matcher in RSpec.
+
+*JavaScript Design Patterns: The Singleton* (js - jun 30)
+https://www.sitepoint.com/javascript-design-patterns-singleton/
+Write singletons by leveraging ES6 features, mainly modules and the new const variable declaration.
+
+*Browser Trends July 2016: Is a Chrome Monoculture Harmless?* (web - jul 1)
+https://www.sitepoint.com/browser-trends-july-2016-chrome-monoculture-harmless/
+Another update in browser trends from May to June.
+
+*Avoid Mutation – Functional Style In Ruby* (rb - jul 3)
+http://www.rubypigeon.com/posts/avoid-mutation-functional-style-in-ruby/
+Incorporate functional programming concepts into Ruby code
+
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+Links curated by by mose (publisher), xenor, tysliu (editors), xenor, nauman, mose, hsatac, james (contributors).
+*|END:IF|*
+*|IFNOT:CONTENT=Only Links|*
+
+Rant
+----------------------------------------------------
+The random rant of the week by mose.
+
+#### Open code, a chance for improvement
+
+Since I'm writing code I try to publish as much as I can as open source
+components. But I had occasion to work in situations where it was not
+possible. And I noticed some serious differences in the result.
+
+When you publish some code on, say, Github, you can just throw it as is and be
+done with it. Then you merely use github as a repository provider and don't
+care much about anything else. But when you begin to spend some time doing it,
+you notice that external contributor can bring great fixes, help detect bugs,
+and generally speaking make your code more valuable in itself.
+
+But this is a two-ways road. To invite people to collaborate you need to
+address a certain amount of little details. Writing a decently clear README is
+a demonstration of politeness for any passing guest. It's just more inviting.
+Making sure you have a complete enough test suite guarantees you can be sure
+external contributions won't mess up existing code (if writing tests in itself
+was not motivating enough). Refactoring your code by following
+[codeclimate][codeclimate] advises will break huge methods in small pieces,
+making things easier to be improved. Enforcing some kind of [style
+guide][rubocop] will avoid people to get confused by a non-standard code-art.
+(that person could be you in one year).
+
+All those aspects, when you work at a company as the only coder on one piece
+of code, you don't have that much incentive to enforce them. And I know about
+it because I have seen a huge lot of legacy code that was written that way.
+With lame tests that only purpose was to enforce code coverage without really
+testing much, weird code style, epic methods, no instructions. If it's just
+you and a couple of friends that you see every day, it's fine, you can deal
+with it. For a time.
+
+The fact is that exposing your code brings an incentive to work on the
+(apparently) non-essential aspects of your code. But those aspects really
+bring a huge improvement on the long term. Which leads me to consider that
+opening source code is a way that can lead to make it better.
+
+An usually, I noticed that the bosses don't care if it's open or not, as far
+as there is no trade secrets revealed. But well we write so much code that if
+business-neutral for many things. At the end of the day, it's only the matter
+of asking the boss if you can free this or that code, and then it's on its
+way. Even more if the code is published under an organization on github, there
+is even more incentive to make it clean, and it will also help possible
+candidates to understand what kind of stack you are dealing with, and what
+kind of principle you try to enforce. Even if it's actually only enforced in
+your open source code and the hidden code is messy. Haha.
+
+So, I ask you now, what in your current codebase could you extract as an open
+source gem? or node package?
+
+[codeclimate]: https://codeclimate.com/
+[rubocop]: https://github.com/bbatsov/rubocop 
+
+*|END:IF|*
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+

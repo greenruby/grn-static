@@ -9,7 +9,6 @@ Those links and resources are used in the weekly collection of information for G
 * <http://www.reddit.com/user/ozmose/m/greenruby> (multireddit)
 * <https://geekli.st/home> (developers)
 * <http://thecodeplayer.com/> (css/js)
-* <https://coderbits.com> (developers)
 * <http://codepen.io> (css/js)
 * <http://www.slant.co/> (misc)
 * <http://news.humancoders.com/> (misc) (fr)
@@ -41,7 +40,6 @@ Those links and resources are used in the weekly collection of information for G
 * <http://www.golangweekly.com/> (go) *weekly*
 * <http://javascriptweekly.com/> (js) *weekly*
 * <http://html5weekly.com/> (html5) *weekly*
-* <http://devopsweekly.com/> (ops) *weekly*
 * <http://saasclub.com/> (saas) *weekly*
 * <http://rubyweekly.com/> (rb) *weekly*
 * <http://statuscode.org/> (js) *weekly*
@@ -51,7 +49,6 @@ Those links and resources are used in the weekly collection of information for G
 ### News or links curators
 
 * <http://tympanus.net/codrops/collective/> (design)
-* <http://planetruby.herokuapp.com/> (ruby)
 * <http://webplatformdaily.org/> (html5)
 * <http://regulargeek.com/> (developers)
 * <http://thenewstack.io> (general IT)

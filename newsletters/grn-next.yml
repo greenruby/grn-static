@@ -1,8 +1,8 @@
 ---
-edition: "178"
-pubdate: "jul 3rd 2016"
+edition: "179"
+pubdate: "jul 10th 2016"
 editors: "xenor, tysliu"
-participants: "xenor, nauman, mose, hsatac, james"
+participants: "Nauman Tariq, hsatac"
 rant:
   author: mose
   content:
@@ -28,11 +28,11 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: "HumanOps"
-    url: "http://www.humanops.com/"
-    comment: "HumanOps is a set of principles which focus on the human aspects of running infrastructure."
+  - title: ""
+    url: ""
+    comment: ""
     tags:
-      - ops
+      - css3
 
 
 
@@ -40,40 +40,9 @@ topics:
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: "Rails 5.0"
-    url: "http://weblog.rubyonrails.org/2016/6/30/Rails-5-0-final/"
-    comment: "Action Cable, API mode, and so much more. After six months of polish, four betas, and two release candidates, Rails 5.0 is finally done!"
-    pubdate: jun 30
-    tags:
-      - rb
-
-  - title: "cells"
-    url: "https://github.com/apotonick/cells"
-    comment: "View components for Ruby and Rails."
-    tags:
-      - rb
-
-  - title: "resugan"
-    url: "https://github.com/jedld/resugan"
-    comment: "Simple event driven architecture framework."
-    tags:
-      - rb
-
-  - title: "income-tax"
-    url: "https://github.com/rkh/income-tax"
-    comment: "Ruby library to calculate the income tax for any country."
-    tags:
-      - rb
-
-  - title: "active_params"
-    url: "https://github.com/choonkeat/active_params"
-    comment: "Automatic strong parameters by JSON config."
-    tags:
-      - rb
-
-   - title: "vsafe-ruby"
-    url: "https://github.com/listia/vsafe-ruby"
-    comment: "Ruby API Library for Vesta's vSafe Payment Gateway."
+  - title: ""
+    url: ""
+    comment: ""
     tags:
       - rb
 
@@ -82,82 +51,14 @@ topics:
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: "Why is a BasicObject a Range?"
-    url: "http://thomasleecopeland.com/2016/06/26/basicobject-is-a-range.html"
-    comment: "Fun with a ruby bug."
-    pubdate: jun 26
+  - title: ""
+    url: ""
+    comment: ""
+    pubdate: sep 3
     tags:
       - rb
 
-  - title: "Automatically fetch your project’s dependencies with gb"
-    url: "http://dave.cheney.net/2016/06/26/automatically-fetch-your-projects-dependencies-with-gb"
-    comment: "Dependencies management is still a work in progress in Go."
-    pubdate: jun 26
-    tags:
-      - go
 
-  - title: "A History of CSS Image Replacement"
-    url: "https://www.sitepoint.com/css-image-replacement-text-indent-negative-margins-and-more/"
-    comment: "Explore various image replacement techniques."
-    pubdate: jun 27
-    tags:
-      - css3
-
-  - title: "Blockchain’s Future after Bitcoin"
-    url: "https://www.sitepoint.com/quick-read-blockchains-future-after-bitcoin/"
-    comment: "Blockchain can be used for far more things than cash."
-    pubdate: jun 27
-    tags:
-      - web
-
-  - title: "Add to Cart Interaction in CSS and jQuery"
-    url: "https://codyhouse.co/gem/add-to-cart-interaction/"
-    comment: "A floating cart that slides in when the user decides to buy an item."
-    pubdate: jun 28
-    tags:
-      - css3
-
-  - title: "VersionEye goes open source"
-    url: "https://blog.versioneye.com/2016/06/28/versioneye-goes-open-source/"
-    comment: "VersionEye is a popular platform for software developers, which notifies you about out-dated dependencies."
-    pubdate: "jun 28"
-    tags:
-      - ops
-
-  - title: "Introducing the CSS text-align-last Property"
-    url: "https://www.sitepoint.com/introducing-the-css-text-align-last-property/"
-    comment: "The text-align-last property specifies how either the last line of a block or the line right before a forced line break will be aligned."
-    pubdate: jun 29
-    tags:
-      - css3
-
-  - title: "Elixir’s Ecto Querying DSL: Beyond the Basics"
-    url: "https://www.sitepoint.com/elixirs-ecto-querying-dsl-beyond-the-basics/"
-    comment: "Query composition, joins and associations, SQL fragment injection, explicit casting, and dynamic field access."
-    pubdate: jun 29
-    tags:
-      - el
-
-  - title: "RSpec be_within matcher"
-    url: "http://www.eq8.eu/blogs/27-rspec-be_within-matcher"
-    comment: "Explaination of less used be_within matcher in RSpec."
-    pubdate: "jun 29"
-    tags:
-      - rb
-
-  - title: "JavaScript Design Patterns: The Singleton"
-    url: "https://www.sitepoint.com/javascript-design-patterns-singleton/"
-    comment: "Write singletons by leveraging ES6 features, mainly modules and the new const variable declaration."
-    pubdate: jun 30
-    tags:
-      - js
-
-  - title: "Browser Trends July 2016: Is a Chrome Monoculture Harmless?"
-    url: "https://www.sitepoint.com/browser-trends-july-2016-chrome-monoculture-harmless/"
-    comment: "Another update in browser trends from May to June."
-    pubdate: jul 1
-    tags:
-      - web
 
 - title: Watch
   baseline: "Screencasts and conferences videos, or other video feeds ..."
