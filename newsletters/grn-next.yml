@@ -51,14 +51,68 @@ topics:
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
-    pubdate: sep 3
+  - title: "A History of CSS Image Replacement"
+    url: "https://www.sitepoint.com/css-image-replacement-text-indent-negative-margins-and-more/"
+    comment: "Explore various image replacement techniques."
+    pubdate: jun 27
+    tags:
+      - css3
+
+  - title: "Quick Read: Blockchain’s Future after Bitcoin"
+    url: "https://www.sitepoint.com/quick-read-blockchains-future-after-bitcoin/"
+    comment: "Blockchain can be used for far more things than cash."
+    pubdate: jun 27
+    tags:
+      - web
+
+  - title: "Why is a BasicObject a Range?"
+    url: "http://thomasleecopeland.com/2016/06/26/basicobject-is-a-range.html"
+    comment: "Fun with a ruby bug."
+    pubdate: jun 28
     tags:
       - rb
 
+  - title: "Introducing the CSS text-align-last Property"
+    url: "https://www.sitepoint.com/introducing-the-css-text-align-last-property/"
+    comment: "The text-align-last property specifies how either the last line of a block or the line right before a forced line break will be aligned."
+    pubdate: jun 29
+    tags:
+      - css3
 
+  - title: "Elixir’s Ecto Querying DSL: Beyond the Basics"
+    url: "https://www.sitepoint.com/elixirs-ecto-querying-dsl-beyond-the-basics/"
+    comment: "Explore Ecto’s more advanced features, including query composition, joins and associations, SQL fragment injection, explicit casting, and dynamic field access."
+    pubdate: jun 29
+    tags:
+      - el
+
+  - title: "Rails 5.0: Action Cable, API mode, and so much more"
+    url: "http://weblog.rubyonrails.org/2016/6/30/Rails-5-0-final/"
+    comment: "After six months of polish, four betas, and two release candidates, Rails 5.0 is finally done!"
+    pubdate: jun 30
+    tags:
+      - rb
+
+  - title: "JavaScript Design Patterns: The Singleton"
+    url: "https://www.sitepoint.com/javascript-design-patterns-singleton/"
+    comment: "By leveraging ES6 features, mainly modules and the new const variable declaration, we can write singletons in ways that are not only more concise, but which better meet our requirements."
+    pubdate: jun 30
+    tags:
+      - js
+
+  - title: "Browser Trends July 2016: Is a Chrome Monoculture Harmless?"
+    url: "https://www.sitepoint.com/browser-trends-july-2016-chrome-monoculture-harmless/"
+    comment: "Another update in browser trends from May to June"
+    pubdate: jul 1
+    tags:
+      - web
+
+  - title: ""
+    url: ""
+    comment: ""
+    pubdate: jun 30
+    tags:
+      - rb
 
 - title: Watch
   baseline: "Screencasts and conferences videos, or other video feeds ..."
