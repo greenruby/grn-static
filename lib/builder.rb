@@ -37,11 +37,11 @@ module Greeby
         @c.rant_txt = wrap(@c.rant.content)
       end
 
-      erb = ERB.new(File.read(File.join(@news_path, 'grn.html.erb')), 0, '<>')
+      erb = ERB.new(File.read(File.join(@views_path, 'grn.html.erb')), 0, '<>')
       File.open(File.join(@news_path, 'html', "GRN-#{@c.edition}.html"), 'w') do |f|
         f.puts erb.result(binding)
       end
-      txt = ERB.new(File.read(File.join(@news_path, 'grn.txt.erb')))
+      txt = ERB.new(File.read(File.join(@views_path, 'grn.txt.erb')))
       File.open(File.join(@news_path, 'txt', "GRN-#{@c.edition}.txt"), 'w') do |f|
         f.puts txt.result(binding)
       end
@@ -66,7 +66,7 @@ module Greeby
         f.puts letters.to_json
       end
 
-      partial = ERB.new(File.read(File.join(@news_path, 'grn-partial.erb')))
+      partial = ERB.new(File.read(File.join(@views_path, 'grn-partial.erb')))
       File.open(File.join(@news_path, 'partials', "GRN-#{@c.edition}.html"), 'w') do |f|
         f.puts partial.result(binding)
       end
@@ -124,7 +124,7 @@ module Greeby
         maker.channel.language = "en-US"
 
         letters = JSON.parse(File.read(File.join(@static_path, 'editions.json')))
-        partial = ERB.new(File.read(File.join(@news_path, 'grn-rss.erb')))
+        partial = ERB.new(File.read(File.join(@views_path, 'grn-rss.erb')))
         tenletters = Hash[letters.to_a.reverse[0..9]]
         tenletters.each do |letter,c|
           maker.items.new_item do |item|
