@@ -84,7 +84,7 @@
         .col-sm-12.col-md-3.rightbar.hidden-print
           %p.header Green Ruby News is a feed of fresh links of the week about ruby, javascript, webdev, devops, collected by mose, xenor and tysliu every sunday.
           %p
-          %form{ action: "http://greenruby.us6.list-manage.com/subscribe/post?u=f1b3b59d2383eeb07537f6440&amp;id=7136c985cf", method: 'post'}
+          %form{ action: config.mailchimp_subscribe, method: 'post'}
             .text-center
               %b Subscribe
             .text-center
@@ -100,18 +100,16 @@
           %p
           %ul.social
             Green Ruby on
-            %li
-              %a{ href: "http://twitter.com/greenrubist", rel:"publisher"}Twitter
-            %li
-              %a{ href: "https://plus.google.com/103851980502956488088", rel:"publisher"}Google+
-            %li
-              %a{ href: "https://www.facebook.com/pages/Green-Ruby/1413063455616628", rel:"publisher"}Facebook
+            - config.social.each do |s|
+              %li{ class: "#{s['title'].downcase}" }
+                %a{ href: s['url'], rel:"publisher"}
+                  = s['title']
             %li
               %br
               <script async defer src="http://slackin.greenruby.org/slackin.js"></script>
 
     #footer
-      %a{ href: 'mailto:news@greenruby.org', class: 'contact'}
+      %a{ href: "mailto:#{config.contact_email}", class: 'contact'}
         contact
       The Green Ruby Newsletter is <a href="https://github.com/greenruby/grn-static">openly</a> published by <a href="http://mose.com">Mose</a>
       .copyright
