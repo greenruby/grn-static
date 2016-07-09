@@ -28,11 +28,11 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "Ruby or Rails?"
+    url: "http://railshurts.com/quiz/"
+    comment: "Test your knowledge of Ruby and Rails."
     tags:
-      - css3
+      - rb
 
 
 
@@ -51,10 +51,31 @@ topics:
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
-    pubdate: sep 3
+  - title: "Parsing Binary Data Formats"
+    url: "https://blog.codeship.com/parsing-binary-data-formats/"
+    comment: "Use bindata gem and did some basic steganography."
+    pubdate: jul 5
+    tags:
+      - rb
+
+  - title: "Trying to match C-based Fast Blank with Crystal"
+    url: "http://www.akitaonrails.com/2016/07/06/trying-to-match-c-based-fast-blank-with-crystal"
+    comment: "Some C experiments on Crystal."
+    pubdate: jul 6
+    tags:
+      - cr
+
+  - title: "How We Do Spikes"
+    url: "https://medium.com/@sophiedeziel/how-we-do-spikes-4a43f0d19967"
+    comment: "How Acquisio solves rails assets pipeline problem using spikes discussion."
+    pubdate: jul 8
+    tags:
+      - rb
+
+   - title: "5 Tips for Writing a Legible Regexp"
+    url: "http://aaronlasseigne.com/2016/07/08/5-tips-for-writing-a-legible-regexp/"
+    comment: "Use %r with x option and single interpolation."
+    pubdate: jul 8
     tags:
       - rb
 
