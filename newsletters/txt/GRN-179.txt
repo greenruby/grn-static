@@ -1,0 +1,201 @@
+----------------------------------------------------
+Green Ruby News #179 - jul 10th 2016
+----------------------------------------------------
+*|IFNOT:CONTENT=Only Rant|*
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+*Oak Studios* (design)
+http://oak.is/
+Elegant and simple.
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+*Ruby or Rails?* (rb)
+http://railshurts.com/quiz/
+Let's check whether you remember where Ruby ends and Rails starts.
+
+*Definitely Typed* (js)
+http://definitelytyped.org/
+The repository for high quality TypeScript type definitions.
+
+*Siteleaf* (tool)
+http://www.siteleaf.com/
+Static website as a Service.
+
+*Places to Work* (web)
+https://placestowork.co/
+The biggest collection of 10,336 places to work worldwide with fast WiFi, power outlets, great coffee and ergonomic seating for digital nomads to work remotely.
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+*Jsonapi-utils* (rb)
+https://github.com/b2beauty/jsonapi-utils
+Build JSON APIs with ease.
+
+*Felony* (js)
+https://github.com/henryboldi/felony
+PGP keychain built with Electron, React, and Redux.
+
+*React-elm-components* (js)
+https://github.com/evancz/react-elm-components
+Write React components in Elm
+
+*Moeditor* (tool)
+https://github.com/Moeditor/Moeditor
+Electron markdown editor.
+
+*TLS-observatory* (ops)
+https://github.com/mozilla/tls-observatory
+An observatory for TLS configurations, X509 certificates, and more.
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+*Parsing Binary Data Formats* (rb - jul 5)
+https://blog.codeship.com/parsing-binary-data-formats/
+Use bindata gem and do some basic steganography.
+
+*Control the Physical World with Ruby and Artoo* (rb - jul 5)
+https://www.sitepoint.com/control-the-physical-world-with-ruby-and-artoo/
+Control and interact with lots of different hardware platforms (e.g. the Sphero, the Arduino, etc.).
+
+*Securing Your IoT Devices and Services with JSON Web Tokens* (web - jul 5)
+https://www.sitepoint.com/securing-your-iot-devices-and-services-with-json-web-tokens/
+IoT security is a hot-button issue in today’s world.
+
+*Setting up a Home VPN Server Using Your Raspberry Pi* (ops - jul 5)
+https://www.sitepoint.com/setting-up-a-home-vpn-using-your-raspberry-pi/
+Turn a Raspberry Pi into a VPN to connect to a home network remotely.
+
+*Announcing AptWatcher* (rb - jul 6)
+http://blog.honeybadger.io/aptwatcher-a-slack-friendly-apticron-replacement/
+Collect information about package updates from servers to Slack notifications channel.
+
+*Trying to match C-based Fast Blank with Crystal* (cr - jul 6)
+http://www.akitaonrails.com/2016/07/06/trying-to-match-c-based-fast-blank-with-crystal
+Some C experiments on Crystal.
+
+*Fixing data corruption and socket leak issues in Rails 5* (rb - jul 7)
+https://blog.phusion.nl/2016/07/07/actioncable-under-stress-p1/
+During performance testing of the Rails 5.0.0 release we discovered two bugs in Rails.
+
+*A Recipe for mRuby Raspberry Pi? Just Add h2o!* (rb - jul 7)
+https://www.sitepoint.com/need-a-recipe-for-mruby-flavored-raspberry-pi-just-add-h2o/
+Use a RPi to make one of those visual doorbells that you can buy for $129.
+
+*The Bash For Loop, The First Step in Automation on Linux* (ops - jul 7)
+https://ma.ttias.be/bash-loop-first-step-automation-linux/
+Mastering the for loop in Bash on Linux is one of the fundamentals for Linux sysadmins.
+
+*Why we use the Linux kernel's TCP stack* (ops - jul 7)
+http://blog.cloudflare.com/why-we-use-the-linux-kernels-tcp-stack/
+Feedback from a Cloudflare engrineer.
+
+*How We Do Spikes* (rb - jul 8)
+https://medium.com/@sophiedeziel/how-we-do-spikes-4a43f0d19967
+How Acquisio solves rails assets pipeline problem using spikes discussion.
+
+*5 Tips for Writing a Legible Regexp* (rb - jul 8)
+http://aaronlasseigne.com/2016/07/08/5-tips-for-writing-a-legible-regexp/
+Use %r with x option and single interpolation.
+
+*Integrating Content Security Policy into your Rails applications* (rb - jul 8)
+https://blog.sqreen.io/integrating-content-security-policy-into-your-rails-applications-4f883eed8f45#.6zl0lcn6y
+Prevent wide categories of attacks using CSP.
+
+*A Front End Developer is Aware* (css3 - jul 8)
+https://css-tricks.com/front-end-developer-aware/
+Everybody involved in a web team ends up talking with the front end developers.
+
+*A checklist for Docker in the Enterprise* (ops - jul 8)
+https://zwischenzugs.wordpress.com/2016/07/08/a-checklist-for-docker-in-the-enterprise/
+Areas that may be important to an enterprise when considering developing a Docker infrastructure.
+
+*Using Hashicorp Vault as a PKI SSL/TLS CA* (ops - jul 9)
+http://cuddletech.com/?p=959
+Encrypting data is important, both in transit and at rest.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+Links curated by by mose (publisher), xenor, tysliu (editors), mose, hsatac, nauman, franzejr (contributors).
+*|END:IF|*
+*|IFNOT:CONTENT=Only Links|*
+
+Rant
+----------------------------------------------------
+The random rant of the week by mose.
+
+#### The (in)culture of encryption
+
+A couple ago I had found out that a friend was keeping his passwords in a
+google sheets document. I was horrified. But he's a normal person. I mean, not
+more technical than the next guy, or just a little. He's using the web
+interface of gmail for his mail, like many people do (I even know very
+technical people doing it, which is still boggling me). I looked around and
+found [mailvelope][mailvelope]. So I hook him up on it and now he can use GPG.
+
+In the past 20 years I have seen the timid evolution of personal encryption.
+Oh there are initiatives like [Keybase][keybase], various simple tools like
+[passowrdstore][pass] or [Felony][felony] that I discovered this week. But it
+seems that encryption don't really stick to the usages, unless you have a
+specific thought about it. Fortunately there is some wise generalization of
+SSL for inter-server communication, with initiatives like [lets
+encrypt][letsencrypt]. But inter-personal communication is still wide open.
+
+More and more it is well-known that our data is food for various corporation,
+governmental agencies, and dark organizations. What will it take for getting
+the users to claim better privacy? Will it ever happen?
+
+I mean, yes for sure people can use the tools. But it's cumbersome. Until
+encryption is embedded in our tools and services, it simply won't spread
+significantly enough. There are some projects like [Caliopen][caliopen] that
+try to do so. On another hand, we have seen some services like
+[Telegram][telegram] which provide such service, and even some mainstream
+providers like [Whatsapp][whatsapp] jump into the full-encryption train. So
+maybe there is hope? I still wonder what's the part played by Facebook (which
+now owns Whatsapp) in that move.
+
+The recent fight between Apple and US government was supposed to set some kind
+of precedent. Too bad it was aborted. But they would have complied at the end,
+this is my bet. Now that encryption is the only way for companies to legally
+keep their users safe from legal (and illegal) inquiries, maybe more will
+consider it?
+
+If you have two onces of technical savyness, please stop running naked on the
+streets. Gear up and use encryption whenever possible.
+
+[mailvelope]: https://www.mailvelope.com/
+[keybase]: https://keybase.io/
+[pass]: https://www.passwordstore.org/
+[felony]: https://github.com/henryboldi/felony
+[caliopen]: https://caliopen.org/
+[letsencrypt]: https://letsencrypt.org/
+[whatsapp]: http://www.wired.com/2016/04/forget-apple-vs-fbi-whatsapp-just-switched-encryption-billion-people/ 
+
+*|END:IF|*
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+
