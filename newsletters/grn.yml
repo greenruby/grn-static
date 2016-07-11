@@ -9,7 +9,7 @@ rant:
     "#### The (in)culture of encryption
 
 
-A couple ago I had found out that a friend was keeping his passwords in a google sheets document. I was horrified. But he's a normal person. I mean, not more technical than the next guy, or just a little. He's using the web interface of gmail for his mail, like many people do (I even know very technical people doing it, which is still boggling me). I looked around and found [mailvelope][mailvelope]. So I hook him up on it and now he can use GPG.
+A couple weeks ago I had found out that a friend was keeping his passwords in a google sheets document. I was horrified. But he's a normal person. I mean, not more technical than the next guy, or just a little. He's using the web interface of gmail for his mail, like many people do (I even know very technical people doing it, which is still boggling me). I looked around and found [mailvelope][mailvelope]. So I hook him up on it and now he can use GPG.
 
 
 In the past 20 years I have seen the timid evolution of personal encryption. Oh there are initiatives like [Keybase][keybase], various simple tools like [passowrdstore][pass] or [Felony][felony] that I discovered this week. But it seems that encryption don't really stick to the usages, unless you have a specific thought about it. Fortunately there is some wise generalization of SSL for inter-server communication, with initiatives like [lets encrypt][letsencrypt]. But inter-personal communication is still wide open.
@@ -38,6 +38,8 @@ If you have two onces of technical savyness, please stop running naked on the st
 [caliopen]: https://caliopen.org/
 
 [letsencrypt]: https://letsencrypt.org/
+
+[telegram]: https://telegram.org/
 
 [whatsapp]: http://www.wired.com/2016/04/forget-apple-vs-fbi-whatsapp-just-switched-encryption-billion-people/
 "
