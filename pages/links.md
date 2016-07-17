@@ -61,6 +61,7 @@ Those links and resources are used in the weekly collection of information for G
 * <http://openruby.com/> (ruby)
 * <http://codegeekz.com> (web)
 * <http://scotch.io> (webdev)
+* <http://bleech.io> (webdev)
 
 ### Video channels / screencasts
 

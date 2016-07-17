@@ -1,6 +1,6 @@
 ---
-edition: "180"
-pubdate: "jul 17th 2016"
+edition: "181"
+pubdate: "jul 23th 2016"
 editors: "xenor, tysliu"
 participants: "Nauman Tariq, hsatac"
 rant:
@@ -51,54 +51,14 @@ topics:
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: "Quickly Process API Requests with Shoryuken and SQS"
-    url: "https://www.sitepoint.com/quickly-process-api-requests-with-shoryuken-and-sqs/"
-    comment: "An alternative for processing queued jobs is Shoryuken, which works in conjunction with Amazon’s SQS (Simple Queue Service)."
-    pubdate: jul 11
-    tags:
-      - rb
-
-  - title: "A gentle introduction to nio4r: low-level portable asynchronous I/O for Ruby"
-    url: "https://tonyarcieri.com/a-gentle-introduction-to-nio4r"
-    comment: "nio4r aims to provide portable implementations of just the I/O primitives that need support from native extensions."
-    pubdate: jul 12
-    tags:
-      - rb
-
-  - title: "Improving Rails Performance with Better Background Jobs"
-    url: "https://medium.com/codeminer-42/improving-rails-scalability-with-better-architecture-c102a2a0cdec"
-    comment: "Tuning sidekiq workers to be more scalable."
-    pubdate: jul 12
-    tags:
-      - rb
-
-  - title: "Learn to Create D3.js Data Visualizations by Example"
-    url: "https://www.sitepoint.com/d3-js-data-visualizations/"
-    comment: "D3 gives you a rich tool-set for data manipulation and graphics programming."
-    pubdate: jul 13
-    tags:
-      - js
-
-  - title: "CSS Filter Effects: Blur, Grayscale, Brightness and More in CSS!"
-    url: "https://www.sitepoint.com/css-filter-effects-blur-grayscale-brightness-and-more-in-css/"
-    comment: "CSS filters are pretty powerful and incredibly easy to use."
-    pubdate: jul 14
-    tags:
-      - css3
-
-  - title: "Change Color of All Four Borders Even With `border-collapse: collapse;`"
-    url: "https://css-tricks.com/table-border-collapse-issue/"
-    comment: "Issues when using the border-collapse property."
-    pubdate: jul 15
-    tags:
-      - css3
-
   - title: ""
     url: ""
     comment: ""
-    pubdate: jul 13
+    pubdate: sep 3
     tags:
       - rb
+
+
 
 - title: Watch
   baseline: "Screencasts and conferences videos, or other video feeds ..."

@@ -1,0 +1,169 @@
+----------------------------------------------------
+Green Ruby News #180 - jul 17th 2016
+----------------------------------------------------
+*|IFNOT:CONTENT=Only Rant|*
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+*Attack The Front* (design)
+http://attackthefront.io/
+Curated thoughts on UX and UI
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+*RubyFu* (rb)
+https://www.gitbook.com/book/rubyfu/rubyfu/details
+(gitbook) RubyFu, where Ruby goes evil!
+
+*Awesome Ruby* (rb)
+http://awesome-ruby.com/
+Now with a domain name and a better presentation.
+
+*TypeScript* (js)
+http://www.typescriptlang.org/
+A type superset of javascript that compiles to plain js.
+
+*Palettable* (design)
+http://palettable.io
+Generate color palettes using the knowledge of millions of designers.
+
+*Bountysource* (web)
+https://www.bountysource.com/
+A place to make and collect bids on open source projects and issues.
+
+*bleech.io* (tool)
+http://bleech.io/
+Tech inspiration for creatives
+
+*Dependency CI* (tool)
+https://dependencyci.com
+Automatic compliance testing for all the dependencies of your application (supports more langs than Gemnasium).
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+*Rails 4.2.7 and 4.1.16* (rb - jul 13)
+http://weblog.rubyonrails.org/2016/7/13/Rails-4-2-7-and-4-1-16-have-been-released/
+Probably the last release for the 4.1.x family.
+
+*Faalis* (rb)
+http://faalis.io
+A Rails Platform to rapidly build web applications
+
+*Barebones* (rb)
+https://github.com/dannyyu92/barebones
+Personal Rails Template Generator
+
+*Css-mint* (css3)
+http://arunmichaeldsouza.github.io/CSS-Mint/
+Lightweight and simple to use UI Kit.
+
+*HyperTerm* (tool)
+https://hyperterm.org/
+Another electron/react/redux app, for simulating a term this time.
+
+*Marp* (tool)
+https://yhatt.github.io/marp
+Markdown Presentation Writer.
+
+*Mac-CLI* (tool)
+https://github.com/guarinogabriel/Mac-CLI
+OS X command line tools for developers.
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+*Quickly Process API Requests with Shoryuken and SQS* (rb - jul 11)
+https://www.sitepoint.com/quickly-process-api-requests-with-shoryuken-and-sqs/
+An alternative for processing queued jobs with Shoryuken, which works in conjunction with Amazon’s Simple Queue Service.
+
+*A gentle introduction to nio4r: low-level portable asynchronous I/O for Ruby* (rb - jul 12)
+https://tonyarcieri.com/a-gentle-introduction-to-nio4r
+nio4r aims to provide portable implementations of just the I/O primitives that need support from native extensions.
+
+*JavaScript Promises 101* (js - jul 12)
+https://bitsofco.de/javascript-promises-101/
+A JavaScript Promise represents the result of an operation that hasn't been completed yet.
+
+*Writing a Shell in 25 Lines of Ruby Code* (rb - jul 13)
+http://www.blackbytes.info/2016/07/writing-a-shell-in-ruby/
+Every time you open a terminal you are using a shell application. Learn how a shell works & how you can write one in 25 lines of Ruby code!
+
+*Improving Rails Performance with Better Background Jobs* (rb - jul 12)
+https://medium.com/codeminer-42/improving-rails-scalability-with-better-architecture-c102a2a0cdec
+Tuning sidekiq workers to be more scalable.
+
+*Why You Shouldn't Roll Your Own Authentication* (rb - jul 13)
+https://blog.codeship.com/why-you-shouldnt-roll-your-own-authentication/
+Given how easy it is to build an authentication system, why would you jump straight to a gem that's hard to understand and customize? Let's talk about that.
+
+*Learn to Create D3.js Data Visualizations by Example* (js - jul 13)
+https://www.sitepoint.com/d3-js-data-visualizations/
+D3 gives you a rich tool-set for data manipulation and graphics programming.
+
+*Auto-Hiding Navigation in CSS and jQuery* (html5 - jul 13)
+https://codyhouse.co/gem/auto-hiding-navigation/
+A simple navigation that auto-hides when the user scrolls down, and becomes visible when the user scrolls up.
+
+*Multi-model searching using Elasticsearch* (rb - jul 14)
+http://blog.ragnarson.com/2016/07/14/multi-model-searching-elasticsearch-2.html
+Multi model searching in ruby.
+
+*CSS Filter Effects: Blur, Grayscale, Brightness and more* (css3 - jul 14)
+https://www.sitepoint.com/css-filter-effects-blur-grayscale-brightness-and-more-in-css/
+CSS filters are pretty powerful and incredibly easy to use.
+
+*Lepton image compression* (tool - jul 14)
+https://blogs.dropbox.com/tech/2016/07/lepton-image-compression-saving-22-losslessly-from-images-at-15mbs/
+saving 22% losslessly from images at 15MB/s
+
+*Change Color of All Four Borders Even With `border-collapse: collapse;`* (css3 - jul 15)
+https://css-tricks.com/table-border-collapse-issue/
+Issues when using the border-collapse property.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+Links curated by by mose (publisher), tysliu (editors), mose, hsatac, nauman, xenor (contributors).
+*|END:IF|*
+*|IFNOT:CONTENT=Only Links|*
+
+Rant
+----------------------------------------------------
+The random rant of the week by mose.
+
+#### nothing to report
+
+Yeah there are weeks like that, I don't have inspiration. Or I'm lazy. Or I'm
+too busy writing [javascript tests][tests] with mocha, chai and or sinon.
+Already having 3 times more lines of code in tests that in code and even if
+coverage says 80% I know for a fact that there are many more cases I need to
+test. Anyways, there is too much fun for me to just go beyond the traditional
+gathering of the links for this week. Can't write a rant. No way.
+
+[tests]: https://github.com/Gandi/hubot-phabs/commits 
+
+*|END:IF|*
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+
