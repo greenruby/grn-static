@@ -16,12 +16,11 @@ topics:
     "Examples of UI/UX, graphic performance, web design and flashy things."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "Resn"
+    url: "http://resn.co.nz"
+    comment: "Creative digital agency website."
     tags:
       - design
-
 
 - title: Use
   baseline:
@@ -37,6 +36,12 @@ topics:
   - title: "vimgifs"
     url: "https://vimgifs.com/"
     comment: "Animated gifs with vim tips and tricks."
+    tags:
+      - tool
+
+  - title: "webmock.io"
+    url: "http://www.webmock.io/"
+    comment: "Mocking http services made easy"
     tags:
       - tool
 
@@ -82,7 +87,7 @@ topics:
 
   - title: "A CGI application vulnerability for PHP, Go, Python and others"
     url: "http://seclists.org/oss-sec/2016/q3/95"
-    comment: "Upgrade your go builds."
+    comment: "Upgrade your go builds, Httpoxy plague in sight."
     pubdate: jul 18
     tags:
       - ops
@@ -108,12 +113,33 @@ topics:
     tags:
       - js
 
+  - title: "React.js in patterns"
+    url: "http://krasimirtsonev.com/blog/article/react-js-in-design-patterns"
+    comment: "Techniques that are applied over and over again in react code."
+    pubdate: jul 20
+    tags:
+      - js
+
   - title: "The Goal of Performance Tuning"
     url: "https://blog.codeship.com/goal-performance-tuning/"
     comment: "Make a goal, take measurements, fix the bottleneck, then repeat."
     pubdate: jul 20
     tags:
       - web
+
+  - title: "respond_to |format| is useful even without multiple formats"
+    url: "http://blog.arkency.com/2016/07/respond-to-format-is-useful-even-without-multiple-formats/"
+    comment: "The hidden benefits of respond_to."
+    pubdate: jul 21
+    tags:
+      - rb
+
+  - title: "Web applications on Phusion Passenger are not vulnerable to HTTPoxy"
+    url: "https://blog.phusion.nl/2016/07/21/web-applications-on-phusion-passenger-are-not-vulnerable-to-httpoxy/"
+    comment: "Some more details on Httpoxy vulnerability."
+    pubdate: "jul 21"
+    tags:
+      - rb
 
   - title: "Getting Started With Vue.js"
     url: "https://www.sitepoint.com/getting-started-with-vue-js/"
