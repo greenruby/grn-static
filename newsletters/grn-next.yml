@@ -1,8 +1,8 @@
 ---
 edition: "181"
-pubdate: "jul 23th 2016"
+pubdate: "jul 24th 2016"
 editors: "xenor, tysliu"
-participants: "Nauman Tariq, hsatac"
+participants: "hsatac, michaelweigle, mose, nauman"
 rant:
   author: mose
   content:
@@ -28,24 +28,39 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: "TuneMyGC"
-    url: "https://github.com/bear-metal/tunemygc"
-    comment: "Hand-tuning the GC parameters is a slippery slope to navigate for most developers."
+  - title: "crontab.guru"
+    url: "http://crontab.guru/"
+    comment: "Cron schedule expression editor"
     tags:
-      - css3
+      - tool
 
-
+  - title: "vimgifs"
+    url: "https://vimgifs.com/"
+    comment: "Animated gifs with vim tips and tricks."
+    tags:
+      - tool
 
 - title: Install
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "TuneMyGC"
+    url: "https://github.com/bear-metal/tunemygc"
+    comment: "Hand-tuning the GC parameters is a slippery slope to navigate for most developers."
     tags:
       - rb
 
+  - title: "hack.css"
+    url: "http://hackcss.com/"
+    comment: "dead simple css framework"
+    tags:
+      - css3
+
+  - title: "jquery-cron"
+    url: "http://shawnchin.github.io/jquery-cron/"
+    comment: "Plugin for presenting a simplified interface for users to specify cron entries"
+    tags:
+      - js
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
@@ -65,6 +80,13 @@ topics:
     tags:
       - rb
 
+  - title: "A CGI application vulnerability for PHP, Go, Python and others"
+    url: "http://seclists.org/oss-sec/2016/q3/95"
+    comment: "Upgrade your go builds."
+    pubdate: jul 18
+    tags:
+      - ops
+
   - title: "Automate Docker with the Remote API and Ruby"
     url: "https://www.sitepoint.com/automate-docker-with-the-remote-api-and-ruby/"
     comment: "If you used Docker up to this point, it’s likely been via the command-line interface which is actually a client that uses the Remote API."
@@ -79,7 +101,14 @@ topics:
     tags:
       - rb
 
-  - title: "The “Goal” of Performance Tuning"
+  - title: "How To Use Arguments And Parameters In ECMAScript 6"
+    url: "https://www.smashingmagazine.com/2016/07/how-to-use-arguments-and-parameters-in-ecmascript-6/"
+    comment: "Use rest parameters, default values and destructuring, among other new features."
+    pubdate: "jul 20"
+    tags:
+      - js
+
+  - title: "The Goal of Performance Tuning"
     url: "https://blog.codeship.com/goal-performance-tuning/"
     comment: "Make a goal, take measurements, fix the bottleneck, then repeat."
     pubdate: jul 20
@@ -88,7 +117,7 @@ topics:
 
   - title: "Getting Started With Vue.js"
     url: "https://www.sitepoint.com/getting-started-with-vue-js/"
-    comment: "Vue.js is a JavaScript library that helps you build web applications using the the MVVM (Model-View-ViewModel) architectural pattern."
+    comment: "Vue.js is a JavaScript library to build web applications using the the MVVM (Model-View-ViewModel) pattern."
     pubdate: jul 21
     tags:
       - js
@@ -114,23 +143,3 @@ topics:
     tags:
       - rb
 
-  - title: ""
-    url: ""
-    comment: ""
-    pubdate: jul 20
-    tags:
-      - rb
-
-
-
-- title: Watch
-  baseline: "Screencasts and conferences videos, or other video feeds ..."
-  links:
-
-  - title: ""
-    url: ""
-    comment: ""
-    pubdate: sep 3
-    duration:
-    tags:
-      - rb
