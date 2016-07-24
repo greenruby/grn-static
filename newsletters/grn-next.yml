@@ -28,9 +28,9 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "TuneMyGC"
+    url: "https://github.com/bear-metal/tunemygc"
+    comment: "Hand-tuning the GC parameters is a slippery slope to navigate for most developers."
     tags:
       - css3
 
@@ -51,10 +51,73 @@ topics:
   baseline: "From the blogosphere or news feeds ..."
   links:
 
+  - title: "Partial Downloads with Enumerators and Fibers"
+    url: "https://twin.github.io/partial-downloads-with-enumerators-and-fibers/"
+    comment: "Determining the MIME type from file content without the full file."
+    pubdate: jul 18
+    tags:
+      - rb
+
+  - title: "A Review of Code Reloaders for Ruby"
+    url: "http://rosenfeld.herokuapp.com/en/articles/ruby-rails/2016-07-18-a-review-of-code-reloaders-for-ruby"
+    comment: "A dive into code reloading."
+    pubdate: jul 18
+    tags:
+      - rb
+
+  - title: "Automate Docker with the Remote API and Ruby"
+    url: "https://www.sitepoint.com/automate-docker-with-the-remote-api-and-ruby/"
+    comment: "If you used Docker up to this point, it’s likely been via the command-line interface which is actually a client that uses the Remote API."
+    pubdate: jul 20
+    tags:
+      - rb
+
+  - title: "New Features in Ruby 2.4"
+    url: "https://blog.blockscore.com/new-features-in-ruby-2-4/"
+    comment: "Checkout some new methods and improvements on old methods."
+    pubdate: jul 20
+    tags:
+      - rb
+
+  - title: "The “Goal” of Performance Tuning"
+    url: "https://blog.codeship.com/goal-performance-tuning/"
+    comment: "Make a goal, take measurements, fix the bottleneck, then repeat."
+    pubdate: jul 20
+    tags:
+      - web
+
+  - title: "Getting Started With Vue.js"
+    url: "https://www.sitepoint.com/getting-started-with-vue-js/"
+    comment: "Vue.js is a JavaScript library that helps you build web applications using the the MVVM (Model-View-ViewModel) architectural pattern."
+    pubdate: jul 21
+    tags:
+      - js
+
+  - title: "Learning to COPE with Microservices"
+    url: "https://css-tricks.com/learning-cope-microservices/"
+    comment: "The beauty of building with microservices is that it works for projects of any size."
+    pubdate: jul 22
+    tags:
+      - web
+
+  - title: "Consider Turbolinks 5 for Your Next Rails Project"
+    url: "http://aspiringwebdev.com/consider-turbolinks-5-for-your-next-rails-project/"
+    comment: "Turbolinks 5 is a library for web applications that makes pages load faster."
+    pubdate: jul 23
+    tags:
+      - rb
+
+  - title: "Rbenv — How it works"
+    url: "https://medium.com/@Sudhagar/rbenv-how-it-works-e5a0e4fa6e76"
+    comment: "The file .rbenv-shim gets created during the rehash process to indicate a rehash is in progress."
+    pubdate: jul 23
+    tags:
+      - rb
+
   - title: ""
     url: ""
     comment: ""
-    pubdate: sep 3
+    pubdate: jul 20
     tags:
       - rb
 
