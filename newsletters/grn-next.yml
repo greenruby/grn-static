@@ -67,6 +67,36 @@ topics:
     tags:
       - js
 
+  - title: "john_hancock"
+    url: "https://github.com/Brantron/john_hancock"
+    comment: "A Rails gem for custom signature form fields"
+    tags:
+      - rb
+
+  - title: "down"
+    url: "https://github.com/janko-m/down"
+    comment: "A wrapper around open-uri standard library for safe downloading of remote files."
+    tags:
+      - rb
+
+  - title: "worque"
+    url: "https://github.com/huynhquancam/worque"
+    comment: "a CLI to manage your daily notes"
+    tags:
+      - rb
+
+  - title: "BlazeCSS"
+    url: "http://blazecss.com/"
+    comment: "Modular CSS framework"
+    tags:
+      - css3
+
+  - title: "Vault"
+    url: "https://www.vaultproject.io/"
+    comment: "A tool for managing secrets."
+    tags:
+      - tool
+
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
   links:
@@ -91,6 +121,13 @@ topics:
     pubdate: jul 18
     tags:
       - ops
+
+  - title: "Hiding secrets in a Vault"
+    url: "https://infinum.co/the-capsized-eight/articles/hiding-secrets-in-vault"
+    comment: "Using Vault, Github authentication and 'secrets' gem to make secret files more secure."
+    pubdate: jul 19
+    tags:
+      - rb
 
   - title: "Automate Docker with the Remote API and Ruby"
     url: "https://www.sitepoint.com/automate-docker-with-the-remote-api-and-ruby/"
