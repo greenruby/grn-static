@@ -1,8 +1,8 @@
 ---
-edition: "181"
-pubdate: "jul 24th 2016"
+edition: "182"
+pubdate: "jul 31th 2016"
 editors: "xenor, tysliu"
-participants: "hsatac, michaelweigle, mose, nauman"
+participants: "Nauman Tariq, hsatac"
 rant:
   author: mose
   content:
@@ -16,193 +16,58 @@ topics:
     "Examples of UI/UX, graphic performance, web design and flashy things."
   links:
 
-  - title: "Resn"
-    url: "http://resn.co.nz"
-    comment: "Creative digital agency website."
+  - title: ""
+    url: ""
+    comment: ""
     tags:
       - design
+
 
 - title: Use
   baseline:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: "crontab.guru"
-    url: "http://crontab.guru/"
-    comment: "Cron schedule expression editor"
+  - title: ""
+    url: ""
+    comment: ""
     tags:
-      - tool
+      - css3
 
-  - title: "vimgifs"
-    url: "https://vimgifs.com/"
-    comment: "Animated gifs with vim tips and tricks."
-    tags:
-      - tool
 
-  - title: "webmock.io"
-    url: "http://www.webmock.io/"
-    comment: "Mocking http services made easy"
-    tags:
-      - tool
 
 - title: Install
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: "TuneMyGC"
-    url: "https://github.com/bear-metal/tunemygc"
-    comment: "Hand-tuning the GC parameters is a slippery slope to navigate for most developers."
+  - title: ""
+    url: ""
+    comment: ""
     tags:
       - rb
 
-  - title: "hack.css"
-    url: "http://hackcss.com/"
-    comment: "dead simple css framework"
-    tags:
-      - css3
-
-  - title: "jquery-cron"
-    url: "http://shawnchin.github.io/jquery-cron/"
-    comment: "Plugin for presenting a simplified interface for users to specify cron entries"
-    tags:
-      - js
-
-  - title: "john_hancock"
-    url: "https://github.com/Brantron/john_hancock"
-    comment: "A Rails gem for custom signature form fields"
-    tags:
-      - rb
-
-  - title: "down"
-    url: "https://github.com/janko-m/down"
-    comment: "A wrapper around open-uri standard library for safe downloading of remote files."
-    tags:
-      - rb
-
-  - title: "worque"
-    url: "https://github.com/huynhquancam/worque"
-    comment: "a CLI to manage your daily notes"
-    tags:
-      - rb
-
-  - title: "BlazeCSS"
-    url: "http://blazecss.com/"
-    comment: "Modular CSS framework"
-    tags:
-      - css3
-
-  - title: "Vault"
-    url: "https://www.vaultproject.io/"
-    comment: "A tool for managing secrets."
-    tags:
-      - tool
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: "Partial Downloads with Enumerators and Fibers"
-    url: "https://twin.github.io/partial-downloads-with-enumerators-and-fibers/"
-    comment: "Determining the MIME type from file content without the full file."
-    pubdate: jul 18
+  - title: ""
+    url: ""
+    comment: ""
+    pubdate: sep 3
     tags:
       - rb
 
-  - title: "A Review of Code Reloaders for Ruby"
-    url: "http://rosenfeld.herokuapp.com/en/articles/ruby-rails/2016-07-18-a-review-of-code-reloaders-for-ruby"
-    comment: "A dive into code reloading."
-    pubdate: jul 18
+
+
+- title: Watch
+  baseline: "Screencasts and conferences videos, or other video feeds ..."
+  links:
+
+  - title: ""
+    url: ""
+    comment: ""
+    pubdate: sep 3
+    duration:
     tags:
       - rb
-
-  - title: "A CGI application vulnerability for PHP, Go, Python and others"
-    url: "http://seclists.org/oss-sec/2016/q3/95"
-    comment: "Upgrade your go builds, Httpoxy plague in sight."
-    pubdate: jul 18
-    tags:
-      - ops
-
-  - title: "Hiding secrets in a Vault"
-    url: "https://infinum.co/the-capsized-eight/articles/hiding-secrets-in-vault"
-    comment: "Using Vault, Github authentication and 'secrets' gem to make secret files more secure."
-    pubdate: jul 19
-    tags:
-      - rb
-
-  - title: "Automate Docker with the Remote API and Ruby"
-    url: "https://www.sitepoint.com/automate-docker-with-the-remote-api-and-ruby/"
-    comment: "If you used Docker up to this point, it’s likely been via the command-line interface which is actually a client that uses the Remote API."
-    pubdate: jul 20
-    tags:
-      - rb
-
-  - title: "New Features in Ruby 2.4"
-    url: "https://blog.blockscore.com/new-features-in-ruby-2-4/"
-    comment: "Checkout some new methods and improvements on old methods."
-    pubdate: jul 20
-    tags:
-      - rb
-
-  - title: "How To Use Arguments And Parameters In ECMAScript 6"
-    url: "https://www.smashingmagazine.com/2016/07/how-to-use-arguments-and-parameters-in-ecmascript-6/"
-    comment: "Use rest parameters, default values and destructuring, among other new features."
-    pubdate: "jul 20"
-    tags:
-      - js
-
-  - title: "React.js in patterns"
-    url: "http://krasimirtsonev.com/blog/article/react-js-in-design-patterns"
-    comment: "Techniques that are applied over and over again in react code."
-    pubdate: jul 20
-    tags:
-      - js
-
-  - title: "The Goal of Performance Tuning"
-    url: "https://blog.codeship.com/goal-performance-tuning/"
-    comment: "Make a goal, take measurements, fix the bottleneck, then repeat."
-    pubdate: jul 20
-    tags:
-      - web
-
-  - title: "respond_to |format| is useful even without multiple formats"
-    url: "http://blog.arkency.com/2016/07/respond-to-format-is-useful-even-without-multiple-formats/"
-    comment: "The hidden benefits of respond_to."
-    pubdate: jul 21
-    tags:
-      - rb
-
-  - title: "Web applications on Phusion Passenger are not vulnerable to HTTPoxy"
-    url: "https://blog.phusion.nl/2016/07/21/web-applications-on-phusion-passenger-are-not-vulnerable-to-httpoxy/"
-    comment: "Some more details on Httpoxy vulnerability."
-    pubdate: "jul 21"
-    tags:
-      - rb
-
-  - title: "Getting Started With Vue.js"
-    url: "https://www.sitepoint.com/getting-started-with-vue-js/"
-    comment: "Vue.js is a JavaScript library to build web applications using the the MVVM (Model-View-ViewModel) pattern."
-    pubdate: jul 21
-    tags:
-      - js
-
-  - title: "Learning to COPE with Microservices"
-    url: "https://css-tricks.com/learning-cope-microservices/"
-    comment: "The beauty of building with microservices is that it works for projects of any size."
-    pubdate: jul 22
-    tags:
-      - web
-
-  - title: "Consider Turbolinks 5 for Your Next Rails Project"
-    url: "http://aspiringwebdev.com/consider-turbolinks-5-for-your-next-rails-project/"
-    comment: "Turbolinks 5 is a library for web applications that makes pages load faster."
-    pubdate: jul 23
-    tags:
-      - rb
-
-  - title: "Rbenv — How it works"
-    url: "https://medium.com/@Sudhagar/rbenv-how-it-works-e5a0e4fa6e76"
-    comment: "The file .rbenv-shim gets created during the rehash process to indicate a rehash is in progress."
-    pubdate: jul 23
-    tags:
-      - rb
-
