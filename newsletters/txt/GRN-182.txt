@@ -1,0 +1,172 @@
+----------------------------------------------------
+Green Ruby News #182 - jul 31th 2016
+----------------------------------------------------
+*|IFNOT:CONTENT=Only Rant|*
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+*Humans and Machines* (design)
+http://humans-machines.com
+Digital creation agency website.
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+*The Ruby Bibliography* (rb)
+http://rubybib.org/
+Peer-reviewed papers and articles that cover Ruby implementation or use Ruby
+
+*security-guide-for-developers* (rb)
+https://github.com/FallibleInc/security-guide-for-developers
+Security Guide for Developers, currently only checklist and vulnerabilities stats are available.
+
+*bash keyboard shortcuts* (tool)
+http://ss64.com/bash/syntax-keyboard.html
+An useful cheatsheet.
+
+*HackerOne* (ops)
+https://hackerone.com/
+Vulnerability coordination and bug bounty platform
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+*rack_toolkit* (rb)
+https://github.com/rosenfeld/rack_toolkit
+A dynamic Rack server to help testing Rack apps.
+
+*Mini-StatsD* (rb)
+https://github.com/IgorMarques/Mini-StatsD
+A simple StatsD listener.
+
+*Light-decorator* (rb)
+https://github.com/light-ruby/light-decorator
+Light pattern Decorator for Rails from Light Ruby.
+
+*box-js* (js)
+https://github.com/CapacitorSet/box-js
+A tool for studying JavaScript malware.
+
+*push_type* (js)
+https://github.com/pushtype/push_type
+An open source content management system for Ruby on Rails.
+
+*action-cable-node* (js)
+https://github.com/tomchinery/action-cable-node
+Action Cable extracted from Rails 5 and packaged as a Node module
+
+*biscuit* (go)
+https://github.com/dcoker/biscuit
+A multi-region HA key-value store for AWS secrets.
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+*Jekyll turns 3.2* (rb - jul 26)
+https://jekyllrb.com/news/2016/07/26/jekyll-3-2-0-released/
+Happy Day! Jekyll v3.2.0 is out, and packed full of goodies.
+
+*Flynn 1.0 is here!* (ops - jul 26)
+https://flynn.io/blog/one-point-oh
+After 3 years of development, here is the first stable version.
+
+*ROM 2.0.0 Released* (rb - jul 27)
+http://rom-rb.org/blog/rom-2-0-0-released/
+Huge milestone for the project as its infrastructure is now complete.
+
+*Why Uber Engineering Switched from Postgres to MySQL* (ops - jul 27)
+https://eng.uber.com/mysql-migration/
+Uber Engineering explains the technical reasoning behind its switch in database technologies, from Postgres to MySQL.
+
+*Behind The Scenes: How Numbers Work in Ruby* (rb - jul 28)
+http://www.blackbytes.info/2016/07/numbers-in-ruby/
+Different number-related classes lives in Ruby
+
+*CSS Writing Mode* (css3 - jul 28)
+http://ishadeed.com/article/css-writing-mode/
+A short article that explore the awesome CSS writing-mode property.
+
+*Fake it 'til you Make it CSS* (css3 - jul 29)
+https://kyusuf.com/post/fake-it-til-you-make-it-css?utm_source=codropscollective
+here is nothing worse than a white page with content slowly populating, so why don’t we fake it until the content makes it?
+
+*The State of CSS Reflections* (css3 - jul 29)
+https://css-tricks.com/state-css-reflections/
+A cool css effect demonstrated in details.
+
+*Rails: Automatically Set User Timezone During Signup* (rb - jul 30)
+http://nithinbekal.com/posts/rails-user-timezones/
+To read the timezone information correctly, let’s use the jsTimezoneDetect library.
+
+Watch
+----------------------------------------------------
+Screencasts and conferences videos, or other video feeds ...
+
+*Creating a Culture of Observability* (ops - jul 26 - 31m)
+http://onemogin.com/observability/stripe/culture/monitoring/monitorama/creating-a-culture-of-observability.html
+Measure for how well internal states of a system can be inferred by knowledge of its external outputs.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+Links curated by by mose (publisher), xenor (editors), mose, nauman (contributors).
+*|END:IF|*
+*|IFNOT:CONTENT=Only Links|*
+
+Rant
+----------------------------------------------------
+The random rant of the week by mose.
+
+#### Chatops and machine learning
+
+Since I slowly becomes the chatops specialist where I work, I get to think I
+want more. Since the beginning we have been interacting with programs
+essentially with graphical interfaces. First asynchronous if we think about
+the web, now more and more synchronous, but they are interfaces that are not
+human. They are designed for giving control to the operators of those
+interfaces.
+
+But the more we advance in autonomy of our programs, the more we should trust
+them to sort the information by priorities. The interfaces like Siri, Echo,
+are much more 'human' and conversational. It doesn't take a genius to
+speculate that interfaces are going to die one day, except for very
+specialized usages, and more interaction will be just more conversational.
+
+In the course of my development of interactive agents for technical needs, I
+noticed that adding just a little bit of intelligence and memory in those
+agents goes a long way in usability. Especially in chatops, a lot of the
+actions required from those agents are predicable and repetitive. The
+development of new features should follow the recognition of those patterns
+and shorten the path to accomplish some actions. That's pretty much my job.
+
+But coding this continually is not very cost effective. Tools also change,
+then patterns evolve. Now all I can think about is a way to design an irc bot
+that learns by itself. Some program that does real meta-programming and
+considers its commands as data rather than hard-coded pre-conceived path for
+the information to flow.
+
+If you know some tools that already do that, can you fire me a mail? 
+
+*|END:IF|*
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+
