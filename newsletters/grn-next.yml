@@ -16,9 +16,9 @@ topics:
     "Examples of UI/UX, graphic performance, web design and flashy things."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "Humans and Machines"
+    url: "http://humans-machines.com"
+    comment: "Digital creation agency website."
     tags:
       - design
 
@@ -28,11 +28,17 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "The Ruby Bibliography"
+    url: "http://rubybib.org/"
+    comment: "Peer-reviewed papers and articles that cover Ruby implementation or use Ruby"
     tags:
-      - css3
+      - rb
+
+  - title: "bash keyboard shortcuts"
+    url: "http://ss64.com/bash/syntax-keyboard.html"
+    comment: "An useful cheatsheet."
+    tags:
+      - tool
 
 
 
@@ -40,34 +46,53 @@ topics:
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "box-js"
+    url: "https://github.com/CapacitorSet/box-js"
+    comment: "A tool for studying JavaScript malware."
     tags:
-      - rb
+      - js
 
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
-    pubdate: sep 3
+  - title: "Flynn 1.0 is here!"
+    url: "https://flynn.io/blog/one-point-oh"
+    comment: "After 3 years of development, here is the first stable version."
+    pubdate: jul 26
     tags:
-      - rb
+      - ops
 
+  - title: "Why Uber Engineering Switched from Postgres to MySQL"
+    url: "https://eng.uber.com/mysql-migration/"
+    comment: "Uber Engineering explains the technical reasoning behind its switch in database technologies, from Postgres to MySQL."
+    pubdate: "jul 27"
+    tags:
+      - ops
 
+  - title: "CSS Writing Mode"
+    url: "http://ishadeed.com/article/css-writing-mode/"
+    comment: "A short article that explore the awesome CSS writing-mode property."
+    pubdate: jul 28
+    tags:
+      - css3
+
+  - title: "Fake it 'til you Make it CSS"
+    url: "https://kyusuf.com/post/fake-it-til-you-make-it-css?utm_source=codropscollective"
+    comment: "here is nothing worse than a white page with content slowly populating, so why don’t we fake it until the content makes it?"
+    pubdate: ""
+    tags:
+      - css3
 
 - title: Watch
   baseline: "Screencasts and conferences videos, or other video feeds ..."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
-    pubdate: sep 3
-    duration:
+  - title: "Creating a Culture of Observability"
+    url: "http://onemogin.com/observability/stripe/culture/monitoring/monitorama/creating-a-culture-of-observability.html"
+    comment: "Measure for how well internal states of a system can be inferred by knowledge of its external outputs."
+    pubdate: jul 26
+    duration: 31m
     tags:
-      - rb
+      - ops
