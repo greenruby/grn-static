@@ -28,33 +28,62 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "security-guide-for-developers
+    url: "https://github.com/FallibleInc/security-guide-for-developers"
+    comment: "\Security Guide for Developers, currently only checklist and vulnerabilities stats are available."
     tags:
-      - css3
+      - rb
 
+  - title: "HackerOne"
+    url: "https://hackerone.com/"
+    comment: "Vulnerability coordination and bug bounty platform"
+    tags:
+      - web
 
 
 - title: Install
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "rack_toolkit"
+    url: "https://github.com/rosenfeld/rack_toolkit"
+    comment: "A dynamic Rack server to help testing Rack apps."
     tags:
       - rb
+
+  - title: "push_type"
+    url: "https://github.com/pushtype/push_type"
+    comment: "An open source content management system for Ruby on Rails."
+    tags:
+      - rb
+
+  - title: "action-cable-node"
+    url: "https://github.com/tomchinery/action-cable-node"
+    comment: "Action Cable extracted from Rails 5 and packaged as a Node module"
+    tags:
+      - js
+
+  - title: "Mini-StatsD"
+    url: "https://github.com/IgorMarques/Mini-StatsD"
+    comment: "A simple StatsD listener"
+    tags:
+      - rb
+
+  - title: "biscuit"
+    url: "https://github.com/dcoker/biscuit"
+    comment: "A multi-region HA key-value store for AWS secrets."
+    tags:
+      - go
 
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
-    pubdate: sep 3
+  - title: "Behind The Scenes: How Numbers Work in Ruby - Black Bytes"
+    url: "http://www.blackbytes.info/2016/07/numbers-in-ruby/"
+    comment: "Different number-related classes lives in Ruby"
+    pubdate: "jul 28"
     tags:
       - rb
 
