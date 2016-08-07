@@ -40,6 +40,12 @@ topics:
   baseline: "A selection of gems or applications updated during past week."
   links:
 
+  - title: "Puma-dev: A development server for OS X and Linux"
+    url: "https://github.com/puma/puma-dev"
+    comment: "Puma-dev is the emotional successor to pow."
+    tags:
+      - rb
+
   - title: ""
     url: ""
     comment: ""
@@ -51,10 +57,66 @@ topics:
   baseline: "From the blogosphere or news feeds ..."
   links:
 
+  - title: "The dark side of the Rack and Websockets dreams"
+    url: "https://bowild.wordpress.com/2016/07/31/the-dark-side-of-the-rack/"
+    comment: "The Archilles heel of a rack application."
+    pubdate: jul 31
+    tags:
+      - rb
+
+  - title: "How to Implement Internationalization (i18n) in JavaScript"
+    url: "https://www.sitepoint.com/how-to-implement-internationalization-i18n-in-javascript/"
+    comment: "Globalize is a JavaScript library for internationalization and localization developed by some members of the jQuery team."
+    pubdate: aug 1
+    tags:
+      - js
+
+  - title: "RSpec::Core Cheat Sheet"
+    url: "http://www.rubypigeon.com/posts/rspec-core-cheat-sheet/"
+    comment: "RSpec is a mature, feature-packed testing framework, but the documentation can be difficult to navigate."
+    pubdate: aug 2
+    tags:
+      - rb
+
+  - title: "An Introduction to Crystal: Fast as C, Slick as Ruby"
+    url: "https://blog.codeship.com/an-introduction-to-crystal-fast-as-c-slick-as-ruby/"
+    comment: "Ruby is awesome, but it’s not necessarily known for its speed."
+    pubdate: aug 2
+    tags:
+      - cr
+
+  - title: "Design Better Data Tables"
+    url: "https://medium.com/mission-log/design-better-data-tables-430a30a00d8c"
+    comment: "Tables might be boring, but they are such a major element of any data-rich document."
+    pubdate: aug 3
+    tags:
+      - rb
+
+  - title: "Tips for Fixing Open Source bugs"
+    url: "http://schneems.com/2016/08/03/supporing-open-source.html"
+    comment: "How open source software is supported is just as important as how well it works."
+    pubdate: aug 3
+    tags:
+      - web
+
+  - title: "Using Rails 5 ActionCable and RethinkDB to build a Reactive WebSocket App"
+    url: "https://blog.phusion.nl/2016/08/04/using-rails-5-actioncable-and-rethinkdb-to-build-a-reactive-websocket-app/"
+    comment: "By using RethinkDB's active changefeeds feature we can eliminate the need for a separate event broadcasting service like Redis."
+    pubdate: aug 4
+    tags:
+      - rb
+
+  - title: "A Case for Decorators in Rails"
+    url: "http://aspiringwebdev.com/a-case-for-decorators-in-rails/"
+    comment: "Decorators, at the beginning of my Rails journey, seemed exotic and unnecessary."
+    pubdate: aug 6
+    tags:
+      - rb
+
   - title: ""
     url: ""
     comment: ""
-    pubdate: sep 3
+    pubdate: aug 3
     tags:
       - rb
 
