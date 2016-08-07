@@ -34,17 +34,41 @@ topics:
     tags:
       - tool
 
-  - title: "Social Media Sharing Buttons"
-    url: "http://sharingbuttons.io/"
-    comment: "Super fast and easy Social Media Sharing Buttons. No JavaScript. No tracking."
-    tags:
-      - web
-
   - title: "Event Hunt"
     url: "http://eventhunt.io/"
     comment: "Startups and Tech events curated by locals"
     tags:
       - tool
+
+  - title: "dummi"
+    url: "http://dummi.io/"
+    comment: "Generate dummy data for your projects."
+    tags:
+      - tool
+
+  - title: "Agantty"
+    url: "https://www.agantty.com/en/"
+    comment: "Using same business model as Trello, but for gantt model."
+    tags:
+      - tool
+
+  - title: "Gron"
+    url: "https://github.com/tomnomnom/gron"
+    comment: "Make JSON greppable."
+    tags:
+      - go
+
+  - title: "Request For Commits"
+    url: "https://changelog.com/rfc/"
+    comment: "(podcast) Request For Commits (RFC) explores different perspectives in open source sustainability."
+    tags:
+      - web
+
+  - title: "Social Media Sharing Buttons"
+    url: "http://sharingbuttons.io/"
+    comment: "Super fast and easy Social Media Sharing Buttons. No JavaScript. No tracking."
+    tags:
+      - web
 
 - title: Install
   baseline: "A selection of gems or applications updated during past week."
@@ -169,14 +193,6 @@ topics:
     pubdate: aug 6
     tags:
       - rb
-
-  - title: ""
-    url: ""
-    comment: ""
-    pubdate: aug 3
-    tags:
-      - rb
-
 
 
 - title: Watch
