@@ -1,8 +1,8 @@
 ---
-edition: "183"
-pubdate: "aug 7th 2016"
+edition: "184"
+pubdate: "aug 14th 2016"
 editors: "xenor, tysliu"
-participants: "xenor, lincoln, mose, nauman"
+participants: "Nauman Tariq, hsatac"
 rant:
   author: mose
   content:
@@ -16,9 +16,9 @@ topics:
     "Examples of UI/UX, graphic performance, web design and flashy things."
   links:
 
-  - title: "heyross"
-    url: "http://heyross.io/"
-    comment: "Designer - animator - developer"
+  - title: ""
+    url: ""
+    comment: ""
     tags:
       - design
 
@@ -28,221 +28,46 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: "CodeTriage"
-    url: "https://www.codetriage.com/"
-    comment: "Help out your favorite open source projects and become a better developer while doing it."
+  - title: ""
+    url: ""
+    comment: ""
     tags:
-      - tool
+      - css3
 
-  - title: "Event Hunt"
-    url: "http://eventhunt.io/"
-    comment: "Startups and Tech events curated by locals"
-    tags:
-      - tool
 
-  - title: "dummi"
-    url: "http://dummi.io/"
-    comment: "Generate dummy data for your projects."
-    tags:
-      - tool
-
-  - title: "Agantty"
-    url: "https://www.agantty.com/en/"
-    comment: "Using same business model as Trello, but for gantt model."
-    tags:
-      - tool
-
-  - title: "Gron"
-    url: "https://github.com/tomnomnom/gron"
-    comment: "Make JSON greppable."
-    tags:
-      - go
-
-  - title: "Request For Commits"
-    url: "https://changelog.com/rfc/"
-    comment: "(podcast) Request For Commits (RFC) explores different perspectives in open source sustainability."
-    tags:
-      - web
-
-  - title: "Social Media Sharing Buttons"
-    url: "http://sharingbuttons.io/"
-    comment: "Super fast and easy Social Media Sharing Buttons. No JavaScript. No tracking."
-    tags:
-      - web
 
 - title: Install
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: "Puma-dev"
-    url: "https://github.com/puma/puma-dev"
-    comment: "A tool to manage rack apps in development with puma, possible successor to pow."
+  - title: ""
+    url: ""
+    comment: ""
     tags:
       - rb
 
-  - title: "Jumpsuit"
-    url: "https://github.com/jumpsuit/jumpsuit"
-    comment: "Another javascript framework for those who get tired of react."
-    tags:
-      - js
-
-  - title: "GH-ost"
-    url: "https://github.com/github/gh-ost"
-    comment: "GitHub's Online Schema Change for MySQL"
-    tags:
-      - tool
-
-  - title: "cache_key_for"
-    url: "https://github.com/efigence/cache_key_for"
-    comment: "Cache key generator for rails scopes"
-    tags:
-      - rb
-
-  - title: "browser_warrior"
-    url: "https://github.com/80percent/browser_warrior"
-    comment: "A Rails gem that rejects non-modern browsers"
-    tags:
-      - rb
-
-  - title: "rdl"
-    url: "https://github.com/plum-umd/rdl"
-    comment: "A lightweight system for adding contracts to Ruby"
-    tags:
-      - rb
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: "The dark side of the Rack and Websockets dreams"
-    url: "https://bowild.wordpress.com/2016/07/31/the-dark-side-of-the-rack/"
-    comment: "The Achilles heel of rack applications."
-    pubdate: jul 31
+  - title: ""
+    url: ""
+    comment: ""
+    pubdate: sep 3
     tags:
       - rb
 
-  - title: "How to Implement Internationalization (i18n) in JavaScript"
-    url: "https://www.sitepoint.com/how-to-implement-internationalization-i18n-in-javascript/"
-    comment: "Globalize is a JavaScript library for internationalization and localization developed by some members of the jQuery team."
-    pubdate: aug 1
-    tags:
-      - js
-
-  - title: "User Memory Design: How To Design For Experiences That Last"
-    url: "https://www.smashingmagazine.com/2016/08/user-memory-design-how-to-design-for-experiences-that-last/"
-    comment: "Curt Arledge explains why designing for experience is overrated and why we should strive to think more like user memory designers."
-    pubdate: "aug 1"
-    tags:
-      - web
-
-  - title: "RSpec::Core Cheat Sheet"
-    url: "http://www.rubypigeon.com/posts/rspec-core-cheat-sheet/"
-    comment: "RSpec is a mature, feature-packed testing framework, but the documentation can be difficult to navigate."
-    pubdate: aug 2
-    tags:
-      - rb
-
-  - title: "Deep dive into mutation testing and how the Mutant gem works"
-    url: "https://troessner.svbtle.com/kill-all-the-mutants-a-deep-dive-into-mutation-testing-and-how-the-mutant-gem-works"
-    comment: "Mutant is the by far most advanced gem for doing mutation testing in Ruby"
-    pubdate: aug 2
-    tags:
-      - rb
-
-  - title: "Building and testing a Phoenix JSON API"
-    url: "https://robots.thoughtbot.com/building-a-phoenix-json-api"
-    comment: "how to build and test the index and show actions of a JSON API with Phoenix 1.2"
-    pubdate: aug 2
-    tags:
-      - el
-
-  - title: "An Introduction to Crystal: Fast as C, Slick as Ruby"
-    url: "https://blog.codeship.com/an-introduction-to-crystal-fast-as-c-slick-as-ruby/"
-    comment: "Ruby is awesome, but it’s not necessarily known for its speed."
-    pubdate: aug 2
-    tags:
-      - cr
-
-   - title: "Ruby Enumerable, Enumerator, Lazy and domain specific collection objects"
-    url: "http://www.eq8.eu/blogs/28-ruby-enumerable-enumerator-lazy-and-domain-specific-collection-objects"
-    comment: "Example using Ruby eumerator to design an collection based class."
-    pubdate: aug 2
-    tags:
-      - rb
-
-  - title: "Merging Query Strings when Redirecting in Rails"
-    url: "https://www.viget.com/articles/merging-query-strings-when-redirecting-in-rails"
-    comment: "Draw route redirect with query string."
-    pubdate: aug 3
-    tags:
-      - rb
-
-  - title: "How to Refactor Ruby on Rails Code Right"
-    url: "http://blog.rubyroidlabs.com/2016/08/ror-refactor/"
-    comment: "Refactoring your code is no less important than writing the code itself."
-    pubdate: aug 3
-    tags:
-      - rb
-
-  - title: "Design Better Data Tables"
-    url: "https://medium.com/mission-log/design-better-data-tables-430a30a00d8c"
-    comment: "Tables might be boring, but they are such a major element of any data-rich document."
-    pubdate: aug 3
-    tags:
-      - design
-
-  - title: "5 Strategies to improve software development workflow"
-    url: "http://blog.plataformatec.com.br/2016/08/5-strategies-to-improve-software-development-workflow/"
-    comment: "A plan when you find yourself in a dysfunctional environment."
-    pubdate: "aug 4"
-    tags:
-      - web
-
-  - title: "Tips for Fixing Open Source bugs"
-    url: "http://schneems.com/2016/08/03/supporing-open-source.html"
-    comment: "How open source software is supported is just as important as how well it works."
-    pubdate: aug 3
-    tags:
-      - web
-
-  - title: "Using Rails 5 ActionCable and RethinkDB to build a Reactive WebSocket App"
-    url: "https://blog.phusion.nl/2016/08/04/using-rails-5-actioncable-and-rethinkdb-to-build-a-reactive-websocket-app/"
-    comment: "By using RethinkDB's active changefeeds feature we can eliminate the need for a separate event broadcasting service like Redis."
-    pubdate: aug 4
-    tags:
-      - rb
-
-  - title: "Moving to GitLab! Yes, it's worth it!"
-    url: "http://www.akitaonrails.com/2016/08/03/moving-to-gitlab-yes-it-s-worth-it"
-    comment: "As github changes its pricing plan, here are some views on the new equation."
-    pubdate: aug 5
-    tags:
-      - rb
-
-  - title: "A Case for Decorators in Rails"
-    url: "http://aspiringwebdev.com/a-case-for-decorators-in-rails/"
-    comment: "Decorators, at the beginning of my Rails journey, seemed exotic and unnecessary."
-    pubdate: aug 6
-    tags:
-      - rb
 
 
 - title: Watch
   baseline: "Screencasts and conferences videos, or other video feeds ..."
   links:
 
-  - title: "Trailblazer Introduction by Nick Sutterer"
-    url: "https://www.youtube.com/watch?v=5rceVs87q48"
-    comment: "@apotonick's talk about #trailblazer during 14th #pivorak Lviv Ruby Meetup, Ukraine."
-    pubdate: aug 3
-    duration: 53m
-    tags:
-      - rb
-
-  - title: "Ruby meets Event Sourcing by Anton Paisov"
-    url: "https://www.youtube.com/watch?v=gpKluUvqn1k&list=PLa4SYMEyNCu-E7xVWBKCPf4y3tKLsYp1F&index=3"
-    comment: "A talk about Event Sourcing in Ruby by Anton Paisov, given during 14th #pivorak Lviv Ruby MeetUp, Ukraine."
-    pubdate: aug 3
-    duration: 21m
+  - title: ""
+    url: ""
+    comment: ""
+    pubdate: sep 3
+    duration:
     tags:
       - rb

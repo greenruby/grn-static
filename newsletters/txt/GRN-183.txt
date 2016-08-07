@@ -1,0 +1,233 @@
+----------------------------------------------------
+Green Ruby News #183 - aug 7th 2016
+----------------------------------------------------
+*|IFNOT:CONTENT=Only Rant|*
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+*heyross* (design)
+http://heyross.io/
+Designer - animator - developer
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+*CodeTriage* (tool)
+https://www.codetriage.com/
+Help out your favorite open source projects and become a better developer while doing it.
+
+*Event Hunt* (tool)
+http://eventhunt.io/
+Startups and Tech events curated by locals
+
+*dummi* (tool)
+http://dummi.io/
+Generate dummy data for your projects.
+
+*Agantty* (tool)
+https://www.agantty.com/en/
+Using same business model as Trello, but for gantt model.
+
+*Gron* (go)
+https://github.com/tomnomnom/gron
+Make JSON greppable.
+
+*Request For Commits* (web)
+https://changelog.com/rfc/
+(podcast) Request For Commits (RFC) explores different perspectives in open source sustainability.
+
+*Social Media Sharing Buttons* (web)
+http://sharingbuttons.io/
+Super fast and easy Social Media Sharing Buttons. No JavaScript. No tracking.
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+*Puma-dev* (rb)
+https://github.com/puma/puma-dev
+A tool to manage rack apps in development with puma, possible successor to pow.
+
+*cache_key_for* (rb)
+https://github.com/efigence/cache_key_for
+Cache key generator for rails scopes
+
+*browser_warrior* (rb)
+https://github.com/80percent/browser_warrior
+A Rails gem that rejects non-modern browsers
+
+*rdl* (rb)
+https://github.com/plum-umd/rdl
+A lightweight system for adding contracts to Ruby
+
+*Jumpsuit* (js)
+https://github.com/jumpsuit/jumpsuit
+Another javascript framework for those who get tired of react.
+
+*GH-ost* (tool)
+https://github.com/github/gh-ost
+GitHub's Online Schema Change for MySQL
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+*The dark side of the Rack and Websockets dreams* (rb - jul 31)
+https://bowild.wordpress.com/2016/07/31/the-dark-side-of-the-rack/
+The Achilles heel of rack applications.
+
+*How to Implement Internationalization (i18n) in JavaScript* (js - aug 1)
+https://www.sitepoint.com/how-to-implement-internationalization-i18n-in-javascript/
+Globalize is a JavaScript library for internationalization and localization developed by some members of the jQuery team.
+
+*User Memory Design: How To Design For Experiences That Last* (web - aug 1)
+https://www.smashingmagazine.com/2016/08/user-memory-design-how-to-design-for-experiences-that-last/
+Curt Arledge explains why designing for experience is overrated and why we should strive to think more like user memory designers.
+
+*RSpec::Core Cheat Sheet* (rb - aug 2)
+http://www.rubypigeon.com/posts/rspec-core-cheat-sheet/
+RSpec is a mature, feature-packed testing framework, but the documentation can be difficult to navigate.
+
+*Deep dive into mutation testing and how the Mutant gem works* (rb - aug 2)
+https://troessner.svbtle.com/kill-all-the-mutants-a-deep-dive-into-mutation-testing-and-how-the-mutant-gem-works
+Mutant is the by far most advanced gem for doing mutation testing in Ruby
+
+*Building and testing a Phoenix JSON API* (el - aug 2)
+https://robots.thoughtbot.com/building-a-phoenix-json-api
+how to build and test the index and show actions of a JSON API with Phoenix 1.2
+
+*Ruby Enumerable and domain specific collection objects* (rb - aug 2)
+http://www.eq8.eu/blogs/28-ruby-enumerable-enumerator-lazy-and-domain-specific-collection-objects
+Example using Ruby eumerator to design an collection based class.
+
+*An Introduction to Crystal: Fast as C, Slick as Ruby* (cr - aug 2)
+https://blog.codeship.com/an-introduction-to-crystal-fast-as-c-slick-as-ruby/
+Ruby is awesome, but it’s not necessarily known for its speed.
+
+*Merging Query Strings when Redirecting in Rails* (rb - aug 3)
+https://www.viget.com/articles/merging-query-strings-when-redirecting-in-rails
+Draw route redirect with query string.
+
+*How to Refactor Ruby on Rails Code Right* (rb - aug 3)
+http://blog.rubyroidlabs.com/2016/08/ror-refactor/
+Refactoring your code is no less important than writing the code itself.
+
+*Tips for Fixing Open Source bugs* (web - aug 3)
+http://schneems.com/2016/08/03/supporing-open-source.html
+How open source software is supported is just as important as how well it works.
+
+*Design Better Data Tables* (design - aug 3)
+https://medium.com/mission-log/design-better-data-tables-430a30a00d8c
+Tables might be boring, but they are such a major element of any data-rich document.
+
+*5 Strategies to improve software development workflow* (web - aug 4)
+http://blog.plataformatec.com.br/2016/08/5-strategies-to-improve-software-development-workflow/
+A plan when you find yourself in a dysfunctional environment.
+
+*Using Rails 5 to build a Reactive WebSocket App* (rb - aug 4)
+https://blog.phusion.nl/2016/08/04/using-rails-5-actioncable-and-rethinkdb-to-build-a-reactive-websocket-app/
+By using RethinkDB's active changefeeds feature we can eliminate the need for a separate event broadcasting service like Redis.
+
+*Moving to GitLab! Yes, it's worth it!* (rb - aug 5)
+http://www.akitaonrails.com/2016/08/03/moving-to-gitlab-yes-it-s-worth-it
+As github changes its pricing plan, here are some views on the new equation.
+
+*A Case for Decorators in Rails* (rb - aug 6)
+http://aspiringwebdev.com/a-case-for-decorators-in-rails/
+Decorators, at the beginning of my Rails journey, seemed exotic and unnecessary.
+
+Watch
+----------------------------------------------------
+Screencasts and conferences videos, or other video feeds ...
+
+*Trailblazer Introduction by Nick Sutterer* (rb - aug 3 - 53m)
+https://www.youtube.com/watch?v=5rceVs87q48
+@apotonick's talk about #trailblazer during 14th #pivorak Lviv Ruby Meetup, Ukraine.
+
+*Ruby meets Event Sourcing by Anton Paisov* (rb - aug 3 - 21m)
+https://www.youtube.com/watch?v=gpKluUvqn1k&list=PLa4SYMEyNCu-E7xVWBKCPf4y3tKLsYp1F&index=3
+A talk about Event Sourcing in Ruby by Anton Paisov, given during 14th #pivorak Lviv Ruby MeetUp, Ukraine.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+Links curated by by mose (publisher), xenor, tysliu (editors), xenor, lincoln, mose, nauman (contributors).
+*|END:IF|*
+*|IFNOT:CONTENT=Only Links|*
+
+Rant
+----------------------------------------------------
+The random rant of the week by mose.
+
+#### The reign of the virtual
+
+Yesterday morning, the hunt for Pokemons opened here in Taiwan. I have been
+watching the crazy adoption of this new trend in the past few weeks. And
+knowing the asian culture, I suspect Japan and Taiwan are going to make the
+craziness in the rest of the world just like mild interest.
+
+There are few occasions to notice a huge shift in civilization as clearly as
+this one. For sure we have noticed that our fellow human neighbors spend more
+and more time the nose on their mobile devices. But this pokemon enthusiasm
+bring it to a whole new level. It proves the virtual now begins to overrule
+the real in term of social conventions. Well, not for everybody, not
+everywhere, but in a proportion that is relevant enough to be noticeable.
+
+The real world always have been ruling the social activities. Laws and
+conventions were deciding who is in and who is out, what to do and how to do
+it right. This is going to change. My main concern is that the future of the
+social activity is in the hands of private companies. Those companies,
+legitimately driven by profit, consider the user as a resource, that requires
+gathering and retention strategies. Like herds. The whole privacy fight is not
+going to stand too long as cattle (oops I meant user) data is the 21st century
+gold, and economy (and crazy need for constant growth) depends on it.
+
+And I'm not really happy from this deduction. We are getting captured with
+advanced weapons generated by behavioral economics and other clever social
+sciences. They are manipulation tools. Just tools. Sure you can do good with
+them, but such powerful tools of mass manipulation are not going to stay
+neutral in the hands of those who want to squeeze our essence (feels like a
+matrix metaphor, yeah I'm aware of it).
+
+Our mobile devices become interfaces now. Direct access to our behaviors. They
+already have been great tracking and data collection devices for years. Now
+they begin to be manipulative with much more effectiveness. Sure, the pokemon
+hunting doesn't seem to harm much, but I see it as only a beginning, a
+trigger. It just makes sense. Everybody can see the success it has. Certainly
+there are already hundreds of projects that are seeing the light right now at
+this instant just under the visibility of that opportunity. And many of those
+will be clever, engaging, and impacting on the real world, by the way of
+mobile devices, the reverse-remote-control for getting a grip on every human
+being.
+
+Because I'm an old guy, I'm of course very worried about this future. I have
+memories of a past where it was so much different. But the young generations,
+seeing this as the norm, will just fall for it, without question. Don't get me
+wrong, I love good tools that can make our lives easier. But they are tools.
+The intent of their usage matters. Augmented reality just seems to be going to
+be used with very nefarious intents.
+
+hrum. Well yeah, this is a rant, that's nothing more. Not an essay, not a
+study. Just my guts getting spread over the table. Take it easy :)
+
+*|END:IF|*
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+
