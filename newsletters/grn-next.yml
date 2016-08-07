@@ -68,6 +68,24 @@ topics:
     tags:
       - tool
 
+  - title: "cache_key_for"
+    url: "https://github.com/efigence/cache_key_for"
+    comment: "Cache key generator for rails scopes"
+    tags:
+      - rb
+
+  - title: "browser_warrior"
+    url: "https://github.com/80percent/browser_warrior"
+    comment: "A Rails gem that rejects non-modern browsers"
+    tags:
+      - rb
+
+  - title: "rdl"
+    url: "https://github.com/plum-umd/rdl"
+    comment: "A lightweight system for adding contracts to Ruby"
+    tags:
+      - rb
+
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
   links:
@@ -120,6 +138,20 @@ topics:
     pubdate: aug 2
     tags:
       - cr
+
+   - title: "Ruby Enumerable, Enumerator, Lazy and domain specific collection objects"
+    url: "http://www.eq8.eu/blogs/28-ruby-enumerable-enumerator-lazy-and-domain-specific-collection-objects"
+    comment: "Example using Ruby eumerator to design an collection based class."
+    pubdate: aug 2
+    tags:
+      - rb
+
+  - title: "Merging Query Strings when Redirecting in Rails"
+    url: "https://www.viget.com/articles/merging-query-strings-when-redirecting-in-rails"
+    comment: "Draw route redirect with query string."
+    pubdate: aug 3
+    tags:
+      - rb
 
   - title: "How to Refactor Ruby on Rails Code Right"
     url: "http://blog.rubyroidlabs.com/2016/08/ror-refactor/"
