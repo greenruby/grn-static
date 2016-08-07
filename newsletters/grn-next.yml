@@ -2,7 +2,7 @@
 edition: "183"
 pubdate: "aug 7th 2016"
 editors: "xenor, tysliu"
-participants: "Nauman Tariq, hsatac"
+participants: "xenor, lincoln, mose, nauman"
 rant:
   author: mose
   content:
@@ -16,9 +16,9 @@ topics:
     "Examples of UI/UX, graphic performance, web design and flashy things."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "heyross"
+    url: "http://heyross.io/"
+    comment: "Designer - animator - developer"
     tags:
       - design
 
@@ -28,30 +28,45 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "CodeTriage"
+    url: "https://www.codetriage.com/"
+    comment: "Help out your favorite open source projects and become a better developer while doing it."
     tags:
-      - css3
+      - tool
 
+  - title: "Social Media Sharing Buttons"
+    url: "http://sharingbuttons.io/"
+    comment: "Super fast and easy Social Media Sharing Buttons. No JavaScript. No tracking."
+    tags:
+      - web
 
+  - title: "Event Hunt"
+    url: "http://eventhunt.io/"
+    comment: "Startups and Tech events curated by locals"
+    tags:
+      - tool
 
 - title: Install
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: "Puma-dev: A development server for OS X and Linux"
+  - title: "Puma-dev"
     url: "https://github.com/puma/puma-dev"
-    comment: "Puma-dev is the emotional successor to pow."
+    comment: "A tool to manage rack apps in development with puma, possible successor to pow."
     tags:
       - rb
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "Jumpsuit"
+    url: "https://github.com/jumpsuit/jumpsuit"
+    comment: "Another javascript framework for those who get tired of react."
     tags:
-      - rb
+      - js
 
+  - title: "GH-ost"
+    url: "https://github.com/github/gh-ost"
+    comment: "GitHub's Online Schema Change for MySQL"
+    tags:
+      - tool
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
@@ -59,7 +74,7 @@ topics:
 
   - title: "The dark side of the Rack and Websockets dreams"
     url: "https://bowild.wordpress.com/2016/07/31/the-dark-side-of-the-rack/"
-    comment: "The Archilles heel of a rack application."
+    comment: "The Achilles heel of rack applications."
     pubdate: jul 31
     tags:
       - rb
@@ -71,12 +86,33 @@ topics:
     tags:
       - js
 
+  - title: "User Memory Design: How To Design For Experiences That Last"
+    url: "https://www.smashingmagazine.com/2016/08/user-memory-design-how-to-design-for-experiences-that-last/"
+    comment: "Curt Arledge explains why designing for experience is overrated and why we should strive to think more like user memory designers."
+    pubdate: "aug 1"
+    tags:
+      - web
+
   - title: "RSpec::Core Cheat Sheet"
     url: "http://www.rubypigeon.com/posts/rspec-core-cheat-sheet/"
     comment: "RSpec is a mature, feature-packed testing framework, but the documentation can be difficult to navigate."
     pubdate: aug 2
     tags:
       - rb
+
+  - title: "Deep dive into mutation testing and how the Mutant gem works"
+    url: "https://troessner.svbtle.com/kill-all-the-mutants-a-deep-dive-into-mutation-testing-and-how-the-mutant-gem-works"
+    comment: "Mutant is the by far most advanced gem for doing mutation testing in Ruby"
+    pubdate: aug 2
+    tags:
+      - rb
+
+  - title: "Building and testing a Phoenix JSON API"
+    url: "https://robots.thoughtbot.com/building-a-phoenix-json-api"
+    comment: "how to build and test the index and show actions of a JSON API with Phoenix 1.2"
+    pubdate: aug 2
+    tags:
+      - el
 
   - title: "An Introduction to Crystal: Fast as C, Slick as Ruby"
     url: "https://blog.codeship.com/an-introduction-to-crystal-fast-as-c-slick-as-ruby/"
@@ -85,12 +121,26 @@ topics:
     tags:
       - cr
 
+  - title: "How to Refactor Ruby on Rails Code Right"
+    url: "http://blog.rubyroidlabs.com/2016/08/ror-refactor/"
+    comment: "Refactoring your code is no less important than writing the code itself."
+    pubdate: aug 3
+    tags:
+      - rb
+
   - title: "Design Better Data Tables"
     url: "https://medium.com/mission-log/design-better-data-tables-430a30a00d8c"
     comment: "Tables might be boring, but they are such a major element of any data-rich document."
     pubdate: aug 3
     tags:
-      - rb
+      - design
+
+  - title: "5 Strategies to improve software development workflow"
+    url: "http://blog.plataformatec.com.br/2016/08/5-strategies-to-improve-software-development-workflow/"
+    comment: "A plan when you find yourself in a dysfunctional environment."
+    pubdate: "aug 4"
+    tags:
+      - web
 
   - title: "Tips for Fixing Open Source bugs"
     url: "http://schneems.com/2016/08/03/supporing-open-source.html"
@@ -103,6 +153,13 @@ topics:
     url: "https://blog.phusion.nl/2016/08/04/using-rails-5-actioncable-and-rethinkdb-to-build-a-reactive-websocket-app/"
     comment: "By using RethinkDB's active changefeeds feature we can eliminate the need for a separate event broadcasting service like Redis."
     pubdate: aug 4
+    tags:
+      - rb
+
+  - title: "Moving to GitLab! Yes, it's worth it!"
+    url: "http://www.akitaonrails.com/2016/08/03/moving-to-gitlab-yes-it-s-worth-it"
+    comment: "As github changes its pricing plan, here are some views on the new equation."
+    pubdate: aug 5
     tags:
       - rb
 
@@ -126,10 +183,18 @@ topics:
   baseline: "Screencasts and conferences videos, or other video feeds ..."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
-    pubdate: sep 3
-    duration:
+  - title: "Trailblazer Introduction by Nick Sutterer"
+    url: "https://www.youtube.com/watch?v=5rceVs87q48"
+    comment: "@apotonick's talk about #trailblazer during 14th #pivorak Lviv Ruby Meetup, Ukraine."
+    pubdate: aug 3
+    duration: 53m
+    tags:
+      - rb
+
+  - title: "Ruby meets Event Sourcing by Anton Paisov"
+    url: "https://www.youtube.com/watch?v=gpKluUvqn1k&list=PLa4SYMEyNCu-E7xVWBKCPf4y3tKLsYp1F&index=3"
+    comment: "A talk about Event Sourcing in Ruby by Anton Paisov, given during 14th #pivorak Lviv Ruby MeetUp, Ukraine."
+    pubdate: aug 3
+    duration: 21m
     tags:
       - rb
