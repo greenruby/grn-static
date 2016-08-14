@@ -1,6 +1,6 @@
 ---
-edition: "184"
-pubdate: "aug 14th 2016"
+edition: "185"
+pubdate: "aug 21th 2016"
 editors: "xenor, tysliu"
 participants: "Nauman Tariq, hsatac"
 rant:
@@ -28,11 +28,11 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: "RSpec::Expectations Cheat Sheet"
-    url: "http://www.rubypigeon.com/posts/rspec-expectations-cheat-sheet/"
-    comment: "Cheat sheet for RSpec beginners."
+  - title: ""
+    url: ""
+    comment: ""
     tags:
-      - rb
+      - css3
 
 
 
@@ -40,21 +40,9 @@ topics:
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: "rspec_nested_transactions"
-    url: "https://github.com/rosenfeld/rspec_nested_transactions"
-    comment: "Nested transactions around before/after(:all) blocks for RSpec"
-    tags:
-      - rb
-
-  - title: "portfolio"
-    url: "https://github.com/tsurupin/portfolio"
-    comment: "A blog and Portfolio CMS built with Rails, React, Redux, Material-UI, CSS Modules."
-    tags:
-      - rb
-
-  - title: "sandthorn"
-    url: "https://github.com/Sandthorn/sandthorn"
-    comment: "A ruby library for saving an object's state as a series of events."
+  - title: ""
+    url: ""
+    comment: ""
     tags:
       - rb
 
@@ -63,59 +51,10 @@ topics:
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: "Implementing a Naive Bayes Text Classifier"
-    url: "http://blog.pawandubey.com/implementing-a-naive-bayes-text-classifier/"
-    comment: "Using Ruby to implement a Naive Bayes Classifier"
-    pubdate: aug 8
-    tags:
-      - rb
-
-  - title: "Level Up Your Security in Rails"
-    url: "https://blog.codeship.com/level-up-your-security-in-rails/"
-    comment: "Rails comes with a lot of secure features and defaults right out of the box."
-    pubdate: aug 9
-    tags:
-      - rb
-
-  - title: "Bundling Dependencies Inside Ruby Gems"
-    url: "http://blog.presidentbeef.com/blog/2016/08/09/bundling-gem-dependencies-inside-ruby-gems/"
-    comment: "Distribute a gem with isolated dependencies from application space."
-    pubdate: aug 9
-    tags:
-      - rb
-
-  - title: "Why is URI.join so counterintuitive?"
-    url: "http://blog.honeybadger.io/why-is-uri-join-so-counterintuitive/"
-    comment: "While URI.join can be used to build URLs from various path fragments, that's not really what it's designed to do."
-    pubdate: aug 9
-    tags:
-      - rb
-
-  - title: "Image Upload and Manipulation with React"
-    url: "https://css-tricks.com/image-upload-manipulation-react/"
-    comment: "How you can upload, store and manipulate images using React without a server-side language."
-    pubdate: aug 9
-    tags:
-      - css3
-
-  - title: "Understanding Ruby Closures"
-    url: "https://scotch.io/tutorials/understanding-ruby-closures"
-    comment: "An in-depth analysis of Ruby closures."
-    pubdate: aug 10
-    tags:
-      - rb
-
-  - title: "The Search For <Class:0x00000027b59290>"
-    url: "https://chrisarcand.com/the-search-for-class0x0000001ab51700/"
-    comment: "Another fun story about bug hunting."
-    pubdate: aug 10
-    tags:
-      - rb
-
   - title: ""
     url: ""
     comment: ""
-    pubdate: aug 10
+    pubdate: sep 3
     tags:
       - rb
 

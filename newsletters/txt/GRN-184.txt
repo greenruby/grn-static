@@ -1,0 +1,142 @@
+----------------------------------------------------
+Green Ruby News #184 - aug 14th 2016
+----------------------------------------------------
+*|IFNOT:CONTENT=Only Rant|*
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+*Apollo 11* (design)
+http://www.nerval.ch/apollo_11
+Nicely done and it gets some tricky interaction on last page.
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+*stdlib* (tool)
+https://stdlib.com/
+Readily available, scalable web functions.
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+*rspec_nested_transactions* (rb)
+https://github.com/rosenfeld/rspec_nested_transactions
+Nested transactions around before/after(:all) blocks for RSpec
+
+*Portfolio* (rb)
+https://github.com/tsurupin/portfolio
+A blog and Portfolio CMS built with Rails, React, Redux, Material-UI, CSS Modules.
+
+*Sandthorn* (rb)
+https://github.com/Sandthorn/sandthorn
+A ruby library for saving an object's state as a series of events.
+
+*Acts_as_tenant* (rb)
+https://github.com/ErwinM/acts_as_tenant
+Easy multi-tenancy for Rails in a shared database setup
+
+*Graphql-ruby* (rb)
+https://github.com/rmosolgo/graphql-ruby
+Ruby implementation of Facebook's GraphQL
+
+*Goss* (ops)
+https://github.com/aelsabbahy/goss
+Quick and Easy server testing/validation
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+*Implementing a Naive Bayes Text Classifier* (rb - aug 8)
+http://blog.pawandubey.com/implementing-a-naive-bayes-text-classifier/
+Using Ruby to implement a Naive Bayes Classifier.
+
+*RSpec::Expectations Cheat Sheet* (rb - aug 9)
+http://www.rubypigeon.com/posts/rspec-expectations-cheat-sheet/
+Cheat sheet for RSpec Expectations.
+
+*Level Up Your Security in Rails* (rb - aug 9)
+https://blog.codeship.com/level-up-your-security-in-rails/
+Rails comes with a lot of secure features and defaults right out of the box.
+
+*Bundling Dependencies Inside Ruby Gems* (rb - aug 9)
+http://blog.presidentbeef.com/blog/2016/08/09/bundling-gem-dependencies-inside-ruby-gems/
+Distribute a gem with isolated dependencies from application space.
+
+*Why is URI.join so counterintuitive?* (rb - aug 9)
+http://blog.honeybadger.io/why-is-uri-join-so-counterintuitive/
+While URI.join can be used to build URLs from various path fragments, that's not really what it's designed to do.
+
+*Image Upload and Manipulation with React* (css3 - aug 9)
+https://css-tricks.com/image-upload-manipulation-react/
+How you can upload, store and manipulate images using React without a server-side language.
+
+*Designing Great Command-Line User Experiences* (tool - aug 9)
+http://www.juliandunn.net/2016/08/09/designing-great-command-line-user-experiences/
+Tips for making command-line UX awesome.
+
+*Understanding Ruby Closures* (rb - aug 10)
+https://scotch.io/tutorials/understanding-ruby-closures
+An in-depth analysis of Ruby closures.
+
+*The Search For Class:0x00000027b59290* (rb - aug 10)
+https://chrisarcand.com/the-search-for-class0x0000001ab51700/
+Another fun story about bug hunting.
+
+*The Complete Guide to Optimising Web Images* (tool - aug 10)
+https://robots.thoughtbot.com/the-complete-guide-to-optimising-web-images
+Techniques for tweaking the perfect images.
+
+*Fast and Accurate Document Detection for Scanning* (tool - aug 10)
+https://blogs.dropbox.com/tech/2016/08/fast-and-accurate-document-detection-for-scanning/
+How Dropbox developed their document recognition tools.
+
+*Intro to Avro* (rb - aug 11)
+http://travisofthenorth.com/blog/2016/8/11/intro-to-avro
+Fast/compact data serialization format that allows every service to communicate effectively.
+
+*Using Ruby to work with streams and pipelines* (rb - aug 12)
+https://github.com/codeforkjeff/ruby-data-streams
+brief exploration of using Ruby to work with streams and pipelines for processing data.
+
+*The Upgrade Trails* (rb - aug 13)
+http://olivierlacan.com/posts/the-upgrade-trails/
+Tales from multi-year Rails upgrades at Code School, sprinkled with bits of hindsight.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+Links curated by by mose (publisher), xenor, tysliu (editors), hsatac, mose, nauman (contributors).
+*|END:IF|*
+*|IFNOT:CONTENT=Only Links|*
+
+Rant
+----------------------------------------------------
+The random rant of the week by mose.
+
+#### no rant
+
+It happens from time to time, I don't feel like ranting about anything :) 
+
+*|END:IF|*
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+
