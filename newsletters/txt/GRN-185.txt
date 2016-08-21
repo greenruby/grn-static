@@ -1,0 +1,158 @@
+----------------------------------------------------
+Green Ruby News #185 - aug 21th 2016
+----------------------------------------------------
+*|IFNOT:CONTENT=Only Rant|*
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+*The Taproot Agency* (design)
+https://taproot.agency/
+Research-driven marketing & digital agency
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+*Functional-light-js* (js)
+https://github.com/getify/functional-light-js
+(book) A book about functional programming in JavaScript.
+
+*Arguman* (web)
+http://en.arguman.org/channels/programming
+A pretty interesting way to develop debates.
+
+*Baqend* (tool)
+http://www.baqend.com
+High-Performance Backend-as-a-Service
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+*Daru* (rb)
+https://github.com/v0dro/daru
+Data Analysis in RUby
+
+*Oprah* (rb)
+https://github.com/endofunky/oprah
+Opinionated presenters for Rails 5 - without the cruft
+
+*Emittr* (rb)
+https://github.com/talyssonoc/emittr
+A Ruby event emitter implementation.
+
+*Zchannel.rb* (rb)
+https://github.com/jazzonmymind/zchannel.rb
+Provides a high level and easy to use API for sending objects between Ruby processes.
+
+*Go 1.7 is released* (go - aug 15)
+https://blog.golang.org/go1.7
+Faster compile times, around 20% smaller binaries and better garbage collection for faster applications
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+*The cost of small modules* (js - aug 15)
+https://nolanlawson.com/2016/08/15/the-cost-of-small-modules/
+Depressing fact about Browserify and Webpack: The more I modularize my code, the bigger it gets.
+
+*Offline Storage for Progressive Web Apps* (js - aug 16)
+https://medium.com/dev-channel/offline-storage-for-progressive-web-apps-70d52695513c#.7my3f4iro
+2016 will hopefully be the year we build for network resilience.
+
+*Colorized man pages: Understood and customized* (tool - aug 15)
+http://boredzo.org/blog/archives/2016-08-15/colorized-man-pages-understood-and-customized
+It's not because we love console that we don't love colors, right?
+
+*Using `git bisect` to debug regressions with Rails codebase* (rb - aug 16)
+http://www.rubyappcare.com/blog/2016-08-16-using-git-bisect-to-debug-regressions-with-rails-codebase
+Examples of using git bisect to identify the source of regressions in the ruby on rails codebase.
+
+*Looking at your program’s structure in Go 1.7* (go - aug 16)
+https://pauladamsmith.com/blog/2016/08/go-1.7-ssa.html
+
+
+*Flexible typography with CSS locks* (css3 - aug 17)
+http://blog.typekit.com/2016/08/17/flexible-typography-with-css-locks/
+You can have perfect smooth scaling between any 2 font sizes over any viewport range.
+
+*Context aware MySQL pools via HAProxy* (ops - aug 17)
+http://githubengineering.com/context-aware-mysql-pools-via-haproxy/
+To be able to serve under the high load GitHub operates at, they use MySQL replication to scale out read load. Here is how.
+
+*You should Learn Vanilla JavaScript Before JS Frameworks* (js - aug 18)
+https://snipcart.com/blog/learn-vanilla-javascript-before-using-js-frameworks
+Should you learn vanilla, pure JavaScript before hopping on the trendy JS frameworks bandwagon? Yes.
+
+*The poor, misunderstood decorator* (rb - aug 19)
+https://dev.to/oddlyfunctional/the-poor-misunderstood-decorator
+One of the least understood design patterns, explained with practical examples.
+
+*The Ruby Community and Reputation* (rb - aug 19)
+http://www.akitaonrails.com/2016/08/19/the-ruby-community-and-reputation
+The last rant from Akita about the rails community evolution.
+
+*Puppet - our journey from Puppet 3.8 to Puppet 4* (ops - aug 19)
+http://hggh.github.io/puppet/debian/2016/08/19/puppet-4.x.html
+Report of a migration, with very good outcomes.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+Links curated by by mose (publisher), mose (editors), nauman, mose, xenor (contributors).
+*|END:IF|*
+*|IFNOT:CONTENT=Only Links|*
+
+Rant
+----------------------------------------------------
+The random rant of the week by mose.
+
+#### Working out
+
+During the past year I have been doing some working out. No no there is no
+fitbit involved. Are you crazy? My physical activity includes a strict refusal
+of pointless efforts. I deliberately choose to use the bike rather than the
+bus, it has the purpose of transportation,. But just getting sweaty for the
+sake of it, well, that's not my thing. I'm talking about a git-commit working
+out. I decided to have one commit a day on github (minimum) and instead of the
+fitbit or whatever phone app, I used the github timeline as a monitor.
+
+So that's one year now and I got my [github
+timeline](https://github.com/mose/) all green. In itself it doesn't achieve
+anything except for myself. I mean, it's quite easy to fill up a timeline with
+fake entries. But by getting this challenge of one commit a day, it led to
+some valuable outcomes. I got some more work projects validated to be
+published as open source. Whenever I was not feeling inspired for code commit,
+I was chasing typoes in my Readme's, or dependencies upgrades in my gems.
+
+Overall, it had quite a good impact on my coding publication, on the updating
+of my blog (well, that blpg mostly gather the rants I do here), and various
+other small details. Well, I'm not a very famous open source coder, just an
+average joe. But a persistent one. It's very easy to just upload shit on
+github and forget about it. Having this regular commitment made me come back
+on some old things, keep them current somehow.
+
+Getting some routine in place that includes open source activity has various
+benefits, even when you don't have an audience. You should try it.
+
+*|END:IF|*
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+
