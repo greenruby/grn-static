@@ -51,10 +51,45 @@ topics:
   baseline: "From the blogosphere or news feeds ..."
   links:
 
+  - title: "Journey of a Trailblazer (1)"
+    url: "http://www.norydev.com/writing/journey-of-a-trailblazer-part-1"
+    comment: "Looking for some standards and conventions to refactor?"
+    pubdate: aug 21
+    tags:
+      - rb
+
+  - title: "The Pure Function As An Object (PFAAO) Pattern"
+    url: "http://www.rubypigeon.com/posts/the-pure-function-as-an-object-pfaao-pattern/"
+    comment: "In this article, I want to demonstrate a nice way to write functional-style code in Ruby."
+    pubdate: aug 23
+    tags:
+      - rb
+
+  - title: "Hunting for great names in programming"
+    url: "https://m.signalvnoise.com/hunting-for-great-names-in-programming-16f624c8fc03"
+    comment: "One of the real delights of programming is picking great variable, method, and class names."
+    pubdate: aug 23
+    tags:
+      - web
+
+  - title: "Document your Already Existing APIs with Swagger"
+    url: "https://scotch.io/tutorials/document-your-already-existing-apis-with-swagger"
+    comment: "Document APIs by editing a config file that is either json or yaml."
+    pubdate: aug 25
+    tags:
+      - rb
+
+  - title: "Using WebP Images"
+    url: "https://css-tricks.com/using-webp-images/"
+    comment: "WebP can yield a substantial reduction in the size of images on your website."
+    pubdate: aug 26
+    tags:
+      - web
+
   - title: ""
     url: ""
     comment: ""
-    pubdate: sep 3
+    pubdate: aug 24
     tags:
       - rb
 
