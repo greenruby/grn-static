@@ -28,24 +28,39 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "cube composer"
+    url: "http://david-peter.de/cube-composer/"
+    comment: "Funny tiny game calling array manipulation logics."
     tags:
-      - css3
+      - tool
 
+  - title: "Managing Operations in Group Chat"
+    url: "https://victorops.com/knowledge-drop/devops-docs/chatops-managing-operations-group-chat/"
+    comment: "(book) ChatOps can increase your operational efficiency. Learn how in this free 75 page report from O'Reilly and VictorOps."
+    tags:
+      - ops
 
+  - title: "Essential Electron"
+    url: "http://jlord.us/essential-electron/"
+    comment: "Quickstart your electron skills."
+    tags:
+      - js
 
 - title: Install
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "Client_side_validations"
+    url: "https://github.com/DavyJonesLocker/client_side_validations"
+    comment: "Client Side Validations made easy for Ruby on Rails"
     tags:
       - rb
 
+  - title: "Vizceral"
+    url: "https://github.com/Netflix/vizceral"
+    comment: "WebGL component for displaying animated traffic graphs"
+    tags:
+      - ops
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
@@ -64,6 +79,13 @@ topics:
     pubdate: aug 23
     tags:
       - rb
+
+  - title: "10 reasons why you should give Elm a try"
+    url: "https://medium.com/@tibastral/10-reasons-why-you-should-give-elm-a-try-62b56d305643"
+    comment: "Totally subjective but convincing sales pitch for Elm."
+    pubdate: "aug 23"
+    tags:
+      - js
 
   - title: "Hunting for great names in programming"
     url: "https://m.signalvnoise.com/hunting-for-great-names-in-programming-16f624c8fc03"
@@ -85,14 +107,6 @@ topics:
     pubdate: aug 26
     tags:
       - web
-
-  - title: ""
-    url: ""
-    comment: ""
-    pubdate: aug 24
-    tags:
-      - rb
-
 
 
 - title: Watch
