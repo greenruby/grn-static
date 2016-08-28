@@ -1,0 +1,184 @@
+----------------------------------------------------
+Green Ruby News #186 - aug 28th 2016
+----------------------------------------------------
+*|IFNOT:CONTENT=Only Rant|*
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+*Femme Fatale Studio* (design)
+http://femmefatale.paris/en
+french creative studio, somewhere between sophistication and simplicity
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+*cube composer* (tool)
+http://david-peter.de/cube-composer/
+Funny tiny game calling array manipulation logics.
+
+*Managing Operations in Group Chat* (ops)
+https://victorops.com/knowledge-drop/devops-docs/chatops-managing-operations-group-chat/
+(book) ChatOps can increase your operational efficiency. Learn how in this free 75 page report from O'Reilly and VictorOps.
+
+*Essential Electron* (js)
+http://jlord.us/essential-electron/
+Quickstart your electron skills.
+
+*Itsy-bitsy-data-structures* (js)
+https://github.com/thejameskyle/itsy-bitsy-data-structures
+All the things you didn't know you wanted to know about data structures
+
+*Maintainers-wanted* (tool)
+https://github.com/pickhardt/maintainers-wanted
+List of projects looking for new lead maintainers, either abandoned or just looking for someone else to lead.
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+*Client_side_validations* (rb)
+https://github.com/DavyJonesLocker/client_side_validations
+Client Side Validations made easy for Ruby on Rails
+
+*Vizceral* (ops)
+https://github.com/Netflix/vizceral
+WebGL component for displaying animated traffic graphs
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+*Journey of a Trailblazer (1)* (rb - aug 21)
+http://www.norydev.com/writing/journey-of-a-trailblazer-part-1
+Looking for some standards and conventions to refactor?
+
+*About Sinatra 2.0* (rb - aug 22)
+http://zzak.io/log/2016-08-22-sinatra-two-point-oh.html
+Just released in beta, here is the huge list of changes.
+
+*Pure RSpec JSON API testing* (rb - aug 22)
+http://www.eq8.eu/blogs/30-native-rspec-json-api-testing
+how to test JSON API in Ruby on Rails or in plain Ruby application with nothing more than RSpec 3.x
+
+*The Pure Function As An Object (PFAAO) Pattern* (rb - aug 23)
+http://www.rubypigeon.com/posts/the-pure-function-as-an-object-pfaao-pattern/
+In this article, I want to demonstrate a nice way to write functional-style code in Ruby.
+
+*10 reasons why you should give Elm a try* (js - aug 23)
+https://medium.com/@tibastral/10-reasons-why-you-should-give-elm-a-try-62b56d305643
+Totally subjective but convincing sales pitch for Elm.
+
+*Hunting for great names in programming* (web - aug 23)
+https://m.signalvnoise.com/hunting-for-great-names-in-programming-16f624c8fc03
+One of the real delights of programming is picking great variable, method, and class names.
+
+*Phoenix vs Rails: Views and helpers* (el - aug 24)
+http://cloudless.studio/articles/25-phoenix-vs-rails-views-and-helpers
+Here's an overview, case study and comparison to Phoenix of the V part of Rails MVC as experienced across the years.
+
+*Document your Already Existing APIs with Swagger* (rb - aug 25)
+https://scotch.io/tutorials/document-your-already-existing-apis-with-swagger
+Document APIs by editing a config file that is either json or yaml.
+
+*The State Of JavaScript: Front-End Frameworks* (js - aug 25)
+https://medium.com/@sachagreif/the-state-of-javascript-front-end-frameworks-1a2d8a61510
+A few preliminary results from a survey by Sacha Grief.
+
+*Building Rails API's with JSONAPI and JSONAPI-Resources* (rb - aug 26)
+http://girders.org/blog/2016/08/26/building-rails-apis-with-jsonapi-and-jsonapi-resources/
+JASONAPI is a fairly new protocol, but has been methodically designed to handle most use cases
+
+*Using WebP Images* (web - aug 26)
+https://css-tricks.com/using-webp-images/
+WebP can yield a substantial reduction in the size of images on your website.
+
+*From monolithics to microservices* (rb - aug 27)
+https://medium.com/@ccverak/from-monolithics-to-microservices-e87841ce11fd#.nr87tta4t
+A software design approach to microservice evolution.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+Links curated by by mose (publisher), tysliu (editors), nauman, michaelweigle (contributors).
+*|END:IF|*
+*|IFNOT:CONTENT=Only Links|*
+
+Rant
+----------------------------------------------------
+The random rant of the week by mose.
+
+#### To be remote or not to be remote ...
+
+Earlier this week I read [an article on linkedin, deliberately
+anti-remote][1], and a bit later on [another one very pro-remote on
+freecodecamp][2]. I'm tempted to think one is the response to the other. But
+maybe not.
+
+The fact is that switching to a remote organization is a tricky move. It feels
+like the move from monolith to micro-services, honestly. People that make
+decisions about it rarely envision the extent of the change. And those change
+look similar in nature. Team architecture and software design are not that
+foreign. More autonomy for services or people, self-contained activity,
+requirement for clear communication channels and protocols, extensive
+architecture for monitoring, reporting or just plain visibility, more
+debugging tools and processes, and much more.
+
+The same way one will have to think about all those when switching to
+microservices, the one that thinks about making his team remote will also have
+to consider the exact same parameters. But that is all on the principles.
+About the implementation, remote teams really need a strong chat culture, an
+easy and transparent logging policy for all communication channels, various
+tooling similar to chatops tools for assisting communication activity. Remote
+organization also need to have all their processes online, and not need much
+(if at all) any synchronous meetings.
+
+From my perspective there are various very beneficial side-effects to make a
+team remote. There is more traceability as everything is online and not in
+corridors anymore. In some cases that I experienced, it also leads to a less
+arbitrary perception on team members, because they can be judged more on
+results (if you have measure tools prepared accordingly) than on attitude and
+mouth-skills (did you noticed that irl meetings are sometimes just a
+mouth-o-cracy?). But it's accurate to say that on a short term, it is more
+time consuming. The real benefit rises on the long run.
+
+What I didn't find in any articles on the matter, is the life-cycle dimension.
+A software project has a life expectancy, from a business point of view. It's
+the same game as with the technical debt. It is acceptable business-wise to
+live at credit for a time, until a certain milestone. A lot of projects are
+just extended MVPs intended to convince big money that they could deserve some
+attention. For such project, you want very fast paced environment. It's easier
+to coerce your <s>slaves</s> employees to go above and beyond the
+expectations, when in a physical environment. This is a disposable context,
+and you can skip team debt as much as technical debt. And you really need
+physicality for that purpose.
+
+So, I would say, if a company is not making the move towards remote
+organization, maybe there are very good reasons for that. But I will be very
+cautious to understand what are the real reasons. They may stink. And if they
+are remote, but they just came to it recently, I would be careful about the
+tooling they prepared for it.
+
+[1]: https://www.linkedin.com/pulse/do-work-from-home-oleg-vishnepolsky
+[2]: https://medium.freecodecamp.com/the-economics-of-working-remotely-28d4173e16e2#.43ewevr3t 
+
+*|END:IF|*
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+
