@@ -51,6 +51,34 @@ topics:
   baseline: "From the blogosphere or news feeds ..."
   links:
 
+  - title: "Managing ActiveRecord connections with Octoshark"
+    url: "http://dalibornasevic.com/posts/69-managing-activerecord-connections-with-octoshark"
+    comment: "Octoshark is a simple ActiveRecord connection manager."
+    pubdate: aug 30
+    tags:
+      - rb
+
+  - title: "Examining The Internals Of The Rails Request/Response Cycle"
+    url: "http://www.rubypigeon.com/posts/examining-internals-of-rails-request-response-cycle/"
+    comment: "I have been quized on this during an interview."
+    pubdate: aug 31
+    tags:
+      - rb
+
+  - title: "Good Module, Bad Module"
+    url: "https://blog.codeship.com/good-module-bad-module/"
+    comment: "You already know how to use modules in Ruby, but are you abusing them?"
+    pubdate: sep 1
+    tags:
+      - rb
+
+  - title: "Named Captures in Ruby Regular Expressions"
+    url: "https://www.leighhalliday.com/named-captures-ruby-regular-expressions"
+    comment: "What if we could assign a name/key to the value being captured/extracted from our string?"
+    pubdate: sep 1
+    tags:
+      - rb
+
   - title: ""
     url: ""
     comment: ""
