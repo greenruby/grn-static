@@ -28,11 +28,11 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "DeployBot"
+    url: "https://deploybot.com/"
+    comment: "A service that build and ship code in one consistent process."
     tags:
-      - css3
+      - ops
 
 
 
@@ -40,9 +40,21 @@ topics:
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "NX"
+    url: "http://nx-framework.com/"
+    comment: "A next generation client-side JavaScript framework."
+    tags:
+      - js
+
+  - title: "redis-stat"
+    url: "https://github.com/junegunn/redis-stat"
+    comment: "A real-time Redis monitoring tool"
+    tags:
+      - rb
+
+   - title: "mruby-cli"
+    url: "https://github.com/hone/mruby-cli"
+    comment: "A platform to build native command line applications for Linux, Windows, and OS X"
     tags:
       - rb
 
@@ -50,6 +62,13 @@ topics:
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
   links:
+
+  - title: "The Last Rails I18n Guide You'll Ever Need"
+    url: "https://phraseapp.com/blog/posts/last-rails-i18n-guide-youll-ever-need/"
+    comment: "Comprehensive guide for i18n usage in rails."
+    pubdate: "aug 29"
+    tags:
+      - rb
 
   - title: "Managing ActiveRecord connections with Octoshark"
     url: "http://dalibornasevic.com/posts/69-managing-activerecord-connections-with-octoshark"
