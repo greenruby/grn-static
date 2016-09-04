@@ -35,7 +35,6 @@ topics:
       - ops
 
 
-
 - title: Install
   baseline: "A selection of gems or applications updated during past week."
   links:
@@ -55,6 +54,12 @@ topics:
    - title: "mruby-cli"
     url: "https://github.com/hone/mruby-cli"
     comment: "A platform to build native command line applications for Linux, Windows, and OS X"
+    tags:
+      - rb
+
+  - title: "uniqueness"
+    url: "https://github.com/EventtusHQ/uniqueness"
+    comment: "Alternative to rails' has_secure_token"
     tags:
       - rb
 
