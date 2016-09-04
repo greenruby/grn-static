@@ -1,6 +1,6 @@
 ---
-edition: "187"
-pubdate: "sep 4th 2016"
+edition: "188"
+pubdate: "sep 11th 2016"
 editors: "xenor, tysliu"
 participants: "Nauman Tariq, hsatac"
 rant:
@@ -28,38 +28,21 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: "DeployBot"
-    url: "https://deploybot.com/"
-    comment: "A service that build and ship code in one consistent process."
+  - title: ""
+    url: ""
+    comment: ""
     tags:
-      - ops
+      - css3
+
 
 
 - title: Install
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: "NX"
-    url: "http://nx-framework.com/"
-    comment: "A next generation client-side JavaScript framework."
-    tags:
-      - js
-
-  - title: "redis-stat"
-    url: "https://github.com/junegunn/redis-stat"
-    comment: "A real-time Redis monitoring tool"
-    tags:
-      - rb
-
-   - title: "mruby-cli"
-    url: "https://github.com/hone/mruby-cli"
-    comment: "A platform to build native command line applications for Linux, Windows, and OS X"
-    tags:
-      - rb
-
-  - title: "uniqueness"
-    url: "https://github.com/EventtusHQ/uniqueness"
-    comment: "Alternative to rails' has_secure_token"
+  - title: ""
+    url: ""
+    comment: ""
     tags:
       - rb
 
@@ -67,41 +50,6 @@ topics:
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
   links:
-
-  - title: "The Last Rails I18n Guide You'll Ever Need"
-    url: "https://phraseapp.com/blog/posts/last-rails-i18n-guide-youll-ever-need/"
-    comment: "Comprehensive guide for i18n usage in rails."
-    pubdate: "aug 29"
-    tags:
-      - rb
-
-  - title: "Managing ActiveRecord connections with Octoshark"
-    url: "http://dalibornasevic.com/posts/69-managing-activerecord-connections-with-octoshark"
-    comment: "Octoshark is a simple ActiveRecord connection manager."
-    pubdate: aug 30
-    tags:
-      - rb
-
-  - title: "Examining The Internals Of The Rails Request/Response Cycle"
-    url: "http://www.rubypigeon.com/posts/examining-internals-of-rails-request-response-cycle/"
-    comment: "I have been quized on this during an interview."
-    pubdate: aug 31
-    tags:
-      - rb
-
-  - title: "Good Module, Bad Module"
-    url: "https://blog.codeship.com/good-module-bad-module/"
-    comment: "You already know how to use modules in Ruby, but are you abusing them?"
-    pubdate: sep 1
-    tags:
-      - rb
-
-  - title: "Named Captures in Ruby Regular Expressions"
-    url: "https://www.leighhalliday.com/named-captures-ruby-regular-expressions"
-    comment: "What if we could assign a name/key to the value being captured/extracted from our string?"
-    pubdate: sep 1
-    tags:
-      - rb
 
   - title: ""
     url: ""

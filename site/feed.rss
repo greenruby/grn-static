@@ -9,7 +9,271 @@
     <link>http://greenruby.org/feed.rss</link>
     <description>Green Ruby News is a feed of fresh links of the week about ruby, javascript, webdev, devops, collected by mose every sunday</description>
     <language>en-US</language>
-    <pubDate>Mon, 29 Aug 2016 03:29:52 +0800</pubDate>
+    <pubDate>Mon, 05 Sep 2016 01:59:50 +0800</pubDate>
+    <item>
+      <title>Green Ruby News #187</title>
+      <link>http://greenruby.org/grn-187.html</link>
+      <pubDate>Sun, 04 Sep 2016 00:00:00 +0800</pubDate>
+      <guid>http://greenruby.org/grn-187.html</guid>
+      <content:encoded>
+&lt;h1&gt;#187 - sep 4th 2016&lt;/h1&gt;
+
+&lt;h3&gt;Look&lt;/h3&gt;
+&lt;div&gt;Examples of UI/UX, graphic performance, web design and flashy things.&lt;/div&gt;
+&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; border=&quot;0&quot; width=&quot;100%&quot;&gt;
+
+&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+&lt;a href=&quot;https://www.carruagensdefogo.com.br/en.html&quot;&gt;Chariots of fire&lt;/a&gt; 
+&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+
+
+&lt;img class=&quot;icon&quot; src=&quot;http://greenruby.org/ico/design.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;design&quot; /&gt;
+
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
+Interresting interactive animation setup.
+&lt;/td&gt;&lt;/tr&gt;
+
+&lt;/table&gt;
+
+&lt;h3&gt;Use&lt;/h3&gt;
+&lt;div&gt;Web applications, resources and tools, available for making our life easier or funnier.&lt;/div&gt;
+&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; border=&quot;0&quot; width=&quot;100%&quot;&gt;
+
+&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+&lt;a href=&quot;https://alpha.trycarbide.com/&quot;&gt;Carbide Alpha&lt;/a&gt; 
+&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+
+
+&lt;img class=&quot;icon&quot; src=&quot;http://greenruby.org/ico/js.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;js&quot; /&gt;
+
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
+a new kind of programming environment
+&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+&lt;a href=&quot;http://tmrts.com/go-patterns/&quot;&gt;Awesome Go Patterns&lt;/a&gt; 
+&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+
+
+&lt;img class=&quot;icon&quot; src=&quot;http://greenruby.org/ico/go.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;go&quot; /&gt;
+
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
+A curated list of Go patterns and idioms
+&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+&lt;a href=&quot;https://deploybot.com/&quot;&gt;DeployBot&lt;/a&gt; 
+&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+
+
+&lt;img class=&quot;icon&quot; src=&quot;http://greenruby.org/ico/ops.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;ops&quot; /&gt;
+
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
+A service that build and ship code in one consistent process.
+&lt;/td&gt;&lt;/tr&gt;
+
+&lt;/table&gt;
+
+&lt;h3&gt;Install&lt;/h3&gt;
+&lt;div&gt;A selection of gems or applications updated during past week.&lt;/div&gt;
+&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; border=&quot;0&quot; width=&quot;100%&quot;&gt;
+
+&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+&lt;a href=&quot;http://nx-framework.com/&quot;&gt;NX&lt;/a&gt; 
+&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+
+
+&lt;img class=&quot;icon&quot; src=&quot;http://greenruby.org/ico/js.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;js&quot; /&gt;
+
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
+A next generation client-side JavaScript framework.
+&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+&lt;a href=&quot;https://github.com/junegunn/redis-stat&quot;&gt;redis-stat&lt;/a&gt; 
+&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+
+
+&lt;img class=&quot;icon&quot; src=&quot;http://greenruby.org/ico/rb.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;rb&quot; /&gt;
+
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
+A real-time Redis monitoring tool.
+&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+&lt;a href=&quot;https://github.com/hone/mruby-cli&quot;&gt;mruby-cli&lt;/a&gt; 
+&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+
+
+&lt;img class=&quot;icon&quot; src=&quot;http://greenruby.org/ico/rb.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;rb&quot; /&gt;
+
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
+A platform to build native command line applications for Linux, Windows, and OS X
+&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+&lt;a href=&quot;https://github.com/EventtusHQ/uniqueness&quot;&gt;uniqueness&lt;/a&gt; 
+&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+
+
+&lt;img class=&quot;icon&quot; src=&quot;http://greenruby.org/ico/rb.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;rb&quot; /&gt;
+
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
+Alternative to rails' has_secure_token
+&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+&lt;a href=&quot;https://github.com/codervault/codervault&quot;&gt;Codervault&lt;/a&gt; 
+&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+
+
+&lt;img class=&quot;icon&quot; src=&quot;http://greenruby.org/ico/rb.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;rb&quot; /&gt;
+
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
+An Open Source, Self-Hosted, Snippet Manager
+&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+&lt;a href=&quot;https://minio.io/&quot;&gt;Minio&lt;/a&gt; 
+&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+
+
+&lt;img class=&quot;icon&quot; src=&quot;http://greenruby.org/ico/go.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;go&quot; /&gt;
+
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
+S3 open source alternative written in Go.
+&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+&lt;a href=&quot;http://rclone.org/&quot;&gt;rclone&lt;/a&gt; 
+&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+
+
+&lt;img class=&quot;icon&quot; src=&quot;http://greenruby.org/ico/tool.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;tool&quot; /&gt;
+
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
+rsync for cloud storage
+&lt;/td&gt;&lt;/tr&gt;
+
+&lt;/table&gt;
+
+&lt;h3&gt;Read&lt;/h3&gt;
+&lt;div&gt;From the blogosphere or news feeds ...&lt;/div&gt;
+&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; border=&quot;0&quot; width=&quot;100%&quot;&gt;
+
+&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+&lt;a href=&quot;https://phraseapp.com/blog/posts/last-rails-i18n-guide-youll-ever-need/&quot;&gt;The Last Rails I18n Guide You'll Ever Need&lt;/a&gt; 
+&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+aug 29
+
+&lt;img class=&quot;icon&quot; src=&quot;http://greenruby.org/ico/rb.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;rb&quot; /&gt;
+
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
+Comprehensive guide for i18n usage in rails.
+&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+&lt;a href=&quot;http://open.blogs.nytimes.com/2016/08/29/testing-varnish-using-varnishtest/&quot;&gt;Testing Varnish Using Varnishtest&lt;/a&gt; 
+&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+aug 29
+
+&lt;img class=&quot;icon&quot; src=&quot;http://greenruby.org/ico/ops.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;ops&quot; /&gt;
+
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
+Testing with varnishtest makes a huge impact when working with VCL.
+&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+&lt;a href=&quot;http://dalibornasevic.com/posts/69-managing-activerecord-connections-with-octoshark&quot;&gt;Managing ActiveRecord connections with Octoshark&lt;/a&gt; 
+&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+aug 30
+
+&lt;img class=&quot;icon&quot; src=&quot;http://greenruby.org/ico/rb.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;rb&quot; /&gt;
+
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
+Octoshark is a simple ActiveRecord connection manager.
+&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+&lt;a href=&quot;http://www.rubypigeon.com/posts/examining-internals-of-rails-request-response-cycle/&quot;&gt;Examining The Internals Of The Rails Request/Response Cycle&lt;/a&gt; 
+&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+aug 31
+
+&lt;img class=&quot;icon&quot; src=&quot;http://greenruby.org/ico/rb.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;rb&quot; /&gt;
+
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
+I have been quized on this during an interview.
+&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+&lt;a href=&quot;https://www.sitepoint.com/better-nested-attributes-in-rails-with-the-cocoon-gem/&quot;&gt;Better Nested Attributes in Rails with the Cocoon Gem&lt;/a&gt; 
+&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+sep 1
+
+&lt;img class=&quot;icon&quot; src=&quot;http://greenruby.org/ico/rb.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;rb&quot; /&gt;
+
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
+How to do nested forms and attributes in Rails with the Cocoon gem.
+&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+&lt;a href=&quot;https://blog.codeship.com/good-module-bad-module/&quot;&gt;Good Module, Bad Module&lt;/a&gt; 
+&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+sep 1
+
+&lt;img class=&quot;icon&quot; src=&quot;http://greenruby.org/ico/rb.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;rb&quot; /&gt;
+
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
+You already know how to use modules in Ruby, but are you abusing them?
+&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+&lt;a href=&quot;https://www.leighhalliday.com/named-captures-ruby-regular-expressions&quot;&gt;Named Captures in Ruby Regular Expressions&lt;/a&gt; 
+&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+sep 1
+
+&lt;img class=&quot;icon&quot; src=&quot;http://greenruby.org/ico/rb.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;rb&quot; /&gt;
+
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
+What if we could assign a name/key to the value being captured/extracted from our string?
+&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+&lt;a href=&quot;http://twin.github.io/resumable-file-uploads-in-ruby/&quot;&gt;Resumable File Uploads in Ruby&lt;/a&gt; 
+&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
+sep 4
+
+&lt;img class=&quot;icon&quot; src=&quot;http://greenruby.org/ico/rb.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;rb&quot; /&gt;
+
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
+Discover tus, an open protocol for resumable file uploads built on HTTP.
+&lt;/td&gt;&lt;/tr&gt;
+
+&lt;/table&gt;
+
+
+</content:encoded>
+      <dc:date>2016-09-04T00:00:00+08:00</dc:date>
+    </item>
     <item>
       <title>Green Ruby News #186</title>
       <link>http://greenruby.org/grn-186.html</link>
@@ -2950,396 +3214,6 @@ Incorporate functional programming concepts into Ruby code
 </content:encoded>
       <dc:date>2016-07-03T00:00:00+08:00</dc:date>
     </item>
-    <item>
-      <title>Green Ruby News #177</title>
-      <link>http://greenruby.org/grn-177.html</link>
-      <pubDate>Sun, 26 Jun 2016 00:00:00 +0800</pubDate>
-      <guid>http://greenruby.org/grn-177.html</guid>
-      <content:encoded>
-&lt;h1&gt;#177 - jun 26th 2016&lt;/h1&gt;
-
-&lt;h3&gt;Look&lt;/h3&gt;
-&lt;div&gt;Examples of UI/UX, graphic performance, web design and flashy things.&lt;/div&gt;
-&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; border=&quot;0&quot; width=&quot;100%&quot;&gt;
-
-&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-&lt;a href=&quot;https://mockupeditor.com/editor&quot;&gt;MockupEditor&lt;/a&gt; 
-&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-
-
-&lt;img class=&quot;icon&quot; src=&quot;http://greenruby.org/ico/design.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;design&quot; /&gt;
-
-&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
-Create instant mockups of your scene.
-&lt;/td&gt;&lt;/tr&gt;
-
-&lt;/table&gt;
-
-&lt;h3&gt;Use&lt;/h3&gt;
-&lt;div&gt;Web applications, resources and tools, available for making our life easier or funnier.&lt;/div&gt;
-&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; border=&quot;0&quot; width=&quot;100%&quot;&gt;
-
-&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-&lt;a href=&quot;https://www.remotelyawesomejobs.com/&quot;&gt;Remotely Awesome&lt;/a&gt; 
-&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-
-
-&lt;img class=&quot;icon&quot; src=&quot;http://greenruby.org/ico/web.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;web&quot; /&gt;
-
-&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
-Remote jobs aggregation website.
-&lt;/td&gt;&lt;/tr&gt;
-
-&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-&lt;a href=&quot;https://jobspresso.co/&quot;&gt;Jobspresso&lt;/a&gt; 
-&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-
-
-&lt;img class=&quot;icon&quot; src=&quot;http://greenruby.org/ico/web.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;web&quot; /&gt;
-
-&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
-JFind remote jobs and careers.
-&lt;/td&gt;&lt;/tr&gt;
-
-&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-&lt;a href=&quot;https://authenticjobs.com/&quot;&gt;Authentic Jobs&lt;/a&gt; 
-&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-
-
-&lt;img class=&quot;icon&quot; src=&quot;http://greenruby.org/ico/web.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;web&quot; /&gt;
-
-&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
-Web, Design, Freelance, and Tech Jobs.
-&lt;/td&gt;&lt;/tr&gt;
-
-&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-&lt;a href=&quot;https://www.upwork.com&quot;&gt;Upwork&lt;/a&gt; 
-&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-
-
-&lt;img class=&quot;icon&quot; src=&quot;http://greenruby.org/ico/web.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;web&quot; /&gt;
-
-&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
-Get Freelance Jobs Online.
-&lt;/td&gt;&lt;/tr&gt;
-
-&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-&lt;a href=&quot;http://drjekyllthemes.github.io/&quot;&gt;Dr. Jekyll's Themes&lt;/a&gt; 
-&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-
-
-&lt;img class=&quot;icon&quot; src=&quot;http://greenruby.org/ico/design.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;design&quot; /&gt;
-
-&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
-A Jaekyll theme directory.
-&lt;/td&gt;&lt;/tr&gt;
-
-&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-&lt;a href=&quot;https://github.com/git-tips/tips&quot;&gt;Git-tips&lt;/a&gt; 
-&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-
-
-&lt;img class=&quot;icon&quot; src=&quot;http://greenruby.org/ico/tool.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;tool&quot; /&gt;
-
-&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
-Most commonly used git tips and tricks.
-&lt;/td&gt;&lt;/tr&gt;
-
-&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-&lt;a href=&quot;https://pgcasts.com&quot;&gt;PG Casts&lt;/a&gt; 
-&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-
-
-&lt;img class=&quot;icon&quot; src=&quot;http://greenruby.org/ico/tool.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;tool&quot; /&gt;
-
-&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
-PostgreSQL screencasts from the people at Hashrocket.
-&lt;/td&gt;&lt;/tr&gt;
-
-&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-&lt;a href=&quot;https://puppet.com/resources/white-paper/2016-state-of-devops-report&quot;&gt;2016 State of DevOps Report&lt;/a&gt; 
-&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-
-
-&lt;img class=&quot;icon&quot; src=&quot;http://greenruby.org/ico/ops.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;ops&quot; /&gt;
-
-&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
-The annual Puppet report with data about devops.
-&lt;/td&gt;&lt;/tr&gt;
-
-&lt;/table&gt;
-
-&lt;h3&gt;Install&lt;/h3&gt;
-&lt;div&gt;A selection of gems or applications updated during past week.&lt;/div&gt;
-&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; border=&quot;0&quot; width=&quot;100%&quot;&gt;
-
-&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-&lt;a href=&quot;https://www.ruby-lang.org/en/news/2016/06/20/ruby-2-4-0-preview1-released/&quot;&gt;Ruby 2.4.0-preview1&lt;/a&gt; 
-&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-jun 20
-
-&lt;img class=&quot;icon&quot; src=&quot;http://greenruby.org/ico/rb.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;rb&quot; /&gt;
-
-&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
-Many features improvement, they say.
-&lt;/td&gt;&lt;/tr&gt;
-
-&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-&lt;a href=&quot;http://weblog.rubyonrails.org/2016/6/24/this-week-in-rails-5-0-0-rc2-release-bugfixes-and-more/&quot;&gt;Rails 5.0.0.rc2&lt;/a&gt; 
-&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-jun 24
-
-&lt;img class=&quot;icon&quot; src=&quot;http://greenruby.org/ico/rb.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;rb&quot; /&gt;
-
-&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
-Details of the last RC release for Rails 5.
-&lt;/td&gt;&lt;/tr&gt;
-
-&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-&lt;a href=&quot;https://github.com/dwbutler/groupify&quot;&gt;Groupify&lt;/a&gt; 
-&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-
-
-&lt;img class=&quot;icon&quot; src=&quot;http://greenruby.org/ico/rb.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;rb&quot; /&gt;
-
-&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
-Add group and membership functionality to your Rails models.
-&lt;/td&gt;&lt;/tr&gt;
-
-&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-&lt;a href=&quot;https://github.com/matiasgagliano/action_access&quot;&gt;Action_access&lt;/a&gt; 
-&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-
-
-&lt;img class=&quot;icon&quot; src=&quot;http://greenruby.org/ico/rb.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;rb&quot; /&gt;
-
-&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
-Access control system for Ruby on Rails.
-&lt;/td&gt;&lt;/tr&gt;
-
-&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-&lt;a href=&quot;http://iris-go.com/&quot;&gt;Iris&lt;/a&gt; 
-&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-
-
-&lt;img class=&quot;icon&quot; src=&quot;http://greenruby.org/ico/go.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;go&quot; /&gt;
-
-&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
-A fast web framework in Go.
-&lt;/td&gt;&lt;/tr&gt;
-
-&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-&lt;a href=&quot;https://github.com/elixir-lang/elixir/releases/tag/v1.3.0&quot;&gt;Elixir 1.3&lt;/a&gt; 
-&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-jun 21
-
-&lt;img class=&quot;icon&quot; src=&quot;http://greenruby.org/ico/el.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;el&quot; /&gt;
-
-&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
-Various fixes and new evolutions.
-&lt;/td&gt;&lt;/tr&gt;
-
-&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-&lt;a href=&quot;https://github.com/edgurgel/verk&quot;&gt;Verk&lt;/a&gt; 
-&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-
-
-&lt;img class=&quot;icon&quot; src=&quot;http://greenruby.org/ico/el.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;el&quot; /&gt;
-
-&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
-A job processing system that just verks!
-&lt;/td&gt;&lt;/tr&gt;
-
-&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-&lt;a href=&quot;https://github.com/algolia/places&quot;&gt;Places&lt;/a&gt; 
-&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-
-
-&lt;img class=&quot;icon&quot; src=&quot;http://greenruby.org/ico/js.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;js&quot; /&gt;
-
-&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
-Turn any input into an address autocomplete
-&lt;/td&gt;&lt;/tr&gt;
-
-&lt;/table&gt;
-
-&lt;h3&gt;Read&lt;/h3&gt;
-&lt;div&gt;From the blogosphere or news feeds ...&lt;/div&gt;
-&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; border=&quot;0&quot; width=&quot;100%&quot;&gt;
-
-&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-&lt;a href=&quot;https://blog.fastmail.com/2016/06/20/everything-you-could-ever-want-to-know-and-more-about-controlling-the-referer-header/&quot;&gt;About controlling the Referer header&lt;/a&gt; 
-&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-jun 20
-
-&lt;img class=&quot;icon&quot; src=&quot;http://greenruby.org/ico/web.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;web&quot; /&gt;
-
-&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
-Everything you could ever want to know (and more) about controlling the Referer header.
-&lt;/td&gt;&lt;/tr&gt;
-
-&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-&lt;a href=&quot;https://medium.com/designed-thought/redesign-hacker-news-f3af65d70668#.5os3s32tt&quot;&gt;Redesign Hacker News&lt;/a&gt; 
-&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-jun 20
-
-&lt;img class=&quot;icon&quot; src=&quot;http://greenruby.org/ico/design.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;design&quot; /&gt;
-
-&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
-The 5 areas to improve, how and why.
-&lt;/td&gt;&lt;/tr&gt;
-
-&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-&lt;a href=&quot;http://www.rubypigeon.com/posts/a-review-of-immutability-in-ruby/&quot;&gt;A Review Of Immutability In Ruby&lt;/a&gt; 
-&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-jun 21
-
-&lt;img class=&quot;icon&quot; src=&quot;http://greenruby.org/ico/rb.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;rb&quot; /&gt;
-
-&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
-Options available to Rubyists regarding immutability.
-&lt;/td&gt;&lt;/tr&gt;
-
-&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-&lt;a href=&quot;https://css-tricks.com/content-jumping-avoid/&quot;&gt;Content Jumping (and How To Avoid It)&lt;/a&gt; 
-&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-jun 21
-
-&lt;img class=&quot;icon&quot; src=&quot;http://greenruby.org/ico/css3.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;css3&quot; /&gt;
-
-&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
-One of the more eye-twinging behaviors of web sites and some possibilities.
-&lt;/td&gt;&lt;/tr&gt;
-
-&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-&lt;a href=&quot;https://wyeworks.com/blog/2016/6/22/behavior-changes-in-ruby-2.4/&quot;&gt;Behavior changes in Ruby 2.4&lt;/a&gt; 
-&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-jun 22
-
-&lt;img class=&quot;icon&quot; src=&quot;http://greenruby.org/ico/rb.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;rb&quot; /&gt;
-
-&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
-Changes that are not entirely backward compatible.
-&lt;/td&gt;&lt;/tr&gt;
-
-&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-&lt;a href=&quot;https://www.sitepoint.com/liberate-your-search-in-rails-with-tags/&quot;&gt;Liberate Your Search in Rails with Tags&lt;/a&gt; 
-&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-jun 23
-
-&lt;img class=&quot;icon&quot; src=&quot;http://greenruby.org/ico/rb.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;rb&quot; /&gt;
-
-&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
-How to take a complicated search model and open it up with tags.
-&lt;/td&gt;&lt;/tr&gt;
-
-&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-&lt;a href=&quot;https://scotch.io/tutorials/getting-started-with-hapi-js&quot;&gt;Getting Started with Hapi.js&lt;/a&gt; 
-&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-jun 23
-
-&lt;img class=&quot;icon&quot; src=&quot;http://greenruby.org/ico/js.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;js&quot; /&gt;
-
-&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
-An alternative to express.js.
-&lt;/td&gt;&lt;/tr&gt;
-
-&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-&lt;a href=&quot;https://www.sitepoint.com/understanding-elixirs-ecto-querying-dsl-the-basics/&quot;&gt;Understanding Elixir's Ecto Querying DSL&lt;/a&gt; 
-&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-jun 24
-
-&lt;img class=&quot;icon&quot; src=&quot;http://greenruby.org/ico/el.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;el&quot; /&gt;
-
-&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
-Basics of querying with Elixir's Ecto library, going through joins, associations, aggregation functions, and so on.
-&lt;/td&gt;&lt;/tr&gt;
-
-&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-&lt;a href=&quot;https://medium.com/cluster-vs-clutter/10-benefits-of-code-review-for-the-win-561fcc869363&quot;&gt;10 benefits of Code Review for the win&lt;/a&gt; 
-&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-jun 24
-
-&lt;img class=&quot;icon&quot; src=&quot;http://greenruby.org/ico/tool.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;tool&quot; /&gt;
-
-&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
-Problem: People make mistakes.
-&lt;/td&gt;&lt;/tr&gt;
-
-&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-&lt;a href=&quot;https://github.com/blog/2195-the-shape-of-open-source&quot;&gt;The shape of open source&lt;/a&gt; 
-&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-jun 24
-
-&lt;img class=&quot;icon&quot; src=&quot;http://greenruby.org/ico/web.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;web&quot; /&gt;
-
-&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
-At its core, open source is about collaboration. Here are some graphs.
-&lt;/td&gt;&lt;/tr&gt;
-
-&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-&lt;a href=&quot;http://rosenfeld.herokuapp.com/en/articles/infrastructure/2016-06-24-a-sample-ruby-script-to-achieve-fast-incremental-back-up-on-btrfs-partition&quot;&gt;Ruby script to achieve fast incremental back-up on btrfs partition&lt;/a&gt; 
-&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-jun 24
-
-&lt;img class=&quot;icon&quot; src=&quot;http://greenruby.org/ico/ops.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;ops&quot; /&gt;
-
-&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
-The script and the details about it.
-&lt;/td&gt;&lt;/tr&gt;
-
-&lt;/table&gt;
-
-&lt;h3&gt;Watch&lt;/h3&gt;
-&lt;div&gt;Screencasts and conferences videos, or other video feeds ...&lt;/div&gt;
-&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; border=&quot;0&quot; width=&quot;100%&quot;&gt;
-
-&lt;tr&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-&lt;a href=&quot;https://www.driftingruby.com/episodes/playing-with-json&quot;&gt;Drifting Ruby #34&lt;/a&gt; &lt;span&gt;(3m)&lt;/span&gt;
-&lt;/td&gt;&lt;td style=&quot;color:#aaaaaa;&quot;&gt;
-jun 19
-
-&lt;img class=&quot;icon&quot; src=&quot;http://greenruby.org/ico/rb.png&quot; height=&quot;18&quot; width=&quot;18&quot; align=&quot;right&quot; alt=&quot;rb&quot; /&gt;
-
-&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;
-Some neat tips and tricks for interacting with and parsing JSON responses from an API.
-&lt;/td&gt;&lt;/tr&gt;
-
-&lt;/table&gt;
-
-
-</content:encoded>
-      <dc:date>2016-06-26T00:00:00+08:00</dc:date>
-    </item>
-    <dc:date>2016-08-29T03:29:52+08:00</dc:date>
+    <dc:date>2016-09-05T01:59:50+08:00</dc:date>
   </channel>
 </rss>
