@@ -40,11 +40,29 @@ topics:
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "action_mailer_matchers"
+    url: "https://github.com/contently/action_mailer_matchers"
+    comment: "Rspec matchers to test Rails' common ActionMailer functionality."
     tags:
       - rb
+
+  - title: "quill"
+    url: "https://github.com/quilljs/quill"
+    comment: "Powerful rich text editor."
+    tags:
+      - js
+
+  - title: "git-fiddle"
+    url: "https://github.com/felixSchl/git-fiddle"
+    comment: "Edit commit messages, authors and timestamps during git-rebase"
+    tags:
+      - tool
+
+  - title: "Insomnia"
+    url: "https://insomnia.rest/"
+    comment: "A simple REST API client"
+    tags:
+      - web
 
 
 - title: Read
@@ -54,6 +72,13 @@ topics:
   - title: "Resumable File Uploads in Ruby"
     url: "https://twin.github.io/resumable-file-uploads-in-ruby"
     comment: "We now have an open stable resumable upload protocol which we can all agree on."
+    pubdate: sep 4
+    tags:
+      - rb
+
+  - title: "Object Orientation in Ruby and Elixir"
+    url: "http://mikepackdev.com/blog_posts/45-object-orientation-in-ruby-and-elixir"
+    comment: "Design OO like methods in Elixir."
     pubdate: sep 4
     tags:
       - rb
@@ -71,6 +96,13 @@ topics:
     pubdate: sep 6
     tags:
       - css3
+
+  - title: "Being Lazy with ActiveRecord"
+    url: "https://tech.lendinghome.com/being-lazy-with-activerecord-77c470917160"
+    comment: "Using .lazy to ActiveRecord relation enumerator."
+    pubdate: sep 7
+    tags:
+      - rb
 
   - title: "Building Resizeable Components with Relative CSS Units"
     url: "https://css-tricks.com/building-resizeable-components-relative-css-units/"
