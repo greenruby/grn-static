@@ -1,0 +1,159 @@
+----------------------------------------------------
+Green Ruby News #188 - sep 11th 2016
+----------------------------------------------------
+*|IFNOT:CONTENT=Only Rant|*
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+*Designgest* (design)
+http://designgest.com/
+Designgest is an easy way to get fresh information about interactive design trends
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+*Ruby Rampage* (rb)
+https://www.rubyrampage.com/
+Rails eumble is now using a new name, and it will happen soon.
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+*App_perf* (rb)
+https://github.com/randy-girard/app_perf
+Open source application performance monitoring tool with emphasis on ease of setup and use.
+
+*action_mailer_matchers* (rb)
+https://github.com/contently/action_mailer_matchers
+Rspec matchers to test Rails' common ActionMailer functionality.
+
+*quill* (js)
+https://github.com/quilljs/quill
+Powerful rich text editor.
+
+*timeago.js* (js)
+http://timeago.org/?utm_source=codropscollective
+Tiny library used to format date like '3 hours ago'. No dependence.
+
+*Radiobox.css* (css3)
+https://720kb.github.io/radiobox.css/
+Animated CSS3 radio inputs.
+
+*git-fiddle* (tool)
+https://github.com/felixSchl/git-fiddle
+Edit commit messages, authors and timestamps during git-rebase
+
+*Insomnia* (tool)
+https://insomnia.rest/
+A simple REST API client
+
+*My looking glass* (ops)
+http://mylg.io/
+Utility which combines the functions of the different network probes in one network diagnostic tool.
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+*Resumable File Uploads in Ruby* (rb - sep 4)
+https://twin.github.io/resumable-file-uploads-in-ruby
+We now have an open stable resumable upload protocol which we can all agree on.
+
+*Object Orientation in Ruby and Elixir* (rb - sep 4)
+http://mikepackdev.com/blog_posts/45-object-orientation-in-ruby-and-elixir
+Design OO like methods in Elixir.
+
+*API First Transformation at Etsy – Concurrency* (web - sep 6)
+https://codeascraft.com/2016/09/06/api-first-transformation-at-etsy-concurrency/
+In order to not reinvent the world on each different device, we started sharing data via an internal API years ago.
+
+*Getting Started with CSS Counters* (css3 - sep 6)
+https://scotch.io/tutorials/getting-started-with-css-counters
+Another fun little css trick.
+
+*Locking Down an SSH Server* (ops - sep 6)
+http://www.moundalexis.com/v2/2016/09/06/securing-sshd.html
+If you have a publicly accessible host connected to the Internet, it's likely under attack.
+
+*Being Lazy with ActiveRecord* (rb - sep 7)
+https://tech.lendinghome.com/being-lazy-with-activerecord-77c470917160
+Using .lazy to ActiveRecord relation enumerator.
+
+*Augmenting a Ruby on Rails App with Vue.js* (rb - sep 7)
+https://ksylvest.com/posts/2016-09-07/augmenting-a-ruby-on-rails-app-with-vue-js
+A lightweight approach to integrating Vue.js into a Ruby on Rails application.
+
+*How To Scale React Applications – Smashing Magazine* (js - sep 8)
+https://www.smashingmagazine.com/2016/09/how-to-scale-react-applications/
+The React Boilerplate team explains how they build and scale their web applications.
+
+*Building Resizeable Components with Relative CSS Units* (css3 - sep 9)
+https://css-tricks.com/building-resizeable-components-relative-css-units/
+Explore a concept that lets us resize our components by using CSS relative units (%, em, or rem).
+
+*Better File Uploads with Shrine: Motivation* (rb - sep 11)
+http://twin.github.io/better-file-uploads-with-shrine-motivation/
+The motivation behind creating Shrine, by going over the limitations of existing file attachment libraries.
+
+Watch
+----------------------------------------------------
+Screencasts and conferences videos, or other video feeds ...
+
+*AtoZ CSS Screencast: Display* (css3 - sep 9 - 5 min)
+https://www.sitepoint.com/atoz-css-screencast-display/
+Refresh or learn some basic css elements.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+Links curated by by mose (publisher), xenor, tysliu (editors).
+*|END:IF|*
+*|IFNOT:CONTENT=Only Links|*
+
+Rant
+----------------------------------------------------
+The random rant of the week by mose.
+
+#### Observability and Digestibility
+
+This is a word I love. I found it again in a [recent blog post about system
+blindness][blindness] and it reminded me how critical this need is. Our
+systems get more and more numerous and small. The reliability and debugging of
+a platform now goes into various loops given the multiplication of actors.
+
+Observability should be one core pre-requisite when designing a service
+oriented architecture with micro-services. But just having everything plugged
+to some ELK is not going to help that much. I feel that there is a new job in
+there. Some function that has to be fulfilled. Something to reduce that vast
+amount of data into something that makes sense. An intermediary that will
+correlate logs from various sources. It would put them together and reduce
+them to some meaningful 'events'.
+
+So I think observability is not enough. Digestibility is what makes
+observability worth it. Maybe such tools already exist? Hmm, probably in the
+containers worlds there is something like that. Is there not?
+
+[blindness]: https://medium.com/production-ready/systems-blindness-and-how-we-deal-with-it-d601fa63b7f4#.ub69zflcv 
+
+*|END:IF|*
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+
