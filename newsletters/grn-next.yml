@@ -28,6 +28,10 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
+- title: Install
+  baseline: "A selection of gems or applications updated during past week."
+  links:
+
   - title: "Suture"
     url: "https://github.com/testdouble/suture"
     comment: "A refactoring tool for Ruby, designed to make it safe to change code you don't confidently understand."
@@ -46,13 +50,15 @@ topics:
     tags:
       - rb
 
-- title: Install
-  baseline: "A selection of gems or applications updated during past week."
-  links:
+  - title: "blue_hydra"
+    url: "https://github.com/pwnieexpress/blue_hydra"
+    comment: "A Bluetooth device discovery service."
+    tags:
+      - rb
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "baby_squeel"
+    url: "https://github.com/rzane/baby_squeel"
+    comment: "An expressive query DSL for Active Record 4 and 5."
     tags:
       - rb
 
@@ -82,12 +88,26 @@ topics:
     tags:
       - web
 
+  - title: "Introducing debugger.html"
+    url: "https://hacks.mozilla.org/2016/09/introducing-debugger-html/"
+    comment: "A JavaScript debugger with React and Redux that can connect to Firefox, Chrome, and NodeJS."
+    pubdate: sep 14
+    tags:
+      - js
+
   - title: "Introducing 411: A new open source framework for handling alerting"
     url: "https://codeascraft.com/2016/09/15/introducing-411-a-new-open-source-framework-for-handling-alerting/"
     comment: "411 is a query scheduler: it executes saved Elasticsearch queries against your cluster, formats the results, and sends them to you as an alert."
     pubdate: sep 15
     tags:
       - tools
+
+  - title: "HTTP Calls in Ruby"
+    url: "https://blog.codeship.com/http-calls-ruby/"
+    comment: "Explore options in Ruby to make HTTP requests."
+    pubdate: "sep 15"
+    tags:
+      - rb
 
   - title: "Ruby: Hash default value – be cautious when you use it"
     url: "http://dev.mensfeld.pl/2016/09/ruby-hash-default-value-be-cautious-when-you-use-it/"
