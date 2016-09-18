@@ -1,6 +1,6 @@
 ---
-edition: "189"
-pubdate: "sep 18th 2016"
+edition: "190"
+pubdate: "sep 25th 2016"
 editors: "xenor, tysliu"
 participants: "Nauman Tariq, hsatac"
 rant:
@@ -28,37 +28,21 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
+  - title: ""
+    url: ""
+    comment: ""
+    tags:
+      - css3
+
+
+
 - title: Install
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: "Suture"
-    url: "https://github.com/testdouble/suture"
-    comment: "A refactoring tool for Ruby, designed to make it safe to change code you don't confidently understand."
-    tags:
-      - rb
-
-  - title: "Mittsu"
-    url: "https://github.com/jellymann/mittsu"
-    comment: "Mittsu makes 3D graphics easier by providing an abstraction over OpenGL."
-    tags:
-      - rb
-
-  - title: "ruby-stacktrace"
-    url: "https://github.com/jvns/ruby-stacktrace"
-    comment: "Have you ever wanted to know what your Ruby program is doing? ruby-stacktrace can tell you! Maybe."
-    tags:
-      - rb
-
-  - title: "blue_hydra"
-    url: "https://github.com/pwnieexpress/blue_hydra"
-    comment: "A Bluetooth device discovery service."
-    tags:
-      - rb
-
-  - title: "baby_squeel"
-    url: "https://github.com/rzane/baby_squeel"
-    comment: "An expressive query DSL for Active Record 4 and 5."
+  - title: ""
+    url: ""
+    comment: ""
     tags:
       - rb
 
@@ -67,59 +51,10 @@ topics:
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: "How to Deploy a Sinatra App in Docker to Amazon's EC2 Container Service"
-    url: "http://blog.honeybadger.io/how-to-deploy-a-sinatra-app-in-docker-to-amazon-s-ec2-container-service/"
-    comment: "ECS is kind of like a grown-up, production-ready mashup of docker-compose and docker-swarm."
-    pubdate: sep 13
-    tags:
-      - rb
-
-  - title: "Why there is no CSS4 - explaining CSS Levels"
-    url: "https://www.rachelandrew.co.uk/archives/2016/09/13/why-there-is-no-css4-explaining-css-levels/"
-    comment: "We had CSS1, and CSS2. We even had CSS2.1 and we then moved onto CSS3 – or did we?"
-    pubdate: sep 13
-    tags:
-      - css3
-
-  - title: "The GitHub GraphQL API"
-    url: "http://githubengineering.com/the-github-graphql-api/"
-    comment: "GraphQL represents a massive leap forward for API development."
-    pubdate: sep 14
-    tags:
-      - web
-
-  - title: "Introducing debugger.html"
-    url: "https://hacks.mozilla.org/2016/09/introducing-debugger-html/"
-    comment: "A JavaScript debugger with React and Redux that can connect to Firefox, Chrome, and NodeJS."
-    pubdate: sep 14
-    tags:
-      - js
-
-  - title: "Introducing 411: A new open source framework for handling alerting"
-    url: "https://codeascraft.com/2016/09/15/introducing-411-a-new-open-source-framework-for-handling-alerting/"
-    comment: "411 is a query scheduler: it executes saved Elasticsearch queries against your cluster, formats the results, and sends them to you as an alert."
-    pubdate: sep 15
-    tags:
-      - tools
-
-  - title: "HTTP Calls in Ruby"
-    url: "https://blog.codeship.com/http-calls-ruby/"
-    comment: "Explore options in Ruby to make HTTP requests."
-    pubdate: "sep 15"
-    tags:
-      - rb
-
-  - title: "Ruby: Hash default value – be cautious when you use it"
-    url: "http://dev.mensfeld.pl/2016/09/ruby-hash-default-value-be-cautious-when-you-use-it/"
-    comment: "If you decide to use a Hash default value that is other than nil and you don’t understand this concept, you might get into trouble."
-    pubdate: sep 17
-    tags:
-      - rb
-
   - title: ""
     url: ""
     comment: ""
-    pubdate: sep 13
+    pubdate: sep 3
     tags:
       - rb
 

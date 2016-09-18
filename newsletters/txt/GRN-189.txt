@@ -1,0 +1,151 @@
+----------------------------------------------------
+Green Ruby News #189 - sep 18th 2016
+----------------------------------------------------
+*|IFNOT:CONTENT=Only Rant|*
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+*Benoit Challand* (design)
+http://www.benoitchalland.com/
+A creative image maker with an interesting website.
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+*Github map* (web)
+https://jamesmilneruk.github.io/github-map/
+A github users global map. Interesting repartition. More githubers in North-Korea than in Alaska? hum.
+
+*SpinThatShit* (css3)
+https://matejkustec.github.io/SpinThatShit/
+Set of SCSS mixins for single element loaders and spinners
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+*Suture* (rb)
+https://github.com/testdouble/suture
+A refactoring tool for Ruby, designed to make it safe to change code you don't confidently understand.
+
+*Mittsu* (rb)
+https://github.com/jellymann/mittsu
+Mittsu makes 3D graphics easier by providing an abstraction over OpenGL.
+
+*ruby-stacktrace* (rb)
+https://github.com/jvns/ruby-stacktrace
+Have you ever wanted to know what your Ruby program is doing? ruby-stacktrace can tell you! Maybe.
+
+*BlueHydra* (rb)
+https://github.com/pwnieexpress/blue_hydra
+A Bluetooth device discovery service.
+
+*BabySqueel* (rb)
+https://github.com/rzane/baby_squeel
+An expressive query DSL for Active Record 4 and 5.
+
+*CoreDNS* (ops)
+https://coredns.io/
+CoreDNS is a DNS server that chains middleware. Successor of skydns.
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+*Sinatra App in Docker to Amazon's ECS* (rb - sep 13)
+http://blog.honeybadger.io/how-to-deploy-a-sinatra-app-in-docker-to-amazon-s-ec2-container-service/
+ECS is kind of like a grown-up, production-ready mashup of docker-compose and docker-swarm.
+
+*Why there is no CSS4 - explaining CSS Levels* (css3 - sep 13)
+https://www.rachelandrew.co.uk/archives/2016/09/13/why-there-is-no-css4-explaining-css-levels/
+We had CSS1, and CSS2. We even had CSS2.1 and we then moved onto CSS3 – or did we?
+
+*5 Logstash Alternatives* (ops - sep 13)
+https://sematext.com/blog/2016/09/13/logstash-alternatives/
+Logstash is clearly a popular choice, but that's not the only one, for logs aggregation.
+
+*The GitHub GraphQL API* (web - sep 14)
+http://githubengineering.com/the-github-graphql-api/
+GraphQL represents a massive leap forward for API development.
+
+*Introducing debugger.html* (js - sep 14)
+https://hacks.mozilla.org/2016/09/introducing-debugger-html/
+A JavaScript debugger with React and Redux that can connect to Firefox, Chrome, and NodeJS.
+
+*Microservices – Please, don’t* (ops - sep 14)
+http://basho.com/posts/technical/microservices-please-dont/
+The downsides and bad excuses for switching to micro-services.
+
+*Introducing 411: A new open source framework for handling alerting* (tool - sep 15)
+https://codeascraft.com/2016/09/15/introducing-411-a-new-open-source-framework-for-handling-alerting/
+411 is a query scheduler: it executes saved Elasticsearch queries against your cluster, formats the results, and sends them to you as an alert.
+
+*A whole new GitHub Universe* (tool - sep 15)
+https://github.com/blog/2256-a-whole-new-github-universe-announcing-new-tools-forums-and-features
+Github changed a lot of things this week in their UI.
+
+*HTTP Calls in Ruby* (rb - sep 15)
+https://blog.codeship.com/http-calls-ruby/
+Explore options in Ruby to make HTTP requests.
+
+*Ruby: Hash default value – be cautious when you use it* (rb - sep 17)
+http://dev.mensfeld.pl/2016/09/ruby-hash-default-value-be-cautious-when-you-use-it/
+If you decide to use a Hash default value that is other than nil and you don’t understand this concept, you might get into trouble.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+Links curated by by mose (publisher), xenor, tysliu (editors), mose (contributors).
+*|END:IF|*
+*|IFNOT:CONTENT=Only Links|*
+
+Rant
+----------------------------------------------------
+The random rant of the week by mose.
+
+#### The art of learning
+
+In my review this week I read that [Old Geek post][oldgeek], which has a lot
+of comments under its feet. This is quite interesting. But I feel there is a
+confusion here.
+
+From my experience, age is often related to stagnation. The more you
+accumulate, the heavier you are. It's heart-breaking to abandon years of
+investment in one type of knowledge. Therefore, generally speaking, older
+people are less flexible and less likely to surf on the waves of the new
+technologies.
+
+But I can tell you as a fact that this is just a natural human law, that, like
+many others, can be bended. Bended by discipline, the same way we overcome our
+animal instincts. There are many old practitioners of our skill that became
+master in the art of change. The sacred art of eternal learning. The wisdom of
+daily questioning of previously acquired knowledge.
+
+Obsolescence is not a question of age, but just a question of personality,
+environment and priorities. I know a handful of such oldgeeks that didn't yet
+reach their 30's. And personally (in my 49), I won't stop surfing any time
+soon. hahaha.
+
+[oldgeek]: https://www.tbray.org/ongoing/When/201x/2016/09/14/Old-Geek 
+
+*|END:IF|*
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+
