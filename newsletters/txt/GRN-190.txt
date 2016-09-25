@@ -1,0 +1,169 @@
+----------------------------------------------------
+Green Ruby News #190 - sep 25th 2016
+----------------------------------------------------
+*|IFNOT:CONTENT=Only Rant|*
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+*KIKK Festival* (design)
+http://www.kikk.be/2016/
+KIKK Festival is a mix of technology, visual arts, music, Architecture, design and interactive media
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+*Skylight* (tool)
+https://www.skylight.io/
+Web app profiling tool.
+
+*CloudHero* (ops)
+https://cloudhero.io/
+Secure Docker Container as a Service For Developers (beta, free container for now).
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+*pgslice* (rb)
+https://github.com/ankane/pgslice
+Postgres partitioning tool.
+
+*Pagelet_rails* (rb)
+https://github.com/antulik/pagelet_rails
+Improve perceived performance of your rails application with minimum effort
+
+*Tlaw* (rb)
+https://github.com/molybdenum-99/tlaw
+Pragmatic API wrapper framework.
+
+*Optimize-js* (js)
+https://github.com/nolanlawson/optimize-js
+Optimize a JavaScript file for faster initial load by wrapping eagerly-invoked functions
+
+*Gallium* (go)
+https://github.com/alexflint/gallium
+Build desktop applications in Go and HTML. Kinda like Electron.
+
+*Sqlint* (tool)
+https://github.com/purcell/sqlint
+Simple SQL linter
+
+*Pageflow* (web)
+https://github.com/codevise/pageflow
+Multimedia story telling for the web.
+
+*BedquiltDB* (web)
+http://bedquiltdb.github.io/v2.html
+JSON document-store built on PostgreSQL.
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+*Microservices using Rails, HTTP and RabbitMQ* (rb - sep 19)
+http://blog.mechanicles.com/2016/09/19/microservices-using-rails-http-and-rabbitmq.html
+Example of decoupling an app to micro services.
+
+*Programs that rewrite Ruby programs* (rb - sep 20)
+http://thomasleecopeland.com/2016/09/20/programs-that-rewrite-ruby-programs.html
+Several gems that convert or edit your code based on syntax upgrade or linting.
+
+*DRYing Up Your Ruby Module* (rb - sep 20)
+http://blog.excelwithcode.com/drying-ruby-module.html
+Refactor a Ruby module and see the DRY principle in action
+
+*Understanding REST And RPC For HTTP APIs* (web - sep 20)
+https://www.smashingmagazine.com/2016/09/understanding-rest-and-rpc-for-http-apis/
+Knowing the differences between REST and RPC.
+
+*A couple of words about interactors in Rails* (rb - sep 21)
+https://mkdev.me/en/posts/a-couple-of-words-about-interactors-in-rails
+How to structure a Ruby on Rails applications following Domain Driven Design.
+
+*9 Underutilized Features in CSS* (css3 - sep 22)
+https://medium.com/@iamjordanlittle/9-underutilized-features-in-css-90ced6ddbfe7#.uppu161j8
+There are many old, often-overlooked features in CSS specs which offer some very handy functionality.
+
+*Chatbots: Your Ultimate Prototyping Tool* (design - sep 22)
+https://medium.com/ideo-stories/chatbots-ultimate-prototyping-tool-e4e2831967f3
+How chatbots can teach us to learn what people need when designing products and services.
+
+Watch
+----------------------------------------------------
+Screencasts and conferences videos, or other video feeds ...
+
+*The Container Revolution: Reflections After the First Decade* (ops - sep 18)
+https://www.youtube.com/watch?v=xXWaECk9XqM
+Bryan Cantrill, CTO at Joyent The Container Revolution: Reflections After the First Decade The meteoric rise of Docker brought containers into the limelight.
+
+*Applying Graph Theory to Infrastructure* (ops - sep 18)
+https://www.youtube.com/watch?v=4Pd9NrZSbGU
+Paul Hinze, Director of Infrastructure at HashiCorp Applying Graph Theory to Infrastructure.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+Links curated by by mose (publisher), xenor (editors), xenor, hsatac (contributors).
+*|END:IF|*
+*|IFNOT:CONTENT=Only Links|*
+
+Rant
+----------------------------------------------------
+The random rant of the week by mose.
+
+#### A stress-free life
+
+Next friday, I've been told that I have to stop working for 2 weeks. Well, for
+people that have a normal life and/or kids, it's a pretty good news. For
+people that get heavy pressure from their work, it can give some air. But I
+wondered why I didn't feel like I ever felt the need for holidays. I take them
+by principle, but I'm usually not really eager to get them.
+
+After some consideration, it all sums up to some kind of discipline. I refuse
+stress on a daily basis. I want each day at work to be enjoyable and
+debt-free. It's a bad news for some category of employers. The same way those
+consider it's acceptable to accumulate technical debt, they apply the same
+principle on human-life debt. Put people under pressure, get a loan on their
+health, that will never be repaid. So, I just refuse pressure, the same way I
+would refuse to eat meat if I was really vegetarian (which I am only
+part-time).
+
+Really I have more trouble with holidays because they bring a gap in the
+continuity of work. You get back and there is a lot to catch up on. I would
+prefer to have just one hour work less per day than week-long breaks. But
+that's just me. It would be totally different if I wanted to travel for fun or
+if I had kids. My case is not reproducible.
+
+But the baseline remains valid. whether you have plans or not for holidays,
+they should not be required for having a balanced life. Stress has to be
+fought on a daily basis and not by using breaks. Breaks, in such case, are
+even more enjoyable, if you have the context for it.
+
+The best way I know to push stress away is to put my efforts into what I do,
+in a way that I'm self-aware that I'm really doing what I can to fulfill my
+duties. If someone is not happy about the output, that's their problem not
+mine. If it leads to some awkward context, then it's broken and I will reach
+out to find a better work context. I apply that principle for more than 20
+years now and I can't remember last time I felt stressed.
+
+*|END:IF|*
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+

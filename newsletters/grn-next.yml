@@ -1,6 +1,6 @@
 ---
-edition: "190"
-pubdate: "sep 25th 2016"
+edition: "191"
+pubdate: "oct 2nd 2016"
 editors: "xenor, tysliu"
 participants: "Nauman Tariq, hsatac"
 rant:
@@ -28,11 +28,11 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: "Skylight"
-    url: "https://www.skylight.io/"
-    comment: "Web app profiling tool"
+  - title: ""
+    url: ""
+    comment: ""
     tags:
-      - tool
+      - css3
 
 
 
@@ -40,55 +40,23 @@ topics:
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: "pgslice"
-    url: "https://github.com/ankane/pgslice"
-    comment: "Postgres partitioning tool"
+  - title: ""
+    url: ""
+    comment: ""
     tags:
       - rb
-
-  - title: "pageflow"
-    url: "https://github.com/codevise/pageflow"
-    comment: "Multimedia story telling for the web."
-    tags:
-      - web
-
-  - title: "tlaw"
-    url: "https://github.com/molybdenum-99/tlaw"
-    comment: "Pragmatic API wrapper framework"
-    tags:
-      - rb
-
-  - title: "BedquiltDB"
-    url: "http://bedquiltdb.github.io/v2.html"
-    comment: "JSON document-store built on PostgreSQL."
-    tags:
-      - web
 
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: "Microservices using Rails, HTTP & RabbitMQ"
-    url: "http://blog.mechanicles.com/2016/09/19/microservices-using-rails-http-and-rabbitmq.html"
-    comment: "Example of decoupling an app to micro services."
-    pubdate: sep 19
+  - title: ""
+    url: ""
+    comment: ""
+    pubdate: sep 3
     tags:
       - rb
-
-  - title: "Programs that rewrite Ruby programs"
-    url: "http://thomasleecopeland.com/2016/09/20/programs-that-rewrite-ruby-programs.html"
-    comment: "Several gems that convert or edit your code based on syntax upgrade or linting."
-    pubdate: sep 20
-    tags:
-      - rb
-
-  - title: "Understanding REST And RPC For HTTP APIs"
-    url: "https://www.smashingmagazine.com/2016/09/understanding-rest-and-rpc-for-http-apis/"
-    comment: "Knowing the differences between REST and RPC."
-    pubdate: "sep 20"
-    tags:
-      - web
 
 
 
