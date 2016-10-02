@@ -28,9 +28,9 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "text-spinners"
+    url: "http://tawian.io/text-spinners/"
+    comment: "This project tries to mimic command line spinners like those from cli-spinners (where most of them are taken from) and bring them to the web."
     tags:
       - css3
 
@@ -40,21 +40,49 @@ topics:
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "Choreographer-js"
+    url: "https://github.com/christinecha/choreographer-js"
+    comment: "A simple library to take care of complex CSS animations."
     tags:
-      - rb
+      - js
 
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
   links:
 
+  - title: "Decoding Rails Magic: How Does ActiveJob Work?"
+    url: "https://karolgalanciak.com/blog/2016/09/25/decoding-rails-magic-how-does-activejob-work/"
+    comment: "ActiveJob, which provides extra layer on top of background jobs framework."
+    pubdate: sep 25
+    tags:
+      - rb
+
+  - title: "Create a Single Page App With Go, Echo and Vue"
+    url: "https://scotch.io/tutorials/create-a-single-page-app-with-go-echo-and-vue"
+    comment: "Create a speedy single page application using the power of Go and VueJS"
+    pubdate: sep 26
+    tags:
+      - go
+
+  - title: "Concurrency in Ruby 3 with Guilds"
+    url: "http://olivierlacan.com/posts/concurrency-in-ruby-3-with-guilds/"
+    comment: "A proposal for a new concurrent and parallel mechanism in Ruby called Guilds."
+    pubdate: sep 27
+    tags:
+      - rb
+
+  - title: "Introducing Tensorflow Ruby API"
+    url: "https://medium.com/@Arafat./introducing-tensorflow-ruby-api-e77a477ff16e"
+    comment: "TensorFlow is an extraordinary open source software library for numerical computation using data flow graphs."
+    pubdate: sep 27
+    tags:
+      - rb
+
   - title: ""
     url: ""
     comment: ""
-    pubdate: sep 3
+    pubdate: sep 27
     tags:
       - rb
 
