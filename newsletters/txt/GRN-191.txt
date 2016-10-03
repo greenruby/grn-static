@@ -1,0 +1,191 @@
+----------------------------------------------------
+Green Ruby News #191 - oct 2nd 2016
+----------------------------------------------------
+*|IFNOT:CONTENT=Only Rant|*
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+*Google Web Fonts Typographic Project* (design)
+https://femmebot.github.io/google-type/
+This collaborative, ongoing project offers inspiration for using Google’s font library
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+*The Complete Guide to Rails Performance* (rb)
+https://www.railsspeed.com/
+(book) full-stack course to make Ruby on Rails applications faster, more scalable, and simpler to maintain
+
+*Figma* (design)
+https://www.figma.com
+Collaborative interface design tool.
+
+*text-spinners* (css3)
+http://tawian.io/text-spinners/
+This project tries to mimic command line spinners like those from cli-spinners and bring them to the web.
+
+*Jpeg.io* (tool)
+https://www.jpeg.io
+Convert any major image format into a highly optimized JPEG
+
+*Todo-Backend* (tool)
+http://www.todobackend.com/
+a shared example to showcase backend tech stacks
+
+*Opentest* (tool)
+https://www.opentest.co/
+A Chrome extension for easy video creation and sharing.
+
+*Security blogs* (ops)
+https://github.com/kaizensoze/security-blogs
+A list of security blogs.
+
+*SourceClear* (ops)
+https://www.sourceclear.com/
+Automatic security scanning of your open source dependencies, hooked right into your build tools and repositories.
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+*Formular* (rb)
+https://github.com/trailblazer/formular
+Form builder for Ruby. Fast, Furious, and Framework-Agnostic.
+
+*Babushka* (rb)
+http://babushka.me/
+Tool for automating computing chores. test-driven sysadmin.
+
+*DecentExposure* (rb)
+https://github.com/hashrocket/decent_exposure
+A helper for creating declarative interfaces in controllers
+
+*SitemapGenerator* (rb)
+https://github.com/kjvarga/sitemap_generator
+Framework-agnostic XML Sitemap generator written in Ruby with automatic Rails integration.
+
+*Searchkick* (rb)
+https://github.com/ankane/searchkick
+Intelligent search made easy with Rails and Elasticsearch
+
+*Publify* (rb)
+https://github.com/publify/publify
+A self hosted Web publishing platform on Rails.
+
+*MetaTags* (rb)
+https://github.com/kpumuk/meta-tags
+Search Engine Optimization (SEO) for Ruby on Rails applications.
+
+*ActiveJob::Retriable* (rb)
+https://github.com/SimplyBuilt/activejob-retriable
+Automatically retry failed ActiveJobs
+
+*Trado* (rb)
+https://github.com/Jellyfishboy/trado
+Lightweight, easy to use ecommerce platform.
+
+*fastlane* (mobile)
+https://github.com/fastlane/fastlane
+The easiest way to automate building and releasing your iOS and Android apps
+
+*Choreographer-js* (js)
+https://github.com/christinecha/choreographer-js
+A simple library to take care of complex CSS animations.
+
+*Cleanslate* (css3)
+http://cleanslatecss.com/
+Extreme CSS reset stylesheet.
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+*Decoding Rails Magic: How Does ActiveJob Work?* (rb - sep 25)
+https://karolgalanciak.com/blog/2016/09/25/decoding-rails-magic-how-does-activejob-work/
+ActiveJob, which provides extra layer on top of background jobs framework.
+
+*Create a Single Page App With Go, Echo and Vue* (go - sep 26)
+https://scotch.io/tutorials/create-a-single-page-app-with-go-echo-and-vue
+Create a speedy single page application using the power of Go and VueJS
+
+*Rebase and merge pull requests* (tool - sep 26)
+https://github.com/blog/2243-rebase-and-merge-pull-requests
+Use the merge button to rebase and merge your changes on Github PRs.
+
+*Concurrency in Ruby 3 with Guilds* (rb - sep 27)
+http://olivierlacan.com/posts/concurrency-in-ruby-3-with-guilds/
+A proposal for a new concurrent and parallel mechanism in Ruby called Guilds.
+
+*Introducing Tensorflow Ruby API* (rb - sep 27)
+https://medium.com/@Arafat./introducing-tensorflow-ruby-api-e77a477ff16e
+TensorFlow is an extraordinary open source software library for numerical computation using data flow graphs.
+
+*Simple Authentication for one user in Rails* (rb - sep 29)
+http://www.eq8.eu/blogs/31-simple-authentication-for-one-user-in-rails
+For really simple website where admin is just one person, using authentication gem like Devise may be overkill.
+
+*Karafka 0.5.0 release details* (rb - sep 29)
+http://dev.mensfeld.pl/2016/09/karafka-ruby-kafka-framework-0-5-0-release-details/
+Ruby + Kafka framework, after one year of work.
+
+*PostgreSQL 9.6* (ops - sep 29)
+https://www.postgresql.org/about/news/1703/
+Parallel query, synchronous replication improvements, phrase search, and improvements to performance and usability
+
+*45 Ruby Blogs* (rb - sep 30)
+http://blog.honeypot.io/45-ruby-blogs/?utm_source=rubyflow
+A list of recently active ruby blogs.
+
+*What does it mean when code is easy to reason about?* (js - sep 30)
+https://medium.freecodecamp.com/what-does-it-mean-when-code-is-easy-to-reason-about-4e6f63eb386f#.rd01oeykm
+Critically think about code and write programs that are easier to reason about.
+
+*Vue 2.0* (js - oct 1)
+https://medium.com/the-vue-point/vue-2-0-is-here-ef1f26acf4b8#.fbfyzi83h
+Official release of Vue.js 2.0: Ghost in the Shell. After 8 alphas, 8 betas and 8 rcs.
+
+*Parallel rendering in Rails* (rb - oct 2)
+http://antulik.com/posts/2016-10-02-parallel-rendering-in-rails.html
+Using Pagelets.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+Links curated by by mose (publisher), tysliu (editors), nauman, hsatac (contributors).
+*|END:IF|*
+*|IFNOT:CONTENT=Only Links|*
+
+Rant
+----------------------------------------------------
+The random rant of the week by mose.
+
+#### I'm in holidays
+
+Great occasion to kick thunderbird byebye and spend some time on configuring
+my mutt to make it real again, after 6 years of click-click for mail. I was a
+mutt user for a very long time, and my pause for trying a GUI mail client just
+had to have an end. But the mail has clearly become something else now.
+Actually much more volume, but much more automated things, and news feeds. Or
+it's just me?
+
+*|END:IF|*
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+
