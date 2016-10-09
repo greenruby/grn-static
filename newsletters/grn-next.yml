@@ -51,10 +51,59 @@ topics:
   baseline: "From the blogosphere or news feeds ..."
   links:
 
+  - title: "Sharing models between Rails Apps - Part 1"
+    url: "http://www.akitaonrails.com/2016/10/03/sharing-models-between-rails-apps-part-1"
+    comment: "For some situations you can organize your models logic into Ruby modules then move them out to a Rubygem."
+    pubdate: oct 3
+    tags:
+      - rb
+
+  - title: "Parslet"
+    url: "https://asok.github.io/ruby/2016/10/03/parslet.html"
+    comment: "Parslet allows you to write a parser that will take the input String (our query) and create a syntax tree."
+    pubdate: oct 3
+    tags:
+      - rb
+
+  - title: "How it feels to learn JavaScript in 2016"
+    url: "https://hackernoon.com/how-it-feels-to-learn-javascript-in-2016-d3a717dd577f"
+    comment: "What does it feel like to be a modern front end engineer."
+    pubdate: oct 3
+    tags:
+      - js
+
+  - title: "Building a Rack Web Server in Ruby"
+    url: "https://ksylvest.com/posts/2016-10-04/building-a-rack-web-server-in-ruby"
+    comment: "Rack is an interface for structuring web applications using Ruby."
+    pubdate: oct 4
+    tags:
+      - rb
+
+  - title: "Ruby Versions Used in Commercial Projects, 2016 Edition"
+    url: "https://semaphoreci.com/blog/2016/10/04/ruby-versions-used-in-commercial-projects-2016-edition.html"
+    comment: "Most people are starting with the latest versions."
+    pubdate: oct 4
+    tags:
+      - rb
+
+  - title: "Test-Driven Development"
+    url: "http://neverworkintheory.org/2016/10/05/test-driven-development.html"
+    comment: "This painstaking study is the latest in a long line to find that test-driven development (TDD) has little or no impact on development time or code quality."
+    pubdate: oct 5
+    tags:
+      - web
+
+  - title: "Let The Asset Pipeline Die"
+    url: "http://gilesbowkett.blogspot.tw/2016/10/let-asset-pipeline-die.html"
+    comment: "Rails hate against javascript is deranged."
+    pubdate: oct 5
+    tags:
+      - rb
+
   - title: ""
     url: ""
     comment: ""
-    pubdate: sep 3
+    pubdate: oct 5
     tags:
       - rb
 
