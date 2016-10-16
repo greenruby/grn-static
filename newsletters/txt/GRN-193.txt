@@ -1,0 +1,172 @@
+----------------------------------------------------
+Green Ruby News #193 - oct 16th 2016
+----------------------------------------------------
+*|IFNOT:CONTENT=Only Rant|*
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+*Offf - Italia* (design)
+http://www.offfitalia.com/
+Pretty neat navigation trick
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+*You might not need Javascript* (css3)
+http://youmightnotneedjs.com/
+You can build so many functional UI components without the additional dependancy.
+
+*Bitwarden* (tool)
+https://bitwarden.com/
+Store and sync password across devices.
+
+*SQL style guide by Simon Holywell* (tool)
+http://www.sqlstyle.guide
+A consistent code style guide for SQL to ensure legible and maintainable projects.
+
+*Your Social Media Fingerprint* (web)
+https://robinlinus.github.io/socialmedia-leak/
+Any website can detect on which platforms you're signed up (mostly on chrome, and a little less on firefox).
+
+*The Open Guide to Amazon Web Services* (ops)
+https://github.com/open-guides/og-aws
+A huge practical guide.
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+*mastodon* (rb)
+https://github.com/Gargron/mastodon
+A GNU Social-compatible microblogging server
+
+*botstack* (rb)
+https://github.com/davidmann4/botstack
+Rapid FB chatbot development with ruby on rails.
+
+*Nodejs-dashboard* (js)
+https://github.com/FormidableLabs/nodejs-dashboard
+Telemetry dashboard for node.js apps from the terminal!
+
+*glean* (tool)
+https://github.com/benwr/glean
+A tiny bitmap font for programming
+
+*Git-Repo* (tool)
+http://i.got.nothing.to/code/on/git-repo:_the_utility_for_services/
+utility for managing services
+
+*Resinos* (ops)
+https://resinos.io/
+Run Docker containers on embedded devices
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+*Refine Your Ruby Util Objects* (rb - oct 9)
+http://www.notmagic.org/refine-your-ruby-util-objects
+Use refine to do monkey patch with monkey.
+
+*Euruko 2016 - Ruby is dead, long live Ruby!* (rb - oct 10)
+http://dev.mikamai.com/post/151608679809/euruko-2016-ruby-is-dead-long-live-ruby
+What can we expect for ruby 3?
+
+*Diving into How Hashes Work in Ruby* (rb - oct 10)
+https://www.sitepoint.com/diving-into-how-hashes-work-in-ruby/
+By far the largest costs in hashing are the rehashing, hash calculation, and bucketing.
+
+*Wasting Time TDDing The Wrong Things* (rb - oct 11)
+http://www.rubypigeon.com/posts/wasting-time-tdd-the-wrong-things/
+Use top-down approach to prevent refactoring your test all the time.
+
+*How we save money by using DDD and Process Managers* (rb - oct 11)
+http://blog.arkency.com/2016/10/how-we-save-money-by-using-ddd-and-process-managers-in-our-rails-app/
+A clever payment management system.
+
+*How to generate and add sitemap to your Rails Application* (rb - oct 11)
+http://www.railscarma.com/blog/technical-articles/generate-add-sitemap-rails-application/
+SitemapGenerator gem is the easiest way to generate Sitemaps in Ruby.
+
+*Exploring CLI Best Practices* (rb - oct 12)
+http://eng.localytics.com/exploring-cli-best-practices/
+List of best practices they use at Localytics.
+
+*How kubeadm Initializes Your Kubernetes Master* (ops - oct 12)
+https://www.ianlewis.org/en/how-kubeadm-initializes-your-kubernetes-master
+kubeadm is a new tool that is part of the Kubernetes distribution as of 1.4.0
+
+*Yarn Package Manager: An Improvement over npm* (web - oct 13)
+https://scotch.io/tutorials/yarn-package-manager-an-improvement-over-npm
+Yarn is the newest package manager on the block with speed and improvements over npm.
+
+*We need JavaScript to fix the web* (js - oct 15)
+https://medium.com/@codepo8/we-need-javascript-to-fix-the-web-a01bca57ff97#.lxhyihs93?utm_source=codropscollective
+Own the responsibility to work around JS flaky nature and reliability issues.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+Links curated by by mose (publisher), xenor, tysliu (editors), Nauman Tariq, hsatac (contributors).
+*|END:IF|*
+*|IFNOT:CONTENT=Only Links|*
+
+Rant
+----------------------------------------------------
+The random rant of the week by mose.
+
+#### Is Facebook the new NPM?
+
+This week there is a lot of noise in the JS ecosystem, on various trends. But
+the most noticeable is about [Yarn][yarn]. Yet another package manager for js,
+that states it opens a war against NPM (in soft terms but clearly enough). The
+[long post from Facebook][yarnf] about it demonstrates a clear effort to push
+things forward about NPM shortcomings. The reaction on [hacker news][hnyarn]
+is pretty verbose.
+
+It provoked a public [response from NPM][npmyarn] to try to explain that, nop,
+it's not a war. But I keep feeling that Facebook is slowly taking over another
+piece of the javascript world. For now, it doesn't seem harmful at all, but my
+instinct lights a various number of warning bonfires.
+
+But for real, it was more than time that the supremacy of NPM was questioned.
+It has a lot of flaws and the number of posts about this event proves that the
+community was kind of waiting for something like this to happen. Like this
+[cheatsheet][yarncheat], various articles like [this one][articleyarn], this
+enthusiastic post from [Yehuda Kats][yarnyehuda]. But [not everybody is
+happy][yarnmore] about how things are done.
+
+Personally, I like the technical direction it takes. But I hope that like
+io.js went back to node.js, it will eventually merge back to NPM, really. But
+I have the feeling it is not going to happen.
+
+[yarn]: https://yarnpkg.com/
+[hnyarn]: https://news.ycombinator.com/item?id=12684980
+[yarnf]: https://code.facebook.com/posts/1840075619545360
+[npmyarn]: http://blog.npmjs.org/post/151660845210/hello-yarn
+[yarncheat]: https://shift.infinite.red/npm-vs-yarn-cheat-sheet-8755b092e5cc#.d5wnp2yf9
+[articleyarn]: http://www.infoworld.com/article/3130179/javascript/facebook-spins-yarn-to-replace-npm-packager.html
+[yarnyehuda]: http://yehudakatz.com/2016/10/11/im-excited-to-work-on-yarn-the-new-js-package-manager-2/
+[yarnmore]: https://medium.com/@boennemann/questions-i-wish-yarn-had-answered-on-day-1-ec0db7458107#.r1kyqfnwr 
+
+*|END:IF|*
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+

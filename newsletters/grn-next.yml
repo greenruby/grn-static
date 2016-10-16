@@ -1,6 +1,6 @@
 ---
-edition: "193"
-pubdate: "oct 16th 2016"
+edition: "194"
+pubdate: "oct 23th 2016"
 editors: "xenor, tysliu"
 participants: "Nauman Tariq, hsatac"
 rant:
@@ -28,29 +28,11 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: "You might not need Javascript"
-    url: "http://youmightnotneedjs.com/"
-    comment: "You can build so many functional UI components without the additional dependancy."
+  - title: ""
+    url: ""
+    comment: ""
     tags:
       - css3
-
-  - title: "Bitwarden"
-    url: "https://bitwarden.com/"
-    comment: "Store and sync password across devices."
-    tags:
-      - tool
-
-  - title: "Resinos"
-    url: "https://resinos.io/"
-    comment: "Run Docker containers on embedded devices"
-    tags:
-      - tool
-
-  - title: "SQL style guide by Simon Holywell"
-    url: "http://www.sqlstyle.guide"
-    comment: "A consistent code style guide for SQL to ensure legible and maintainable projects."
-    tags:
-      - tool
 
 
 
@@ -58,21 +40,9 @@ topics:
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: "mastodon"
-    url: "https://github.com/Gargron/mastodon"
-    comment: "A GNU Social-compatible microblogging server"
-    tags:
-      - rb
-
-  - title: "glean"
-    url: "https://github.com/benwr/glean"
-    comment: "A tiny bitmap font for programming"
-    tags:
-      - tool
-
-  - title: "botstack"
-    url: "https://github.com/davidmann4/botstack"
-    comment: "Rapid chatbot development with ruby on rails."
+  - title: ""
+    url: ""
+    comment: ""
     tags:
       - rb
 
@@ -81,45 +51,10 @@ topics:
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: "Refine Your Ruby Util Objects"
-    url: "http://www.notmagic.org/refine-your-ruby-util-objects"
-    comment: "Use refine to do monkey patch with monkey."
-    pubdate: oct 9
-    tags:
-      - rb
-
-  - title: "Euruko 2016 - Ruby is dead, long live Ruby!"
-    url: "http://dev.mikamai.com/post/151608679809/euruko-2016-ruby-is-dead-long-live-ruby"
-    comment: "What can we expect for ruby 3?"
-    pubdate: oct 10
-    tags:
-      - rb
-
-  - title: "Diving into How Hashes Work in Ruby"
-    url: "https://www.sitepoint.com/diving-into-how-hashes-work-in-ruby/"
-    comment: "By far the largest costs in hashing are the rehashing, hash calculation, and bucketing."
-    pubdate: oct 10
-    tags:
-      - rb
-
-  - title: "Wasting Time TDDing The Wrong Things"
-    url: "http://www.rubypigeon.com/posts/wasting-time-tdd-the-wrong-things/"
-    comment: "Use top-down approach to prevent refactoring your test all the time."
-    pubdate: oct 11
-    tags:
-      - rb
-
-  - title: "Yarn Package Manager: An Improvement over npm"
-    url: "https://scotch.io/tutorials/yarn-package-manager-an-improvement-over-npm"
-    comment: "Yarn is the newest package manager on the block with speed and improvements over npm."
-    pubdate: oct 13
-    tags:
-      - web
-
   - title: ""
     url: ""
     comment: ""
-    pubdate: oct 10
+    pubdate: sep 3
     tags:
       - rb
 
