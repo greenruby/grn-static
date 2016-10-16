@@ -28,9 +28,9 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "You might not need Javascript"
+    url: "http://youmightnotneedjs.com/"
+    comment: "You can build so many functional UI components without the additional dependancy."
     tags:
       - css3
 
@@ -51,10 +51,31 @@ topics:
   baseline: "From the blogosphere or news feeds ..."
   links:
 
+  - title: "Euruko 2016 - Ruby is dead, long live Ruby!"
+    url: "http://dev.mikamai.com/post/151608679809/euruko-2016-ruby-is-dead-long-live-ruby"
+    comment: "What can we expect for ruby 3?"
+    pubdate: oct 10
+    tags:
+      - rb
+
+  - title: "Diving into How Hashes Work in Ruby"
+    url: "https://www.sitepoint.com/diving-into-how-hashes-work-in-ruby/"
+    comment: "By far the largest costs in hashing are the rehashing, hash calculation, and bucketing."
+    pubdate: oct 10
+    tags:
+      - rb
+
+  - title: "Yarn Package Manager: An Improvement over npm"
+    url: "https://scotch.io/tutorials/yarn-package-manager-an-improvement-over-npm"
+    comment: "Yarn is the newest package manager on the block with speed and improvements over npm."
+    pubdate: oct 13
+    tags:
+      - web
+
   - title: ""
     url: ""
     comment: ""
-    pubdate: sep 3
+    pubdate: oct 10
     tags:
       - rb
 
