@@ -52,10 +52,35 @@ topics:
     tags:
       - rb
 
+  - title: "sql_tracker"
+    url: "https://github.com/steventen/sql_tracker"
+    comment: "Rails SQL Query Tracker"
+    tags:
+      - rb
+
+  - title: "i18n_yaml_sorter"
+    url: "https://github.com/redealumni/i18n_yaml_sorter"
+    comment: "An I18n YAML deep sorter that keeps locales organized without messing text formating"
+    tags:
+      - rb
+
+  - title: "errdo
+    url: "https://github.com/erichaydel/errdo"
+    comment: "A simple plugin to handle, log, and customize production errors in Rails applications"
+    tags:
+      - rb
+
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
   links:
+
+  - title: "Learn Ruby Metaprogramming for Great Good"
+    url: "https://www.sitepoint.com/learn-ruby-metaprogramming-for-great-good/"
+    comment: "A clean example of good metaprogramming in Ruby."
+    pubdate: "oct 17"
+    tags:
+      - rb
 
   - title: "Running Ruby apps in production"
     url: "https://blog.adamcooke.io/running-ruby-apps-in-production-b7e8e5b516eb"
