@@ -1,6 +1,6 @@
 ---
-edition: "194"
-pubdate: "oct 23th 2016"
+edition: "195"
+pubdate: "oct 30th 2016"
 editors: "xenor, tysliu"
 participants: "Nauman Tariq, hsatac"
 rant:
@@ -40,33 +40,9 @@ topics:
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: "Procodile"
-    url: "https://github.com/adamcooke/procodile"
-    comment: "Procodile is a bit like Foreman but things are designed to run in the background."
-    tags:
-      - rb
-
-  - title: "EM Midori"
-    url: "https://github.com/heckpsi-lab/em-midori"
-    comment: "EM Midori is an EventMachine-based Web Framework written in pure Ruby, providing high performance and proper abstraction."
-    tags:
-      - rb
-
-  - title: "sql_tracker"
-    url: "https://github.com/steventen/sql_tracker"
-    comment: "Rails SQL Query Tracker"
-    tags:
-      - rb
-
-  - title: "i18n_yaml_sorter"
-    url: "https://github.com/redealumni/i18n_yaml_sorter"
-    comment: "An I18n YAML deep sorter that keeps locales organized without messing text formating"
-    tags:
-      - rb
-
-  - title: "errdo
-    url: "https://github.com/erichaydel/errdo"
-    comment: "A simple plugin to handle, log, and customize production errors in Rails applications"
+  - title: ""
+    url: ""
+    comment: ""
     tags:
       - rb
 
@@ -75,38 +51,10 @@ topics:
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: "Learn Ruby Metaprogramming for Great Good"
-    url: "https://www.sitepoint.com/learn-ruby-metaprogramming-for-great-good/"
-    comment: "A clean example of good metaprogramming in Ruby."
-    pubdate: "oct 17"
-    tags:
-      - rb
-
-  - title: "Running Ruby apps in production"
-    url: "https://blog.adamcooke.io/running-ruby-apps-in-production-b7e8e5b516eb"
-    comment: "Procodile is an easy to use and understand solution for Ruby developers who just want to define a process list and type start to get it up and running without any fuss."
-    pubdate: oct 17
-    tags:
-      - rb
-
-  - title: "How to Manage Application Secrets in EC2"
-    url: "http://blog.honeybadger.io/managing-secrets-in-ec2/"
-    comment: "Amazon's Key Management Service (KMS) provides an API for interacting with encryption keys."
-    pubdate: oct 17
-    tags:
-      - tool
-
-  - title: "When To Be Concerned About Concerns"
-    url: "https://blog.codeship.com/when-to-be-concerned-about-concerns/"
-    comment: "Once our chunk of behavior starts pushing the scroll-to-understand-it boundary, we give in and move it to a separate file."
-    pubdate: oct 18
-    tags:
-      - rb
-
   - title: ""
     url: ""
     comment: ""
-    pubdate: oct 17
+    pubdate: sep 3
     tags:
       - rb
 
@@ -116,10 +64,10 @@ topics:
   baseline: "Screencasts and conferences videos, or other video feeds ..."
   links:
 
-  - title: "EuRuKo 2016 - Day 1 Keynote by Yukihiro Matz Matsumoto"
-    url: "https://www.youtube.com/watch?v=8aHmArEq4y0"
-    comment: "More on Ruby 3."
-    pubdate: oct 19
+  - title: ""
+    url: ""
+    comment: ""
+    pubdate: sep 3
     duration:
     tags:
       - rb

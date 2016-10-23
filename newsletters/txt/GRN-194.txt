@@ -1,0 +1,113 @@
+----------------------------------------------------
+Green Ruby News #194 - oct 23th 2016
+----------------------------------------------------
+*|IFNOT:CONTENT=Only Rant|*
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+*Awesome-frontend* (design)
+https://github.com/syaning/awesome-frontend
+Just a list of links.
+
+*Dockbit* (ops)
+https://dockbit.com/
+Software deployments into repeatable, manageable workflows.
+
+*Dirty COW* (ops)
+http://dirtycow.ninja/
+CVE-2016-5195, a very nasty Linux kernel vuln. With a name, a website, and a logo, again
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+*Procodile* (rb)
+https://github.com/adamcooke/procodile
+Procodile is a bit like Foreman but things are designed to run in the background.
+
+*EM Midori* (rb)
+https://github.com/heckpsi-lab/em-midori
+EM Midori is an EventMachine-based Web Framework written in pure Ruby, providing high performance and proper abstraction.
+
+*sql_tracker* (rb)
+https://github.com/steventen/sql_tracker
+Rails SQL Query Tracker
+
+*i18n_yaml_sorter* (rb)
+https://github.com/redealumni/i18n_yaml_sorter
+An I18n YAML deep sorter that keeps locales organized without messing text formating
+
+*errdo* (rb)
+https://github.com/erichaydel/errdo
+A simple plugin to handle, log, and customize production errors in Rails applications
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+*Learn Ruby Metaprogramming for Great Good* (rb - oct 17)
+https://www.sitepoint.com/learn-ruby-metaprogramming-for-great-good/
+A clean example of good metaprogramming in Ruby.
+
+*Running Ruby apps in production* (rb - oct 17)
+https://blog.adamcooke.io/running-ruby-apps-in-production-b7e8e5b516eb
+Procodile is an easy to use and understand solution for Ruby developers who just want to define a process list and type start to get it up and running without any fuss.
+
+*How to Manage Application Secrets in EC2* (tool - oct 17)
+http://blog.honeybadger.io/managing-secrets-in-ec2/
+Amazon's Key Management Service (KMS) provides an API for interacting with encryption keys.
+
+*When To Be Concerned About Concerns* (rb - oct 18)
+https://blog.codeship.com/when-to-be-concerned-about-concerns/
+Once our chunk of behavior starts pushing the scroll-to-understand-it boundary, we give in and move it to a separate file.
+
+*How we deploy at npm* (js - oct 19)
+http://blog.npmjs.org/post/152035356435/how-we-deploy-at-npm
+Here’s how we deploy node services at npm: git push origin +master:deploy-production
+
+Watch
+----------------------------------------------------
+Screencasts and conferences videos, or other video feeds ...
+
+*EuRuKo 2016 - Day 1 Keynote by Yukihiro Matz Matsumoto* (rb - oct 19)
+https://www.youtube.com/watch?v=8aHmArEq4y0
+What about on Ruby 3.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+Links curated by by mose (publisher), xenor, tysliu (editors), nauman, hsatac (contributors).
+*|END:IF|*
+*|IFNOT:CONTENT=Only Links|*
+
+Rant
+----------------------------------------------------
+The random rant of the week by mose.
+
+#### lotta news, small energy
+
+Yeah look around, there are much more news this week, comon. But this week I
+just didn't feel like it. So this edition is limited to some  contributions.
+
+Have an excellent week! 
+
+*|END:IF|*
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+
