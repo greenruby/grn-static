@@ -46,15 +46,42 @@ topics:
     tags:
       - rb
 
+  - title: "EM Midori"
+    url: "https://github.com/heckpsi-lab/em-midori"
+    comment: "EM Midori is an EventMachine-based Web Framework written in pure Ruby, providing high performance and proper abstraction."
+    tags:
+      - rb
+
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
   links:
 
+  - title: "Running Ruby apps in production"
+    url: "https://blog.adamcooke.io/running-ruby-apps-in-production-b7e8e5b516eb"
+    comment: "Procodile is an easy to use and understand solution for Ruby developers who just want to define a process list and type start to get it up and running without any fuss."
+    pubdate: oct 17
+    tags:
+      - rb
+
+  - title: "How to Manage Application Secrets in EC2"
+    url: "http://blog.honeybadger.io/managing-secrets-in-ec2/"
+    comment: "Amazon's Key Management Service (KMS) provides an API for interacting with encryption keys."
+    pubdate: oct 17
+    tags:
+      - tool
+
+  - title: "When To Be Concerned About Concerns"
+    url: "https://blog.codeship.com/when-to-be-concerned-about-concerns/"
+    comment: "Once our chunk of behavior starts pushing the scroll-to-understand-it boundary, we give in and move it to a separate file."
+    pubdate: oct 18
+    tags:
+      - rb
+
   - title: ""
     url: ""
     comment: ""
-    pubdate: sep 3
+    pubdate: oct 17
     tags:
       - rb
 
@@ -64,10 +91,10 @@ topics:
   baseline: "Screencasts and conferences videos, or other video feeds ..."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
-    pubdate: sep 3
+  - title: "EuRuKo 2016 - Day 1 Keynote by Yukihiro Matz Matsumoto"
+    url: "https://www.youtube.com/watch?v=8aHmArEq4y0"
+    comment: "More on Ruby 3."
+    pubdate: oct 19
     duration:
     tags:
       - rb
