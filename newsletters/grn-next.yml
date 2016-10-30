@@ -40,9 +40,9 @@ topics:
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "HexaPDF"
+    url: "http://hexapdf.gettalong.org/index.html"
+    comment: "A Versatile PDF Creation and Manipulation Library for Ruby"
     tags:
       - rb
 
@@ -51,10 +51,52 @@ topics:
   baseline: "From the blogosphere or news feeds ..."
   links:
 
+  - title: "Row Fragmentation: Share the Mutex"
+    url: "https://bytes.blueapron.com/row-fragmentation-share-the-mutex-8fb77f5c1718"
+    comment: "The concept of fragmentation is sort of like having multiple bartenders working a bar."
+    pubdate: oct 25
+    tags:
+      - tool
+
+  - title: "Spoooooky CSS Selectors"
+    url: "https://css-tricks.com/spoooooky-css-selectors/"
+    comment: "Let's get into the spirit a little bit this year with some Halloween themed posts!"
+    pubdate: oct 26
+    tags:
+      - rb
+
+  - title: "Continuous Integration and Deployment for Ruby projects with Bitbucket Pipelines"
+    url: "https://read.prettyco.de/continuous-integration-and-deployment-for-ruby-projects-with-bitbucket-pipelines-90eaeccf16e"
+    comment: "Bitbucket Pipelines is now publicly available and enables you to easily add Continuous Integration as well as Deployment."
+    pubdate: oct 30
+    tags:
+      - rb
+
+  - title: "Monitoring Sidekiq Using AWS Lambda and Slack"
+    url: "http://brandonhilkert.com/blog/monitoring-sidekiq-using-aws-lambda-and-slack/"
+    comment: "We found AWS Lambda to be a lightweight solution to tie the monitoring of Sidekiq and notifications in Slack together."
+    pubdate: oct 25
+    tags:
+      - rb
+
+  - title: "SEO Title Tag Optimization at Etsy: Experiment Design and Causal Inference"
+    url: "https://codeascraft.com/2016/10/25/seo-title-tag-optimization/"
+    comment: "This post explains the methodology behind our SEO testing, the challenges we have come across, and how we have resolved them."
+    pubdate: oct 25
+    tags:
+      - web
+
+  - title: "Using MySQL 5.7 On Codeship"
+    url: "https://blog.codeship.com/using-mysql-5-7-on-codeship/"
+    comment: "Why MySQL 5.7? Because it finally has support for JSON queries."
+    pubdate: oct 26
+    tags:
+      - tool
+
   - title: ""
     url: ""
     comment: ""
-    pubdate: sep 3
+    pubdate: oct 25
     tags:
       - rb
 
@@ -64,10 +106,10 @@ topics:
   baseline: "Screencasts and conferences videos, or other video feeds ..."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
-    pubdate: sep 3
+  - title: "What Seasoned Developers Should Know About Learning Elixir"
+    url: "http://blog.honeybadger.io/what-seasoned-developers-should-know-about-learning-elixir/"
+    comment: "If you're a seasoned developer but new to Elixir, here are three talks worth watching."
+    pubdate: oct 25
     duration:
     tags:
-      - rb
+      - el
