@@ -28,11 +28,11 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "Sqreen"
+    url: "https://www.sqreen.io/"
+    comment: "Runtime security monitoring & protection tool for web apps"
     tags:
-      - css3
+      - rb
 
 
 
@@ -42,9 +42,27 @@ topics:
 
   - title: "HexaPDF"
     url: "http://hexapdf.gettalong.org/index.html"
-    comment: "A Versatile PDF Creation and Manipulation Library for Ruby"
+    comment: "A Versatile PDF Creation and Manipulation Library for Ruby."
     tags:
       - rb
+
+  - title: "execjs-fastnode"
+    url: "https://github.com/jhawthorn/execjs-fastnode"
+    comment: "A faster Node.JS integration for Ruby/Rails ExecJS."
+    tags:
+      - rb
+
+  - title: "keight"
+    url: "https://github.com/kwatch/keight"
+    comment: "Jet-speed webapp framework."
+    tags:
+      - rb
+
+  - title: "Bedrock"
+    url: "https://github.com/Expensify/Bedrock"
+    comment: "Rock solid distributed database specializing in active/active automatic failover and WAN replication/"
+    tags:
+      - tool
 
 
 - title: Read
@@ -93,10 +111,17 @@ topics:
     tags:
       - tool
 
-  - title: ""
-    url: ""
+  - title: "Riding into the Danger Zone: Virtual Hackathons for Virtual Teams"
+    url: "https://life.taxjar.com/virtual-hackathons-virtual-teams/"
     comment: ""
-    pubdate: oct 25
+    pubdate: oct 26
+    tags:
+      - rb
+
+  - title: "Why Learning Rails Is Still a Great Choice in 2016"
+    url: "https://www.sitepoint.com/why-learning-rails-is-still-a-great-choice-in-2016/"
+    comment: "Some good points on why ruby still has it's place in programming."
+    pubdate: oct 27
     tags:
       - rb
 
