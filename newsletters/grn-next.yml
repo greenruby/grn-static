@@ -40,6 +40,12 @@ topics:
   baseline: "A selection of gems or applications updated during past week."
   links:
 
+  - title: "Manpages"
+    url: "https://github.com/bitboxer/manpages"
+    comment: "This plugin will add man pages support to ruby gems."
+    tags:
+      - rb
+
   - title: ""
     url: ""
     comment: ""
@@ -51,10 +57,45 @@ topics:
   baseline: "From the blogosphere or news feeds ..."
   links:
 
+  - title: "Using DTrace to measure mutex contention in Ruby"
+    url: "https://vaneyckt.io/posts/using_dtrace_to_measure_mutex_contention_in_ruby/"
+    comment: "This type of information can be worth its weight in gold when trying to diagnose why your threaded program is running slower than expected."
+    pubdate: oct 31
+    tags:
+      - rb
+
+  - title: "Ruby 2.4 implements Enumerable#sum"
+    url: "http://blog.bigbinary.com/2016/11/02/ruby-2-4-introduces-enumerable-sum.html"
+    comment: "Ruby 2.4.0 implements Enumerable#sum as part of the language itself."
+    pubdate: nov 2
+    tags:
+      - rb
+
+  - title: "FizzBuzz In Too Much Detail"
+    url: "http://www.rubypigeon.com/posts/fizzbuzz-in-too-much-detail/"
+    comment: "Complexity is like a mortgage – you’re going to be paying interest on it."
+    pubdate: nov 1
+    tags:
+      - rb
+
+  - title: "Top 10 Quick Rails Performance Wins"
+    url: "https://www.stationcode.net/blog/top-10-quick-rails-performance-wins"
+    comment: "In the beginning, Rails performance was really looked down on and wasn't really defended."
+    pubdate: nov 4
+    tags:
+      - rb
+
+  - title: "Building a Better Mobile Crash Analytics Platform"
+    url: "https://codeascraft.com/2016/11/04/building-a-better-mobile-crash-analytics-platform/"
+    comment: "Collecting mobile crashes and exceptions is (of necessity) quite different from most error reporting on the web."
+    pubdate: nov 4
+    tags:
+      - tool
+
   - title: ""
     url: ""
     comment: ""
-    pubdate: sep 3
+    pubdate: nov 4
     tags:
       - rb
 
