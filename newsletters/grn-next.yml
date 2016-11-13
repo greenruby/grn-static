@@ -1,6 +1,6 @@
 ---
-edition: "197"
-pubdate: "nov 13th 2016"
+edition: "198"
+pubdate: "nov 20th 2016"
 editors: "xenor, tysliu"
 participants: "Nauman Tariq, hsatac"
 rant:
@@ -28,17 +28,11 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: "Snyk"
-    url: "https://snyk.io/"
-    comment: "Fix/Alert known vulnerabilities in Node.js and Ruby apps on Github."
+  - title: ""
+    url: ""
+    comment: ""
     tags:
-      - rb
-
-  - title: "HeadlessBrowsers"
-    url: "https://github.com/dhamaniasad/HeadlessBrowsers"
-    comment: "A list of (almost) all headless web browsers in existence."
-    tags:
-      - web
+      - css3
 
 
 
@@ -46,69 +40,21 @@ topics:
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: "manpages
-    url: "https://github.com/bitboxer/manpages"
-    comment: "Add man pages support to ruby gems."
+  - title: ""
+    url: ""
+    comment: ""
     tags:
       - rb
-
-  - title: "Lynis"
-    url: "https://github.com/CISOfy/lynis"
-    comment: "Security auditing tool for Linux, macOS, and UNIX-based systems."
-    tags:
-      - tool
 
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: "Microservice Communication with Queues"
-    url: "https://blog.codeship.com/microservice-communication-queues/"
-    comment: "Microservices work together by communicating messages back and forth so that they can accomplish the larger task."
-    pubdate: nov 9
-    tags:
-      - rb
-
-  - title: "Ruby 2.4.0-preview3 Released"
-    url: "https://www.ruby-lang.org/en/news/2016/11/09/ruby-2-4-0-preview3-released/"
-    comment: "Various performance improvements."
-    pubdate: nov 9
-    tags:
-      - rb
-
-  - title: "How to build a network stack in Ruby"
-    url: "https://medium.com/geckoboard-under-the-hood/how-to-build-a-network-stack-in-ruby-f73aeb1b661b"
-    comment: "Learning about sockets, datagrams, bit-twiddling and more."
-    pubdate: nov 10
-    tags:
-      - rb
-
-  - title: "7 Design Patterns to Refactor MVC Components in Rails"
-    url: "https://www.sitepoint.com/7-design-patterns-to-refactor-mvc-components-in-rails/"
-    comment: "Refactoring patterns with examples."
-    pubdate: nov 10
-    tags:
-      - rb
-
-  - title: "Ruby 3x3: Matz, Koichi, and Tenderlove on the future of Ruby Performance"
-    url: "https://blog.heroku.com/ruby-3-by-3/"
-    comment: "An interview with Matz and Tenderlove on Ruby 3."
-    pubdate: nov 10
-    tags:
-      - rb
-
-  - title: "The Power of the rgba() Color Function in CSS"
-    url: "https://css-tricks.com/the-power-of-rgba/"
-    comment: "Ability to do color manipulations right in the browser."
-    pubdate: nov 10
-    tags:
-      - css3
-
   - title: ""
     url: ""
     comment: ""
-    pubdate: nov 10
+    pubdate: sep 3
     tags:
       - rb
 
