@@ -28,11 +28,17 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "Snyk"
+    url: "https://snyk.io/"
+    comment: "Fix/Alert known vulnerabilities in Node.js and Ruby apps on Github."
     tags:
-      - css3
+      - rb
+
+  - title: "HeadlessBrowsers"
+    url: "https://github.com/dhamaniasad/HeadlessBrowsers"
+    comment: "A list of (almost) all headless web browsers in existence."
+    tags:
+      - web
 
 
 
@@ -40,11 +46,17 @@ topics:
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "manpages
+    url: "https://github.com/bitboxer/manpages"
+    comment: "Add man pages support to ruby gems."
     tags:
       - rb
+
+  - title: "Lynis"
+    url: "https://github.com/CISOfy/lynis"
+    comment: "Security auditing tool for Linux, macOS, and UNIX-based systems."
+    tags:
+      - tool
 
 
 - title: Read
