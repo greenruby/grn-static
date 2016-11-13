@@ -51,10 +51,52 @@ topics:
   baseline: "From the blogosphere or news feeds ..."
   links:
 
+  - title: "Microservice Communication with Queues"
+    url: "https://blog.codeship.com/microservice-communication-queues/"
+    comment: "Microservices work together by communicating messages back and forth so that they can accomplish the larger task."
+    pubdate: nov 9
+    tags:
+      - rb
+
+  - title: "Ruby 2.4.0-preview3 Released"
+    url: "https://www.ruby-lang.org/en/news/2016/11/09/ruby-2-4-0-preview3-released/"
+    comment: "Various performance improvements."
+    pubdate: nov 9
+    tags:
+      - rb
+
+  - title: "How to build a network stack in Ruby"
+    url: "https://medium.com/geckoboard-under-the-hood/how-to-build-a-network-stack-in-ruby-f73aeb1b661b"
+    comment: "Learning about sockets, datagrams, bit-twiddling and more."
+    pubdate: nov 10
+    tags:
+      - rb
+
+  - title: "7 Design Patterns to Refactor MVC Components in Rails"
+    url: "https://www.sitepoint.com/7-design-patterns-to-refactor-mvc-components-in-rails/"
+    comment: "Refactoring patterns with examples."
+    pubdate: nov 10
+    tags:
+      - rb
+
+  - title: "Ruby 3x3: Matz, Koichi, and Tenderlove on the future of Ruby Performance"
+    url: "https://blog.heroku.com/ruby-3-by-3/"
+    comment: "An interview with Matz and Tenderlove on Ruby 3."
+    pubdate: nov 10
+    tags:
+      - rb
+
+  - title: "The Power of the rgba() Color Function in CSS"
+    url: "https://css-tricks.com/the-power-of-rgba/"
+    comment: "Ability to do color manipulations right in the browser."
+    pubdate: nov 10
+    tags:
+      - css3
+
   - title: ""
     url: ""
     comment: ""
-    pubdate: sep 3
+    pubdate: nov 10
     tags:
       - rb
 
