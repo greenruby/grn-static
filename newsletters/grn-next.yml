@@ -51,10 +51,66 @@ topics:
   baseline: "From the blogosphere or news feeds ..."
   links:
 
+  - title: "Deploying Rails on Kubernetes"
+    url: "https://engineering.adwerx.com/rails-on-kubernetes-8cd4940eacbe"
+    comment: "How to deploy and orchestrate a Rails 5 application with Kubernetes in Google Container Engine (GKE)"
+    pubdate: nov 13
+    tags:
+      - rb
+
+  - title: "Statistical Literacy and You: An Intro for Programmers"
+    url: "http://schneems.com/2016/11/14/statistical-lit.html"
+    comment: "Very seldom do we consider the ethical implications of how we are producing and showing that data."
+    pubdate: nov 14
+    tags:
+      - web
+
+  - title: "A Rubyist's Guide to Big-O Notation"
+    url: "http://blog.honeybadger.io/a-rubyist-s-guide-to-big-o-notation/"
+    comment: "You would expect that processing an array of 100 items would be slower than an array of 10 items. But by how much?"
+    pubdate: nov 14
+    tags:
+      - rb
+
+  - title: "Rack-App: A Performant and Pragmatic Web Microframework"
+    url: "https://www.sitepoint.com/rack-app-a-performant-and-pragmatic-web-microframework/"
+    comment: "Rack makes it incredibly easy for anyone with a basic grasp of TCP/IP to roll their own framework."
+    pubdate: nov 14
+    tags:
+      - rb
+
+  - title: "Ruby 2.3.2 Released"
+    url: "https://www.ruby-lang.org/en/news/2016/11/15/ruby-2-3-2-released/"
+    comment: "This release contains update of RubyGems 2.5.2 and update of included ssl certificates along with other bug fixes."
+    pubdate: nov 15
+    tags:
+      - rb
+
+  - title: "Replacing the Rails Asset Pipeline with Webpack and Yarn"
+    url: "http://pixelatedworks.com/articles/replacing-the-rails-asset-pipeline-with-webpack-and-yarn/"
+    comment: "Rails no longer needs to control the entire ecosystem, and arguably it shouldn’t because tools have been developed which do a better job."
+    pubdate: nov 15
+    tags:
+      - rb
+
+  - title: "Rails Database Best Practices"
+    url: "http://blog.carbonfive.com/2016/11/16/rails-database-best-practices/"
+    comment: "Reducing the number of queries, using indexes, or any of the other suggestions aren’t premature optimizations IMHO. It’s using your database correctly."
+    pubdate: nov 16
+    tags:
+      - rb
+
+  - title: "Native Browser Copy To Clipboard"
+    url: "https://css-tricks.com/native-browser-copy-clipboard/"
+    comment: "It wasn't that long ago where you couldn't programmatically copy text to the clipboard from the web without using Flash."
+    pubdate: nov 18
+    tags:
+      - js
+
   - title: ""
     url: ""
     comment: ""
-    pubdate: sep 3
+    pubdate: nov 16
     tags:
       - rb
 
