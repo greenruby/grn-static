@@ -16,9 +16,9 @@ topics:
     "Examples of UI/UX, graphic performance, web design and flashy things."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "Bakken and Bæck"
+    url: "https://bakkenbaeck.com/"
+    comment: "Digital studio website."
     tags:
       - design
 
@@ -40,15 +40,32 @@ topics:
     tags:
       - tool
 
+  - title: "Kill the newsletter!"
+    url: "https://www.kill-the-newsletter.com/"
+    comment: "Make newsletters become RSS feeds."
+    tags:
+      - tool
 
+  - title: "Awesome-Hacking"
+    url: "https://github.com/Hack-with-Github/Awesome-Hacking"
+    comment: "A collection of various awesome lists for hackers, pentesters and security researchers"
+    tags:
+      - tool
 
 - title: Install
   baseline: "A selection of gems or applications updated during past week."
   links:
 
+  - title: "Ruby 2.3.2 Released"
+    url: "https://www.ruby-lang.org/en/news/2016/11/15/ruby-2-3-2-released/"
+    comment: "This release contains update of RubyGems 2.5.2 and update of included ssl certificates along with other bug fixes."
+    pubdate: nov 15
+    tags:
+      - rb
+
   - title: "wayback-machine-downloader"
     url: "https://github.com/hartator/wayback-machine-downloader"
-    comment: "Download an entire website from the Wayback Machine"
+    comment: "Download an entire website from the Wayback Machine."
     tags:
       - rb
 
@@ -58,6 +75,17 @@ topics:
     tags:
       - tool
 
+  - title: "Rocker"
+    url: "https://gthub.com/grammarly/rocker"
+    comment: "Rocker breaks the limits of Dockerfile."
+    tags:
+      - ops
+
+  - title: "Minio"
+    url: "https://minio.io/"
+    comment: "Object storage server built for cloud application developers and devops"
+    tags:
+      - ops
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
@@ -91,19 +119,19 @@ topics:
     tags:
       - rb
 
-  - title: "Ruby 2.3.2 Released"
-    url: "https://www.ruby-lang.org/en/news/2016/11/15/ruby-2-3-2-released/"
-    comment: "This release contains update of RubyGems 2.5.2 and update of included ssl certificates along with other bug fixes."
-    pubdate: nov 15
-    tags:
-      - rb
-
   - title: "Replacing the Rails Asset Pipeline with Webpack and Yarn"
     url: "http://pixelatedworks.com/articles/replacing-the-rails-asset-pipeline-with-webpack-and-yarn/"
     comment: "Rails no longer needs to control the entire ecosystem, and arguably it shouldn’t because tools have been developed which do a better job."
     pubdate: nov 15
     tags:
       - rb
+
+  - title: "Node.js Garbage Collection Explained"
+    url: "http://blog.risingstack.com/node-js-at-scale-node-js-garbage-collection/"
+    comment: "Learn how Node.js garbage collection and memory management works in practice. Code-level explanation and garbage collection examples inside."
+    pubdate: "nov 15"
+    tags:
+      - js
 
   - title: "Rails Database Best Practices"
     url: "http://blog.carbonfive.com/2016/11/16/rails-database-best-practices/"
@@ -112,6 +140,20 @@ topics:
     tags:
       - rb
 
+  - title: "Adding and Leveraging a CDN on Your Website"
+    url: "https://css-tricks.com/adding-a-cdn-to-your-website/"
+    comment: "If you’ve been working around web development for a while, you’ll know that the web has a need for speed."
+    pubdate: "nov 16"
+    tags:
+      - ops
+
+  - title: "15kb of CSS is all you’ll ever need"
+    url: "https://medium.com/@philipardeljan/15kb-of-css-is-all-youll-ever-need-%EF%B8%8F-634da7258338"
+    comment: "We have a CSS problem."
+    pubdate: "nov 17"
+    tags:
+      - css3
+
   - title: "Native Browser Copy To Clipboard"
     url: "https://css-tricks.com/native-browser-copy-clipboard/"
     comment: "It wasn't that long ago where you couldn't programmatically copy text to the clipboard from the web without using Flash."
@@ -119,23 +161,9 @@ topics:
     tags:
       - js
 
-  - title: ""
-    url: ""
-    comment: ""
-    pubdate: nov 16
+ - title: "Ruby Elixir Nodejs Tools Comparison Matrix"
+    url: "https://blog.gitresolve.com/ruby-elixir-nodejs-tools-comparison-matrix-316e278793f9#.6cgmuz1r2"
+    comment: "The toolboxes for different languages are quite similar."
+    pubdate: "nov 20"
     tags:
-      - rb
-
-
-
-- title: Watch
-  baseline: "Screencasts and conferences videos, or other video feeds ..."
-  links:
-
-  - title: ""
-    url: ""
-    comment: ""
-    pubdate: sep 3
-    duration:
-    tags:
-      - rb
+      - tool
