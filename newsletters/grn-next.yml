@@ -28,11 +28,17 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "Nextcloud Box"
+    url: "https://nextcloud.com/box/"
+    comment: "Portable 1TB private cloud."
     tags:
-      - css3
+      - tool
+
+  - title: "Webhook Tester"
+    url: "http://webhook.site/"
+    comment: "Test webhooks with your own unique test URL."
+    tags:
+      - tool
 
 
 
@@ -40,11 +46,17 @@ topics:
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "wayback-machine-downloader"
+    url: "https://github.com/hartator/wayback-machine-downloader"
+    comment: "Download an entire website from the Wayback Machine"
     tags:
       - rb
+
+  - title: "whitewidow"
+    url: "https://github.com/Ekultek/whitewidow"
+    comment: "SQL Vulnerability Scanner"
+    tags:
+      - tool
 
 
 - title: Read
