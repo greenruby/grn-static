@@ -40,9 +40,9 @@ topics:
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "CardsLib"
+    url: "https://github.com/danielpclark/CardsLib"
+    comment: "Card evaluation is written in a functional way that allows, and is optimized for, lazy evaluation."
     tags:
       - rb
 
@@ -51,10 +51,59 @@ topics:
   baseline: "From the blogosphere or news feeds ..."
   links:
 
+  - title: "Ruby 2.3.3 Released"
+    url: "https://www.ruby-lang.org/en/news/2016/11/21/ruby-2-3-3-released/"
+    comment: "This release contains a bug fix about Refinements and Module#prepend."
+    pubdate: nov 21
+    tags:
+      - rb
+
+  - title: "Writing a Rails Feature - Blow by Blow"
+    url: "http://schneems.com/2016/11/21/writing-a-rails-feature-blow-by-blow/"
+    comment: "A detailed walkthrough on how a Rails core commiter implements a feature."
+    pubdate: nov 21
+    tags:
+      - rb
+
+  - title: "Style List Markers in CSS"
+    url: "https://css-tricks.com/style-list-markers-css/"
+    comment: "The trick is to remove the list-style, then apply the markers through pseudo-element counters."
+    pubdate: nov 21
+    tags:
+      - css3
+
+  - title: "Ruby tips #2"
+    url: "http://blog.davydovanton.com/2016/11/23/ruby-tips-part-two/"
+    comment: "Interesting solutions which you’ll not find anywhere else."
+    pubdate: nov 23
+    tags:
+      - rb
+
+  - title: "Q&A With Piotr Solnica"
+    url: "http://www.rubypigeon.com/posts/questions-and-answers-with-piotr-solnica/"
+    comment: "Piotr, and developers like him, play the important role of breathing fresh air into our community."
+    pubdate: nov 23
+    tags:
+      - rb
+
+  - title: "The Double Splat Operator"
+    url: "https://medium.com/@sophiedeziel/the-double-splat-operator-83347d924ecf"
+    comment: "It allows you to capture an indefinite number of named arguments or a hash right after capturing an array of arguments."
+    pubdate: nov 24
+    tags:
+      - rb
+
+  - title: "Random Interesting Facts on HTML/SVG usage"
+    url: "https://css-tricks.com/random-interesting-facts-htmlsvg-usage/"
+    comment: "interesting facts on markup usage."
+    pubdate: nov 25
+    tags:
+      - css3
+
   - title: ""
     url: ""
     comment: ""
-    pubdate: sep 3
+    pubdate: nov 23
     tags:
       - rb
 
