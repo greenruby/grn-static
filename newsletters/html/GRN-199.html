@@ -71,7 +71,7 @@ table.meat tr td.comment { padding-bottom: 8px; }
 <div class="view">
 <!-- *|IFNOT:ARCHIVE_PAGE|* -->
 Is this email not displaying correctly?
-<a href="http://greenruby.org/grn-<%= c.edition %>.html" target="_blank">View it in your browser</a>.
+<a href="http://greenruby.org/grn-199.html" target="_blank">View it in your browser</a>.
 <!-- *|END:IF|* -->
 </div>
 </div>
@@ -80,75 +80,159 @@ Is this email not displaying correctly?
 <div id="templateHeader">
 <img src="http://greenruby.org/img/green-ruby-68.png" id="headerImage">
 <div>
-<h1>Green Ruby News #<%= c.edition %></h1>
-<div><%= c.pubdate %></div>
+<h1>Green Ruby News #199</h1>
+<div>nov 27th 2016</div>
 </div>
 </div>
 <div id="templateBody">
 
 *|IFNOT:CONTENT=Only Rant|*
-<% if @c.edito && @c.edito != '' %>
-<div>
-<div class="baseline">
-<h3>Edito</h3>
-<%= @c.edito %>
-<br>
-<br>
-<em>&nbsp; mose - the green ruby editor</em><br>
-<em>&nbsp; xenor - the informer</em><br>
-&nbsp; <a href="http://greenruby.org" target="_self">http://greenruby.org</a>
-<br>
-</div>
-<% end %>
 
-<% c.topics.each do |t| %>
-<h2><%= t.title %></h2>
-<div class="baseline"><%= t.baseline %></div>
+<h2>Look</h2>
+<div class="baseline">Examples of UI/UX, graphic performance, web design and flashy things.</div>
 <table cellpadding="0" cellspacing="0" border="0" class="meat">
-<% t.links.each do |l| %>
 <tr><td>
-<a href="<%= l.url %>"><%= l.title %></a>
-<% if l.duration %><span class="duration">(<%= l.duration %>)</span><% end %>
+<a href="http://violent.sh/">Violent Shell</a>
 </td>
 <td class="date">
-<%= l.pubdate %>
-<% if l.tags %>
-<% l.tags.each do |tag| %>
-<img class="icon" src="http://greenruby.org/ico/<%= tag %>.png" height="18" width="18" align="right" alt="<%= tag %>" />
-<% end %>
-<% end %>
+<img class="icon" src="http://greenruby.org/ico/design.png" height="18" width="18" align="right" alt="design" />
 </td></tr>
 <tr><td colspan="2" class="comment">
-<%= l.comment %>
-</td></tr>
-<% end %>
+Web site in shell style.</td></tr>
 </table>
-<% end %>
+<h2>Use</h2>
+<div class="baseline">Web applications, resources and tools, available for making our life easier or funnier.</div>
+<table cellpadding="0" cellspacing="0" border="0" class="meat">
+<tr><td>
+<a href="https://fossbytes.com/dollar-89-pinebook-linux-laptop-64-bit/">Pinebook</a>
+</td>
+<td class="date">
+<img class="icon" src="http://greenruby.org/ico/tool.png" height="18" width="18" align="right" alt="tool" />
+</td></tr>
+<tr><td colspan="2" class="comment">
+A Low Cost Linux Laptop That Looks Like A MacBook.</td></tr>
+<tr><td>
+<a href="http://rails-sqli.org/">Rails SQL Injection Examples</a>
+</td>
+<td class="date">
+<img class="icon" src="http://greenruby.org/ico/tool.png" height="18" width="18" align="right" alt="tool" />
+</td></tr>
+<tr><td colspan="2" class="comment">
+Things to prevent when taking pramams directly to your Rails query.</td></tr>
+</table>
+<h2>Install</h2>
+<div class="baseline">A selection of gems or applications updated during past week.</div>
+<table cellpadding="0" cellspacing="0" border="0" class="meat">
+<tr><td>
+<a href="https://github.com/danielpclark/CardsLib">CardsLib</a>
+</td>
+<td class="date">
+</td></tr>
+<tr><td colspan="2" class="comment">
+Card evaluation is written in a functional way that allows, and is optimized for, lazy evaluation.</td></tr>
+<tr><td>
+<a href="https://github.com/grosser/stub_server">Stub_server</a>
+</td>
+<td class="date">
+<img class="icon" src="http://greenruby.org/ico/rb.png" height="18" width="18" align="right" alt="rb" />
+</td></tr>
+<tr><td colspan="2" class="comment">
+Boot up a real server to serve testing replies.</td></tr>
+<tr><td>
+<a href="https://github.com/michelson/dante2">Dante2</a>
+</td>
+<td class="date">
+<img class="icon" src="http://greenruby.org/ico/js.png" height="18" width="18" align="right" alt="js" />
+</td></tr>
+<tr><td colspan="2" class="comment">
+A rewrite of dante editor built on top of DraftJs</td></tr>
+<tr><td>
+<a href="https://github.com/refinery/refinerycms">Refinerycms</a>
+</td>
+<td class="date">
+<img class="icon" src="http://greenruby.org/ico/rb.png" height="18" width="18" align="right" alt="rb" />
+</td></tr>
+<tr><td colspan="2" class="comment">
+An extendable Ruby on Rails CMS that supports Rails 4.2+</td></tr>
+</table>
+<h2>Read</h2>
+<div class="baseline">From the blogosphere or news feeds ...</div>
+<table cellpadding="0" cellspacing="0" border="0" class="meat">
+<tr><td>
+<a href="https://www.ruby-lang.org/en/news/2016/11/21/ruby-2-3-3-released/">Ruby 2.3.3 Released</a>
+</td>
+<td class="date">
+nov 21<img class="icon" src="http://greenruby.org/ico/rb.png" height="18" width="18" align="right" alt="rb" />
+</td></tr>
+<tr><td colspan="2" class="comment">
+This release contains a bug fix about Refinements and Module#prepend.</td></tr>
+<tr><td>
+<a href="http://schneems.com/2016/11/21/writing-a-rails-feature-blow-by-blow/">Writing a Rails Feature - Blow by Blow</a>
+</td>
+<td class="date">
+nov 21<img class="icon" src="http://greenruby.org/ico/rb.png" height="18" width="18" align="right" alt="rb" />
+</td></tr>
+<tr><td colspan="2" class="comment">
+A detailed walkthrough on how a Rails core commiter implements a feature.</td></tr>
+<tr><td>
+<a href="https://css-tricks.com/style-list-markers-css/">Style List Markers in CSS</a>
+</td>
+<td class="date">
+nov 21<img class="icon" src="http://greenruby.org/ico/css3.png" height="18" width="18" align="right" alt="css3" />
+</td></tr>
+<tr><td colspan="2" class="comment">
+The trick is to remove the list-style, then apply the markers through pseudo-element counters.</td></tr>
+<tr><td>
+<a href="http://blog.davydovanton.com/2016/11/23/ruby-tips-part-two/">Ruby tips #2</a>
+</td>
+<td class="date">
+nov 23<img class="icon" src="http://greenruby.org/ico/rb.png" height="18" width="18" align="right" alt="rb" />
+</td></tr>
+<tr><td colspan="2" class="comment">
+Interesting solutions which you’ll not find anywhere else.</td></tr>
+<tr><td>
+<a href="http://www.rubypigeon.com/posts/questions-and-answers-with-piotr-solnica/">Q&A With Piotr Solnica</a>
+</td>
+<td class="date">
+nov 23<img class="icon" src="http://greenruby.org/ico/rb.png" height="18" width="18" align="right" alt="rb" />
+</td></tr>
+<tr><td colspan="2" class="comment">
+Piotr, and developers like him, play the important role of breathing fresh air into our community.</td></tr>
+<tr><td>
+<a href="https://medium.com/@sophiedeziel/the-double-splat-operator-83347d924ecf">The Double Splat Operator</a>
+</td>
+<td class="date">
+nov 24<img class="icon" src="http://greenruby.org/ico/rb.png" height="18" width="18" align="right" alt="rb" />
+</td></tr>
+<tr><td colspan="2" class="comment">
+It allows you to capture an indefinite number of named arguments or a hash right after capturing an array of arguments.</td></tr>
+<tr><td>
+<a href="https://css-tricks.com/random-interesting-facts-htmlsvg-usage/">Random Interesting Facts on HTML/SVG usage</a>
+</td>
+<td class="date">
+nov 25<img class="icon" src="http://greenruby.org/ico/css3.png" height="18" width="18" align="right" alt="css3" />
+</td></tr>
+<tr><td colspan="2" class="comment">
+Interesting facts on markup usage.</td></tr>
+</table>
 
 <div class="baseline" style="border-top: 1px solid #ccc">
-<% if @c.contributors %>
-<i>Links curated by <%= @c.publisher || 'mose' %> (editor), <%= @c.contributors %> (informers).</i>
-<% elsif @c.editors %>
-<i>Links curated by <%= @c.publisher || 'mose' %> (publisher), <%= @c.editors %> (editors)
-<% if @c.participants %>, <%= @c.participants %> (contributors)<% end %>
-.</i>
-<% else %>
-<i>Links curated by mose (editor), xenor (informer).</i>
-<% end %>
+<i>Links curated by xenor (publisher), tysliu (editors)
+, mose (contributors).</i>
 </div>
 *|END:IF|*
 
-<% if @c.rant && @c.rant != '' %>
 *|IFNOT:CONTENT=Only Links|*
 <div id="rant">
 <h2>Rant</h2>
-<div class="baseline"><i>The random rant of the week by <%= @c.rant.author rescue 'mose' %>.</i></div>
-<%= @c.rant_html %>
+<div class="baseline"><i>The random rant of the week by xenor.</i></div>
+<h4>Pray for turkeys</h4>
+
+<p>Not sure how many turkeys has been eliminated during the weekend, hopefully they all gone for a good reason.</p>
 </div>
 <hr>
 <div class="baseline"><i>If you don't need the rant section in your mailbox, you can <a href="*|UPDATE_PROFILE|*">adjust your preferences</a>.</i></div>
 *|END:IF|*
-<% end %>
 
 <hr>
 <div class="baseline">
