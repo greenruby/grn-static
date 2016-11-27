@@ -1,14 +1,9 @@
 ---
 edition: "199"
-pubdate: "nov 20th 2016"
+pubdate: "nov 27th 2016"
 publisher: xenor
 editors: tysliu
-participants: "Nauman Tariq, hsatac"
-rant:
-  author: mose
-  content:
-    "####
-"
+participants: "mose"
 
 topics:
 
@@ -17,9 +12,9 @@ topics:
     "Examples of UI/UX, graphic performance, web design and flashy things."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "Violent Shell"
+    url: "http://violent.sh/"
+    comment: "Web site in shell style."
     tags:
       - design
 
@@ -29,24 +24,45 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "Pinebook"
+    url: "https://fossbytes.com/dollar-89-pinebook-linux-laptop-64-bit/"
+    comment: "A Low Cost Linux Laptop That Looks Like A MacBook."
     tags:
-      - css3
+      - tool
 
+  - title: "Rails SQL Injection Examples"
+    url: "http://rails-sqli.org/"
+    comment: "Things to prevent when taking pramams directly to your Rails query."
+    tags:
+      - tool
 
 
 - title: Install
   baseline: "A selection of gems or applications updated during past week."
   links:
 
+
   - title: "CardsLib"
     url: "https://github.com/danielpclark/CardsLib"
     comment: "Card evaluation is written in a functional way that allows, and is optimized for, lazy evaluation."
+
+  - title: "Stub_server"
+    url: "https://github.com/grosser/stub_server"
+    comment: "Boot up a real server to serve testing replies."
     tags:
       - rb
 
+  - title: "Dante2"
+    url: "https://github.com/michelson/dante2"
+    comment: "A rewrite of dante editor built on top of DraftJs"
+    tags:
+      - js
+
+  - title: "Refinerycms"
+    url: "https://github.com/refinery/refinerycms"
+    comment: "An extendable Ruby on Rails CMS that supports Rails 4.2+"
+    tags:
+      - rb
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
@@ -96,28 +112,10 @@ topics:
 
   - title: "Random Interesting Facts on HTML/SVG usage"
     url: "https://css-tricks.com/random-interesting-facts-htmlsvg-usage/"
-    comment: "interesting facts on markup usage."
+    comment: "Interesting facts on markup usage."
     pubdate: nov 25
     tags:
       - css3
 
-  - title: ""
-    url: ""
-    comment: ""
-    pubdate: nov 23
-    tags:
-      - rb
 
 
-
-- title: Watch
-  baseline: "Screencasts and conferences videos, or other video feeds ..."
-  links:
-
-  - title: ""
-    url: ""
-    comment: ""
-    pubdate: sep 3
-    duration:
-    tags:
-      - rb
