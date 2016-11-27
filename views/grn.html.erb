@@ -127,9 +127,9 @@ Is this email not displaying correctly?
 
 <div class="baseline" style="border-top: 1px solid #ccc">
 <% if @c.contributors %>
-<i>Links curated by mose (editor), <%= @c.contributors %> (informers).</i>
+<i>Links curated by <%= @c.publisher rescue 'mose' %> (editor), <%= @c.contributors %> (informers).</i>
 <% elsif @c.editors %>
-<i>Links curated by mose (publisher), <%= @c.editors %> (editors)
+<i>Links curated by <%= @c.publisher rescue 'mose' %> (publisher), <%= @c.editors %> (editors)
 <% if @c.participants %>, <%= @c.participants %> (contributors)<% end %>
 .</i>
 <% else %>
@@ -138,7 +138,7 @@ Is this email not displaying correctly?
 </div>
 *|END:IF|*
 
-<% if @c.rant != '' %>
+<% if @c.rant && @c.rant != '' %>
 *|IFNOT:CONTENT=Only Links|*
 <div id="rant">
 <h2>Rant</h2>

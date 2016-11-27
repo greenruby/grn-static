@@ -12,11 +12,11 @@ Green Ruby News #<%= c.edition %> - <%= c.pubdate %>
 <%= l.comment %>
 <% end %><% end %>
 . . . . . . . . . . . . . . . . . . . . . . . . . .
-<% if @c.contributors %>Links curated by by mose (editor), <%= @c.contributors %> (informers)<% elsif @c.editors 
-%>Links curated by by mose (publisher), <%= @c.editors %> (editors)<% if @c.participants %>, <%= @c.participants %> (contributors)<% end %><% end %>.
+<% if @c.contributors %>Links curated by by <%= @c.publisher rescue 'mose' %> (editor), <%= @c.contributors %> (informers)<% elsif @c.editors 
+%>Links curated by <%= @c.publisher rescue 'mose' %> (publisher), <%= @c.editors %> (editors)<% if @c.participants %>, <%= @c.participants %> (contributors)<% end %><% end %>.
 *|END:IF|*
 *|IFNOT:CONTENT=Only Links|*
-<% if @c.rant != '' %>
+<% if @c.rant && @c.rant != '' %>
 Rant
 ----------------------------------------------------
 The random rant of the week by <%= @c.rant.author rescue 'mose' %>.
