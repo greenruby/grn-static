@@ -1,8 +1,8 @@
 ---
-edition: "200"
-pubdate: "dec 4th 2016"
+edition: "201"
+pubdate: "dec 11th 2016"
 publisher: xenor
-editors: tysliu, mose
+editors: tysliu
 participants: "Nauman Tariq, hsatac"
 rant:
   author: mose
@@ -17,117 +17,45 @@ topics:
     "Examples of UI/UX, graphic performance, web design and flashy things."
   links:
 
-  - title: "Sequence"
-    url: "https://www.sequence.co.uk/"
-    comment: "Creative digital agency in Cardiff and London UK. Cool effect on the home."
+  - title: ""
+    url: ""
+    comment: ""
     tags:
       - design
+
 
 - title: Use
   baseline:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: "Crypto 101"
-    url: "https://www.crypto101.io/"
-    comment: "Introductory course on cryptography, freely available for programmers of all skill levels."
+  - title: ""
+    url: ""
+    comment: ""
     tags:
-      - tool
+      - css3
 
-  - title: "CyberChef"
-    url: "https://gchq.github.io/CyberChef/"
-    comment: "Intuitive web app for analysing and decoding data without having to deal with complex tools or programming languages"
-    tags:
-      - tool
+
 
 - title: Install
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: "Ansible: Ruby on Rails Server (Ubuntu 16.x)"
-    url: "https://github.com/aleks/ansible-rails"
-    comment: "Use this ansible playbook to setup a fresh server."
+  - title: ""
+    url: ""
+    comment: ""
     tags:
       - rb
-
-  - title: "Cyclotron"
-    url: "http://www.cyclotron.io/"
-    comment: "A web application for constructing dashboards."
-    tags:
-      - js
 
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: "The European Ruby Revolution"
-    url: "http://devonestes.herokuapp.com/the-european-ruby-revolution/"
-    comment: "While RailsConf is a huge thing in the US, there hasn’t been a European RailsConf since 2008."
-    pubdate: nov 27
-    tags:
-      - rb
-
-  - title: "Who Called Git? An Unusual Debugging Story"
-    url: "http://schneems.com/2016/11/28/who-called-git-an-unusual-debugging-story/"
-    comment: "A lighter bug hunt story."
-    pubdate: nov 28
-    tags:
-      - rb
-
-  - title: "What’s the Second Job of a Startup CEO?"
-    url: "https://blog.ycombinator.com/the-second-job-of-a-startup-ceo/"
-    comment: "When startup CEOs start to scale their companies, they need to redefine themselves and their roles or risk stunting the potential of their startups."
-    pubdate: nov 29
-    tags:
-      - web
-
-  - title: "How To Make A DSL, Hygienically"
-    url: "http://www.rubypigeon.com/posts/how-to-make-a-dsl-hygienically/"
-    comment: "Domain Specific Languages (DSLs) are custom-made computer languages, designed to be convenient for specific tasks."
-    pubdate: nov 30
-    tags:
-      - rb
-
-  - title: "Loops in CSS Preprocessors"
-    url: "https://css-tricks.com/loops-css-preprocessors/"
-    comment: "If you're not sure when to use loops in your code, keep an eye out for repetition."
-    pubdate: dec 2
-    tags:
-      - css3
-
-  - title: "DevRant: Appreciating Quality Geek Humor"
-    url: "https://www.toptal.com/software/the-zen-of-devrant"
-    comment: "LSometimes you just need to rant. Fortunately, there’s an app for that. It’s called devRant."
-    pubdate: dec 2
-    tags:
-      - web
-
-  - title: "Gem Release: Google Analytics Chrome Developer Cookie"
-    url: "http://blog.nrowegt.com/gem-release-google-analytics-chrome-developer-cookie/"
-    comment: "Want to add easily configurable google analytics tracking code to your Rails application, but not register you and your development team’s clicks and views?"
-    pubdate: dec 3
-    tags:
-      - rb
-
-  - title: "How to detect image contents from Ruby with Amazon Rekognition"
-    url: "https://medium.com/statuscode/how-to-detect-image-contents-from-ruby-with-amazon-rekognition-46a962cb040f"
-    comment: "Rekognition is a new Amazon Web Service that “makes it easy to add image analysis to your applications.”"
-    pubdate: dec 4
-    tags:
-      - rb
-
-  - title: "How Font Awesome 5 Became Kickstarter’s Most Funded Software Project"
-    url: "https://articles.fortawesome.com/how-font-awesome-5-became-kickstarters-most-funded-software-project-4a63c035e84"
-    comment: "Given the chance to go back in time, there are a few things we might do differently."
-    pubdate: dec 4
-    tags:
-      - css3
-
   - title: ""
     url: ""
     comment: ""
-    pubdate: nov 28
+    pubdate: sep 3
     tags:
       - rb
 
