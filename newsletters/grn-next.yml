@@ -2,7 +2,7 @@
 edition: "200"
 pubdate: "dec 4th 2016"
 publisher: xenor
-editors: tysliu
+editors: tysliu, mose
 participants: "Nauman Tariq, hsatac"
 rant:
   author: mose
@@ -17,25 +17,28 @@ topics:
     "Examples of UI/UX, graphic performance, web design and flashy things."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "Sequence"
+    url: "https://www.sequence.co.uk/"
+    comment: "Creative digital agency in Cardiff and London UK. Cool effect on the home."
     tags:
       - design
-
 
 - title: Use
   baseline:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "Crypto 101"
+    url: "https://www.crypto101.io/"
+    comment: "Introductory course on cryptography, freely available for programmers of all skill levels."
     tags:
-      - css3
+      - tool
 
-
+  - title: "CyberChef"
+    url: "https://gchq.github.io/CyberChef/"
+    comment: "Intuitive web app for analysing and decoding data without having to deal with complex tools or programming languages"
+    tags:
+      - tool
 
 - title: Install
   baseline: "A selection of gems or applications updated during past week."
@@ -47,11 +50,11 @@ topics:
     tags:
       - rb
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "Cyclotron"
+    url: "http://www.cyclotron.io/"
+    comment: "A web application for constructing dashboards."
     tags:
-      - rb
+      - js
 
 
 - title: Read
@@ -72,6 +75,13 @@ topics:
     tags:
       - rb
 
+  - title: "What’s the Second Job of a Startup CEO?"
+    url: "https://blog.ycombinator.com/the-second-job-of-a-startup-ceo/"
+    comment: "When startup CEOs start to scale their companies, they need to redefine themselves and their roles or risk stunting the potential of their startups."
+    pubdate: nov 29
+    tags:
+      - web
+
   - title: "How To Make A DSL, Hygienically"
     url: "http://www.rubypigeon.com/posts/how-to-make-a-dsl-hygienically/"
     comment: "Domain Specific Languages (DSLs) are custom-made computer languages, designed to be convenient for specific tasks."
@@ -85,6 +95,13 @@ topics:
     pubdate: dec 2
     tags:
       - css3
+
+  - title: "DevRant: Appreciating Quality Geek Humor"
+    url: "https://www.toptal.com/software/the-zen-of-devrant"
+    comment: "LSometimes you just need to rant. Fortunately, there’s an app for that. It’s called devRant."
+    pubdate: dec 2
+    tags:
+      - web
 
   - title: "Gem Release: Google Analytics Chrome Developer Cookie"
     url: "http://blog.nrowegt.com/gem-release-google-analytics-chrome-developer-cookie/"
