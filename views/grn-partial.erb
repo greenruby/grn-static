@@ -36,8 +36,8 @@
 <% if @c.contributors %>
 <i>Links curated by <%= @c.publisher || 'mose' %> (editor), <%= @c.contributors %> (informers).</i>
 <% elsif @c.editors %>
-<i>Links curated by <%= @c.publisher || 'mose' %> (publisher), <%= @c.editors %> (editors)
-<% if @c.participants %>, <%= @c.participants %> (contributors)<% end %>
+<i>Links curated by <%= @c.publisher || 'mose' %> (publisher), <%= @c.editors %> (editors)<% if @c.participants %>, 
+<%= @c.participants %> (contributors)<% end %>
 .</i>
 <% else %>
 <i>Links curated by mose (editor).</i>
