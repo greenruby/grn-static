@@ -1,0 +1,134 @@
+----------------------------------------------------
+Green Ruby News #201 - dec 11th 2016
+----------------------------------------------------
+*|IFNOT:CONTENT=Only Rant|*
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+*Chinatown London* (design)
+http://chinatown.co.uk/en/
+Clean layout with interesting effects.
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+*JavaScript 30* (js)
+https://javascript30.com
+Build 30 things with vanilla JS in 30 days with 30 tutorials
+
+*bold.io* (tool)
+https://bold.io/
+A lightweight editor for authentic writing.
+
+*Ansistrano* (web)
+https://github.com/ansistrano/deploy
+It's an Ansible port for Capistrano.
+
+*Disqus* (web)
+https://disqus.com/
+A saas commenting system.
+
+*Buble* (js)
+https://buble.surge.sh/
+Fast ES2015 compiler.
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+*Portainer* (ops)
+portainer.io
+A web interface to manage docker containers.
+
+*Decider* (rb)
+https://github.com/danielsdeleo/Decider
+Flexible and Extensible Machine Learning Ruby lib
+
+*Classifier* (rb)
+https://github.com/cardmagic/classifier
+A general classifier module to allow Bayesian and other types of classifications.
+
+*Erlix* (el)
+https://github.com/KDr2/erlix
+Ruby Interface of Erlang.
+
+*Github-changelog-generator* (rb)
+https://github.com/skywinder/github-changelog-generator
+Automatically generate change log from tags, issues, labels and pull requests on GitHub.
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+*The half-life of code & the ship of Theseus* (rb - dec 5)
+https://erikbern.com/2016/12/05/the-half-life-of-code.html
+interesting research of how long a line of code lives.
+
+*Refactoring Ruby: DRY up your domain models using a struct table* (rb - dec 5)
+https://www.rubytapas.com/2016/12/05/refactoring-ruby-dry-domain-models-struct-table/
+It can be helpful to watch other programmers demonstrate the perspective changes that they’ve used to solve big problems.
+
+*9 New Features in Ruby 2.4* (rb - dec 6)
+http://www.blackbytes.info/2016/12/new-ruby-features/
+It has become a tradition to release new Ruby versions on Christmas.
+
+*A Beginner's Guide to Exceptions in Ruby* (rb - dec 6)
+http://blog.honeybadger.io/a-beginner-s-guide-to-exceptions-in-ruby/
+People who know basic Ruby syntax but aren't really sure what an exception is or why it's useful.
+
+*Replacing Sinatra with Rack in Sidekiq* (rb - dec 6)
+https://blog.codeship.com/replacing-sinatra-with-rack-in-sidekiq/
+Making the transition from powering the Sidekiq Web UI with Sinatra to having it powered by a pure Rack app.
+
+*Building a new GitLab Docs site with Nanoc, GitLab CI, and GitLab Pages* (rb - dec 7)
+https://about.gitlab.com/2016/12/07/building-a-new-gitlab-docs-site-with-nanoc-gitlab-ci-and-gitlab-pages/
+How we built the new GitLab Docs portal from the ground up
+
+*The State of Babel* (js - dec 7)
+https://babeljs.io/blog/2016/12/07/the-state-of-babel
+Current state of Babel, the powerful JavaScript tooling suite.
+
+*The Pure Functions experiment* (web - dec 9)
+https://medium.com/@ccverak/the-pure-functions-experiment-488ee3f16194
+Talk about pure functions and how they help to write better and maintainable code.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+Links curated by xenor (publisher), tysliu, mose (editors), Nauman Tariq (contributors).
+*|END:IF|*
+*|IFNOT:CONTENT=Only Links|*
+
+Rant
+----------------------------------------------------
+The random rant of the week by xenor.
+
+#### Machine Learning
+After AlphaGo beats human, it seems more and more programmers and programming
+languages start to put their hands into the secret hole. I am not there yet,
+but the trend is really forcing us to face it.
+
+I believe soon enough we will either be programmed by program or write the
+program to program others. When the time comes, which side will you stand?
+
+*|END:IF|*
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+

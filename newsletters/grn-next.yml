@@ -1,11 +1,11 @@
 ---
-edition: "201"
-pubdate: "dec 11th 2016"
+edition: "202"
+pubdate: "dec 18th 2016"
 publisher: xenor
 editors: tysliu, mose
 participants: "Nauman Tariq, hsatac"
 rant:
-  author: xenor
+  author: mose
   content:
     "####
 "
@@ -17,9 +17,9 @@ topics:
     "Examples of UI/UX, graphic performance, web design and flashy things."
   links:
 
-  - title: "Chinatown London"
-    url: "http://chinatown.co.uk/en/"
-    comment: "Clean layout with interesting effects."
+  - title: ""
+    url: ""
+    comment: ""
     tags:
       - design
 
@@ -29,30 +29,11 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-
-  - title: "JavaScript 30"
-    url: "https://javascript30.com"
-    comment: "Build 30 things with vanilla JS in 30 days with 30 tutorials"
+  - title: ""
+    url: ""
+    comment: ""
     tags:
-      - js
-
-  - title: "bold.io"
-    url: "https://bold.io/"
-    comment: "A lightweight editor for authentic writing."
-    tags:
-      - tool
-
-  - title: "Ansistrano"
-    url: "https://github.com/ansistrano/deploy"
-    comment: "It's an Ansible port for Capistrano."
-    tags:
-      - web
-
-  - title: "Disqus"
-    url: "https://disqus.com/"
-    comment: "A saas commenting system."
-    tags:
-      - web
+      - css3
 
 
 
@@ -71,54 +52,13 @@ topics:
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: "Refactoring Ruby: DRY up your domain models using a struct table"
-    url: "https://www.rubytapas.com/2016/12/05/refactoring-ruby-dry-domain-models-struct-table/"
-    comment: "It can be helpful to watch other programmers demonstrate the perspective changes that they’ve used to solve big problems."
-    pubdate: dec 5
+  - title: ""
+    url: ""
+    comment: ""
+    pubdate: sep 3
     tags:
       - rb
 
-  - title: "9 New Features in Ruby 2.4"
-    url: "http://www.blackbytes.info/2016/12/new-ruby-features/"
-    comment: "It has become a tradition to release new Ruby versions on Christmas."
-    pubdate: dec 6
-    tags:
-      - rb
-
-  - title: "A Beginner's Guide to Exceptions in Ruby"
-    url: "http://blog.honeybadger.io/a-beginner-s-guide-to-exceptions-in-ruby/"
-    comment: "People who know basic Ruby syntax but aren't really sure what an exception is or why it's useful."
-    pubdate: dec 6
-    tags:
-      - rb
-
-  - title: "Replacing Sinatra with Rack in Sidekiq"
-    url: "https://blog.codeship.com/replacing-sinatra-with-rack-in-sidekiq/"
-    comment: "Making the transition from powering the Sidekiq Web UI with Sinatra to having it powered by a pure Rack app."
-    pubdate: dec 6
-    tags:
-      - rb
-
-  - title: "Building a new GitLab Docs site with Nanoc, GitLab CI, and GitLab Pages"
-    url: "https://about.gitlab.com/2016/12/07/building-a-new-gitlab-docs-site-with-nanoc-gitlab-ci-and-gitlab-pages/"
-    comment: "How we built the new GitLab Docs portal from the ground up"
-    pubdate: dec 7
-    tags:
-      - rb
-
-  - title: "The State of Babel"
-    url: "https://babeljs.io/blog/2016/12/07/the-state-of-babel"
-    comment: "Current state of Babel, the powerful JavaScript tooling suite."
-    pubdate: dec 7
-    tags:
-      - js
-
-  - title: "The Pure Functions experiment"
-    url: "https://medium.com/@ccverak/the-pure-functions-experiment-488ee3f16194"
-    comment: "Talk about pure functions and how they help to write better and maintainable code."
-    pubdate: dec 9
-    tags:
-      - web
 
 
 - title: Watch
