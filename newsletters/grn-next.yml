@@ -2,10 +2,10 @@
 edition: "201"
 pubdate: "dec 11th 2016"
 publisher: xenor
-editors: tysliu
+editors: tysliu, mose
 participants: "Nauman Tariq, hsatac"
 rant:
-  author: mose
+  author: xenor
   content:
     "####
 "
@@ -28,6 +28,19 @@ topics:
   baseline:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
+
+
+  - title: "JavaScript 30"
+    url: "https://javascript30.com"
+    comment: "Build 30 things with vanilla JS in 30 days with 30 tutorials"
+    tags:
+      - js
+
+  - title: "bold.io"
+    url: "https://bold.io/"
+    comment: "A lightweight editor for authentic writing."
+    tags:
+      - tool
 
   - title: "Ansistrano"
     url: "https://github.com/ansistrano/deploy"
@@ -58,17 +71,17 @@ topics:
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: "9 New Features in Ruby 2.4"
-    url: "http://www.blackbytes.info/2016/12/new-ruby-features/"
-    comment: "It has become a tradition to release new Ruby versions on Christmas."
-    pubdate: dec
-    tags:
-      - rb
-
   - title: "Refactoring Ruby: DRY up your domain models using a struct table"
     url: "https://www.rubytapas.com/2016/12/05/refactoring-ruby-dry-domain-models-struct-table/"
     comment: "It can be helpful to watch other programmers demonstrate the perspective changes that they’ve used to solve big problems."
     pubdate: dec 5
+    tags:
+      - rb
+
+  - title: "9 New Features in Ruby 2.4"
+    url: "http://www.blackbytes.info/2016/12/new-ruby-features/"
+    comment: "It has become a tradition to release new Ruby versions on Christmas."
+    pubdate: dec 6
     tags:
       - rb
 
@@ -92,6 +105,13 @@ topics:
     pubdate: dec 7
     tags:
       - rb
+
+  - title: "The State of Babel"
+    url: "https://babeljs.io/blog/2016/12/07/the-state-of-babel"
+    comment: "Current state of Babel, the powerful JavaScript tooling suite."
+    pubdate: dec 7
+    tags:
+      - js
 
   - title: "The Pure Functions experiment"
     url: "https://medium.com/@ccverak/the-pure-functions-experiment-488ee3f16194"
