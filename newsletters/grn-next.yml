@@ -17,9 +17,9 @@ topics:
     "Examples of UI/UX, graphic performance, web design and flashy things."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "Residente"
+    url: "http://residente.com/en/"
+    comment: "A great visual-musical exploration website."
     tags:
       - design
 
@@ -29,38 +29,32 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
+  - title: "Never again"
+    url: "http://neveragain.tech/"
+    comment: "Today we stand together to say: not on our watch, and never again."
+    tags:
+      - web
+
+  - title: "peekier"
+    url: "https://peekier.com/"
+    comment: "Another way to search the web, safely and visually."
+    tags:
+      - tool
+
   - title: "Awesome NLP with Ruby"
     url: "https://github.com/arbox/nlp-with-ruby"
     comment: "Resources, libraries, information sources about computational processing of texts in human languages with Ruby."
     tags:
       - rb
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "Text Emoticon Creator"
+    url: "https://ascii.li/emoticon-creator"
+    comment: "The ultimate useless tool that you can't live without."
     tags:
-      - css3
-
-
+      - tool
 
 - title: Install
   baseline: "A selection of gems or applications updated during past week."
-  links:
-
-  - title: "Seeing Is Believing"
-    url: "https://github.com/JoshCheek/seeing_is_believing"
-    comment: "Evaluates Ruby code, recording the results of each line."
-    tags:
-      - rb
-
-  - title: ""
-    url: ""
-    comment: ""
-    tags:
-      - rb
-
-- title: Read
-  baseline: "From the blogosphere or news feeds ..."
   links:
 
   - title: "Ruby 2.4.0-rc1 Released"
@@ -69,6 +63,22 @@ topics:
     pubdate: dec 12
     tags:
       - rb
+
+  - title: "Seeing Is Believing"
+    url: "https://github.com/JoshCheek/seeing_is_believing"
+    comment: "Evaluates Ruby code, recording the results of each line."
+    tags:
+      - rb
+
+  - title: "Gitql"
+    url: "https://github.com/cloudson/gitql"
+    comment: "A git query language"
+    tags:
+      - tool
+
+- title: Read
+  baseline: "From the blogosphere or news feeds ..."
+  links:
 
   - title: "Common Rails Security Pitfalls and Their Solutions"
     url: "https://www.sitepoint.com/common-rails-security-pitfalls-and-their-solutions/"
@@ -98,6 +108,13 @@ topics:
     tags:
       - js
 
+  - title: "All the talks from Systems We Love"
+    url: "https://blog.bradfieldcs.com/all-the-talks-from-systems-we-love-debcd9cffca#.jtm6e6k9b"
+    comment: "Details of the talks of the most interesting conference of the year."
+    pubdate: "dec 15"
+    tags:
+      - ops
+
   - title: "Design Patterns in Ruby"
     url: "https://bogdanvlviv.github.io/posts/ruby/patterns/design-patterns-in-ruby.html"
     comment: "Smmary of design patterns from the book Design Patterns in Ruby (by Russ Olsen)"
@@ -112,12 +129,12 @@ topics:
     tags:
       - css3
 
-  - title: ""
-    url: ""
-    comment: ""
-    pubdate: dec 12
+  - title: "Why three-tier support should be replaced with Swarming"
+    url: "https://medium.com/@JonHall_/itsm-devops-and-why-the-three-tier-structure-must-be-replaced-with-swarming-91e76ba22304#.r606rx2ce"
+    comment: "The 3-tier support structure is ubiquitous in ITSM, but it is fundamentally at odds with DevOps principles. Swarming is a better answer."
+    pubdate: "dec 17"
     tags:
-      - rb
+      - ops
 
 
 
@@ -125,10 +142,10 @@ topics:
   baseline: "Screencasts and conferences videos, or other video feeds ..."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
-    pubdate: sep 3
-    duration:
+  - title: "Systems We Love"
+    url: "https://www.youtube.com/watch?v=TPe6UXMDMGM"
+    comment: "20 systems, crazy high quality talks."
+    pubdate: dec 13
+    duration: 8h52
     tags:
-      - rb
+      - ops
