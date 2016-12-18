@@ -1,11 +1,11 @@
 ---
-edition: "202"
-pubdate: "dec 18th 2016"
+edition: "203"
+pubdate: "dec 25th 2016"
 publisher: xenor
-editors: tysliu, mose
+editors: "tysliu, mose"
 participants: "Nauman Tariq, hsatac"
 rant:
-  author: mose
+  author: xenor
   content:
     "####
 "
@@ -17,9 +17,9 @@ topics:
     "Examples of UI/UX, graphic performance, web design and flashy things."
   links:
 
-  - title: "Residente"
-    url: "http://residente.com/en/"
-    comment: "A great visual-musical exploration website."
+  - title: ""
+    url: ""
+    comment: ""
     tags:
       - design
 
@@ -29,112 +29,35 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: "Never again"
-    url: "http://neveragain.tech/"
-    comment: "Today we stand together to say: not on our watch, and never again."
+  - title: ""
+    url: ""
+    comment: ""
     tags:
-      - web
+      - css3
 
-  - title: "peekier"
-    url: "https://peekier.com/"
-    comment: "Another way to search the web, safely and visually."
-    tags:
-      - tool
 
-  - title: "Awesome NLP with Ruby"
-    url: "https://github.com/arbox/nlp-with-ruby"
-    comment: "Resources, libraries, information sources about computational processing of texts in human languages with Ruby."
-    tags:
-      - rb
-
-  - title: "Text Emoticon Creator"
-    url: "https://ascii.li/emoticon-creator"
-    comment: "The ultimate useless tool that you can't live without."
-    tags:
-      - tool
 
 - title: Install
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: "Ruby 2.4.0-rc1 Released"
-    url: "https://www.ruby-lang.org/en/news/2016/12/12/ruby-2-4-0-rc1-released/"
-    comment: "Features include hash table improvements, unifying fixnum and bignum, support for unicode mapping any many more."
-    pubdate: dec 12
+  - title: ""
+    url: ""
+    comment: ""
     tags:
       - rb
 
-  - title: "Seeing Is Believing"
-    url: "https://github.com/JoshCheek/seeing_is_believing"
-    comment: "Evaluates Ruby code, recording the results of each line."
-    tags:
-      - rb
-
-  - title: "Gitql"
-    url: "https://github.com/cloudson/gitql"
-    comment: "A git query language"
-    tags:
-      - tool
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: "Common Rails Security Pitfalls and Their Solutions"
-    url: "https://www.sitepoint.com/common-rails-security-pitfalls-and-their-solutions/"
-    comment: "It’s important to understand common (and less common) security pitfalls that you may encounter."
-    pubdate: dec 12
+  - title: ""
+    url: ""
+    comment: ""
+    pubdate: sep 3
     tags:
       - rb
-
-  - title: "How to make your Ruby code work on Windows PCs"
-    url: "https://www.rubytapas.com/2016/12/14/ruby-code-on-windows/"
-    comment: "Sometimes it is unavoidable."
-    pubdate: dec 12
-    tags:
-      - rb
-
-  - title: "Keeping Data in Sync with ActiveRecord::UpdatedAt"
-    url: "https://tech.lendinghome.com/keeping-data-in-sync-with-activerecord-updatedat-95bd76955a01"
-    comment: "ActiveRecord does not touch updated_at by default when calling certain methods."
-    pubdate: dec 13
-    tags:
-      - rb
-
-  - title: "Prefer DEFER Over ASYNC"
-    url: "http://calendar.perfplanet.com/2016/prefer-defer-over-async/"
-    comment: "Frequently, I notice this blocking JavaScript is loaded with the ASYNC tag."
-    pubdate: dec 14
-    tags:
-      - js
-
-  - title: "All the talks from Systems We Love"
-    url: "https://blog.bradfieldcs.com/all-the-talks-from-systems-we-love-debcd9cffca#.jtm6e6k9b"
-    comment: "Details of the talks of the most interesting conference of the year."
-    pubdate: "dec 15"
-    tags:
-      - ops
-
-  - title: "Design Patterns in Ruby"
-    url: "https://bogdanvlviv.github.io/posts/ruby/patterns/design-patterns-in-ruby.html"
-    comment: "Smmary of design patterns from the book Design Patterns in Ruby (by Russ Olsen)"
-    pubdate: dec 17
-    tags:
-      - rb
-
-  - title: "20 Years of CSS"
-    url: "https://www.w3.org/Style/CSS20/"
-    comment: "On December 17, 1996, W3C published the first standard for CSS."
-    pubdate: dec 17
-    tags:
-      - css3
-
-  - title: "Why three-tier support should be replaced with Swarming"
-    url: "https://medium.com/@JonHall_/itsm-devops-and-why-the-three-tier-structure-must-be-replaced-with-swarming-91e76ba22304#.r606rx2ce"
-    comment: "The 3-tier support structure is ubiquitous in ITSM, but it is fundamentally at odds with DevOps principles. Swarming is a better answer."
-    pubdate: "dec 17"
-    tags:
-      - ops
 
 
 
@@ -142,10 +65,10 @@ topics:
   baseline: "Screencasts and conferences videos, or other video feeds ..."
   links:
 
-  - title: "Systems We Love"
-    url: "https://www.youtube.com/watch?v=TPe6UXMDMGM"
-    comment: "20 systems, crazy high quality talks."
-    pubdate: dec 13
-    duration: 8h52
+  - title: ""
+    url: ""
+    comment: ""
+    pubdate: sep 3
+    duration:
     tags:
-      - ops
+      - rb
