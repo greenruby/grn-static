@@ -29,6 +29,12 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
+  - title: "Awesome NLP with Ruby"
+    url: "https://github.com/arbox/nlp-with-ruby"
+    comment: "Resources, libraries, information sources about computational processing of texts in human languages with Ruby."
+    tags:
+      - rb
+
   - title: ""
     url: ""
     comment: ""
@@ -41,21 +47,75 @@ topics:
   baseline: "A selection of gems or applications updated during past week."
   links:
 
+  - title: "Seeing Is Believing"
+    url: "https://github.com/JoshCheek/seeing_is_believing"
+    comment: "Evaluates Ruby code, recording the results of each line."
+    tags:
+      - rb
+
   - title: ""
     url: ""
     comment: ""
     tags:
       - rb
 
-
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
   links:
 
+  - title: "Ruby 2.4.0-rc1 Released"
+    url: "https://www.ruby-lang.org/en/news/2016/12/12/ruby-2-4-0-rc1-released/"
+    comment: "Features include hash table improvements, unifying fixnum and bignum, support for unicode mapping any many more."
+    pubdate: dec 12
+    tags:
+      - rb
+
+  - title: "Common Rails Security Pitfalls and Their Solutions"
+    url: "https://www.sitepoint.com/common-rails-security-pitfalls-and-their-solutions/"
+    comment: "It’s important to understand common (and less common) security pitfalls that you may encounter."
+    pubdate: dec 12
+    tags:
+      - rb
+
+  - title: "How to make your Ruby code work on Windows PCs"
+    url: "https://www.rubytapas.com/2016/12/14/ruby-code-on-windows/"
+    comment: "Sometimes it is unavoidable."
+    pubdate: dec 12
+    tags:
+      - rb
+
+  - title: "Keeping Data in Sync with ActiveRecord::UpdatedAt"
+    url: "https://tech.lendinghome.com/keeping-data-in-sync-with-activerecord-updatedat-95bd76955a01"
+    comment: "ActiveRecord does not touch updated_at by default when calling certain methods."
+    pubdate: dec 13
+    tags:
+      - rb
+
+  - title: "Prefer DEFER Over ASYNC"
+    url: "http://calendar.perfplanet.com/2016/prefer-defer-over-async/"
+    comment: "Frequently, I notice this blocking JavaScript is loaded with the ASYNC tag."
+    pubdate: dec 14
+    tags:
+      - js
+
+  - title: "Design Patterns in Ruby"
+    url: "https://bogdanvlviv.github.io/posts/ruby/patterns/design-patterns-in-ruby.html"
+    comment: "Smmary of design patterns from the book Design Patterns in Ruby (by Russ Olsen)"
+    pubdate: dec 17
+    tags:
+      - rb
+
+  - title: "20 Years of CSS"
+    url: "https://www.w3.org/Style/CSS20/"
+    comment: "On December 17, 1996, W3C published the first standard for CSS."
+    pubdate: dec 17
+    tags:
+      - css3
+
   - title: ""
     url: ""
     comment: ""
-    pubdate: sep 3
+    pubdate: dec 12
     tags:
       - rb
 
