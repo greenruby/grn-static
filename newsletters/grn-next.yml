@@ -5,9 +5,27 @@ publisher: xenor
 editors: "tysliu, mose"
 participants: "Nauman Tariq, hsatac"
 rant:
-  author: xenor
+  author: xenor and tysliu
   content:
-    "####
+    "#### Merry Christmas And Happy New Year 2017
+
+
+It is the season of giving and forgiving this time around.
+
+
+We often reflect upon ourselves, on what we did good or bad during the year. This is a good practice, perhaps this should be done more often.
+
+
+I'm thankful for all the friends and relations that I've made, and to work with a team that pushes my boundaries for growth and learning.
+
+
+One thing I can still improve on is to just write the solution as soon as there is an idea. This way I can know as soon as it doesn't work and also save my time on questioning if is possible.
+
+
+I hope next year will be even better and Happy Holidays!
+
+
+EOF
 "
 
 topics:
@@ -29,11 +47,11 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "AnyChart"
+    url: "http://www.anychart.com/"
+    comment: "JavaScript/HTML5 Chart library for any project."
     tags:
-      - css3
+      - js
 
 
 
@@ -52,10 +70,52 @@ topics:
   baseline: "From the blogosphere or news feeds ..."
   links:
 
+  - title: "How the F does Sprockets Load an Asset?"
+    url: "http://schneems.com/2016/12/20/how-the-f-does-sprockets-load-an-asset/"
+    comment: "A technical deep dive into sprockets."
+    pubdate: dec 20
+    tags:
+      - rb
+
+  - title: "Using Configurable Shared Examples in RSpec"
+    url: "http://railsware.com/blog/2016/12/21/using-configurable-shared-examples-in-rspec/"
+    comment: "Things get more complicated when you have the same behavior, but it has some slight variations for different contexts."
+    pubdate: dec 21
+    tags:
+      - rb
+
+  - title: "Story About Inesita, Ruby Frontend Framework"
+    url: "https://blog.fazibear.me/story-about-inesita-ruby-frontend-framework-5280432e482a"
+    comment: ""
+    pubdate: dec 22
+    tags:
+      - rb
+
+  - title: "Learning from Lego: A Step Forward in Modular Web Design"
+    url: "http://alistapart.com/article/learning-from-lego-a-step-forward-in-modular-web-design"
+    comment: "When web components are modular like Lego bricks down to the elements level, they become more versatile and easier to maintain."
+    pubdate: dec 22
+    tags:
+      - css3
+
+  - title: "Safer Rails database migrations with Soundcloud's Large Hadron Migrator"
+    url: "http://blog.arkency.com/2016/12/safer-database-migrations-with-soundclouds-large-hadron-migrator/"
+    comment: "If you need to migrate big tables without downtime in MySQL you can use LHM or upgrade MySQL to 5.6."
+    pubdate: dec 23
+    tags:
+      - rb
+
+  - title: "Ruby 2.4.0 Released"
+    url: "https://www.ruby-lang.org/en/news/2016/12/25/ruby-2-4-0-released/"
+    comment: "It is customary to release a new version of Ruby on Christmas."
+    pubdate: dec 25
+    tags:
+      - rb
+
   - title: ""
     url: ""
     comment: ""
-    pubdate: sep 3
+    pubdate: dec 20
     tags:
       - rb
 
