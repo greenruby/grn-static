@@ -1,9 +1,44 @@
 ---
-edition: "202"
-pubdate: "dec 18th 2016"
+edition: "203"
+pubdate: "dec 25th 2016"
 publisher: xenor
-editors: tysliu, mose
+editors: "tysliu, mose"
 participants: "Nauman Tariq"
+rant:
+  author: "tysliu, xenor"
+  content:
+    "####
+
+
+Recently I read [this][checklist] article, it is a checklist about how to keep your front-end sane in 2017. The amount of new techniques to keep track of is just astonishing.
+
+
+I think many people will feel the same, how is there consistantly so many new libraries and tools for doing front-end.
+
+
+Perhaps if there was some kind of standard or versioning like css3 html5. Such that browser maker and app makers can conform to. To produce best performance apps for each iteration.
+
+
+This will probably resolve broswer fragmentation and the myriad of libraries/techniques we have to deal with.
+
+
+That'd be a real Merry Christmas!
+
+
+[checklist]: https://www.smashingmagazine.com/2016/12/front-end-performance-checklist-2017-pdf-pages/
+
+--tysliu
+
+#### Someone's birthday
+
+I've heard that today is someone's birthday, and it seems a cake and \"Happpy birthday\" is not enough, people are throwing parties with reds and greens all over the place.
+
+I've also heard that the night before his birthday, an old stranger with red shirt will break into houses with kids inside while they are sleeping, but the weird thing is that no one really call the police...
+
+Let's hope trees got decorated can survive till next year, and every child gets more parents love than what they get from a red stranger.
+
+--Xenor
+"
 
 topics:
 
@@ -12,9 +47,9 @@ topics:
     "Examples of UI/UX, graphic performance, web design and flashy things."
   links:
 
-  - title: "Residente"
-    url: "http://residente.com/en/"
-    comment: "A great visual-musical exploration website."
+  - title: "HiveBoxx"
+    url: "https://www.hiveboxx.com/"
+    comment: "Simple but elegant product presentation."
     tags:
       - design
 
@@ -24,153 +59,107 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: "Never again"
-    url: "http://neveragain.tech/"
-    comment: "Today we stand together to say: not on our watch, and never again."
+  - title: "AnyChart"
+    url: "http://www.anychart.com/"
+    comment: "JavaScript/HTML5 Chart library for any project."
     tags:
-      - web
+      - js
 
-  - title: "Peekier"
-    url: "https://peekier.com/"
-    comment: "Another way to search the web, safely and visually."
+  - title: "JSON schema faker"
+    url: "http://json-schema-faker.js.org/"
+    comment: "JSON fake data generator."
     tags:
-      - tool
+      - js
 
-  - title: "Awesome NLP with Ruby"
-    url: "https://github.com/arbox/nlp-with-ruby"
-    comment: "Resources, libraries, information sources about computational processing of texts in human languages with Ruby."
-    tags:
-      - rb
 
-  - title: "Text Emoticon Creator"
-    url: "https://ascii.li/emoticon-creator"
-    comment: "The ultimate useless tool that you can't live without."
-    tags:
-      - tool
 
 - title: Install
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: "Ruby 2.4.0-rc1 Released"
-    url: "https://www.ruby-lang.org/en/news/2016/12/12/ruby-2-4-0-rc1-released/"
-    comment: "Features include hash table improvements, unifying fixnum and bignum, support for unicode mapping any many more."
-    pubdate: dec 12
+  - title: "database_cleaner"
+    url: "https://github.com/DatabaseCleaner/database_cleaner"
+    comment: "Strategies for cleaning databases in Ruby."
     tags:
       - rb
 
-  - title: "Seeing Is Believing"
-    url: "https://github.com/JoshCheek/seeing_is_believing"
-    comment: "Evaluates Ruby code, recording the results of each line."
-    tags:
-      - rb
-
-  - title: "Gitql"
-    url: "https://github.com/cloudson/gitql"
-    comment: "A git query language."
-    tags:
-      - tool
-
-  - title: "Sikuli Script"
-    url: "http://www.sikuli.org/"
-    comment: "Uses image recognition to identify and control GUI components."
-    tags:
-      - tool
-
-  - title: "sidekiq-superworker"
-    url: "https://github.com/socialpandas/sidekiq-superworker"
-    comment: "Directed acyclic graphs of Sidekiq jobs."
-    tags:
-      - rb
-
-  - title: "Enum_transitions"
-    url: "https://github.com/listia/enum_transitions"
-    comment: "ActiveRecord::Enum transition validations."
-    tags:
-      - rb
-
-  - title: "Hyper"
-    url: "https://github.com/zeit/hyper"
-    comment: "A terminal built on web technologies."
+  - title: "json-server"
+    url: "https://github.com/typicode/json-server"
+    comment: "Fake JSON REST API in 30 seconds."
     tags:
       - js
 
-  - title: "Database_flusher"
-    url: "https://github.com/ebeigarts/database_flusher"
-    comment: "Tiny and fast database cleaner."
+  - title: "PEV"
+    url: "https://github.com/AlexTatiyants/pev"
+    comment: "Postgres Explain Visualizer."
     tags:
-      - rb
+      - js
+
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: "Common Rails Security Pitfalls and Their Solutions"
-    url: "https://www.sitepoint.com/common-rails-security-pitfalls-and-their-solutions/"
-    comment: "It’s important to understand common (and less common) security pitfalls that you may encounter."
-    pubdate: dec 12
+  - title: "How the F does Sprockets Load an Asset?"
+    url: "http://schneems.com/2016/12/20/how-the-f-does-sprockets-load-an-asset/"
+    comment: "A technical deep dive into sprockets."
+    pubdate: dec 20
     tags:
       - rb
 
-  - title: "How to make your Ruby code work on Windows PCs"
-    url: "https://www.rubytapas.com/2016/12/14/ruby-code-on-windows/"
-    comment: "Sometimes it is unavoidable."
-    pubdate: dec 12
-    tags:
-      - rb
-
-  - title: "Keeping Data in Sync with ActiveRecord::UpdatedAt"
-    url: "https://tech.lendinghome.com/keeping-data-in-sync-with-activerecord-updatedat-95bd76955a01"
-    comment: "ActiveRecord does not touch updated_at by default when calling certain methods."
-    pubdate: dec 13
-    tags:
-      - rb
-
-  - title: "Prefer DEFER Over ASYNC"
-    url: "http://calendar.perfplanet.com/2016/prefer-defer-over-async/"
-    comment: "Frequently, I notice this blocking JavaScript is loaded with the ASYNC tag."
-    pubdate: dec 14
-    tags:
-      - js
-
-  - title: "All the talks from Systems We Love"
-    url: "https://blog.bradfieldcs.com/all-the-talks-from-systems-we-love-debcd9cffca#.jtm6e6k9b"
-    comment: "Details of the talks of the most interesting conference of the year."
-    pubdate: "dec 15"
+  - title: "Are You Load Balancing Wrong?"
+    url: "http://queue.acm.org/detail.cfm?id=3028689"
+    comment: "Anyone can use a load balancer. Using them properly is much more difficult."
+    pubdate: dec 20
     tags:
       - ops
 
-  - title: "Design Patterns in Ruby"
-    url: "https://bogdanvlviv.github.io/posts/ruby/patterns/design-patterns-in-ruby.html"
-    comment: "Smmary of design patterns from the book Design Patterns in Ruby (by Russ Olsen)"
-    pubdate: dec 17
+  - title: "Using Configurable Shared Examples in RSpec"
+    url: "http://railsware.com/blog/2016/12/21/using-configurable-shared-examples-in-rspec/"
+    comment: "Things get more complicated when you have the same behavior, but it has some slight variations for different contexts."
+    pubdate: dec 21
     tags:
       - rb
 
-  - title: "20 Years of CSS"
-    url: "https://www.w3.org/Style/CSS20/"
-    comment: "On December 17, 1996, W3C published the first standard for CSS."
-    pubdate: dec 17
+  - title: "Front-End Performance Checklist 2017 (PDF, Apple Pages)"
+    url: "https://www.smashingmagazine.com/2016/12/front-end-performance-checklist-2017-pdf-pages/"
+    comment: "Some of the optimizations might be beyond the scope of your work or budget or might just be overkill given the legacy code you have to deal with."
+    pubdate: dec 21
+    tags:
+      - web
+
+  - title: "Learning From A Year of Security Breaches"
+    url: "https://medium.com/starting-up-security/learning-from-a-year-of-security-breaches-ed036ea05d9b"
+    comment: "Responding to security incidents in 2016."
+    pubdate: "dec 21"
+    tags:
+      - ops
+
+  - title: "Story About Inesita, Ruby Frontend Framework"
+    url: "https://blog.fazibear.me/story-about-inesita-ruby-frontend-framework-5280432e482a"
+    comment: ""
+    pubdate: dec 22
+    tags:
+      - rb
+
+  - title: "Learning from Lego: A Step Forward in Modular Web Design"
+    url: "http://alistapart.com/article/learning-from-lego-a-step-forward-in-modular-web-design"
+    comment: "When web components are modular like Lego bricks down to the elements level, they become more versatile and easier to maintain."
+    pubdate: dec 22
     tags:
       - css3
 
-  - title: "Why three-tier support should be replaced with Swarming"
-    url: "https://medium.com/@JonHall_/itsm-devops-and-why-the-three-tier-structure-must-be-replaced-with-swarming-91e76ba22304#.r606rx2ce"
-    comment: "The 3-tier support structure is ubiquitous in ITSM, but it is fundamentally at odds with DevOps principles. Swarming is a better answer."
-    pubdate: "dec 17"
+  - title: "Safer Rails database migrations with Soundcloud's Large Hadron Migrator"
+    url: "http://blog.arkency.com/2016/12/safer-database-migrations-with-soundclouds-large-hadron-migrator/"
+    comment: "If you need to migrate big tables without downtime in MySQL you can use LHM or upgrade MySQL to 5.6."
+    pubdate: dec 23
     tags:
-      - ops
+      - rb
 
-
-
-- title: Watch
-  baseline: "Screencasts and conferences videos, or other video feeds ..."
-  links:
-
-  - title: "Systems We Love"
-    url: "https://www.youtube.com/watch?v=TPe6UXMDMGM"
-    comment: "20 systems, crazy high quality talks."
-    pubdate: dec 13
-    duration: 8h52
+  - title: "Ruby 2.4.0 Released"
+    url: "https://www.ruby-lang.org/en/news/2016/12/25/ruby-2-4-0-released/"
+    comment: "It is customary to release a new version of Ruby on Christmas."
+    pubdate: dec 25
     tags:
-      - ops
+      - rb
+
