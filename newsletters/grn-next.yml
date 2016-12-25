@@ -5,7 +5,7 @@ publisher: xenor
 editors: "tysliu, mose"
 participants: "Nauman Tariq, hsatac"
 rant:
-  author: xenor and tysliu
+  author: tysliu
   content:
     "####
 
@@ -35,9 +35,9 @@ topics:
     "Examples of UI/UX, graphic performance, web design and flashy things."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "HiveBoxx"
+    url: "https://www.hiveboxx.com/"
+    comment: "Simple but elegant product presentation."
     tags:
       - design
 
@@ -77,6 +77,13 @@ topics:
     tags:
       - rb
 
+  - title: "Are You Load Balancing Wrong?"
+    url: "http://queue.acm.org/detail.cfm?id=3028689"
+    comment: "Anyone can use a load balancer. Using them properly is much more difficult."
+    pubdate: dec 20
+    tags:
+      - ops
+
   - title: "Using Configurable Shared Examples in RSpec"
     url: "http://railsware.com/blog/2016/12/21/using-configurable-shared-examples-in-rspec/"
     comment: "Things get more complicated when you have the same behavior, but it has some slight variations for different contexts."
@@ -90,6 +97,13 @@ topics:
     pubdate: dec 21
     tags:
       - web
+
+  - title: "Learning From A Year of Security Breaches"
+    url: "https://medium.com/starting-up-security/learning-from-a-year-of-security-breaches-ed036ea05d9b"
+    comment: "Responding to security incidents in 2016."
+    pubdate: "dec 21"
+    tags:
+      - ops
 
   - title: "Story About Inesita, Ruby Frontend Framework"
     url: "https://blog.fazibear.me/story-about-inesita-ruby-frontend-framework-5280432e482a"
