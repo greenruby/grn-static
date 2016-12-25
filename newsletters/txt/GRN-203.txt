@@ -1,0 +1,149 @@
+----------------------------------------------------
+Green Ruby News #203 - dec 25th 2016
+----------------------------------------------------
+*|IFNOT:CONTENT=Only Rant|*
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+*HiveBoxx* (design)
+https://www.hiveboxx.com/
+Simple but elegant product presentation.
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+*AnyChart* (js)
+http://www.anychart.com/
+JavaScript/HTML5 Chart library for any project.
+
+*JSON schema faker* (js)
+http://json-schema-faker.js.org/
+JSON fake data generator.
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+*database_cleaner* (rb)
+https://github.com/DatabaseCleaner/database_cleaner
+Strategies for cleaning databases in Ruby.
+
+*json-server* (js)
+https://github.com/typicode/json-server
+Fake JSON REST API in 30 seconds.
+
+*PEV* (js)
+https://github.com/AlexTatiyants/pev
+Postgres Explain Visualizer.
+
+*Money* (rb)
+https://github.com/RubyMoney/money
+A Ruby Library for dealing with money and currency conversion.
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+*How the F does Sprockets Load an Asset?* (rb - dec 20)
+http://schneems.com/2016/12/20/how-the-f-does-sprockets-load-an-asset/
+A technical deep dive into sprockets.
+
+*Are You Load Balancing Wrong?* (ops - dec 20)
+http://queue.acm.org/detail.cfm?id=3028689
+Anyone can use a load balancer. Using them properly is much more difficult.
+
+*Using Configurable Shared Examples in RSpec* (rb - dec 21)
+http://railsware.com/blog/2016/12/21/using-configurable-shared-examples-in-rspec/
+Things get more complicated when you have the same behavior, but it has some slight variations for different contexts.
+
+*Front-End Performance Checklist 2017 (PDF, Apple Pages)* (web - dec 21)
+https://www.smashingmagazine.com/2016/12/front-end-performance-checklist-2017-pdf-pages/
+Some of the optimizations might be beyond the scope of your work or budget or might just be overkill given the legacy code you have to deal with.
+
+*Learning From A Year of Security Breaches* (ops - dec 21)
+https://medium.com/starting-up-security/learning-from-a-year-of-security-breaches-ed036ea05d9b
+Responding to security incidents in 2016.
+
+*Story About Inesita, Ruby Frontend Framework* (rb - dec 22)
+https://blog.fazibear.me/story-about-inesita-ruby-frontend-framework-5280432e482a
+
+
+*Learning from Lego: A Step Forward in Modular Web Design* (css3 - dec 22)
+http://alistapart.com/article/learning-from-lego-a-step-forward-in-modular-web-design
+When web components are modular like Lego bricks down to the elements level, they become more versatile and easier to maintain.
+
+*Safer Rails database migrations with Soundcloud's Large Hadron Migrator* (rb - dec 23)
+http://blog.arkency.com/2016/12/safer-database-migrations-with-soundclouds-large-hadron-migrator/
+If you need to migrate big tables without downtime in MySQL you can use LHM or upgrade MySQL to 5.6.
+
+*Ruby 2.4.0 Released* (rb - dec 25)
+https://www.ruby-lang.org/en/news/2016/12/25/ruby-2-4-0-released/
+It is customary to release a new version of Ruby on Christmas.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+Links curated by xenor (publisher), tysliu, mose (editors), Nauman Tariq (contributors).
+*|END:IF|*
+*|IFNOT:CONTENT=Only Links|*
+
+Rant
+----------------------------------------------------
+The random rant of the week by xenor and tysliu.
+
+#### Someone's birthday
+
+I've heard that today is someone's birthday, and it seems a cake and "Happpy
+birthday" is not enough, people are throwing parties with reds and greens all
+over the place.
+
+I've also heard that the night before his birthday, an old stranger with red
+shirt will break into houses with kids inside while they are sleeping, but the
+weird thing is that no one really call the police...
+
+Let's hope trees got decorated can survive till next year, and every child
+gets more parents' love than what they got from a red stranger.
+
+--Xenor
+
+=========================
+Recently I read [this][checklist] article, it is a checklist about how to keep
+your front-end sane in 2017. The amount of new techniques to keep track of is
+just astonishing.
+
+I think many people will feel the same, how is there consistantly so many new
+libraries and tools for doing front-end.
+
+Perhaps if there was some kind of standard or versioning like css3 html5. Such
+that browser maker and app makers can conform to. To produce best performance
+apps for each iteration.
+
+This will probably resolve broswer fragmentation and the myriad of
+libraries/techniques we have to deal with.
+
+That'd be a real Merry Christmas!
+
+[checklist]: https://www.smashingmagazine.com/2016/12/front-end-performance-checklist-2017-pdf-pages/
+--tysliu 
+
+*|END:IF|*
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+
