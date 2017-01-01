@@ -1,21 +1,13 @@
 ---
-edition: "204"
-pubdate: "jan 1st 2017"
+edition: "205"
+pubdate: "jan 8th 2017"
 publisher: xenor
 editors: "tysliu, mose"
-participants: "Nauman Tariq, lincoln"
+participants: "Nauman Tariq, hsatac"
 rant:
   author: xenor
   content:
-    "#### 2017
-
-    There is nothing wrong to wish a better year and review what's been done last year, but when it's everywhere in social media, I started to ask myself, what are all those wishes and reviews for? Is it something people really wants to share or something to get others' attention on? I've been wondering the word \"share\" in social media for a long time.
-
-
-    In developers world, you share your work as open source and other devs can come and help or gets help by using it, but what can we get form others' share in social media? Happiness or sense of loss caused by other's happiness? Useful information or bias information looks useful because of a lot of likes/retweets?
-
-
-    I am probably cynical and you don't have to be like me. It's a brand new year and wish we all get something different this year, no matter good or bad.
+    "####
 "
 
 topics:
@@ -25,9 +17,9 @@ topics:
     "Examples of UI/UX, graphic performance, web design and flashy things."
   links:
 
-  - title: "Valerian"
-    url: "https://www.valerian.bnpparibas/en"
-    comment: "A movie website with some game and crazy effects (and made with rails)."
+  - title: ""
+    url: ""
+    comment: ""
     tags:
       - design
 
@@ -37,143 +29,46 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: "ReactiveX"
-    url: "http://reactivex.io/"
-    comment: "An API for asynchronous programming with observable streams"
+  - title: ""
+    url: ""
+    comment: ""
     tags:
-      - rb
+      - css3
 
-  - title: "Awesomo"
-    url: "https://github.com/lk-geimfari/awesomo"
-    comment: "The really big list of really interesting open source projects in various languages."
-    tags:
-      - tool
 
-  - title: "Stack-on-a-budget
-    url: "https://github.com/255kb/stack-on-a-budget"
-    comment: "A collection of services with great free tiers for developers on a budget."
-    tags:
-      - ops
-
-  - title: "Google-interview-university"
-    url: "https://github.com/jwasham/google-interview-university"
-    comment: "A complete daily plan for studying to become a Google software engineer."
-    tags:
-      - tool
-
-  - title: "Alerta"
-    url: "http://alerta.io/"
-    comment: "Alerts management."
-    tags:
-      - ops
-
-  - title: "Remote Stories"
-    url: "https://www.remotestories.com/"
-    comment: "Anonymous stories from remote workers"
-    tags:
-      - tool
 
 - title: Install
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: "PluckAll"
-    url: "https://github.com/khiav223577/pluck_all"
-    comment: "Pluck multiple attributes in Rails 3, 4, 5, and can return data as hash instead of only array."
+  - title: ""
+    url: ""
+    comment: ""
     tags:
       - rb
-
-  - title: "AppPerf"
-    url: "https://github.com/randy-girard/app_perf"
-    comment: "This is a application monitoring app. I am trying to build an open source, easy to setup, performance monitoring tool."
-    tags:
-      - rb
-
-  - title: "BetterSJR"
-    url: "https://github.com/carlosramireziii/better_sjr"
-    comment: "BetterSJR improves server-generated JavaScript (SJR) responses in Rails by adding error messages for debugging."
-    tags:
-      - rb
-
-  - title: "File replicator, a split-join command line tool"
-    url: "https://github.com/vadviktor/file-replicator"
-    comment: "This Gem provides you with two command line tools, one to split up files and one to join them back togather again."
-    tags:
-      - rb
-
-  - title: "Wannabe Bool"
-    url: "https://github.com/prodis/wannabe_bool"
-    comment: "If string, numeric, symbol and nil values wanna be a boolean value, they can with the new to_b method."
-    tags:
-      - rb
-
-  - title: "MakeModelSearchable"
-    url: "https://github.com/8parth/make_model_searchable"
-    comment: "Moduler solution to add search functionality for selected fields."
-    tags:
-      - rb
-
-  - title: "TTY::Color"
-    url: "https://github.com/piotrmurach/tty-color"
-    comment: "Terminal color capabilities detection."
-    tags:
-      - rb
-
-  - title: "Pastel"
-    url: "https://github.com/piotrmurach/pastel"
-    comment: "Terminal output styling with intuitive and clean API that doesn't monkey patch String class."
-    tags:
-      - rb
-
-  - title: "i18n-tasks"
-    url: "https://github.com/glebm/i18n-tasks"
-    comment: "i18n-tasks helps you find and manage missing and unused translations."
-    tags:
-      - rb
-
-  - title: "rbnacl
-    url: "https://github.com/cryptosphere/rbnacl"
-    comment: "Ruby binding to the Networking and Cryptography (NaCl) library"
-    tags:
-      - rb
-
 
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: "Primitive obsession"
-    url: "https://jc00ke.com/2016/12/26/primitive-obsession/"
-    comment: "Primitive Obsession is using primitive data types to represent domain ideas."
-    pubdate: dec 26
+  - title: ""
+    url: ""
+    comment: ""
+    pubdate: sep 3
     tags:
       - rb
 
-  - title: "A Guide to 2017 Conferences"
-    url: "https://css-tricks.com/guide-2017-conferences/"
-    comment: "Many great talks and conferences happening in our industry in 2017."
-    pubdate: "dec 26"
-    tags:
-      - js
 
-  - title: "Isolate Global State"
-    url: "https://lucaguidi.com/2016/12/27/isolate-global-state.html"
-    comment: "Using global state in software programs, is handy for development, but evil to maintain."
-    pubdate: dec 27
-    tags:
-      - rb
 
-  - title: "Creating Advanced Active Record DB Queries with Arel"
-    url: "https://blog.codeship.com/creating-advanced-active-record-db-queries-arel/"
-    comment: "Arel is an excellent AST to get you quickly building even the most complicated queries."
-    pubdate: dec 28
-    tags:
-      - rb
+- title: Watch
+  baseline: "Screencasts and conferences videos, or other video feeds ..."
+  links:
 
-  - title: "The 15 most popular Ruby links of 2016"
-    url: "https://medium.com/statuscode/the-15-most-popular-ruby-links-of-2016-ff3cf06d5b80"
-    comment: "We’ve delved into all the data from Ruby Weekly and found the most popular links of the year."
-    pubdate: dec 29
+  - title: ""
+    url: ""
+    comment: ""
+    pubdate: sep 3
+    duration:
     tags:
       - rb
