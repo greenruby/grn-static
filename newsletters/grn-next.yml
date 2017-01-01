@@ -17,9 +17,9 @@ topics:
     "Examples of UI/UX, graphic performance, web design and flashy things."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "Valerian"
+    url: "https://www.valerian.bnpparibas/en"
+    comment: "A movie website with some game and crazy effects (and made with rails)."
     tags:
       - design
 
@@ -35,7 +35,17 @@ topics:
     tags:
       - rb
 
+  - title: "Awesomo"
+    url: "https://github.com/lk-geimfari/awesomo"
+    comment: "The really big list of really interesting open source projects in various languages."
+    tags:
+      - tool
 
+  - title: "Alerta"
+    url: "http://alerta.io/"
+    comment: "Alerts management."
+    tags:
+      - ops
 
 - title: Install
   baseline: "A selection of gems or applications updated during past week."
@@ -107,6 +117,13 @@ topics:
     pubdate: dec 26
     tags:
       - rb
+
+  - title: "A Guide to 2017 Conferences"
+    url: "https://css-tricks.com/guide-2017-conferences/"
+    comment: "Many great talks and conferences happening in our industry in 2017."
+    pubdate: "dec 26"
+    tags:
+      - js
 
   - title: "Isolate Global State"
     url: "https://lucaguidi.com/2016/12/27/isolate-global-state.html"
