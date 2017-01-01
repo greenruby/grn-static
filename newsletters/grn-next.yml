@@ -29,11 +29,11 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "ReactiveX"
+    url: "http://reactivex.io/"
+    comment: "An API for asynchronous programming with observable streams"
     tags:
-      - css3
+      - rb
 
 
 
@@ -41,21 +41,98 @@ topics:
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "PluckAll"
+    url: "https://github.com/khiav223577/pluck_all"
+    comment: "Pluck multiple attributes in Rails 3, 4, 5, and can return data as hash instead of only array."
     tags:
       - rb
+
+  - title: "AppPerf"
+    url: "https://github.com/randy-girard/app_perf"
+    comment: "This is a application monitoring app. I am trying to build an open source, easy to setup, performance monitoring tool."
+    tags:
+      - rb
+
+  - title: "BetterSJR"
+    url: "https://github.com/carlosramireziii/better_sjr"
+    comment: "BetterSJR improves server-generated JavaScript (SJR) responses in Rails by adding error messages for debugging."
+    tags:
+      - rb
+
+  - title: "File replicator, a split-join command line tool"
+    url: "https://github.com/vadviktor/file-replicator"
+    comment: "This Gem provides you with two command line tools, one to split up files and one to join them back togather again."
+    tags:
+      - rb
+
+  - title: "Wannabe Bool"
+    url: "https://github.com/prodis/wannabe_bool"
+    comment: "If string, numeric, symbol and nil values wanna be a boolean value, they can with the new to_b method."
+    tags:
+      - rb
+
+  - title: "MakeModelSearchable"
+    url: "https://github.com/8parth/make_model_searchable"
+    comment: "Moduler solution to add search functionality for selected fields."
+    tags:
+      - rb
+
+  - title: "TTY::Color"
+    url: "https://github.com/piotrmurach/tty-color"
+    comment: "Terminal color capabilities detection."
+    tags:
+      - rb
+
+  - title: "Pastel"
+    url: "https://github.com/piotrmurach/pastel"
+    comment: "Terminal output styling with intuitive and clean API that doesn't monkey patch String class."
+    tags:
+      - rb
+
+  - title: "i18n-tasks"
+    url: "https://github.com/glebm/i18n-tasks"
+    comment: "i18n-tasks helps you find and manage missing and unused translations."
+    tags:
+      - rb
+
 
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
   links:
 
+  - title: "Primitive obsession"
+    url: "https://jc00ke.com/2016/12/26/primitive-obsession/"
+    comment: "Primitive Obsession is using primitive data types to represent domain ideas."
+    pubdate: dec 26
+    tags:
+      - rb
+
+  - title: "Isolate Global State"
+    url: "https://lucaguidi.com/2016/12/27/isolate-global-state.html"
+    comment: "Using global state in software programs, is handy for development, but evil to maintain."
+    pubdate: dec 27
+    tags:
+      - rb
+
+  - title: "Creating Advanced Active Record DB Queries with Arel"
+    url: "https://blog.codeship.com/creating-advanced-active-record-db-queries-arel/"
+    comment: "Arel is an excellent AST to get you quickly building even the most complicated queries."
+    pubdate: dec 28
+    tags:
+      - rb
+
+  - title: "The 15 most popular Ruby links of 2016"
+    url: "https://medium.com/statuscode/the-15-most-popular-ruby-links-of-2016-ff3cf06d5b80"
+    comment: "We’ve delved into all the data from Ruby Weekly and found the most popular links of the year."
+    pubdate: dec 29
+    tags:
+      - rb
+
   - title: ""
     url: ""
     comment: ""
-    pubdate: sep 3
+    pubdate: dec 29
     tags:
       - rb
 
