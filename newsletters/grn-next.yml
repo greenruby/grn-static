@@ -12,9 +12,9 @@ topics:
     "Examples of UI/UX, graphic performance, web design and flashy things."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "Obrigado"
+    url: "https://www.obrigadonatural.com/en_gb/"
+    comment: "good design and horizontal scrolling."
     tags:
       - design
 
@@ -53,6 +53,12 @@ topics:
     comment: "A/B testing tool for Rails"
     tags:
       - rb
+
+  - title: "Winds"
+    url: "https://winds.getstream.io/"
+    comment: "RSS reader with some machine learning."
+    tags:
+      - js
 
   - title: "git-crecord"
     url: "https://github.com/andrewshadura/git-crecord"
@@ -101,18 +107,25 @@ topics:
     comment: "Use TracePoint class to spy on your code."
     pubdate: "jan 4"
     tags:
-      - rb
+      - web
 
-
-
-- title: Watch
-  baseline: "Screencasts and conferences videos, or other video feeds ..."
-  links:
-
-  - title: ""
-    url: ""
-    comment: ""
-    pubdate: sep 3
-    duration:
+  - title: "Functions as a Service (FaaS)"
+    url: "http://blog.alexellis.io/functions-as-a-service/"
+    comment: "Learn about a new proof of concept called Functions as a Service FaaS which brings Serverless to Docker Swarm Mode using brand new 1.13 features."
+    pubdate: "jan 4"
     tags:
-      - rb
+      - web
+
+  - title: "Design for internationalization"
+    url: "https://medium.com/dropbox-design/design-for-internationalization-24c12ea6b38f#.3jjtayfzc"
+    comment: "Build better products for people around the world."
+    pubdate: "jan 4"
+    tags:
+      - design
+
+  - title: "Realm Is The Ultimate Android Mobile Database Solution"
+    url: "https://www.toptal.com/android/realm-best-android-database-solution"
+    comment: "fficient database solution for mobile platforms, turned out to be an amazing replacement for SQLite on Android."
+    pubdate: jan 6
+    tags:
+      - mobile
