@@ -3,12 +3,7 @@ edition: "205"
 pubdate: "jan 8th 2017"
 publisher: xenor
 editors: "tysliu, mose"
-participants: "Nauman Tariq, hsatac"
-rant:
-  author: xenor
-  content:
-    "####
-"
+participants: "Nauman Tariq, lincoln"
 
 topics:
 
@@ -29,11 +24,11 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "Rails-security-checklist
+    url: "https://github.com/eliotsykes/rails-security-checklist"
+    comment: "Community-driven Rails Security Checklist"
     tags:
-      - css3
+      - tool
 
 
 
@@ -41,21 +36,70 @@ topics:
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "pp_sql"
+    url: "https://github.com/kvokka/pp_sql"
+    comment: "Rails ActiveRecord SQL queries log beautifier."
     tags:
       - rb
+
+  - title: "activerecord-multi-tenant"
+    url: "https://github.com/citusdata/activerecord-multi-tenant"
+    comment: "Rails/ActiveRecord support for distributed multi-tenant databases like Postgres+Citus."
+    tags:
+      - rb
+
+  - title: "field_test"
+    url: "https://github.com/ankane/field_test"
+    comment: "A/B testing tool for Rails"
+    tags:
+      - rb
+
+  - title: "git-crecord"
+    url: "https://github.com/andrewshadura/git-crecord"
+    comment: "Git subcommand to interactively select changes to commit or stage."
+    tags:
+      - go
+
+  - title: "kite"
+    url: "https://github.com/koding/kite"
+    comment: "Micro-service framework in Go."
+    tags:
+      - go
+
+  - title: "zazu"
+    url: "https://github.com/tinytacoteam/zazu"
+    comment: "An extensible and open source launcher"
+    tags:
+      - tool
+
+  - title: "Git Fork"
+    url: "https://git-fork.com/"
+    comment: "Yet another Git client for Mac."
+    tags:
+      - tool
+
+  - title: "Wappalyzer
+    url: "https://github.com/AliasIO/Wappalyzer"
+    comment: "Cross-platform utility that uncovers the technologies used on websites."
+    tags:
+      - web
 
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
-    pubdate: sep 3
+  - title: "Common Rails Idioms that Kill Database Performance"
+    url: "http://blog.honeybadger.io/common-rails-idioms-that-kill-database-performance/"
+    comment: "Beware of some common yet dangerous usage of ActiveRecord query."
+    pubdate: jan 3
+    tags:
+      - rb
+
+  - title: "How To Spy on Your Ruby Methods"
+    url: "http://www.blackbytes.info/2017/01/spy-on-your-ruby-methods/"
+    comment: "Use TracePoint class to spy on your code."
+    pubdate: "jan 4"
     tags:
       - rb
 
