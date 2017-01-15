@@ -1,6 +1,6 @@
 ---
-edition: "206"
-pubdate: "jan 15th 2017"
+edition: "207"
+pubdate: "jan 22nd 2017"
 publisher: xenor
 editors: "tysliu, mose"
 participants: "Nauman Tariq, hsatac"
@@ -17,9 +17,9 @@ topics:
     "Examples of UI/UX, graphic performance, web design and flashy things."
   links:
 
-  - title: "The Most Hearted of 2016"
-    url: "http://codepen.io/2016/popular/pens/"
-    comment: "These are the most hearted Pens of 2016."
+  - title: ""
+    url: ""
+    comment: ""
     tags:
       - design
 
@@ -29,29 +29,17 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: "Segment"
-    url: "https://segment.com/"
-    comment: "Collect all of your customer data and send it anywhere."
+  - title: ""
+    url: ""
+    comment: ""
     tags:
-      - tool
-
-  - title: "clean-code-javascript"
-    url: "https://github.com/ryanmcdermott/clean-code-javascript"
-    comment: "A guide to producing readable, reusable, and refactorable software in JavaScript."
-    tags:
-      - js
+      - css3
 
 
 
 - title: Install
   baseline: "A selection of gems or applications updated during past week."
   links:
-
-  - title: "ActForm"
-    url: "https://github.com/simple-and-powerful/act-form"
-    comment: "ActForm is the gem that provide a simple way to create form object or command object or service object, it only depends on activemodel >= 5 and provides few api."
-    tags:
-      - rb
 
   - title: ""
     url: ""
@@ -64,59 +52,10 @@ topics:
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: "State of the 2017 Rails Stack"
-    url: "http://blog.scoutapp.com/articles/2017/01/09/state-of-the-2017-rails-stack"
-    comment: "Are folks upgrading to Rails 5? Where is the Postgres vs. MySQL battle heading? Are devs embracing Puma and concurrency?"
-    pubdate: jan 9
-    tags:
-      - rb
-
-  - title: "From Rails to Hanami: Models"
-    url: "https://blog.codeminer42.com/from-rails-to-hanami-models-d1175d2d5b33"
-    comment: "Hanami is a MVC web framework for Ruby that prioritize the use of plain objects over magical classes with too much responsibility."
-    pubdate: jan 9
-    tags:
-      - rb
-
-  - title: "Do the Right Thing and Document Your Rails API with Swagger"
-    url: "https://www.sitepoint.com/do-the-right-thing-and-document-your-rails-api-with-swagger/"
-    comment: "We implemented swagger-docs to document our APIs, using swagger-ui to build the UI dynamically from our documentation."
-    pubdate: jan 9
-    tags:
-      - rb
-
-  - title: "Rescue's Elegant Trick for Knowing Which Exceptions to Catch"
-    url: "http://blog.honeybadger.io/ruby-rescue-elegant-trick-for-knowing-which-exceptions-to-catch/"
-    comment: "Example of how a seemingly-trivial implementation detail like using === instead of kind_of? makes Ruby much more flexible and interesting."
-    pubdate: jan 10
-    tags:
-      - rb
-
-  - title: "Fantastic Flow Arrows for Sketch"
-    url: "https://blog.prototypr.io/fantastic-flow-arrows-for-sketch-a2b01545ff2d"
-    comment: "This tutorial shows you how to make scalable, dynamic flow arrows for your UX flow charts and explainers."
-    pubdate: jan 10
-    tags:
-      - web
-
-  - title: "How requirements shaped my code, AKA Rails 5 and ActiveRecord before_destroy callbacks"
-    url: "http://dev.mikamai.com/post/155762886624/how-requirements-shaped-my-code-aka-rails-5-and"
-    comment: "If the before_destroy callback returns false, the destroy operation should be halted. But much to my surprise this doesn’t work anymore."
-    pubdate: jan 12
-    tags:
-      - rb
-
-  - title: "initial-letter"
-    url: "https://css-tricks.com/almanac/properties/i/initial-letter/"
-    comment: "initial-letter is a CSS property that selects the first letter of the element where it is applied and specifies the number of lines the letter occupies."
-    pubdate: jan 12
-    tags:
-      - css3
-
   - title: ""
     url: ""
     comment: ""
-    pubdate: jan 10
+    pubdate: sep 3
     tags:
       - rb
 
