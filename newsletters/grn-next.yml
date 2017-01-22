@@ -1,6 +1,6 @@
 ---
-edition: "207"
-pubdate: "jan 22nd 2017"
+edition: "208"
+pubdate: "jan 29th 2017"
 publisher: xenor
 editors: "tysliu, mose"
 participants: "Nauman Tariq, hsatac"
@@ -17,9 +17,9 @@ topics:
     "Examples of UI/UX, graphic performance, web design and flashy things."
   links:
 
-  - title: "Vermont"
-    url: "http://www.vermont.eu/"
-    comment: "Nice site from a Czech marketing firm."
+  - title: ""
+    url: ""
+    comment: ""
     tags:
       - design
 
@@ -41,83 +41,21 @@ topics:
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: "Google Assistant Ruby"
-    url: "https://github.com/armilam/google-assistant-ruby"
-    comment: "Write Google Assistant actions in Ruby."
+  - title: ""
+    url: ""
+    comment: ""
     tags:
       - rb
-
-  - title: "Gitscout"
-    url: "https://gitscout.com/"
-    comment: "Gitscout is a beautiful GitHub Issues experience for macOS"
-    tags:
-      - tool
 
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: "Part 1: Mock microservices to speedup development"
-    url: "https://blog.botreetechnologies.com/part-1-mock-microservices-to-speedup-development-252ee69b560a"
-    comment: "In order to tests integrations, we generally mock external services."
-    pubdate: jan 16
-    tags:
-      - rb
-
-  - title: "Is Ruby dead? Hell no! - Analyzing RubyGems stats for 2016"
-    url: "https://infinum.co/the-capsized-eight/analyzing-rubygems-stats-v2016"
-    comment: "Rails downloads are still increasing."
-    pubdate: jan 17
-    tags:
-      - rb
-
-  - title: "Ruby's Mysterious Triple Equals Operator, a.k.a. Case Equality Operator"
-    url: "http://www.rubyletter.com/blog/2017/01/18/ruby-triple-equals-operator.html"
-    comment: "Instead of testing equality, it tests inclusion."
-    pubdate: jan 18
-    tags:
-      - rb
-
-  - title: "Rescue exceptions DSL for plain Ruby objects with Rails"
-    url: "http://railsguides.net/rescue-exceptions-dsl-for-plain-ruby-objects-with-rails/"
-    comment: "Rescue exceptions like Rails controllers."
-    pubdate: jan 19
-    tags:
-      - rb
-
-  - title: "Run a Local Rails Script on Heroku"
-    url: "https://spin.atomicobject.com/2017/01/18/rails-script-heroku/"
-    comment: "In this post, I’ll show you how to execute a long Ruby/Rails script in a remote Heroku environment."
-    pubdate: jan 18
-    tags:
-      - rb
-
-  - title: "Some universal code optimization rules"
-    url: "http://www.virtuouscode.com/2017/01/19/some-universal-code-optimization-rules/"
-    comment: "From time to time I have advocated for design approaches which value consistency and ease of change over raw operations per second."
-    pubdate: jan 19
-    tags:
-      - web
-
-  - title: "How To Test Ruby CLI: The Setup"
-    url: "http://lucaguidi.com/2017/01/20/how-to-test-ruby-cli-the-setup/"
-    comment: "One of the most difficult tasks I met during Hanami development is to write integration tests for the Command Line Interface (CLI)."
-    pubdate: jan 20
-    tags:
-      - rb
-
-  - title: "Auto-reconnect for ActiveRecord connections"
-    url: "http://dalibornasevic.com/posts/77-auto-reconnect-for-activerecord-connections"
-    comment: "Often we want to have more control over the reconnect strategy in order to give it more than one chance for the connection to recover."
-    pubdate: jan 20
-    tags:
-      - rb
-
   - title: ""
     url: ""
     comment: ""
-    pubdate: jan 19
+    pubdate: sep 3
     tags:
       - rb
 

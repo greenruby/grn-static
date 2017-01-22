@@ -1,0 +1,118 @@
+----------------------------------------------------
+Green Ruby News #207 - jan 22nd 2017
+----------------------------------------------------
+*|IFNOT:CONTENT=Only Rant|*
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+*Vermont* (design)
+http://www.vermont.eu/
+Nice site from a Czech marketing firm.
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+*All Ruby Books* (rb)
+http://www.allrubybooks.com/
+A great collection of ruby books.
+
+*Top Pens of 2016 on CodePen* (js)
+http://codepen.io/2016/popular/pens/
+100 top pens.
+
+*Big List of Naughty Strings* (tool)
+https://github.com/minimaxir/big-list-of-naughty-strings
+List of strings which have a high probability of causing issues when used as user-input data.
+
+*Webminal* (ops)
+http://webminal.org/
+Learn and Practise Linux online.
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+*Google Assistant Ruby* (rb)
+https://github.com/armilam/google-assistant-ruby
+Write Google Assistant actions in Ruby.
+
+*Gitscout* (tool)
+https://gitscout.com/
+Gitscout is a beautiful GitHub Issues experience for macOS
+
+*LicenseFinder* (tool)
+https://github.com/pivotal/LicenseFinder
+Find licenses for your project's dependencies.
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+*Part 1: Mock microservices to speedup development* (rb - jan 16)
+https://blog.botreetechnologies.com/part-1-mock-microservices-to-speedup-development-252ee69b560a
+In order to tests integrations, we generally mock external services.
+
+*Is Ruby dead? Hell no! - Analyzing RubyGems stats for 2016* (rb - jan 17)
+https://infinum.co/the-capsized-eight/analyzing-rubygems-stats-v2016
+Rails downloads are still increasing.
+
+*Caching at Reddit* (ops - jan 17)
+https://redditblog.com/2017/1/17/caching-at-reddit/
+How Reddit monitor, tune, and scale our memcached infrastructure.
+
+*Ruby's Mysterious Triple Equals Operator, a.k.a. Case Equality Operator* (rb - jan 18)
+http://www.rubyletter.com/blog/2017/01/18/ruby-triple-equals-operator.html
+Instead of testing equality, it tests inclusion.
+
+*Rescue exceptions DSL for plain Ruby objects with Rails* (rb - jan 19)
+http://railsguides.net/rescue-exceptions-dsl-for-plain-ruby-objects-with-rails/
+Rescue exceptions like Rails controllers.
+
+*Run a Local Rails Script on Heroku* (rb - jan 18)
+https://spin.atomicobject.com/2017/01/18/rails-script-heroku/
+In this post, I’ll show you how to execute a long Ruby/Rails script in a remote Heroku environment.
+
+*Some universal code optimization rules* (web - jan 19)
+http://www.virtuouscode.com/2017/01/19/some-universal-code-optimization-rules/
+From time to time I have advocated for design approaches which value consistency and ease of change over raw operations per second.
+
+*Short guide to awesome changelogs* (tool - jan 19)
+http://ivanjov.com/short-guide-to-awesome-changelogs/
+Usage of the git-changelog npm package.
+
+*How To Test Ruby CLI: The Setup* (rb - jan 20)
+http://lucaguidi.com/2017/01/20/how-to-test-ruby-cli-the-setup/
+One of the most difficult tasks I met during Hanami development is to write integration tests for the Command Line Interface (CLI).
+
+*Auto-reconnect for ActiveRecord connections* (rb - jan 20)
+http://dalibornasevic.com/posts/77-auto-reconnect-for-activerecord-connections
+Often we want to have more control over the reconnect strategy in order to give it more than one chance for the connection to recover.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+Links curated by mose (publisher), tysliu (editors), mose, hsatac, lincoln, nauman (contributors).
+*|END:IF|*
+*|IFNOT:CONTENT=Only Links|*
+
+*|END:IF|*
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+
