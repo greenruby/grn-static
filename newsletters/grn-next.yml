@@ -1,6 +1,6 @@
 ---
-edition: "209"
-pubdate: "feb 5th 2017"
+edition: "210"
+pubdate: "feb 12th 2017"
 publisher: xenor
 editors: "tysliu, mose"
 participants: "Nauman Tariq, hsatac"
@@ -17,11 +17,12 @@ topics:
     "Examples of UI/UX, graphic performance, web design and flashy things."
   links:
 
-  - title: "north2"
-    url: "http://www.north2.net/?browser=full"
-    comment: "Creative digital studio with a very colorful website."
+  - title: ""
+    url: ""
+    comment: ""
     tags:
       - design
+
 
 - title: Use
   baseline:
@@ -40,127 +41,21 @@ topics:
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: "Lite Cable"
-    url: "https://github.com/palkan/litecable"
-    comment: "Lightweight ActionCable implementation."
-    tags:
-      - rb
-
-  - title: "Blazer"
-    url: "https://github.com/ankane/blazer"
-    comment: "Explore your data with SQL. Easily create charts and dashboards, and share them with your team."
-    tags:
-      - rb
-
-  - title: "Spreadsheet Architect"
-    url: "https://github.com/westonganger/spreadsheet_architect"
-    comment: "Spreadsheet Architect is a library that allows you to create XLSX, ODS, or CSV spreadsheets easily from ActiveRecord relations, Plain Ruby classes, or predefined data."
-    tags:
-      - rb
-
-  - title: "Percona Migrator"
-    url: "https://github.com/redbooth/percona_migrator"
-    comment: "Percona Migrator is an ActiveRecord connection adapter that allows running MySQL online and non-blocking DDL."
-    tags:
-      - rb
-
-  - title: "letsencrypt_heroku"
-    url: "https://github.com/xijo/letsencrypt_heroku"
-    comment: "CLI tool to automate SSL certificate setup and renewal for letsencrypt and rails (or any other rack based application)."
-    tags:
-      - rb
-
   - title: ""
     url: ""
     comment: ""
     tags:
       - rb
+
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: "JQuery-Free Rails and Legacy Browsers"
-    url: "http://blog.honeybadger.io/jquery-free-rails-and-legacy-browsers/"
-    comment: "The one major drawback to eliminating JQuery is that UJS will no longer support older browsers as well as it used to."
-    pubdate: jan 30
-    tags:
-      - rb
-
-  - title: "ROM 3.0 Released"
-    url: "http://rom-rb.org/blog/rom-3-0-released/"
-    comment: "The biggest highlight are new features in rom-sql and rom-repository."
-    pubdate: jan 30
-    tags:
-      - rb
-
-  - title: "Two screencasts, two ways to eradicate Ruby nil values"
-    url: "https://www.rubytapas.com/2017/01/31/two-screencasts-two-ways-eradicate-ruby-nil-values"
-    comment: "nil values are the worst They crop up where you didn’t expect them."
-    pubdate: jan 31
-    tags:
-      - rb
-
-  - title: "Blazer - a great tool to see what (data) you get"
-    url: "https://blog.ragnarson.com/2017/01/31/blazer-a-great-tool-to-see-what-data-you-get.html"
-    comment: "Blazer allows you to execute SQL queries on your database from the web panel and visualize the data in a convenient and clear way."
-    pubdate: jan 31
-    tags:
-      - rb
-
-  - title: "How Etsy Manages HTTPS and SSL Certificates for Custom Domains on Pattern"
-    url: "https://codeascraft.com/2017/01/31/how-etsy-manages-https-and-ssl-certificates-for-custom-domains-on-pattern/"
-    comment: "Challenges you run into when building a system designed to serve HTTPS traffic for hundreds of thousands of domains."
-    pubdate: jan 31
-    tags:
-      - web
-
-  - title: "Object ID in MRI"
-    url: "http://tenderlovemaking.com/2017/02/01/object-id-in-mri.html"
-    comment: "We can use the address of an object to calculate the arena (or page) in to which the object was allocated."
-    pubdate: feb 1
-    tags:
-      - rb
-
-  - title: "Using Git Hooks in Your Development Workflow"
-    url: "https://scotch.io/tutorials/using-git-hooks-in-your-development-workflow"
-    comment: "Learn how to use git hooks to enhance your development workflow."
-    pubdate: feb 1
-    tags:
-      - tool
-
-  - title: "Our Postgres Infrastructure"
-    url: "http://blog.honeybadger.io/our-postgres-infrastructure/"
-    comment: "It's been a lot of fun scaling up Honeybadger and making the infrastructure more resilient to failure."
-    pubdate: feb 1
-    tags:
-      - web
-
-  - title: "Handle Massive Traffic Using Scriptable Load Balancers"
-    url: "http://shopifyengineering.myshopify.com/blogs/engineering/solving-for-weekly-flash-sales-through-scriptable-load-balancers"
-    comment: "How shopify handles heavy spikes with nginx + Lua scripting."
-    pubdate: feb 2
-    tags:
-      - ops
-
-  - title: "Intro to Vue.js: Animations"
-    url: "https://css-tricks.com/intro-to-vue-5-animations/"
-    comment: "An overview of the basics to get you up and running so you can get to know Vue.js."
-    pubdate: feb 3
-    tags:
-      - js
-
-  - title: "POST != Create and PUT != Update"
-    url: "http://www.eq8.eu/blogs/37-post-create-and-put-update"
-    comment: "Just be aware that PUT is not synonym for PATCH just because Rails behaves this way."
-    pubdate: feb 5
-    tags:
-      - rb
-
   - title: ""
     url: ""
     comment: ""
-    pubdate: feb 1
+    pubdate: sep 3
     tags:
       - rb
 

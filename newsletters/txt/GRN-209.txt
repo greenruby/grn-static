@@ -1,0 +1,114 @@
+----------------------------------------------------
+Green Ruby News #209 - feb 5th 2017
+----------------------------------------------------
+*|IFNOT:CONTENT=Only Rant|*
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+*north2* (design)
+http://www.north2.net/?browser=full
+Creative digital studio with a very colorful website.
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+*Snapcraft* (tool)
+https://snapcraft.io/
+Build universal Linux packages.
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+*Lite Cable* (rb)
+https://github.com/palkan/litecable
+Lightweight ActionCable implementation.
+
+*Blazer* (rb)
+https://github.com/ankane/blazer
+Visualize SQL into charts or dashboards.
+
+*Spreadsheet Architect* (rb)
+https://github.com/westonganger/spreadsheet_architect
+A lib to create XLSX, ODS, or CSV spreadsheets from ActiveRecord relations, Ruby classes, or predefined data.
+
+*Percona Migrator* (rb)
+https://github.com/redbooth/percona_migrator
+Percona's pt-online-schema-change runner for ActiveRecord migrations.
+
+*letsencrypt_heroku* (rb)
+https://github.com/xijo/letsencrypt_heroku
+CLI tool to automate SSL certificate setup and renewal for letsencrypt and rails (or any other rack based application).
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+*JQuery-Free Rails and Legacy Browsers* (rb - jan 30)
+http://blog.honeybadger.io/jquery-free-rails-and-legacy-browsers/
+The one major drawback to eliminating JQuery is that UJS will no longer support older browsers as well as it used to.
+
+*ROM 3.0 Released* (rb - jan 30)
+http://rom-rb.org/blog/rom-3-0-released/
+The biggest highlight are new features in rom-sql and rom-repository.
+
+*Two screencasts, two ways to eradicate Ruby nil values* (rb - jan 31)
+https://www.rubytapas.com/2017/01/31/two-screencasts-two-ways-eradicate-ruby-nil-values
+nil values are the worst They crop up where you didn’t expect them.
+
+*How Etsy Manages HTTPS and SSL Certificates for Custom Domains on Pattern* (web - jan 31)
+https://codeascraft.com/2017/01/31/how-etsy-manages-https-and-ssl-certificates-for-custom-domains-on-pattern/
+Challenges you run into when building a system designed to serve HTTPS traffic for hundreds of thousands of domains.
+
+*Object ID in MRI* (rb - feb 1)
+http://tenderlovemaking.com/2017/02/01/object-id-in-mri.html
+We can use the address of an object to calculate the arena (or page) in to which the object was allocated.
+
+*Using Git Hooks in Your Development Workflow* (tool - feb 1)
+https://scotch.io/tutorials/using-git-hooks-in-your-development-workflow
+Learn how to use git hooks to enhance your development workflow.
+
+*Our Postgres Infrastructure* (web - feb 1)
+http://blog.honeybadger.io/our-postgres-infrastructure/
+It's been a lot of fun scaling up Honeybadger and making the infrastructure more resilient to failure.
+
+*Handle Massive Traffic Using Scriptable Load Balancers* (ops - feb 2)
+http://shopifyengineering.myshopify.com/blogs/engineering/solving-for-weekly-flash-sales-through-scriptable-load-balancers
+How shopify handles heavy spikes with nginx + Lua scripting.
+
+*Intro to Vue.js: Animations* (js - feb 3)
+https://css-tricks.com/intro-to-vue-5-animations/
+An overview of the basics to get you up and running so you can get to know Vue.js.
+
+*POST != Create and PUT != Update* (rb - feb 5)
+http://www.eq8.eu/blogs/37-post-create-and-put-update
+Just be aware that PUT is not synonym for PATCH just because Rails behaves this way.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+Links curated by xenor (publisher), tysliu, mose (editors).
+*|END:IF|*
+*|IFNOT:CONTENT=Only Links|*
+
+*|END:IF|*
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+
