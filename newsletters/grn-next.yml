@@ -17,12 +17,11 @@ topics:
     "Examples of UI/UX, graphic performance, web design and flashy things."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "north2"
+    url: "http://www.north2.net/?browser=full"
+    comment: "Creative digital studio with a very colorful website."
     tags:
       - design
-
 
 - title: Use
   baseline:
@@ -97,7 +96,7 @@ topics:
 
   - title: "Two screencasts, two ways to eradicate Ruby nil values"
     url: "https://www.rubytapas.com/2017/01/31/two-screencasts-two-ways-eradicate-ruby-nil-values"
-    comment: "nil values are the worstm They crop up where you didn’t expect them."
+    comment: "nil values are the worst They crop up where you didn’t expect them."
     pubdate: jan 31
     tags:
       - rb
@@ -136,6 +135,13 @@ topics:
     pubdate: feb 1
     tags:
       - web
+
+  - title: "Handle Massive Traffic Using Scriptable Load Balancers"
+    url: "http://shopifyengineering.myshopify.com/blogs/engineering/solving-for-weekly-flash-sales-through-scriptable-load-balancers"
+    comment: "How shopify handles heavy spikes with nginx + Lua scripting."
+    pubdate: feb 2
+    tags:
+      - ops
 
   - title: "Intro to Vue.js: Animations"
     url: "https://css-tricks.com/intro-to-vue-5-animations/"
