@@ -1,0 +1,106 @@
+----------------------------------------------------
+Green Ruby News #210 - feb 12th 2017
+----------------------------------------------------
+*|IFNOT:CONTENT=Only Rant|*
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+*Inspiration for Search UI Effects* (design)
+https://tympanus.net/Development/SearchUIEffects/index.html
+Some nice full page search designs.
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+*Awesome NLP with Ruby* (rb)
+http://rubynlp.org/
+Practical Natural Language Processing with Ruby.
+
+*Unseen Open Source Infrastructure* (rb)
+https://libraries.io
+Discover open source libraries, modules and frameworks you can use in your code.
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+*ActionStore* (rb)
+https://github.com/rails-engine/action-store
+Store different kind of actions (Like, Follow, Star, Block ...) in one table via ActiveRecord Polymorphic Association.
+
+*Irbtools* (rb)
+https://github.com/janlelis/irbtools
+Improvements for Ruby's IRB console. Unlike with PRY, you are still in your normal IRB.
+
+*Feedfilter* (rb)
+https://github.com/feedparser/feedfilter
+Feed filter and rules for easy (re)use.
+
+*Opal-d3* (rb)
+https://github.com/taw/opal-d3
+In-browser data visualization with ruby.
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+*Handling exceptions in Rails' test environment like in production* (rb - feb 7)
+https://christoph.luppri.ch/articles/2017/02/07/handling-exceptions-in-rails-test-environment-like-in-production/
+ActiveRecord::RecordNotFound is raised different from testing to production.
+
+*How to dynamically add attributes to your ActiveRecord models* (rb - feb 7)
+https://medium.com/@koss_lebedev/how-to-dynamically-add-attributes-to-your-activerecord-models-e233b17ad695
+Can we know beforehand all the attributes that our Contact model will need to have?
+
+*Introducing Keybase Chat* (tool - feb 8)
+https://keybase.io/blog/keybase-chat
+Keybase launched end-to-end encrypted chat.
+
+*Introducing our Sidekiq cluster script* (rb - feb 8)
+http://blog.honeybadger.io/introducing-our-sidekiq-cluster-script/
+Honeybadger changed from stable set of long-lived servers to an ever-changing set of instances.
+
+*How To Test Ruby CLI: Console* (rb - feb 8)
+http://lucaguidi.com/2017/02/08/how-to-test-ruby-cli-console/
+To test Hanami CLI is complex: it requires a reliable CI build (with full isolation of each spec), and a deep knowledge of the Ruby toolchain.
+
+*Spice up your boring IRB (Irbtools)* (rb - feb 8)
+http://blog.redpanthers.co/ruby-irb-console-improvements-irbtools/
+Ruby console enhancements.
+
+*Integrate Rubocop gem with Popular Ruby Text Editors* (rb - feb 8)
+https://blog.botreetechnologies.com/integrate-rubocop-gem-with-popular-ruby-text-editors-d4690838d70
+How to utilize and install Rubocop for all major text editors.
+
+*A better way to import all your records using ActiveRecord Import!* (rb - feb 10)
+https://revs.runtime-revolution.com/a-better-way-to-import-all-your-records-using-activerecord-import-6053e20692f3
+Bulk import by example.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+Links curated by xenor (publisher), tysliu (editors).
+*|END:IF|*
+*|IFNOT:CONTENT=Only Links|*
+
+*|END:IF|*
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+

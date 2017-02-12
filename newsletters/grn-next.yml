@@ -1,6 +1,6 @@
 ---
-edition: "210"
-pubdate: "feb 12th 2017"
+edition: "211"
+pubdate: "feb 19th 2017"
 publisher: xenor
 editors: "tysliu, mose"
 participants: "Nauman Tariq, hsatac"
@@ -29,17 +29,11 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: "Awesome NLP with Ruby"
-    url: "http://rubynlp.org/"
-    comment: "Practical Natural Language Processing with Ruby"
+  - title: ""
+    url: ""
+    comment: ""
     tags:
-      - rb
-
-  - title: "Unseen Open Source Infrastructure"
-    url: "https://libraries.io"
-    comment: "Discover open source libraries, modules and frameworks you can use in your code."
-    tags:
-      - rb
+      - css3
 
 
 
@@ -47,34 +41,9 @@ topics:
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: "ActionStore"
-    url: "https://github.com/rails-engine/action-store"
-    comment: "Store different kind of actions (Like, Follow, Star, Block ...) in one table via ActiveRecord Polymorphic Association."
-    tags:
-      - rb
-
-  - title: "Irbtools"
-    url: "https://github.com/janlelis/irbtools"
-    comment: "Improvements for Ruby's IRB console. Unlike with PRY, you are still in your normal IRB."
-    tags:
-      - rb
-
-  - title: "Introducing Keybase Chat"
-    url: "https://keybase.io/blog/keybase-chat"
-    comment: "Keybase launched end-to-end encrypted chat."
-    tags:
-      - tool
-
-  - title: "Feedfilter"
-    url: "https://github.com/feedparser/feedfilter"
-    comment: "Feed filter and rules for easy (re)use."
-    tags:
-      - rb
-
-  - title: "opal-d3"
-    url: "https://github.com/taw/opal-d3"
-    comment: "opal-d3 - Opal wrapper library for D3 library"
-    pubdate: "In-browser data visualization with ruby."
+  - title: ""
+    url: ""
+    comment: ""
     tags:
       - rb
 
@@ -83,59 +52,23 @@ topics:
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: "Handling exceptions in Rails' test environment like in production"
-    url: "https://christoph.luppri.ch/articles/2017/02/07/handling-exceptions-in-rails-test-environment-like-in-production/"
-    comment: "ActiveRecord::RecordNotFound is raised different from testing to production."
-    pubdate: feb 7
+  - title: ""
+    url: ""
+    comment: ""
+    pubdate: sep 3
     tags:
       - rb
 
-  - title: "How to dynamically add attributes to your ActiveRecord models"
-    url: "https://medium.com/@koss_lebedev/how-to-dynamically-add-attributes-to-your-activerecord-models-e233b17ad695"
-    comment: "Can we know beforehand all the attributes that our Contact model will need to have?"
-    pubdate: feb 7
+
+
+- title: Watch
+  baseline: "Screencasts and conferences videos, or other video feeds ..."
+  links:
+
+  - title: ""
+    url: ""
+    comment: ""
+    pubdate: sep 3
+    duration:
     tags:
       - rb
-
-  - title: "Introducing Keybase Chat"
-    url: "https://keybase.io/blog/keybase-chat"
-    comment: "Keybase launched end-to-end encrypted chat."
-    pubdate: feb 8
-    tags:
-      - tool
-
-  - title: "Introducing our Sidekiq cluster script"
-    url: "http://blog.honeybadger.io/introducing-our-sidekiq-cluster-script/"
-    comment: "Honeybadger changed from stable set of long-lived servers to an ever-changing set of instances."
-    pubdate: feb 8
-    tags:
-      - rb
-
-  - title: "How To Test Ruby CLI: Console"
-    url: "http://lucaguidi.com/2017/02/08/how-to-test-ruby-cli-console/"
-    comment: "To test Hanami CLI is complex: it requires a reliable CI build (with full isolation of each spec), and a deep knowledge of the Ruby toolchain."
-    pubdate: feb 8
-    tags:
-      - rb
-
-  - title: "Spice up your boring IRB (Irbtools)"
-    url: "http://blog.redpanthers.co/ruby-irb-console-improvements-irbtools/"
-    comment: "Ruby console enhancements."
-    pubdate: feb 8
-    tags:
-      - rb
-
-  - title: "Integrate Rubocop gem with Popular Ruby Text Editors"
-    url: "https://blog.botreetechnologies.com/integrate-rubocop-gem-with-popular-ruby-text-editors-d4690838d70"
-    comment: "How to utilize and install Rubocop for all major text editors."
-    pubdate: feb 8
-    tags:
-      - rb
-
-  - title: "A better way to import all your records using ActiveRecord Import!"
-    url: "https://revs.runtime-revolution.com/a-better-way-to-import-all-your-records-using-activerecord-import-6053e20692f3"
-    comment: "Bulk import by example."
-    pubdate: feb 10
-    tags:
-      - rb
-
