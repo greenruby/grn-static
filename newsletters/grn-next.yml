@@ -29,11 +29,17 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "Awesome NLP with Ruby"
+    url: "http://rubynlp.org/"
+    comment: "Practical Natural Language Processing with Ruby"
     tags:
-      - css3
+      - rb
+
+  - title: "Unseen Open Source Infrastructure"
+    url: "https://libraries.io"
+    comment: "Discover open source libraries, modules and frameworks you can use in your code."
+    tags:
+      - rb
 
 
 
@@ -53,9 +59,22 @@ topics:
     tags:
       - rb
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "Introducing Keybase Chat"
+    url: "https://keybase.io/blog/keybase-chat"
+    comment: "Keybase launched end-to-end encrypted chat."
+    tags:
+      - tool
+
+  - title: "Feedfilter"
+    url: "https://github.com/feedparser/feedfilter"
+    comment: "Feed filter and rules for easy (re)use."
+    tags:
+      - rb
+
+  - title: "opal-d3"
+    url: "https://github.com/taw/opal-d3"
+    comment: "opal-d3 - Opal wrapper library for D3 library"
+    pubdate: "In-browser data visualization with ruby."
     tags:
       - rb
 
@@ -78,9 +97,16 @@ topics:
     tags:
       - rb
 
+  - title: "Introducing Keybase Chat"
+    url: "https://keybase.io/blog/keybase-chat"
+    comment: "Keybase launched end-to-end encrypted chat."
+    pubdate: feb 8
+    tags:
+      - tool
+
   - title: "Introducing our Sidekiq cluster script"
     url: "http://blog.honeybadger.io/introducing-our-sidekiq-cluster-script/"
-    comment: "With our recent move to EC2, we changed from having a stable set of long-lived servers to an ever-changing set of instances running our jobs."
+    comment: "Honeybadger changed from stable set of long-lived servers to an ever-changing set of instances."
     pubdate: feb 8
     tags:
       - rb
@@ -113,23 +139,3 @@ topics:
     tags:
       - rb
 
-  - title: ""
-    url: ""
-    comment: ""
-    pubdate: feb 8
-    tags:
-      - rb
-
-
-
-- title: Watch
-  baseline: "Screencasts and conferences videos, or other video feeds ..."
-  links:
-
-  - title: ""
-    url: ""
-    comment: ""
-    pubdate: sep 3
-    duration:
-    tags:
-      - rb
