@@ -41,6 +41,18 @@ topics:
   baseline: "A selection of gems or applications updated during past week."
   links:
 
+  - title: "ActionStore"
+    url: "https://github.com/rails-engine/action-store"
+    comment: "Store different kind of actions (Like, Follow, Star, Block ...) in one table via ActiveRecord Polymorphic Association."
+    tags:
+      - rb
+
+  - title: "Irbtools"
+    url: "https://github.com/janlelis/irbtools"
+    comment: "Improvements for Ruby's IRB console. Unlike with PRY, you are still in your normal IRB."
+    tags:
+      - rb
+
   - title: ""
     url: ""
     comment: ""
@@ -52,10 +64,59 @@ topics:
   baseline: "From the blogosphere or news feeds ..."
   links:
 
+  - title: "Handling exceptions in Rails' test environment like in production"
+    url: "https://christoph.luppri.ch/articles/2017/02/07/handling-exceptions-in-rails-test-environment-like-in-production/"
+    comment: "ActiveRecord::RecordNotFound is raised different from testing to production."
+    pubdate: feb 7
+    tags:
+      - rb
+
+  - title: "How to dynamically add attributes to your ActiveRecord models"
+    url: "https://medium.com/@koss_lebedev/how-to-dynamically-add-attributes-to-your-activerecord-models-e233b17ad695"
+    comment: "Can we know beforehand all the attributes that our Contact model will need to have?"
+    pubdate: feb 7
+    tags:
+      - rb
+
+  - title: "Introducing our Sidekiq cluster script"
+    url: "http://blog.honeybadger.io/introducing-our-sidekiq-cluster-script/"
+    comment: "With our recent move to EC2, we changed from having a stable set of long-lived servers to an ever-changing set of instances running our jobs."
+    pubdate: feb 8
+    tags:
+      - rb
+
+  - title: "How To Test Ruby CLI: Console"
+    url: "http://lucaguidi.com/2017/02/08/how-to-test-ruby-cli-console/"
+    comment: "To test Hanami CLI is complex: it requires a reliable CI build (with full isolation of each spec), and a deep knowledge of the Ruby toolchain."
+    pubdate: feb 8
+    tags:
+      - rb
+
+  - title: "Spice up your boring IRB (Irbtools)"
+    url: "http://blog.redpanthers.co/ruby-irb-console-improvements-irbtools/"
+    comment: "Ruby console enhancements."
+    pubdate: feb 8
+    tags:
+      - rb
+
+  - title: "Integrate Rubocop gem with Popular Ruby Text Editors"
+    url: "https://blog.botreetechnologies.com/integrate-rubocop-gem-with-popular-ruby-text-editors-d4690838d70"
+    comment: "How to utilize and install Rubocop for all major text editors."
+    pubdate: feb 8
+    tags:
+      - rb
+
+  - title: "A better way to import all your records using ActiveRecord Import!"
+    url: "https://revs.runtime-revolution.com/a-better-way-to-import-all-your-records-using-activerecord-import-6053e20692f3"
+    comment: "Bulk import by example."
+    pubdate: feb 10
+    tags:
+      - rb
+
   - title: ""
     url: ""
     comment: ""
-    pubdate: sep 3
+    pubdate: feb 8
     tags:
       - rb
 
