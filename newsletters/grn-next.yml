@@ -3,7 +3,7 @@ edition: "211"
 pubdate: "feb 19th 2017"
 publisher: xenor
 editors: "tysliu, mose"
-participants: "Nauman Tariq, hsatac"
+participants: "Nauman Tariq"
 rant:
   author: xenor
   content:
@@ -17,11 +17,11 @@ topics:
     "Examples of UI/UX, graphic performance, web design and flashy things."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "Taskade"
+    url: "https://www.taskade.com/"
+    comment: "A minimal and sharable task list in the browser."
     tags:
-      - design
+      - css3
 
 
 - title: Use
@@ -29,11 +29,17 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "Cloud Spanner"
+    url: "https://cloud.google.com/spanner/"
+    comment: "A relational database service built for transactional consistency, high availability, and global scale by Google."
     tags:
-      - css3
+      - ops
+
+  - title: "HTML Reference"
+    url: "http://htmlreference.io"
+    comment: "A free guide to all HTML elements and attributes."
+    tags:
+      - web
 
 
 
@@ -41,9 +47,45 @@ topics:
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "Graaf"
+    url: "https://github.com/Angelmmiguel/graaf"
+    comment: "A collection of pure CSS grids."
+    tags:
+      - css3
+
+  - title: "Monarchy"
+    url: "https://github.com/Exelord/Monarchy"
+    comment: "Hierarchical access management system with advanced roles inheritance."
+    tags:
+      - rb
+
+  - title: "Amethyst"
+    url: "https://ianyh.com/amethyst/"
+    comment: "A tiling window manager for OS X."
+    tags:
+      - tool
+
+  - title: "Awless
+    url: "https://github.com/wallix/awless"
+    comment: "AWS CLI."
+    tags:
+      - go
+
+  - title: "Simple-feed"
+    url: "https://github.com/kigster/simple-feed"
+    comment: "A flexible time-ordered activity feeds library"
+    tags:
+      - rb
+
+  - title: "Sym"
+    url: "https://github.com/kigster/sym"
+    comment: "Light weight symmetric encryption."
+    tags:
+      - rb
+
+  - title: "Trtl"
+    url: "https://github.com/peterc/trtl"
+    comment: "Tk-powered Ruby turtle graphics."
     tags:
       - rb
 
