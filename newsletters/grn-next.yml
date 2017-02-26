@@ -3,11 +3,13 @@ edition: "212"
 pubdate: "feb 26th 2017"
 publisher: xenor
 editors: "tysliu, mose"
-participants: "Nauman Tariq, hsatac"
+participants: "otaq"
 rant:
-  author: xenor
+  author:
   content:
     "####
+
+
 "
 
 topics:
@@ -35,11 +37,11 @@ topics:
     tags:
       - rb
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "Sites-using-cloudflare"
+    url: "https://github.com/pirate/sites-using-cloudflare"
+    comment: "List of domains using Cloudflare DNS (potentially affected by the CloudBleed HTTPS traffic leak)."
     tags:
-      - css3
+      - web
 
 
 
@@ -47,11 +49,41 @@ topics:
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "Dawnscanner"
+    url: "https://github.com/thesp0nge/dawnscanner"
+    comment: "A static analysis security scanner for ruby written web applications"
     tags:
       - rb
+
+  - title: "Gmvault"
+    url: "http://gmvault.org/"
+    comment: "Gmail backup."
+    tags:
+      - tool
+
+  - title: "Beaker"
+    url: "https://beakerbrowser.com/"
+    comment: "An experimental browser with builtin hosting and peer-to-peer Web protocols."
+    tags:
+      - tool
+
+  - title: "Ruby-refrigerator"
+    url: "https://github.com/jeremyevans/ruby-refrigerator/"
+    comment: "Freeze all core ruby classes."
+    tags:
+      - rb
+
+  - title: "Iodine"
+    url: "https://github.com/boazsegev/iodine/"
+    comment: "HTTP / Websocket Server and EventMachine alternative for Ruby MRI - a kqueue/epoll C extension."
+    tags:
+      - rb
+
+  - title: "Data Selfie"
+    url: "http://dataselfie.it/"
+    comment: "A chrome extension that gives you clues on how Facebook learns to use your personal data."
+    tags:
+      - tool
 
 
 - title: Read
@@ -62,6 +94,13 @@ topics:
     url: "https://medium.com/statuscode/introducing-webpacker-7136d66cddfb"
     comment: "Rails 5.1 will have first-class support for webpack."
     pubdate: feb 19
+    tags:
+      - rb
+
+  - title: "Faster RSpec: Profiling FactoryGirl"
+    url: "https://www.wetestrails.com/blog/profiling-factorygirl"
+    comment: "Nice small snippet for profiling FactoryGirl interactions."
+    pubdate: feb 20
     tags:
       - rb
 
@@ -81,7 +120,7 @@ topics:
 
   - title: "Objects as Ruby Hash Keys"
     url: "http://blog.honeybadger.io/objects-as-ruby-hash-keys/"
-    comment: "As high-level programmers, we tend to think of memory as RAM. But at a lower-level, "memory" has many other uses."
+    comment: "As high-level programmers, we tend to think of memory as RAM. But at a lower-level, 'memory' has many other uses."
     pubdate: feb 21
     tags:
       - rb
@@ -93,23 +132,3 @@ topics:
     tags:
       - rb
 
-  - title: ""
-    url: ""
-    comment: ""
-    pubdate: feb 21
-    tags:
-      - rb
-
-
-
-- title: Watch
-  baseline: "Screencasts and conferences videos, or other video feeds ..."
-  links:
-
-  - title: ""
-    url: ""
-    comment: ""
-    pubdate: sep 3
-    duration:
-    tags:
-      - rb
