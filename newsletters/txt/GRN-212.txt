@@ -1,0 +1,106 @@
+----------------------------------------------------
+Green Ruby News #212 - feb 26th 2017
+----------------------------------------------------
+*|IFNOT:CONTENT=Only Rant|*
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+*Listeners Playlist* (design)
+http://lp.anzi.kr
+Music playlist with fancy hover and text transformation effects.
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+*Build an API in your Rails app now! (Rails 5 version)* (rb)
+https://github.com/vasilakisfil/rails5_api_tutorial
+Step-by-step guide for making APIs in Rails 5.
+
+*Sites-using-cloudflare* (web)
+https://github.com/pirate/sites-using-cloudflare
+List of domains using Cloudflare DNS (potentially affected by the CloudBleed HTTPS traffic leak).
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+*Dawnscanner* (rb)
+https://github.com/thesp0nge/dawnscanner
+A static analysis security scanner for ruby written web applications.
+
+*Gmvault* (tool)
+http://gmvault.org/
+Gmail backup.
+
+*Beaker* (tool)
+https://beakerbrowser.com/
+An experimental browser with builtin hosting and peer-to-peer Web protocols.
+
+*Ruby-refrigerator* (rb)
+https://github.com/jeremyevans/ruby-refrigerator
+Freeze all core ruby classes.
+
+*Iodine* (rb)
+https://github.com/boazsegev/iodine
+HTTP / Websocket Server and EventMachine alternative for Ruby MRI - a kqueue/epoll C extension.
+
+*Data Selfie* (tool)
+http://dataselfie.it/
+A chrome extension that gives you clues on how Facebook learns to use your personal data.
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+*Introducing Webpacker* (rb - feb 19)
+https://medium.com/statuscode/introducing-webpacker-7136d66cddfb
+Rails 5.1 will have first-class support for webpack.
+
+*Faster RSpec: Profiling FactoryGirl* (rb - feb 20)
+https://www.wetestrails.com/blog/profiling-factorygirl
+Nice small snippet for profiling FactoryGirl interactions.
+
+*5 habits that made me a better Ruby developer* (rb - feb 20)
+https://christoph.luppri.ch/articles/2017/02/20/5-habits-that-made-me-a-better-ruby-developer/
+Tips you may want to try or is already practicing.
+
+*The Oldest Bug In Ruby - Why Rack::Timeout Might Hose your Server* (rb - feb 21)
+http://schneems.com/2017/02/21/the-oldest-bug-in-ruby-why-racktimeout-might-hose-your-server/
+The problem comes when an error is raised from within an ensure block from another source.
+
+*Objects as Ruby Hash Keys* (rb - feb 21)
+http://blog.honeybadger.io/objects-as-ruby-hash-keys/
+As high-level programmers, we tend to think of memory as RAM. But at a lower-level, 'memory' has many other uses.
+
+*High Cost Tests and High Value Tests* (rb - feb 23)
+https://medium.com/table-xi/high-cost-tests-and-high-value-tests-a86e27a54df
+What the heck makes a test high-value?
+
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+Links curated by xenor (publisher), tysliu (editors), otaq (contributors).
+*|END:IF|*
+*|IFNOT:CONTENT=Only Links|*
+
+*|END:IF|*
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+
