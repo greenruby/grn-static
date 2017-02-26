@@ -29,6 +29,12 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
+  - title: "Build an API in your Rails app now! (Rails 5 version)"
+    url: "https://github.com/vasilakisfil/rails5_api_tutorial"
+    comment: "Step-by-step guide for making APIs in Rails 5."
+    tags:
+      - rb
+
   - title: ""
     url: ""
     comment: ""
@@ -52,10 +58,45 @@ topics:
   baseline: "From the blogosphere or news feeds ..."
   links:
 
+  - title: "Introducing Webpacker"
+    url: "https://medium.com/statuscode/introducing-webpacker-7136d66cddfb"
+    comment: "Rails 5.1 will have first-class support for webpack."
+    pubdate: feb 19
+    tags:
+      - rb
+
+  - title: "5 habits that made me a better Ruby developer"
+    url: "https://christoph.luppri.ch/articles/2017/02/20/5-habits-that-made-me-a-better-ruby-developer/"
+    comment: "Tips you may want to try or is already practicing."
+    pubdate: feb 20
+    tags:
+      - rb
+
+  - title: "The Oldest Bug In Ruby - Why Rack::Timeout Might Hose your Server"
+    url: "http://schneems.com/2017/02/21/the-oldest-bug-in-ruby-why-racktimeout-might-hose-your-server/"
+    comment: "The problem comes when an error is raised from within an ensure block from another source."
+    pubdate: feb 21
+    tags:
+      - rb
+
+  - title: "Objects as Ruby Hash Keys"
+    url: "http://blog.honeybadger.io/objects-as-ruby-hash-keys/"
+    comment: "As high-level programmers, we tend to think of memory as RAM. But at a lower-level, "memory" has many other uses."
+    pubdate: feb 21
+    tags:
+      - rb
+
+  - title: "High Cost Tests and High Value Tests"
+    url: "https://medium.com/table-xi/high-cost-tests-and-high-value-tests-a86e27a54df"
+    comment: "What the heck makes a test high-value?"
+    pubdate: feb 23
+    tags:
+      - rb
+
   - title: ""
     url: ""
     comment: ""
-    pubdate: sep 3
+    pubdate: feb 21
     tags:
       - rb
 
