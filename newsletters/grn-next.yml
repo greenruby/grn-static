@@ -1,8 +1,8 @@
 ---
-edition: "214"
-pubdate: "mar 12th 2017"
+edition: "215"
+pubdate: "mar 19th 2017"
 publisher: xenor
-editors: "xenor"
+editors: "tysliu, mose"
 participants: "Nauman Tariq, hsatac"
 rant:
   author: xenor
@@ -52,75 +52,13 @@ topics:
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: "Unicode Normalization in Ruby"
-    url: "http://blog.honeybadger.io/ruby_unicode_normalization/"
-    comment: "The reason we need normalization is that in Unicode there is more than one way to write a character."
-    pubdate: mar 6
+  - title: ""
+    url: ""
+    comment: ""
+    pubdate: sep 3
     tags:
       - rb
 
-  - title: "Towards Minimal, Idiomatic, and Performant Ruby Code"
-    url: "https://blog.codeminer42.com/towards-minimal-idiomatic-and-performant-ruby-code-f3fc6aed3c94"
-    comment: "Sometimes it is necessary to trade performance for readability, or readability for performance, or even break the deal if the trade is not worth it."
-    pubdate: mar 6
-    tags:
-      - rb
-
-  - title: "Micro-optimizations matter: preventing 20 million system calls"
-    url: "https://blog.packagecloud.io/eng/2017/03/06/micro-optimizations-matter/"
-    comment: "In this post, we’ll explore a particularly prominent case where a micro-optimization (like removing a system call in a hot path) had a drastic effect on software performance."
-    pubdate: mar 6
-    tags:
-      - rb
-
-  - title: "Concurrency Deep Dive: Multi-process"
-    url: "http://blog.appsignal.com/2017/03/07/ruby-magic-concurrency-processes.html"
-    comment: "Writing a program that uses multiprocessing is quite complex and uses a lot of resources. The upside is that it’s very robust."
-    pubdate: mar 7
-    tags:
-      - rb
-
-  - title: "ODBC and writing your own ActiveRecord adapter"
-    url: "http://eng.localytics.com/odbc-and-writing-your-own-activerecord-adapter/"
-    comment: "ODBC is the specification of an API that acts as a common gateway through which a client program can access disparate databases without having to account for individual interfaces."
-    pubdate: mar 7
-    tags:
-      - rb
-
-  - title: "IO#readlines now accepts chomp flag as an argument"
-    url: "http://blog.bigbinary.com/2017/03/07/io-readlines-now-accepts-chomp-flag-as-an-argument.html"
-    comment: "Additionally, IO#gets, IO#readline, IO#each_line, IO#foreach methods also have been modified to accept an optional chomp flag."
-    pubdate: mar 7
-    tags:
-      - rb
-
-  - title: "Want to use ES6 with Rails right now ? Webpack to the rescue"
-    url: "https://revs.runtime-revolution.com/want-to-use-es6-with-rails-right-now-webpack-to-the-rescue-ebefb2004e9e"
-    comment: "Explore one way (of many) to configure a Rails application so we can write ES6 code."
-    pubdate: mar 9
-    tags:
-      - rb
-
-  - title: "Google Hangouts is getting a major overhaul to take on Slack"
-    url: "http://www.theverge.com/2017/3/9/14864552/google-hangouts-chat-update-announced-slack-group-messaging-video"
-    comment: "The core features of Hangouts Chat play on Google’s strengths. It’s deeply integrated into Google Docs and Sheets."
-    pubdate: mar 9
-    tags:
-      - tool
-
-  - title: "speak"
-    url: "https://css-tricks.com/almanac/properties/s/speak/"
-    comment: "The speak property in CSS is for specifying how a browser should speak the content it reads, such as through a screen reader."
-    pubdate: mar 10
-    tags:
-      - css3
-
-  - title: "Password Rules Are Bullshit"
-    url: "https://blog.codinghorror.com/password-rules-are-bullshit/"
-    comment: "The more likely you are to use a truly random password generation tool, like us über-geeks are supposed to, the more likely you have suffered."
-    pubdate: mar 10
-    tags:
-      - web
 
 
 - title: Watch

@@ -1,0 +1,134 @@
+----------------------------------------------------
+Green Ruby News #214 - mar 12th 2017
+----------------------------------------------------
+*|IFNOT:CONTENT=Only Rant|*
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+*DESCENTE 2017* (design)
+http://ss2017.descente.jp/
+Transitions with some striking effects on a Japan sports clothing site.
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+*Scrimba* (tool)
+https://scrimba.com/
+Easy to use code learning screencast.
+
+*Animista* (css3)
+http://animista.net/
+A collection of ready to use CSS animations.
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+*Switchman* (rb)
+https://github.com/instructure/switchman
+An ActiveRecord extension for sharding database.
+
+*Uncss* (js)
+https://github.com/giakki/uncss
+Remove unused styles from CSS.
+
+*Ctop* (ops)
+https://bcicen.github.io/ctop/
+Top-like interface for container metrics.
+
+*Rearmed-js* (js)
+https://github.com/westonganger/rearmed-js
+A collection of helpful methods and monkey patches for Arrays, Objects, Numbers, and Strings in Javascript
+
+*Numscrubberjs* (js)
+https://github.com/mburakerman/numscrubberjs
+Change values of input numbers by dragging the mouse.
+
+*Space_elevator* (rb)
+https://github.com/preston/space_elevator
+Client for integrating a ruby application with a remote ActionCable-based backend provided by Rails 5 or compatible framework.
+
+*Babel* (js)
+https://github.com/babel/babel
+A compiler for writing next generation JavaScript.
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+*Unicode Normalization in Ruby* (rb - mar 6)
+http://blog.honeybadger.io/ruby_unicode_normalization/
+The reason we need normalization is that in Unicode there is more than one way to write a character.
+
+*Towards Minimal, Idiomatic, and Performant Ruby Code* (rb - mar 6)
+https://blog.codeminer42.com/towards-minimal-idiomatic-and-performant-ruby-code-f3fc6aed3c94
+Sometimes it is necessary to trade performance for readability, or readability for performance, or even break the deal if the trade is not worth it.
+
+*Micro-optimizations matter: preventing 20 million system calls* (rb - mar 6)
+https://blog.packagecloud.io/eng/2017/03/06/micro-optimizations-matter/
+This post explain a micro-optimization can have drastic effect on software performance.
+
+*Introduction to Web Audio API* (web - mar 6)
+https://css-tricks.com/introduction-web-audio-api/
+Make sounds in web application through Web Audio API.
+
+*Linting HTML using CSS* (css3 - mar 7)
+https://bitsofco.de/linting-html-using-css/
+Some nice CSS tricks to find and lint HTNL code.
+
+*Concurrency Deep Dive: Multi-process* (rb - mar 7)
+http://blog.appsignal.com/2017/03/07/ruby-magic-concurrency-processes.html
+Writing a program that uses multiprocessing is quite complex and uses a lot of resources. The upside is that it’s very robust.
+
+*ODBC and writing your own ActiveRecord adapter* (rb - mar 7)
+http://eng.localytics.com/odbc-and-writing-your-own-activerecord-adapter/
+ODBC is the specification of an API that acts as a common gateway through which a client program can access disparate databases without having to account for individual interfaces.
+
+*IO#readlines now accepts chomp flag as an argument* (rb - mar 7)
+http://blog.bigbinary.com/2017/03/07/io-readlines-now-accepts-chomp-flag-as-an-argument.html
+Additionally, IO#gets, IO#readline, IO#each_line, IO#foreach methods also have been modified to accept an optional chomp flag.
+
+*Want to use ES6 with Rails right now ? Webpack to the rescue* (rb - mar 9)
+https://revs.runtime-revolution.com/want-to-use-es6-with-rails-right-now-webpack-to-the-rescue-ebefb2004e9e
+Explore one way (of many) to configure a Rails application so we can write ES6 code.
+
+*Google Hangouts is getting a major overhaul to take on Slack* (tool - mar 9)
+http://www.theverge.com/2017/3/9/14864552/google-hangouts-chat-update-announced-slack-group-messaging-video
+The core features of Hangouts Chat play on Google’s strengths. It’s deeply integrated into Google Docs and Sheets.
+
+*Speak* (css3 - mar 10)
+https://css-tricks.com/almanac/properties/s/speak/
+The speak property in CSS is for specifying how a browser should speak the content it reads, such as through a screen reader.
+
+*Password Rules Are Bullshit* (web - mar 10)
+https://blog.codinghorror.com/password-rules-are-bullshit/
+The more likely you are to use a truly random password generation tool, the more likely you have suffered.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+Links curated by xenor (publisher), tysliu (editors), Nauman Tariq (contributors).
+*|END:IF|*
+*|IFNOT:CONTENT=Only Links|*
+
+*|END:IF|*
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+
