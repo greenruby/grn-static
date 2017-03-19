@@ -41,21 +41,60 @@ topics:
   baseline: "A selection of gems or applications updated during past week."
   links:
 
+  - title: "RuCaptcha"
+    url: "https://github.com/huacnlee/rucaptcha"
+    comment: "This is a Captcha gem for Rails Applications. It drawing captcha image with C code."
+    tags:
+      - rb
+
+  - title: "Characteristics"
+    url: "https://github.com/janlelis/characteristics"
+    comment: "A Ruby library which provides some basic information about how characters behave in different encodings."
+    tags:
+      - rb
+
   - title: ""
     url: ""
     comment: ""
     tags:
       - rb
 
-
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
   links:
 
+  - title: "Puma, Ports, and Polish"
+    url: "http://schneems.com/2017/03/13/puma-ports-and-polish/"
+    comment: "Polish is what distinguishes good software from great software."
+    pubdate: mar 13
+    tags:
+      - rb
+
+  - title: "5 Features You Can Use in ES6 Today"
+    url: "https://scotch.io/bar-talk/five-things-you-can-use-in-es6-today"
+    comment: "Five features that will make your Javascript code better right now."
+    pubdate: mar 15
+    tags:
+      - rb
+
+  - title: "Bots on Rails. Part two, building conversational flow."
+    url: "https://medium.com/@strangeworks/bots-on-rails-part-two-building-conversational-flow-db096f6eceac"
+    comment: "Step-by-step guide on setting up a bot on Facbook."
+    pubdate: mar 17
+    tags:
+      - rb
+
+  - title: "Embracing Change: Rails 5.1 Adopts Yarn, Webpack, and the JS Ecosystem"
+    url: "http://pixelatedworks.com/articles/embracing-change-rails51-adopts-yarn-webpack-and-the-js-ecosystem/"
+    comment: "What the Rails team has been doing to ensure Rails remains competitive in the web framework space."
+    pubdate: mar 17
+    tags:
+      - rb
+
   - title: ""
     url: ""
     comment: ""
-    pubdate: sep 3
+    pubdate: mar 13
     tags:
       - rb
 
