@@ -1,6 +1,6 @@
 ---
-edition: "215"
-pubdate: "mar 19th 2017"
+edition: "216"
+pubdate: "mar 26th 2017"
 publisher: xenor
 editors: "tysliu, mose"
 participants: "Nauman Tariq, hsatac"
@@ -29,11 +29,11 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: "Monitor weekly"
-    url: "http://weekly.monitoring.love/"
-    comment: "A new newsletter for devops."
+  - title: ""
+    url: ""
+    comment: ""
     tags:
-      - ops
+      - css3
 
 
 
@@ -41,81 +41,21 @@ topics:
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: "RuCaptcha"
-    url: "https://github.com/huacnlee/rucaptcha"
-    comment: "This is a Captcha gem for Rails Applications. It drawing captcha image with C code."
+  - title: ""
+    url: ""
+    comment: ""
     tags:
       - rb
 
-  - title: "Characteristics"
-    url: "https://github.com/janlelis/characteristics"
-    comment: "A Ruby library which provides some basic information about how characters behave in different encodings."
-    tags:
-      - rb
-
-  - title: "LXD"
-    url: "https://www.ubuntu.com/containers/lxd"
-    comment: "Another type of Linux hypervisor, that looks like a container system."
-    tags:
-      - ops
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: "The 4 values of a devops transformation"
-    url: "https://www.cevo.com.au/culture/2017/03/12/four-values-of-devops.html"
-    comment: "Work lean, embrace failure, automate everything and demand diversity."
-    pubdate: mar 12
-    tags:
-      - ops
-
-  - title: "Puma, Ports, and Polish"
-    url: "http://schneems.com/2017/03/13/puma-ports-and-polish/"
-    comment: "Polish is what distinguishes good software from great software."
-    pubdate: mar 13
-    tags:
-      - rb
-
-  - title: "The million dollar engineering problem"
-    url: "https://segment.com/blog/the-million-dollar-eng-problem/"
-    comment: "The cost of microservices infrastructure and the terraform solution."
-    pubdate: mar 14
-    tags:
-      - ops
-
-  - title: "5 Features You Can Use in ES6 Today"
-    url: "https://scotch.io/bar-talk/five-things-you-can-use-in-es6-today"
-    comment: "Five features that will make your Javascript code better right now."
-    pubdate: mar 15
-    tags:
-      - rb
-
-  - title: "GitLab acquires software chat startup Gitter, will open-source the code"
-    url: "http://venturebeat.com/2017/03/15/gitlab-acquires-software-chat-startup-gitter-will-open-source-the-code/"
-    comment: "Quite a bold move, Gitlab funding is getting serious."
-    pubdate: mar 15
-    tags:
-      - web
-
-  - title: "Bots on Rails. Part two, building conversational flow."
-    url: "https://medium.com/@strangeworks/bots-on-rails-part-two-building-conversational-flow-db096f6eceac"
-    comment: "Step-by-step guide on setting up a bot on Facbook."
-    pubdate: mar 17
-    tags:
-      - rb
-
-  - title: "Embracing Change: Rails 5.1 Adopts Yarn, Webpack, and the JS Ecosystem"
-    url: "http://pixelatedworks.com/articles/embracing-change-rails51-adopts-yarn-webpack-and-the-js-ecosystem/"
-    comment: "What the Rails team has been doing to ensure Rails remains competitive in the web framework space."
-    pubdate: mar 17
-    tags:
-      - rb
-
   - title: ""
     url: ""
     comment: ""
-    pubdate: mar 13
+    pubdate: sep 3
     tags:
       - rb
 
