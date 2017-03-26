@@ -1,6 +1,6 @@
 ---
-edition: "216"
-pubdate: "mar 26th 2017"
+edition: "217"
+pubdate: "apr 2nd 2017"
 publisher: xenor
 editors: "tysliu, mose"
 participants: "Nauman Tariq, hsatac"
@@ -29,12 +29,6 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: "Serverspec"
-    url: "http://serverspec.org/"
-    comment: "RSpec tests for your servers configured by CFEngine, Puppet, Ansible, Itamae or anything else."
-    tags:
-      - rb
-
   - title: ""
     url: ""
     comment: ""
@@ -58,45 +52,10 @@ topics:
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: "Building Documentation with Gulp, Docco and LiveReload"
-    url: "http://blog.honeybadger.io/building-documentation-sites-with-gulp-docco-and-livereload/"
-    comment: "A documentation generator to convert the source files into a website."
-    pubdate: mar 21
-    tags:
-      - rb
-
-  - title: "Config: Behavior versus Credentials"
-    url: "http://schneems.com/2017/03/21/config-behavior-versus-credentials/"
-    comment: "An application doesn’t have one type of configuration, it has two."
-    pubdate: mar 21
-    tags:
-      - rb
-
-  - title: "Why we ended up not using Rails for our new JSON API"
-    url: "https://blog.dnsimple.com/2017/03/why-we-ended-up-not-using-rails-for-our-new-json-api/"
-    comment: "Experiences on refactoring an old Rails application."
-    pubdate: mar 21
-    tags:
-      - rb
-
-  - title: "Ruby 2.4.1 Released: What’s Changed"
-    url: "https://medium.com/rubyinside/ruby-2-4-1-released-whats-changed-fa83346c93f3"
-    comment: "Most of the changes are fixes for regressions."
-    pubdate: mar 23
-    tags:
-      - rb
-
-  - title: "The New ‘Absent Operator’ in Ruby’s Regular Expressions"
-    url: "https://medium.com/rubyinside/the-new-absent-operator-in-ruby-s-regular-expressions-7c3ef6cd0b99"
-    comment: "Ruby 2.4.1 was released this week and included an upgrade to its underlying regular expression engine, Onigmo."
-    pubdate: mar 23
-    tags:
-      - rb
-
   - title: ""
     url: ""
     comment: ""
-    pubdate: mar 21
+    pubdate: sep 3
     tags:
       - rb
 
