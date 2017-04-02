@@ -52,10 +52,59 @@ topics:
   baseline: "From the blogosphere or news feeds ..."
   links:
 
+  - title: "The 500.000$ release"
+    url: "https://mruby.sh/201703270126.html"
+    comment: "Story about an expensive bug bounty."
+    pubdate: mar 26
+    tags:
+      - rb
+
+  - title: "CSS deep-dive: matrix3d() for a frame-perfect custom scrollbar"
+    url: "https://developers.google.com/web/updates/2017/03/custom-scrollbar"
+    comment: "Custom scrollbars are extremely rare and that’s mostly due to the fact that scrollbars are one of the remaining bits on the web that are pretty much unstylable."
+    pubdate: mar 27
+    tags:
+      - css3
+
+  - title: "N+1 Queries or Memory Problems: Why not Solve Both?"
+    url: "https://blog.heroku.com/solving-n-plus-one-queries"
+    comment: "This post is going to help save you money if you're running a Rails server."
+    pubdate: mar 28
+    tags:
+      - rb
+
+  - title: "Ruby 2.2.7 Released"
+    url: "https://www.ruby-lang.org/en/news/2017/03/28/ruby-2-2-7-released/"
+    comment: "This release includes about 70 bug fixes after the previous release."
+    pubdate: mar 28
+    tags:
+      - rb
+
+  - title: "Why you Should not use a Class as a Namespace in Rails Applications"
+    url: "https://blog.jetbrains.com/ruby/2017/03/why-you-should-not-use-a-class-as-a-namespace-in-rails-applications/"
+    comment: "A hidden bug with a class name as a namespace."
+    pubdate: mar 30
+    tags:
+      - rb
+
+  - title: "Does CSS Grid Replace Flexbox?"
+    url: "https://css-tricks.com/css-grid-replace-flexbox/"
+    comment: "Grid is much newer than Flexbox and has a bit less browser support."
+    pubdate: mar 31
+    tags:
+      - css3
+
+  - title: "Support of Ruby 2.1 has ended"
+    url: "https://www.ruby-lang.org/en/news/2017/04/01/support-of-ruby-2-1-has-ended/"
+    comment: "On March 31, 2017, all support of the Ruby 2.1 series has ended."
+    pubdate: apr 1
+    tags:
+      - rb
+
   - title: ""
     url: ""
     comment: ""
-    pubdate: sep 3
+    pubdate: mar 28
     tags:
       - rb
 
