@@ -52,10 +52,52 @@ topics:
   baseline: "From the blogosphere or news feeds ..."
   links:
 
+  - title: "Gosh: a pluggable command shell in Go"
+    url: "https://medium.com/@vladimirvivien/gosh-a-pluggable-command-shell-in-go-cf25102c8439"
+    comment: "Gosh (Go shell) uses a driver shell program to load the command plugins at runtime."
+    pubdate: apr 3
+    tags:
+      - go
+
+  - title: "Double Ruby Rainbow Bug"
+    url: "https://www.schneems.com/2017/04/04/double-ruby-rainbow-bug/"
+    comment: "There are many cases where the fix for a bug isn’t that interesting, it’s how the bug came to be."
+    pubdate: apr 4
+    tags:
+      - rb
+
+  - title: "The Rubyist's Guide to Memoization"
+    url: "http://blog.honeybadger.io/rubyist_guide_to_memoization/"
+    comment: "It's a technique that really should only be applied to expensive operations that will never change throughout the lifetime of the memo variable."
+    pubdate: apr 5
+    tags:
+      - rb
+
+  - title: "Rails Benchmarking: Puma and MultiProcess"
+    url: "http://engineering.appfolio.com/appfolio-engineering/2017/3/22/rails-benchmarking-puma-and-multiprocess"
+    comment: "We'll look at how the number of processes affects the total throughput."
+    pubdate: apr 5
+    tags:
+      - rb
+
+  - title: "5 Tips for More Effective Capybara Tests"
+    url: "https://semaphoreci.com/community/tutorials/5-tips-for-more-effective-capybara-tests"
+    comment: "Here are five useful tips for writing better tests using Capybara."
+    pubdate: apr 5
+    tags:
+      - rb
+
+  - title: "Pong with SVG.js"
+    url: "https://css-tricks.com/pong-svg-js/"
+    comment: "SVG.js is a lightweight library for manipulating and animating SVG."
+    pubdate: apr 7
+    tags:
+      - js
+
   - title: ""
     url: ""
     comment: ""
-    pubdate: sep 3
+    pubdate: apr 5
     tags:
       - rb
 
