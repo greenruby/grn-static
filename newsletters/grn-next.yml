@@ -41,11 +41,17 @@ topics:
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "Springboard"
+    url: "https://github.com/benschw/springboard"
+    comment: "cli utility to help get your secrets into vault."
     tags:
-      - rb
+      - tool
+
+  - title: "Mastodon"
+    url: "https://github.com/tootsuite/mastodon"
+    comment: "Self-hosted decentralized alternative to twitter, in rails."
+    tags:
+      - tool
 
 
 - title: Read
@@ -65,6 +71,13 @@ topics:
     pubdate: apr 4
     tags:
       - rb
+
+  - title: "Things I Learned Managing Site Reliability"
+    url: "https://zwischenzugs.wordpress.com/2017/04/04/things-i-learned-managing-site-reliability-for-some-of-the-worlds-busiest-gambling-sites/"
+    comment: "About importance of documentation in SRE."
+    pubdate: apr 4
+    tags:
+      - ops
 
   - title: "The Rubyist's Guide to Memoization"
     url: "http://blog.honeybadger.io/rubyist_guide_to_memoization/"
@@ -86,6 +99,13 @@ topics:
     pubdate: apr 5
     tags:
       - rb
+
+  - title: "The top GitHub projects per country"
+    url: "https://medium.com/@hoffa/the-top-github-projects-per-country-92c275e19409"
+    comment: "Based on stars, kind of interesting results."
+    pubdate: apr 5
+    tags:
+      - web
 
   - title: "Pong with SVG.js"
     url: "https://css-tricks.com/pong-svg-js/"
