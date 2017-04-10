@@ -1,6 +1,6 @@
 ---
-edition: "218"
-pubdate: "apr 9th 2017"
+edition: "219"
+pubdate: "apr 16th 2017"
 publisher: xenor
 editors: "tysliu, mose"
 participants: "Nauman Tariq, hsatac"
@@ -41,83 +41,21 @@ topics:
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: "Springboard"
-    url: "https://github.com/benschw/springboard"
-    comment: "cli utility to help get your secrets into vault."
+  - title: ""
+    url: ""
+    comment: ""
     tags:
-      - tool
-
-  - title: "Mastodon"
-    url: "https://github.com/tootsuite/mastodon"
-    comment: "Self-hosted decentralized alternative to twitter, in rails."
-    tags:
-      - tool
+      - rb
 
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: "Gosh: a pluggable command shell in Go"
-    url: "https://medium.com/@vladimirvivien/gosh-a-pluggable-command-shell-in-go-cf25102c8439"
-    comment: "Gosh (Go shell) uses a driver shell program to load the command plugins at runtime."
-    pubdate: apr 3
-    tags:
-      - go
-
-  - title: "Double Ruby Rainbow Bug"
-    url: "https://www.schneems.com/2017/04/04/double-ruby-rainbow-bug/"
-    comment: "There are many cases where the fix for a bug isn’t that interesting, it’s how the bug came to be."
-    pubdate: apr 4
-    tags:
-      - rb
-
-  - title: "Things I Learned Managing Site Reliability"
-    url: "https://zwischenzugs.wordpress.com/2017/04/04/things-i-learned-managing-site-reliability-for-some-of-the-worlds-busiest-gambling-sites/"
-    comment: "About importance of documentation in SRE."
-    pubdate: apr 4
-    tags:
-      - ops
-
-  - title: "The Rubyist's Guide to Memoization"
-    url: "http://blog.honeybadger.io/rubyist_guide_to_memoization/"
-    comment: "It's a technique that really should only be applied to expensive operations that will never change throughout the lifetime of the memo variable."
-    pubdate: apr 5
-    tags:
-      - rb
-
-  - title: "Rails Benchmarking: Puma and MultiProcess"
-    url: "http://engineering.appfolio.com/appfolio-engineering/2017/3/22/rails-benchmarking-puma-and-multiprocess"
-    comment: "We'll look at how the number of processes affects the total throughput."
-    pubdate: apr 5
-    tags:
-      - rb
-
-  - title: "5 Tips for More Effective Capybara Tests"
-    url: "https://semaphoreci.com/community/tutorials/5-tips-for-more-effective-capybara-tests"
-    comment: "Here are five useful tips for writing better tests using Capybara."
-    pubdate: apr 5
-    tags:
-      - rb
-
-  - title: "The top GitHub projects per country"
-    url: "https://medium.com/@hoffa/the-top-github-projects-per-country-92c275e19409"
-    comment: "Based on stars, kind of interesting results."
-    pubdate: apr 5
-    tags:
-      - web
-
-  - title: "Pong with SVG.js"
-    url: "https://css-tricks.com/pong-svg-js/"
-    comment: "SVG.js is a lightweight library for manipulating and animating SVG."
-    pubdate: apr 7
-    tags:
-      - js
-
   - title: ""
     url: ""
     comment: ""
-    pubdate: apr 5
+    pubdate: sep 3
     tags:
       - rb
 

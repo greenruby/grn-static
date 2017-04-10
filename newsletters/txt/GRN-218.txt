@@ -1,0 +1,114 @@
+----------------------------------------------------
+Green Ruby News #218 - apr 9th 2017
+----------------------------------------------------
+*|IFNOT:CONTENT=Only Rant|*
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+*DevelMail.com* (tool)
+https://develmail.com/
+A mail-catcher like online SMTP server dedicated for development environment.
+
+*Colormind* (design)
+http://colormind.io/
+Color palette generator.
+
+*Grid Garden* (css3)
+http://cssgridgarden.com
+A game for learning CSS grid layout.
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+*Springboard* (tool)
+https://github.com/benschw/springboard
+cli utility to help get your secrets into vault.
+
+*Mastodon* (tool)
+https://github.com/tootsuite/mastodon
+Self-hosted decentralized alternative to twitter, in rails.
+
+*Ez* (rb)
+https://github.com/JeffCohen/ez
+Easy domain modeling in Rails without migrations.
+
+*Rhail* (rb)
+https://github.com/E-Xor/rhail
+A Rack-based nano framework.
+
+*Moon* (js)
+https://github.com/KingPixil/moon
+A minimal UI library inspired by Vue.
+
+*Reactxp* (js)
+https://github.com/Microsoft/reactxp
+Library for cross-platform app development by Microsoft.
+
+*Tippyjs* (js)
+https://github.com/atomiks/tippyjs
+A lightweight, pure JS tooltip library.
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+*Gosh: a pluggable command shell in Go* (go - apr 3)
+https://medium.com/@vladimirvivien/gosh-a-pluggable-command-shell-in-go-cf25102c8439
+Gosh (Go shell) uses a driver shell program to load the command plugins at runtime.
+
+*Double Ruby Rainbow Bug* (rb - apr 4)
+https://www.schneems.com/2017/04/04/double-ruby-rainbow-bug/
+There are many cases where the fix for a bug isn’t that interesting, it’s how the bug came to be.
+
+*Things I Learned Managing Site Reliability* (ops - apr 4)
+https://zwischenzugs.wordpress.com/2017/04/04/things-i-learned-managing-site-reliability-for-some-of-the-worlds-busiest-gambling-sites/
+About importance of documentation in SRE.
+
+*The Rubyist's Guide to Memoization* (rb - apr 5)
+http://blog.honeybadger.io/rubyist_guide_to_memoization/
+It's a technique that really should only be applied to expensive operations that will never change throughout the lifetime of the memo variable.
+
+*Rails Benchmarking: Puma and MultiProcess* (rb - apr 5)
+http://engineering.appfolio.com/appfolio-engineering/2017/3/22/rails-benchmarking-puma-and-multiprocess
+How the number of processes affects the total throughput.
+
+*5 Tips for More Effective Capybara Tests* (rb - apr 5)
+https://semaphoreci.com/community/tutorials/5-tips-for-more-effective-capybara-tests
+Some nice tips for writing better tests using Capybara.
+
+*The top GitHub projects per country* (web - apr 5)
+https://medium.com/@hoffa/the-top-github-projects-per-country-92c275e19409
+Based on stars, kind of interesting results.
+
+*Pong with SVG.js* (js - apr 7)
+https://css-tricks.com/pong-svg-js/
+SVG.js is a lightweight library for manipulating and animating SVG.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+Links curated by xenor (publisher), tysliu, mose (editors), Nauman Tariq (contributors).
+*|END:IF|*
+*|IFNOT:CONTENT=Only Links|*
+
+*|END:IF|*
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+
