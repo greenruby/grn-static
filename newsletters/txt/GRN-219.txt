@@ -1,0 +1,102 @@
+----------------------------------------------------
+Green Ruby News #219 - apr 16th 2017
+----------------------------------------------------
+*|IFNOT:CONTENT=Only Rant|*
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+*WebVR Experiments* (design)
+https://www.webvrexperiments.com/
+Some WebVR experiments by Google.
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+*Zen Rails Security Checklist* (rb)
+https://github.com/brunofacca/zen-rails-security-checklist
+This document provides a list of security measures to be implemented when developing a Ruby on Rails application.
+
+*Rails_error_api_redesign* (rb)
+https://github.com/lulalala/rails_error_api_redesign
+Gathering some proposals for rails to improve their error API.
+
+*CodeSandbox* (tool)
+https://codesandbox.io/
+An online editor for React projects.
+
+*Griddy* (css3)
+http://griddy.io
+Learn the CSS Grid Spec.
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+*GitHub::DS* (rb)
+https://github.com/github/github-ds
+GitHub::DS is a collection of Ruby libraries for working with SQL on top of ActiveRecord's connection.
+
+*Zhong* (rb)
+https://github.com/nickelser/zhong
+Distributed cron using redis.
+
+*Textbringer* (rb)
+https://github.com/shugo/textbringer
+An Emacs-like text editor written in Ruby.
+
+*Goruby* (go)
+https://github.com/goruby/goruby
+An implementation of Ruby written in Go.
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+*A Comprehensive Guide To HTTP/2 Server Push* (web - apr 10)
+https://www.smashingmagazine.com/2017/04/guide-http2-server-push/
+Explain ow does server push work and how it helps performance.
+
+*The state of Ruby on Google Cloud Platform* (rb - apr 11)
+https://cloudplatform.googleblog.com/2017/04/the-state-of-Ruby-on-Google-Cloud-Platform.html
+Seems Google Cloud Platform is ready for ruby developers to do some real things.
+
+*Writing Efficient Queries* (rb - apr 12)
+https://blog.codeship.com/writing-efficient-queries/
+Some rules to wirte sufficient rails queries.
+
+*Jumping Off The Ruby Memory Cliff* (rb - apr 12)
+https://www.schneems.com/2017/04/12/jumping-off-the-memory-cliff/
+The memory use of a healthy app is like the heartbeat of a patient - regular and predictable.
+
+*Deduplicating Large Data With Rails* (rb - apr 12)
+http://www.cheynewallace.com/deduplicating-large-data-with-rails/
+Using MD5 checksum as uniqueness constraint for data.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+Links curated by xenor (publisher), tysliu (editors).
+*|END:IF|*
+*|IFNOT:CONTENT=Only Links|*
+
+*|END:IF|*
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+
