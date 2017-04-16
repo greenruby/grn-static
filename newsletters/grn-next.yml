@@ -29,6 +29,12 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
+  - title: "Zen Rails Security Checklist"
+    url: "https://github.com/brunofacca/zen-rails-security-checklist"
+    comment: "This document provides a list of security measures to be implemented when developing a Ruby on Rails application."
+    tags:
+      - rb
+
   - title: ""
     url: ""
     comment: ""
@@ -41,6 +47,12 @@ topics:
   baseline: "A selection of gems or applications updated during past week."
   links:
 
+  - title: "GitHub::DS"
+    url: "https://github.com/github/github-ds"
+    comment: "GitHub::DS is a collection of Ruby libraries for working with SQL on top of ActiveRecord's connection."
+    tags:
+      - rb
+
   - title: ""
     url: ""
     comment: ""
@@ -52,10 +64,38 @@ topics:
   baseline: "From the blogosphere or news feeds ..."
   links:
 
+  - title: "The state of Ruby on Google Cloud Platform"
+    url: "https://cloudplatform.googleblog.com/2017/04/the-state-of-Ruby-on-Google-Cloud-Platform.html"
+    comment: "Can I run gems like nokogiri or database adapters that have C extensions on App Engine?"
+    pubdate: apr 11
+    tags:
+      - rb
+
+  - title: "Jumping Off The Ruby Memory Cliff"
+    url: "https://www.schneems.com/2017/04/12/jumping-off-the-memory-cliff/"
+    comment: "The memory use of a healthy app is like the heartbeat of a patient - regular and predictable."
+    pubdate: apr 12
+    tags:
+      - rb
+
+  - title: "Deduplicating Large Data With Rails"
+    url: "http://www.cheynewallace.com/deduplicating-large-data-with-rails/"
+    comment: "What happens when you want to store a relatively large document or body of text in your database but that large chunk of text is likely to be identical for thousands of new records?"
+    pubdate: apr 12
+    tags:
+      - rb
+
+  - title: "Writing Efficient Queries"
+    url: "https://blog.codeship.com/writing-efficient-queries/"
+    comment: "It’s better to start with writing efficient code instead of relying on performance-tuning afterward."
+    pubdate: apr 14
+    tags:
+      - rb
+
   - title: ""
     url: ""
     comment: ""
-    pubdate: sep 3
+    pubdate: apr 12
     tags:
       - rb
 
