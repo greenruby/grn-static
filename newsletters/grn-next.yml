@@ -17,9 +17,9 @@ topics:
     "Examples of UI/UX, graphic performance, web design and flashy things."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "Michele Angeloro"
+    url: "http://eien.tokyo"
+    comment: "Nice animation effect on the top right helix."
     tags:
       - design
 
@@ -41,12 +41,24 @@ topics:
     tags:
       - rb
 
+
+  - title: "Vecteezy Editor"
+    url: "https://www.vecteezy.com/editor"
+    comment: "A free SVG editor build on top of a huge database of free vector graphics."
+    tags:
+      - design
+
+  - title: "Dropsource"
+    url: "https://www.dropsource.com/"
+    comment: "Rapid visual prototyping for native mobile apps"
+    tags:
+      - tool
+
   - title: "Tracking ECMAScript Proposals"
     url: "https://github.com/tc39/proposals"
     comment: "Up-to-date list of current proposals for ECMAscript evolution."
     tags:
       - js
-
 
 
 - title: Install
@@ -65,15 +77,31 @@ topics:
     tags:
       - rb
 
-  - title: "Rooby"
-    url: "https://github.com/rooby-lang/rooby"
-    comment: "Ruby-like object oriented language written in Go."
+  - title: "Postal"
+    url: "https://github.com/atech/postal"
+    comment: "An open source mail delivery platform for incoming & outgoing e-mail."
     tags:
-      - go
+      - rb
+
+  - title: "Cuttlefish"
+    url: "https://github.com/mlandauer/cuttlefish"
+    comment: "Transactional email server with web interface."
 
   - title: "Netlify CMS"
     url: "https://github.com/netlify/netlify-cms"
     comment: "A CMS for static site generators."
+    tags:
+      - js
+
+  - title: "Acli"
+    url: "https://github.com/palkan/acli"
+    comment: "Action Cable command-line client."
+    tags:
+      - rb
+
+  - title: "Sizzy"
+    url: "https://github.com/kitze/sizzy"
+    comment: "A tool for developing responsive websites."
     tags:
       - js
 
@@ -91,7 +119,7 @@ topics:
 
   - title: "Oj (Optimized JSON) 3.0.0 Released"
     url: "http://www.ohler.com/oj/index.html"
-    comment: "Oj (Optimized JSON) is fast. Faster than the built in Ruby json gem."
+    comment: "Oj (Optimized JSON) released their new version focus on json gem and Rails compatibility."
     pubdate: apr 24
     tags:
       - rb
