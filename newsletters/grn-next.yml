@@ -29,6 +29,18 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
+  - title: "Awesome Machine Learning with Ruby"
+    url: "https://github.com/arbox/machine-learning-with-ruby"
+    comment: "Awesome libraries, data sources, tutorials and presentations about Machine Learning utilizing the Ruby programming language."
+    tags:
+      - rb
+
+  - title: "Helix"
+    url: "https://usehelix.com/"
+    comment: "Helix makes writing Ruby classes in Rust safe and fun."
+    tags:
+      - rb
+
   - title: ""
     url: ""
     comment: ""
@@ -41,6 +53,18 @@ topics:
   baseline: "A selection of gems or applications updated during past week."
   links:
 
+  - title: "Method Object"
+    url: "https://github.com/LIQIDTechnology/methodobject"
+    comment: "Method objects is a common pattern used to ease the extraction of complex methods from other classes and for the implementation of service objects."
+    tags:
+      - rb
+
+  - title: "Bootsnap"
+    url: "https://github.com/Shopify/bootsnap"
+    comment: "Bootsnap is a library that plugs into a number of Ruby and (optionally) ActiveSupport and YAML methods to optimize and cache expensive computations."
+    tags:
+      - rb
+
   - title: ""
     url: ""
     comment: ""
@@ -52,10 +76,73 @@ topics:
   baseline: "From the blogosphere or news feeds ..."
   links:
 
+  - title: "A Variable By any Other Name"
+    url: "http://schneems.com/2017/04/24/a-variable-by-any-other-name/"
+    comment: "Sometimes when you do everything right, things still go wrong."
+    pubdate: apr 24
+    tags:
+      - rb
+
+  - title: "Oj (Optimized JSON) 3.0.0 Released"
+    url: "http://www.ohler.com/oj/index.html"
+    comment: "Oj (Optimized JSON) is fast. Faster than the built in Ruby json gem."
+    pubdate: apr 24
+    tags:
+      - rb
+
+  - title: "Search and Autocomplete in Rails Apps"
+    url: "https://www.sitepoint.com/search-autocomplete-rails-apps/"
+    comment: "Discuss Postgres’ native search in Rails applications powered by the pg_search gem."
+    pubdate: apr 25
+    tags:
+      - rb
+
+  - title: "Hello Sidekiq 5.0"
+    url: "http://www.mikeperham.com/2017/04/25/hello-sidekiq-5.0/"
+    comment: "Sidekiq 5.0 refactors the core job processor to work better with Rails 5 and includes a few breaking changes that have been pending for a while."
+    pubdate: apr 25
+    tags:
+      - rb
+
+  - title: "Bundler’s new update options"
+    url: "https://depfu.io/blog/2017/04/25/bundlers-new-update-options"
+    comment: "Bundler added new CLI options in the last two releases that allow you to influence how bundle update decides which versions to update to."
+    pubdate: apr 25
+    tags:
+      - rb
+
+  - title: "Understand Go pointers in less than 800 words or your money back"
+    url: "https://dave.cheney.net/2017/04/26/understand-go-pointers-in-less-than-800-words-or-your-money-back"
+    comment: "This post is for programmers coming to Go who are unfamiliar with the idea of pointers or a pointer type in Go."
+    pubdate: apr 26
+    tags:
+      - go
+
+  - title: "Rails 5.1: Loving JavaScript, System Tests, Encrypted Secrets, and more"
+    url: "http://weblog.rubyonrails.org/2017/4/27/Rails-5-1-final/"
+    comment: "Manage JavaScript dependencies from NPM via Yarn, Optionally compile JavaScript with webpack, drop jQuery as a default dependency etc."
+    pubdate: apr 27
+    tags:
+      - rb
+
+  - title: "Idiomatic Ruby: writing beautiful code"
+    url: "https://medium.com/the-renaissance-developer/idiomatic-ruby-1b5fa1445098"
+    comment: "A reflection of working with Ruby by examples."
+    pubdate: apr 28
+    tags:
+      - rb
+
+  - title: "Automating Favicon Generation in Rails using Sketch"
+    url: "https://ksylvest.com/posts/2017-04-29/automating-favicon-generation-in-rails-using-sketch"
+    comment: "Seeing as the favicon standard dates back to 1999, it is difficult to reason why they are still a pain to generate."
+    pubdate: apr 29
+    tags:
+      - rb
+
   - title: ""
     url: ""
     comment: ""
-    pubdate: sep 3
+    pubdate: apr 25
     tags:
       - rb
 
