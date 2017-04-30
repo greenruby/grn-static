@@ -1,0 +1,138 @@
+----------------------------------------------------
+Green Ruby News #221 - apr 30th 2017
+----------------------------------------------------
+*|IFNOT:CONTENT=Only Rant|*
+
+Look
+----------------------------------------------------
+Examples of UI/UX, graphic performance, web design and flashy things.
+
+*Michele Angeloro* (design)
+http://eien.tokyo
+Nice animation effect on the top right helix.
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+*Awesome Machine Learning with Ruby* (rb)
+https://github.com/arbox/machine-learning-with-ruby
+Awesome libraries, data sources, tutorials and presentations about Machine Learning utilizing the Ruby programming language.
+
+*Helix* (rb)
+https://usehelix.com/
+Helix makes writing Ruby classes in Rust safe and fun.
+
+*Vecteezy Editor* (design)
+https://www.vecteezy.com/editor
+A free SVG editor build on top of a huge database of free vector graphics.
+
+*Dropsource* (tool)
+https://www.dropsource.com/
+Rapid visual prototyping for native mobile apps.
+
+*Tracking ECMAScript Proposals* (js)
+https://github.com/tc39/proposals
+Up-to-date list of current proposals for ECMAscript evolution.
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+*Method Object* (rb)
+https://github.com/LIQIDTechnology/methodobject
+Method objects is a common pattern used to ease the extraction of complex methods from other classes and for the implementation of service objects.
+
+*Bootsnap* (rb)
+https://github.com/Shopify/bootsnap
+Bootsnap is a library that plugs into a number of Ruby and (optionally) ActiveSupport and YAML methods to optimize and cache expensive computations.
+
+*Postal* (rb)
+https://github.com/atech/postal
+An open source mail delivery platform for incoming & outgoing e-mail.
+
+*Cuttlefish* (
+https://github.com/mlandauer/cuttlefish
+Transactional email server with web interface.
+
+*Netlify CMS* (js)
+https://github.com/netlify/netlify-cms
+A CMS for static site generators.
+
+*Acli* (rb)
+https://github.com/palkan/acli
+Action Cable command-line client.
+
+*Sizzy* (js)
+https://github.com/kitze/sizzy
+A tool for developing responsive websites.
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+*A Variable By any Other Name* (rb - apr 24)
+http://schneems.com/2017/04/24/a-variable-by-any-other-name/
+Sometimes when you do everything right, things still go wrong.
+
+*Oj (Optimized JSON) 3.0.0 Released* (rb - apr 24)
+http://www.ohler.com/oj/index.html
+Oj (Optimized JSON) released their new version focus on json gem and Rails compatibility.
+
+*PostgreSQL 9.6: Parallel Queries* (ops - apr 24)
+https://blog.rebased.pl/2017/04/24/postgresql-9-6-parallel-queries.html
+The biggest feature delivered in 9.6 was the parallel execution of sequential scans, joins and aggregates.
+
+*Search and Autocomplete in Rails Apps* (rb - apr 25)
+https://www.sitepoint.com/search-autocomplete-rails-apps/
+Discuss Postgres’ native search in Rails applications powered by the pg_search gem.
+
+*Hello Sidekiq 5.0* (rb - apr 25)
+http://www.mikeperham.com/2017/04/25/hello-sidekiq-5.0/
+Sidekiq 5.0 refactors the core job processor to work better with Rails 5 and includes a few breaking changes that have been pending for a while.
+
+*Bundler’s new update options* (rb - apr 25)
+https://depfu.io/blog/2017/04/25/bundlers-new-update-options
+Bundler added new CLI options in the last two releases that allow you to influence how bundle update decides which versions to update to.
+
+*Understand Go pointers in less than 800 words or your money back* (go - apr 26)
+https://dave.cheney.net/2017/04/26/understand-go-pointers-in-less-than-800-words-or-your-money-back
+This post is for programmers coming to Go who are unfamiliar with the idea of pointers or a pointer type in Go.
+
+*Rails 5.1: Loving JavaScript, System Tests, Encrypted Secrets, and more* (rb - apr 27)
+http://weblog.rubyonrails.org/2017/4/27/Rails-5-1-final/
+Manage JavaScript dependencies from NPM via Yarn, Optionally compile JavaScript with webpack, drop jQuery as a default dependency etc.
+
+*Idiomatic Ruby: writing beautiful code* (rb - apr 28)
+https://medium.com/the-renaissance-developer/idiomatic-ruby-1b5fa1445098
+A reflection of working with Ruby by examples.
+
+*Automating Favicon Generation in Rails using Sketch* (rb - apr 29)
+https://ksylvest.com/posts/2017-04-29/automating-favicon-generation-in-rails-using-sketch
+Seeing as the favicon standard dates back to 1999, it is difficult to reason why they are still a pain to generate.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+Links curated by xenor (publisher), tysliu, mose (editors), lincoln (contributors).
+*|END:IF|*
+*|IFNOT:CONTENT=Only Links|*
+
+*|END:IF|*
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+

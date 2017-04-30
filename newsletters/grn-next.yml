@@ -1,6 +1,6 @@
 ---
-edition: "221"
-pubdate: "apr 30th 2017"
+edition: "222"
+pubdate: "may 7th 2017"
 publisher: xenor
 editors: "tysliu, mose"
 participants: "Nauman Tariq, hsatac"
@@ -17,9 +17,9 @@ topics:
     "Examples of UI/UX, graphic performance, web design and flashy things."
   links:
 
-  - title: "Michele Angeloro"
-    url: "http://eien.tokyo"
-    comment: "Nice animation effect on the top right helix."
+  - title: ""
+    url: ""
+    comment: ""
     tags:
       - design
 
@@ -29,153 +29,46 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: "Awesome Machine Learning with Ruby"
-    url: "https://github.com/arbox/machine-learning-with-ruby"
-    comment: "Awesome libraries, data sources, tutorials and presentations about Machine Learning utilizing the Ruby programming language."
+  - title: ""
+    url: ""
+    comment: ""
     tags:
-      - rb
+      - css3
 
-  - title: "Helix"
-    url: "https://usehelix.com/"
-    comment: "Helix makes writing Ruby classes in Rust safe and fun."
-    tags:
-      - rb
-
-
-  - title: "Vecteezy Editor"
-    url: "https://www.vecteezy.com/editor"
-    comment: "A free SVG editor build on top of a huge database of free vector graphics."
-    tags:
-      - design
-
-  - title: "Dropsource"
-    url: "https://www.dropsource.com/"
-    comment: "Rapid visual prototyping for native mobile apps"
-    tags:
-      - tool
-
-  - title: "Tracking ECMAScript Proposals"
-    url: "https://github.com/tc39/proposals"
-    comment: "Up-to-date list of current proposals for ECMAscript evolution."
-    tags:
-      - js
 
 
 - title: Install
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: "Method Object"
-    url: "https://github.com/LIQIDTechnology/methodobject"
-    comment: "Method objects is a common pattern used to ease the extraction of complex methods from other classes and for the implementation of service objects."
+  - title: ""
+    url: ""
+    comment: ""
     tags:
       - rb
-
-  - title: "Bootsnap"
-    url: "https://github.com/Shopify/bootsnap"
-    comment: "Bootsnap is a library that plugs into a number of Ruby and (optionally) ActiveSupport and YAML methods to optimize and cache expensive computations."
-    tags:
-      - rb
-
-  - title: "Postal"
-    url: "https://github.com/atech/postal"
-    comment: "An open source mail delivery platform for incoming & outgoing e-mail."
-    tags:
-      - rb
-
-  - title: "Cuttlefish"
-    url: "https://github.com/mlandauer/cuttlefish"
-    comment: "Transactional email server with web interface."
-
-  - title: "Netlify CMS"
-    url: "https://github.com/netlify/netlify-cms"
-    comment: "A CMS for static site generators."
-    tags:
-      - js
-
-  - title: "Acli"
-    url: "https://github.com/palkan/acli"
-    comment: "Action Cable command-line client."
-    tags:
-      - rb
-
-  - title: "Sizzy"
-    url: "https://github.com/kitze/sizzy"
-    comment: "A tool for developing responsive websites."
-    tags:
-      - js
 
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: "A Variable By any Other Name"
-    url: "http://schneems.com/2017/04/24/a-variable-by-any-other-name/"
-    comment: "Sometimes when you do everything right, things still go wrong."
-    pubdate: apr 24
+  - title: ""
+    url: ""
+    comment: ""
+    pubdate: sep 3
     tags:
       - rb
 
-  - title: "Oj (Optimized JSON) 3.0.0 Released"
-    url: "http://www.ohler.com/oj/index.html"
-    comment: "Oj (Optimized JSON) released their new version focus on json gem and Rails compatibility."
-    pubdate: apr 24
-    tags:
-      - rb
 
-  - title: "PostgreSQL 9.6: Parallel Queries"
-    url: "https://blog.rebased.pl/2017/04/24/postgresql-9-6-parallel-queries.html"
-    comment: "The biggest feature delivered in 9.6 was the parallel execution of sequential scans, joins and aggregates."
-    pubdate: apr 24
-    tags:
-      - ops
 
-  - title: "Search and Autocomplete in Rails Apps"
-    url: "https://www.sitepoint.com/search-autocomplete-rails-apps/"
-    comment: "Discuss Postgres’ native search in Rails applications powered by the pg_search gem."
-    pubdate: apr 25
-    tags:
-      - rb
+- title: Watch
+  baseline: "Screencasts and conferences videos, or other video feeds ..."
+  links:
 
-  - title: "Hello Sidekiq 5.0"
-    url: "http://www.mikeperham.com/2017/04/25/hello-sidekiq-5.0/"
-    comment: "Sidekiq 5.0 refactors the core job processor to work better with Rails 5 and includes a few breaking changes that have been pending for a while."
-    pubdate: apr 25
-    tags:
-      - rb
-
-  - title: "Bundler’s new update options"
-    url: "https://depfu.io/blog/2017/04/25/bundlers-new-update-options"
-    comment: "Bundler added new CLI options in the last two releases that allow you to influence how bundle update decides which versions to update to."
-    pubdate: apr 25
-    tags:
-      - rb
-
-  - title: "Understand Go pointers in less than 800 words or your money back"
-    url: "https://dave.cheney.net/2017/04/26/understand-go-pointers-in-less-than-800-words-or-your-money-back"
-    comment: "This post is for programmers coming to Go who are unfamiliar with the idea of pointers or a pointer type in Go."
-    pubdate: apr 26
-    tags:
-      - go
-
-  - title: "Rails 5.1: Loving JavaScript, System Tests, Encrypted Secrets, and more"
-    url: "http://weblog.rubyonrails.org/2017/4/27/Rails-5-1-final/"
-    comment: "Manage JavaScript dependencies from NPM via Yarn, Optionally compile JavaScript with webpack, drop jQuery as a default dependency etc."
-    pubdate: apr 27
-    tags:
-      - rb
-
-  - title: "Idiomatic Ruby: writing beautiful code"
-    url: "https://medium.com/the-renaissance-developer/idiomatic-ruby-1b5fa1445098"
-    comment: "A reflection of working with Ruby by examples."
-    pubdate: apr 28
-    tags:
-      - rb
-
-  - title: "Automating Favicon Generation in Rails using Sketch"
-    url: "https://ksylvest.com/posts/2017-04-29/automating-favicon-generation-in-rails-using-sketch"
-    comment: "Seeing as the favicon standard dates back to 1999, it is difficult to reason why they are still a pain to generate."
-    pubdate: apr 29
+  - title: ""
+    url: ""
+    comment: ""
+    pubdate: sep 3
+    duration:
     tags:
       - rb
