@@ -41,11 +41,11 @@ topics:
     tags:
       - rb
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "Tracking ECMAScript Proposals"
+    url: "https://github.com/tc39/proposals"
+    comment: "Up-to-date list of current proposals for ECMAscript evolution."
     tags:
-      - css3
+      - js
 
 
 
@@ -65,11 +65,17 @@ topics:
     tags:
       - rb
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "Rooby"
+    url: "https://github.com/rooby-lang/rooby"
+    comment: "Ruby-like object oriented language written in Go."
     tags:
-      - rb
+      - go
+
+  - title: "Netlify CMS"
+    url: "https://github.com/netlify/netlify-cms"
+    comment: "A CMS for static site generators."
+    tags:
+      - js
 
 
 - title: Read
@@ -89,6 +95,13 @@ topics:
     pubdate: apr 24
     tags:
       - rb
+
+  - title: "PostgreSQL 9.6: Parallel Queries"
+    url: "https://blog.rebased.pl/2017/04/24/postgresql-9-6-parallel-queries.html"
+    comment: "The biggest feature delivered in 9.6 was the parallel execution of sequential scans, joins and aggregates."
+    pubdate: apr 24
+    tags:
+      - ops
 
   - title: "Search and Autocomplete in Rails Apps"
     url: "https://www.sitepoint.com/search-autocomplete-rails-apps/"
@@ -136,26 +149,5 @@ topics:
     url: "https://ksylvest.com/posts/2017-04-29/automating-favicon-generation-in-rails-using-sketch"
     comment: "Seeing as the favicon standard dates back to 1999, it is difficult to reason why they are still a pain to generate."
     pubdate: apr 29
-    tags:
-      - rb
-
-  - title: ""
-    url: ""
-    comment: ""
-    pubdate: apr 25
-    tags:
-      - rb
-
-
-
-- title: Watch
-  baseline: "Screencasts and conferences videos, or other video feeds ..."
-  links:
-
-  - title: ""
-    url: ""
-    comment: ""
-    pubdate: sep 3
-    duration:
     tags:
       - rb
