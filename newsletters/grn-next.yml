@@ -17,9 +17,9 @@ topics:
     "Examples of UI/UX, graphic performance, web design and flashy things."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "Interface Lovers"
+    url: "https://interfacelovers.com"
+    comment: "online magazine for creative professionals"
     tags:
       - design
 
@@ -41,21 +41,27 @@ topics:
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "Franc"
+    url: "https://github.com/wooorm/franc"
+    comment: "Detect the language of text."
     tags:
-      - rb
+      - js
+
+  - title: "Ketchup"
+    url: "https://ketchuphq.com/"
+    comment: "A simple CMS in Go and Typescript."
+    tags:
+      - go
 
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
-    pubdate: sep 3
+  - title: "Discourse"
+    url: "https://www.indiehackers.com/businesses/discourse"
+    comment: "Jeff Atwood explains how targeting high-value businesses instead of consumers helped grow Discourse's revenue."
+    pubdate: may
     tags:
       - rb
 
