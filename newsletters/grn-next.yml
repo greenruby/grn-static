@@ -53,6 +53,12 @@ topics:
     tags:
       - go
 
+  - title: "BeePing"
+    url: "https://github.com/yanc0/beeping"
+    comment: "BeePing is a distant http check as a Service."
+    tags:
+      - ops
+
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
@@ -65,16 +71,11 @@ topics:
     tags:
       - rb
 
-
-
-- title: Watch
-  baseline: "Screencasts and conferences videos, or other video feeds ..."
-  links:
-
-  - title: ""
-    url: ""
-    comment: ""
-    pubdate: sep 3
-    duration:
+  - title: "So you want to Hire a DevOps"
+    url: "https://github.com/actionjack/so-you-want-to-recruit-a-devops-engineer"
+    comment: "hints and tips to make onboarding easier."
+    pubdate: may 3
     tags:
-      - rb
+      - ops
+
+
