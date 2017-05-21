@@ -2,13 +2,7 @@
 edition: "224"
 pubdate: "may 21th 2017"
 publisher: xenor
-editors: "tysliu, mose"
-participants: "Nauman Tariq, hsatac"
-rant:
-  author: xenor
-  content:
-    "####
-"
+editors: "tysliu"
 
 topics:
 
@@ -17,9 +11,9 @@ topics:
     "Examples of UI/UX, graphic performance, web design and flashy things."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "Chackathon"
+    url: "https://chackathon.com/"
+    comment: "Scroll and reveal effect with elegant."
     tags:
       - design
 
@@ -29,12 +23,18 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "Mavo"
+    url: "https://mavo.io/"
+    comment: "Turns HTML into a featureful web application."
+    pubdate: ""
     tags:
-      - css3
+      - web
 
+  - title: "Kolide"
+    url: "https://kolide.co/"
+    comment: "Make all infrastructure services like a queryable database."
+    tags:
+      - ops
 
 
 - title: Install
@@ -47,11 +47,42 @@ topics:
     tags:
       - rb
 
-  - title: ""
-    url: ""
-    comment: ""
+  - title: "Obnoxious.css"
+    url: "https://github.com/tholman/obnoxious.css"
+    comment: "Animations for the strong of heart, and weak of mind."
+    tags:
+      - css3
+
+  - title: "Structured-data-sniffer"
+    url: "https://github.com/openlink/structured-data-sniffer"
+    comment: "A plugin for Chrome, Firefox and Opera browsers that detects and shows structured data embedded in web pages."
+    tags:
+      - js
+
+  - title: "Cuckoo_filter"
+    url: "https://github.com/pawandubey/cuckoo_filter"
+    comment: "Pure Ruby cuckoo filter implementation."
     tags:
       - rb
+
+  - title: "Workbox"
+    url: "https://github.com/GoogleChrome/workbox"
+    comment: "A collection of JavaScript libraries for progressive web apps."
+    tags:
+      - js
+
+  - title: "Data-Pixels"
+    url: "https://github.com/gmattie/Data-Pixels"
+    comment: "Create pixel art programmatically."
+    tags:
+      - js
+
+  - title: "Microtip"
+    url: "https://github.com/ghosh/microtip"
+    comment: "Css only lightweight tooltip library."
+    tags:
+      - css3
+
 
 
 - title: Read
@@ -81,7 +112,7 @@ topics:
 
   - title: "Ruby Backend Performance Getting Started Guide"
     url: "http://schneems.com/2017/05/17/ruby-backend-performance-getting-started-guide/"
-    comment: "You want a faster app - where should you start?"
+    comment: "Always benchmarking."
     pubdate: may 17
     tags:
       - rb
@@ -107,23 +138,4 @@ topics:
     tags:
       - rb
 
-  - title: ""
-    url: ""
-    comment: ""
-    pubdate: may 15
-    tags:
-      - rb
 
-
-
-- title: Watch
-  baseline: "Screencasts and conferences videos, or other video feeds ..."
-  links:
-
-  - title: ""
-    url: ""
-    comment: ""
-    pubdate: sep 3
-    duration:
-    tags:
-      - rb
