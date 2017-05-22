@@ -1,8 +1,14 @@
 ---
-edition: "224"
-pubdate: "may 21th 2017"
+edition: "225"
+pubdate: "may 28th 2017"
 publisher: xenor
-editors: "tysliu"
+editors: "tysliu, mose"
+participants: "Nauman Tariq, hsatac"
+rant:
+  author: xenor
+  content:
+    "####
+"
 
 topics:
 
@@ -11,9 +17,9 @@ topics:
     "Examples of UI/UX, graphic performance, web design and flashy things."
   links:
 
-  - title: "Chackathon"
-    url: "https://chackathon.com/"
-    comment: "Scroll and reveal effect with elegant."
+  - title: ""
+    url: ""
+    comment: ""
     tags:
       - design
 
@@ -23,119 +29,46 @@ topics:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: "Mavo"
-    url: "https://mavo.io/"
-    comment: "Turns HTML into a featureful web application."
-    pubdate: ""
+  - title: ""
+    url: ""
+    comment: ""
     tags:
-      - web
+      - css3
 
-  - title: "Kolide"
-    url: "https://kolide.co/"
-    comment: "Make all infrastructure services like a queryable database."
-    tags:
-      - ops
 
 
 - title: Install
   baseline: "A selection of gems or applications updated during past week."
   links:
 
-  - title: "Polyfill"
-    url: "https://github.com/AaronLasseigne/polyfill"
-    comment: "Polyfill implements newer Ruby features into older versions."
+  - title: ""
+    url: ""
+    comment: ""
     tags:
       - rb
-
-  - title: "Obnoxious.css"
-    url: "https://github.com/tholman/obnoxious.css"
-    comment: "Animations for the strong of heart, and weak of mind."
-    tags:
-      - css3
-
-  - title: "Structured-data-sniffer"
-    url: "https://github.com/openlink/structured-data-sniffer"
-    comment: "A plugin for Chrome, Firefox and Opera browsers that detects and shows structured data embedded in web pages."
-    tags:
-      - js
-
-  - title: "Cuckoo_filter"
-    url: "https://github.com/pawandubey/cuckoo_filter"
-    comment: "Pure Ruby cuckoo filter implementation."
-    tags:
-      - rb
-
-  - title: "Workbox"
-    url: "https://github.com/GoogleChrome/workbox"
-    comment: "A collection of JavaScript libraries for progressive web apps."
-    tags:
-      - js
-
-  - title: "Data-Pixels"
-    url: "https://github.com/gmattie/Data-Pixels"
-    comment: "Create pixel art programmatically."
-    tags:
-      - js
-
-  - title: "Microtip"
-    url: "https://github.com/ghosh/microtip"
-    comment: "Css only lightweight tooltip library."
-    tags:
-      - css3
-
 
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: "SINATRA TWO POINT OH!"
-    url: "http://www.sinatrarb.com/2017/05/15/sinatra-two-point-oh.html"
-    comment: "Major feature include compatibility with Rails 5."
-    pubdate: may 15
-    tags:
-      - rb
-
-  - title: "How Etsy Ships Apps"
-    url: "https://codeascraft.com/2017/05/15/how-etsy-ships-apps/"
-    comment: "Deploying code should be easy. It should happen often, and it should involve its engineers."
-    pubdate: may 15
-    tags:
-      - web
-
-  - title: "Fighting the Hydra of N+1 queries"
-    url: "https://evilmartians.com/chronicles/fighting-the-hydra-of-n-plus-one-queries"
-    comment: "We should prevent N+1 from the very beginning in our application’s test coverage."
-    pubdate: may 15
-    tags:
-      - rb
-
-  - title: "Ruby Backend Performance Getting Started Guide"
-    url: "http://schneems.com/2017/05/17/ruby-backend-performance-getting-started-guide/"
-    comment: "Always benchmarking."
-    pubdate: may 17
-    tags:
-      - rb
-
-  - title: "User Facing State"
-    url: "https://css-tricks.com/user-facing-state/"
-    comment: "All dynamic components of an application have a default user-facing state, and that state needs to be stored and updated as users interact with these components."
-    pubdate: may 19
-    tags:
-      - css3
-
-  - title: "5 Pry Features Every Ruby Developer Should Know"
-    url: "https://blog.cognitohq.com/five-pry-features-every-ruby-developer-should-know/"
-    comment: "Pry is much more than a tool for setting a breakpoint though. It is a great tool for exploring code interactively."
-    pubdate: may 20
-    tags:
-      - rb
-
-  - title: "[S]OLID - Single Responsibility Principle by example"
-    url: "http://rubyblog.pro/2017/05/solid-single-responsibility-principle-by-example"
-    comment: "The general idea here is to have 3 reusable classes instead of 1 class with 4 responsibilities."
-    pubdate: may 20
+  - title: ""
+    url: ""
+    comment: ""
+    pubdate: sep 3
     tags:
       - rb
 
 
+
+- title: Watch
+  baseline: "Screencasts and conferences videos, or other video feeds ..."
+  links:
+
+  - title: ""
+    url: ""
+    comment: ""
+    pubdate: sep 3
+    duration:
+    tags:
+      - rb
