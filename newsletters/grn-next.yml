@@ -41,6 +41,18 @@ topics:
   baseline: "A selection of gems or applications updated during past week."
   links:
 
+  - title: "Squasher"
+    url: "https://github.com/jalkoby/squasher"
+    comment: "Squasher compresses old migrations in a Rails application."
+    tags:
+      - rb
+
+  - title: "KMS"
+    url: "https://github.com/apiqcms/kms"
+    comment: "KMS is a modern and flexible Ruby on Rails content management system with modular approach."
+    tags:
+      - rb
+
   - title: ""
     url: ""
     comment: ""
@@ -52,10 +64,45 @@ topics:
   baseline: "From the blogosphere or news feeds ..."
   links:
 
+  - title: "Building APIs with Ruby on Rails and GraphQL"
+    url: "https://www.sitepoint.com/building-apis-ruby-rails-graphql/"
+    comment: "GraphQL an alternative to REST APIs."
+    pubdate: may 22
+    tags:
+      - rb
+
+  - title: "Coders Code"
+    url: "http://schneems.com/2017/05/24/coders-code/"
+    comment: "Coding is the act, and the journey, and the goal. However, you can’t just sit down and pound out code."
+    pubdate: may 24
+    tags:
+      - web
+
+  - title: "Storing encrypted configuration in your git repo with DotenvSekrets"
+    url: "https://dev.mikamai.com/2017/05/25/storing-encrypted-configuration-in-your-git-repo-with-dotenvsekrets/"
+    comment: "Developers who are familiar with the “twelve-factor” app know that configuration should be stored in the environment (loaded via env vars), not in the code."
+    pubdate: may 25
+    tags:
+      - rb
+
+  - title: "Leveling up with Git"
+    url: "https://6ftdan.com/allyourdev/2017/05/25/leveling-up-with-git/"
+    comment: "git is a very powerful code management system and has many features that are to be discovered and taken advantage of as you go along."
+    pubdate: may 25
+    tags:
+      - rb
+
+  - title: "4 Ways to Secure Your Authentication System"
+    url: "https://ducktypelabs.com/4-ways-to-secure-authentication/"
+    comment: "Whether you want to use Devise (or a similar third party gem like Clearance) or roll your own auth, here are 4 specific ways you can make authentication in your app more secure."
+    pubdate: may 26
+    tags:
+      - rb
+
   - title: ""
     url: ""
     comment: ""
-    pubdate: sep 3
+    pubdate: may 24
     tags:
       - rb
 
