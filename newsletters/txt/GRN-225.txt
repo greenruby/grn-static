@@ -1,0 +1,102 @@
+----------------------------------------------------
+Green Ruby News #225 - may 29th 2017
+----------------------------------------------------
+*|IFNOT:CONTENT=Only Rant|*
+
+Use
+----------------------------------------------------
+Web applications, resources and tools, available for making our life easier or funnier.
+
+*Istio* (ops)
+https://istio.io/
+An open platform to connect, manage, and secure microservices.
+
+*Hardbin* (tool)
+https://hardbin.com
+An encrypted pastebin with the decryption key passed in the URL fragment, and the code and data served securely with IPFS.
+
+*Mixfont* (design)
+https://www.mixfont.com/
+A font generator to discover new fonts.
+
+Install
+----------------------------------------------------
+A selection of gems or applications updated during past week.
+
+*Squasher* (rb)
+https://github.com/jalkoby/squasher
+Squasher compresses old migrations in a Rails application.
+
+*KMS* (rb)
+https://github.com/apiqcms/kms
+KMS is a modern and flexible Ruby on Rails content management system with modular approach.
+
+*Ppethis* (tool)
+https://github.com/ellotheth/pipethis
+Replace your `curl | sh` installers.
+
+*Semian* (rb)
+https://github.com/Shopify/semian
+Resiliency toolkit for Ruby for failing fast.
+
+*Inspec* (rb)
+https://github.com/chef/inspec
+Auditing and testing framework.
+
+*Graphcool* (tool)
+https://www.graph.cool/
+The GraphQL backend for mobile & web developers.
+
+*Blockstack browser* (web)
+https://blockstack.org/
+A Gateway to a decentralized internet.
+
+Read
+----------------------------------------------------
+From the blogosphere or news feeds ...
+
+*Building APIs with Ruby on Rails and GraphQL* (rb - may 22)
+https://www.sitepoint.com/building-apis-ruby-rails-graphql/
+GraphQL an alternative to REST APIs.
+
+*Coders Code* (web - may 24)
+http://schneems.com/2017/05/24/coders-code/
+Coding is the act, and the journey, and the goal. However, you can’t just sit down and pound out code.
+
+*Storing encrypted configuration in your git repo with DotenvSekrets* (rb - may 25)
+https://dev.mikamai.com/2017/05/25/storing-encrypted-configuration-in-your-git-repo-with-dotenvsekrets/
+Developers who are familiar with the “twelve-factor” app know that configuration should be stored in the environment (loaded via env vars), not in the code.
+
+*Leveling up with Git* (rb - may 25)
+https://6ftdan.com/allyourdev/2017/05/25/leveling-up-with-git/
+git is a very powerful code management system and has many features that are to be discovered and taken advantage of as you go along.
+
+*4 Ways to Secure Your Authentication System* (rb - may 26)
+https://ducktypelabs.com/4-ways-to-secure-authentication/
+Whether you want to use Devise (or a similar third party gem like Clearance) or roll your own auth, here are 4 specific ways you can make authentication in your app more secure.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+Links curated by xenor (publisher), tysliu (editors).
+*|END:IF|*
+*|IFNOT:CONTENT=Only Links|*
+
+*|END:IF|*
+
+====================================================
+EOF
+
+Feel free to send us feedback or information at
+news@greenruby.org
+
+follow on Twitter @greenrubist
+forward to a friend *|FORWARD|*
+Subscribe *|LIST:SUBSCRIBE|*
+
+Copyright (c) *|CURRENT_YEAR|* Mose
+http://creativecommons.org/licenses/by-sa/3.0/
+This publication is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 License
+
+
+
+
