@@ -1,7 +1,7 @@
 (function(){
   var now = new Date();
   var year = now.getFullYear();
-  $(".letters li:not(."+year+")").hide();
+  $(".letters li").hide();
   $(".show-more").on("click", function(e) {
     show = $(this).data("year");
     e.preventDefault();

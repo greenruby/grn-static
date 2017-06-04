@@ -1,13 +1,30 @@
 ---
 edition: "226"
 pubdate: "jun 4th 2017"
-publisher: xenor
-editors: "tysliu, mose"
-participants: "Nauman Tariq, hsatac"
-rant:
-  author: xenor
+publisher: mose
+editors: ""
+participants: ""
+edito:
+  author: mose
   content:
-    "####
+    "#### The end
+
+
+tl;dr - GreenRuby weekly newsletter ceases to exist. No more email will be sent.
+
+
+After 4 years for gathering of links, we have to come to this painful decision to 
+quit. Few months ago, I got distracted, and Xenor stepped up to manage the publication.
+But now he's in a transition too and it's time for us to take a decision.
+
+
+It's been a blast. Thank you all for your support. Now let's move on. 
+There is going to be more adventures down the road. 
+
+
+After this email is sent, the whole list of subscribers will be deleted, so we 
+won't have any ways to reach you anymore. Feel free to reach us at news@greenruby.org
+
 "
 
 topics:
@@ -17,86 +34,16 @@ topics:
     "Examples of UI/UX, graphic performance, web design and flashy things."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
-    tags:
-      - design
-
-
 - title: Use
   baseline:
     "Web applications, resources and tools, available for making our life easier or funnier."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
-    tags:
-      - css3
-
-
-
 - title: Install
   baseline: "A selection of gems or applications updated during past week."
   links:
-
-  - title: ""
-    url: ""
-    comment: ""
-    tags:
-      - rb
-
 
 - title: Read
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: "Why write code when more dependencies will do?"
-    url: "https://www.saturnflyer.com/blog/why-write-code-when-more-dependencies-will-do"
-    comment: "Handling versions and behavior limitations takes balance."
-    pubdate: may 30
-    tags:
-      - rb
-
-  - title: "Reducing Image File Size at Etsy"
-    url: "https://codeascraft.com/2017/05/30/reducing-image-file-size-at-etsy/"
-    comment: "What we’d really like is to be able to determine what is a good jpeg quality to set per image."
-    pubdate: may 30
-    tags:
-      - web
-
-  - title: "Using React Inside Your Rails Apps"
-    url: "https://blog.codeship.com/using-react-inside-your-rails-apps/"
-    comment: "Would it be better to bring the best of the front-end and have it live happily within the Rails ecosystem?"
-    pubdate: may 31
-    tags:
-      - rb
-
-  - title: "In the future, design principles won’t be about design"
-    url: "https://uxdesign.cc/the-future-of-design-principles-c1f045b7aa26"
-    comment: "Corporate design principles are a set of shared guidelines that reflect the core design values and vision of a company."
-    pubdate: may 31
-    tags:
-      - web
-
-  - title: "Using Filters in Vue.js"
-    url: "https://css-tricks.com/using-filters-vue-js/"
-    comment: "Filters are an interesting way to deal with data rendering in Vue."
-    pubdate: June 3
-    tags:
-      - js
-
-
-
-- title: Watch
-  baseline: "Screencasts and conferences videos, or other video feeds ..."
-  links:
-
-  - title: ""
-    url: ""
-    comment: ""
-    pubdate: sep 3
-    duration:
-    tags:
-      - rb

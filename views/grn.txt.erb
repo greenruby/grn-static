@@ -1,6 +1,9 @@
 ----------------------------------------------------
 Green Ruby News #<%= c.edition %> - <%= c.pubdate %>
 ----------------------------------------------------
+<% if c.edito && c.edito != '' %>
+<%= c.edito %>
+<% end %>
 *|IFNOT:CONTENT=Only Rant|*
 <% c.topics.each do |t| %>
 <%= t.title %>

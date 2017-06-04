@@ -73,6 +73,7 @@
                   %a{ href: letter['link'] }
                     = num
                     %span.date= letter['date'].gsub(/ [0-9]+$/,'')
+            %a.show-more(data-all="0" data-year="2017" href="#") Archives 2017
             %a.show-more(data-all="0" data-year="2016" href="#") Archives 2016
             %a.show-more(data-all="0" data-year="2015" href="#") Archives 2015
             %a.show-more(data-all="0" data-year="2014" href="#") Archives 2014
@@ -82,7 +83,7 @@
           = content
 
         .col-sm-12.col-md-3.rightbar.hidden-print
-          %p.header Green Ruby News is a feed of fresh links of the week about ruby, javascript, webdev, devops, collected by mose, xenor and tysliu every sunday.
+          %p.header Green Ruby News was a feed of fresh links of the week about ruby, javascript, webdev, devops, collected by mose, xenor and tysliu every sunday.
           %p
           -# %form{ action: config.mailchimp_subscribe, method: 'post'}
           -#   .text-center
@@ -113,7 +114,7 @@
         contact
       The Green Ruby Newsletter is <a href="https://github.com/greenruby/grn-static">openly</a> published by <a href="http://mose.com">Mose</a>
       .copyright
-        Copyright &copy; 2013-2016 Mose
+        Copyright &copy; 2013-2017 Mose
         %a( rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/")
           %img( alt="Creative Commons License" style="border-width:0" src="img/cc-80x15.png" )
 
