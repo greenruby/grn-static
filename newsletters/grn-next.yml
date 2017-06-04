@@ -52,12 +52,40 @@ topics:
   baseline: "From the blogosphere or news feeds ..."
   links:
 
-  - title: ""
-    url: ""
-    comment: ""
-    pubdate: sep 3
+  - title: "Why write code when more dependencies will do?"
+    url: "https://www.saturnflyer.com/blog/why-write-code-when-more-dependencies-will-do"
+    comment: "Handling versions and behavior limitations takes balance."
+    pubdate: may 30
     tags:
       - rb
+
+  - title: "Reducing Image File Size at Etsy"
+    url: "https://codeascraft.com/2017/05/30/reducing-image-file-size-at-etsy/"
+    comment: "What we’d really like is to be able to determine what is a good jpeg quality to set per image."
+    pubdate: may 30
+    tags:
+      - web
+
+  - title: "Using React Inside Your Rails Apps"
+    url: "https://blog.codeship.com/using-react-inside-your-rails-apps/"
+    comment: "Would it be better to bring the best of the front-end and have it live happily within the Rails ecosystem?"
+    pubdate: may 31
+    tags:
+      - rb
+
+  - title: "In the future, design principles won’t be about design"
+    url: "https://uxdesign.cc/the-future-of-design-principles-c1f045b7aa26"
+    comment: "Corporate design principles are a set of shared guidelines that reflect the core design values and vision of a company."
+    pubdate: may 31
+    tags:
+      - web
+
+  - title: "Using Filters in Vue.js"
+    url: "https://css-tricks.com/using-filters-vue-js/"
+    comment: "Filters are an interesting way to deal with data rendering in Vue."
+    pubdate: June 3
+    tags:
+      - js
 
 
 
