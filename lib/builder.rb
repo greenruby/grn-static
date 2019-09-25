@@ -21,7 +21,7 @@ module Greeby
       @news_path = File.join(@root, 'newsletters')
       @views_path = File.join(@root, 'views')
       @pages_path = File.join(@root, 'pages')
-      @static_path = File.join(@root, 'site')
+      @static_path = File.join(@root, 'docs')
       @json_path = File.join(@root, 'json')
       @config = to_ostruct(YAML::load_file(File.join(@root, 'config.yml')))
     end
