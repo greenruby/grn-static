@@ -6,7 +6,7 @@
 <title>*|MC:SUBJECT|*</title>
 <style type="text/css">
 #outlook a{
-  padding:0;
+	padding:0;
 }
 body { width:100% !important; -webkit-text-size-adjust:none; margin:0; padding:0; }
 img{ border:none; font-size:14px; font-weight:bold; height:auto; line-height:100%; outline:none; text-decoration:none; text-transform:capitalize; }
@@ -53,11 +53,11 @@ table.meat tr:hover td { background-color: #eee; }
 .icon { position: relative; top: 2px; margin-left: 5px; }
 table.meat tr td.comment { padding-bottom: 8px; }
 @media only screen and (max-width: 600px) {
-  body { width:auto !important; }
-  body,table,td,p,a,li,blockquote { -webkit-text-size-adjust:none !important; }
-  #backgroundTable,#wrapper { max-width:600px !important; width:100% !important; }
-  #templatePreheader { display:none; }
-  #templateBody { padding:10px !important; }
+	body { width:auto !important; }
+	body,table,td,p,a,li,blockquote { -webkit-text-size-adjust:none !important; }
+	#backgroundTable,#wrapper { max-width:600px !important; width:100% !important; }
+	#templatePreheader { display:none; }
+	#templateBody { padding:10px !important; }
 }
 </style>
 </head>
@@ -80,7 +80,7 @@ Is this email not displaying correctly?
 <div id="templateHeader">
 <img src="http://greenruby.org/img/green-ruby-68.png" id="headerImage">
 <div>
-<h1>Green Ruby News #226 last</h1>
+<h1>Green Ruby News #226</h1>
 <div>jun 4th 2017</div>
 </div>
 </div>
@@ -89,9 +89,8 @@ Is this email not displaying correctly?
 *|IFNOT:CONTENT=Only Rant|*
 <div>
 <div class="baseline">
-<h3></h3>
+<h3>Edito</h3>
 <h2>The end</h2>
-
 <p></p>
 <h4>GreenRuby weekly newsletter ceases to exist.<br> No more email will be sent.<br> No more update will be made.</h4>
 <p><br></p>
@@ -100,11 +99,27 @@ Is this email not displaying correctly?
 <p>After this email is sent, the whole list of subscribers will be deleted, so we won't have any ways to reach you anymore. Feel free to reach us at news@greenruby.org</p>
 <p>You can still reach the archives of the past newsletters on <a href="http://greenruby.org">http://greenruby.org</a></p>
 <p><br></p>
-<p><a href="http://blog.mose.com">mose</a></p> 
+<p><a href="http://blog.mose.com">mose</a></p> <br>
+<br>
+<em>&nbsp; mose - the green ruby editor</em><br>
+<em>&nbsp; xenor - the informer</em><br>
+&nbsp; <a href="http://greenruby.org" target="_self">http://greenruby.org</a>
+<br>
 </div>
 
+
+<div class="baseline" style="border-top: 1px solid #ccc">
+<i>Links curated by mose (publisher), xenor, tysliu (editors), 
+ (contributors).</i>
+</div>
 *|END:IF|*
 
+
+<hr>
+<div class="baseline">
+EOF<br><br>
+<em>Feel free to send us feedback or information at <a href="mailto:news@greenruby.org" target="_self">news@greenruby.org</a></em>
+</div>
 </div>
 </div>
 
@@ -121,13 +136,13 @@ Is this email not displaying correctly?
     <div id="utility">
       <div mc:edit="std_utility">
         <ul>
-         <li><a href="*|LIST:SUBSCRIBE|*">Subscribe</a></li>
+	       <li><a href="*|LIST:SUBSCRIBE|*">Subscribe</a></li>
         </ul>
         <br>
 *|IFNOT:ARCHIVE_PAGE|*
         <ul>
-         <li><a href="*|UNSUB|*">Unsubscribe</a></li>
-         <li><a href="*|UPDATE_PROFILE|*">Update preferences</a></li>
+	       <li><a href="*|UNSUB|*">Unsubscribe</a></li>
+	       <li><a href="*|UPDATE_PROFILE|*">Update preferences</a></li>
         </ul>
 *|END:IF|*
       </div>
@@ -137,7 +152,7 @@ Is this email not displaying correctly?
     <div class="add" mc:edit="std_footer">
 *|IFNOT:ARCHIVE_PAGE|*
       <div>
-      *|LIST:DESCRIPTION|*
+	    *|LIST:DESCRIPTION|*
       </div>
       <div>
         <strong>Our mailing address is:</strong>
